@@ -11,7 +11,6 @@ The typeface has the following ligature look-up sub-tables:
 
 ##### TODO:
 * Add terminal forms of ta, na and ma
-* Add glyph for Rw vowel combining mark
 * Add combining markers for O and au
 * Add rearrangement for post-glyph pre-repha form
 * Fix rearrangement for E and ai to work on stacked forms and akhandas
