@@ -1,4 +1,4 @@
-1. ē and ai  rearrangement:
+1. ē rearrangement:
 𑌨𑌮𑌸𑍍𑌤𑍇 𑌅𑌮𑍍𑌬𑌰𑍀𑌷
 
 2. ya and repha post-base substitution:
@@ -10,12 +10,8 @@
 4. ō re-arrangment, terminal ma, r̥̄ rendering:
 𑌭𑍋𑌕𑍍𑌤𑍄𑌣𑌾𑌮𑍍
 
-5. au rearrangement, post-base repha substitution:
-𑌦𑍍𑌰𑍌𑌪𑌦𑍀
-
-6. Poly-conjugate consonants:
+5. Poly-conjugate consonants:
 𑌕𑌾𑌰𑍍𑌤𑍍𑌸𑍍𑌨𑍍𑌯𑌮𑍍
 
-7. Medial post-base ya:
+6. Medial post-base ya:
 𑌮𑍃𑌤𑍍𑌯𑍍𑌵𑌗𑍍𑌨𑍀
-
