@@ -1,17 +1,21 @@
-1. ē rearrangement:
+ē rearrangement:
 𑌨𑌮𑌸𑍍𑌤𑍇 𑌅𑌮𑍍𑌬𑌰𑍀𑌷
 
-2. ya and repha post-base substitution:
+ya and repha post-base substitution:
 𑌅𑌨𑍍𑌯𑌤𑍍𑌰
 
-3. pre-base repha substitution, absence of post-base ya substitution:
+pre-base repha substitution around vowel markers:
+𑌅𑌰𑍍𑌕𑍇𑌨𑍍𑌦𑍂
+𑌕𑌾𑌰𑍍𑌕𑍋𑌟𑌕𑌃
+
+pre-base repha substitution, absence of post-base ya substitution:
 𑌅𑌰𑍍𑌯𑌮𑌾
 
-4. ō re-arrangment, terminal ma, r̥̄ rendering:
+ō re-arrangment, terminal ma, r̥̄ rendering:
 𑌭𑍋𑌕𑍍𑌤𑍄𑌣𑌾𑌮𑍍
 
-5. Poly-conjugate consonants:
+poly-conjugate consonants:
 𑌕𑌾𑌰𑍍𑌤𑍍𑌸𑍍𑌨𑍍𑌯𑌮𑍍
 
-6. Medial post-base ya:
+medial post-base ya:
 𑌮𑍃𑌤𑍍𑌯𑍍𑌵𑌗𑍍𑌨𑍀
