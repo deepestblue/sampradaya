@@ -8,6 +8,9 @@ pre-base repha substitution around vowel markers:
 𑌅𑌰𑍍𑌕𑍇𑌨𑍍𑌦𑍂
 𑌕𑌾𑌰𑍍𑌕𑍋𑌟𑌕𑌃
 
+pre-base repha substitution around other conjuncts:
+𑌦𑌾𑌰𑌿𑌦𑍍𑌰𑍍𑌯𑌮𑍍
+
 pre-base repha substitution, absence of post-base ya substitution:
 𑌅𑌰𑍍𑌯𑌮𑌾
 
