@@ -11,7 +11,7 @@ The typeface has the following ligature look-up sub-tables:
 * Infra-baseline half-form stacks of other consonants
 * Post-forms of conjunct-ya and conjunct-repha
 
-Indic rearrangement state machine to move Post-glyph half-repha to after 
+Indic rearrangement state machine to move Post-glyph half-pre-repha to after 
 the glyph.
 
 Indic rearrangement state machine to move E and ai to before the glyph.
