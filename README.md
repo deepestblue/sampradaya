@@ -11,12 +11,18 @@ The typeface has the following ligature look-up sub-tables:
 * Infra-baseline half-form stacks of other consonants
 * Post-forms of conjunct-ya and conjunct-repha
 
-Indic rearrangement state machine to move Post-glyph half-pre-repha to after 
+Indic state machine to move Post-glyph half-pre-repha to after 
 the glyph.
 
-Indic rearrangement state machine to move E and ai to before the glyph.
+Insertion state machine to insert ē-marker before ō- and au- markers.
+
+Contextual state machine for substituting ō- and au- markers with their post-consonant halves.
+
+Single substitution look-up table for the previous state machine.
+
+Indic state machine to move ē and ai to before the glyph.
 
 ##### TODO:
 * Add terminal forms of ta, na and ma
-* Add combining markers for O and au
-* Fix advanced_test.txt
+* Re-position combining markers for ō and au
+* Fix advanced_test.txt and other test-cases
