@@ -37,7 +37,7 @@ the glyph.
 0. Indic state machine to move ē and ai vowel markers to before the glyph.
    The goal is to shift the ē and ai markers leftwards, before the previous “consonant cluster”.
    But what is a consonant-cluster? Let Class `A` comprise full consonants, stacked conjuncts and the viramacihna. Likewise, Class `B` is pre/post repha/ya, below-base half-consonants. A consonant cluster starts with a class `A` glyph and has any number of Class `B` glyphs. In other words, `AB*`.
-   To achieve this, we keep marking every class `A` glyph as the first, in case it turns out be succeeded by a `B*` and then an ē or an ai vowel marker. If, indeed that happens, we simply swap xD with Dx.
+   To achieve this, we keep marking every class `A` glyph as the first, in case it turns out be succeeded by a `B*` and then an ē or an ai vowel marker. If, indeed that happens, we simply replace `xD` with `Dx`.
 
 ### TODO:
 * Add terminal forms of ta, na and ma
