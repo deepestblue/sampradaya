@@ -20,6 +20,7 @@ The typeface has the following ligature look-up sub-tables:
    4. Pre-consonantal half-repha form
    5. Infra-baseline half-form stacks of akhanḍa forms
    6. Infra-baseline half-form stacks of other consonants
+   7. Terminal forms of select consonants
 
    The order of the ligature sub-tables is crucial. Specifically, here are the various dependencies between them:
    * arkaḥ: 4 precedes 5 & 6.
@@ -31,8 +32,9 @@ The typeface has the following ligature look-up sub-tables:
    * arghyam: n/a, as this is a combination of rgha & ghya.
    * śārṅgam: n/a, as this is essentially the same as rka.
    * lakṣmīḥ/payastvam: 1 & 2 precede 5 & 6.
+   * atra: 5 & 6 precede 7.
 
-   In effect, {1,2}→{5,6}; 3→4→{5,6}. Thus the order we use: 1, 2, 3, 4, 5, 6.
+   In effect, {1,2}→{5,6}; 3→4→{5,6}→7. Thus the order we use: 1, 2, 3, 4, 5, 6, 7.
 
 * Some Single substitution look-up tables, redundant but inserted by FontForge.
 
