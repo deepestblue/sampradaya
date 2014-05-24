@@ -37,14 +37,14 @@ The typeface has the following ligature look-up sub-tables:
 * Some Single substitution look-up tables, redundant but inserted by FontForge.
 
 * Indic state machine to move pre-consonantal repha to after a full consonant.
-   The goal is to shift the epha rightwards, past the next “consonant cluster”.
-   But what is a consonant-cluster? Let Class `A` comprise full consonants, combined/composite stacked conjuncts and the virāmacihna. Likewise, Class `B` is pre/post repha/ya, infra-base half-consonants. A consonant cluster starts with a class `A` glyph and has any number of Class `B` glyphs. In other words, `AB*`. We achieve this using 2 state machines. First, we move the repha past an A, using a simple machine. And …
+   The goal is to shift the repha rightwards, past the next “consonant cluster”.
+   But what is a consonant-cluster? Let Class `A` comprise full consonants, combined/composite stacked conjuncts and the virāmacihna. Likewise, Class `B` is pre/post repha/ya, infra-base half-consonants and terminal half-forms. A consonant cluster starts with a class `A` glyph and has any number of Class `B` glyphs. In other words, `AB*`. We achieve this using 2 state machines. First, we move the repha past an A, using a simple machine. And …
 
 * Indic state machine to move pre-consonantal repha to after post-forms.
-   … we then move the repha past any sequence of Class `B` glyphs, using a simple machine. We also use this opportunistically to move the repha past i/ī vowel markers.
+   … we then move the repha past any sequence of Class `B` glyphs, using a simple machine. We also use this opportunistically to move the repha past i/ī vowel markers and the virāmacihna.
 
 * Indic state machine to move post-consonantal repha/ya forms to after i/ī vowel markers.
-   Simple machine to move an i/ī marker before any combination of post-consonantal repha/ya.
+   Simple machine to move an i/ī marker or a virāmacihna before any combination of post-consonantal repha/ya.
 
 * Insertion state machine to insert ē marker before ō and au markers.
    This is a simple machine that transitions to a new state when a consonant is encountered. In that state, were it encounter an ō or an au marker, it simply inserts an ē marker before.
