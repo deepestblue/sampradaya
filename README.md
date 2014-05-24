@@ -14,12 +14,25 @@ The font supports glyphs for all the characters in the basic character set, as w
 The typeface has the following ligature look-up sub-tables:
 
 0. 'rlig'
- * Combined (akhanḍa) forms
- * Pre-consonantal half-repha form
- * Composite stacked forms
- * Infra-baseline half-form stacks of akhanḍa forms
- * Infra-baseline half-form stacks of other consonants
- * Post-consonantal forms of ya and repha
+   1. Combined (akhanḍa) forms
+   2. Composite stacked forms
+   3. Post-consonantal forms of ya and repha
+   4. Pre-consonantal half-repha form
+   5. Infra-baseline half-form stacks of akhanḍa forms
+   6. Infra-baseline half-form stacks of other consonants
+
+   The order of the ligature sub-tables is crucial. Specifically, here are the various dependencies between them:
+   * arkaḥ: 4 precedes 5 & 6.
+   * aryamā: n/a, as the typeface does not provide an infra-baseline form of ya.
+   * utplavaḥ: n/a, as things "just work".
+   * āntyam, mantraḥ: 1 precedes 6.
+   * astram: 2 precedes 6.
+   * tryambakaḥ: 3 precedes 4.
+   * arghyam: n/a, as this is a combination of rgha & ghya.
+   * śārṅgam: n/a, as this is essentially the same as rka.
+   * lakṣmīḥ/payastvam: 1 & 2 precede 5 & 6.
+
+   In effect, {1,2}→{5,6}; 3→4→{5,6}. Thus the order we use: 1, 2, 3, 4, 5, 6.
 
 0. Some Single substitution look-up tables, redundant but inserted by FontForge.
 
