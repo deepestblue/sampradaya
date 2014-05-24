@@ -8,32 +8,35 @@ Simply download the font file and drop it into /Library/Fonts/ (to install syste
 
 #### Glyphs
 
-The font supports glyphs for all the characters in the basic character set, as well as glyphs for below-base forms of consonants. The font also supports initial and terminal half-repha forms, the terminal half-ya form, and most pre-formed conjunct consonants commonly used.
+The font supports glyphs for all the characters in the basic character set, as well as glyphs for below-base forms of consonants. The font also supports pre-consonantal and post-consonantal half-repha forms, the post-consonantal half-ya form, and most combined conjunct consonants commonly used.
 
 #### AAT tables
 The typeface has the following ligature look-up sub-tables:
 
 0. 'rlig'
- * Akhanda forms
- * Post-glyph half-repha form
- * Pre-composed stacked forms
- * Infra-baseline half-form stacks of akhanda forms
+ * Combined (akhanḍa) forms
+ * Pre-consonantal half-repha form
+ * Composite stacked forms
+ * Infra-baseline half-form stacks of akhanḍa forms
  * Infra-baseline half-form stacks of other consonants
- * Post-forms of conjunct-ya and conjunct-repha
+ * Post-consonantal forms of ya and repha
 
 0. Some Single substitution look-up tables, redundant but inserted by FontForge.
 
-0. Indic state machine to move Post-glyph half-pre-repha to after a full consonant.
-   The goal is to shift the half-pre-repha rightwards, past the next “consonant cluster”.
-   But what is a consonant-cluster? Let Class `A` comprise full consonants, stacked conjuncts and the viramacihna. Likewise, Class `B` is pre/post repha/ya, below-base half-consonants. A consonant cluster starts with a class `A` glyph and has any number of Class `B` glyphs. In other words, `AB*`. We achieve this using 2 state machines. First, we move the repha-glyph past an A, using a simple machine. And …
+0. Indic state machine to move pre-consonantal repha to after a full consonant.
+   The goal is to shift the epha rightwards, past the next “consonant cluster”.
+   But what is a consonant-cluster? Let Class `A` comprise full consonants, combined/composite stacked conjuncts and the virāmacihna. Likewise, Class `B` is pre/post repha/ya, infra-base half-consonants. A consonant cluster starts with a class `A` glyph and has any number of Class `B` glyphs. In other words, `AB*`. We achieve this using 2 state machines. First, we move the repha past an A, using a simple machine. And …
 
-0. Indic state machine to move Post-glyph half-pre-repha to after post-forms.
-   … we then move the half-pre-repha past any sequence of Class `B` glyphs, using a simple machine.
+0. Indic state machine to move pre-consonantal repha to after post-forms.
+   … we then move the repha past any sequence of Class `B` glyphs, using a simple machine. We also use this opportunistically to move the repha past i/ī vowel markers.
+
+0. Indic state machine to move post-consonantal repha/ya forms to after i/ī vowel markers.
+   Simple machine to move an i/ī marker before any combination of post-consonantal repha/ya.
 
 0. Insertion state machine to insert ē marker before ō and au markers.
    This is a simple machine that transitions to a new state when a consonant is encountered. In that state, were it encounter an ō or an au marker, it simply inserts an ē marker before.
 
-0. Contextual state machine for substituting ō and au markers with their post-consonant halves.
+0. Contextual state machine for substituting ō and au markers with their post-glyph halves.
    This is also a simple machine that matches ō and au markers that come after a consonant and an ē marker. Such an ō or an au marker would be replaced. The machine has a transition to state 1 on seeing a consonant, a state 1 → state 2 transition on seeing an ē marker, and a state 2 substitution for the ō and au markers.
 
 0. Single substitution look-up table for the previous state machine.
@@ -44,7 +47,7 @@ The typeface has the following ligature look-up sub-tables:
 
 ### TODO:
 * Add terminal forms of ta, na and ma
-* Fix advanced_test.txt and other test-cases
+* Fix test-cases
 
 ### Acknowledgements:
 * Prof. R. Kalyana Krishnan (Retd.), IIT-Madras, for his IITMGrantha font, whose glyphs are reused here with permission
