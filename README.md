@@ -14,55 +14,56 @@ The font supports glyphs for all the characters in the basic character set, as w
 The typeface has the following ligature look-up sub-tables:
 
 * 'rlig'
-   1. Combined (akhanḍa) forms
-   2. Composite stacked forms
-   3. Post-consonantal forms of ya and repha
-   4. Pre-consonantal half-repha form
-   5. Infra-baseline half-form stacks of akhanḍa forms
-   6. Infra-baseline half-form stacks of other consonants
-   7. Terminal forms of select consonants
+    1. Combined (akhanḍa) forms
+    2. Composite stacked forms
+    3. Post-consonantal forms of ya and repha
+    4. Pre-consonantal half-repha form
+    5. Infra-baseline half-form stacks of akhanḍa forms
+    6. Infra-baseline half-form stacks of other consonants
+    7. Terminal forms of select consonants
 
-   The order of the ligature sub-tables is crucial. Specifically, here are the various dependencies between them:
-   * arkaḥ: 4 precedes 5 & 6.
-   * aryamā: n/a, as the typeface does not provide an infra-baseline form of ya.
-   * utplavaḥ: n/a, as things "just work".
-   * āntyam, mantraḥ: 1 precedes 6.
-   * astram: 2 precedes 6.
-   * tryambakaḥ: 3 precedes 4.
-   * arghyam: n/a, as this is a combination of rgha & ghya.
-   * śārṅgam: n/a, as this is essentially the same as rka.
-   * lakṣmīḥ/payastvam: 1 & 2 precede 5 & 6.
-   * atra: 5 & 6 precede 7.
+    The order of the ligature sub-tables is crucial. Specifically, here are the various dependencies between them:
 
-   In effect, {1,2}→{5,6}; 3→4→{5,6}→7. Thus the order we use: 1, 2, 3, 4, 5, 6, 7.
+    * arkaḥ: 4 precedes 5 & 6.
+    * aryamā: n/a, as the typeface does not provide an infra-baseline form of ya.
+    * utplavaḥ: n/a, as things "just work".
+    * āntyam, mantraḥ: 1 precedes 6.
+    * astram: 2 precedes 6.
+    * tryambakaḥ: 3 precedes 4.
+    * arghyam: n/a, as this is a combination of rgha & ghya.
+    * śārṅgam: n/a, as this is essentially the same as rka.
+    * lakṣmīḥ/payastvam: 1 & 2 precede 5 & 6.
+    * atra: 5 & 6 precede 7.
+
+    In effect, {1,2}→{5,6}; 3→4→{5,6}→7. Thus the order we use: 1, 2, 3, 4, 5, 6, 7.
 
 * Some Single substitution look-up tables, redundant but inserted by FontForge.
 
 * Indic state machine to move pre-consonantal repha to after a full consonant.
-   The goal is to shift the repha rightwards, past the next “consonant cluster”.
-   But what is a consonant-cluster? Let Class `A` comprise full consonants, combined/composite stacked conjuncts and the virāmacihna. Likewise, Class `B` is pre/post repha/ya, infra-base half-consonants and terminal half-forms. A consonant cluster starts with a class `A` glyph and has any number of Class `B` glyphs. In other words, `AB*`. We achieve this using 2 state machines. First, we move the repha past an A, using a simple machine. And …
+    The goal is to shift the repha rightwards, past the next “consonant cluster”.
+    But what is a consonant-cluster? Let Class `A` comprise full consonants, combined/composite stacked conjuncts and the virāmacihna. Likewise, Class `B` is pre/post repha/ya, infra-base half-consonants and terminal half-forms. A consonant cluster starts with a class `A` glyph and has any number of Class `B` glyphs. In other words, `AB*`. We achieve this using 2 state machines. First, we move the repha past an A, using a simple machine. And …
 
 * Indic state machine to move pre-consonantal repha to after post-forms.
-   … we then move the repha past any sequence of Class `B` glyphs, using a simple machine. We also use this opportunistically to move the repha past i/ī vowel markers and the virāmacihna.
+    … we then move the repha past any sequence of Class `B` glyphs, using a simple machine. We also use this opportunistically to move the repha past i/ī vowel markers and the virāmacihna.
 
 * Indic state machine to move post-consonantal repha/ya forms to after i/ī vowel markers.
-   Simple machine to move an i/ī marker or a virāmacihna before any combination of post-consonantal repha/ya.
+    Simple machine to move an i/ī marker or a virāmacihna before any combination of post-consonantal repha/ya.
 
 * Insertion state machine to insert ē marker before ō and au markers.
-   This is a simple machine that transitions to a new state when a consonant is encountered. In that state, were it encounter an ō or an au marker, it simply inserts an ē marker before.
+    This is a simple machine that transitions to a new state when a consonant is encountered. In that state, were it encounter an ō or an au marker, it simply inserts an ē marker before.
 
 * Contextual state machine for substituting ō and au markers with their post-glyph halves.
-   This is also a simple machine that matches ō and au markers that come after a consonant and an ē marker. Such an ō or an au marker would be replaced. The machine has a transition to state 1 on seeing a consonant, a state 1 → state 2 transition on seeing an ē marker, and a state 2 substitution for the ō and au markers.
+    This is also a simple machine that matches ō and au markers that come after a consonant and an ē marker. Such an ō or an au marker would be replaced. The machine has a transition to state 1 on seeing a consonant, a state 1 → state 2 transition on seeing an ē marker, and a state 2 substitution for the ō and au markers.
 
 * Single substitution look-up table for the previous state machine.
 
 * Indic state machine to move ē and ai vowel markers to before the glyph.
-   The goal is to shift the ē and ai markers leftwards, before the previous consonant cluster. As above, a consonant cluster is `AB*`, with the above definitions of Classes `A` and `B`.
-   To achieve this, we keep marking every class `A` glyph as the first, in case it turns out be succeeded by a `B*` and then an ē or an ai vowel marker. If, indeed that happens, we simply replace `xD` with `Dx`.
+    The goal is to shift the ē and ai markers leftwards, before the previous consonant cluster. As above, a consonant cluster is `AB*`, with the above definitions of Classes `A` and `B`.
+    To achieve this, we keep marking every class `A` glyph as the first, in case it turns out be succeeded by a `B*` and then an ē or an ai vowel marker. If, indeed that happens, we simply replace `xD` with `Dx`.
 
 ### TODO:
-* Add terminal forms of ta, na and ma
 * Fix test-cases
+* Add more combining glyphs: [kta, jja, ntha, nda, ndha, nma, nva, ṣṭa, hma, ñcha, mma.](http://virtualvinodh.com/grantha-lipitva/191-grantha-13-conjuncts-ii) 
 
 ### Acknowledgements:
 * Prof. R. Kalyana Krishnan (Retd.), IIT-Madras, for his IITMGrantha font, whose glyphs are reused here with permission
