@@ -16,20 +16,19 @@ The typeface has the following ligature look-up sub-tables:
 * 'rlig'
     1. Combined (akhanḍa) forms
     2. Composite stacked forms
-    3. Post-consonantal forms of ya and repha
-    4. Pre-consonantal half-repha form
+    3. Pre-consonantal half-repha form
+    4. Post-consonantal forms of ya and repha
     5. Infra-baseline half-form stacks of akhanḍa forms
     6. Infra-baseline half-form stacks of other consonants
     7. Terminal forms of select consonants
 
     The order of the ligature sub-tables is crucial. Specifically, here are the various dependencies between them:
 
-    * arkaḥ: 4 precedes 5 & 6.
-    * aryamā: n/a, as the typeface does not provide an infra-baseline form of ya.
+    * arkaḥ: 3 precedes 5 & 6.
+    * aryamā: 3 precedes 4.
     * utplavaḥ: n/a, as things "just work".
     * āntyam, mantraḥ: 1 precedes 6.
     * astram: 2 precedes 6.
-    * tryambakaḥ: 3 precedes 4.
     * arghyam: n/a, as this is a combination of rgha & ghya.
     * śārṅgam: n/a, as this is essentially the same as rka.
     * lakṣmīḥ/payastvam: 1 & 2 precede 5 & 6.
