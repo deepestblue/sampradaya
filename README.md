@@ -2,7 +2,7 @@ This is a project to create a Unicode-compliant Grantha font based on the propos
 
 ### How to Use
 
-Simply download the font file and drop it into /Library/Fonts/ (to install system-wide) or ~/Library/Fonts/ (to install at user-scope). You may need to restart your application (or logout/login) for the font to be usable. If you're looking to input Grantha text, I highly recommend [Lipika](https://github.com/ratreya/Lipika_IME) with the [Ksharanam key-map for Grantha](http://code.ambari.sh/keymap/src).
+Simply download the font file and drop it into /Library/Fonts/ (to install system-wide) or ~/Library/Fonts/ (to install at user-scope). You may need to restart your application (or logout/login) for the font to be usable. If you're looking to input Grantha text, I highly recommend [Lipika](https://github.com/ratreya/Lipika_IME) with the [Ksharanam key-map for Grantha](https://bitbucket.org/OorNaattaan/keymap/src).
 
 ### Implementation
 
@@ -62,7 +62,7 @@ The typeface has the following ligature look-up sub-tables:
 
 ### TODO:
 * Fix test-cases
-* Add more combining glyphs (http://virtualvinodh.com/grantha-lipitva/191-grantha-13-conjuncts-ii), especially from Anupama Krishnan's font
+* Add more combining glyphs (http://virtualvinodh.com/grantha-lipitva/191-grantha-13-conjuncts-ii)
 
 ### Acknowledgements:
 * Prof. R. Kalyana Krishnan (Retd.), IIT-Madras, for his IITMGrantha font, whose glyphs are reused here with permission
