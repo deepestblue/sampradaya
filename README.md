@@ -40,7 +40,7 @@ The typeface has the following ligature look-up sub-tables:
 
 * Indic state machine to move pre-consonantal repha to after a full consonant.
     The goal is to shift the repha rightwards, past the next “consonant cluster”.
-    But what is a consonant-cluster? Let Class `A` comprise terminal half-forms, Class `B` comprise full consonants, combined/composite stacked conjuncts and the virāmacihna. Likewise, Class `C` is pre/post repha/ya and infra-base half-consonants. A consonant cluster starts with an optional sequence of class `A` glyphs, a single Class `B` glyph, and then any number of Class `C` glyphs. In other words, `A*BC*`. We achieve this using 3 state machines. First, we move the repha past a sequence of Class `A` glyph, using a simple machine. And …
+    But what is a consonant-cluster? Let Class `A` comprise terminal half-forms, Class `B` comprise full consonants, combined/composite stacked conjuncts and the virāmacihna. Likewise, Class `C` is pre/post repha/ya and infra-base half-consonants. A consonant cluster starts with an optional class `A` glyph, a single Class `B` glyph, and then any number of Class `C` glyphs. In other words, `A?BC*`. We achieve this using 3 state machines. First, we move the repha past a Class `A` glyph, using a simple machine. And …
 
 * Indic state machine to move pre-consonantal repha to after a full consonant.
     … we then move the repha past a Class `B` glyphs, using a simple machine. And finally, …
@@ -60,7 +60,7 @@ The typeface has the following ligature look-up sub-tables:
 * Single substitution look-up table for the previous state machine.
 
 * Indic state machine to move ē and ai vowel markers to before the glyph.
-    The goal is to shift the ē and ai markers leftwards, before the previous consonant cluster. As above, a consonant cluster is `A*BC*`, with the above definitions of Classes `A`, `B`, and `C`.
+    The goal is to shift the ē and ai markers leftwards, before the previous consonant cluster. As above, a consonant cluster is `A?BC*`, with the above definitions of Classes `A`, `B`, and `C`.
     To achieve this, we keep marking every Class `B` glyph as the first, in case it turns out be succeeded by a `C*` and then an ē or an ai vowel marker. If, indeed that happens, we simply replace `xD` with `Dx`.
 
 ### TODO:
