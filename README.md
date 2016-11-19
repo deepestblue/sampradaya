@@ -61,7 +61,7 @@ The typeface has the following ligature look-up sub-tables:
 
 * Indic state machine to move ē and ai vowel markers to before the glyph.
     The goal is to shift the ē and ai markers leftwards, before the previous consonant cluster. As above, a consonant cluster is `A?BC*`, with the above definitions of Classes `A`, `B`, and `C`.
-    To achieve this, we keep marking every Class `B` glyph as the first, in case it turns out be succeeded by a `C*` and then an ē or an ai vowel marker. If, indeed that happens, we simply replace `xD` with `Dx`.
+    To achieve this, we keep marking every Class `A` glyph as the first, in case it turns out be so. Then, whether or not we have already seen a Class `A` glyph, we eat up any consecutive Class `B` sequence, marking the first such glyph as the first, unless preceded by a Class `A` glyph. Lastly, we move past successive Class `C` glyphs and then look for an ē or an ai vowel marker. If that happens, we simply replace `xD` with `Dx`.
 
 ### TODO:
 * Fix test-cases
