@@ -68,6 +68,10 @@ The typeface has the following ligature look-up sub-tables:
 * Fix test-cases
 * Add more combining glyphs (http://virtualvinodh.com/grantha-lipitva/191-grantha-13-conjuncts-ii)
 * Avoid having to work-around [FontForge issue 1353](https://github.com/fontforge/fontforge/issues/1353)
+* Adjust positioning of udatta/anudatta marks
+* Anunasika (trīm̐lōkān) support
+* Om support (better glyph)
+* Combine better with Tamil combining marks
 
 ### Acknowledgements:
 * Prof. R. Kalyana Krishnan (Retd.), IIT-Madras, for his IITMGrantha font, whose glyphs are reused here with permission
