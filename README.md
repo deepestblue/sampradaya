@@ -72,6 +72,7 @@ The typeface has the following ligature look-up sub-tables:
 * Anunasika (trīm̐lōkān) support
 * Om support (better glyph)
 * Combine better with Tamil combining marks
+* Support upadhmaniya/jihvamuliya
 
 ### Acknowledgements:
 * Prof. R. Kalyana Krishnan (Retd.), IIT-Madras, for his IITMGrantha font, whose glyphs are reused here with permission
