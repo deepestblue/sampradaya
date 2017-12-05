@@ -28,15 +28,15 @@ The typeface has the following ligature look-up sub-tables:
 
     The order of the ligature sub-tables is crucial. Specifically, here are the various dependencies between them:
 
-  * arkaḥ: 4 precedes 6 & 7.
-  * aryamā: 4 precedes 5.
-  * utplavaḥ: n/a, as things "just work".
-  * āntyam, mantraḥ: 1 precedes 7.
-  * astram: 2 precedes 7.
-  * arghyam: n/a, as this is a combination of rgha & ghya.
-  * śārṅgam: n/a, as this is essentially the same as rka.
-  * lakṣmīḥ/payastvam: 1 & 2 precede 6 & 7.
-  * atra: 6 & 7 precede 8.
+    * arkaḥ: 4 precedes 6 & 7.
+    * aryamā: 4 precedes 5.
+    * utplavaḥ: n/a, as things "just work".
+    * āntyam, mantraḥ: 1 precedes 7.
+    * astram: 2 precedes 7.
+    * arghyam: n/a, as this is a combination of rgha & ghya.
+    * śārṅgam: n/a, as this is essentially the same as rka.
+    * lakṣmīḥ/payastvam: 1 & 2 precede 6 & 7.
+    * atra: 6 & 7 precede 8.
 
     In effect, {1,2}→{6,7}; 4→5→{6,7}→8. Thus the order we use: 1, 2, 3, 4, 5, 6, 7, 8.
 
