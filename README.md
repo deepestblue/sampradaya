@@ -67,7 +67,7 @@ The typeface has the following ligature look-up sub-tables:
     The goal is to shift the ē and ai markers leftwards, before the previous consonant cluster. As above, a consonant cluster is `A?BC*`, with the above definitions of Classes `A`, `B`, and `C`.
     To achieve this, we keep marking every Class `A` glyph as the first, in case it turns out be so. Then, whether or not we have already seen a Class `A` glyph, we eat up any consecutive Class `B` sequence, marking the first such glyph as the first, unless preceded by a Class `A` glyph. Lastly, we move past successive Class `C` glyphs and then look for an ē or an ai vowel marker. If that happens, we simply replace `xD` with `Dx`.
 
-## Acknowledgements:
+## Acknowledgements
 
 * Prof. R. Kalyana Krishnan (Retd.), IIT-Madras, for his IITMGrantha font, whose glyphs are reused here with permission
 * Vinodh Rajan, for his [wonderful site on Grantha](http://www.virtualvinodh.com/grantha-lipitva)

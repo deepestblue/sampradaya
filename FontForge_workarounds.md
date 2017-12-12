@@ -1,0 +1,6 @@
+# Workarounds for using Fontforge on Sampradaya
+
+[Fontforge](http://fontforge.github.io/) is what I use for working on Sampradaya. It's classic open-source software: very powerful feature-set, endlessly configurable, but with arcane UI that's not exactly pretty. Despite some [pretty nasty bugs](https://github.com/fontforge/fontforge/issues?utf8=%E2%9C%93&q=+author%3Adeepestblue+), it's the only font editor I know of that supports non-BMP codepoints like used in Grantha. Here are some workarounds for using Fontforge with Sampradaya.
+
+1. To work around [bug 1353](https://github.com/fontforge/fontforge/issues/1353), once Sampradaya is opened, go to Font Info, and open the lookup that inserts U+11347 (often number 13). Open the transition cell that inserts the codepoint. Even though “Current Insert” is the desire, move the glyph to “Mark Insert” in the UI. It looks like “Current Insert” and “Mark Insert” are swapped in the UI.
+1. It also looks like it messes up the state machine. Need to check.
