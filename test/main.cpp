@@ -15,51 +15,60 @@ void throw_if_false(T exp) {
         throw "Ack!";
 }
 
-void render_text_to_image(const string &text, const string &output_filename, const QFont &font) {
-    QPainter painter;
-    QImage dummy(1, 1, QImage::Format_RGB32);
+class Text_to_image_renderer {
+public:
+    Text_to_image_renderer(int argc, char *argv[])
+    : app(argc, argv)
+    , font("Sampradaya")
+    {}
 
-    const auto &qtext = QString::fromStdString(text);
+    void operator()(const string &text, const string &output_filename) {
+        QPainter painter;
+        QImage dummy(1, 1, QImage::Format_RGB32);
 
-    throw_if_false(
-        painter.begin(&dummy)
-        );
-    painter.setFont(font);
-    auto r = painter.boundingRect(QRect(), 0, qtext);
+        const auto &qtext = QString::fromStdString(text);
+
+        throw_if_false(
+            painter.begin(&dummy)
+            );
+        painter.setFont(font);
+        auto r = painter.boundingRect(QRect(), 0, qtext);
 
 #ifdef DEBUG
-    auto bounding_rect_format = boost::format{"Left: %1%, Right: %2%, Top: %3%, Bottom: %4%."};
-    cout << bounding_rect_format % r.left() % r.right() % r.top() % r.bottom() << '\n';
+        auto bounding_rect_format = boost::format{"Left: %1%, Right: %2%, Top: %3%, Bottom: %4%."s};
+        cout << bounding_rect_format % r.left() % r.right() % r.top() % r.bottom() << '\n';
 #endif
 
-    throw_if_false(
-        painter.end()
-        );
+        throw_if_false(
+            painter.end()
+            );
 
-    QImage image(512, 128, QImage::Format_RGB32);
-    image.fill(Qt::white);
+        QImage image(512, 128, QImage::Format_RGB32);
+        image.fill(Qt::white);
 
-    throw_if_false(
-        painter.begin(&image)
-        );
+        throw_if_false(
+            painter.begin(&image)
+            );
 
-    painter.setFont(font);
+        painter.setFont(font);
 
-    painter.drawText(0, r.height(), qtext);
+        painter.drawText(0, r.height(), qtext);
 
-    throw_if_false(
-        painter.end()
-        );
+        throw_if_false(
+            painter.end()
+            );
 
-    throw_if_false(
-        image.save(QString::fromStdString(output_filename), "PNG")
-        );
-}
+        throw_if_false(
+            image.save(QString::fromStdString(output_filename), "PNG")
+            );
+    }
+
+private:
+    QApplication app;
+    QFont font;
+};
 
 int main(int argc, char *argv[]) {
-    QApplication app(argc, argv);
-    QFont font("Sampradaya");
-
-    render_text_to_image("𑌮𑌮 𑌨𑌾𑌮 𑌅𑌮𑍍𑌬𑌰𑍀𑌷𑌃 ।", "foo.png", font);
+    Text_to_image_renderer(argc, argv)("𑌮𑌮 𑌨𑌾𑌮 𑌅𑌮𑍍𑌬𑌰𑍀𑌷𑌃 ।"s, "foo.png"s);
     return 0;
 }
