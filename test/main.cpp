@@ -1,4 +1,5 @@
 #include <string>
+#include <fstream>
 #include <iostream>
 
 #include <boost/format.hpp>
@@ -73,7 +74,23 @@ private:
 };
 
 int main(int argc, char *argv[]) {
+    throw_if_false(argc == 3);
+    const auto input_file = string{argv[1]};
+    const auto output_dir = string{argv[2]};
+
     Text_to_image_renderer text_to_image_renderer{argc, argv};
-    text_to_image_renderer("𑌮𑌮 𑌨𑌾𑌮 𑌅𑌮𑍍𑌬𑌰𑍀𑌷𑌃 ।"s, "foo.png"s);
+
+    auto output_dir_format = boost::format{"%1%/%2%.png"};
+    ifstream input_stream(input_file);
+    string line;
+
+    auto i = 1u;
+    while (getline(input_stream, line)) {
+        if (line == "")
+            continue;
+        text_to_image_renderer(line, str(output_dir_format % output_dir % i));
+        ++i;
+    }
+
     return 0;
 }
