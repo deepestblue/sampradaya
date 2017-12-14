@@ -6,7 +6,7 @@ set -o nounset
 PROGRAM=$(basename $0)
 TMPDIR=$(mktemp -d -t $PROGRAM)
 
-./update_master.sh $TMPDIR
+./generate_images $TMPDIR
 
 mkdir -p diffs
 # Workaround bizarre issue, where the single command below doesn't work, in that it copies all files over.
