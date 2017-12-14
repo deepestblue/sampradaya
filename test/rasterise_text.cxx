@@ -31,24 +31,28 @@ public:
 
         throw_if_false(
             image.save(QString::fromStdString(output_filename), "PNG")
-            );
+        );
     }
 
 private:
     QRect get_bounding_rect(const QString &qtext) {
+
+        // Has to be non-zero sized for QPainter::begin(...) to succeed
         auto dummy = QImage{1, 1, QImage::Format_RGB32};
         throw_if_false(
             painter.begin(&dummy)
-            );
+        );
         painter.setFont(font);
+
         auto r = painter.boundingRect(QRect(), 0, qtext);
 #ifdef DEBUG
         auto bounding_rect_format = boost::format{"Left: %1%, Right: %2%, Top: %3%, Bottom: %4%."s};
         cout << bounding_rect_format % r.left() % r.right() % r.top() % r.bottom() << '\n';
 #endif
-        throw_if_false(
+
+throw_if_false(
             painter.end()
-            );
+        );
 
         return r;
     }
@@ -58,12 +62,14 @@ private:
         image.fill(Qt::white);
         throw_if_false(
             painter.begin(&image)
-            );
+        );
+
         painter.setFont(font);
         painter.drawText(0, bounding_rect.height(), qtext);
+
         throw_if_false(
             painter.end()
-            );
+        );
 
         return image;
     }
@@ -81,8 +87,8 @@ int main(int argc, char *argv[]) {
     Text_to_image_renderer text_to_image_renderer{argc, argv};
 
     auto output_dir_format = boost::format{"%1%/%2%.png"};
-    ifstream input_stream(input_file);
-    string line;
+    auto input_stream = ifstream{input_file};
+    auto line = string{};
 
     auto i = 1u;
     while (getline(input_stream, line)) {
