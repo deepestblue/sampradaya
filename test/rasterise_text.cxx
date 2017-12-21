@@ -9,6 +9,7 @@
 #include "QtGui/QPainter"
 
 using namespace std;
+using boost::format;
 
 template<typename T>
 void throw_if_false(T exp) {
@@ -24,7 +25,7 @@ public:
     {}
 
     void operator()(const string &text, const string &output_filename) {
-        const auto &qtext = QString::fromStdString(text);
+        const auto qtext = QString::fromStdString(text);
 
         const auto bounding_rect = get_bounding_rect(qtext);
         const auto image = render_text(qtext, bounding_rect);
@@ -46,11 +47,11 @@ private:
 
         auto r = painter.boundingRect(QRect(), 0, qtext);
 #ifdef DEBUG
-        auto bounding_rect_format = boost::format{"Left: %1%, Right: %2%, Top: %3%, Bottom: %4%."s};
+        auto bounding_rect_format = format{"Left: %1%, Right: %2%, Top: %3%, Bottom: %4%."s};
         cout << bounding_rect_format % r.left() % r.right() % r.top() % r.bottom() << '\n';
 #endif
 
-throw_if_false(
+        throw_if_false(
             painter.end()
         );
 
@@ -58,6 +59,8 @@ throw_if_false(
     }
 
     QImage render_text(const QString &qtext, const QRect &bounding_rect) {
+
+        // This should be r.width and r.height below, but they don't seem to work.
         auto image = QImage{512, 128, QImage::Format_RGB32};
         image.fill(Qt::white);
         throw_if_false(
@@ -86,10 +89,13 @@ int main(int argc, char *argv[]) {
 
     Text_to_image_renderer text_to_image_renderer{argc, argv};
 
-    auto output_dir_format = boost::format{"%1%/%2%.png"};
+    auto output_dir_format = format{"%1%/%2%.png"};
     auto input_stream = ifstream{input_file};
     auto line = string{};
 
+    // Starting at one, because technically 0 is a zero-digit number, so ostreaming a '0'
+    // should be the empty-string, but it's not, so the output filename for the zeroth
+    // file looks wrong.
     auto i = 1u;
     while (getline(input_stream, line)) {
         if (line == "")
