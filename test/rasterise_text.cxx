@@ -1,6 +1,9 @@
 #include <string>
 #include <fstream>
+
+#ifdef DEBUG
 #include <iostream>
+#endif
 
 #include <boost/format.hpp>
 
@@ -22,9 +25,11 @@ public:
     Text_to_image_renderer(int argc, char *argv[])
     : app(argc, argv)
     , font("Sampradaya")
+    , dummy(1, 1, QImage::Format_RGB32)  // Has to be non-zero sized for QPainter::begin(...) to succeed
     {}
 
-    void operator()(const string &text, const string &output_filename) {
+    void
+    operator()(const string &text, const string &output_filename) {
         const auto qtext = QString::fromStdString(text);
 
         const auto bounding_rect = get_bounding_rect(qtext);
@@ -36,10 +41,8 @@ public:
     }
 
 private:
-    QRect get_bounding_rect(const QString &qtext) {
-
-        // Has to be non-zero sized for QPainter::begin(...) to succeed
-        auto dummy = QImage{1, 1, QImage::Format_RGB32};
+    QRect
+    get_bounding_rect(const QString &qtext) {
         throw_if_false(
             painter.begin(&dummy)
         );
@@ -58,9 +61,9 @@ private:
         return r;
     }
 
-    QImage render_text(const QString &qtext, const QRect &bounding_rect) {
-
-        // This should be r.width and r.height below, but they don't seem to work.
+    QImage
+    render_text(const QString &qtext, const QRect &bounding_rect) {
+        // These should be r.width and r.height below, but they don't seem to work.
         auto image = QImage{512, 128, QImage::Format_RGB32};
         image.fill(Qt::white);
         throw_if_false(
@@ -80,9 +83,11 @@ private:
     QApplication app;
     QFont font;
     QPainter painter;
+    QImage dummy;
 };
 
-int main(int argc, char *argv[]) {
+int
+main(int argc, char *argv[]) {
     throw_if_false(argc == 3);
     const auto input_file = string{argv[1]};
     const auto output_dir = string{argv[2]};
