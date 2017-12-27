@@ -4,14 +4,19 @@ set -o errexit
 set -o nounset
 
 PROGRAM=$(basename $0)
+SCRIPTDIR=$(dirname $0)
+
 TMPDIR=$(mktemp -d -t $PROGRAM)
+$SCRIPTDIR/generate_images $TMPDIR
 
-./generate_images $TMPDIR
+DIFFDIR=$(grealpath --relative-to=. $SCRIPTDIR/../.diffs)
 
-mkdir -p diffs
+mkdir -p $DIFFDIR
 # Workaround bizarre issue, where the single command below doesn't work, in that it copies all files over.
 # rsync -rc --compare-dest=master_images/ $TMPDIR/ diffs/
-rsync -rc --compare-dest=$TMPDIR/ master_images/ diffs/
-rsync -rc --existing $TMPDIR/ diffs/
-find diffs/ -type d -depth -empty -exec rmdir "{}" \;
+rsync -rc --compare-dest=$TMPDIR/ $SCRIPTDIR/master_images/ $DIFFDIR/
+rsync -rc --existing $TMPDIR/ $DIFFDIR/
+find $DIFFDIR -type d -depth -empty -exec rmdir "{}" \;
+find $DIFFDIR -type f
+
 rm -r $TMPDIR
