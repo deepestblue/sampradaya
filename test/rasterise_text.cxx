@@ -20,6 +20,16 @@ void throw_if_false(T exp) {
         throw "Ack!";
 }
 
+//
+// Unfortunately, void is irregular in C++,
+// http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0146r1.html
+// so we're forced to use some hackery to regularise it.
+// https://stackoverflow.com/questions/47996550/handling-void-assignment-in-c-generic-programming
+//
+struct Or_void {};
+template<typename T>
+T &&operator ,(T &&x, Or_void) { return std::forward<T>(x); }
+
 class Text_to_image_renderer {
 public:
     Text_to_image_renderer(int argc, char *argv[])
@@ -43,41 +53,43 @@ public:
 private:
     QRect
     get_bounding_rect(const QString &qtext) {
-        throw_if_false(
-            painter.begin(&dummy)
-        );
-        painter.setFont(font);
-
-        auto r = painter.boundingRect(QRect(), 0, qtext);
+        return paint_on(dummy,
+            [&]() {
+                auto r = painter.boundingRect(QRect(), 0, qtext);
 #ifdef DEBUG
-        auto bounding_rect_format = format{"Left: %1%, Right: %2%, Top: %3%, Bottom: %4%."s};
-        cout << bounding_rect_format % r.left() % r.right() % r.top() % r.bottom() << '\n';
+                auto bounding_rect_format = format{"Left: %1%, Right: %2%, Top: %3%, Bottom: %4%."s};
+                cout << bounding_rect_format % r.left() % r.right() % r.top() % r.bottom() << '\n';
 #endif
-
-        throw_if_false(
-            painter.end()
-        );
-
-        return r;
+                return r;
+        });
     }
 
     QImage
     render_text(const QString &qtext, const QRect &bounding_rect) {
+        //
         // These should be r.width and r.height below, but they don't seem to work.
+        //
         auto image = QImage{512, 128, QImage::Format_RGB32};
         image.fill(Qt::white);
+        paint_on(image,
+            [&]() {
+                painter.drawText(0, bounding_rect.height(), qtext);
+            });
+        return image;
+    }
+
+    template <typename F>
+    auto
+    paint_on(QImage &image, F fn) -> decltype(fn()) {
         throw_if_false(
             painter.begin(&image)
         );
-
         painter.setFont(font);
-        painter.drawText(0, bounding_rect.height(), qtext);
-
+        auto result = (fn(), Or_void{});
         throw_if_false(
             painter.end()
         );
-
-        return image;
+        return static_cast<decltype(fn())>(result);
     }
 
     QApplication app;
@@ -98,9 +110,11 @@ main(int argc, char *argv[]) {
     auto input_stream = ifstream{input_file};
     auto line = string{};
 
+    //
     // Starting at one, because technically 0 is a zero-digit number, so ostreaming a '0'
     // should be the empty-string, but it's not, so the output filename for the zeroth
     // file looks wrong.
+    //
     auto i = 1u;
     while (getline(input_stream, line)) {
         if (line == "")
