@@ -11,6 +11,7 @@ $SCRIPTDIR/generate_images $TMPDIR
 
 DIFFDIR=$(grealpath --relative-to=. $SCRIPTDIR/../.diffs)
 
+rm -r $DIFFDIR
 mkdir -p $DIFFDIR
 # Workaround bizarre issue, where the single command below doesn't work, in that it copies all files over.
 # rsync -rc --compare-dest=master_images/ $TMPDIR/ diffs/
