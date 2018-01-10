@@ -15,7 +15,7 @@ using namespace std;
 using boost::format;
 
 template<typename T>
-void throw_if_false(T exp) {
+void assert_and_throw(T exp) {
     if (! exp)
         throw "Ack!";
 }
@@ -36,7 +36,11 @@ public:
     : app(argc, argv)
     , font("Sampradaya")
     , dummy(1, 1, QImage::Format_RGB32)  // Has to be non-zero sized for QPainter::begin(...) to succeed
-    {}
+    {
+        auto pointSize = font.pointSize();
+        assert_and_throw(pointSize > 0);
+        font.setPointSize(pointSize * 4);
+    }
 
     void
     operator()(const string &text, const string &output_filename) {
@@ -45,7 +49,7 @@ public:
         const auto bounding_rect = get_bounding_rect(qtext);
         const auto image = render_text(qtext, bounding_rect);
 
-        throw_if_false(
+        assert_and_throw(
             image.save(QString::fromStdString(output_filename), "PNG")
         );
     }
@@ -81,12 +85,12 @@ private:
     template <typename F>
     auto
     paint_on(QImage &image, F fn) -> decltype(fn()) {
-        throw_if_false(
+        assert_and_throw(
             painter.begin(&image)
         );
         painter.setFont(font);
         auto result = (fn(), Or_void{});
-        throw_if_false(
+        assert_and_throw(
             painter.end()
         );
         return static_cast<decltype(fn())>(result);
@@ -100,7 +104,7 @@ private:
 
 int
 main(int argc, char *argv[]) {
-    throw_if_false(argc == 3);
+    assert_and_throw(argc == 3);
     const auto input_file = string{argv[1]};
     const auto output_dir = string{argv[2]};
 
