@@ -117,7 +117,7 @@ main(int argc, char *argv[]) {
     //
     auto i = 1u;
     while (getline(input_stream, line)) {
-        if (line == "")
+        if (line.empty())
             continue;
         text_to_image_renderer(line, str(output_dir_format % output_dir % i));
         ++i;
