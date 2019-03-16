@@ -37,7 +37,7 @@ public:
     , font("Sampradaya")
     , dummy(1, 1, QImage::Format_RGB32)  // Has to be non-zero sized for QPainter::begin(...) to succeed
     {
-        auto pointSize = font.pointSize();
+        const auto pointSize = font.pointSize();
         assert_and_throw(pointSize > 0);
         font.setPointSize(pointSize * 4);
     }
@@ -59,7 +59,7 @@ private:
     get_bounding_rect(const QString &qtext) {
         return paint_on(dummy,
             [&]() {
-                auto r = painter.boundingRect(QRect(), 0, qtext);
+                const auto r = painter.boundingRect(QRect(), 0, qtext);
 #ifdef DEBUG
                 auto bounding_rect_format = format{"Left: %1%, Right: %2%, Top: %3%, Bottom: %4%."s};
                 cout << bounding_rect_format % r.left() % r.right() % r.top() % r.bottom() << '\n';
@@ -71,7 +71,7 @@ private:
     QImage
     render_text(const QString &qtext, const QRect &bounding_rect) {
         //
-        // These should be r.width and r.height below, but they don't seem to work.
+        // These should be bounding_rect.width and bounding_rect.height below, but they don't seem to work.
         //
         auto image = QImage{512, 128, QImage::Format_RGB32};
         image.fill(Qt::white);
@@ -89,7 +89,7 @@ private:
             painter.begin(&image)
         );
         painter.setFont(font);
-        auto result = (fn(), Or_void{});
+        const auto result = (fn(), Or_void{});
         assert_and_throw(
             painter.end()
         );
