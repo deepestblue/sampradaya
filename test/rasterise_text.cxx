@@ -1,6 +1,8 @@
 #include <string>
 #include <fstream>
 
+//#define DEBUG
+
 #ifdef DEBUG
 #include <iostream>
 #endif
@@ -61,8 +63,8 @@ private:
             [&]() {
                 const auto r = painter.boundingRect(QRect(), 0, qtext);
 #ifdef DEBUG
-                auto bounding_rect_format = format{"Left: %1%, Right: %2%, Top: %3%, Bottom: %4%."s};
-                cout << bounding_rect_format % r.left() % r.right() % r.top() % r.bottom() << '\n';
+                auto bounding_rect_format = format{"For string %1%, Width: %2%, Height: %3%."s};
+                cout << bounding_rect_format % qtext.toStdString() % r.width() % r.height() << '\n';
 #endif
                 return r;
         });
@@ -71,9 +73,10 @@ private:
     QImage
     render_text(const QString &qtext, const QRect &bounding_rect) {
         //
-        // These should be bounding_rect.width and bounding_rect.height below, but they don't seem to work.
+        // These should be bounding_rect.width and bounding_rect.height below, but height seems to
+        // not take descenders into account. Probably a typeface bug.
         //
-        auto image = QImage{512, 128, QImage::Format_RGB32};
+        auto image = QImage{bounding_rect.width(), 72, QImage::Format_RGB32};
         image.fill(Qt::white);
         paint_on(image,
             [&]() {
