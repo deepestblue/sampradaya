@@ -48,7 +48,7 @@ The typeface has the following ligature look-up sub-tables:
 * Indic state machine to move pre-consonantal repha to after post-forms.
     … we move the repha past any sequence of Class `C` glyphs, using a simple machine. We also use this opportunistically to move the repha past i/ī vowel markers and the virāmacihna.
 * Indic state machine to move post-consonantal repha/ya forms to after i/ī vowel markers.
-    Simple machine to move an i/ī marker or a virāmacihna before any combination of post-consonantal repha/ya.
+    Simple machine to move an i/ī marker before any combination of post-consonantal repha/ya.
 * Insertion state machine to insert ē marker before ō and au markers.
     This is a simple machine that transitions to a new state when a consonant is encountered. In that state, were it encounter an ō or an au marker, it simply inserts an ē marker before.
 * Contextual state machine for substituting ō and au markers with their post-glyph halves.
