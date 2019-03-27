@@ -9,6 +9,7 @@
 #include "objbase.h"
 #include "d2d1.h"
 #include "d2d1_1.h"
+#include "dwrite.h"
 #include "d2d1helper.h"
 #include "dwrite.h"
 #include "wincodec.h"
@@ -20,7 +21,7 @@
 #include <iostream>
 #endif
 
-// cl rasterise_text.cxx /EHsc /std:c++latest /nologo /W4 /Zi d2d1.lib
+// cl rasterise_text.cxx /EHsc /std:c++latest /nologo /W4 /Zi d2d1.lib dwrite.lib
 
 using namespace std;
 
@@ -47,7 +48,7 @@ public:
             << " (" << com_error.ErrorMessage() << " )\n";
         const wstring &message = s.str();
 
-        int size = WideCharToMultiByte(
+        size_t size = WideCharToMultiByte(
             CP_UTF8,
             WC_ERR_INVALID_CHARS,
             message.c_str(),
@@ -68,6 +69,7 @@ public:
             nullptr,
             nullptr
         );
+
         return result.data();
     }
 
@@ -139,6 +141,37 @@ public:
                 &m_pRenderTarget
             )
         );
+
+        ThrowIfFailed(
+            m_pRenderTarget->CreateSolidColorBrush(
+                D2D1::ColorF(D2D1::ColorF::Black),
+                &m_pBlackBrush
+            )
+        );
+
+        ThrowIfFailed(
+            DWriteCreateFactory(
+                DWRITE_FACTORY_TYPE_SHARED,
+                __uuidof(m_pDWriteFactory),
+                reinterpret_cast<IUnknown **>(&m_pDWriteFactory)
+            )
+        );
+
+        ThrowIfFailed(
+            m_pDWriteFactory->CreateTextFormat(
+            L"Sampradaya",
+            nullptr,
+            DWRITE_FONT_WEIGHT_NORMAL,
+            DWRITE_FONT_STYLE_NORMAL,
+            DWRITE_FONT_STRETCH_NORMAL,
+            1000.f/96,
+            L"", //locale
+            &m_pTextFormat
+            )
+        );
+
+        m_pTextFormat->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
+        m_pTextFormat->SetParagraphAlignment(DWRITE_PARAGRAPH_ALIGNMENT_CENTER);
     }
 
     ~Text_to_image_renderer() {
@@ -156,17 +189,50 @@ public:
         );
 
         m_pRenderTarget->Clear(
-            D2D1::ColorF(D2D1::ColorF::Blue)
+            D2D1::ColorF(D2D1::ColorF::White)
         );
-/*
-        MultiByteToWideChar
-        m_pRenderTarget->DrawText(
-            text,
+
+        auto buf_size = MultiByteToWideChar(
+            CP_UTF8,
+            MB_ERR_INVALID_CHARS,
+            text.c_str(),
             text.length(),
+            nullptr,
+            0
+        );
+        wstring utf16text(buf_size, 0);
+        if (! MultiByteToWideChar(
+            CP_UTF8,
+            MB_ERR_INVALID_CHARS,
+            text.c_str(),
+            text.length(),
+            utf16text.data(),
+            buf_size
+        )) {
+            auto error = GetLastError();
+            char *p = nullptr;
+            auto len = FormatMessageA(
+                FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
+                nullptr,
+                error,
+                MAKELANGID( LANG_NEUTRAL, SUBLANG_DEFAULT ),
+                p,
+                0,
+                nullptr
+            );
+            const string error_string{p, len};
+            LocalFree(p);
+            assert_and_throw(false, error_string);
+
+        }
+
+        m_pRenderTarget->DrawText(
+            utf16text.c_str(),
+            utf16text.length(),
             m_pTextFormat,
             D2D1::RectF(0, 0, renderTargetSize.width, renderTargetSize.height),
             m_pBlackBrush
-            );*/
+            );
 
         ThrowIfFailed(
             m_pRenderTarget->EndDraw()
@@ -204,10 +270,15 @@ public:
             )
         );
         ThrowIfFailed(
-            wicFrameEncode->Initialize(nullptr)
+            wicFrameEncode->Initialize(
+                nullptr
+            )
         );
         ThrowIfFailed(
-            wicFrameEncode->WriteSource(wicBitMap, nullptr)
+            wicFrameEncode->WriteSource(
+                wicBitMap,
+                nullptr
+            )
         );
         ThrowIfFailed(
             wicFrameEncode->Commit()
@@ -222,6 +293,9 @@ private:
     ID2D1Factory1 *d2dFactory;
     ID2D1RenderTarget *m_pRenderTarget;
     IWICImagingFactory2 *m_wicFactory;
+    IDWriteFactory *m_pDWriteFactory;
+    IDWriteTextFormat *m_pTextFormat;
+    ID2D1SolidColorBrush *m_pBlackBrush;
 };
 
 int
