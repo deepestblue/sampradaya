@@ -46,13 +46,13 @@ public:
 
     virtual const char *
     what() const override {
-        wstringstream s;
+        auto s = wstringstream{};
         s << setfill(L'0') << setw(8) << hex;
         s << "Failure with HRESULT of 0x" << static_cast<unsigned int>(hresult)
             << " (" << com_error.ErrorMessage() << " )\n";
         const wstring &message = s.str();
 
-        size_t size = WideCharToMultiByte(
+        auto size = WideCharToMultiByte(
             CP_UTF8,
             WC_ERR_INVALID_CHARS,
             message.c_str(),
@@ -62,7 +62,7 @@ public:
             nullptr,
             nullptr
         );
-        vector<char> result(size);
+        auto result = vector<char>(size);
         WideCharToMultiByte(
             CP_UTF8,
             WC_ERR_INVALID_CHARS,
@@ -91,7 +91,7 @@ public:
 
     virtual const char *
     what() const override {
-        char *p = nullptr;
+        auto *p = static_cast<char *>(nullptr);
         auto len = FormatMessageA(
             FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
             nullptr,
@@ -101,7 +101,7 @@ public:
             0,
             nullptr
         );
-        const string error_string{p, len};
+        auto error_string = string{p, len};
         LocalFree(p);
 
         return error_string.c_str();
@@ -156,7 +156,7 @@ public:
             )
         );
 
-        const D2D1_FACTORY_OPTIONS options = {};
+        auto options = D2D1_FACTORY_OPTIONS{};
         throw_if_failed(
             D2D1CreateFactory(
                 D2D1_FACTORY_TYPE_SINGLE_THREADED,
@@ -166,7 +166,7 @@ public:
             )
         );
 
-        const D2D1_RENDER_TARGET_PROPERTIES d2d1_render_target_properties = {
+        auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
             D2D1_RENDER_TARGET_TYPE_DEFAULT,
             D2D1::PixelFormat(DXGI_FORMAT_UNKNOWN,D2D1_ALPHA_MODE_IGNORE),
             0,
@@ -177,7 +177,7 @@ public:
         throw_if_failed(
             d2dFactory->CreateWicBitmapRenderTarget(
                 wicBitMap,
-                &d2d1_render_target_properties,
+                &render_props,
                 &m_pRenderTarget
             )
         );
@@ -220,7 +220,7 @@ public:
         const string &text,
         const wstring &output_filename
     ) {
-        D2D1_SIZE_F renderTargetSize = m_pRenderTarget->GetSize();
+        auto renderTargetSize = m_pRenderTarget->GetSize();
 
         m_pRenderTarget->BeginDraw();
 
@@ -240,7 +240,7 @@ public:
             nullptr,
             0
         );
-        wstring utf16text(buf_size, 0);
+        auto utf16text = wstring(buf_size, 0);
         throw_if_failed(
             MultiByteToWideChar(
                 CP_UTF8,
@@ -264,7 +264,7 @@ public:
             m_pRenderTarget->EndDraw()
         );
 
-        IWICStream *stream;
+        auto stream = static_cast<IWICStream *>(nullptr);
         throw_if_failed(
             m_wicFactory->CreateStream(&stream)
         );
@@ -275,7 +275,7 @@ public:
             )
         );
 
-        IWICBitmapEncoder *wicBitmapEncoder;
+        auto wicBitmapEncoder = static_cast<IWICBitmapEncoder *>(nullptr);
         throw_if_failed(
             m_wicFactory->CreateEncoder(
                 GUID_ContainerFormatPng,
@@ -291,7 +291,7 @@ public:
             )
         );
 
-        IWICBitmapFrameEncode *wicFrameEncode;
+        auto wicFrameEncode = static_cast<IWICBitmapFrameEncode *>(nullptr);
         throw_if_failed(
             wicBitmapEncoder->CreateNewFrame(
                 &wicFrameEncode,
@@ -339,7 +339,7 @@ wmain(
     const auto input_file = wstring{argv[1]};
     const auto output_dir = wstring{argv[2]};
 
-    Text_to_image_renderer text_to_image_renderer{};
+    auto renderer = Text_to_image_renderer{};
 
     auto input_stream = ifstream{input_file};
     auto line = string{};
@@ -353,7 +353,7 @@ wmain(
     while (getline(input_stream, line)) {
         if (line.empty())
             continue;
-        text_to_image_renderer(line, output_dir + L"/" + to_wstring(i) + L".png");
+        renderer(line, output_dir + L"/" + to_wstring(i) + L".png");
         ++i;
     }
 
