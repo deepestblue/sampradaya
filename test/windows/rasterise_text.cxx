@@ -38,10 +38,10 @@ assert_and_throw(
 }
 
 // Helper class for COM exceptions
-class com_exception
+class Com_exception
     : public exception {
 public:
-    com_exception(HRESULT hr)
+    Com_exception(HRESULT hr)
     : hresult(hr), com_error(hresult) { }
 
     virtual const char *
@@ -83,10 +83,10 @@ private:
 };
 
 // Helper class for Win32 exceptions
-class gle_exception
+class GLE_exception
     : public exception {
 public:
-    gle_exception()
+    GLE_exception()
     : last_error(GetLastError()) { }
 
     virtual const char *
@@ -112,32 +112,32 @@ private:
 };
 
 void
-ThrowIfFailed(HRESULT hr) {
+throw_if_failed(HRESULT hr) {
     if (SUCCEEDED(hr))
         return;
 
-    throw com_exception(hr);
+    throw Com_exception(hr);
 }
 
 void
-ThrowIfFailed(int return_code) {
+throw_if_failed(int return_code) {
     if (return_code > 0)
         return;
 
-    throw gle_exception();
+    throw GLE_exception();
 }
 
 class Text_to_image_renderer {
 public:
     Text_to_image_renderer()
     {
-        ThrowIfFailed(
+        throw_if_failed(
             CoInitializeEx(
                 nullptr,
                 COINIT_MULTITHREADED
             )
         );
-        ThrowIfFailed(
+        throw_if_failed(
             CoCreateInstance(
                 CLSID_WICImagingFactory,
                 nullptr,
@@ -146,7 +146,7 @@ public:
             )
         );
 
-        ThrowIfFailed(
+        throw_if_failed(
             m_wicFactory->CreateBitmap(
                 1000,
                 72,
@@ -157,7 +157,7 @@ public:
         );
 
         const D2D1_FACTORY_OPTIONS options = {};
-        ThrowIfFailed(
+        throw_if_failed(
             D2D1CreateFactory(
                 D2D1_FACTORY_TYPE_SINGLE_THREADED,
                 __uuidof(ID2D1Factory1),
@@ -174,7 +174,7 @@ public:
             D2D1_RENDER_TARGET_USAGE_NONE,
             D2D1_FEATURE_LEVEL_DEFAULT,
         };
-        ThrowIfFailed(
+        throw_if_failed(
             d2dFactory->CreateWicBitmapRenderTarget(
                 wicBitMap,
                 &d2d1_render_target_properties,
@@ -182,14 +182,14 @@ public:
             )
         );
 
-        ThrowIfFailed(
+        throw_if_failed(
             m_pRenderTarget->CreateSolidColorBrush(
                 D2D1::ColorF(D2D1::ColorF::Black),
                 &m_pBlackBrush
             )
         );
 
-        ThrowIfFailed(
+        throw_if_failed(
             DWriteCreateFactory(
                 DWRITE_FACTORY_TYPE_SHARED,
                 __uuidof(m_pDWriteFactory),
@@ -197,7 +197,7 @@ public:
             )
         );
 
-        ThrowIfFailed(
+        throw_if_failed(
             m_pDWriteFactory->CreateTextFormat(
             L"Sampradaya",
             nullptr,
@@ -216,7 +216,7 @@ public:
     }
 
     void
-    operator()(
+    operator ()(
         const string &text,
         const wstring &output_filename
     ) {
@@ -241,7 +241,7 @@ public:
             0
         );
         wstring utf16text(buf_size, 0);
-        ThrowIfFailed(
+        throw_if_failed(
             MultiByteToWideChar(
                 CP_UTF8,
                 MB_ERR_INVALID_CHARS,
@@ -260,15 +260,15 @@ public:
             m_pBlackBrush
             );
 
-        ThrowIfFailed(
+        throw_if_failed(
             m_pRenderTarget->EndDraw()
         );
 
         IWICStream *stream;
-        ThrowIfFailed(
+        throw_if_failed(
             m_wicFactory->CreateStream(&stream)
         );
-        ThrowIfFailed(
+        throw_if_failed(
             stream->InitializeFromFilename(
                 output_filename.c_str(),
                 GENERIC_WRITE
@@ -276,7 +276,7 @@ public:
         );
 
         IWICBitmapEncoder *wicBitmapEncoder;
-        ThrowIfFailed(
+        throw_if_failed(
             m_wicFactory->CreateEncoder(
                 GUID_ContainerFormatPng,
                 nullptr,
@@ -284,7 +284,7 @@ public:
             )
         );
 
-        ThrowIfFailed(
+        throw_if_failed(
             wicBitmapEncoder->Initialize(
                 stream,
                 WICBitmapEncoderNoCache
@@ -292,27 +292,27 @@ public:
         );
 
         IWICBitmapFrameEncode *wicFrameEncode;
-        ThrowIfFailed(
+        throw_if_failed(
             wicBitmapEncoder->CreateNewFrame(
                 &wicFrameEncode,
                 nullptr
             )
         );
-        ThrowIfFailed(
+        throw_if_failed(
             wicFrameEncode->Initialize(
                 nullptr
             )
         );
-        ThrowIfFailed(
+        throw_if_failed(
             wicFrameEncode->WriteSource(
                 wicBitMap,
                 nullptr
             )
         );
-        ThrowIfFailed(
+        throw_if_failed(
             wicFrameEncode->Commit()
         );
-        ThrowIfFailed(
+        throw_if_failed(
             wicBitmapEncoder->Commit()
         );
     }
@@ -328,7 +328,10 @@ private:
 };
 
 int
-wmain(int argc, wchar_t *argv[]) try {
+wmain(
+    int argc,
+    wchar_t *argv[]
+) try {
     assert_and_throw(
         argc == 3,
         "Need 3 arguments"
