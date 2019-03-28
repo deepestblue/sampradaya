@@ -26,7 +26,11 @@
 using namespace std;
 
 template<typename T, typename U>
-void assert_and_throw(T exp, const U &what) {
+void
+assert_and_throw(
+    T exp,
+    const U &what
+) {
     if (exp)
         return;
 
@@ -35,13 +39,13 @@ void assert_and_throw(T exp, const U &what) {
 
 // Helper class for COM exceptions
 class com_exception
-    : public exception
-    {
+    : public exception {
 public:
-    com_exception(HRESULT hr) : hresult(hr), com_error(hresult) {}
+    com_exception(HRESULT hr)
+    : hresult(hr), com_error(hresult) { }
 
-    virtual const char* what() const override
-    {
+    virtual const char *
+    what() const override {
         wstringstream s;
         s << setfill(L'0') << setw(8) << hex;
         s << "Failure with HRESULT of 0x" << static_cast<unsigned int>(hresult)
@@ -78,18 +82,54 @@ private:
     _com_error com_error;
 };
 
-void ThrowIfFailed(HRESULT hr)
-{
+// Helper class for Win32 exceptions
+class gle_exception
+    : public exception {
+public:
+    gle_exception()
+    : last_error(GetLastError()) { }
+
+    virtual const char *
+    what() const override {
+        char *p = nullptr;
+        auto len = FormatMessageA(
+            FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
+            nullptr,
+            last_error,
+            MAKELANGID( LANG_NEUTRAL, SUBLANG_DEFAULT ),
+            p,
+            0,
+            nullptr
+        );
+        const string error_string{p, len};
+        LocalFree(p);
+
+        return error_string.c_str();
+    }
+
+private:
+    int last_error;
+};
+
+void
+ThrowIfFailed(HRESULT hr) {
     if (SUCCEEDED(hr))
         return;
 
     throw com_exception(hr);
 }
 
+void
+ThrowIfFailed(int return_code) {
+    if (return_code > 0)
+        return;
+
+    throw gle_exception();
+}
+
 class Text_to_image_renderer {
 public:
     Text_to_image_renderer()
-//    , font("Sampradaya")
     {
         ThrowIfFailed(
             CoInitializeEx(
@@ -108,8 +148,8 @@ public:
 
         ThrowIfFailed(
             m_wicFactory->CreateBitmap(
-                256,
-                256,
+                1000,
+                72,
                 GUID_WICPixelFormat32bppBGR,
                 WICBitmapCacheOnDemand,
                 &wicBitMap
@@ -164,14 +204,11 @@ public:
             DWRITE_FONT_WEIGHT_NORMAL,
             DWRITE_FONT_STYLE_NORMAL,
             DWRITE_FONT_STRETCH_NORMAL,
-            1000.f/96,
+            5000.f/96,
             L"", //locale
             &m_pTextFormat
             )
         );
-
-        m_pTextFormat->SetTextAlignment(DWRITE_TEXT_ALIGNMENT_CENTER);
-        m_pTextFormat->SetParagraphAlignment(DWRITE_PARAGRAPH_ALIGNMENT_CENTER);
     }
 
     ~Text_to_image_renderer() {
@@ -179,7 +216,10 @@ public:
     }
 
     void
-    operator()(const string &text, const wstring &output_filename) {
+    operator()(
+        const string &text,
+        const wstring &output_filename
+    ) {
         D2D1_SIZE_F renderTargetSize = m_pRenderTarget->GetSize();
 
         m_pRenderTarget->BeginDraw();
@@ -201,30 +241,16 @@ public:
             0
         );
         wstring utf16text(buf_size, 0);
-        if (! MultiByteToWideChar(
-            CP_UTF8,
-            MB_ERR_INVALID_CHARS,
-            text.c_str(),
-            text.length(),
-            utf16text.data(),
-            buf_size
-        )) {
-            auto error = GetLastError();
-            char *p = nullptr;
-            auto len = FormatMessageA(
-                FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
-                nullptr,
-                error,
-                MAKELANGID( LANG_NEUTRAL, SUBLANG_DEFAULT ),
-                p,
-                0,
-                nullptr
-            );
-            const string error_string{p, len};
-            LocalFree(p);
-            assert_and_throw(false, error_string);
-
-        }
+        ThrowIfFailed(
+            MultiByteToWideChar(
+                CP_UTF8,
+                MB_ERR_INVALID_CHARS,
+                text.c_str(),
+                text.length(),
+                utf16text.data(),
+                buf_size
+            )
+        );
 
         m_pRenderTarget->DrawText(
             utf16text.c_str(),
@@ -243,7 +269,10 @@ public:
             m_wicFactory->CreateStream(&stream)
         );
         ThrowIfFailed(
-            stream->InitializeFromFilename(output_filename.c_str(), GENERIC_WRITE)
+            stream->InitializeFromFilename(
+                output_filename.c_str(),
+                GENERIC_WRITE
+            )
         );
 
         IWICBitmapEncoder *wicBitmapEncoder;
