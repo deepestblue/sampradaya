@@ -5,15 +5,10 @@
 #include <iomanip>
 #include <vector>
 
-#include "windows.h"
-#include "objbase.h"
-#include "d2d1.h"
+#include "comdef.h"
 #include "d2d1_1.h"
 #include "dwrite.h"
-#include "d2d1helper.h"
-#include "dwrite.h"
 #include "wincodec.h"
-#include "comdef.h"
 
 #define DEBUG
 
