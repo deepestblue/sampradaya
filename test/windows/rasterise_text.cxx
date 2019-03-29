@@ -47,34 +47,34 @@ public:
     virtual const char *
     what() const override {
         auto s = wstringstream{};
-        s << setfill(L'0') << setw(8) << hex;
-        s << "Failure with HRESULT of 0x" << static_cast<unsigned int>(hresult)
-            << " (" << com_error.ErrorMessage() << " )\n";
-        const wstring &message = s.str();
+        s << L"Failure with HRESULT of 0x";
+        s << setfill(L'0') << setw(8) << hex << static_cast<unsigned int>(hresult);
+        s << setw(0) << " (" << com_error.ErrorMessage() << " )\n";
+        const auto &utf16_message = s.str();
 
-        auto size = WideCharToMultiByte(
+        auto required_size = WideCharToMultiByte(
             CP_UTF8,
             WC_ERR_INVALID_CHARS,
-            message.c_str(),
-            message.length(),
+            utf16_message.c_str(),
+            utf16_message.length(),
             nullptr,
             0,
             nullptr,
             nullptr
         );
-        auto result = vector<char>(size);
+        auto message = vector<char>(required_size);
         WideCharToMultiByte(
             CP_UTF8,
             WC_ERR_INVALID_CHARS,
-            message.c_str(),
-            message.length(),
-            result.data(),
-            size,
+            utf16_message.c_str(),
+            utf16_message.length(),
+            message.data(),
+            required_size,
             nullptr,
             nullptr
         );
 
-        return result.data();
+        return message.data();
     }
 
 private:
@@ -91,18 +91,18 @@ public:
 
     virtual const char *
     what() const override {
-        auto *p = static_cast<char *>(nullptr);
+        auto buffer = static_cast<char *>(nullptr);
         auto len = FormatMessageA(
             FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
             nullptr,
             last_error,
             MAKELANGID( LANG_NEUTRAL, SUBLANG_DEFAULT ),
-            p,
+            buffer,
             0,
             nullptr
         );
-        auto error_string = string{p, len};
-        LocalFree(p);
+        auto error_string = string{buffer, len};
+        LocalFree(buffer);
 
         return error_string.c_str();
     }
@@ -142,17 +142,17 @@ public:
                 CLSID_WICImagingFactory,
                 nullptr,
                 CLSCTX_INPROC_SERVER,
-                IID_PPV_ARGS(&m_wicFactory)
+                IID_PPV_ARGS(&wic_factory)
             )
         );
 
         throw_if_failed(
-            m_wicFactory->CreateBitmap(
+            wic_factory->CreateBitmap(
                 1000,
                 72,
                 GUID_WICPixelFormat32bppBGR,
                 WICBitmapCacheOnDemand,
-                &wicBitMap
+                &wic_bitmap
             )
         );
 
@@ -162,7 +162,7 @@ public:
                 D2D1_FACTORY_TYPE_SINGLE_THREADED,
                 __uuidof(ID2D1Factory1),
                 &options,
-                (void **)&d2dFactory
+                (void **)&d2d_factory
             )
         );
 
@@ -175,38 +175,38 @@ public:
             D2D1_FEATURE_LEVEL_DEFAULT,
         };
         throw_if_failed(
-            d2dFactory->CreateWicBitmapRenderTarget(
-                wicBitMap,
+            d2d_factory->CreateWicBitmapRenderTarget(
+                wic_bitmap,
                 &render_props,
-                &m_pRenderTarget
+                &render_target
             )
         );
 
         throw_if_failed(
-            m_pRenderTarget->CreateSolidColorBrush(
+            render_target->CreateSolidColorBrush(
                 D2D1::ColorF(D2D1::ColorF::Black),
-                &m_pBlackBrush
+                &black_brush
             )
         );
 
         throw_if_failed(
             DWriteCreateFactory(
                 DWRITE_FACTORY_TYPE_SHARED,
-                __uuidof(m_pDWriteFactory),
-                reinterpret_cast<IUnknown **>(&m_pDWriteFactory)
+                __uuidof(dwrite_factory),
+                reinterpret_cast<IUnknown **>(&dwrite_factory)
             )
         );
 
         throw_if_failed(
-            m_pDWriteFactory->CreateTextFormat(
-            L"Sampradaya",
-            nullptr,
-            DWRITE_FONT_WEIGHT_NORMAL,
-            DWRITE_FONT_STYLE_NORMAL,
-            DWRITE_FONT_STRETCH_NORMAL,
-            5000.f/96,
-            L"", //locale
-            &m_pTextFormat
+            dwrite_factory->CreateTextFormat(
+                L"Sampradaya",
+                nullptr,
+                DWRITE_FONT_WEIGHT_NORMAL,
+                DWRITE_FONT_STYLE_NORMAL,
+                DWRITE_FONT_STRETCH_NORMAL,
+                5000.f/96,
+                L"", //locale
+                &text_format
             )
         );
     }
@@ -220,15 +220,13 @@ public:
         const string &text,
         const wstring &output_filename
     ) {
-        auto renderTargetSize = m_pRenderTarget->GetSize();
+        render_target->BeginDraw();
 
-        m_pRenderTarget->BeginDraw();
-
-        m_pRenderTarget->SetTransform(
+        render_target->SetTransform(
             D2D1::Matrix3x2F::Identity()
         );
 
-        m_pRenderTarget->Clear(
+        render_target->Clear(
             D2D1::ColorF(D2D1::ColorF::White)
         );
 
@@ -240,33 +238,34 @@ public:
             nullptr,
             0
         );
-        auto utf16text = wstring(buf_size, 0);
+        auto utf16_text = wstring(buf_size, 0);
         throw_if_failed(
             MultiByteToWideChar(
                 CP_UTF8,
                 MB_ERR_INVALID_CHARS,
                 text.c_str(),
                 text.length(),
-                utf16text.data(),
+                utf16_text.data(),
                 buf_size
             )
         );
 
-        m_pRenderTarget->DrawText(
-            utf16text.c_str(),
-            utf16text.length(),
-            m_pTextFormat,
-            D2D1::RectF(0, 0, renderTargetSize.width, renderTargetSize.height),
-            m_pBlackBrush
+        auto render_target_size = render_target->GetSize();
+        render_target->DrawText(
+            utf16_text.c_str(),
+            utf16_text.length(),
+            text_format,
+            D2D1::RectF(0, 0, render_target_size.width, render_target_size.height),
+            black_brush
             );
 
         throw_if_failed(
-            m_pRenderTarget->EndDraw()
+            render_target->EndDraw()
         );
 
         auto stream = static_cast<IWICStream *>(nullptr);
         throw_if_failed(
-            m_wicFactory->CreateStream(&stream)
+            wic_factory->CreateStream(&stream)
         );
         throw_if_failed(
             stream->InitializeFromFilename(
@@ -275,56 +274,61 @@ public:
             )
         );
 
-        auto wicBitmapEncoder = static_cast<IWICBitmapEncoder *>(nullptr);
-        throw_if_failed(
-            m_wicFactory->CreateEncoder(
-                GUID_ContainerFormatPng,
-                nullptr,
-                &wicBitmapEncoder
-            )
-        );
+        {
+            auto wic_bitmap_encoder = static_cast<IWICBitmapEncoder *>(nullptr);
+            throw_if_failed(
+                wic_factory->CreateEncoder(
+                    GUID_ContainerFormatPng,
+                    nullptr,
+                    &wic_bitmap_encoder
+                )
+            );
 
-        throw_if_failed(
-            wicBitmapEncoder->Initialize(
-                stream,
-                WICBitmapEncoderNoCache
-            )
-        );
+            throw_if_failed(
+                wic_bitmap_encoder->Initialize(
+                    stream,
+                    WICBitmapEncoderNoCache
+                )
+            );
 
-        auto wicFrameEncode = static_cast<IWICBitmapFrameEncode *>(nullptr);
-        throw_if_failed(
-            wicBitmapEncoder->CreateNewFrame(
-                &wicFrameEncode,
-                nullptr
-            )
-        );
-        throw_if_failed(
-            wicFrameEncode->Initialize(
-                nullptr
-            )
-        );
-        throw_if_failed(
-            wicFrameEncode->WriteSource(
-                wicBitMap,
-                nullptr
-            )
-        );
-        throw_if_failed(
-            wicFrameEncode->Commit()
-        );
-        throw_if_failed(
-            wicBitmapEncoder->Commit()
-        );
+            {
+                auto wic_frame_encode = static_cast<IWICBitmapFrameEncode *>(nullptr);
+                throw_if_failed(
+                    wic_bitmap_encoder->CreateNewFrame(
+                        &wic_frame_encode,
+                        nullptr
+                    )
+                );
+                throw_if_failed(
+                    wic_frame_encode->Initialize(
+                        nullptr
+                    )
+                );
+                throw_if_failed(
+                    wic_frame_encode->WriteSource(
+                        wic_bitmap,
+                        nullptr
+                    )
+                );
+                throw_if_failed(
+                    wic_frame_encode->Commit()
+                );
+            }
+
+            throw_if_failed(
+                wic_bitmap_encoder->Commit()
+            );
+        }
     }
 
 private:
-    IWICBitmap *wicBitMap;
-    ID2D1Factory1 *d2dFactory;
-    ID2D1RenderTarget *m_pRenderTarget;
-    IWICImagingFactory2 *m_wicFactory;
-    IDWriteFactory *m_pDWriteFactory;
-    IDWriteTextFormat *m_pTextFormat;
-    ID2D1SolidColorBrush *m_pBlackBrush;
+    ID2D1Factory1 *d2d_factory;
+    ID2D1RenderTarget *render_target;
+    ID2D1SolidColorBrush *black_brush;
+    IDWriteFactory *dwrite_factory;
+    IWICImagingFactory2 *wic_factory;
+    IWICBitmap *wic_bitmap;
+    IDWriteTextFormat *text_format;
 };
 
 int
