@@ -164,7 +164,7 @@ public:
                 D2D1_FACTORY_TYPE_SINGLE_THREADED,
                 __uuidof(ID2D1Factory1),
                 &options,
-                (void **)&d2d_factory
+                static_cast<void **>(&d2d_factory)
             )
         );
 
@@ -191,26 +191,28 @@ public:
             )
         );
 
-        throw_if_failed(
-            DWriteCreateFactory(
-                DWRITE_FACTORY_TYPE_SHARED,
-                __uuidof(dwrite_factory),
-                reinterpret_cast<IUnknown **>(&dwrite_factory)
-            )
-        );
-
-        throw_if_failed(
-            dwrite_factory->CreateTextFormat(
-                L"Sampradaya",
-                nullptr,
-                DWRITE_FONT_WEIGHT_NORMAL,
-                DWRITE_FONT_STYLE_NORMAL,
-                DWRITE_FONT_STRETCH_NORMAL,
-                5000.f/96,
-                L"", //locale
-                &text_format
-            )
-        );
+        {
+            ComPtr<IDWriteFactory> dwrite_factory;
+            throw_if_failed(
+                DWriteCreateFactory(
+                    DWRITE_FACTORY_TYPE_SHARED,
+                    __uuidof(dwrite_factory),
+                    &dwrite_factory
+                )
+            );
+            throw_if_failed(
+                dwrite_factory->CreateTextFormat(
+                    L"Sampradaya",
+                    nullptr,
+                    DWRITE_FONT_WEIGHT_NORMAL,
+                    DWRITE_FONT_STYLE_NORMAL,
+                    DWRITE_FONT_STRETCH_NORMAL,
+                    5000.f/96,
+                    L"", //locale
+                    &text_format
+                )
+            );
+        }
     }
 
     ~Text_to_image_renderer() {
@@ -252,14 +254,17 @@ public:
             )
         );
 
-        auto render_target_size = render_target->GetSize();
-        render_target->DrawText(
-            utf16_text.c_str(),
-            utf16_text.length(),
-            text_format.Get(),
-            RectF(0, 0, render_target_size.width, render_target_size.height),
-            black_brush
-            );
+        {
+            auto render_target_size = render_target->GetSize();
+            auto render_rect = RectF(0, 0, render_target_size.width, render_target_size.height);
+            render_target->DrawText(
+                utf16_text.c_str(),
+                utf16_text.length(),
+                text_format.Get(),
+                render_rect,
+                black_brush
+                );
+        }
 
         throw_if_failed(
             render_target->EndDraw()
@@ -326,9 +331,9 @@ public:
 private:
     ID2D1RenderTarget *render_target;
     ID2D1SolidColorBrush *black_brush;
-    IDWriteFactory *dwrite_factory;
     IWICImagingFactory2 *wic_factory;
     IWICBitmap *wic_bitmap;
+
     ComPtr<IDWriteTextFormat> text_format;
 };
 
