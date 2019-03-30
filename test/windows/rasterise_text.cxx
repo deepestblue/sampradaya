@@ -180,7 +180,7 @@ public:
             };
             throw_if_failed(
                 d2d_factory->CreateWicBitmapRenderTarget(
-                    wic_bitmap,
+                    wic_bitmap.Get(),
                     &render_props,
                     &render_target
                 )
@@ -218,9 +218,7 @@ public:
         );
     }
 
-    ~Text_to_image_renderer() {
-        CoUninitialize();
-    }
+    ~Text_to_image_renderer() {}
 
     void
     operator ()(
@@ -314,7 +312,7 @@ public:
                 );
                 throw_if_failed(
                     wic_frame_encode->WriteSource(
-                        wic_bitmap,
+                        wic_bitmap.Get(),
                         nullptr
                     )
                 );
@@ -330,13 +328,11 @@ public:
     }
 
 private:
-    ID2D1RenderTarget *render_target;
-    IWICBitmap *wic_bitmap;
-
-    IWICImagingFactory2 *wic_factory;
-
-    ComPtr<ID2D1SolidColorBrush> black_brush;
+    ComPtr<IWICImagingFactory2> wic_factory;
+    ComPtr<IWICBitmap> wic_bitmap;
+    ComPtr<ID2D1RenderTarget> render_target;
     ComPtr<IDWriteTextFormat> text_format;
+    ComPtr<ID2D1SolidColorBrush> black_brush;
 };
 
 int
@@ -350,7 +346,7 @@ wmain(
     );
     const auto input_file = wstring{argv[1]};
     const auto output_dir = wstring{argv[2]};
-
+{
     auto renderer = Text_to_image_renderer{};
 
     auto input_stream = ifstream{input_file};
@@ -368,7 +364,9 @@ wmain(
         renderer(line, output_dir + L"/" + to_wstring(i) + L".png");
         ++i;
     }
+}
 
+    CoUninitialize();
     return 0;
 }
 catch (const exception &e) {
