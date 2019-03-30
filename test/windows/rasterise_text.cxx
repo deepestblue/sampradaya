@@ -143,6 +143,32 @@ public:
     }
 };
 
+wstring
+utf8_to_utf16(
+    const string &in
+) {
+    auto buf_size = MultiByteToWideChar(
+        CP_UTF8,
+        MB_ERR_INVALID_CHARS,
+        in.c_str(),
+        in.length(),
+        nullptr,
+        0
+    );
+    auto out = wstring(buf_size, 0);
+    throw_if_failed(
+        MultiByteToWideChar(
+            CP_UTF8,
+            MB_ERR_INVALID_CHARS,
+            in.c_str(),
+            in.length(),
+            out.data(),
+            buf_size
+        )
+    );
+    return out;
+}
+
 class Text_to_image_renderer {
 public:
     Text_to_image_renderer()
@@ -207,7 +233,7 @@ public:
             );
             throw_if_failed(
                 dwrite_factory->CreateTextFormat(
-                    L"Sampradaya",
+                    typeface_name.c_str(),
                     nullptr,
                     DWRITE_FONT_WEIGHT_NORMAL,
                     DWRITE_FONT_STYLE_NORMAL,
@@ -237,27 +263,8 @@ public:
             ColorF(ColorF::White)
         );
 
-        auto buf_size = MultiByteToWideChar(
-            CP_UTF8,
-            MB_ERR_INVALID_CHARS,
-            text.c_str(),
-            text.length(),
-            nullptr,
-            0
-        );
-        auto utf16_text = wstring(buf_size, 0);
-        throw_if_failed(
-            MultiByteToWideChar(
-                CP_UTF8,
-                MB_ERR_INVALID_CHARS,
-                text.c_str(),
-                text.length(),
-                utf16_text.data(),
-                buf_size
-            )
-        );
-
         {
+            auto utf16_text = utf8_to_utf16(text);
             auto render_target_size = render_target->GetSize();
             auto render_rect = RectF(0, 0, render_target_size.width, render_target_size.height);
             render_target->DrawText(
@@ -337,6 +344,8 @@ private:
     ComPtr<ID2D1RenderTarget> render_target;
     ComPtr<IDWriteTextFormat> text_format;
     ComPtr<ID2D1SolidColorBrush> black_brush;
+
+    const wstring typeface_name = L"Sampradaya";
 };
 
 int
