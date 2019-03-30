@@ -177,7 +177,7 @@ public:
         };
         throw_if_failed(
             d2d_factory->CreateWicBitmapRenderTarget(
-                wic_bitmap,
+                wic_bitmap.Get(),
                 &render_props,
                 &render_target
             )
@@ -255,7 +255,7 @@ public:
         render_target->DrawText(
             utf16_text.c_str(),
             utf16_text.length(),
-            text_format,
+            text_format.Get(),
             RectF(0, 0, render_target_size.width, render_target_size.height),
             black_brush
             );
@@ -307,7 +307,7 @@ public:
                 );
                 throw_if_failed(
                     wic_frame_encode->WriteSource(
-                        wic_bitmap,
+                        wic_bitmap.Get(),
                         nullptr
                     )
                 );
@@ -323,13 +323,13 @@ public:
     }
 
 private:
-    ID2D1Factory1 *d2d_factory;
+    ComPtr<ID2D1Factory1> d2d_factory;
     ID2D1RenderTarget *render_target;
     ID2D1SolidColorBrush *black_brush;
     IDWriteFactory *dwrite_factory;
     IWICImagingFactory2 *wic_factory;
-    IWICBitmap *wic_bitmap;
-    IDWriteTextFormat *text_format;
+    ComPtr<IWICBitmap> wic_bitmap;
+    ComPtr<IDWriteTextFormat> text_format;
 };
 
 int
