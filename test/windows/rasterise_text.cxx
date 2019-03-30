@@ -164,32 +164,28 @@ public:
                 D2D1_FACTORY_TYPE_SINGLE_THREADED,
                 __uuidof(ID2D1Factory1),
                 &options,
-                static_cast<void **>(&d2d_factory)
+                &d2d_factory
             )
         );
 
-        auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
-            D2D1_RENDER_TARGET_TYPE_DEFAULT,
-            PixelFormat(DXGI_FORMAT_UNKNOWN,D2D1_ALPHA_MODE_IGNORE),
-            0,
-            0,
-            D2D1_RENDER_TARGET_USAGE_NONE,
-            D2D1_FEATURE_LEVEL_DEFAULT,
-        };
-        throw_if_failed(
-            d2d_factory->CreateWicBitmapRenderTarget(
-                wic_bitmap,
-                &render_props,
-                &render_target
-            )
-        );
-
-        throw_if_failed(
-            render_target->CreateSolidColorBrush(
-                ColorF(ColorF::Black),
-                &black_brush
-            )
-        );
+        {
+            auto pixel_format = PixelFormat(DXGI_FORMAT_UNKNOWN,D2D1_ALPHA_MODE_IGNORE);
+            auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
+                D2D1_RENDER_TARGET_TYPE_DEFAULT,
+                pixel_format,
+                0,
+                0,
+                D2D1_RENDER_TARGET_USAGE_NONE,
+                D2D1_FEATURE_LEVEL_DEFAULT,
+            };
+            throw_if_failed(
+                d2d_factory->CreateWicBitmapRenderTarget(
+                    wic_bitmap,
+                    &render_props,
+                    &render_target
+                )
+            );
+        }
 
         {
             ComPtr<IDWriteFactory> dwrite_factory;
@@ -213,6 +209,13 @@ public:
                 )
             );
         }
+
+        throw_if_failed(
+            render_target->CreateSolidColorBrush(
+                ColorF(ColorF::Black),
+                &black_brush
+            )
+        );
     }
 
     ~Text_to_image_renderer() {
@@ -225,11 +228,9 @@ public:
         const wstring &output_filename
     ) {
         render_target->BeginDraw();
-
         render_target->SetTransform(
             Matrix3x2F::Identity()
         );
-
         render_target->Clear(
             ColorF(ColorF::White)
         );
@@ -262,7 +263,7 @@ public:
                 utf16_text.length(),
                 text_format.Get(),
                 render_rect,
-                black_brush
+                black_brush.Get()
                 );
         }
 
@@ -330,10 +331,11 @@ public:
 
 private:
     ID2D1RenderTarget *render_target;
-    ID2D1SolidColorBrush *black_brush;
-    IWICImagingFactory2 *wic_factory;
     IWICBitmap *wic_bitmap;
 
+    IWICImagingFactory2 *wic_factory;
+
+    ComPtr<ID2D1SolidColorBrush> black_brush;
     ComPtr<IDWriteTextFormat> text_format;
 };
 
