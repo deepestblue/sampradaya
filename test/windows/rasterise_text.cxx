@@ -157,6 +157,7 @@ public:
             )
         );
 
+        ComPtr<ID2D1Factory1> d2d_factory;
         auto options = D2D1_FACTORY_OPTIONS{};
         throw_if_failed(
             D2D1CreateFactory(
@@ -177,7 +178,7 @@ public:
         };
         throw_if_failed(
             d2d_factory->CreateWicBitmapRenderTarget(
-                wic_bitmap.Get(),
+                wic_bitmap,
                 &render_props,
                 &render_target
             )
@@ -307,7 +308,7 @@ public:
                 );
                 throw_if_failed(
                     wic_frame_encode->WriteSource(
-                        wic_bitmap.Get(),
+                        wic_bitmap,
                         nullptr
                     )
                 );
@@ -323,12 +324,11 @@ public:
     }
 
 private:
-    ComPtr<ID2D1Factory1> d2d_factory;
     ID2D1RenderTarget *render_target;
     ID2D1SolidColorBrush *black_brush;
     IDWriteFactory *dwrite_factory;
     IWICImagingFactory2 *wic_factory;
-    ComPtr<IWICBitmap> wic_bitmap;
+    IWICBitmap *wic_bitmap;
     ComPtr<IDWriteTextFormat> text_format;
 };
 
