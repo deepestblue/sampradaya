@@ -6,6 +6,7 @@
 #include <vector>
 
 #include "comdef.h"
+#include "wrl/client.h"
 #include "d2d1_1.h"
 #include "dwrite.h"
 #include "wincodec.h"
@@ -19,6 +20,11 @@
 // cl rasterise_text.cxx /EHsc /std:c++latest /nologo /W4 /Zi d2d1.lib dwrite.lib
 
 using namespace std;
+using Microsoft::WRL::ComPtr;
+using D2D1::ColorF;
+using D2D1::RectF;
+using D2D1::PixelFormat;
+using D2D1::Matrix3x2F;
 
 template<typename T, typename U>
 void
@@ -163,7 +169,7 @@ public:
 
         auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
             D2D1_RENDER_TARGET_TYPE_DEFAULT,
-            D2D1::PixelFormat(DXGI_FORMAT_UNKNOWN,D2D1_ALPHA_MODE_IGNORE),
+            PixelFormat(DXGI_FORMAT_UNKNOWN,D2D1_ALPHA_MODE_IGNORE),
             0,
             0,
             D2D1_RENDER_TARGET_USAGE_NONE,
@@ -179,7 +185,7 @@ public:
 
         throw_if_failed(
             render_target->CreateSolidColorBrush(
-                D2D1::ColorF(D2D1::ColorF::Black),
+                ColorF(ColorF::Black),
                 &black_brush
             )
         );
@@ -218,11 +224,11 @@ public:
         render_target->BeginDraw();
 
         render_target->SetTransform(
-            D2D1::Matrix3x2F::Identity()
+            Matrix3x2F::Identity()
         );
 
         render_target->Clear(
-            D2D1::ColorF(D2D1::ColorF::White)
+            ColorF(ColorF::White)
         );
 
         auto buf_size = MultiByteToWideChar(
@@ -250,7 +256,7 @@ public:
             utf16_text.c_str(),
             utf16_text.length(),
             text_format,
-            D2D1::RectF(0, 0, render_target_size.width, render_target_size.height),
+            RectF(0, 0, render_target_size.width, render_target_size.height),
             black_brush
             );
 
