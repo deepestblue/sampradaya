@@ -128,16 +128,25 @@ throw_if_failed(int return_code) {
     throw GLE_exception();
 }
 
-class Text_to_image_renderer {
+class COM_initer {
 public:
-    Text_to_image_renderer()
-    {
+    COM_initer() {
         throw_if_failed(
             CoInitializeEx(
                 nullptr,
                 COINIT_MULTITHREADED
             )
         );
+    }
+    ~COM_initer() {
+        CoUninitialize();
+    }
+};
+
+class Text_to_image_renderer {
+public:
+    Text_to_image_renderer()
+    {
         throw_if_failed(
             CoCreateInstance(
                 CLSID_WICImagingFactory,
@@ -218,17 +227,12 @@ public:
         );
     }
 
-    ~Text_to_image_renderer() {}
-
     void
     operator ()(
         const string &text,
         const wstring &output_filename
     ) {
         render_target->BeginDraw();
-        render_target->SetTransform(
-            Matrix3x2F::Identity()
-        );
         render_target->Clear(
             ColorF(ColorF::White)
         );
@@ -346,7 +350,9 @@ wmain(
     );
     const auto input_file = wstring{argv[1]};
     const auto output_dir = wstring{argv[2]};
-{
+
+    auto com_initer = COM_initer{};
+
     auto renderer = Text_to_image_renderer{};
 
     auto input_stream = ifstream{input_file};
@@ -364,9 +370,7 @@ wmain(
         renderer(line, output_dir + L"/" + to_wstring(i) + L".png");
         ++i;
     }
-}
 
-    CoUninitialize();
     return 0;
 }
 catch (const exception &e) {
