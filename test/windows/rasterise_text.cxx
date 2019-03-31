@@ -5,6 +5,7 @@
 #include <iomanip>
 #include <vector>
 #include <limits>
+#include <iostream>
 
 #define NOMINMAX
 #define UNICODE
@@ -15,11 +16,7 @@
 #include "dwrite.h"
 #include "wincodec.h"
 
-#define DEBUG
-
-#ifdef DEBUG
-#include <iostream>
-#endif
+//#define DEBUG
 
 // cl rasterise_text.cxx /EHsc /std:c++latest /nologo /W4 /Zi d2d1.lib dwrite.lib
 
@@ -186,17 +183,6 @@ public:
             )
         );
 
-        throw_if_failed(
-            wic_factory->CreateBitmap(
-                1000,
-                72,
-                GUID_WICPixelFormat32bppBGR,
-                WICBitmapCacheOnDemand,
-                &wic_bitmap
-            )
-        );
-
-        ComPtr<ID2D1Factory1> d2d_factory;
         auto options = D2D1_FACTORY_OPTIONS{};
         throw_if_failed(
             D2D1CreateFactory(
@@ -208,7 +194,77 @@ public:
         );
 
         {
-            auto pixel_format = PixelFormat(DXGI_FORMAT_UNKNOWN,D2D1_ALPHA_MODE_IGNORE);
+            throw_if_failed(
+                DWriteCreateFactory(
+                    DWRITE_FACTORY_TYPE_SHARED,
+                    __uuidof(dwrite_factory),
+                    &dwrite_factory
+                )
+            );
+            throw_if_failed(
+                dwrite_factory->CreateTextFormat(
+                    typeface_name.c_str(),
+                    nullptr,
+                    DWRITE_FONT_WEIGHT_NORMAL,
+                    DWRITE_FONT_STYLE_NORMAL,
+                    DWRITE_FONT_STRETCH_NORMAL,
+                    50.f,
+                    L"", //locale
+                    &text_format
+                )
+            );
+        }
+    }
+
+    void
+    operator ()(
+        const string &text,
+        const wstring &output_filename
+    ) {
+        auto utf16_text = utf8_to_utf16(text);
+
+        ComPtr<IDWriteTextLayout> dwrite_text_layout;
+        throw_if_failed(
+            dwrite_factory->CreateTextLayout(
+                utf16_text.c_str(),
+                utf16_text.length(),
+                text_format.Get(),
+                numeric_limits<float>::max(),
+                numeric_limits<float>::max(),
+                &dwrite_text_layout
+            )
+        );
+
+        DWRITE_TEXT_METRICS metrics;
+        throw_if_failed(
+            dwrite_text_layout->GetMetrics(
+                &metrics
+            )
+        );
+
+#ifdef DEBUG
+        wcout << "Metrics for " << text.c_str() << " are as follows." << endl;
+        wcout << "Width: " << metrics.width << endl;
+        wcout << "Height: " << metrics.height << endl;
+#endif
+
+        ComPtr<IWICBitmap> wic_bitmap;
+        throw_if_failed(
+            wic_factory->CreateBitmap(
+                static_cast<unsigned int>(metrics.width),
+                static_cast<unsigned int>(metrics.height),
+                GUID_WICPixelFormat32bppBGR,
+                WICBitmapCacheOnDemand,
+                &wic_bitmap
+            )
+        );
+
+        ComPtr<ID2D1RenderTarget> render_target;
+        {
+            auto pixel_format = PixelFormat(
+                DXGI_FORMAT_UNKNOWN,
+                D2D1_ALPHA_MODE_IGNORE
+            );
             auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
                 D2D1_RENDER_TARGET_TYPE_DEFAULT,
                 pixel_format,
@@ -226,77 +282,24 @@ public:
             );
         }
 
-        {
-            throw_if_failed(
-                DWriteCreateFactory(
-                    DWRITE_FACTORY_TYPE_SHARED,
-                    __uuidof(dwrite_factory),
-                    &dwrite_factory
-                )
-            );
-            throw_if_failed(
-                dwrite_factory->CreateTextFormat(
-                    typeface_name.c_str(),
-                    nullptr,
-                    DWRITE_FONT_WEIGHT_NORMAL,
-                    DWRITE_FONT_STYLE_NORMAL,
-                    DWRITE_FONT_STRETCH_NORMAL,
-                    5000.f/96,
-                    L"", //locale
-                    &text_format
-                )
-            );
-        }
+        render_target->BeginDraw();
+        render_target->Clear(
+            ColorF(ColorF::White)
+        );
 
+        ComPtr<ID2D1SolidColorBrush> black_brush;
         throw_if_failed(
             render_target->CreateSolidColorBrush(
                 ColorF(ColorF::Black),
                 &black_brush
             )
         );
-    }
-
-    void
-    operator ()(
-        const string &text,
-        const wstring &output_filename
-    ) {
-        render_target->BeginDraw();
-        render_target->Clear(
-            ColorF(ColorF::White)
+        render_target->DrawTextLayout(
+            D2D1_POINT_2F{},
+            dwrite_text_layout.Get(),
+            black_brush.Get(),
+            D2D1_DRAW_TEXT_OPTIONS_NONE
         );
-
-        {
-            auto utf16_text = utf8_to_utf16(text);
-            auto render_target_size = render_target->GetSize();
-            ComPtr<IDWriteTextLayout> dwrite_text_layout;
-            throw_if_failed(
-                dwrite_factory->CreateTextLayout(
-                    utf16_text.c_str(),
-                    utf16_text.length(),
-                    text_format.Get(),
-                    numeric_limits<float>::max(),
-                    numeric_limits<float>::max(),
-                    &dwrite_text_layout
-                )
-            );
-            render_target->DrawTextLayout(
-                D2D1_POINT_2F{},
-                dwrite_text_layout.Get(),
-                black_brush.Get(),
-                D2D1_DRAW_TEXT_OPTIONS_NONE
-            );
-
-            DWRITE_TEXT_METRICS metrics;
-            throw_if_failed(
-                dwrite_text_layout->GetMetrics(
-                    &metrics
-                )
-            );
-            wcout << "Metrics for " << text.c_str() << " are as follows." << endl;
-            wcout << "Width: " << metrics.width << endl;
-            wcout << "Height: " << metrics.height << endl;
-        }
 
         throw_if_failed(
             render_target->EndDraw()
@@ -362,12 +365,9 @@ public:
 
 private:
     ComPtr<IWICImagingFactory2> wic_factory;
-    ComPtr<IWICBitmap> wic_bitmap;
-    ComPtr<ID2D1RenderTarget> render_target;
     ComPtr<IDWriteTextFormat> text_format;
-    ComPtr<ID2D1SolidColorBrush> black_brush;
-
     ComPtr<IDWriteFactory> dwrite_factory;
+    ComPtr<ID2D1Factory1> d2d_factory;
     const wstring typeface_name = L"Sampradaya";
 };
 
@@ -406,8 +406,8 @@ wmain(
     return 0;
 }
 catch (const exception &e) {
-    wcout << "Exception thrown: " << e.what() << endl;
+    wcerr << "Exception thrown: " << e.what() << endl;
 }
 catch (...) {
-    wcout << "Something else thrown" << endl;
+    wcerr << "Something else thrown" << endl;
 }
