@@ -1,5 +1,7 @@
 @ECHO OFF
 
+cl rasterise_text.cxx /EHsc /std:c++latest /nologo /W4 /Zi d2d1.lib dwrite.lib
+
 IF NOT EXIST master_images MD master_images
 IF NOT EXIST master_images\character_set MD master_images\character_set
 rasterise_text ..\cases\character_set.txt master_images\character_set

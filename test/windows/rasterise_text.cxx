@@ -8,7 +8,6 @@
 #include <iostream>
 
 #define NOMINMAX
-#define UNICODE
 
 #include "comdef.h"
 #include "wrl/client.h"
@@ -17,8 +16,6 @@
 #include "wincodec.h"
 
 //#define DEBUG
-
-// cl rasterise_text.cxx /EHsc /std:c++latest /nologo /W4 /Zi d2d1.lib dwrite.lib
 
 using namespace std;
 using Microsoft::WRL::ComPtr;
