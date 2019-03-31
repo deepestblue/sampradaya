@@ -320,7 +320,7 @@ public:
             auto wic_bitmap_encoder = static_cast<IWICBitmapEncoder *>(nullptr);
             throw_if_failed(
                 wic_factory->CreateEncoder(
-                    GUID_ContainerFormatPng,
+                    GUID_ContainerFormatBmp,
                     nullptr,
                     &wic_bitmap_encoder
                 )
@@ -399,7 +399,7 @@ wmain(
     while (getline(input_stream, line)) {
         if (line.empty())
             continue;
-        renderer(line, output_dir + L"/" + to_wstring(i) + L".png");
+        renderer(line, output_dir + L"/" + to_wstring(i) + L".bmp");
         ++i;
     }
 
