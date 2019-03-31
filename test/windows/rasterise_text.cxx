@@ -4,6 +4,10 @@
 #include <exception>
 #include <iomanip>
 #include <vector>
+#include <limits>
+
+#define NOMINMAX
+#define UNICODE
 
 #include "comdef.h"
 #include "wrl/client.h"
@@ -223,7 +227,6 @@ public:
         }
 
         {
-            ComPtr<IDWriteFactory> dwrite_factory;
             throw_if_failed(
                 DWriteCreateFactory(
                     DWRITE_FACTORY_TYPE_SHARED,
@@ -266,14 +269,33 @@ public:
         {
             auto utf16_text = utf8_to_utf16(text);
             auto render_target_size = render_target->GetSize();
-            auto render_rect = RectF(0, 0, render_target_size.width, render_target_size.height);
-            render_target->DrawText(
-                utf16_text.c_str(),
-                utf16_text.length(),
-                text_format.Get(),
-                render_rect,
-                black_brush.Get()
-                );
+            ComPtr<IDWriteTextLayout> dwrite_text_layout;
+            throw_if_failed(
+                dwrite_factory->CreateTextLayout(
+                    utf16_text.c_str(),
+                    utf16_text.length(),
+                    text_format.Get(),
+                    numeric_limits<float>::max(),
+                    numeric_limits<float>::max(),
+                    &dwrite_text_layout
+                )
+            );
+            render_target->DrawTextLayout(
+                D2D1_POINT_2F{},
+                dwrite_text_layout.Get(),
+                black_brush.Get(),
+                D2D1_DRAW_TEXT_OPTIONS_NONE
+            );
+
+            DWRITE_TEXT_METRICS metrics;
+            throw_if_failed(
+                dwrite_text_layout->GetMetrics(
+                    &metrics
+                )
+            );
+            wcout << "Metrics for " << text.c_str() << " are as follows." << endl;
+            wcout << "Width: " << metrics.width << endl;
+            wcout << "Height: " << metrics.height << endl;
         }
 
         throw_if_failed(
@@ -345,6 +367,7 @@ private:
     ComPtr<IDWriteTextFormat> text_format;
     ComPtr<ID2D1SolidColorBrush> black_brush;
 
+    ComPtr<IDWriteFactory> dwrite_factory;
     const wstring typeface_name = L"Sampradaya";
 };
 
