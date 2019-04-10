@@ -55,7 +55,7 @@ public:
             CP_UTF8,
             WC_ERR_INVALID_CHARS,
             utf16_message.c_str(),
-            utf16_message.length(),
+            static_cast<int>(utf16_message.length()),
             nullptr,
             0,
             nullptr,
@@ -66,7 +66,7 @@ public:
             CP_UTF8,
             WC_ERR_INVALID_CHARS,
             utf16_message.c_str(),
-            utf16_message.length(),
+            static_cast<int>(utf16_message.length()),
             message.data(),
             required_size,
             nullptr,
@@ -149,7 +149,7 @@ utf8_to_utf16(
         CP_UTF8,
         MB_ERR_INVALID_CHARS,
         in.c_str(),
-        in.length(),
+        static_cast<int>(in.length()),
         nullptr,
         0
     );
@@ -159,7 +159,7 @@ utf8_to_utf16(
             CP_UTF8,
             MB_ERR_INVALID_CHARS,
             in.c_str(),
-            in.length(),
+            static_cast<int>(in.length()),
             out.data(),
             buf_size
         )
@@ -224,7 +224,7 @@ public:
         throw_if_failed(
             dwrite_factory->CreateTextLayout(
                 utf16_text.c_str(),
-                utf16_text.length(),
+                static_cast<uint32_t>(utf16_text.length()),
                 text_format.Get(),
                 numeric_limits<float>::max(),
                 numeric_limits<float>::max(),
