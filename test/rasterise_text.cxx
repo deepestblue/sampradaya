@@ -52,7 +52,7 @@ public:
         const auto image = render_text(qtext, bounding_rect);
 
         assert_and_throw(
-            image.save(QString::fromStdString(output_filename), "PNG")
+            image.save(QString::fromStdString(output_filename))
         );
     }
 
@@ -113,7 +113,7 @@ main(int argc, char *argv[]) {
 
     Text_to_image_renderer text_to_image_renderer{argc, argv};
 
-    auto output_dir_format = format{"%1%/%2%.png"};
+    auto output_dir_format = format{"%1%/%2%.bmp"};
     auto input_stream = ifstream{input_file};
     auto line = string{};
 
