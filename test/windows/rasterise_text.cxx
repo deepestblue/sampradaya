@@ -47,7 +47,8 @@ public:
     what() const override {
         auto s = wstringstream{};
         s << L"Failure with HRESULT of 0x";
-        s << setfill(L'0') << setw(8) << hex << static_cast<unsigned int>(hresult);
+        s << setfill(L'0') << setw(sizeof(HRESULT) * 2) // 2 hex digits per char
+            << hex << static_cast<unsigned int>(hresult);
         s << setw(0) << " (" << com_error.ErrorMessage() << " )\n";
         const auto &utf16_message = s.str();
 
@@ -205,7 +206,7 @@ public:
                     DWRITE_FONT_WEIGHT_NORMAL,
                     DWRITE_FONT_STYLE_NORMAL,
                     DWRITE_FONT_STRETCH_NORMAL,
-                    50.f,
+                    typeface_size_pt,
                     L"", //locale
                     &text_format
                 )
@@ -279,6 +280,7 @@ public:
             );
         }
 
+        render_target->SetTextAntialiasMode(D2D1_TEXT_ANTIALIAS_MODE::D2D1_TEXT_ANTIALIAS_MODE_ALIASED);
         render_target->BeginDraw();
         render_target->Clear(
             ColorF(ColorF::White)
@@ -366,6 +368,7 @@ private:
     ComPtr<IDWriteFactory> dwrite_factory;
     ComPtr<ID2D1Factory1> d2d_factory;
     const wstring typeface_name = L"Sampradaya";
+    const float typeface_size_pt = 48;
 };
 
 int
