@@ -368,7 +368,7 @@ private:
     ComPtr<IDWriteFactory> dwrite_factory;
     ComPtr<ID2D1Factory1> d2d_factory;
     const wstring typeface_name = L"Sampradaya";
-    const float typeface_size_pt = 48;
+    const float typeface_size_pt = 48.f;
 };
 
 int
