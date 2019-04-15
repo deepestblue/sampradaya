@@ -1,7 +1,9 @@
 syntax: glob
 
 .DS_Store
-*.out
+test/rasterise_text.out
+test/windows/rasterise_text.{exe,obj}
 .vscode
 .actuals
 .diffs
+
