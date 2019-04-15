@@ -36,12 +36,15 @@ class Text_to_image_renderer {
 public:
     Text_to_image_renderer(int argc, char *argv[])
     : app(argc, argv)
-    , font("Sampradaya")
+    , font("Sampradaya", typeface_size_pt)
+    , metrics(font)
     , dummy(1, 1, QImage::Format_RGB32)  // Has to be non-zero sized for QPainter::begin(...) to succeed
     {
-        const auto pointSize = font.pointSize();
-        assert_and_throw(pointSize > 0);
-        font.setPointSize(pointSize * 4);
+#ifdef DEBUG
+        auto metrics_format = format{"For the Sampradaya font, ascent: %1%, descent: %2%, leading: %3%."s};
+        cout << metrics_format % metrics.ascent() % metrics.descent() % metrics.leading() << '\n';
+#endif
+        font.setStyleStrategy(QFont::NoAntialias);
     }
 
     void
@@ -59,29 +62,39 @@ public:
 private:
     QRect
     get_bounding_rect(const QString &qtext) {
-        return paint_on(dummy,
+        return paint_on(
+            dummy,
             [&]() {
-                const auto r = painter.boundingRect(QRect(), 0, qtext);
+                const auto r = painter.boundingRect(QRect{}, 0, qtext);
 #ifdef DEBUG
                 auto bounding_rect_format = format{"For string %1%, Width: %2%, Height: %3%."s};
                 cout << bounding_rect_format % qtext.toStdString() % r.width() % r.height() << '\n';
 #endif
                 return r;
-        });
+            }
+        );
     }
 
     QImage
     render_text(const QString &qtext, const QRect &bounding_rect) {
-        //
-        // These should be bounding_rect.width and bounding_rect.height below, but height seems to
-        // not take descenders into account. Probably a typeface bug.
-        //
-        auto image = QImage{bounding_rect.width(), 72, QImage::Format_RGB32};
-        image.fill(Qt::white);
-        paint_on(image,
+        auto image = QImage{
+            bounding_rect.width(),
+            bounding_rect.height() + 20, // We seem to need a bit more height on Qt. Probably a typeface bug???
+            QImage::Format_RGB32
+        };
+        image.fill(
+            Qt::white
+        );
+        paint_on(
+            image,
             [&]() {
-                painter.drawText(0, bounding_rect.height(), qtext);
-            });
+                painter.drawText(
+                    0,
+                    bounding_rect.height() - metrics.descent() - metrics.leading() + 5, // What's going on here?
+                    qtext
+                );
+            }
+        );
         return image;
     }
 
@@ -101,8 +114,10 @@ private:
 
     QApplication app;
     QFont font;
+    QFontMetrics metrics;
     QPainter painter;
     QImage dummy;
+    static const int typeface_size_pt = 48;
 };
 
 int
