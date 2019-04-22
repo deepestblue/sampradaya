@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1555305061
+ModificationTime: 1555909589
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -60,7 +60,7 @@ Lookup: 4 0 0 "'akhn' Akhand lookup 1" { "'akhn' Akhand lookup 1 subtable"  } ['
 Lookup: 4 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2 subtable"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms lookup 3" { "'pstf' Post Base Forms lookup 3 subtable"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4 subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'akhn' Akhand lookup 5" { "'akhn' Akhand lookup 5 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 1 "'rlig' Required Ligatures lookup 7" { "'rlig' Required Ligatures lookup 7-1"  } ['rlig' ('DFLT' <'dflt' > 'deva' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -321,6 +321,8 @@ DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 64 8 2
+BeginPrivate: 0
+EndPrivate
 BeginChars: 1114113 191
 
 StartChar: .notdef
@@ -393,7 +395,7 @@ EndChar
 
 StartChar: .null
 Encoding: 29 29 1
-AltUni2: 000008.ffffffff.0 000000.ffffffff.0
+AltUni2: 000000.ffffffff.0 000008.ffffffff.0
 Width: 0
 GlyphClass: 2
 Flags: W
@@ -12479,7 +12481,7 @@ SplineSet
  351 -58 351 -58 341 -63.5 c 128,-1,57
  331 -69 331 -69 319 -69 c 0,33,34
 EndSplineSet
-Ligature2: "'akhn' Akhand lookup 5 subtable" u1131F u1133F
+Ligature2: "'rlig' Required Ligatures lookup 7-1" u1131F u1133F
 EndChar
 
 StartChar: uE481
@@ -12547,7 +12549,7 @@ SplineSet
  351 -58 351 -58 341 -63.5 c 128,-1,73
  331 -69 331 -69 319 -69 c 0,49,50
 EndSplineSet
-Ligature2: "'akhn' Akhand lookup 5 subtable" u1131F u11340
+Ligature2: "'rlig' Required Ligatures lookup 7-1" u1131F u11340
 EndChar
 
 StartChar: uE482
@@ -12649,7 +12651,7 @@ SplineSet
  165 199 165 199 121 175 c 0,126,127
  111 169 111 169 108 157 c 0,116,117
 EndSplineSet
-Ligature2: "'akhn' Akhand lookup 5 subtable" u1132C u1133F
+Ligature2: "'rlig' Required Ligatures lookup 7-1" u1132C u1133F
 EndChar
 
 StartChar: uE483
@@ -12761,7 +12763,7 @@ SplineSet
  485 369 485 369 460 361 c 0,139,140
  404 343 404 343 387 257 c 1,29,30
 EndSplineSet
-Ligature2: "'akhn' Akhand lookup 5 subtable" u1132C u11340
+Ligature2: "'rlig' Required Ligatures lookup 7-1" u1132C u11340
 EndChar
 
 StartChar: uE500
