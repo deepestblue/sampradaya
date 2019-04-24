@@ -19,7 +19,7 @@ mkdir -p $ACTUALSDIR
 rsync -rc --compare-dest=$TMPDIR/ $SCRIPTDIR/master_images/ $ACTUALSDIR/
 rsync -rc --existing $TMPDIR/ $ACTUALSDIR/
 find $ACTUALSDIR -type d -depth -empty -exec rmdir "{}" \;
-rm $ACTUALSDIR/.DS_Store
+rm -f $ACTUALSDIR/.DS_Store
 
 DIFFSDIR=$(grealpath --relative-to=. $SCRIPTDIR/../.diffs)
 rm -rf $DIFFSDIR
@@ -27,7 +27,7 @@ mkdir -p $DIFFSDIR
 
 for i in $(find $ACTUALSDIR -type f); do
     mkdir -p $(dirname $DIFFSDIR/${i#$ACTUALSDIR/})
-    compare -compose src test/master_images/${i#$ACTUALSDIR/} $i $DIFFSDIR/${i#$ACTUALSDIR/} || {
+    compare -compose src test/osx/master_images/${i#$ACTUALSDIR/} $i $DIFFSDIR/${i#$ACTUALSDIR/} || {
         RESULT=$?
         # ImageMagick compare return 0 for identical, 1 for different and 2 for error
         [ $RESULT -gt 1 ] && exit $RESULT
