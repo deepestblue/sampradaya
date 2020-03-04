@@ -16,8 +16,8 @@ rm -rf $ACTUALSDIR
 mkdir -p $ACTUALSDIR
 # Workaround bizarre issue, where the single command below doesn't work, in that it copies all files over.
 # rsync -rc --compare-dest=master_images/ $TMPDIR/ diffs/
-rsync -rc --compare-dest=$TMPDIR/ $SCRIPTDIR/master_images/ $ACTUALSDIR/
-rsync -rc --existing $TMPDIR/ $ACTUALSDIR/
+rsync -=recursive --checksum --compare-dest=$TMPDIR/ $SCRIPTDIR/master_images/ $ACTUALSDIR/
+rsync --recursive --checksum --existing $TMPDIR/ $ACTUALSDIR/
 find $ACTUALSDIR -type d -depth -empty -exec rmdir "{}" \;
 rm -f $ACTUALSDIR/.DS_Store
 
