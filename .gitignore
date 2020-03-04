@@ -1,8 +1,6 @@
-.DS_Store
 test/osx/rasterise_text.out
 test/windows/rasterise_text.exe
 test/windows/rasterise_text.obj
 .vscode
 .actuals
 .diffs
-bin
