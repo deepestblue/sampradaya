@@ -1,6 +1,5 @@
-test/osx/rasterise_text.out
+test/osx/rasterise_text
+test/osx/rasterise_text.o
 test/windows/rasterise_text.exe
 test/windows/rasterise_text.obj
 .vscode
-.actuals
-.diffs
