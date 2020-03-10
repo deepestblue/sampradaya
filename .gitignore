@@ -2,3 +2,4 @@ test/osx/rasterise_text
 test/windows/rasterise_text.exe
 test/windows/rasterise_text.obj
 .vscode
+src/windows/Sampradaya.ttf
