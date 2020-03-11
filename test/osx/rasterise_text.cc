@@ -34,10 +34,8 @@ T &&operator ,(T &&x, Or_void) { return std::forward<T>(x); }
 
 class Font_from_file {
 public:
-    Font_from_file(
-        const string family, unsigned int point_size
-    )
-    : qfont(family.c_str(), static_cast<int>(point_size))
+    Font_from_file()
+    : qfont(typeface_family_name.c_str(), static_cast<int>(typeface_size_pt))
     , metrics(qfont)
     {
 #ifdef DEBUG
@@ -55,6 +53,9 @@ public:
         return metrics;
     }
 private:
+    const unsigned int typeface_size_pt = 48u;
+    const string typeface_family_name = "Sampradaya";
+
     QFont qfont;
     QFontMetrics metrics;
 };
@@ -63,7 +64,6 @@ class Text_to_image_renderer {
 public:
     Text_to_image_renderer(int argc, char *argv[])
     : app(argc, argv)
-    , font(typeface_family_name, typeface_size_pt)
     , dummy(1, 1, QImage::Format_RGB32)  // Has to be non-zero sized for QPainter::begin(...) to succeed
     {
     }
@@ -133,9 +133,6 @@ private:
         );
         return static_cast<decltype(fn())>(result);
     }
-
-    const unsigned int typeface_size_pt = 48u;
-    const string typeface_family_name = "Sampradaya";
 
     QApplication app;
     Font_from_file font;
