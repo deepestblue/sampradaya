@@ -1,5 +1,6 @@
 #include <string>
 #include <fstream>
+#include <experimental/filesystem>
 
 //#define DEBUG
 
@@ -12,6 +13,7 @@
 #include "QtWidgets/QApplication"
 #include "QtGui/QImage"
 #include "QtGui/QPainter"
+#include "QtGui/QFontDatabase"
 
 using namespace std;
 using boost::format;
@@ -35,8 +37,12 @@ T &&operator ,(T &&x, Or_void) { return std::forward<T>(x); }
 class Font_from_file {
 public:
     Font_from_file()
-    : qfont(typeface_family_name.c_str(), static_cast<int>(typeface_size_pt))
-    , metrics(qfont)
+    : app_font_id(
+        QFontDatabase::addApplicationFont(QString::fromStdString(absolute(typeface_file_path)))
+    ), qfont(
+        QFontDatabase::applicationFontFamilies(app_font_id).at(0),
+        static_cast<int>(typeface_size_pt)
+    ), metrics(qfont)
     {
 #ifdef DEBUG
         auto metrics_format = format{"For the Sampradaya font, ascent: %1%, descent: %2%, leading: %3%."s};
@@ -47,6 +53,12 @@ public:
         );
     }
 
+    ~Font_from_file() {
+        assert_and_throw(
+            QFontDatabase::removeApplicationFont(app_font_id)
+        );
+    }
+
     void set_on_painter(QPainter &painter) {
         painter.setFont(qfont);
     }
@@ -54,10 +66,12 @@ public:
     const QFontMetrics get_metrics() {
         return metrics;
     }
+
 private:
     const unsigned int typeface_size_pt = 48u;
-    const string typeface_family_name = "Sampradaya";
+    const experimental::filesystem::path typeface_file_path = "../../src/osx/Sampradaya.ttf";
 
+    int app_font_id;
     QFont qfont;
     QFontMetrics metrics;
 };
