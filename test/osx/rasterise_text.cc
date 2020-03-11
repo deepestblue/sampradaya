@@ -45,8 +45,9 @@ public:
     ), metrics(qfont)
     {
 #ifdef DEBUG
-        auto metrics_format = format{"For the Sampradaya font, ascent: %1%, descent: %2%, leading: %3%."s};
-        cout << metrics_format % metrics.ascent() % metrics.descent() % metrics.leading() << '\n';
+        const auto typeface_name = QFontDatabase::applicationFontFamilies(app_font_id).at(0).toStdString();
+        auto metrics_format = format{"For the %1% font, ascent: %2%, descent: %3%, leading: %4%."s};
+        cout << metrics_format % typeface_name % metrics.ascent() % metrics.descent() % metrics.leading() << '\n';
 #endif
         qfont.setStyleStrategy(
             static_cast<QFont::StyleStrategy>(QFont::NoAntialias | QFont::NoFontMerging)
