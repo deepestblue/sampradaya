@@ -40,13 +40,13 @@ public:
     : app_font_id(
         QFontDatabase::addApplicationFont(QString::fromStdString(absolute(typeface_file_path)))
     ), qfont(
-        QFontDatabase::applicationFontFamilies(app_font_id).at(0),
+        get_typeface_name(),
         static_cast<int>(typeface_size_pt)
     ), metrics(qfont)
     {
 #ifdef DEBUG
-        const auto typeface_name = QFontDatabase::applicationFontFamilies(app_font_id).at(0).toStdString();
-        auto metrics_format = format{"For the %1% font, ascent: %2%, descent: %3%, leading: %4%."s};
+        const auto typeface_name = get_typeface_name().toStdString();
+        auto metrics_format = format{"Typeface: %1%, ascent: %2%, descent: %3%, leading: %4%."s};
         cout << metrics_format % typeface_name % metrics.ascent() % metrics.descent() % metrics.leading() << '\n';
 #endif
         qfont.setStyleStrategy(
@@ -69,6 +69,13 @@ public:
     }
 
 private:
+    QString get_typeface_name() {
+        assert_and_throw(app_font_id >= 0);
+        const auto &list = QFontDatabase::applicationFontFamilies(app_font_id);
+        assert_and_throw(! list.isEmpty());
+        return list.at(0);
+    }
+
     const unsigned int typeface_size_pt = 48u;
     const experimental::filesystem::path typeface_file_path = "../../src/osx/Sampradaya.ttf";
 
