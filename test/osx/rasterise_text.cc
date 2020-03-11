@@ -32,19 +32,40 @@ struct Or_void {};
 template<typename T>
 T &&operator ,(T &&x, Or_void) { return std::forward<T>(x); }
 
-class Text_to_image_renderer {
+class Font_from_file {
 public:
-    Text_to_image_renderer(int argc, char *argv[])
-    : app(argc, argv)
-    , font("Sampradaya", typeface_size_pt)
-    , metrics(font)
-    , dummy(1, 1, QImage::Format_RGB32)  // Has to be non-zero sized for QPainter::begin(...) to succeed
+    Font_from_file(
+        const string family, unsigned int point_size
+    )
+    : qfont(family.c_str(), static_cast<int>(point_size))
+    , metrics(qfont)
     {
 #ifdef DEBUG
         auto metrics_format = format{"For the Sampradaya font, ascent: %1%, descent: %2%, leading: %3%."s};
         cout << metrics_format % metrics.ascent() % metrics.descent() % metrics.leading() << '\n';
 #endif
-        font.setStyleStrategy(QFont::NoAntialias);
+        qfont.setStyleStrategy(QFont::NoAntialias);
+    }
+
+    void set_on_painter(QPainter &painter) {
+        painter.setFont(qfont);
+    }
+
+    const QFontMetrics get_metrics() {
+        return metrics;
+    }
+private:
+    QFont qfont;
+    QFontMetrics metrics;
+};
+
+class Text_to_image_renderer {
+public:
+    Text_to_image_renderer(int argc, char *argv[])
+    : app(argc, argv)
+    , font(typeface_family_name, typeface_size_pt)
+    , dummy(1, 1, QImage::Format_RGB32)  // Has to be non-zero sized for QPainter::begin(...) to succeed
+    {
     }
 
     void
@@ -88,6 +109,7 @@ private:
         paint_on(
             image,
             [&]() {
+                const auto &metrics = font.get_metrics();
                 painter.drawText(
                     0,
                     bounding_rect.height() - metrics.descent() - metrics.leading() + 5, // What's going on here?
@@ -104,7 +126,7 @@ private:
         assert_and_throw(
             painter.begin(&image)
         );
-        painter.setFont(font);
+        font.set_on_painter(painter);
         const auto result = (fn(), Or_void{});
         assert_and_throw(
             painter.end()
@@ -112,12 +134,13 @@ private:
         return static_cast<decltype(fn())>(result);
     }
 
+    const unsigned int typeface_size_pt = 48u;
+    const string typeface_family_name = "Sampradaya";
+
     QApplication app;
-    QFont font;
-    QFontMetrics metrics;
+    Font_from_file font;
     QPainter painter;
     QImage dummy;
-    static const int typeface_size_pt = 48;
 };
 
 int
