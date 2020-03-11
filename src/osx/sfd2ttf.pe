@@ -1,0 +1,4 @@
+#!/Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge
+
+Open("Sampradaya.sfd")
+Generate("Sampradaya.ttf")
