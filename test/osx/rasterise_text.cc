@@ -32,7 +32,7 @@ void assert_and_throw(T exp) {
 //
 struct Or_void {};
 template<typename T>
-T &&operator ,(T &&x, Or_void) { return std::forward<T>(x); }
+T &&operator ,(T &&x, Or_void) { return forward<T>(x); }
 
 class Font_from_file {
 public:
