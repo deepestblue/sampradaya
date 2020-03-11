@@ -42,7 +42,9 @@ public:
         auto metrics_format = format{"For the Sampradaya font, ascent: %1%, descent: %2%, leading: %3%."s};
         cout << metrics_format % metrics.ascent() % metrics.descent() % metrics.leading() << '\n';
 #endif
-        qfont.setStyleStrategy(QFont::NoAntialias);
+        qfont.setStyleStrategy(
+            static_cast<QFont::StyleStrategy>(QFont::NoAntialias | QFont::NoFontMerging)
+        );
     }
 
     void set_on_painter(QPainter &painter) {
