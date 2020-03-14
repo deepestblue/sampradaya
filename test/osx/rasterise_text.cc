@@ -57,7 +57,7 @@ struct App_font {
     }
 
 private:
-    const experimental::filesystem::path typeface_file_path = "../../src/osx/Sampradaya.ttf";
+    const experimental::filesystem::path typeface_file_path = "../../src/osx/Sampradaya.ttf"s;
     int app_font_id;
 };
 
@@ -165,7 +165,7 @@ main(int argc, char *argv[]) {
 
     Text_to_image_renderer text_to_image_renderer{argc, argv};
 
-    auto output_dir_format = format{"%1%/%2%.bmp"};
+    auto output_dir_format = format{"%1%/%2%.bmp"s};
     auto input_stream = ifstream{input_file};
     auto line = string{};
 
