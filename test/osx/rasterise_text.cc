@@ -34,62 +34,47 @@ struct Or_void {};
 template<typename T>
 T &&operator ,(T &&x, Or_void) { return forward<T>(x); }
 
-class Font_from_file {
-public:
-    Font_from_file()
-    : app_font_id(
-        QFontDatabase::addApplicationFont(QString::fromStdString(absolute(typeface_file_path)))
-    ), qfont(
-        get_typeface_name(),
-        static_cast<int>(typeface_size_pt)
-    ), metrics(qfont)
+struct App_font {
+    App_font() :
+        app_font_id(QFontDatabase::addApplicationFont(QString::fromStdString(absolute(typeface_file_path))))
     {
-#ifdef DEBUG
-        const auto typeface_name = get_typeface_name().toStdString();
-        auto metrics_format = format{"Typeface: %1%, ascent: %2%, descent: %3%, leading: %4%."s};
-        cout << metrics_format % typeface_name % metrics.ascent() % metrics.descent() % metrics.leading() << '\n';
-#endif
-        qfont.setStyleStrategy(
-            static_cast<QFont::StyleStrategy>(QFont::NoAntialias | QFont::NoFontMerging)
-        );
+        assert_and_throw(app_font_id >= 0);
     }
-
-    ~Font_from_file() {
+    ~App_font() {
         assert_and_throw(
             QFontDatabase::removeApplicationFont(app_font_id)
         );
     }
 
-    void set_on_painter(QPainter &painter) {
-        painter.setFont(qfont);
-    }
-
-    const QFontMetrics get_metrics() {
-        return metrics;
-    }
-
-private:
-    QString get_typeface_name() {
-        assert_and_throw(app_font_id >= 0);
+    QString
+    get_typeface_name() {
         const auto &list = QFontDatabase::applicationFontFamilies(app_font_id);
         assert_and_throw(! list.isEmpty());
         return list.at(0);
     }
 
-    const unsigned int typeface_size_pt = 48u;
+private:
     const experimental::filesystem::path typeface_file_path = "../../src/osx/Sampradaya.ttf";
-
     int app_font_id;
-    QFont qfont;
-    QFontMetrics metrics;
 };
 
 class Text_to_image_renderer {
 public:
     Text_to_image_renderer(int argc, char *argv[])
     : app(argc, argv)
+    , qfont(app_font.get_typeface_name(), static_cast<int>(typeface_size_pt))
+    , metrics(qfont)
     , dummy(1, 1, QImage::Format_RGB32)  // Has to be non-zero sized for QPainter::begin(...) to succeed
     {
+#ifdef DEBUG
+        const auto typeface_name = app_font.get_typeface_name().toStdString();
+        auto metrics_format = format{"Typeface: %1%, ascent: %2%, descent: %3%, leading: %4%."s};
+        cout << metrics_format % typeface_name % metrics.ascent() % metrics.descent() % metrics.leading() << '\n';
+#endif
+
+        qfont.setStyleStrategy(
+            static_cast<QFont::StyleStrategy>(QFont::NoAntialias | QFont::NoFontMerging)
+        );
     }
 
     void
@@ -133,7 +118,6 @@ private:
         paint_on(
             image,
             [&]() {
-                const auto &metrics = font.get_metrics();
                 painter.drawText(
                     0,
                     bounding_rect.height() - metrics.descent() - metrics.leading() + 5, // What's going on here?
@@ -150,7 +134,7 @@ private:
         assert_and_throw(
             painter.begin(&image)
         );
-        font.set_on_painter(painter);
+        painter.setFont(qfont);
         const auto result = (fn(), Or_void{});
         assert_and_throw(
             painter.end()
@@ -158,8 +142,14 @@ private:
         return static_cast<decltype(fn())>(result);
     }
 
+    const unsigned int typeface_size_pt = 48u;
+
     QApplication app;
-    Font_from_file font;
+
+    App_font app_font;
+    QFont qfont;
+    QFontMetrics metrics;
+
     QPainter painter;
     QImage dummy;
 };
