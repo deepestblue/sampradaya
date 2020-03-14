@@ -1,5 +1,6 @@
 #include <string>
 #include <fstream>
+#include <stdexcept>
 #include <experimental/filesystem>
 
 //#define DEBUG
@@ -20,8 +21,10 @@ using boost::format;
 
 template<typename T>
 void assert_and_throw(T exp) {
-    if (! exp)
-        throw "Ack!";
+    if (exp)
+        return;
+
+    throw runtime_error("Assertion failed."s);
 }
 
 //
