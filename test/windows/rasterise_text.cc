@@ -167,7 +167,7 @@ public:
 };
 
 ComPtr<IDWriteTextLayout>
-get_dwrite_text_layout(
+create_dwrite_text_layout(
     const ComPtr<IDWriteFactory> &dwrite_factory,
     const ComPtr<IDWriteTextFormat> &text_format,
     const string &text
@@ -203,7 +203,7 @@ get_dwrite_text_layout(
 }
 
 ComPtr<ID2D1RenderTarget>
-get_render_target(
+create_render_target(
     const ComPtr<ID2D1Factory1> &d2d_factory,
     const ComPtr<IWICBitmap> &wic_bitmap
 ) {
@@ -333,7 +333,7 @@ public:
         const string &text,
         const wstring &output_filename
     ) {
-        auto dwrite_text_layout = get_dwrite_text_layout(
+        auto dwrite_text_layout = create_dwrite_text_layout(
             dwrite_factory,
             text_format,
             text
@@ -357,7 +357,7 @@ public:
             )
         );
 
-        auto render_target = get_render_target(
+        auto render_target = create_render_target(
             d2d_factory,
             wic_bitmap
         );
