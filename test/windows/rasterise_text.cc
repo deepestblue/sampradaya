@@ -35,6 +35,69 @@ throw_if_failed(
     throw runtime_error(what);
 }
 
+// Helper class for Win32 exceptions
+class GLE_exception
+    : public exception {
+public:
+    GLE_exception()
+    : last_error(GetLastError()) { }
+
+    virtual const char *
+    what() const override {
+        auto buffer = static_cast<char *>(nullptr);
+        auto len = FormatMessageA(
+            FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
+            nullptr,
+            last_error,
+            MAKELANGID( LANG_NEUTRAL, SUBLANG_DEFAULT ),
+            buffer,
+            0,
+            nullptr
+        );
+        auto error_string = string{buffer, len};
+        LocalFree(buffer);
+
+        return error_string.c_str();
+    }
+
+private:
+    int last_error;
+};
+
+void
+throw_if_failed(int return_code) {
+    if (return_code > 0)
+        return;
+
+    throw GLE_exception();
+}
+
+wstring
+utf8_to_utf16(
+    const string &in
+) {
+    auto buf_size = MultiByteToWideChar(
+        CP_UTF8,
+        MB_ERR_INVALID_CHARS,
+        in.c_str(),
+        static_cast<int>(in.length()),
+        nullptr,
+        0
+    );
+    auto out = wstring(buf_size, 0);
+    throw_if_failed(
+        MultiByteToWideChar(
+            CP_UTF8,
+            MB_ERR_INVALID_CHARS,
+            in.c_str(),
+            static_cast<int>(in.length()),
+            out.data(),
+            buf_size
+        )
+    );
+    return out;
+}
+
 // Helper class for COM exceptions
 class Com_exception
     : public exception {
@@ -81,49 +144,12 @@ private:
     _com_error com_error;
 };
 
-// Helper class for Win32 exceptions
-class GLE_exception
-    : public exception {
-public:
-    GLE_exception()
-    : last_error(GetLastError()) { }
-
-    virtual const char *
-    what() const override {
-        auto buffer = static_cast<char *>(nullptr);
-        auto len = FormatMessageA(
-            FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
-            nullptr,
-            last_error,
-            MAKELANGID( LANG_NEUTRAL, SUBLANG_DEFAULT ),
-            buffer,
-            0,
-            nullptr
-        );
-        auto error_string = string{buffer, len};
-        LocalFree(buffer);
-
-        return error_string.c_str();
-    }
-
-private:
-    int last_error;
-};
-
 void
 throw_if_failed(HRESULT hr) {
     if (SUCCEEDED(hr))
         return;
 
     throw Com_exception(hr);
-}
-
-void
-throw_if_failed(int return_code) {
-    if (return_code > 0)
-        return;
-
-    throw GLE_exception();
 }
 
 class COM_initer {
@@ -140,32 +166,6 @@ public:
         CoUninitialize();
     }
 };
-
-wstring
-utf8_to_utf16(
-    const string &in
-) {
-    auto buf_size = MultiByteToWideChar(
-        CP_UTF8,
-        MB_ERR_INVALID_CHARS,
-        in.c_str(),
-        static_cast<int>(in.length()),
-        nullptr,
-        0
-    );
-    auto out = wstring(buf_size, 0);
-    throw_if_failed(
-        MultiByteToWideChar(
-            CP_UTF8,
-            MB_ERR_INVALID_CHARS,
-            in.c_str(),
-            static_cast<int>(in.length()),
-            out.data(),
-            buf_size
-        )
-    );
-    return out;
-}
 
 class Text_to_image_renderer {
 public:
