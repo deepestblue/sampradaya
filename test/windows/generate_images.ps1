@@ -1,4 +1,4 @@
-#cl "$PSScriptRoot/rasterise_text.cxx" /EHsc /std:c++latest /nologo /W4 d2d1.lib dwrite.lib  /Fo: "$PSScriptRoot/" /Fe: "$PSScriptRoot/" | Out-Null
+cl "$PSScriptRoot/rasterise_text.cc" /EHsc /std:c++latest /nologo /W4 d2d1.lib dwrite.lib /Fo: "$PSScriptRoot/" /Fe: "$PSScriptRoot/" | Out-Null
 
 function MkDirIfNotExists() {
     Param([Parameter(Mandatory = $True)] [String] $DirectoryToCreate)
