@@ -24,26 +24,22 @@ using D2D1::RectF;
 using D2D1::PixelFormat;
 using D2D1::Matrix3x2F;
 
+template <typename E>
 void
 throw_if_failed(
     bool exp,
-    const string &what
+    const E &e
 ) {
     if (exp)
         return;
 
-    throw runtime_error(what);
+    throw runtime_error(e());
 }
 
-// Helper class for Win32 exceptions
-class GLE_exception
-    : public exception {
-public:
-    GLE_exception()
-    : last_error(GetLastError()) { }
-
-    virtual const char *
-    what() const override {
+void
+throw_if_failed(int win32_return_code) {
+    auto win32_error_msg = [] {
+        auto last_error = GetLastError();
         auto buffer =
             std::unique_ptr<char, decltype(&LocalFree)>(nullptr, LocalFree);
         auto len = FormatMessageA(
@@ -56,20 +52,13 @@ public:
             nullptr
         );
 
-        auto error_string = string{buffer.get(), len};
-        return error_string.c_str();
-    }
+        return string{buffer.get(), len};
+    };
 
-private:
-    int last_error;
-};
-
-void
-throw_if_failed(int return_code) {
-    if (return_code > 0)
-        return;
-
-    throw GLE_exception();
+    throw_if_failed(
+        win32_return_code > 0,
+        win32_error_msg
+    );
 }
 
 wstring
@@ -133,35 +122,31 @@ utf16_to_utf8(
     return out;
 }
 
-// Helper class for COM exceptions
-class Com_exception
-    : public exception {
-public:
-    Com_exception(HRESULT hr)
-    : hresult(hr), com_error(hresult) { }
-
-    virtual const char *
-    what() const override {
-        auto s = wstringstream{};
-        s << L"Failure with HRESULT of 0x"s;
-        s << setfill(L'0') << setw(sizeof(HRESULT) * 2) // 2 hex digits per char
-            << hex << static_cast<unsigned int>(hresult);
-        s << setw(0) << L" ("s << com_error.ErrorMessage() << L" )\n"s;
-
-        return utf16_to_utf8(s.str()).c_str();
-    }
-
-private:
-    HRESULT hresult;
-    _com_error com_error;
-};
-
 void
 throw_if_failed(HRESULT hr) {
-    if (SUCCEEDED(hr))
-        return;
+    struct com_error_msg {
+        com_error_msg(HRESULT hr)
+        : hresult(hr) {}
 
-    throw Com_exception(hr);
+        string
+        operator() () const {
+            _com_error com_error(hresult);
+            auto s = wstringstream{};
+            s << L"Failure with HRESULT of 0x"s;
+            s << setfill(L'0') << setw(sizeof(HRESULT) * 2) // 2 hex digits per char
+                << hex << static_cast<unsigned int>(hresult);
+            s << setw(0) << L" ("s << com_error.ErrorMessage() << L" )\n"s;
+
+            return utf16_to_utf8(s.str());
+        }
+    private:
+        HRESULT hresult;
+    };
+
+    throw_if_failed(
+        SUCCEEDED(hr),
+        com_error_msg(hr)
+    );
 }
 
 class COM_initer {
@@ -389,7 +374,7 @@ wmain(
 ) try {
     throw_if_failed(
         argc == 3,
-        "Need 3 arguments"s
+        [] { return "Need 3 arguments"s; }
     );
     const auto input_file = wstring{argv[1]};
     const auto output_dir = wstring{argv[2]};
@@ -413,8 +398,6 @@ wmain(
         renderer(line, output_dir + L"/" + to_wstring(i) + L".bmp");
         ++i;
     }
-
-    return 0;
 }
 catch (const exception &e) {
     wcerr << L"Exception thrown: "s << e.what() << endl;
