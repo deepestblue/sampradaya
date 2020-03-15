@@ -24,11 +24,10 @@ using D2D1::RectF;
 using D2D1::PixelFormat;
 using D2D1::Matrix3x2F;
 
-template<typename T, typename U>
 void
-assert_and_throw(
-    T exp,
-    const U &what
+throw_if_failed(
+    bool exp,
+    const string &what
 ) {
     if (exp)
         return;
@@ -376,7 +375,7 @@ wmain(
     int argc,
     wchar_t *argv[]
 ) try {
-    assert_and_throw(
+    throw_if_failed(
         argc == 3,
         "Need 3 arguments"s
     );
