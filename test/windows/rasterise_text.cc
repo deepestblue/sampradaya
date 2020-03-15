@@ -44,19 +44,19 @@ public:
 
     virtual const char *
     what() const override {
-        auto buffer = static_cast<char *>(nullptr);
+        auto buffer =
+            std::unique_ptr<char, decltype(&LocalFree)>(nullptr, LocalFree);
         auto len = FormatMessageA(
             FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
             nullptr,
             last_error,
             MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
-            buffer,
+            buffer.get(),
             0,
             nullptr
         );
-        auto error_string = string{buffer, len};
-        LocalFree(buffer);
 
+        auto error_string = string{buffer.get(), len};
         return error_string.c_str();
     }
 
