@@ -395,7 +395,7 @@ wmain(
     while (getline(input_stream, line)) {
         if (line.empty())
             continue;
-        renderer(line, output_dir + L"/" + to_wstring(i) + L".bmp");
+        renderer(line, output_dir + L"/"s + to_wstring(i) + L".bmp"s);
         ++i;
     }
 }
