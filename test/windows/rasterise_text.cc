@@ -49,7 +49,7 @@ public:
             FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
             nullptr,
             last_error,
-            MAKELANGID( LANG_NEUTRAL, SUBLANG_DEFAULT ),
+            MAKELANGID(LANG_NEUTRAL, SUBLANG_DEFAULT),
             buffer,
             0,
             nullptr
@@ -84,6 +84,8 @@ utf8_to_utf16(
         nullptr,
         0
     );
+    throw_if_failed(buf_size);
+
     auto out = wstring(buf_size, 0);
     throw_if_failed(
         MultiByteToWideChar(
@@ -95,6 +97,39 @@ utf8_to_utf16(
             buf_size
         )
     );
+    return out;
+}
+
+string
+utf16_to_utf8(
+    const wstring &in
+) {
+    auto buf_size = WideCharToMultiByte(
+        CP_UTF8,
+        WC_ERR_INVALID_CHARS,
+        in.c_str(),
+        static_cast<int>(in.length()),
+        nullptr,
+        0,
+        nullptr,
+        nullptr
+    );
+    throw_if_failed(buf_size);
+
+    auto out = string(buf_size, 0);
+    throw_if_failed(
+        WideCharToMultiByte(
+            CP_UTF8,
+            WC_ERR_INVALID_CHARS,
+            in.c_str(),
+            static_cast<int>(in.length()),
+            out.data(),
+            buf_size,
+            nullptr,
+            nullptr
+        )
+    );
+
     return out;
 }
 
@@ -112,31 +147,8 @@ public:
         s << setfill(L'0') << setw(sizeof(HRESULT) * 2) // 2 hex digits per char
             << hex << static_cast<unsigned int>(hresult);
         s << setw(0) << L" ("s << com_error.ErrorMessage() << L" )\n"s;
-        const auto &utf16_message = s.str();
 
-        auto required_size = WideCharToMultiByte(
-            CP_UTF8,
-            WC_ERR_INVALID_CHARS,
-            utf16_message.c_str(),
-            static_cast<int>(utf16_message.length()),
-            nullptr,
-            0,
-            nullptr,
-            nullptr
-        );
-        auto message = vector<char>(required_size);
-        WideCharToMultiByte(
-            CP_UTF8,
-            WC_ERR_INVALID_CHARS,
-            utf16_message.c_str(),
-            static_cast<int>(utf16_message.length()),
-            message.data(),
-            required_size,
-            nullptr,
-            nullptr
-        );
-
-        return message.data();
+        return utf16_to_utf8(s.str()).c_str();
     }
 
 private:
