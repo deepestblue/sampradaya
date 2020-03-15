@@ -46,10 +46,10 @@ public:
     virtual const char *
     what() const override {
         auto s = wstringstream{};
-        s << L"Failure with HRESULT of 0x";
+        s << L"Failure with HRESULT of 0x"s;
         s << setfill(L'0') << setw(sizeof(HRESULT) * 2) // 2 hex digits per char
             << hex << static_cast<unsigned int>(hresult);
-        s << setw(0) << " (" << com_error.ErrorMessage() << " )\n";
+        s << setw(0) << L" ("s << com_error.ErrorMessage() << L" )\n"s;
         const auto &utf16_message = s.str();
 
         auto required_size = WideCharToMultiByte(
@@ -241,9 +241,9 @@ public:
         );
 
 #ifdef DEBUG
-        wcout << "Metrics for " << text.c_str() << " are as follows." << endl;
-        wcout << "Width: " << metrics.width << endl;
-        wcout << "Height: " << metrics.height << endl;
+        wcout << L"Metrics for "s << text.c_str() << L" are as follows."s << endl;
+        wcout << L"Width: "s << metrics.width << endl;
+        wcout << L"Height: "s << metrics.height << endl;
 #endif
 
         ComPtr<IWICBitmap> wic_bitmap;
@@ -367,7 +367,7 @@ private:
     ComPtr<IDWriteTextFormat> text_format;
     ComPtr<IDWriteFactory> dwrite_factory;
     ComPtr<ID2D1Factory1> d2d_factory;
-    const wstring typeface_name = L"Sampradaya";
+    const wstring typeface_name = L"Sampradaya"s;
     const float typeface_size_pt = 48.f;
 };
 
@@ -378,7 +378,7 @@ wmain(
 ) try {
     assert_and_throw(
         argc == 3,
-        "Need 3 arguments"
+        "Need 3 arguments"s
     );
     const auto input_file = wstring{argv[1]};
     const auto output_dir = wstring{argv[2]};
@@ -406,8 +406,8 @@ wmain(
     return 0;
 }
 catch (const exception &e) {
-    wcerr << "Exception thrown: " << e.what() << endl;
+    wcerr << L"Exception thrown: "s << e.what() << endl;
 }
 catch (...) {
-    wcerr << "Something else thrown" << endl;
+    wcerr << L"Something else thrown"s << endl;
 }
