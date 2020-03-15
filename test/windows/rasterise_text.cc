@@ -40,8 +40,10 @@ void
 throw_if_failed(int win32_return_code) {
     auto win32_error_msg = [] {
         auto last_error = GetLastError();
-        auto buffer =
-            std::unique_ptr<char, decltype(&LocalFree)>(nullptr, LocalFree);
+        auto buffer = unique_ptr<char, decltype(&LocalFree)>(
+            nullptr,
+            LocalFree
+        );
         auto len = FormatMessageA(
             FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
             nullptr,
@@ -164,6 +166,122 @@ public:
     }
 };
 
+ComPtr<IDWriteTextLayout>
+get_dwrite_text_layout(
+    const ComPtr<IDWriteFactory> &dwrite_factory,
+    const ComPtr<IDWriteTextFormat> &text_format,
+    const string &text
+) {
+    auto utf16_text = utf8_to_utf16(text);
+
+    ComPtr<IDWriteTextLayout> dwrite_text_layout;
+    throw_if_failed(
+        dwrite_factory->CreateTextLayout(
+            utf16_text.c_str(),
+            static_cast<uint32_t>(utf16_text.length()),
+            text_format.Get(),
+            numeric_limits<float>::max(),
+            numeric_limits<float>::max(),
+            &dwrite_text_layout
+        )
+    );
+
+#ifdef DEBUG
+    DWRITE_TEXT_METRICS metrics;
+    throw_if_failed(
+        dwrite_text_layout->GetMetrics(
+            &metrics
+        )
+    );
+
+    wcout << L"Metrics for "s << text.c_str() << L" are as follows."s << endl;
+    wcout << L"Width: "s << metrics.width << endl;
+    wcout << L"Height: "s << metrics.height << endl;
+#endif
+
+    return dwrite_text_layout;
+}
+
+ComPtr<ID2D1RenderTarget>
+get_render_target(
+    const ComPtr<ID2D1Factory1> &d2d_factory,
+    const ComPtr<IWICBitmap> &wic_bitmap
+) {
+    ComPtr<ID2D1RenderTarget> render_target;
+
+    auto pixel_format = PixelFormat(
+        DXGI_FORMAT_UNKNOWN,
+        D2D1_ALPHA_MODE_IGNORE
+    );
+    auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
+        D2D1_RENDER_TARGET_TYPE_DEFAULT,
+        pixel_format,
+        0,
+        0,
+        D2D1_RENDER_TARGET_USAGE_NONE,
+        D2D1_FEATURE_LEVEL_DEFAULT,
+    };
+    throw_if_failed(
+        d2d_factory->CreateWicBitmapRenderTarget(
+            wic_bitmap.Get(),
+            &render_props,
+            &render_target
+        )
+    );
+
+    render_target->SetTextAntialiasMode(D2D1_TEXT_ANTIALIAS_MODE::D2D1_TEXT_ANTIALIAS_MODE_ALIASED);
+    return render_target;
+}
+
+void
+encode_wicbitmap_onto_wicstream(
+    const ComPtr<IWICImagingFactory2> &wic_factory,
+    IWICStream *stream,
+    const ComPtr<IWICBitmap> &wic_bitmap
+) {
+    auto wic_bitmap_encoder = static_cast<IWICBitmapEncoder *>(nullptr);
+    throw_if_failed(
+        wic_factory->CreateEncoder(
+            GUID_ContainerFormatBmp,
+            nullptr,
+            &wic_bitmap_encoder
+        )
+    );
+
+    throw_if_failed(
+        wic_bitmap_encoder->Initialize(
+            stream,
+            WICBitmapEncoderNoCache
+        )
+    );
+
+    {
+        auto wic_frame_encode = static_cast<IWICBitmapFrameEncode *>(nullptr);
+        throw_if_failed(
+            wic_bitmap_encoder->CreateNewFrame(
+                &wic_frame_encode,
+                nullptr
+            )
+        );
+        throw_if_failed(
+            wic_frame_encode->Initialize(nullptr)
+        );
+        throw_if_failed(
+            wic_frame_encode->WriteSource(
+                wic_bitmap.Get(),
+                nullptr
+            )
+        );
+        throw_if_failed(
+            wic_frame_encode->Commit()
+        );
+    }
+
+    throw_if_failed(
+        wic_bitmap_encoder->Commit()
+    );
+}
+
 class Text_to_image_renderer {
 public:
     Text_to_image_renderer()
@@ -215,18 +333,10 @@ public:
         const string &text,
         const wstring &output_filename
     ) {
-        auto utf16_text = utf8_to_utf16(text);
-
-        ComPtr<IDWriteTextLayout> dwrite_text_layout;
-        throw_if_failed(
-            dwrite_factory->CreateTextLayout(
-                utf16_text.c_str(),
-                static_cast<uint32_t>(utf16_text.length()),
-                text_format.Get(),
-                numeric_limits<float>::max(),
-                numeric_limits<float>::max(),
-                &dwrite_text_layout
-            )
+        auto dwrite_text_layout = get_dwrite_text_layout(
+            dwrite_factory,
+            text_format,
+            text
         );
 
         DWRITE_TEXT_METRICS metrics;
@@ -235,12 +345,6 @@ public:
                 &metrics
             )
         );
-
-#ifdef DEBUG
-        wcout << L"Metrics for "s << text.c_str() << L" are as follows."s << endl;
-        wcout << L"Width: "s << metrics.width << endl;
-        wcout << L"Height: "s << metrics.height << endl;
-#endif
 
         ComPtr<IWICBitmap> wic_bitmap;
         throw_if_failed(
@@ -253,30 +357,11 @@ public:
             )
         );
 
-        ComPtr<ID2D1RenderTarget> render_target;
-        {
-            auto pixel_format = PixelFormat(
-                DXGI_FORMAT_UNKNOWN,
-                D2D1_ALPHA_MODE_IGNORE
-            );
-            auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
-                D2D1_RENDER_TARGET_TYPE_DEFAULT,
-                pixel_format,
-                0,
-                0,
-                D2D1_RENDER_TARGET_USAGE_NONE,
-                D2D1_FEATURE_LEVEL_DEFAULT,
-            };
-            throw_if_failed(
-                d2d_factory->CreateWicBitmapRenderTarget(
-                    wic_bitmap.Get(),
-                    &render_props,
-                    &render_target
-                )
-            );
-        }
+        auto render_target = get_render_target(
+            d2d_factory,
+            wic_bitmap
+        );
 
-        render_target->SetTextAntialiasMode(D2D1_TEXT_ANTIALIAS_MODE::D2D1_TEXT_ANTIALIAS_MODE_ALIASED);
         render_target->BeginDraw();
         render_target->Clear(
             ColorF(ColorF::White)
@@ -311,51 +396,11 @@ public:
             )
         );
 
-        {
-            auto wic_bitmap_encoder = static_cast<IWICBitmapEncoder *>(nullptr);
-            throw_if_failed(
-                wic_factory->CreateEncoder(
-                    GUID_ContainerFormatBmp,
-                    nullptr,
-                    &wic_bitmap_encoder
-                )
-            );
-
-            throw_if_failed(
-                wic_bitmap_encoder->Initialize(
-                    stream,
-                    WICBitmapEncoderNoCache
-                )
-            );
-
-            {
-                auto wic_frame_encode = static_cast<IWICBitmapFrameEncode *>(nullptr);
-                throw_if_failed(
-                    wic_bitmap_encoder->CreateNewFrame(
-                        &wic_frame_encode,
-                        nullptr
-                    )
-                );
-                throw_if_failed(
-                    wic_frame_encode->Initialize(
-                        nullptr
-                    )
-                );
-                throw_if_failed(
-                    wic_frame_encode->WriteSource(
-                        wic_bitmap.Get(),
-                        nullptr
-                    )
-                );
-                throw_if_failed(
-                    wic_frame_encode->Commit()
-                );
-            }
-
-            throw_if_failed(
-                wic_bitmap_encoder->Commit()
-            );
-        }
+        encode_wicbitmap_onto_wicstream(
+            wic_factory,
+            stream,
+            wic_bitmap
+        );
     }
 
 private:
