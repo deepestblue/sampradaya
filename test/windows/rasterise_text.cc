@@ -12,7 +12,7 @@
 #include "comdef.h"
 #include "wrl/client.h"
 #include "d2d1_1.h"
-#include "dwrite.h"
+#include "dwrite_3.h"
 #include "wincodec.h"
 
 //#define DEBUG
@@ -23,6 +23,9 @@ using D2D1::ColorF;
 using D2D1::RectF;
 using D2D1::PixelFormat;
 using D2D1::Matrix3x2F;
+
+const float typeface_size_pt = 48.f;
+const wstring typeface_file_path = L"../../src/windows/Sampradaya.ttf"s;
 
 template <typename E>
 void
@@ -166,9 +169,84 @@ public:
     }
 };
 
+pair<ComPtr<IDWriteFontCollection>, wstring>
+create_font_collection(
+    const ComPtr<IDWriteFactory5> &dwrite_factory
+) {
+    ComPtr<IDWriteFontSetBuilder1> font_set_builder;
+    throw_if_failed(
+        dwrite_factory->CreateFontSetBuilder(&font_set_builder)
+    );
+
+    ComPtr<IDWriteFontFile> font_file;
+    throw_if_failed(
+        dwrite_factory->CreateFontFileReference(
+            typeface_file_path.c_str(),
+            nullptr,
+            &font_file
+        )
+    );
+
+    throw_if_failed(
+        font_set_builder->AddFontFile(font_file.Get())
+    );
+
+    ComPtr<IDWriteFontSet> font_set;
+    throw_if_failed(
+        font_set_builder->CreateFontSet(&font_set)
+    );
+
+    ComPtr<IDWriteFontCollection1> font_collection;
+    throw_if_failed(
+        dwrite_factory->CreateFontCollectionFromFontSet(
+            font_set.Get(),
+            &font_collection
+        )
+    );
+
+    ComPtr<IDWriteFontFamily> font_family;
+    throw_if_failed(
+        font_collection->GetFontFamily(
+            0,
+            &font_family
+        )
+    );
+
+    ComPtr<IDWriteLocalizedStrings> family_names;
+    throw_if_failed(
+        font_family->GetFamilyNames(&family_names)
+    );
+
+    auto count = family_names->GetCount();
+    throw_if_failed(
+        count > 0,
+        [] { return "Typeface has no names."s; }
+    );
+
+    auto buf_size = unsigned int{};
+    throw_if_failed(
+        family_names->GetStringLength(
+            0,
+            &buf_size
+        )
+    );
+    ++buf_size;
+
+    wstring typeface_name(buf_size, 0);
+    throw_if_failed(
+        family_names->GetString(
+            0,
+            typeface_name.data(),
+            buf_size
+        )
+    );
+
+    return {font_collection, typeface_name};
+}
+
 ComPtr<IDWriteTextLayout>
 create_dwrite_text_layout(
-    const ComPtr<IDWriteFactory> &dwrite_factory,
+    const ComPtr<IDWriteFactory5> &dwrite_factory,
     const ComPtr<IDWriteTextFormat> &text_format,
     const string &text
 ) {
@@ -194,9 +272,9 @@ create_dwrite_text_layout(
         )
     );
 
-    wcout << L"Metrics for "s << text.c_str() << L" are as follows."s << endl;
-    wcout << L"Width: "s << metrics.width << endl;
-    wcout << L"Height: "s << metrics.height << endl;
+    wcout << L"Metrics for "s << text.c_str() << L" are as follows."s << L'\n';
+    wcout << L"Width: "s << metrics.width << L'\n';
+    wcout << L"Height: "s << metrics.height << L'\n';
 #endif
 
     return dwrite_text_layout;
@@ -299,7 +377,7 @@ public:
         throw_if_failed(
             D2D1CreateFactory(
                 D2D1_FACTORY_TYPE_SINGLE_THREADED,
-                __uuidof(ID2D1Factory1),
+                __uuidof(d2d_factory),
                 &options,
                 &d2d_factory
             )
@@ -313,15 +391,20 @@ public:
                     &dwrite_factory
                 )
             );
+
+            auto [font_collection, typeface_name] = create_font_collection(
+                dwrite_factory
+            );
+
             throw_if_failed(
                 dwrite_factory->CreateTextFormat(
                     typeface_name.c_str(),
-                    nullptr,
+                    font_collection.Get(),
                     DWRITE_FONT_WEIGHT_NORMAL,
                     DWRITE_FONT_STYLE_NORMAL,
                     DWRITE_FONT_STRETCH_NORMAL,
                     typeface_size_pt,
-                    L"", //locale
+                    L"",
                     &text_format
                 )
             );
@@ -406,10 +489,8 @@ public:
 private:
     ComPtr<IWICImagingFactory2> wic_factory;
     ComPtr<IDWriteTextFormat> text_format;
-    ComPtr<IDWriteFactory> dwrite_factory;
+    ComPtr<IDWriteFactory5> dwrite_factory;
     ComPtr<ID2D1Factory1> d2d_factory;
-    const wstring typeface_name = L"Sampradaya"s;
-    const float typeface_size_pt = 48.f;
 };
 
 int
@@ -419,7 +500,7 @@ wmain(
 ) try {
     throw_if_failed(
         argc == 3,
-        [] { return "Need 3 arguments"s; }
+        [] { return "Need 3 arguments."s; }
     );
     const auto input_file = wstring{argv[1]};
     const auto output_dir = wstring{argv[2]};
@@ -445,8 +526,8 @@ wmain(
     }
 }
 catch (const exception &e) {
-    wcerr << L"Exception thrown: "s << e.what() << endl;
+    wcerr << L"Exception thrown: "s << e.what() << L'\n';
 }
 catch (...) {
-    wcerr << L"Something else thrown"s << endl;
+    wcerr << L"Something else thrown"s << L'\n';
 }
