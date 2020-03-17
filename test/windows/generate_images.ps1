@@ -2,12 +2,6 @@ if ($args.Count -lt 1) {
     throw "Required argument missing."
 }
 
-$testBuildOutput = cl "$PSScriptRoot/rasterise_text.cc" /EHsc /std:c++latest /nologo /W4 d2d1.lib dwrite.lib /Fo: "$PSScriptRoot/" /Fe: "$PSScriptRoot/" | Out-String
-if (! $?) {
-    Write-Output $testBuildOutput
-    throw "Test build exited with: $lastexitcode."
-}
-
 function MkDirIfNotExists() {
     Param([Parameter(Mandatory = $True)] [String] $DirectoryToCreate)
     if (Test-Path -LiteralPath $DirectoryToCreate) {
