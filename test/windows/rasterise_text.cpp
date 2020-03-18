@@ -1,3 +1,5 @@
+#pragma warning(disable: 5045)
+
 #include <string>
 #include <fstream>
 #include <sstream>
@@ -7,13 +9,15 @@
 #include <limits>
 #include <iostream>
 
+#pragma warning(default: 5045)
+
 #define NOMINMAX
 
-#include "comdef.h"
-#include "wrl/client.h"
-#include "d2d1_1.h"
-#include "dwrite_3.h"
-#include "wincodec.h"
+#include <comdef.h>
+#include <wrl/client.h>
+#include <d2d1_1.h>
+#include <dwrite_3.h>
+#include <wincodec.h>
 
 //#define DEBUG
 
@@ -80,7 +84,7 @@ utf8_to_utf16(
     );
     throw_if_failed(buf_size);
 
-    auto out = wstring(buf_size, 0);
+    auto out = wstring(static_cast<size_t>(buf_size), 0);
     throw_if_failed(
         MultiByteToWideChar(
             CP_UTF8,
@@ -110,7 +114,7 @@ utf16_to_utf8(
     );
     throw_if_failed(buf_size);
 
-    auto out = string(buf_size, 0);
+    auto out = string(static_cast<size_t>(buf_size), 0);
     throw_if_failed(
         WideCharToMultiByte(
             CP_UTF8,
@@ -528,6 +532,8 @@ wmain(
 catch (const exception &e) {
     wcerr << L"Exception thrown: "s << e.what() << L'\n';
 }
+#pragma warning(disable: 4571)
 catch (...) {
+#pragma warning(default: 4571)
     wcerr << L"Something else thrown"s << L'\n';
 }
