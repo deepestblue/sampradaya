@@ -5,23 +5,23 @@ regenerate_masters:
 
 build:
 
+clean:
+	$(PS) Remove-Item -Force rasterise_text.exe, rasterise_text.obj
+
 install: build
-	$(PS) '$$fonts = (New-Object -ComObject Shell.Application).Namespace(0x14); $$fonts.CopyHere("../../src/windows/Sampradaya.ttf")'
+#	$(PS) $$fonts = (New-Object -ComObject Shell.Application).Namespace(0x14); $$fonts.CopyHere('../../src/windows/Sampradaya.ttf')
 
 test: rasterise_text.exe
-	$(PS) ./run_tests.ps1
+#	$(PS) ./run_tests.ps1
 
-.cc.obj:
-  $(cc) $(cdebug) $(cflags) $(cvars) $*.c
+#.cc.obj:
+#  $(cc) $(cdebug) $(cflags) $(cvars) $*.c
 
 rasterise_text.exe: rasterise_text.cc
-	$testBuildOutput = cl "$PSScriptRoot/rasterise_text.cpp" /EHsc /std:c++latest /nologo /W4 d2d1.lib dwrite.lib /Fo: "$PSScriptRoot/" /Fe: "$PSScriptRoot/" | Out-String
-	if (! $?) {
-		Write-Output $testBuildOutput
-		throw "Test build exited with: $lastexitcode."
-	}
-
-clean:
-	Remove-Item -Force rasterise_text.exe rasterise_text.obj
+#	$testBuildOutput = cl "$PSScriptRoot/rasterise_text.cpp" /utf-8 /EHsc /std:c++latest /nologo /experimental:external /external:anglebrackets /external:W0 /Wall d2d1.lib dwrite.lib /Fo: "$PSScriptRoot/" /Fe: "$PSScriptRoot/" | Out-String
+#	if (! $?) {
+#		Write-Output $testBuildOutput
+#		throw "Test build exited with: $lastexitcode."
+#	}
 
 .PHONY: build install test regenerate_masters clean
