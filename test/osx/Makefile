@@ -7,7 +7,7 @@ build:
 install: build
 	install ../../src/osx/Sampradaya.ttf ~/Library/Fonts/
 
-regenerate_masters:
+regenerate_masters: rasterise_text
 	./generate_images master_images
 
 test: rasterise_text
