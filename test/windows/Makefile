@@ -1,27 +1,19 @@
 PS = powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command
-
-regenerate_masters:
-	$(PS) ./generate_images.ps1 master_images
+CPPFLAGS = /utf-8 /EHsc /std:c++latest /nologo /experimental:external /external:anglebrackets /external:W0 /Wall d2d1.lib dwrite.lib
 
 build:
-
-clean:
-	$(PS) Remove-Item -Force rasterise_text.exe, rasterise_text.obj
+# TODO
 
 install: build
 	$(PS) ./install_typeface.ps1
 
+regenerate_masters:
+	$(PS) ./generate_images.ps1 master_images
+
 test: rasterise_text.exe
 #	$(PS) ./run_tests.ps1
 
-#.cc.obj:
-#  $(cc) $(cdebug) $(cflags) $(cvars) $*.c
+clean:
+	$(PS) Remove-Item -Force rasterise_text.exe, rasterise_text.obj
 
-rasterise_text.exe: rasterise_text.cc
-#	$testBuildOutput = cl "$PSScriptRoot/rasterise_text.cpp" /utf-8 /EHsc /std:c++latest /nologo /experimental:external /external:anglebrackets /external:W0 /Wall d2d1.lib dwrite.lib /Fo: "$PSScriptRoot/" /Fe: "$PSScriptRoot/" | Out-String
-#	if (! $?) {
-#		Write-Output $testBuildOutput
-#		throw "Test build exited with: $lastexitcode."
-#	}
-
-.PHONY: build install test regenerate_masters clean
+.PHONY: build install regenerate_masters test clean
