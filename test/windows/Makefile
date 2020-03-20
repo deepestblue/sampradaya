@@ -9,7 +9,7 @@ clean:
 	$(PS) Remove-Item -Force rasterise_text.exe, rasterise_text.obj
 
 install: build
-	$(PS) ./install_font.ps1
+	$(PS) ./install_typeface.ps1
 
 test: rasterise_text.exe
 #	$(PS) ./run_tests.ps1
