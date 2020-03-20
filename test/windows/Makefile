@@ -9,7 +9,7 @@ clean:
 	$(PS) Remove-Item -Force rasterise_text.exe, rasterise_text.obj
 
 install: build
-#	$(PS) $$fonts = (New-Object -ComObject Shell.Application).Namespace(0x14); $$fonts.CopyHere('../../src/windows/Sampradaya.ttf')
+	$(PS) ./install_font.ps1
 
 test: rasterise_text.exe
 #	$(PS) ./run_tests.ps1
