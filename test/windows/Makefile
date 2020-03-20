@@ -11,7 +11,7 @@ regenerate_masters:
 	$(PS) ./generate_images.ps1 master_images
 
 test: rasterise_text.exe
-#	$(PS) ./run_tests.ps1
+	$(PS) ./run_tests.ps1 master_images
 
 clean:
 	$(PS) Remove-Item -Force rasterise_text.exe, rasterise_text.obj
