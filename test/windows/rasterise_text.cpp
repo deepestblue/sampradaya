@@ -77,7 +77,7 @@ utf8_to_utf16(
     auto buf_size = MultiByteToWideChar(
         CP_UTF8,
         MB_ERR_INVALID_CHARS,
-        in.c_str(),
+        in.data(),
         static_cast<int>(in.length()),
         nullptr,
         0
@@ -89,7 +89,7 @@ utf8_to_utf16(
         MultiByteToWideChar(
             CP_UTF8,
             MB_ERR_INVALID_CHARS,
-            in.c_str(),
+            in.data(),
             static_cast<int>(in.length()),
             out.data(),
             buf_size
@@ -105,7 +105,7 @@ utf16_to_utf8(
     auto buf_size = WideCharToMultiByte(
         CP_UTF8,
         WC_ERR_INVALID_CHARS,
-        in.c_str(),
+        in.data(),
         static_cast<int>(in.length()),
         nullptr,
         0,
@@ -119,7 +119,7 @@ utf16_to_utf8(
         WideCharToMultiByte(
             CP_UTF8,
             WC_ERR_INVALID_CHARS,
-            in.c_str(),
+            in.data(),
             static_cast<int>(in.length()),
             out.data(),
             buf_size,
@@ -259,7 +259,7 @@ create_dwrite_text_layout(
     ComPtr<IDWriteTextLayout> dwrite_text_layout;
     throw_if_failed(
         dwrite_factory->CreateTextLayout(
-            utf16_text.c_str(),
+            utf16_text.data(),
             static_cast<uint32_t>(utf16_text.length()),
             text_format.Get(),
             numeric_limits<float>::max(),
@@ -276,7 +276,7 @@ create_dwrite_text_layout(
         )
     );
 
-    wcout << L"Metrics for "s << text.c_str() << L" are as follows."s << L'\n';
+    wcout << L"Metrics for "s << utf16_text << L" are as follows."s << L'\n';
     wcout << L"Width: "s << metrics.width << L'\n';
     wcout << L"Height: "s << metrics.height << L'\n';
 #endif
