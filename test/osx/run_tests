@@ -22,11 +22,11 @@ for actual in $(find $TMPDIR/actual -type f); do
     expected=$TMPDIR/expected/$temp
     diff=$TMPDIR/diff/$temp
 
-    mkdir -p $(dirname $diff)
-
     if cmp --quiet $expected $actual; then
         continue
     fi
+
+    mkdir -p $(dirname $diff)
 
     compare -compose src $expected $actual $diff || {
         RESULT=$?
