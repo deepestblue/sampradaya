@@ -1,3 +1,5 @@
+$ErrorActionPreference="Stop"
+
 if ($args.Count -lt 1) {
     throw "Required argument missing."
 }
