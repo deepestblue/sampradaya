@@ -10,7 +10,7 @@ function MkDirIfNotExists() {
     New-Item -Path $DirectoryToCreate -ItemType Directory -ErrorAction Stop | Out-Null
 }
 
-$outputRoot = "$((Get-Location).Path)/$($args[0])"
+$outputRoot = "$($args[0])"
 MkDirIfNotExists $outputRoot
 
 Get-ChildItem "$PSScriptRoot/../cases" -Name *txt | ForEach-Object {
