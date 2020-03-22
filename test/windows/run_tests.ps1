@@ -9,7 +9,7 @@ Param(
 $ErrorActionPreference="Stop"
 
 Add-Type -Assembly System.Drawing
-[Reflection.Assembly]::LoadFile("Z:\projects\Sampradaya\test\windows\TestApiCore.dll") | Out-Null
+[Reflection.Assembly]::LoadFile("$PSScriptRoot/TestApiCore.dll") | Out-Null
 $snapshotVerifier = New-Object -TypeName SnapshotColorVerifier
 
 function MkDirIfNotExists() {
