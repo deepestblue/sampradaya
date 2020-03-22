@@ -1,3 +1,7 @@
+using namespace System.Drawing.Imaging
+using namespace System.IO
+using namespace Microsoft.Test.VisualVerification
+
 Param(
     [Parameter(Mandatory=$true)][string]$master_images
 )
@@ -6,7 +10,7 @@ $ErrorActionPreference="Stop"
 
 Add-Type -Assembly System.Drawing
 [Reflection.Assembly]::LoadFile("Z:\projects\Sampradaya\test\windows\TestApiCore.dll") | Out-Null
-$snapshotVerifier = New-Object -TypeName Microsoft.Test.VisualVerification.SnapshotColorVerifier
+$snapshotVerifier = New-Object -TypeName SnapshotColorVerifier
 
 function MkDirIfNotExists() {
     Param([Parameter(Mandatory = $True)] [String] $DirectoryToCreate)
@@ -17,8 +21,8 @@ function MkDirIfNotExists() {
 }
 
 function New-TemporaryDirectory {
-    $parent = [System.IO.Path]::GetTempPath()
-    $name = [System.IO.Path]::GetRandomFileName()
+    $parent = [Path]::GetTempPath()
+    $name = [Path]::GetRandomFileName()
     New-Item -ItemType Directory -Path (Join-Path $parent $name)
 }
 
@@ -28,17 +32,17 @@ Param(
     [Parameter(Mandatory=$true)][string]$actualPath,
     [Parameter(Mandatory=$true)][string]$diffPath
 )
-    $expected = [Microsoft.Test.VisualVerification.Snapshot]::FromFile($expectedPath);
-    $actual = [Microsoft.Test.VisualVerification.Snapshot]::FromFile($actualPath);
+    $expected = [Snapshot]::FromFile($expectedPath);
+    $actual = [Snapshot]::FromFile($actualPath);
 
     $diff = $actual.CompareTo($expected);
 
-    if ($snapshotVerifier.Verify($diff) -eq $([Microsoft.Test.VisualVerification.VerificationResult]::Pass)) {
+    if ($snapshotVerifier.Verify($diff) -eq $([VerificationResult]::Pass)) {
         return
     }
 
     MkDirIfNotExists (Split-Path -Path $diffPath)
-    $diff.ToFile($diffPath, $([System.Drawing.Imaging.ImageFormat]::Bmp));
+    $diff.ToFile($diffPath, $([ImageFormat]::Bmp));
 }
 
 $tmpDir = New-TemporaryDirectory
