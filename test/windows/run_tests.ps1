@@ -5,7 +5,7 @@ Param(
 $ErrorActionPreference="Stop"
 
 Add-Type -Assembly System.Drawing
-[Reflection.Assembly]::LoadFile("Z:\projects\Sampradaya\test\windows\TestApiCore.dll")
+[Reflection.Assembly]::LoadFile("Z:\projects\Sampradaya\test\windows\TestApiCore.dll") | Out-Null
 $snapshotVerifier = New-Object -TypeName Microsoft.Test.VisualVerification.SnapshotColorVerifier
 
 function MkDirIfNotExists() {
@@ -33,7 +33,7 @@ Param(
 
     $diff = $actual.CompareTo($expected);
 
-    if ($snapshotVerifier.Verify($diff) -eq $([Microsoft.Test.VisualVerification.VerificationResult]::Success)) {
+    if ($snapshotVerifier.Verify($diff) -eq $([Microsoft.Test.VisualVerification.VerificationResult]::Pass)) {
         return
     }
 
@@ -57,7 +57,6 @@ Get-ChildItem -Path "$tmpDir/actual" -Recurse -File | ForEach-Object {
     $diff = $actual.replace($tmpPath + '\actual\', $tmpPath + '\diff\')
 
     if (! (Compare-Object $(Get-Content $expected) $(Get-Content $actual))) {
-#        Compare-Images $expected $actual $diff
         return
     }
 
