@@ -7,7 +7,7 @@ build:
 install: build
 	$(PS) ./install_typeface.ps1
 
-regenerate_masters:
+regenerate_masters: rasterise_text.exe
 	$(PS) ./generate_images.ps1 master_images
 
 test: rasterise_text.exe
