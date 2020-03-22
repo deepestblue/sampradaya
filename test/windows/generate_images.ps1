@@ -1,8 +1,8 @@
-$ErrorActionPreference="Stop"
+Param(
+    [Parameter(Mandatory=$true)][string]$outputRoot
+)
 
-if ($args.Count -lt 1) {
-    throw "Required argument missing."
-}
+$ErrorActionPreference="Stop"
 
 function MkDirIfNotExists() {
     Param([Parameter(Mandatory = $True)] [String] $DirectoryToCreate)
@@ -12,7 +12,6 @@ function MkDirIfNotExists() {
     New-Item -Path $DirectoryToCreate -ItemType Directory -ErrorAction Stop | Out-Null
 }
 
-$outputRoot = "$($args[0])"
 MkDirIfNotExists $outputRoot
 
 Get-ChildItem "$PSScriptRoot/../cases" -Name *txt | ForEach-Object {
