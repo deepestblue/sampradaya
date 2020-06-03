@@ -14,6 +14,6 @@ test: rasterise_text.exe
 	$(PS) ./run_tests.ps1 master_images
 
 clean:
-	$(PS) Remove-Item -Force rasterise_text.exe, rasterise_text.obj
+	$(PS) (Remove-Item -Force rasterise_text.exe, rasterise_text.obj, rasterise_text.pdb -ErrorAction Ignore)
 
 .PHONY: build install regenerate_masters test clean
