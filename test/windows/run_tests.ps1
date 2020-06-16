@@ -61,8 +61,13 @@ Get-ChildItem -Path "$tmpDir/actual" -Recurse -File | ForEach-Object {
     $diff = $actual.replace($tmpPath + '\actual\', $tmpPath + '\diff\')
 
     if (! (Compare-Object $(Get-Content $expected) $(Get-Content $actual))) {
+        # Equal
         return
     }
+
+    echo "Actual: ", $actual
+    echo "Expected: ", $expected
+    echo "Diff: ", $diff
 
     Compare-Images $expected $actual $diff
 }
