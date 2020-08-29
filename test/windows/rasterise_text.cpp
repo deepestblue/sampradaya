@@ -517,8 +517,8 @@ wmain(
     auto line = string{};
 
     //
-    // Starting at one, because technically 0 is a zero-digit number, so ostreaming a '0'
-    // should be the empty-string, but it's not, so the output filename for the zeroth
+    // Starting at one, because technically 0 is a zero-digit number, so ostreaming a ‘0’
+    // should be the empty-string, but it’s not, so the output filename for the zeroth
     // file looks wrong.
     //
     auto i = 1u;

@@ -30,7 +30,7 @@ void assert_and_throw(T exp) {
 //
 // Unfortunately, void is irregular in C++,
 // http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2016/p0146r1.html
-// so we're forced to use some hackery to regularise it.
+// so we’re forced to use some hackery to regularise it.
 // https://stackoverflow.com/questions/47996550/handling-void-assignment-in-c-generic-programming
 //
 struct Or_void {};
@@ -170,8 +170,8 @@ main(int argc, char *argv[]) {
     auto line = string{};
 
     //
-    // Starting at one, because technically 0 is a zero-digit number, so ostreaming a '0'
-    // should be the empty-string, but it's not, so the output filename for the zeroth
+    // Starting at one, because technically 0 is a zero-digit number, so ostreaming a ‘0’
+    // should be the empty-string, but it’s not, so the output filename for the zeroth
     // file looks wrong.
     //
     auto i = 1u;
