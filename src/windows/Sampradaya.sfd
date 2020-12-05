@@ -21614,10 +21614,10 @@ LCarets2: 1 0
 Ligature2: "'haln' Halant Forms lookup 6 subtable" u11319 u1134D
 EndChar
 
-StartChar: uni1CF2
+StartChar: u1CF2
 Encoding: 7410 7410 218
 Width: 542
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
