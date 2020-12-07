@@ -3,8 +3,8 @@ FontName: Sampradaya
 FullName: sampradaya
 FamilyName: Sampradaya
 Weight: Book
-Copyright: Copyright 2014-2016 Ambarish Sridharanarayanan.\n\nReleased under the SIL Open Font License v1.1 http://scripts.sil.org/OFL_web\n\nAcknowledgements:\n* Prof. R. Kalyana Krishnan, (Retd.)\n* Vinodh Rajan\n* Anupama Krishnan\n* Ranganath Atreya\n* FontForge\n* Unicode
-Version: 0.6
+Copyright: Copyright 2014-2021 Ambarish Sridharanarayanan.\n\nReleased under the SIL Open Font License v1.1 http://scripts.sil.org/OFL_web\n\nAcknowledgements:\n* Prof. R. Kalyana Krishnan, (Retd.)\n* Vinodh Rajan\n* Anupama Krishnan\n* Ranganath Atreya\n* The makers of FontForge\n* The Unicode Consortium\n* The makers of NotoSansGrantha
+Version: 0.9
 ItalicAngle: 0
 UnderlinePosition: -126
 UnderlineWidth: 50
