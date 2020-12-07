@@ -12,6 +12,7 @@ Ascent: 819
 Descent: 205
 InvalidEm: 0
 sfntRevision: 0x00010000
+LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
 XUID: [1021 268 364675272 1489025]
@@ -21,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1607299875
+ModificationTime: 1607304637
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -320,10 +321,10 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 14 7
+WinInfo: 0 8 4
 BeginPrivate: 0
 EndPrivate
-BeginChars: 1114113 219
+BeginChars: 1114113 220
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -377,6 +378,7 @@ PUSHB_3
 MIRP[min,rnd,black]
 SHP[rp2]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 34 0 m 1,0,-1
@@ -394,19 +396,17 @@ Validated: 1
 EndChar
 
 StartChar: .null
-Encoding: 29 29 1
-AltUni2: 000008.ffffffff.0 000000.ffffffff.0
+Encoding: 0 0 1
 Width: 0
 Flags: W
-Fore
-Validated: 1
+LayerCount: 2
 EndChar
 
 StartChar: nonmarkingreturn
 Encoding: 13 13 2
-AltUni2: 000009.ffffffff.0
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 Validated: 1
 EndChar
@@ -430,6 +430,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 -228 504 m 1,0,1
@@ -464,6 +465,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 -339 -60 m 2,0,1
@@ -485,6 +487,7 @@ StartChar: danda
 Encoding: 2404 2404 5
 Width: 203
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 131 32 m 2,0,1
@@ -506,6 +509,7 @@ StartChar: dbldanda
 Encoding: 2405 2405 6
 Width: 305
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 128 33 m 2,0,1
@@ -538,6 +542,7 @@ StartChar: u0BE6
 Encoding: 3046 3046 7
 Width: 408
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 208 325 m 2,0,-1
@@ -582,6 +587,7 @@ StartChar: u0BE7
 Encoding: 3047 3047 8
 Width: 490
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 336 286 m 2,0,1
@@ -661,6 +667,7 @@ StartChar: u0BE8
 Encoding: 3048 3048 9
 Width: 489
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 72 5 m 2,0,1
@@ -713,6 +720,7 @@ StartChar: u0BE9
 Encoding: 3049 3049 10
 Width: 367
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 193 307 m 2,0,1
@@ -769,6 +777,7 @@ StartChar: u0BEA
 Encoding: 3050 3050 11
 Width: 490
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 308 308 m 2,0,1
@@ -839,6 +848,7 @@ StartChar: u0BEB
 Encoding: 3051 3051 12
 Width: 490
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 41 219 m 1,0,-1
@@ -983,6 +993,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 353 13 m 1,0,1
@@ -1066,6 +1077,7 @@ StartChar: u0BED
 Encoding: 3053 3053 14
 Width: 490
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 115 189 m 2,0,-1
@@ -1131,6 +1143,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 412 285 m 2,0,1
@@ -1194,6 +1207,7 @@ StartChar: u0BEF
 Encoding: 3055 3055 16
 Width: 490
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 257 86 m 2,0,1
@@ -1316,6 +1330,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 -289 516 m 2,0,1
@@ -1351,6 +1366,7 @@ StartChar: uA8F3
 Encoding: 43251 43251 18
 Width: 408
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 63 359 m 1,0,1
@@ -1404,6 +1420,7 @@ StartChar: uE000
 Encoding: 57344 57344 19
 Width: 735
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 20 170 m 1,0,-1
@@ -1537,6 +1554,7 @@ StartChar: uE001
 Encoding: 57345 57345 20
 Width: 859
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 510 31 m 2,0,1
@@ -1733,6 +1751,7 @@ StartChar: uE002
 Encoding: 57346 57346 21
 Width: 859
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 510 31 m 2,0,1
@@ -1966,6 +1985,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 400 22 m 1,0,-1
@@ -2176,6 +2196,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 305 208 m 0,0,1
@@ -2315,6 +2336,7 @@ MDRP[rp0,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 43 4 m 1,0,-1
@@ -2461,6 +2483,7 @@ StartChar: uE006
 Encoding: 57350 57350 25
 Width: 836
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 281 10 m 1,0,-1
@@ -2603,6 +2626,7 @@ StartChar: uE007
 Encoding: 57351 57351 26
 Width: 859
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 510 31 m 2,0,1
@@ -2805,6 +2829,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 41 169 m 2,0,-1
@@ -2928,6 +2953,7 @@ StartChar: uE009
 Encoding: 57353 57353 28
 Width: 859
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 510 31 m 2,0,1
@@ -3170,6 +3196,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 303 0 m 1,0,-1
@@ -3297,6 +3324,7 @@ StartChar: uE00B
 Encoding: 57355 57355 30
 Width: 613
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 146 0 m 1,0,1
@@ -3510,6 +3538,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 37 133 m 2,0,-1
@@ -3633,6 +3662,7 @@ StartChar: uE00D
 Encoding: 57357 57357 32
 Width: 736
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 37 133 m 2,0,-1
@@ -3758,6 +3788,7 @@ StartChar: uE00E
 Encoding: 57358 57358 33
 Width: 637
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 116 250 m 0,0,1
@@ -3855,6 +3886,7 @@ StartChar: uE00F
 Encoding: 57359 57359 34
 Width: 665
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 313 -295 m 1,0,-1
@@ -4053,6 +4085,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 615 411 m 2,0,-1
@@ -4249,6 +4282,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 94 206 m 0,0,1
@@ -4343,6 +4377,7 @@ StartChar: uE102
 Encoding: 57602 57602 37
 Width: 920
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 169 336 m 5,0,-1
@@ -4452,6 +4487,7 @@ StartChar: uE103
 Encoding: 57603 57603 38
 Width: 1128
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 36 132 m 2,0,-1
@@ -4602,6 +4638,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 307 74 m 1,0,-1
@@ -4689,6 +4726,7 @@ StartChar: uE105
 Encoding: 57605 57605 40
 Width: 554
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 124 290 m 1,0,-1
@@ -4804,6 +4842,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 264 125 m 1,0,-1
@@ -4913,6 +4952,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 563 240 m 1,0,-1
@@ -5033,6 +5073,7 @@ StartChar: uE108
 Encoding: 57608 57608 43
 Width: 772
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 85 259 m 1,0,-1
@@ -5236,6 +5277,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 441 -118 m 0,0,1
@@ -5422,6 +5464,7 @@ StartChar: uE10A
 Encoding: 57610 57610 45
 Width: 859
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 31 220 m 2,0,-1
@@ -5596,6 +5639,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 94 206 m 0,0,1
@@ -5788,6 +5832,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 383 60 m 1,0,-1
@@ -5987,6 +6032,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 118 54 m 1,0,-1
@@ -6065,6 +6111,7 @@ StartChar: uE10E
 Encoding: 57614 57614 49
 Width: 982
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 117 242.5 m 128,-1,1
@@ -6153,6 +6200,7 @@ StartChar: uE10F
 Encoding: 57615 57615 50
 Width: 612
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 400 242 m 1,0,1
@@ -6216,6 +6264,7 @@ StartChar: uE110
 Encoding: 57616 57616 51
 Width: 869
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 497 119 m 1,0,1
@@ -6289,6 +6338,7 @@ StartChar: uE111
 Encoding: 57617 57617 52
 Width: 920
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 139 57 m 1,0,1
@@ -6369,6 +6419,7 @@ StartChar: uE112
 Encoding: 57618 57618 53
 Width: 659
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 114 69 m 1,0,1
@@ -6430,6 +6481,7 @@ StartChar: uE113
 Encoding: 57619 57619 54
 Width: 834
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 502 134 m 1,0,1
@@ -6554,6 +6606,7 @@ StartChar: uE114
 Encoding: 57620 57620 55
 Width: 854
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 63 40 m 2,0,1
@@ -6647,6 +6700,7 @@ StartChar: uE115
 Encoding: 57621 57621 56
 Width: 876
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 214 165 m 1024,0,-1
@@ -6740,6 +6794,7 @@ StartChar: uE116
 Encoding: 57622 57622 57
 Width: 1228
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 106 209 m 1,0,-1
@@ -6891,6 +6946,7 @@ StartChar: uE200
 Encoding: 57856 57856 58
 Width: 404
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 164 515 m 1,0,-1
@@ -6952,6 +7008,7 @@ StartChar: uE201
 Encoding: 57857 57857 59
 Width: 407
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 135 -74 m 1,0,-1
@@ -7037,6 +7094,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 77 147 m 2,0,1
@@ -7105,6 +7163,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 72 147 m 2,0,1
@@ -7147,6 +7206,7 @@ StartChar: uE20B
 Encoding: 57867 57867 62
 Width: 308
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 112 219 m 1,0,-1
@@ -7233,6 +7293,7 @@ StartChar: uE315
 Encoding: 58133 58133 63
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -150 -293 m 1,0,-1
@@ -7334,6 +7395,7 @@ StartChar: uE316
 Encoding: 58134 58134 64
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -305 -296 m 1,0,-1
@@ -7405,6 +7467,7 @@ StartChar: uE317
 Encoding: 58135 58135 65
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -167 -166 m 0,0,1
@@ -7460,6 +7523,7 @@ StartChar: uE318
 Encoding: 58136 58136 66
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -368 -293 m 1,0,-1
@@ -7537,6 +7601,7 @@ StartChar: uE31A
 Encoding: 58138 58138 67
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -513 -286 m 1,0,-1
@@ -7614,6 +7679,7 @@ StartChar: uE31B
 Encoding: 58139 58139 68
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -487 -295 m 1,0,-1
@@ -7699,6 +7765,7 @@ StartChar: uE31C
 Encoding: 58140 58140 69
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -226 -156 m 1,0,-1
@@ -7808,6 +7875,7 @@ StartChar: uE31D
 Encoding: 58141 58141 70
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -447 -259 m 1,0,-1
@@ -7886,6 +7954,7 @@ StartChar: uE31F
 Encoding: 58143 58143 71
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -430 -212 m 2,0,1
@@ -7920,6 +7989,7 @@ StartChar: uE320
 Encoding: 58144 58144 72
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -173 -37 m 1,0,-1
@@ -7965,6 +8035,7 @@ StartChar: uE321
 Encoding: 58145 58145 73
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -327 -127 m 1,0,-1
@@ -8062,6 +8133,7 @@ StartChar: uE322
 Encoding: 58146 58146 74
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -331 -119 m 1,0,-1
@@ -8172,6 +8244,7 @@ StartChar: uE323
 Encoding: 58147 58147 75
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -567 -232 m 0,0,1
@@ -8277,6 +8350,7 @@ StartChar: uE324
 Encoding: 58148 58148 76
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -335 -299 m 1,0,1
@@ -8360,6 +8434,7 @@ StartChar: uE325
 Encoding: 58149 58149 77
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -508 -193 m 1,0,-1
@@ -8436,6 +8511,7 @@ StartChar: uE326
 Encoding: 58150 58150 78
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -247 -292 m 1,0,-1
@@ -8521,6 +8597,7 @@ StartChar: uE327
 Encoding: 58151 58151 79
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -526 -188 m 2,0,-1
@@ -8585,6 +8662,7 @@ StartChar: uE328
 Encoding: 58152 58152 80
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -178 -294 m 2,0,1
@@ -8653,6 +8731,7 @@ StartChar: uE32A
 Encoding: 58154 58154 81
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -371 -275 m 1,0,-1
@@ -8723,6 +8802,7 @@ StartChar: uE32B
 Encoding: 58155 58155 82
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -376 -284 m 1,0,-1
@@ -8807,6 +8887,7 @@ StartChar: uE32C
 Encoding: 58156 58156 83
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -357 -175 m 2,0,1
@@ -8886,6 +8967,7 @@ StartChar: uE32D
 Encoding: 58157 58157 84
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -515 -162 m 1,0,1
@@ -8975,6 +9057,7 @@ StartChar: uE32E
 Encoding: 58158 58158 85
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -243 -251 m 2,0,1
@@ -9053,6 +9136,7 @@ StartChar: uE32F
 Encoding: 58159 58159 86
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -362 -67 m 1,0,-1
@@ -9131,6 +9215,7 @@ StartChar: uE332
 Encoding: 58162 58162 87
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -65 -160 m 1,0,-1
@@ -9209,6 +9294,7 @@ StartChar: uE333
 Encoding: 58163 58163 88
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -285 -157 m 1,0,-1
@@ -9302,6 +9388,7 @@ StartChar: uE335
 Encoding: 58165 58165 89
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -278 -304 m 1,0,-1
@@ -9367,6 +9454,7 @@ StartChar: uE336
 Encoding: 58166 58166 90
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -512 -216 m 2,0,-1
@@ -9443,6 +9531,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 -387 -280 m 1,0,-1
@@ -9550,6 +9639,7 @@ StartChar: uE338
 Encoding: 58168 58168 92
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -207 -270 m 2,0,1
@@ -9660,6 +9750,7 @@ StartChar: uE339
 Encoding: 58169 58169 93
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -218 -268 m 2,0,1
@@ -9790,6 +9881,7 @@ StartChar: uE380
 Encoding: 58240 58240 94
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -319 -218 m 1,0,-1
@@ -9925,6 +10017,7 @@ StartChar: uE381
 Encoding: 58241 58241 95
 Width: 85
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -537 -101 m 2,0,1
@@ -10060,6 +10153,7 @@ StartChar: uE382
 Encoding: 58242 58242 96
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -401 -83 m 1,0,-1
@@ -10148,6 +10242,7 @@ StartChar: uE383
 Encoding: 58243 58243 97
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -201 -168 m 1,0,1
@@ -10245,6 +10340,7 @@ StartChar: uE384
 Encoding: 58244 58244 98
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -403 -145 m 1,0,1
@@ -10308,6 +10404,7 @@ StartChar: uE385
 Encoding: 58245 58245 99
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -183 -265 m 0,0,1
@@ -10402,6 +10499,7 @@ StartChar: uE386
 Encoding: 58246 58246 100
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -432.5 -79.5 m 128,-1,1
@@ -10466,6 +10564,7 @@ StartChar: uE387
 Encoding: 58247 58247 101
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -475 -98 m 0,0,1
@@ -10549,6 +10648,7 @@ StartChar: uE388
 Encoding: 58248 58248 102
 Width: 683
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 209 -246 m 2,0,1
@@ -10642,6 +10742,7 @@ StartChar: uE389
 Encoding: 58249 58249 103
 Width: 593
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 208 -185 m 256,0,1
@@ -10783,6 +10884,7 @@ StartChar: uE38A
 Encoding: 58250 58250 104
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -377 -225 m 2,0,1
@@ -10863,6 +10965,7 @@ StartChar: uE38B
 Encoding: 58251 58251 105
 Width: 554
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 186 -104 m 1,0,-1
@@ -10937,6 +11040,7 @@ StartChar: uE38C
 Encoding: 58252 58252 106
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -344 -193 m 1,0,1
@@ -11047,6 +11151,7 @@ StartChar: uE38D
 Encoding: 58253 58253 107
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -524 -167 m 1024,0,-1
@@ -11140,6 +11245,7 @@ StartChar: uE38E
 Encoding: 58254 58254 108
 Width: 527
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 200 -240 m 1,0,1
@@ -11201,6 +11307,7 @@ StartChar: uE38F
 Encoding: 58255 58255 109
 Width: 683
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 537 -41 m 2,0,-1
@@ -11326,6 +11433,7 @@ StartChar: uE390
 Encoding: 58256 58256 110
 Width: 602
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 203 -143 m 0,0,1
@@ -11420,6 +11528,7 @@ StartChar: uE391
 Encoding: 58257 58257 111
 Width: 896
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 242 -189 m 2,0,-1
@@ -11532,6 +11641,7 @@ StartChar: uE392
 Encoding: 58258 58258 112
 Width: 490
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 306 -224 m 1,0,-1
@@ -11619,6 +11729,7 @@ StartChar: uE393
 Encoding: 58259 58259 113
 Width: 531
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 206 -259 m 1,0,-1
@@ -11697,6 +11808,7 @@ StartChar: uE394
 Encoding: 58260 58260 114
 Width: 784
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 266 -144 m 128,-1,1
@@ -11785,6 +11897,7 @@ StartChar: uE395
 Encoding: 58261 58261 115
 Width: 736
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 268 -232 m 1,0,1
@@ -11898,6 +12011,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 347 90 m 2,0,1
@@ -12031,6 +12145,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 80 97 m 2,0,-1
@@ -12111,6 +12226,7 @@ StartChar: uE402
 Encoding: 58370 58370 118
 Width: 561
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 39 439 m 1,0,-1
@@ -12207,6 +12323,7 @@ StartChar: uE403
 Encoding: 58371 58371 119
 Width: 716
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 622 144 m 1,0,1
@@ -12309,6 +12426,7 @@ StartChar: uE480
 Encoding: 58496 58496 120
 Width: 820
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 749 13 m 256,0,1
@@ -12364,6 +12482,7 @@ StartChar: uE481
 Encoding: 58497 58497 121
 Width: 660
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 448 61 m 1,0,1
@@ -12431,6 +12550,7 @@ StartChar: uE482
 Encoding: 58498 58498 122
 Width: 1166
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 386 257 m 1,0,1
@@ -12532,6 +12652,7 @@ StartChar: uE483
 Encoding: 58499 58499 123
 Width: 1052
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 937 330 m 1,0,1
@@ -12643,6 +12764,7 @@ StartChar: uE500
 Encoding: 58624 58624 124
 Width: 203
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 127 28 m 2,0,1
@@ -12664,6 +12786,7 @@ StartChar: uE501
 Encoding: 58625 58625 125
 Width: 305
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 127 28 m 2,0,1
@@ -12711,6 +12834,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 35 212 m 1,0,-1
@@ -12790,6 +12914,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 68 292 m 1,0,-1
@@ -12952,6 +13077,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 572 17 m 1,0,-1
@@ -13153,6 +13279,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 549 61 m 1,0,-1
@@ -13331,6 +13458,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 125 134 m 2,0,-1
@@ -13484,6 +13612,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 521 53 m 1,0,-1
@@ -13585,6 +13714,7 @@ StartChar: u11309
 Encoding: 70409 70409 132
 Width: 613
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 206 5 m 1,0,-1
@@ -13747,6 +13877,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 678 339 m 1,0,-1
@@ -13891,6 +14022,7 @@ StartChar: u1130B
 Encoding: 70411 70411 134
 Width: 614
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 50 349 m 0,0,1
@@ -14017,6 +14149,7 @@ StartChar: u1130C
 Encoding: 70412 70412 135
 Width: 765
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 696 108 m 0,0,1
@@ -14206,6 +14339,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 266 2 m 1,0,-1
@@ -14364,6 +14498,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 868 3 m 1,0,-1
@@ -14640,6 +14775,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 97 208 m 1,0,1
@@ -14819,6 +14955,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 97 208 m 1,0,1
@@ -14973,6 +15110,7 @@ StartChar: u11315
 Encoding: 70421 70421 140
 Width: 562
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 391 22 m 1,0,-1
@@ -15110,6 +15248,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 413 4 m 1,0,-1
@@ -15218,6 +15357,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 305 208 m 0,0,1
@@ -15274,6 +15414,7 @@ StartChar: u11318
 Encoding: 70424 70424 143
 Width: 919
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 322 3 m 1,0,-1
@@ -15362,6 +15503,7 @@ StartChar: u11319
 Encoding: 70425 70425 144
 Width: 613
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 125 134 m 2,0,-1
@@ -15466,6 +15608,7 @@ StartChar: u1131A
 Encoding: 70426 70426 145
 Width: 768
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 8 40 m 1,0,-1
@@ -15543,6 +15686,7 @@ StartChar: u1131B
 Encoding: 70427 70427 146
 Width: 768
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 0 22 m 1,0,-1
@@ -15685,6 +15829,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 403 215 m 1,0,-1
@@ -15807,6 +15952,7 @@ StartChar: u1131D
 Encoding: 70429 70429 148
 Width: 768
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 128 40 m 1,0,-1
@@ -15966,6 +16112,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 119 168 m 0,0,1
@@ -16109,6 +16256,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 69 11 m 2,0,1
@@ -16165,6 +16313,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 248 347 m 1,0,-1
@@ -16211,6 +16360,7 @@ StartChar: u11321
 Encoding: 70433 70433 152
 Width: 735
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 245 299 m 1,0,-1
@@ -16325,6 +16475,7 @@ StartChar: u11322
 Encoding: 70434 70434 153
 Width: 736
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 231 297 m 1,0,-1
@@ -16518,6 +16669,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 96 116 m 0,0,1
@@ -16631,6 +16783,7 @@ StartChar: u11324
 Encoding: 70436 70436 155
 Width: 665
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 158 2 m 1,0,1
@@ -16719,6 +16872,7 @@ StartChar: u11325
 Encoding: 70437 70437 156
 Width: 768
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 35 173 m 1,0,-1
@@ -16798,6 +16952,7 @@ StartChar: u11326
 Encoding: 70438 70438 157
 Width: 512
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 218 1 m 2,0,1
@@ -16887,6 +17042,7 @@ StartChar: u11327
 Encoding: 70439 70439 158
 Width: 768
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 67 172 m 2,0,-1
@@ -16954,6 +17110,7 @@ StartChar: u11328
 Encoding: 70440 70440 159
 Width: 665
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 263 121 m 2,0,-1
@@ -17069,6 +17226,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 299 10 m 1,0,-1
@@ -17223,6 +17381,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 253 3 m 1,0,-1
@@ -17355,6 +17514,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 299 210 m 2,0,1
@@ -17444,6 +17604,7 @@ StartChar: u1132D
 Encoding: 70445 70445 163
 Width: 768
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 43 216 m 1,0,1
@@ -17560,6 +17721,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 121 91 m 1,0,-1
@@ -17647,6 +17809,7 @@ StartChar: u1132F
 Encoding: 70447 70447 165
 Width: 665
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 58 147 m 1,0,-1
@@ -17701,6 +17864,7 @@ StartChar: u11330
 Encoding: 70448 70448 166
 Width: 494
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 102 20 m 2,0,1
@@ -17764,6 +17928,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 572 234 m 1,0,-1
@@ -17845,6 +18010,7 @@ StartChar: u11333
 Encoding: 70451 70451 168
 Width: 768
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 330 203 m 1,0,-1
@@ -17985,6 +18151,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 281 2 m 1,0,-1
@@ -18107,6 +18274,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 37 133 m 2,0,-1
@@ -18173,6 +18341,7 @@ StartChar: u11337
 Encoding: 70455 70455 171
 Width: 982
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 308 9 m 1,0,-1
@@ -18299,6 +18468,7 @@ StartChar: u11338
 Encoding: 70456 70456 172
 Width: 859
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 510 31 m 2,0,1
@@ -18528,6 +18698,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 591 55 m 1,0,-1
@@ -18671,6 +18842,7 @@ StartChar: u1133D
 Encoding: 70461 70461 174
 Width: 409
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 24 102 m 1,0,-1
@@ -18753,6 +18925,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 80 24 m 1,0,-1
@@ -18819,6 +18992,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 -143 501 m 2,0,-1
@@ -18864,6 +19038,7 @@ StartChar: u11340
 Encoding: 70464 70464 177
 Width: 198
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -73 538 m 1,0,-1
@@ -18920,6 +19095,7 @@ StartChar: u11341
 Encoding: 70465 70465 178
 Width: 407
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 112 362 m 1,0,-1
@@ -18966,6 +19142,7 @@ StartChar: u11342
 Encoding: 70466 70466 179
 Width: 407
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 80 181 m 1,0,-1
@@ -19040,6 +19217,7 @@ StartChar: u11343
 Encoding: 70467 70467 180
 Width: 276
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -16 -128 m 128,-1,1
@@ -19092,6 +19270,7 @@ StartChar: u11344
 Encoding: 70468 70468 181
 Width: 277
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 27 -130 m 128,-1,1
@@ -19193,6 +19372,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 521 304 m 2,0,1
@@ -19363,6 +19543,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 279 215 m 2,0,-1
@@ -19495,6 +19676,7 @@ StartChar: u1134B
 Encoding: 70475 70475 184
 Width: 1448
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 650 178 m 128,-1,1
@@ -19588,6 +19770,7 @@ StartChar: u1134C
 Encoding: 70476 70476 185
 Width: 1637
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 651 209 m 128,-1,1
@@ -19759,6 +19942,7 @@ MDRP[rp0,min,rnd,grey]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 56 613 m 2,0,-1
@@ -19899,6 +20083,7 @@ CALL
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 97 208 m 1,0,1
@@ -20062,6 +20247,7 @@ MDAP[rnd]
 IUP[y]
 IUP[x]
 EndTTInstrs
+LayerCount: 2
 Fore
 SplineSet
 208 362 m 1,0,-1
@@ -20140,6 +20326,7 @@ StartChar: u11360
 Encoding: 70496 70496 189
 Width: 811
 Flags: W
+LayerCount: 2
 Fore
 Refer: 62 57867 N 1 0 0 1 510 4 2
 Refer: 134 70411 N 1 0 0 1 -34 0 2
@@ -20149,6 +20336,7 @@ StartChar: u11362
 Encoding: 70498 70498 190
 Width: 765
 Flags: W
+LayerCount: 2
 Fore
 Refer: 135 70412 N 1 0 0 1 0 0 2
 EndChar
@@ -20157,6 +20345,7 @@ StartChar: u0BAA
 Encoding: 2986 2986 191
 Width: 366
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 321 599 m 2,0,1
@@ -20188,6 +20377,7 @@ StartChar: uE319
 Encoding: 58137 58137 192
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -374 -162 m 6,0,1
@@ -20266,6 +20456,7 @@ StartChar: uniE31E
 Encoding: 58142 58142 193
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -252 -413 m 6,0,-1
@@ -20351,6 +20542,7 @@ StartChar: uniE205
 Encoding: 57861 57861 194
 Width: 238
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 52 150 m 6,0,1
@@ -20387,6 +20579,7 @@ StartChar: uniE206
 Encoding: 57862 57862 195
 Width: 294
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 25 666 m 1,0,1
@@ -20433,6 +20626,7 @@ StartChar: uniE207
 Encoding: 57863 57863 196
 Width: 240
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 153 243 m 256,0,1
@@ -20467,6 +20661,7 @@ StartChar: uniE208
 Encoding: 57864 57864 197
 Width: 244
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 27 614 m 0,0,1
@@ -20502,6 +20697,7 @@ StartChar: uE404
 Encoding: 58372 58372 198
 Width: 671
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 600 -3 m 2,0,-1
@@ -20574,6 +20770,7 @@ StartChar: u11300
 Encoding: 70400 70400 199
 Width: 370
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 286 474 m 4,0,1
@@ -20607,6 +20804,7 @@ StartChar: u11301
 Encoding: 70401 70401 200
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 -5 690 m 6,0,-1
@@ -20652,6 +20850,7 @@ StartChar: u1135E
 Encoding: 70494 70494 201
 Width: 407
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 164 669 m 0,0,1
@@ -20702,6 +20901,7 @@ StartChar: u1135F
 Encoding: 70495 70495 202
 Width: 490
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 470 601 m 0,0,1
@@ -20757,6 +20957,7 @@ StartChar: u11361
 Encoding: 70497 70497 203
 Width: 1062
 Flags: W
+LayerCount: 2
 Fore
 Refer: 62 57867 N 1 0 0 1 715 0 2
 Refer: 135 70412 N 1 0 0 1 0 0 2
@@ -20766,6 +20967,7 @@ StartChar: u11363
 Encoding: 70499 70499 204
 Width: 984
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 213 409 m 0,0,1
@@ -20854,6 +21056,7 @@ StartChar: u11366
 Encoding: 70502 70502 205
 Width: 394
 Flags: W
+LayerCount: 2
 Fore
 Refer: 7 3046 N 0.541721 0 0 0.553303 -727.854 959.894 2
 EndChar
@@ -20862,6 +21065,7 @@ StartChar: u11367
 Encoding: 70503 70503 206
 Width: 395
 Flags: W
+LayerCount: 2
 Fore
 Refer: 8 3047 N 0.599976 0 0 0.599976 -625 976 2
 Validated: 1
@@ -20871,6 +21075,7 @@ StartChar: u11368
 Encoding: 70504 70504 207
 Width: 387
 Flags: W
+LayerCount: 2
 Fore
 Refer: 9 3048 N 0.599976 0 0 0.599976 -619 983 2
 Validated: 1
@@ -20880,6 +21085,7 @@ StartChar: u11369
 Encoding: 70505 70505 208
 Width: 295
 Flags: W
+LayerCount: 2
 Fore
 Refer: 10 3049 N 0.599976 0 0 0.599976 -567 981 2
 Validated: 1
@@ -20889,6 +21095,7 @@ StartChar: u1136A
 Encoding: 70506 70506 209
 Width: 395
 Flags: W
+LayerCount: 2
 Fore
 Refer: 11 3050 N 0.599976 0 0 0.599976 -634 980 2
 Validated: 1
@@ -20898,6 +21105,7 @@ StartChar: u1136B
 Encoding: 70507 70507 210
 Width: 392
 Flags: W
+LayerCount: 2
 Fore
 Refer: 12 3051 N 0.599976 0 0 0.599976 -623 981 2
 Validated: 5
@@ -20907,6 +21115,7 @@ StartChar: u1136C
 Encoding: 70508 70508 211
 Width: 391
 Flags: W
+LayerCount: 2
 Fore
 Refer: 13 3052 N 0.599976 0 0 0.599976 -622 980 2
 Validated: 1
@@ -20916,6 +21125,7 @@ StartChar: u11370
 Encoding: 70512 70512 212
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 Refer: 128 70405 N 0.472473 0 0 0.472473 -608 995 2
 Validated: 5
@@ -20925,6 +21135,7 @@ StartChar: u11371
 Encoding: 70513 70513 213
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 Refer: 140 70421 N 0.472473 0 0 0.472473 -572 990 2
 Validated: 5
@@ -20934,6 +21145,7 @@ StartChar: u11372
 Encoding: 70514 70514 214
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 Refer: 159 70440 N 0.485962 0 0 0.491882 -641 997 2
 Validated: 9
@@ -20943,6 +21155,7 @@ StartChar: u11373
 Encoding: 70515 70515 215
 Width: 399
 Flags: W
+LayerCount: 2
 Fore
 Refer: 176 70463 N 0.3465 0 0 0.3465 -349.94 1000.75 2
 Refer: 169 70453 N 0.3465 0 0 0.3465 -586.947 1000.75 2
@@ -20952,6 +21165,7 @@ StartChar: u11374
 Encoding: 70516 70516 216
 Width: 0
 Flags: W
+LayerCount: 2
 Fore
 Refer: 191 2986 N 0.5 0 0 0.5 -520 990 2
 Validated: 9
@@ -20961,6 +21175,7 @@ StartChar: uE405
 Encoding: 58373 58373 217
 Width: 747
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 213 51 m 1,0,1
@@ -21144,6 +21359,7 @@ StartChar: u1CF2
 Encoding: 7410 7410 218
 Width: 542
 Flags: W
+LayerCount: 2
 Fore
 SplineSet
 83.3896484375 22.1396484375 m 3,0,1
@@ -21165,6 +21381,13 @@ SplineSet
  82 275 82 275 271.991210938 273.4453125 c 4,30,31
  469 272 469 272 461.74609375 482.201171875 c 4,16,17
 EndSplineSet
+EndChar
+
+StartChar: space
+Encoding: 32 32 219
+Width: 252
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
