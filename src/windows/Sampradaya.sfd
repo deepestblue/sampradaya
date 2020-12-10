@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1607580376
+ModificationTime: 1607580554
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -322,7 +322,7 @@ NameList: AGL For New Fonts
 DisplaySize: -72
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 108 9 6
+WinInfo: 0 9 6
 BeginPrivate: 0
 EndPrivate
 BeginChars: 1114113 219
@@ -508,35 +508,12 @@ EndChar
 
 StartChar: dbldanda
 Encoding: 2405 2405 6
-Width: 305
-Flags: W
+Width: 203
+Flags: WO
 LayerCount: 2
 Fore
-SplineSet
-128 33 m 2,0,1
- 128 20 128 20 118 12.5 c 128,-1,2
- 108 5 108 5 96 5 c 0,3,4
- 85 5 85 5 76 12 c 128,-1,5
- 67 19 67 19 67 33 c 2,6,-1
- 67 472 l 2,7,8
- 67 486 67 486 76 493.5 c 128,-1,9
- 85 501 85 501 96 501 c 256,10,11
- 107 501 107 501 117.5 493.5 c 128,-1,12
- 128 486 128 486 128 472 c 2,13,-1
- 128 33 l 2,0,1
-258 37 m 2,14,15
- 258 24 258 24 247.5 16.5 c 128,-1,16
- 237 9 237 9 226 9 c 128,-1,17
- 215 9 215 9 206 16.5 c 128,-1,18
- 197 24 197 24 197 37 c 2,19,-1
- 197 475 l 2,20,21
- 197 490 197 490 206 497.5 c 128,-1,22
- 215 505 215 505 226 505 c 0,23,24
- 236 505 236 505 247 497.5 c 128,-1,25
- 258 490 258 490 258 475 c 2,26,-1
- 258 37 l 2,14,15
-EndSplineSet
-Validated: 1
+Refer: 5 2404 S 1 0 0 1 0 0 2
+Refer: 5 2404 N 1 0 0 1 130 0 2
 EndChar
 
 StartChar: u0BE6
