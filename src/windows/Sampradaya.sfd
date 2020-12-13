@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1607833129
+ModificationTime: 1607835181
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -7349,35 +7349,10 @@ EndChar
 StartChar: uE31F
 Encoding: 58143 58143 71
 Width: 0
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
-SplineSet
--430 -212 m 2,0,1
- -432 -212 -432 -212 -434 -212 c 0,2,3
- -437 -212 -437 -212 -437 -211 c 0,4,5
- -444 -209 -444 -209 -450 -205.5 c 128,-1,6
- -456 -202 -456 -202 -456 -195 c 2,7,-1
- -456 -49 l 2,8,9
- -456 -41 -456 -41 -448 -37 c 128,-1,10
- -440 -33 -440 -33 -431 -33 c 256,11,12
- -422 -33 -422 -33 -415 -37 c 128,-1,13
- -408 -41 -408 -41 -408 -49 c 2,14,-1
- -408 -179 l 1,15,-1
- -46 -179 l 2,16,17
- -33 -179 -33 -179 -33 -196 c 0,18,19
- -33 -201 -33 -201 -35.5 -206.5 c 128,-1,20
- -38 -212 -38 -212 -46 -212 c 2,21,-1
- -214 -212 l 1,22,-1
- -214 -258 l 2,23,24
- -214 -266 -214 -266 -221 -269.5 c 128,-1,25
- -228 -273 -228 -273 -239 -273 c 0,26,27
- -248 -273 -248 -273 -255.5 -269.5 c 128,-1,28
- -263 -266 -263 -266 -263 -258 c 2,29,-1
- -263 -212 l 1,30,-1
- -430 -212 l 2,0,1
-EndSplineSet
-Validated: 1
+Refer: 148 70431 S 0.7497 0 0 0.714 -475.407 -217.402 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131F
 EndChar
@@ -13925,7 +13900,7 @@ EndChar
 StartChar: u1131E
 Encoding: 70430 70430 147
 Width: 768
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
