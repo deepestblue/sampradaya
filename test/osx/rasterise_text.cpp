@@ -1,7 +1,7 @@
 #include <string>
 #include <fstream>
 #include <stdexcept>
-#include <experimental/filesystem>
+#include <filesystem>
 
 //#define DEBUG
 
@@ -57,7 +57,7 @@ struct App_font {
     }
 
 private:
-    const experimental::filesystem::path typeface_file_path = "../../src/Sampradaya.ttf"s;
+    const filesystem::path typeface_file_path = "../../src/Sampradaya.ttf"s;
     int app_font_id;
 };
 
