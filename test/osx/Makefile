@@ -10,10 +10,10 @@ build: ../../src/${TYPEFACENAME}.ttf
 install: build
 	install ../../src/${TYPEFACENAME}.ttf ~/Library/Fonts/
 
-regenerate_masters: rasterise_text
+regenerate_masters: build rasterise_text
 	./generate_images master_images
 
-test: rasterise_text
+test: build rasterise_text
 	./run_tests master_images
 
 clean:
