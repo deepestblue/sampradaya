@@ -6,5 +6,5 @@ if ($fontsFolder.ParseName('Sampradaya Regular')) {
     # return
 }
 
-$sampradayaPath = (Get-Item '../../src/windows/Sampradaya.ttf').fullname
+$sampradayaPath = (Get-Item '../../src/Sampradaya.ttf').fullname
 $fontsFolder.CopyHere($sampradayaPath, 4 + 16)

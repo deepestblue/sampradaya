@@ -1,4 +1,4 @@
 #!/Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge
 
-Open("Sampradaya.ttf")
-Save("Sampradaya.sfd")
+Open($1 + ".ttf")
+Save($1 + ".sfd")
