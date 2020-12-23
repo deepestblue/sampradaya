@@ -29,7 +29,7 @@ using D2D1::PixelFormat;
 using D2D1::Matrix3x2F;
 
 const float typeface_size_pt = 48.f;
-const wstring typeface_file_path = L"../../src/windows/Sampradaya.ttf"s;
+const wstring typeface_file_path = L"../../src/Sampradaya.ttf"s;
 
 template <typename E>
 void

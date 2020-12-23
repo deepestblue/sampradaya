@@ -57,7 +57,7 @@ struct App_font {
     }
 
 private:
-    const experimental::filesystem::path typeface_file_path = "../../src/osx/Sampradaya.ttf"s;
+    const experimental::filesystem::path typeface_file_path = "../../src/Sampradaya.ttf"s;
     int app_font_id;
 };
 
