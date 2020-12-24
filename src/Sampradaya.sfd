@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1608771518
+ModificationTime: 1608773717
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -83,7 +83,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 225
+BeginChars: 1114113 227
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -12542,7 +12542,7 @@ Width: 811
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 62 57867 N 1 0 0 1 510 4 2
+Refer: 62 57865 N 1 0 0 1 510 4 2
 Refer: 132 70411 N 1 0 0 1 -34 0 2
 EndChar
 
@@ -13145,7 +13145,7 @@ Width: 1062
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 62 57867 N 1 0 0 1 715 0 2
+Refer: 62 57865 N 1 0 0 1 715 0 2
 Refer: 133 70412 N 1 0 0 1 0 0 2
 EndChar
 
@@ -13841,21 +13841,46 @@ Width: 407
 Flags: W
 LayerCount: 2
 Fore
-Refer: 174 70463 N 1 0 0 1 0 0 2
-Refer: 61 57860 S 1 0 0 1 128 0 2
+Refer: 174 70463 S 1 0 0 1 0 0 2
+Refer: 61 57860 N 1 0 0 1 128 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u1133F
 EndChar
 
 StartChar: uE20B
 Encoding: 57867 57867 224
-Width: 407
+Width: 381
 Flags: W
 LayerCount: 2
 Fore
-Refer: 175 70464 N 1 0 0 1 0 0 2
-Refer: 61 57860 S 0.981132 0 0 1 134.377 0 2
+Refer: 175 70464 N 1 0 0 1 -24 0 2
+Refer: 61 57860 N 0.981132 0 0 1 110.377 0 2
+LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u11340
+EndChar
+
+StartChar: uE20C
+Encoding: 57868 57868 225
+Width: 423
+Flags: W
+LayerCount: 2
+Fore
+Refer: 174 70463 S 1 0 0 1 2 0 2
+Refer: 59 57857 N 1 0 0 1 9 -135 2
+LCarets2: 1 0
+Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u1133F
+EndChar
+
+StartChar: uE20D
+Encoding: 57869 57869 226
+Width: 477
+Flags: WO
+LayerCount: 2
+Fore
+Refer: 175 70464 N 1 0 0 1 -11 0 2
+Refer: 59 57857 N 1 0 0 1 53 59 2
+LCarets2: 1 0
+Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u11340
 EndChar
 EndChars
 EndSplineFont
