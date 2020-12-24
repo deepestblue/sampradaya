@@ -5599,8 +5599,8 @@ Ligature2: "'pstf' Post Base Forms lookup 3 subtable" u1134D u11330
 Ligature2: "'rkrf' Rakar Forms lookup 7-1" u1134D u11330
 EndChar
 
-StartChar: uE20B
-Encoding: 57867 57867 62
+StartChar: uE209
+Encoding: 57865 57865 62
 Width: 308
 Flags: MW
 LayerCount: 2
@@ -12589,7 +12589,7 @@ Refer: 142 70425 N 0.791194 0 0 0.760093 -498 -350 2
 Validated: 1
 EndChar
 
-StartChar: uniE31E
+StartChar: uE31E
 Encoding: 58142 58142 191
 Width: 0
 Flags: MW
@@ -12599,7 +12599,7 @@ Refer: 147 70430 S 0.8 0 0 0.8 -594 -366 2
 Validated: 1
 EndChar
 
-StartChar: uniE205
+StartChar: uE205
 Encoding: 57861 57861 192
 Width: 238
 Flags: MW
@@ -12634,7 +12634,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uniE206
+StartChar: uE206
 Encoding: 57862 57862 193
 Width: 294
 Flags: MW
@@ -12677,7 +12677,7 @@ EndSplineSet
 Validated: 33
 EndChar
 
-StartChar: uniE207
+StartChar: uE207
 Encoding: 57863 57863 194
 Width: 240
 Flags: MW
@@ -12711,7 +12711,7 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uniE208
+StartChar: uE208
 Encoding: 57864 57864 195
 Width: 244
 Flags: MW
@@ -13491,7 +13491,7 @@ Fore
 Validated: 1
 EndChar
 
-StartChar: uni25CC
+StartChar: u25CC
 Encoding: 9676 9676 218
 Width: 504
 Flags: MW
@@ -13667,7 +13667,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0BF0
+StartChar: u0BF0
 Encoding: 3056 3056 220
 Width: 490
 Flags: W
@@ -13715,7 +13715,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0BF1
+StartChar: u0BF1
 Encoding: 3057 3057 221
 Width: 490
 Flags: W
@@ -13757,7 +13757,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni0BF2
+StartChar: u0BF2
 Encoding: 3058 3058 222
 Width: 490
 Flags: W
@@ -13835,8 +13835,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uniE209
-Encoding: 57865 57865 223
+StartChar: uE20A
+Encoding: 57866 57866 223
 Width: 407
 Flags: W
 LayerCount: 2
@@ -13847,8 +13847,8 @@ LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u1133F
 EndChar
 
-StartChar: uniE20A
-Encoding: 57866 57866 224
+StartChar: uE20B
+Encoding: 57867 57867 224
 Width: 407
 Flags: W
 LayerCount: 2
