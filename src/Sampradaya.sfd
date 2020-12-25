@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1608938281
+ModificationTime: 1608938425
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -5547,7 +5547,6 @@ SplineSet
 EndSplineSet
 Validated: 33
 LCarets2: 1 0
-Ligature2: "'pstf' Post Base Forms lookup 3 subtable" u1134D u11330
 Ligature2: "'rkrf' Rakar Forms lookup 7-1" u1134D u11330
 EndChar
 
