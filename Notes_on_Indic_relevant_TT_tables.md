@@ -19,7 +19,6 @@
 | blws  | S4   | 3     | Ligates a base glyph and a below‐base glyph. | ക്ല |
 | psts  | S4   | 3     | Ligates a base glyph and a post‐base glyph. | വ്വ |
 | haln  | S4   | 3     | Replaces consonant+virāma with a terminal form. | 𑌮𑍍 |
-| rlig  | S3   | 3     | Not specific to Indic; required ligatures for display in cursive. Used here for stacked ligatures. | 𑌸𑍍𑌤 |
 | abvm  | P4,5 | 4     | Positions anusvāras etc. above the base. Not used here. | उं |
 | blwm  | P4,5 | 4     | Positions u‐markers etc. above the base. Not used here. | कु |
 
@@ -28,7 +27,6 @@
 | Type  | Description |
 | :---: | :---------- |
 | GSUB1 | Simple substitution |
-| GSUB3 | Variant selection |
 | GSUB4 | Ligatures |
 | GSUB5 | Contextual substitution |
 | GPOS4 | Positioning of mark glyphs relative to base |

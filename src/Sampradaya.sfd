@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1608935108
+ModificationTime: 1608938281
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -61,9 +61,9 @@ Lookup: 4 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2 subtable"
 Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 7" { "'rkrf' Rakar Forms lookup 7-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms lookup 3" { "'pstf' Post Base Forms lookup 3 subtable"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4 subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'abvs' Above Base Substitutions lookup 9" { "'abvs' Above Base Substitutions lookup 9-1"  } ['abvs' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Substitutions lookup 8-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'rlig' Required Ligatures lookup 5" { "'rlig' Required Ligatures lookup 5 subtable"  } ['rlig' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1097 "" "" "" "" "+C5oLrgvNC6oLvwuwC6QLvguvC64LzQAA"
@@ -8308,8 +8308,8 @@ SplineSet
  371 -69 l 2,0,1
 EndSplineSet
 Validated: 1
+Ligature2: "'abvs' Above Base Substitutions lookup 9-1" u1131F u1133F
 LCarets2: 1 0
-Ligature2: "'rlig' Required Ligatures lookup 5 subtable" u1131F u1133F
 EndChar
 
 StartChar: uE481
@@ -8366,8 +8366,8 @@ SplineSet
  596 240 596 240 614 258 c 0,52,53
 EndSplineSet
 Validated: 33
+Ligature2: "'abvs' Above Base Substitutions lookup 9-1" u1131F u11340
 LCarets2: 1 0
-Ligature2: "'rlig' Required Ligatures lookup 5 subtable" u1131F u11340
 EndChar
 
 StartChar: uE482
@@ -8454,8 +8454,8 @@ SplineSet
  108 160 108 160 108 150 c 0,104,105
 EndSplineSet
 Validated: 1
+Ligature2: "'abvs' Above Base Substitutions lookup 9-1" u1132C u1133F
 LCarets2: 1 0
-Ligature2: "'rlig' Required Ligatures lookup 5 subtable" u1132C u1133F
 EndChar
 
 StartChar: uE483
@@ -8554,8 +8554,8 @@ SplineSet
  479 62 479 62 479 52 c 0,29,30
 EndSplineSet
 Validated: 33
+Ligature2: "'abvs' Above Base Substitutions lookup 9-1" u1132C u11340
 LCarets2: 1 0
-Ligature2: "'rlig' Required Ligatures lookup 5 subtable" u1132C u11340
 EndChar
 
 StartChar: u11302
