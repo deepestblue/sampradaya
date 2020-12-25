@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1608774987
+ModificationTime: 1608933503
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -83,7 +83,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 229
+BeginChars: 1114113 228
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -752,56 +752,8 @@ EndSplineSet
 Validated: 1
 EndChar
 
-StartChar: uA8F3
-Encoding: 43251 43251 18
-Width: 408
-Flags: MW
-LayerCount: 2
-Fore
-SplineSet
-205 249 m 0,0,1
- 257 249 257 249 293 282.5 c 128,-1,2
- 329 316 329 316 341 367 c 24,3,4
- 344 375 344 375 336 385 c 0,5,6
- 325 400 325 400 312 400 c 0,7,8
- 309 400 309 400 307 399 c 0,9,10
- 292 395 292 395 289 387 c 0,11,12
- 255 290 255 290 209 286 c 0,13,14
- 201 286 201 286 189 286.5 c 128,-1,15
- 177 287 177 287 160.5 298.5 c 128,-1,16
- 144 310 144 310 142 325 c 0,17,18
- 134 369 134 369 122 387 c 16,19,20
- 109 407 109 407 90 407 c 0,21,22
- 82 408 82 408 72 404 c 0,23,24
- 57 398 57 398 57 381 c 0,25,26
- 57 374 57 374 60 364 c 8,27,28
- 93 249 93 249 205 249 c 0,0,1
-152 120 m 1,29,30
- 164 125 164 125 179 125 c 0,31,32
- 200 125 200 125 227 114 c 0,33,34
- 248 105 248 105 269 75 c 0,35,36
- 304 26 304 26 322 -28 c 1,37,38
- 326 -54 326 -54 331 -73 c 152,-1,39
- 336 -92 336 -92 348.5 -101.5 c 128,-1,40
- 361 -111 361 -111 369 -108 c 4,41,42
- 383 -103 383 -103 389 -83 c 1,43,44
- 380 -54 380 -54 371 -24.5 c 0,45,46
- 362 6 362 6 350 34 c 0,47,48
- 321 102 321 102 279 144 c 128,-1,49
- 237 186 237 186 183 199 c 0,50,51
- 158 205 158 205 136 205 c 0,52,53
- 111 205 111 205 91 198 c 8,54,55
- 52 183 52 183 52 167.5 c 128,-1,56
- 52 152 52 152 63.5 142 c 128,-1,57
- 75 132 75 132 93 126 c 128,-1,58
- 111 120 111 120 120 120 c 2,59,-1
- 152 120 l 1,29,30
-EndSplineSet
-Validated: 9
-EndChar
-
 StartChar: uE000
-Encoding: 57344 57344 19
+Encoding: 57344 57344 18
 Width: 735
 Flags: MW
 LayerCount: 2
@@ -929,7 +881,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11325 u1134D u11328
 EndChar
 
 StartChar: uE001
-Encoding: 57345 57345 20
+Encoding: 57345 57345 19
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -1113,7 +1065,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11338 u1134D u11324
 EndChar
 
 StartChar: uE002
-Encoding: 57346 57346 21
+Encoding: 57346 57346 20
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -1277,7 +1229,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11338 u1134D u11335
 EndChar
 
 StartChar: uE003
-Encoding: 57347 57347 22
+Encoding: 57347 57347 21
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -1448,7 +1400,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11315 u1134D u11324
 EndChar
 
 StartChar: uE004
-Encoding: 57348 57348 23
+Encoding: 57348 57348 22
 Width: 494
 Flags: MW
 LayerCount: 2
@@ -1566,7 +1518,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11317 u1134D u11332
 EndChar
 
 StartChar: uE005
-Encoding: 57349 57349 24
+Encoding: 57349 57349 23
 Width: 736
 Flags: MW
 LayerCount: 2
@@ -1698,7 +1650,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u1131B u1134D u11335
 EndChar
 
 StartChar: uE006
-Encoding: 57350 57350 25
+Encoding: 57350 57350 24
 Width: 836
 Flags: MW
 LayerCount: 2
@@ -1833,7 +1785,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u1132A u1134D u11332
 EndChar
 
 StartChar: uE007
-Encoding: 57351 57351 26
+Encoding: 57351 57351 25
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -1995,7 +1947,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11338 u1134D u11328
 EndChar
 
 StartChar: uE008
-Encoding: 57352 57352 27
+Encoding: 57352 57352 26
 Width: 736
 Flags: MW
 LayerCount: 2
@@ -2114,7 +2066,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11327 u1134D u11335
 EndChar
 
 StartChar: uE009
-Encoding: 57353 57353 28
+Encoding: 57353 57353 27
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -2289,7 +2241,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11338 u1134D u11325
 EndChar
 
 StartChar: uE00A
-Encoding: 57354 57354 29
+Encoding: 57354 57354 28
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -2406,7 +2358,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11318 u1134D u11317
 EndChar
 
 StartChar: uE00B
-Encoding: 57355 57355 30
+Encoding: 57355 57355 29
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -2550,7 +2502,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11324 u1134D u1132E
 EndChar
 
 StartChar: uE00C
-Encoding: 57356 57356 31
+Encoding: 57356 57356 30
 Width: 736
 Flags: MW
 LayerCount: 2
@@ -2670,7 +2622,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11336 u1134D u11335
 EndChar
 
 StartChar: uE00D
-Encoding: 57357 57357 32
+Encoding: 57357 57357 31
 Width: 736
 Flags: MW
 LayerCount: 2
@@ -2794,7 +2746,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11336 u1134D u1132A
 EndChar
 
 StartChar: uE00E
-Encoding: 57358 57358 33
+Encoding: 57358 57358 32
 Width: 637
 Flags: MW
 LayerCount: 2
@@ -2907,7 +2859,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u11319 u1134D u11317
 EndChar
 
 StartChar: uE00F
-Encoding: 57359 57359 34
+Encoding: 57359 57359 33
 Width: 665
 Flags: MW
 LayerCount: 2
@@ -3010,7 +2962,7 @@ Ligature2: "'akhn' Akhand lookup 1 subtable" u1132F u1134D u11335
 EndChar
 
 StartChar: uE100
-Encoding: 57600 57600 35
+Encoding: 57600 57600 34
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -3135,7 +3087,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11324
 EndChar
 
 StartChar: uE101
-Encoding: 57601 57601 36
+Encoding: 57601 57601 35
 Width: 761
 Flags: MW
 LayerCount: 2
@@ -3222,7 +3174,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11328
 EndChar
 
 StartChar: uE102
-Encoding: 57602 57602 37
+Encoding: 57602 57602 36
 Width: 920
 Flags: MW
 LayerCount: 2
@@ -3339,7 +3291,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11325
 EndChar
 
 StartChar: uE103
-Encoding: 57603 57603 38
+Encoding: 57603 57603 37
 Width: 1128
 Flags: MW
 LayerCount: 2
@@ -3445,7 +3397,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11336 u1134D u1131A
 EndChar
 
 StartChar: uE104
-Encoding: 57604 57604 39
+Encoding: 57604 57604 38
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -3528,7 +3480,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u1132E u1134D u1132E
 EndChar
 
 StartChar: uE105
-Encoding: 57605 57605 40
+Encoding: 57605 57605 39
 Width: 554
 Flags: MW
 LayerCount: 2
@@ -3603,7 +3555,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u1132E
 EndChar
 
 StartChar: uE106
-Encoding: 57606 57606 41
+Encoding: 57606 57606 40
 Width: 655
 Flags: MW
 LayerCount: 2
@@ -3673,7 +3625,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11326 u1134D u11335
 EndChar
 
 StartChar: uE107
-Encoding: 57607 57607 42
+Encoding: 57607 57607 41
 Width: 917
 Flags: MW
 LayerCount: 2
@@ -3786,7 +3738,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11335
 EndChar
 
 StartChar: uE108
-Encoding: 57608 57608 43
+Encoding: 57608 57608 42
 Width: 772
 Flags: MW
 LayerCount: 2
@@ -3889,7 +3841,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11326 u1134D u11327
 EndChar
 
 StartChar: uE109
-Encoding: 57609 57609 44
+Encoding: 57609 57609 43
 Width: 1024
 Flags: MW
 LayerCount: 2
@@ -4050,7 +4002,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u1131C u1134D u1131E
 EndChar
 
 StartChar: uE10A
-Encoding: 57610 57610 45
+Encoding: 57610 57610 44
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -4154,7 +4106,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u1131E u1134D u1131A
 EndChar
 
 StartChar: uE10B
-Encoding: 57611 57611 46
+Encoding: 57611 57611 45
 Width: 736
 Flags: MW
 LayerCount: 2
@@ -4285,7 +4237,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u1131E u1134D u1131C
 EndChar
 
 StartChar: uE10C
-Encoding: 57612 57612 47
+Encoding: 57612 57612 46
 Width: 1050
 Flags: MW
 LayerCount: 2
@@ -4434,7 +4386,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11315 u1134D u11337
 EndChar
 
 StartChar: uE10D
-Encoding: 57613 57613 48
+Encoding: 57613 57613 47
 Width: 659
 Flags: MW
 LayerCount: 2
@@ -4502,7 +4454,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11326
 EndChar
 
 StartChar: uE10E
-Encoding: 57614 57614 49
+Encoding: 57614 57614 48
 Width: 982
 Flags: MW
 LayerCount: 2
@@ -4606,7 +4558,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11339 u1134D u1132E
 EndChar
 
 StartChar: uE10F
-Encoding: 57615 57615 50
+Encoding: 57615 57615 49
 Width: 612
 Flags: MW
 LayerCount: 2
@@ -4677,7 +4629,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11330
 EndChar
 
 StartChar: uE110
-Encoding: 57616 57616 51
+Encoding: 57616 57616 50
 Width: 869
 Flags: MW
 LayerCount: 2
@@ -4763,7 +4715,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11336 u1134D u11330
 EndChar
 
 StartChar: uE111
-Encoding: 57617 57617 52
+Encoding: 57617 57617 51
 Width: 920
 Flags: MW
 LayerCount: 2
@@ -4855,7 +4807,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11327
 EndChar
 
 StartChar: uE112
-Encoding: 57618 57618 53
+Encoding: 57618 57618 52
 Width: 659
 Flags: MW
 LayerCount: 2
@@ -4920,7 +4872,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11335
 EndChar
 
 StartChar: uE113
-Encoding: 57619 57619 54
+Encoding: 57619 57619 53
 Width: 834
 Flags: MW
 LayerCount: 2
@@ -5062,7 +5014,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11315 u1134D u11324
 EndChar
 
 StartChar: uE114
-Encoding: 57620 57620 55
+Encoding: 57620 57620 54
 Width: 854
 Flags: MW
 LayerCount: 2
@@ -5167,7 +5119,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11325
 EndChar
 
 StartChar: uE115
-Encoding: 57621 57621 56
+Encoding: 57621 57621 55
 Width: 876
 Flags: MW
 LayerCount: 2
@@ -5271,7 +5223,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11337 u1134D u1131F
 EndChar
 
 StartChar: uE116
-Encoding: 57622 57622 57
+Encoding: 57622 57622 56
 Width: 1228
 Flags: MW
 LayerCount: 2
@@ -5423,7 +5375,7 @@ Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11324 u1134D u11335
 EndChar
 
 StartChar: uE200
-Encoding: 57856 57856 58
+Encoding: 57856 57856 57
 Width: 404
 Flags: MW
 LayerCount: 2
@@ -5476,7 +5428,7 @@ Ligature2: "'rphf' Reph Form lookup 2 subtable" u11330 u1134D
 EndChar
 
 StartChar: uE201
-Encoding: 57857 57857 59
+Encoding: 57857 57857 58
 Width: 407
 Flags: MW
 LayerCount: 2
@@ -5526,7 +5478,7 @@ Ligature2: "'pstf' Post Base Forms lookup 3 subtable" u1134D u1132F
 EndChar
 
 StartChar: uE203
-Encoding: 57859 57859 60
+Encoding: 57859 57859 59
 Width: 243
 Flags: MW
 LayerCount: 2
@@ -5564,7 +5516,7 @@ Validated: 1
 EndChar
 
 StartChar: uE204
-Encoding: 57860 57860 61
+Encoding: 57860 57860 60
 Width: 239
 Flags: MW
 LayerCount: 2
@@ -5600,7 +5552,7 @@ Ligature2: "'rkrf' Rakar Forms lookup 7-1" u1134D u11330
 EndChar
 
 StartChar: uE209
-Encoding: 57865 57865 62
+Encoding: 57865 57865 61
 Width: 308
 Flags: MW
 LayerCount: 2
@@ -5665,379 +5617,379 @@ EndSplineSet
 EndChar
 
 StartChar: uE315
-Encoding: 58133 58133 63
+Encoding: 58133 58133 62
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 138 70421 N 0.8 0 0 0.63 -461 -310 2
+Refer: 137 70421 N 0.8 0 0 0.63 -461 -310 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11315
 EndChar
 
 StartChar: uE316
-Encoding: 58134 58134 64
+Encoding: 58134 58134 63
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 139 70422 S 0.4896 0 0 0.612 -506 -296 2
+Refer: 138 70422 S 0.4896 0 0 0.612 -506 -296 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11316
 EndChar
 
 StartChar: uE317
-Encoding: 58135 58135 65
+Encoding: 58135 58135 64
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 140 70423 N 0.8 0 0 0.6 -412 -289 2
+Refer: 139 70423 N 0.8 0 0 0.6 -412 -289 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11317
 EndChar
 
 StartChar: uE318
-Encoding: 58136 58136 66
+Encoding: 58136 58136 65
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 141 70424 N 0.62 0 0 0.63 -568 -298 2
+Refer: 140 70424 N 0.62 0 0 0.63 -568 -298 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11318
 EndChar
 
 StartChar: uE31A
-Encoding: 58138 58138 67
+Encoding: 58138 58138 66
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 143 70426 N 0.665 0 0 0.665 -535 -290 2
+Refer: 142 70426 N 0.665 0 0 0.665 -535 -290 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131A
 EndChar
 
 StartChar: uE31B
-Encoding: 58139 58139 68
+Encoding: 58139 58139 67
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 144 70427 S 0.63175 0 0 0.63175 -528 -295 2
+Refer: 143 70427 S 0.63175 0 0 0.63175 -528 -295 2
 Validated: 5
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131B
 EndChar
 
 StartChar: uE31C
-Encoding: 58140 58140 69
+Encoding: 58140 58140 68
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 145 70428 S 0.6 0 0 0.55 -471 -272 2
+Refer: 144 70428 S 0.6 0 0 0.55 -471 -272 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131C
 EndChar
 
 StartChar: uE31D
-Encoding: 58141 58141 70
+Encoding: 58141 58141 69
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 146 70429 S 0.7497 0 0 0.6 -547 -282 2
+Refer: 145 70429 S 0.7497 0 0 0.6 -547 -282 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131D
 EndChar
 
 StartChar: uE31F
-Encoding: 58143 58143 71
+Encoding: 58143 58143 70
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 148 70431 S 0.637245 0 0 0.6069 -421 -284 2
+Refer: 147 70431 S 0.637245 0 0 0.6069 -421 -284 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131F
 EndChar
 
 StartChar: uE320
-Encoding: 58144 58144 72
+Encoding: 58144 58144 71
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 149 70432 S 0.6464 0 0 0.73425 -333 -291 2
+Refer: 148 70432 S 0.6464 0 0 0.73425 -333 -291 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11320
 EndChar
 
 StartChar: uE321
-Encoding: 58145 58145 73
+Encoding: 58145 58145 72
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 150 70433 S 0.665 0 0 0.5985 -489 -305 2
+Refer: 149 70433 S 0.665 0 0 0.5985 -489 -305 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11321
 EndChar
 
 StartChar: uE322
-Encoding: 58146 58146 74
+Encoding: 58146 58146 73
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 151 70434 S 0.7 0 0 0.6175 -490 -304 2
+Refer: 150 70434 S 0.7 0 0 0.6175 -490 -304 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11322
 EndChar
 
 StartChar: uE323
-Encoding: 58147 58147 75
+Encoding: 58147 58147 74
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 152 70435 S 0.67165 0 0 0.656069 -631 -309 2
+Refer: 151 70435 S 0.67165 0 0 0.656069 -631 -309 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11323
 EndChar
 
 StartChar: uE324
-Encoding: 58148 58148 76
+Encoding: 58148 58148 75
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 153 70436 N 0.76824 0 0 0.624195 -479 -299 2
+Refer: 152 70436 N 0.76824 0 0 0.624195 -479 -299 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11324
 EndChar
 
 StartChar: uE325
-Encoding: 58149 58149 77
+Encoding: 58149 58149 76
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 154 70437 N 0.684 0 0 0.6175 -529 -297 2
+Refer: 153 70437 N 0.684 0 0 0.6175 -529 -297 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11325
 EndChar
 
 StartChar: uE326
-Encoding: 58150 58150 78
+Encoding: 58150 58150 77
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 155 70438 N 0.8 0 0 0.6305 -420 -293 2
+Refer: 154 70438 N 0.8 0 0 0.6305 -420 -293 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11326
 EndChar
 
 StartChar: uE327
-Encoding: 58151 58151 79
+Encoding: 58151 58151 78
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 156 70439 S 0.76 0 0 0.6175 -578 -291 2
+Refer: 155 70439 S 0.76 0 0 0.6175 -578 -291 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11327
 EndChar
 
 StartChar: uE328
-Encoding: 58152 58152 80
+Encoding: 58152 58152 79
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 157 70440 N 0.7068 0 0 0.637 -534 -298 2
+Refer: 156 70440 N 0.7068 0 0 0.637 -534 -298 2
 Validated: 9
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11328
 EndChar
 
 StartChar: uE32A
-Encoding: 58154 58154 81
+Encoding: 58154 58154 80
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 158 70442 N 0.65 0 0 0.6 -574 -277 2
+Refer: 157 70442 N 0.65 0 0 0.6 -574 -277 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132A
 EndChar
 
 StartChar: uE32B
-Encoding: 58155 58155 82
+Encoding: 58155 58155 81
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 159 70443 N 0.605625 0 0 0.617737 -529 -284 2
+Refer: 158 70443 N 0.605625 0 0 0.617737 -529 -284 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132B
 EndChar
 
 StartChar: uE32C
-Encoding: 58156 58156 83
+Encoding: 58156 58156 82
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 160 70444 S 0.66 0 0 0.62 -553 -303 2
+Refer: 159 70444 S 0.66 0 0 0.62 -553 -303 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132C
 EndChar
 
 StartChar: uE32D
-Encoding: 58157 58157 84
+Encoding: 58157 58157 83
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 161 70445 S 0.71295 0 0 0.611325 -544 -294 2
+Refer: 160 70445 S 0.71295 0 0 0.611325 -544 -294 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132D
 EndChar
 
 StartChar: uE32E
-Encoding: 58158 58158 85
+Encoding: 58158 58158 84
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 162 70446 S 0.55 0 0 0.65 -310 -308 2
+Refer: 161 70446 S 0.55 0 0 0.65 -310 -308 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132E
 EndChar
 
 StartChar: uE32F
-Encoding: 58159 58159 86
+Encoding: 58159 58159 85
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 163 70447 S 0.62 0 0 0.63 -401 -298 2
+Refer: 162 70447 S 0.62 0 0 0.63 -401 -298 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132F
 EndChar
 
 StartChar: uE332
-Encoding: 58162 58162 87
+Encoding: 58162 58162 86
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 165 70450 S 0.72 0 0 0.64 -475 -308 2
+Refer: 164 70450 S 0.72 0 0 0.64 -475 -308 2
 Validated: 9
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11332
 EndChar
 
 StartChar: uE333
-Encoding: 58163 58163 88
+Encoding: 58163 58163 87
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 166 70451 N 0.72 0 0 0.62 -522 -282 2
+Refer: 165 70451 N 0.72 0 0 0.62 -522 -282 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11333
 EndChar
 
 StartChar: uE335
-Encoding: 58165 58165 89
+Encoding: 58165 58165 88
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 167 70453 S 0.72 0 0 0.64 -479 -305 2
+Refer: 166 70453 S 0.72 0 0 0.64 -479 -305 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11335
 EndChar
 
 StartChar: uE336
-Encoding: 58166 58166 90
+Encoding: 58166 58166 89
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 168 70454 N 0.75 0 0 0.64 -537 -298 2
+Refer: 167 70454 N 0.75 0 0 0.64 -537 -298 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11336
 EndChar
 
 StartChar: uE337
-Encoding: 58167 58167 91
+Encoding: 58167 58167 90
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 169 70455 N 0.5626 0 0 0.582 -561 -279 2
+Refer: 168 70455 N 0.5626 0 0 0.582 -561 -279 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11337
 EndChar
 
 StartChar: uE338
-Encoding: 58168 58168 92
+Encoding: 58168 58168 91
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 170 70456 N 0.637 0 0 0.62426 -530 -286 2
+Refer: 169 70456 N 0.637 0 0 0.62426 -530 -286 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11338
 EndChar
 
 StartChar: uE339
-Encoding: 58169 58169 93
+Encoding: 58169 58169 92
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 171 70457 S 0.55 0 0 0.63 -543 -300 2
+Refer: 170 70457 S 0.55 0 0 0.63 -543 -300 2
 Validated: 1
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11339
 EndChar
 
 StartChar: uE380
-Encoding: 58240 58240 94
+Encoding: 58240 58240 93
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6165,7 +6117,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10C
 EndChar
 
 StartChar: uE381
-Encoding: 58241 58241 95
+Encoding: 58241 58241 94
 Width: 85
 Flags: MW
 LayerCount: 2
@@ -6299,7 +6251,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE109
 EndChar
 
 StartChar: uE382
-Encoding: 58242 58242 96
+Encoding: 58242 58242 95
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6388,7 +6340,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10A
 EndChar
 
 StartChar: uE383
-Encoding: 58243 58243 97
+Encoding: 58243 58243 96
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6485,7 +6437,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE102
 EndChar
 
 StartChar: uE384
-Encoding: 58244 58244 98
+Encoding: 58244 58244 97
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6547,7 +6499,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10F
 EndChar
 
 StartChar: uE385
-Encoding: 58245 58245 99
+Encoding: 58245 58245 98
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6640,7 +6592,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE107
 EndChar
 
 StartChar: uE386
-Encoding: 58246 58246 100
+Encoding: 58246 58246 99
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6697,7 +6649,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE106
 EndChar
 
 StartChar: uE387
-Encoding: 58247 58247 101
+Encoding: 58247 58247 100
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6785,7 +6737,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE108
 EndChar
 
 StartChar: uE388
-Encoding: 58248 58248 102
+Encoding: 58248 58248 101
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6879,7 +6831,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE114
 EndChar
 
 StartChar: uE389
-Encoding: 58249 58249 103
+Encoding: 58249 58249 102
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -6996,7 +6948,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE101
 EndChar
 
 StartChar: uE38A
-Encoding: 58250 58250 104
+Encoding: 58250 58250 103
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7074,7 +7026,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE110
 EndChar
 
 StartChar: uE38B
-Encoding: 58251 58251 105
+Encoding: 58251 58251 104
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7144,7 +7096,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE105
 EndChar
 
 StartChar: uE38C
-Encoding: 58252 58252 106
+Encoding: 58252 58252 105
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7257,7 +7209,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE113
 EndChar
 
 StartChar: uE38D
-Encoding: 58253 58253 107
+Encoding: 58253 58253 106
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7354,7 +7306,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE115
 EndChar
 
 StartChar: uE38E
-Encoding: 58254 58254 108
+Encoding: 58254 58254 107
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7412,7 +7364,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE112
 EndChar
 
 StartChar: uE38F
-Encoding: 58255 58255 109
+Encoding: 58255 58255 108
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7523,7 +7475,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE100
 EndChar
 
 StartChar: uE390
-Encoding: 58256 58256 110
+Encoding: 58256 58256 109
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7599,7 +7551,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE101
 EndChar
 
 StartChar: uE391
-Encoding: 58257 58257 111
+Encoding: 58257 58257 110
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7693,7 +7645,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE103
 EndChar
 
 StartChar: uE392
-Encoding: 58258 58258 112
+Encoding: 58258 58258 111
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7765,7 +7717,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE104
 EndChar
 
 StartChar: uE393
-Encoding: 58259 58259 113
+Encoding: 58259 58259 112
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7828,7 +7780,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10D
 EndChar
 
 StartChar: uE394
-Encoding: 58260 58260 114
+Encoding: 58260 58260 113
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -7928,7 +7880,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10E
 EndChar
 
 StartChar: uE395
-Encoding: 58261 58261 115
+Encoding: 58261 58261 114
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -8011,7 +7963,7 @@ Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE111
 EndChar
 
 StartChar: uE400
-Encoding: 58368 58368 116
+Encoding: 58368 58368 115
 Width: 508
 Flags: MW
 LayerCount: 2
@@ -8091,7 +8043,7 @@ Ligature2: "'haln' Halant Forms lookup 6 subtable" u11324 u1134D
 EndChar
 
 StartChar: uE401
-Encoding: 58369 58369 117
+Encoding: 58369 58369 116
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -8157,7 +8109,7 @@ Ligature2: "'haln' Halant Forms lookup 6 subtable" u11328 u1134D
 EndChar
 
 StartChar: uE402
-Encoding: 58370 58370 118
+Encoding: 58370 58370 117
 Width: 561
 Flags: MW
 LayerCount: 2
@@ -8218,7 +8170,7 @@ Ligature2: "'haln' Halant Forms lookup 6 subtable" u1132E u1134D
 EndChar
 
 StartChar: uE403
-Encoding: 58371 58371 119
+Encoding: 58371 58371 118
 Width: 716
 Flags: MW
 LayerCount: 2
@@ -8309,7 +8261,7 @@ Ligature2: "'haln' Halant Forms lookup 6 subtable" uE101 u1134D
 EndChar
 
 StartChar: uE480
-Encoding: 58496 58496 120
+Encoding: 58496 58496 119
 Width: 896
 Flags: MW
 LayerCount: 2
@@ -8361,7 +8313,7 @@ Ligature2: "'rlig' Required Ligatures lookup 5 subtable" u1131F u1133F
 EndChar
 
 StartChar: uE481
-Encoding: 58497 58497 121
+Encoding: 58497 58497 120
 Width: 710
 Flags: MW
 LayerCount: 2
@@ -8419,7 +8371,7 @@ Ligature2: "'rlig' Required Ligatures lookup 5 subtable" u1131F u11340
 EndChar
 
 StartChar: uE482
-Encoding: 58498 58498 122
+Encoding: 58498 58498 121
 Width: 1166
 Flags: MW
 LayerCount: 2
@@ -8507,7 +8459,7 @@ Ligature2: "'rlig' Required Ligatures lookup 5 subtable" u1132C u1133F
 EndChar
 
 StartChar: uE483
-Encoding: 58499 58499 123
+Encoding: 58499 58499 122
 Width: 1052
 Flags: MW
 LayerCount: 2
@@ -8607,7 +8559,7 @@ Ligature2: "'rlig' Required Ligatures lookup 5 subtable" u1132C u11340
 EndChar
 
 StartChar: u11302
-Encoding: 70402 70402 124
+Encoding: 70402 70402 123
 Width: 366
 Flags: MW
 LayerCount: 2
@@ -8639,7 +8591,7 @@ Validated: 1
 EndChar
 
 StartChar: u11303
-Encoding: 70403 70403 125
+Encoding: 70403 70403 124
 Width: 372
 Flags: MW
 LayerCount: 2
@@ -8695,7 +8647,7 @@ Validated: 1
 EndChar
 
 StartChar: u11305
-Encoding: 70405 70405 126
+Encoding: 70405 70405 125
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -8761,7 +8713,7 @@ Validated: 33
 EndChar
 
 StartChar: u11306
-Encoding: 70406 70406 127
+Encoding: 70406 70406 126
 Width: 798
 Flags: MW
 LayerCount: 2
@@ -8845,7 +8797,7 @@ Validated: 33
 EndChar
 
 StartChar: u11307
-Encoding: 70407 70407 128
+Encoding: 70407 70407 127
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -8928,7 +8880,7 @@ Validated: 33
 EndChar
 
 StartChar: u11308
-Encoding: 70408 70408 129
+Encoding: 70408 70408 128
 Width: 736
 Flags: MW
 LayerCount: 2
@@ -9025,7 +8977,7 @@ Validated: 33
 EndChar
 
 StartChar: u11309
-Encoding: 70409 70409 130
+Encoding: 70409 70409 129
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -9094,7 +9046,7 @@ Validated: 33
 EndChar
 
 StartChar: u1130A
-Encoding: 70410 70410 131
+Encoding: 70410 70410 130
 Width: 736
 Flags: MW
 LayerCount: 2
@@ -9209,7 +9161,7 @@ Validated: 33
 EndChar
 
 StartChar: u1130B
-Encoding: 70411 70411 132
+Encoding: 70411 70411 131
 Width: 614
 Flags: MW
 LayerCount: 2
@@ -9297,7 +9249,7 @@ Validated: 33
 EndChar
 
 StartChar: u1130C
-Encoding: 70412 70412 133
+Encoding: 70412 70412 132
 Width: 765
 Flags: MW
 LayerCount: 2
@@ -9368,7 +9320,7 @@ Validated: 9
 EndChar
 
 StartChar: u1130F
-Encoding: 70415 70415 134
+Encoding: 70415 70415 133
 Width: 1104
 Flags: MW
 LayerCount: 2
@@ -9473,18 +9425,18 @@ Validated: 33
 EndChar
 
 StartChar: u11310
-Encoding: 70416 70416 135
+Encoding: 70416 70416 134
 Width: 1688
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 180 70471 S 1 0 0 1 3 0 2
-Refer: 134 70415 N 1 0 0 1 602 0 2
+Refer: 179 70471 S 1 0 0 1 3 0 2
+Refer: 133 70415 N 1 0 0 1 602 0 2
 Validated: 1
 EndChar
 
 StartChar: u11313
-Encoding: 70419 70419 136
+Encoding: 70419 70419 135
 Width: 735
 Flags: MW
 LayerCount: 2
@@ -9551,18 +9503,18 @@ Validated: 1
 EndChar
 
 StartChar: u11314
-Encoding: 70420 70420 137
+Encoding: 70420 70420 136
 Width: 1328
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 186 70487 S 1 0 0 1 674 0 2
-Refer: 136 70419 N 1 0 0 1 0 0 2
+Refer: 185 70487 S 1 0 0 1 674 0 2
+Refer: 135 70419 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: u11315
-Encoding: 70421 70421 138
+Encoding: 70421 70421 137
 Width: 562
 Flags: MW
 LayerCount: 2
@@ -9657,7 +9609,7 @@ Validated: 33
 EndChar
 
 StartChar: u11316
-Encoding: 70422 70422 139
+Encoding: 70422 70422 138
 Width: 982
 Flags: MW
 LayerCount: 2
@@ -9725,7 +9677,7 @@ Validated: 33
 EndChar
 
 StartChar: u11317
-Encoding: 70423 70423 140
+Encoding: 70423 70423 139
 Width: 570
 Flags: MW
 LayerCount: 2
@@ -9777,7 +9729,7 @@ Validated: 1
 EndChar
 
 StartChar: u11318
-Encoding: 70424 70424 141
+Encoding: 70424 70424 140
 Width: 919
 Flags: MW
 LayerCount: 2
@@ -9846,7 +9798,7 @@ Validated: 33
 EndChar
 
 StartChar: u11319
-Encoding: 70425 70425 142
+Encoding: 70425 70425 141
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -9922,7 +9874,7 @@ Validated: 33
 EndChar
 
 StartChar: u1131A
-Encoding: 70426 70426 143
+Encoding: 70426 70426 142
 Width: 820
 Flags: MW
 LayerCount: 2
@@ -9980,7 +9932,7 @@ Validated: 33
 EndChar
 
 StartChar: u1131B
-Encoding: 70427 70427 144
+Encoding: 70427 70427 143
 Width: 821
 Flags: MW
 LayerCount: 2
@@ -10046,7 +9998,7 @@ Validated: 37
 EndChar
 
 StartChar: u1131C
-Encoding: 70428 70428 145
+Encoding: 70428 70428 144
 Width: 735
 Flags: MW
 LayerCount: 2
@@ -10131,7 +10083,7 @@ Validated: 1
 EndChar
 
 StartChar: u1131D
-Encoding: 70429 70429 146
+Encoding: 70429 70429 145
 Width: 768
 Flags: MW
 LayerCount: 2
@@ -10204,7 +10156,7 @@ Validated: 1
 EndChar
 
 StartChar: u1131E
-Encoding: 70430 70430 147
+Encoding: 70430 70430 146
 Width: 768
 Flags: MW
 LayerCount: 2
@@ -10297,7 +10249,7 @@ Validated: 33
 EndChar
 
 StartChar: u1131F
-Encoding: 70431 70431 148
+Encoding: 70431 70431 147
 Width: 660
 Flags: MW
 LayerCount: 2
@@ -10327,7 +10279,7 @@ Validated: 1
 EndChar
 
 StartChar: u11320
-Encoding: 70432 70432 149
+Encoding: 70432 70432 148
 Width: 533
 Flags: MW
 LayerCount: 2
@@ -10357,7 +10309,7 @@ Validated: 33
 EndChar
 
 StartChar: u11321
-Encoding: 70433 70433 150
+Encoding: 70433 70433 149
 Width: 735
 Flags: MW
 LayerCount: 2
@@ -10438,7 +10390,7 @@ Validated: 33
 EndChar
 
 StartChar: u11322
-Encoding: 70434 70434 151
+Encoding: 70434 70434 150
 Width: 736
 Flags: MW
 LayerCount: 2
@@ -10537,7 +10489,7 @@ Validated: 33
 EndChar
 
 StartChar: u11323
-Encoding: 70435 70435 152
+Encoding: 70435 70435 151
 Width: 982
 Flags: MW
 LayerCount: 2
@@ -10621,7 +10573,7 @@ Validated: 33
 EndChar
 
 StartChar: u11324
-Encoding: 70436 70436 153
+Encoding: 70436 70436 152
 Width: 671
 Flags: MW
 LayerCount: 2
@@ -10694,7 +10646,7 @@ Validated: 33
 EndChar
 
 StartChar: u11325
-Encoding: 70437 70437 154
+Encoding: 70437 70437 153
 Width: 768
 Flags: MW
 LayerCount: 2
@@ -10748,7 +10700,7 @@ Validated: 33
 EndChar
 
 StartChar: u11326
-Encoding: 70438 70438 155
+Encoding: 70438 70438 154
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -10814,7 +10766,7 @@ Validated: 1
 EndChar
 
 StartChar: u11327
-Encoding: 70439 70439 156
+Encoding: 70439 70439 155
 Width: 768
 Flags: MW
 LayerCount: 2
@@ -10863,7 +10815,7 @@ Validated: 1
 EndChar
 
 StartChar: u11328
-Encoding: 70440 70440 157
+Encoding: 70440 70440 156
 Width: 739
 Flags: MW
 LayerCount: 2
@@ -10919,7 +10871,7 @@ Validated: 41
 EndChar
 
 StartChar: u1132A
-Encoding: 70442 70442 158
+Encoding: 70442 70442 157
 Width: 879
 Flags: MW
 LayerCount: 2
@@ -10976,7 +10928,7 @@ Validated: 33
 EndChar
 
 StartChar: u1132B
-Encoding: 70443 70443 159
+Encoding: 70443 70443 158
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -11043,7 +10995,7 @@ Validated: 33
 EndChar
 
 StartChar: u1132C
-Encoding: 70444 70444 160
+Encoding: 70444 70444 159
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -11116,7 +11068,7 @@ Validated: 33
 EndChar
 
 StartChar: u1132D
-Encoding: 70445 70445 161
+Encoding: 70445 70445 160
 Width: 768
 Flags: MW
 LayerCount: 2
@@ -11187,7 +11139,7 @@ Validated: 33
 EndChar
 
 StartChar: u1132E
-Encoding: 70446 70446 162
+Encoding: 70446 70446 161
 Width: 512
 Flags: MW
 LayerCount: 2
@@ -11247,7 +11199,7 @@ Validated: 33
 EndChar
 
 StartChar: u1132F
-Encoding: 70447 70447 163
+Encoding: 70447 70447 162
 Width: 665
 Flags: MW
 LayerCount: 2
@@ -11289,7 +11241,7 @@ Validated: 33
 EndChar
 
 StartChar: u11330
-Encoding: 70448 70448 164
+Encoding: 70448 70448 163
 Width: 494
 Flags: MW
 LayerCount: 2
@@ -11327,7 +11279,7 @@ Validated: 1
 EndChar
 
 StartChar: u11332
-Encoding: 70450 70450 165
+Encoding: 70450 70450 164
 Width: 665
 Flags: MW
 LayerCount: 2
@@ -11388,7 +11340,7 @@ Validated: 9
 EndChar
 
 StartChar: u11333
-Encoding: 70451 70451 166
+Encoding: 70451 70451 165
 Width: 768
 Flags: MW
 LayerCount: 2
@@ -11462,7 +11414,7 @@ Validated: 1
 EndChar
 
 StartChar: u11335
-Encoding: 70453 70453 167
+Encoding: 70453 70453 166
 Width: 665
 Flags: MW
 LayerCount: 2
@@ -11521,7 +11473,7 @@ Validated: 33
 EndChar
 
 StartChar: u11336
-Encoding: 70454 70454 168
+Encoding: 70454 70454 167
 Width: 736
 Flags: MW
 LayerCount: 2
@@ -11574,7 +11526,7 @@ Validated: 33
 EndChar
 
 StartChar: u11337
-Encoding: 70455 70455 169
+Encoding: 70455 70455 168
 Width: 982
 Flags: MW
 LayerCount: 2
@@ -11655,7 +11607,7 @@ Validated: 33
 EndChar
 
 StartChar: u11338
-Encoding: 70456 70456 170
+Encoding: 70456 70456 169
 Width: 859
 Flags: MW
 LayerCount: 2
@@ -11736,7 +11688,7 @@ Validated: 33
 EndChar
 
 StartChar: u11339
-Encoding: 70457 70457 171
+Encoding: 70457 70457 170
 Width: 982
 Flags: MW
 LayerCount: 2
@@ -11834,7 +11786,7 @@ Validated: 33
 EndChar
 
 StartChar: u1133D
-Encoding: 70461 70461 172
+Encoding: 70461 70461 171
 Width: 409
 Flags: MW
 LayerCount: 2
@@ -11879,7 +11831,7 @@ Validated: 33
 EndChar
 
 StartChar: u1133E
-Encoding: 70462 70462 173
+Encoding: 70462 70462 172
 Width: 379
 Flags: MW
 LayerCount: 2
@@ -11910,7 +11862,7 @@ Validated: 1
 EndChar
 
 StartChar: u1133F
-Encoding: 70463 70463 174
+Encoding: 70463 70463 173
 Width: 145
 Flags: MW
 LayerCount: 2
@@ -11944,7 +11896,7 @@ Validated: 33
 EndChar
 
 StartChar: u11340
-Encoding: 70464 70464 175
+Encoding: 70464 70464 174
 Width: 227
 Flags: MW
 LayerCount: 2
@@ -11995,7 +11947,7 @@ Validated: 33
 EndChar
 
 StartChar: u11341
-Encoding: 70465 70465 176
+Encoding: 70465 70465 175
 Width: 410
 Flags: MW
 LayerCount: 2
@@ -12030,7 +11982,7 @@ Validated: 1
 EndChar
 
 StartChar: u11342
-Encoding: 70466 70466 177
+Encoding: 70466 70466 176
 Width: 415
 Flags: MW
 LayerCount: 2
@@ -12093,7 +12045,7 @@ Validated: 33
 EndChar
 
 StartChar: u11343
-Encoding: 70467 70467 178
+Encoding: 70467 70467 177
 Width: 276
 Flags: MW
 LayerCount: 2
@@ -12136,7 +12088,7 @@ Validated: 1
 EndChar
 
 StartChar: u11344
-Encoding: 70468 70468 179
+Encoding: 70468 70468 178
 Width: 327
 Flags: MW
 LayerCount: 2
@@ -12191,7 +12143,7 @@ Validated: 1
 EndChar
 
 StartChar: u11347
-Encoding: 70471 70471 180
+Encoding: 70471 70471 179
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -12241,7 +12193,7 @@ Validated: 1
 EndChar
 
 StartChar: u11348
-Encoding: 70472 70472 181
+Encoding: 70472 70472 180
 Width: 1108
 Flags: MW
 LayerCount: 2
@@ -12333,31 +12285,31 @@ Validated: 33
 EndChar
 
 StartChar: u1134B
-Encoding: 70475 70475 182
+Encoding: 70475 70475 181
 Width: 1448
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 180 70471 S 1 0 0 1 0 0 2
-Refer: 173 70462 N 1 0 0 1 1039 0 2
-Refer: 218 9676 N 1 0 0 1 566 0 2
+Refer: 179 70471 S 1 0 0 1 0 0 2
+Refer: 172 70462 N 1 0 0 1 1039 0 2
+Refer: 217 9676 N 1 0 0 1 566 0 2
 Validated: 1
 EndChar
 
 StartChar: u1134C
-Encoding: 70476 70476 183
+Encoding: 70476 70476 182
 Width: 1637
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 186 70487 S 1 0 0 1 999 -3 2
-Refer: 218 9676 N 1 0 0 1 553 0 2
-Refer: 180 70471 N 1 0 0 1 0 0 2
+Refer: 185 70487 S 1 0 0 1 999 -3 2
+Refer: 217 9676 N 1 0 0 1 553 0 2
+Refer: 179 70471 N 1 0 0 1 0 0 2
 Validated: 1
 EndChar
 
 StartChar: u1134D
-Encoding: 70477 70477 184
+Encoding: 70477 70477 183
 Width: 335
 Flags: MW
 LayerCount: 2
@@ -12395,7 +12347,7 @@ Validated: 33
 EndChar
 
 StartChar: u11350
-Encoding: 70480 70480 185
+Encoding: 70480 70480 184
 Width: 705
 Flags: MW
 LayerCount: 2
@@ -12484,7 +12436,7 @@ Validated: 1
 EndChar
 
 StartChar: u11357
-Encoding: 70487 70487 186
+Encoding: 70487 70487 185
 Width: 613
 Flags: MW
 LayerCount: 2
@@ -12537,27 +12489,27 @@ Validated: 1
 EndChar
 
 StartChar: u11360
-Encoding: 70496 70496 187
+Encoding: 70496 70496 186
 Width: 811
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 62 57865 N 1 0 0 1 510 4 2
-Refer: 132 70411 N 1 0 0 1 -34 0 2
+Refer: 61 57865 N 1 0 0 1 510 4 2
+Refer: 131 70411 N 1 0 0 1 -34 0 2
 EndChar
 
 StartChar: u11362
-Encoding: 70498 70498 188
+Encoding: 70498 70498 187
 Width: 765
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 133 70412 N 1 0 0 1 0 0 2
+Refer: 132 70412 N 1 0 0 1 0 0 2
 Validated: 9
 EndChar
 
 StartChar: u0BAA
-Encoding: 2986 2986 189
+Encoding: 2986 2986 188
 Width: 366
 Flags: MW
 LayerCount: 2
@@ -12580,27 +12532,27 @@ Validated: 9
 EndChar
 
 StartChar: uE319
-Encoding: 58137 58137 190
+Encoding: 58137 58137 189
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 142 70425 N 0.791194 0 0 0.760093 -498 -350 2
+Refer: 141 70425 N 0.791194 0 0 0.760093 -498 -350 2
 Validated: 1
 EndChar
 
 StartChar: uE31E
-Encoding: 58142 58142 191
+Encoding: 58142 58142 190
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 147 70430 S 0.8 0 0 0.8 -594 -366 2
+Refer: 146 70430 S 0.8 0 0 0.8 -594 -366 2
 Validated: 1
 EndChar
 
 StartChar: uE205
-Encoding: 57861 57861 192
+Encoding: 57861 57861 191
 Width: 238
 Flags: MW
 LayerCount: 2
@@ -12635,7 +12587,7 @@ Validated: 1
 EndChar
 
 StartChar: uE206
-Encoding: 57862 57862 193
+Encoding: 57862 57862 192
 Width: 294
 Flags: MW
 LayerCount: 2
@@ -12678,7 +12630,7 @@ Validated: 33
 EndChar
 
 StartChar: uE207
-Encoding: 57863 57863 194
+Encoding: 57863 57863 193
 Width: 240
 Flags: MW
 LayerCount: 2
@@ -12712,7 +12664,7 @@ Validated: 1
 EndChar
 
 StartChar: uE208
-Encoding: 57864 57864 195
+Encoding: 57864 57864 194
 Width: 244
 Flags: MW
 LayerCount: 2
@@ -12745,7 +12697,7 @@ Validated: 1
 EndChar
 
 StartChar: uE404
-Encoding: 58372 58372 196
+Encoding: 58372 58372 195
 Width: 730
 Flags: MW
 LayerCount: 2
@@ -12810,7 +12762,7 @@ Ligature2: "'haln' Halant Forms lookup 6 subtable" u1131F u1134D
 EndChar
 
 StartChar: u11300
-Encoding: 70400 70400 197
+Encoding: 70400 70400 196
 Width: 370
 Flags: MW
 LayerCount: 2
@@ -12841,7 +12793,7 @@ Validated: 1
 EndChar
 
 StartChar: u11301
-Encoding: 70401 70401 198
+Encoding: 70401 70401 197
 Width: 0
 Flags: MW
 LayerCount: 2
@@ -12877,7 +12829,7 @@ Validated: 1
 EndChar
 
 StartChar: u1135E
-Encoding: 70494 70494 199
+Encoding: 70494 70494 198
 Width: 407
 Flags: MW
 LayerCount: 2
@@ -12919,7 +12871,7 @@ Validated: 1
 EndChar
 
 StartChar: u1135F
-Encoding: 70495 70495 200
+Encoding: 70495 70495 199
 Width: 490
 InSpiro: 1
 Flags: MW
@@ -13140,17 +13092,17 @@ Validated: 37
 EndChar
 
 StartChar: u11361
-Encoding: 70497 70497 201
+Encoding: 70497 70497 200
 Width: 1062
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 62 57865 N 1 0 0 1 715 0 2
-Refer: 133 70412 N 1 0 0 1 0 0 2
+Refer: 61 57865 N 1 0 0 1 715 0 2
+Refer: 132 70412 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11363
-Encoding: 70499 70499 202
+Encoding: 70499 70499 201
 Width: 984
 Flags: MW
 LayerCount: 2
@@ -13231,7 +13183,7 @@ Validated: 1
 EndChar
 
 StartChar: u11366
-Encoding: 70502 70502 203
+Encoding: 70502 70502 202
 Width: 394
 Flags: MW
 LayerCount: 2
@@ -13241,7 +13193,7 @@ Validated: 1
 EndChar
 
 StartChar: u11367
-Encoding: 70503 70503 204
+Encoding: 70503 70503 203
 Width: 395
 Flags: MW
 LayerCount: 2
@@ -13251,7 +13203,7 @@ Validated: 1
 EndChar
 
 StartChar: u11368
-Encoding: 70504 70504 205
+Encoding: 70504 70504 204
 Width: 387
 Flags: MW
 LayerCount: 2
@@ -13261,7 +13213,7 @@ Validated: 1
 EndChar
 
 StartChar: u11369
-Encoding: 70505 70505 206
+Encoding: 70505 70505 205
 Width: 295
 Flags: MW
 LayerCount: 2
@@ -13271,7 +13223,7 @@ Validated: 1
 EndChar
 
 StartChar: u1136A
-Encoding: 70506 70506 207
+Encoding: 70506 70506 206
 Width: 395
 Flags: MW
 LayerCount: 2
@@ -13281,7 +13233,7 @@ Validated: 1
 EndChar
 
 StartChar: u1136B
-Encoding: 70507 70507 208
+Encoding: 70507 70507 207
 Width: 392
 Flags: MW
 LayerCount: 2
@@ -13291,7 +13243,7 @@ Validated: 1
 EndChar
 
 StartChar: u1136C
-Encoding: 70508 70508 209
+Encoding: 70508 70508 208
 Width: 391
 Flags: MW
 LayerCount: 2
@@ -13300,58 +13252,58 @@ Refer: 13 3052 N 0.599976 0 0 0.599976 -622 980 2
 EndChar
 
 StartChar: u11370
-Encoding: 70512 70512 210
+Encoding: 70512 70512 209
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 126 70405 N 0.472473 0 0 0.472473 -608 995 2
+Refer: 125 70405 N 0.472473 0 0 0.472473 -608 995 2
 Validated: 1
 EndChar
 
 StartChar: u11371
-Encoding: 70513 70513 211
+Encoding: 70513 70513 210
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 138 70421 N 0.472473 0 0 0.472473 -572 990 2
+Refer: 137 70421 N 0.472473 0 0 0.472473 -572 990 2
 Validated: 1
 EndChar
 
 StartChar: u11372
-Encoding: 70514 70514 212
+Encoding: 70514 70514 211
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 157 70440 N 0.485962 0 0 0.491882 -641 997 2
+Refer: 156 70440 N 0.485962 0 0 0.491882 -641 997 2
 Validated: 9
 EndChar
 
 StartChar: u11373
-Encoding: 70515 70515 213
+Encoding: 70515 70515 212
 Width: 399
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 174 70463 N 0.3465 0 0 0.3465 -350 1001 2
-Refer: 167 70453 N 0.3465 0 0 0.3465 -587 1001 2
+Refer: 173 70463 N 0.3465 0 0 0.3465 -350 1001 2
+Refer: 166 70453 N 0.3465 0 0 0.3465 -587 1001 2
 Validated: 5
 EndChar
 
 StartChar: u11374
-Encoding: 70516 70516 214
+Encoding: 70516 70516 213
 Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 189 2986 S 0.5 0 0 0.5 -520 995 2
+Refer: 188 2986 S 0.5 0 0 0.5 -520 995 2
 Validated: 9
 EndChar
 
 StartChar: uE405
-Encoding: 58373 58373 215
+Encoding: 58373 58373 214
 Width: 747
 Flags: MW
 LayerCount: 2
@@ -13454,7 +13406,7 @@ Ligature2: "'haln' Halant Forms lookup 6 subtable" u11319 u1134D
 EndChar
 
 StartChar: u1CF2
-Encoding: 7410 7410 216
+Encoding: 7410 7410 215
 Width: 542
 Flags: MW
 LayerCount: 2
@@ -13483,7 +13435,7 @@ Validated: 41
 EndChar
 
 StartChar: space
-Encoding: 32 32 217
+Encoding: 32 32 216
 Width: 252
 Flags: MW
 LayerCount: 2
@@ -13492,7 +13444,7 @@ Validated: 1
 EndChar
 
 StartChar: u25CC
-Encoding: 9676 9676 218
+Encoding: 9676 9676 217
 Width: 504
 Flags: MW
 LayerCount: 2
@@ -13611,7 +13563,7 @@ Validated: 1
 EndChar
 
 StartChar: u1135D
-Encoding: 70493 70493 219
+Encoding: 70493 70493 218
 Width: 341
 Flags: W
 LayerCount: 2
@@ -13668,7 +13620,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0BF0
-Encoding: 3056 3056 220
+Encoding: 3056 3056 219
 Width: 490
 Flags: W
 LayerCount: 2
@@ -13716,7 +13668,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0BF1
-Encoding: 3057 3057 221
+Encoding: 3057 3057 220
 Width: 490
 Flags: W
 LayerCount: 2
@@ -13758,7 +13710,7 @@ EndSplineSet
 EndChar
 
 StartChar: u0BF2
-Encoding: 3058 3058 222
+Encoding: 3058 3058 221
 Width: 490
 Flags: W
 LayerCount: 2
@@ -13836,72 +13788,72 @@ EndSplineSet
 EndChar
 
 StartChar: uE20A
-Encoding: 57866 57866 223
+Encoding: 57866 57866 222
 Width: 407
 Flags: W
 LayerCount: 2
 Fore
-Refer: 174 70463 N 1 0 0 1 0 0 2
-Refer: 61 57860 N 1 0 0 1 128 0 2
+Refer: 173 70463 N 1 0 0 1 0 0 2
+Refer: 60 57860 N 1 0 0 1 128 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u1133F
 EndChar
 
 StartChar: uE20B
-Encoding: 57867 57867 224
+Encoding: 57867 57867 223
 Width: 381
 Flags: W
 LayerCount: 2
 Fore
-Refer: 175 70464 N 1 0 0 1 -24 0 2
-Refer: 61 57860 N 0.981132 0 0 1 110.377 0 2
+Refer: 174 70464 N 1 0 0 1 -24 0 2
+Refer: 60 57860 N 0.981132 0 0 1 110.377 0 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u11340
 EndChar
 
 StartChar: uE20C
-Encoding: 57868 57868 225
+Encoding: 57868 57868 224
 Width: 423
 Flags: W
 LayerCount: 2
 Fore
-Refer: 174 70463 N 1 0 0 1 2 0 2
-Refer: 59 57857 N 1 0 0 1 9 -135 2
+Refer: 173 70463 N 1 0 0 1 2 0 2
+Refer: 58 57857 N 1 0 0 1 9 -135 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u1133F
 EndChar
 
 StartChar: uE20D
-Encoding: 57869 57869 226
+Encoding: 57869 57869 225
 Width: 477
 Flags: W
 LayerCount: 2
 Fore
-Refer: 175 70464 N 1 0 0 1 -11 0 2
-Refer: 59 57857 N 1 0 0 1 53 59 2
+Refer: 174 70464 N 1 0 0 1 -11 0 2
+Refer: 58 57857 N 1 0 0 1 53 59 2
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u11340
 EndChar
 
 StartChar: uE20E
-Encoding: 57870 57870 227
+Encoding: 57870 57870 226
 Width: 404
 Flags: W
 LayerCount: 2
 Fore
-Refer: 174 70463 N 1 0 0 1 0 0 2
-Refer: 58 57856 S 1 0 0 1 32 -106 2
+Refer: 173 70463 N 1 0 0 1 0 0 2
+Refer: 57 57856 S 1 0 0 1 32 -106 2
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u1133F
 EndChar
 
 StartChar: uE20F
-Encoding: 57871 57871 228
+Encoding: 57871 57871 227
 Width: 481
 Flags: W
 LayerCount: 2
 Fore
-Refer: 175 70464 N 1 0 0 1 -28 0 2
-Refer: 58 57856 N 1 0 0 1 68 -2 2
+Refer: 174 70464 N 1 0 0 1 -28 0 2
+Refer: 57 57856 N 1 0 0 1 68 -2 2
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u11340
 EndChar
 EndChars
