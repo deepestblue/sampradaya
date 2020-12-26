@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1608940310
+ModificationTime: 1608956046
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -55,17 +55,26 @@ OS2StrikeYPos: 256
 OS2Vendor: 'pyrs'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000003.00000000.00000000.00000000
+Lookup: 1 0 0 "Single Substitution lookup 0" { "Single Substitution lookup 0-1"  } []
 Lookup: 4 0 0 "'akhn' Akhand lookup 0" { "'akhn' Akhand lookup 0 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand lookup 1" { "'akhn' Akhand lookup 1 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2 subtable"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 7" { "'rkrf' Rakar Forms lookup 7-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4 subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'blwf' Below Base Forms lookup 11" { "'blwf' Below Base Forms lookup 11-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms lookup 3" { "'pstf' Post Base Forms lookup 3 subtable"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions lookup 9" { "'abvs' Above Base Substitutions lookup 9-1"  } ['abvs' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Substitutions lookup 8-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'blwf' Below Base Forms lookup 11-1" 0 0 0 1
+ String: 5 uE332
+ BString: 5 uE336
+ FString: 0
+ 1
+  SeqLookup: 0 "Single Substitution lookup 0"
+EndFPST
 LangName: 1097 "" "" "" "" "+C5oLrgvNC6oLvwuwC6QLvguvC64LzQAA"
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2021, Ambarish Sridharanarayanan (https://github.com/deepestblue/Sampradaya),+AAoA-with Reserved Font Name Sampradaya.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 3 8 2 16 1 65535 3 1
@@ -83,7 +92,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 228
+BeginChars: 1114113 229
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -183,6 +192,7 @@ SplineSet
  67 13 67 13 67 27 c 2,11,-1
  67 455 l 2,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dbldanda
@@ -193,6 +203,7 @@ LayerCount: 2
 Fore
 Refer: 5 2404 N 1 0 0 1 0 1 2
 Refer: 5 2404 N 1 0 0 1 128 1 2
+Validated: 1
 EndChar
 
 StartChar: u0BE6
@@ -535,6 +546,7 @@ SplineSet
  157 255 l 1,67,-1
  157 208 l 1,63,64
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u0BED
@@ -5423,6 +5435,7 @@ SplineSet
  235 -118 235 -118 263 -121 c 2,58,-1
  288 -124 l 1,46,47
 EndSplineSet
+Validated: 33
 LCarets2: 1 0
 Ligature2: "'rphf' Reph Form lookup 2 subtable" u11330 u1134D
 EndChar
@@ -5613,6 +5626,7 @@ SplineSet
  142 114 142 114 123 109 c 4,72,73
  121 108 121 108 116 108 c 5,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uE315
@@ -5910,6 +5924,7 @@ LayerCount: 2
 Fore
 Refer: 164 70450 S 0.72 0 0 0.64 -475 -308 2
 Validated: 9
+Substitution2: "Single Substitution lookup 0-1" uE532
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11332
 EndChar
@@ -12494,6 +12509,7 @@ LayerCount: 2
 Fore
 Refer: 61 57865 N 1 0 0 1 510 4 2
 Refer: 131 70411 N 1 0 0 1 -34 0 2
+Validated: 1
 EndChar
 
 StartChar: u11362
@@ -13097,6 +13113,7 @@ LayerCount: 2
 Fore
 Refer: 61 57865 N 1 0 0 1 715 0 2
 Refer: 132 70412 N 1 0 0 1 0 0 2
+Validated: 9
 EndChar
 
 StartChar: u11363
@@ -13247,6 +13264,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 13 3052 N 0.599976 0 0 0.599976 -622 980 2
+Validated: 1
 EndChar
 
 StartChar: u11370
@@ -13615,6 +13633,7 @@ SplineSet
  260 382 260 382 192 376 c 4,65,66
  138 371 138 371 138 360 c 4,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u0BF0
@@ -13663,6 +13682,7 @@ SplineSet
  166.739257812 63.7900390625 l 1,59,60
  201 93.291015625 201 93.291015625 201 146 c 2,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u0BF1
@@ -13705,6 +13725,7 @@ SplineSet
  250 250 250 250 250 136 c 2,48,-1
  250 34 l 2,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u0BF2
@@ -13783,6 +13804,7 @@ SplineSet
  325 80 325 80 325 56 c 0,85,86
  325 44 325 44 341 44 c 0,80,81
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uE20A
@@ -13793,6 +13815,7 @@ LayerCount: 2
 Fore
 Refer: 173 70463 N 1 0 0 1 0 0 2
 Refer: 60 57860 N 1 0 0 1 128 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u1133F
 EndChar
@@ -13805,6 +13828,7 @@ LayerCount: 2
 Fore
 Refer: 174 70464 N 1 0 0 1 -24 0 2
 Refer: 60 57860 N 0.981132 0 0 1 110.377 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u11340
 EndChar
@@ -13817,6 +13841,7 @@ LayerCount: 2
 Fore
 Refer: 173 70463 N 1 0 0 1 2 0 2
 Refer: 58 57857 N 1 0 0 1 9 -135 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u1133F
 EndChar
@@ -13829,6 +13854,7 @@ LayerCount: 2
 Fore
 Refer: 174 70464 N 1 0 0 1 -11 0 2
 Refer: 58 57857 N 1 0 0 1 53 59 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u11340
 EndChar
@@ -13841,6 +13867,7 @@ LayerCount: 2
 Fore
 Refer: 173 70463 N 1 0 0 1 0 0 2
 Refer: 57 57856 S 1 0 0 1 32 -106 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u1133F
 EndChar
 
@@ -13852,7 +13879,17 @@ LayerCount: 2
 Fore
 Refer: 174 70464 N 1 0 0 1 -28 0 2
 Refer: 57 57856 N 1 0 0 1 68 -2 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u11340
+EndChar
+
+StartChar: uE532
+Encoding: 58674 58674 228
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 86 58162 S 1 0 0 1 0 -296 2
 EndChar
 EndChars
 EndSplineFont
