@@ -1,4 +1,4 @@
-# Indic‐relevant TT tables
+# Indic‐relevant OpenType tables
 
 ## Tables
 
