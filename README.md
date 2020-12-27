@@ -12,10 +12,17 @@ Download the OSX font file from [releases](https://github.com/deepestblue/Sampra
 
 Download the Windows font file from [releases](https://github.com/deepestblue/Sampradaya/releases/), click the secondary mouse button on the downloaded file, and choose `Install` or `Install for all users` as appropriate.
 
+## References
+
+* Vinodh Rajan's [Grantha primer](http://www.virtualvinodh.com/grantha-lipitva).
+* Simon Cozens's book on [Fonts and Layout for Global Scripts](https://simoncozens.github.io/fonts-and-layout/).
+* The SIL's book on [Font Development Best Practices](https://silnrsi.github.io/FDBP/en-US/OpenType.html).
+* John Hudson's paper on [Enabling Typography: towards a general model of OpenType Layout](http://tiro.com/John/Enabling_Typography_(OTL).pdf).
+* The English Wikipedia's [list of typographic features](https://en.wikipedia.org/wiki/List_of_typographic_features).
+
 ## Acknowledgements
 
 * Prof. R. Kalyana Krishnan (Retd.), IIT-Madras, for his IITMGrantha typeface, whose glyphs are reused here with permission.
-* Vinodh Rajan, for his [wonderful site on Grantha](http://www.virtualvinodh.com/grantha-lipitva).
 * Anupama Krishnan, for her work on Unicodifying the IITMGrantha typeface, and for design help.
 * Ranganath Atreya, for [LipikaIME](https://github.com/ratreya/Lipika_IME), invaluable in testing.
 * The developers of [FontForge](http://fontforge.github.io/).
