@@ -40,9 +40,3 @@
 | 2     | Orthographic unit shaping |
 | 3     | Standard typographic presentation |
 | 4     | Positioning |
-
-## References
-
-* [Enabling Typography: towards a general model of OpenType Layout](http://tiro.com/John/Enabling_Typography_(OTL).pdf)
-* [The English Wikipedia's list of typographic features](https://en.wikipedia.org/wiki/List_of_typographic_features)
-* [Font Development Best Practices](https://silnrsi.github.io/FDBP/en-US/OpenType.html)
