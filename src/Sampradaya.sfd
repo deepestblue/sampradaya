@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1609227149
+ModificationTime: 1609267167
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -92,7 +92,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 229
+BeginChars: 1114113 230
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -5637,6 +5637,7 @@ LayerCount: 2
 Fore
 Refer: 137 70421 N 0.8 0 0 0.63 -461 -310 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE515
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11315
 EndChar
@@ -13890,6 +13891,15 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 86 58162 S 1 0 0 1 0 -296 2
+EndChar
+
+StartChar: uE515
+Encoding: 58645 58645 229
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 62 58133 S 1 0 0 0.996641 0 -292.043 2
 EndChar
 EndChars
 EndSplineFont
