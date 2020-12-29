@@ -3,7 +3,7 @@ FontName: Sampradaya
 FullName: Sampradaya
 FamilyName: Sampradaya
 Weight: Regular
-Copyright: Copyright 2014-2021 Ambarish Sridharanarayanan.\n\nAcknowledgements:\n* Prof. R. Kalyana Krishnan, (Retd.),\n* Vinodh Rajan,\n* Anupama Krishnan,\n* Ranganath Atreya,\n* The makers of FontForge,\n* The Unicode Consortium, and\n* The makers of NotoSansGrantha.
+Copyright: Copyright 2014-2021 Ambarish Sridharanarayanan.\n
 Version: 0.9
 ItalicAngle: 0
 UnderlinePosition: -126
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1609280254
+ModificationTime: 1609280507
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -9912,7 +9912,7 @@ EndChar
 StartChar: u1131B
 Encoding: 70427 70427 143
 Width: 821
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
