@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1608956046
+ModificationTime: 1609227149
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -68,10 +68,10 @@ Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Subs
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: glyph "'blwf' Below Base Forms lookup 11-1" 0 0 0 1
- String: 5 uE332
- BString: 5 uE336
- FString: 0
+ChainSub2: coverage "'blwf' Below Base Forms lookup 11-1" 0 0 0 1
+ 1 1 0
+  Coverage: 5 uE332
+  BCoverage: 35 uE333 uE335 uE336 uE337 uE338 uE339
  1
   SeqLookup: 0 "Single Substitution lookup 0"
 EndFPST
