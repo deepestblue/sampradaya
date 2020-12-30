@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1609287082
+ModificationTime: 1609289447
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -84,14 +84,14 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 58542 22 10
+WinInfo: 58498 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 255
+BeginChars: 1114113 261
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -5959,6 +5959,7 @@ LayerCount: 2
 Fore
 Refer: 165 70451 N 0.72 0 0 0.62 -522 -282 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE533
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11333
 EndChar
@@ -5971,6 +5972,7 @@ LayerCount: 2
 Fore
 Refer: 166 70453 S 0.72 0 0 0.64 -479 -305 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE535
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11335
 EndChar
@@ -5983,6 +5985,7 @@ LayerCount: 2
 Fore
 Refer: 167 70454 N 0.75 0 0 0.64 -537 -298 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE536
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11336
 EndChar
@@ -5995,6 +5998,7 @@ LayerCount: 2
 Fore
 Refer: 168 70455 N 0.5626 0 0 0.582 -561 -279 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE537
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11337
 EndChar
@@ -6007,6 +6011,7 @@ LayerCount: 2
 Fore
 Refer: 169 70456 N 0.637 0 0 0.62426 -530 -286 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE538
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11338
 EndChar
@@ -6019,6 +6024,7 @@ LayerCount: 2
 Fore
 Refer: 170 70457 S 0.55 0 0 0.63 -543 -300 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE539
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11339
 EndChar
@@ -14098,6 +14104,60 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 85 58159 S 1 0 0 1 0 -296 2
+EndChar
+
+StartChar: uE533
+Encoding: 58675 58675 255
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 87 58163 S 1 0 0 1 0 -310 2
+EndChar
+
+StartChar: uE535
+Encoding: 58677 58677 256
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 88 58165 S 1 0 0 1 0 -295 2
+EndChar
+
+StartChar: uE536
+Encoding: 58678 58678 257
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 89 58166 S 1 0 0 1 0 -304 2
+EndChar
+
+StartChar: uE537
+Encoding: 58679 58679 258
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 90 58167 N 1 0 0 1 0 -299 2
+EndChar
+
+StartChar: uE538
+Encoding: 58680 58680 259
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 91 58168 S 1 0 0 1 0 -308 2
+EndChar
+
+StartChar: uE539
+Encoding: 58681 58681 260
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 92 58169 S 1 0 0 1 0 -293 2
 EndChar
 EndChars
 EndSplineFont
