@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1609289916
+ModificationTime: 1609290174
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -55,35 +55,43 @@ OS2StrikeYPos: 256
 OS2Vendor: 'pyrs'
 OS2CodePages: 00000001.00000000
 OS2UnicodeRanges: 80000003.00000000.00000000.00000000
+Lookup: 1 0 0 "Single Substitution lookup 0" { "Single Substitution lookup 0-1"  } []
 Lookup: 4 0 0 "'akhn' Akhand lookup 0" { "'akhn' Akhand lookup 0 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'akhn' Akhand lookup 1" { "'akhn' Akhand lookup 1 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2 subtable"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 7" { "'rkrf' Rakar Forms lookup 7-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4 subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'blwf' Below Base Forms lookup 11" { "'blwf' Below Base Forms lookup 11-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms lookup 3" { "'pstf' Post Base Forms lookup 3 subtable"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions lookup 9" { "'abvs' Above Base Substitutions lookup 9-1"  } ['abvs' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Substitutions lookup 8-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: coverage "'blwf' Below Base Forms lookup 11-1" 0 0 0 1
+ 1 1 0
+  Coverage: 197 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE332 uE333 uE335 uE336 uE337 uE338 uE339
+  BCoverage: 197 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE332 uE333 uE335 uE336 uE337 uE338 uE339
+ 1
+  SeqLookup: 0 "Single Substitution lookup 0"
+EndFPST
 LangName: 1097 "" "" "" "" "+C5oLrgvNC6oLvwuwC6QLvguvC64LzQAA"
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2021, Ambarish Sridharanarayanan (https://github.com/deepestblue/Sampradaya),+AAoA-with Reserved Font Name Sampradaya.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 3 8 2 16 1 65535 3 1
 Encoding: UnicodeFull
-Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 22 22 10
+WinInfo: 58498 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 228
+BeginChars: 1114113 261
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -183,6 +191,7 @@ SplineSet
  67 13 67 13 67 27 c 2,11,-1
  67 455 l 2,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: dbldanda
@@ -193,6 +202,7 @@ LayerCount: 2
 Fore
 Refer: 5 2404 N 1 0 0 1 0 1 2
 Refer: 5 2404 N 1 0 0 1 128 1 2
+Validated: 1
 EndChar
 
 StartChar: u0BE6
@@ -535,6 +545,7 @@ SplineSet
  157 255 l 1,67,-1
  157 208 l 1,63,64
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u0BED
@@ -5423,6 +5434,7 @@ SplineSet
  235 -118 235 -118 263 -121 c 2,58,-1
  288 -124 l 1,46,47
 EndSplineSet
+Validated: 33
 LCarets2: 1 0
 Ligature2: "'rphf' Reph Form lookup 2 subtable" u11330 u1134D
 EndChar
@@ -5613,6 +5625,7 @@ SplineSet
  142 114 142 114 123 109 c 4,72,73
  121 108 121 108 116 108 c 5,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: uE315
@@ -5622,6 +5635,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 137 70421 N 0.8 0 0 0.63 -461 -310 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE515
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11315
 EndChar
@@ -5634,6 +5649,7 @@ LayerCount: 2
 Fore
 Refer: 138 70422 S 0.4896 0 0 0.612 -506 -296 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE516
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11316
 EndChar
@@ -5646,6 +5662,7 @@ LayerCount: 2
 Fore
 Refer: 139 70423 N 0.8 0 0 0.6 -412 -289 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE517
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11317
 EndChar
@@ -5658,6 +5675,7 @@ LayerCount: 2
 Fore
 Refer: 140 70424 N 0.62 0 0 0.63 -568 -298 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE518
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11318
 EndChar
@@ -5670,6 +5688,7 @@ LayerCount: 2
 Fore
 Refer: 142 70426 N 0.665 0 0 0.665 -535 -290 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE51A
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131A
 EndChar
@@ -5681,6 +5700,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 143 70427 S 0.63175 0 0 0.63175 -528 -295 2
+Validated: 5
+Substitution2: "Single Substitution lookup 0-1" uE51B
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131B
 EndChar
@@ -5693,6 +5714,7 @@ LayerCount: 2
 Fore
 Refer: 144 70428 S 0.6 0 0 0.55 -471 -272 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE51C
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131C
 EndChar
@@ -5705,6 +5727,7 @@ LayerCount: 2
 Fore
 Refer: 145 70429 S 0.7497 0 0 0.6 -547 -282 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE51D
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131D
 EndChar
@@ -5717,6 +5740,7 @@ LayerCount: 2
 Fore
 Refer: 147 70431 S 0.637245 0 0 0.6069 -421 -284 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE51F
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131F
 EndChar
@@ -5728,6 +5752,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 148 70432 S 0.6464 0 0 0.73425 -333 -291 2
+Substitution2: "Single Substitution lookup 0-1" uE520
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11320
 EndChar
@@ -5740,6 +5765,7 @@ LayerCount: 2
 Fore
 Refer: 149 70433 S 0.665 0 0 0.5985 -489 -305 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE521
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11321
 EndChar
@@ -5751,6 +5777,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 150 70434 S 0.7 0 0 0.6175 -490 -304 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE522
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11322
 EndChar
@@ -5763,6 +5791,7 @@ LayerCount: 2
 Fore
 Refer: 151 70435 S 0.67165 0 0 0.656069 -631 -309 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE523
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11323
 EndChar
@@ -5775,6 +5804,7 @@ LayerCount: 2
 Fore
 Refer: 152 70436 N 0.76824 0 0 0.624195 -479 -299 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE524
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11324
 EndChar
@@ -5786,6 +5816,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 153 70437 N 0.684 0 0 0.6175 -529 -297 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE525
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11325
 EndChar
@@ -5798,6 +5830,7 @@ LayerCount: 2
 Fore
 Refer: 154 70438 N 0.8 0 0 0.6305 -420 -293 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE526
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11326
 EndChar
@@ -5809,6 +5842,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 155 70439 S 0.76 0 0 0.6175 -578 -291 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE527
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11327
 EndChar
@@ -5821,6 +5856,7 @@ LayerCount: 2
 Fore
 Refer: 156 70440 N 0.7068 0 0 0.637 -534 -298 2
 Validated: 9
+Substitution2: "Single Substitution lookup 0-1" uE528
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11328
 EndChar
@@ -5832,6 +5868,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 157 70442 N 0.65 0 0 0.6 -574 -277 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE52A
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132A
 EndChar
@@ -5843,6 +5881,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 158 70443 N 0.605625 0 0 0.617737 -529 -284 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE52B
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132B
 EndChar
@@ -5854,6 +5894,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 159 70444 S 0.66 0 0 0.62 -553 -303 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE52C
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132C
 EndChar
@@ -5865,6 +5907,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 160 70445 S 0.71295 0 0 0.611325 -544 -294 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE52D
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132D
 EndChar
@@ -5877,6 +5921,7 @@ LayerCount: 2
 Fore
 Refer: 161 70446 S 0.55 0 0 0.65 -310 -308 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE52E
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132E
 EndChar
@@ -5889,6 +5934,7 @@ LayerCount: 2
 Fore
 Refer: 162 70447 S 0.62 0 0 0.63 -401 -298 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE52F
 LCarets2: 1 0
 EndChar
 
@@ -5900,6 +5946,7 @@ LayerCount: 2
 Fore
 Refer: 164 70450 S 0.72 0 0 0.64 -475 -308 2
 Validated: 9
+Substitution2: "Single Substitution lookup 0-1" uE532
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11332
 EndChar
@@ -5911,6 +5958,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 165 70451 N 0.72 0 0 0.62 -522 -282 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE533
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11333
 EndChar
@@ -5923,6 +5972,7 @@ LayerCount: 2
 Fore
 Refer: 166 70453 S 0.72 0 0 0.64 -479 -305 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE535
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11335
 EndChar
@@ -5935,6 +5985,7 @@ LayerCount: 2
 Fore
 Refer: 167 70454 N 0.75 0 0 0.64 -537 -298 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE536
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11336
 EndChar
@@ -5947,6 +5998,7 @@ LayerCount: 2
 Fore
 Refer: 168 70455 N 0.5626 0 0 0.582 -561 -279 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE537
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11337
 EndChar
@@ -5958,6 +6010,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 169 70456 N 0.637 0 0 0.62426 -530 -286 2
+Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE538
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11338
 EndChar
@@ -5970,6 +6024,7 @@ LayerCount: 2
 Fore
 Refer: 170 70457 S 0.55 0 0 0.63 -543 -300 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE539
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11339
 EndChar
@@ -10256,8 +10311,8 @@ SplineSet
  154 1 154 1 94 51.5 c 128,-1,9
  34 102 34 102 34 169 c 256,10,11
  34 280.090909091 34 280.090909091 158 328 c 0,0,1
-264 291 m 4,12,13
- 192.640915325 288.640915325 192.640915325 288.640915325 153 249 c 4,14,15
+264 291 m 0,12,13
+ 192.640915325 288.640915325 192.640915325 288.640915325 153 249 c 0,14,15
  114 210 114 210 114 167 c 128,-1,16
  114 124 114 124 152 92 c 128,-1,17
  190 60 190 60 256 60 c 2,18,-1
@@ -10265,7 +10320,7 @@ SplineSet
  309 60 309 60 344 77 c 0,21,22
  416 112 416 112 416 173.5 c 0,23,24
  416 231.405405405 416 231.405405405 348 270 c 0,25,26
- 311 291 311 291 264 291 c 4,12,13
+ 311 291 311 291 264 291 c 0,12,13
 EndSplineSet
 EndChar
 
@@ -11279,7 +11334,7 @@ EndChar
 StartChar: u11333
 Encoding: 70451 70451 165
 Width: 768
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -12430,6 +12485,7 @@ LayerCount: 2
 Fore
 Refer: 61 57865 N 1 0 0 1 510 4 2
 Refer: 131 70411 N 1 0 0 1 -34 0 2
+Validated: 1
 EndChar
 
 StartChar: u11362
@@ -12473,6 +12529,7 @@ LayerCount: 2
 Fore
 Refer: 141 70425 N 0.791194 0 0 0.760093 -498 -350 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE519
 EndChar
 
 StartChar: uE31E
@@ -12483,6 +12540,7 @@ LayerCount: 2
 Fore
 Refer: 146 70430 S 0.8 0 0 0.8 -594 -366 2
 Validated: 1
+Substitution2: "Single Substitution lookup 0-1" uE51E
 EndChar
 
 StartChar: uE205
@@ -13033,6 +13091,7 @@ LayerCount: 2
 Fore
 Refer: 61 57865 N 1 0 0 1 715 0 2
 Refer: 132 70412 N 1 0 0 1 0 0 2
+Validated: 9
 EndChar
 
 StartChar: u11363
@@ -13183,6 +13242,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 13 3052 N 0.599976 0 0 0.599976 -622 980 2
+Validated: 1
 EndChar
 
 StartChar: u11370
@@ -13550,6 +13610,7 @@ SplineSet
  260 382 260 382 192 376 c 4,65,66
  138 371 138 371 138 360 c 4,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u0BF0
@@ -13598,6 +13659,7 @@ SplineSet
  166.739257812 63.7900390625 l 1,59,60
  201 93.291015625 201 93.291015625 201 146 c 2,0,-1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u0BF1
@@ -13640,6 +13702,7 @@ SplineSet
  250 250 250 250 250 136 c 2,48,-1
  250 34 l 2,0,1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: u0BF2
@@ -13718,6 +13781,7 @@ SplineSet
  325 80 325 80 325 56 c 0,85,86
  325 44 325 44 341 44 c 0,80,81
 EndSplineSet
+Validated: 33
 EndChar
 
 StartChar: uE20A
@@ -13728,6 +13792,7 @@ LayerCount: 2
 Fore
 Refer: 173 70463 N 1 0 0 1 0 0 2
 Refer: 60 57860 N 1 0 0 1 128 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u1133F
 EndChar
@@ -13740,6 +13805,7 @@ LayerCount: 2
 Fore
 Refer: 174 70464 N 1 0 0 1 -24 0 2
 Refer: 60 57860 N 0.981132 0 0 1 110.377 0 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u11340
 EndChar
@@ -13752,6 +13818,7 @@ LayerCount: 2
 Fore
 Refer: 173 70463 N 1 0 0 1 2 0 2
 Refer: 58 57857 N 1 0 0 1 9 -135 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u1133F
 EndChar
@@ -13764,6 +13831,7 @@ LayerCount: 2
 Fore
 Refer: 174 70464 N 1 0 0 1 -11 0 2
 Refer: 58 57857 N 1 0 0 1 53 59 2
+Validated: 1
 LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u11340
 EndChar
@@ -13776,6 +13844,7 @@ LayerCount: 2
 Fore
 Refer: 173 70463 N 1 0 0 1 0 0 2
 Refer: 57 57856 S 1 0 0 1 32 -106 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u1133F
 EndChar
 
@@ -13787,7 +13856,305 @@ LayerCount: 2
 Fore
 Refer: 174 70464 N 1 0 0 1 -28 0 2
 Refer: 57 57856 N 1 0 0 1 68 -2 2
+Validated: 1
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u11340
+EndChar
+
+StartChar: uE532
+Encoding: 58674 58674 228
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 86 58162 S 1 0 0 1 0 -296 2
+EndChar
+
+StartChar: uE515
+Encoding: 58645 58645 229
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 62 58133 S 1 0 0 0.996641 0 -292.043 2
+EndChar
+
+StartChar: uE516
+Encoding: 58646 58646 230
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 63 58134 S 1 0 0 1 0 -294 2
+EndChar
+
+StartChar: uE517
+Encoding: 58647 58647 231
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 64 58135 S 1 0 0 1 0 -296 2
+EndChar
+
+StartChar: uE518
+Encoding: 58648 58648 232
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 65 58136 S 1 0 0 1 0 -298 2
+EndChar
+
+StartChar: uE519
+Encoding: 58649 58649 233
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 189 58137 S 1 0 0 1 0 -295 2
+EndChar
+
+StartChar: uE51A
+Encoding: 58650 58650 234
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 66 58138 S 1 0 0 1 0 -317 2
+EndChar
+
+StartChar: uE51B
+Encoding: 58651 58651 235
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 67 58139 S 1 0 0 1 0 -301 2
+EndChar
+
+StartChar: uE51C
+Encoding: 58652 58652 236
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 68 58140 S 1 0 0 1 0 -294 2
+EndChar
+
+StartChar: uE51D
+Encoding: 58653 58653 237
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 69 58141 S 1 0 0 1 0 -307 2
+EndChar
+
+StartChar: uE51E
+Encoding: 58654 58654 238
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 190 58142 S 1 0 0 1 0 -305 2
+EndChar
+
+StartChar: uE51F
+Encoding: 58655 58655 239
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 70 58143 S 1 0 0 1 0 -304 2
+EndChar
+
+StartChar: uE520
+Encoding: 58656 58656 240
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 71 58144 S 1 0 0 1 0 -302 2
+EndChar
+
+StartChar: uE521
+Encoding: 58657 58657 241
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 72 58145 S 1 0 0 1 0 -281 2
+EndChar
+
+StartChar: uE522
+Encoding: 58658 58658 242
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 73 58146 S 1 0 0 1 0 -291 2
+EndChar
+
+StartChar: uE523
+Encoding: 58659 58659 243
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 74 58147 S 1 0 0 1 0 -301 2
+EndChar
+
+StartChar: uE524
+Encoding: 58660 58660 244
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 75 58148 S 1 0 0 1 0 -299 2
+EndChar
+
+StartChar: uE525
+Encoding: 58661 58661 245
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 76 58149 S 1 0 0 1 0 -297 2
+EndChar
+
+StartChar: uE526
+Encoding: 58662 58662 246
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 77 58150 S 1 0 0 1 0 -301 2
+EndChar
+
+StartChar: uE527
+Encoding: 58663 58663 247
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 78 58151 S 1 0 0 1 0 -301 2
+EndChar
+
+StartChar: uE528
+Encoding: 58664 58664 248
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 79 58152 S 1 0 0 1 0 -296 2
+EndChar
+
+StartChar: uE52A
+Encoding: 58666 58666 249
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 80 58154 S 1 0 0 1 0 -306 2
+EndChar
+
+StartChar: uE52B
+Encoding: 58667 58667 250
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 81 58155 S 1 0 0 1 0 -308 2
+EndChar
+
+StartChar: uE52C
+Encoding: 58668 58668 251
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 82 58156 S 1 0 0 1 0 -291 2
+EndChar
+
+StartChar: uE52D
+Encoding: 58669 58669 252
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 83 58157 S 1 0 0 1 0 -296 2
+EndChar
+
+StartChar: uE52E
+Encoding: 58670 58670 253
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 84 58158 S 1 0 0 1 0 -296 2
+EndChar
+
+StartChar: uE52F
+Encoding: 58671 58671 254
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 85 58159 S 1 0 0 1 0 -296 2
+EndChar
+
+StartChar: uE533
+Encoding: 58675 58675 255
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 87 58163 S 1 0 0 1 0 -310 2
+EndChar
+
+StartChar: uE535
+Encoding: 58677 58677 256
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 88 58165 S 1 0 0 1 0 -295 2
+EndChar
+
+StartChar: uE536
+Encoding: 58678 58678 257
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 89 58166 S 1 0 0 1 0 -304 2
+EndChar
+
+StartChar: uE537
+Encoding: 58679 58679 258
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 90 58167 N 1 0 0 1 0 -299 2
+EndChar
+
+StartChar: uE538
+Encoding: 58680 58680 259
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 91 58168 S 1 0 0 1 0 -308 2
+EndChar
+
+StartChar: uE539
+Encoding: 58681 58681 260
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 92 58169 S 1 0 0 1 0 -293 2
 EndChar
 EndChars
 EndSplineFont
