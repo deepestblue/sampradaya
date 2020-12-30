@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1609295023
+ModificationTime: 1609295319
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -3449,11 +3449,10 @@ EndChar
 StartChar: uE317
 Encoding: 58135 58135 48
 Width: 0
-Flags: MW
+Flags: MWO
 LayerCount: 2
 Fore
-Refer: 123 70423 N 0.8 0 0 0.6 -412 -289 2
-Validated: 1
+Refer: 123 70423 S 0.8 0 0 0.6 -452 -289 2
 Substitution2: "Single Substitution lookup 0-1" uE517
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11317
@@ -3594,8 +3593,7 @@ Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 136 70436 N 0.76824 0 0 0.624195 -479 -299 2
-Validated: 1
+Refer: 136 70436 S 0.76824 0 0 0.624195 -503 -299 2
 Substitution2: "Single Substitution lookup 0-1" uE524
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11324
@@ -10330,8 +10328,7 @@ Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 130 70430 S 0.8 0 0 0.8 -594 -366 2
-Validated: 1
+Refer: 130 70430 S 0.8 0 0 0.8 -595 -366 2
 Substitution2: "Single Substitution lookup 0-1" uE51E
 EndChar
 
