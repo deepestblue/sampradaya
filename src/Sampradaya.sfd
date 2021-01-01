@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1609464675
+ModificationTime: 1609478575
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -69,7 +69,7 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: coverage "'blwf' Below Base Forms lookup 11-1" 0 0 0 1
  1 1 0
-  Coverage: 197 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE332 uE333 uE335 uE336 uE337 uE338 uE339
+  Coverage: 191 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE332 uE333 uE335 uE336 uE337 uE338 uE339
   BCoverage: 329 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
  1
   SeqLookup: 0 "Single Substitution lookup 0"
@@ -81,7 +81,7 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -48
+DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 44 22 10
@@ -91,7 +91,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 245
+BeginChars: 1114113 244
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -3723,7 +3723,6 @@ LayerCount: 2
 Fore
 Refer: 146 70447 S 0.62 0 0 0.63 -401 -298 2
 Validated: 1
-Substitution2: "Single Substitution lookup 0-1" uE52F
 LCarets2: 1 0
 EndChar
 
@@ -11882,17 +11881,8 @@ Fore
 Refer: 68 58158 S 1 0 0 1 0 -296 2
 EndChar
 
-StartChar: uE52F
-Encoding: 58671 58671 238
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 69 58159 S 1 0 0 1 0 -296 2
-EndChar
-
 StartChar: uE533
-Encoding: 58675 58675 239
+Encoding: 58675 58675 238
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11901,7 +11891,7 @@ Refer: 71 58163 S 1 0 0 1 0 -310 2
 EndChar
 
 StartChar: uE535
-Encoding: 58677 58677 240
+Encoding: 58677 58677 239
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11910,7 +11900,7 @@ Refer: 72 58165 S 1 0 0 1 0 -295 2
 EndChar
 
 StartChar: uE536
-Encoding: 58678 58678 241
+Encoding: 58678 58678 240
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11919,7 +11909,7 @@ Refer: 73 58166 S 1 0 0 1 0 -304 2
 EndChar
 
 StartChar: uE537
-Encoding: 58679 58679 242
+Encoding: 58679 58679 241
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11928,7 +11918,7 @@ Refer: 74 58167 N 1 0 0 1 0 -299 2
 EndChar
 
 StartChar: uE538
-Encoding: 58680 58680 243
+Encoding: 58680 58680 242
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11937,7 +11927,7 @@ Refer: 75 58168 S 1 0 0 1 0 -308 2
 EndChar
 
 StartChar: uE539
-Encoding: 58681 58681 244
+Encoding: 58681 58681 243
 Width: 0
 Flags: W
 LayerCount: 2
