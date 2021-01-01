@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1609478575
+ModificationTime: 1609482568
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -70,7 +70,7 @@ DEI: 91125
 ChainSub2: coverage "'blwf' Below Base Forms lookup 11-1" 0 0 0 1
  1 1 0
   Coverage: 191 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE332 uE333 uE335 uE336 uE337 uE338 uE339
-  BCoverage: 329 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
+  BCoverage: 337 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uniE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
  1
   SeqLookup: 0 "Single Substitution lookup 0"
 EndFPST
@@ -84,14 +84,14 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 44 22 10
+WinInfo: 0 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 244
+BeginChars: 1114113 245
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -3617,7 +3617,7 @@ Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 138 70438 N 0.8 0 0 0.6305 -420 -293 2
+Refer: 138 70438 S 0.8 0 0 0.6305 -420 -293 2
 Validated: 1
 Substitution2: "Single Substitution lookup 0-1" uE526
 LCarets2: 1 0
@@ -11933,6 +11933,15 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 76 58169 S 1 0 0 1 0 -293 2
+EndChar
+
+StartChar: uniE330
+Encoding: 58160 58160 244
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 147 70448 S 0.7956 0 0 0.7956 -419 -351 2
 EndChar
 EndChars
 EndSplineFont
