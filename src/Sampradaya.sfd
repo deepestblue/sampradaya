@@ -62,6 +62,7 @@ Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 7" { "'rkrf' Rakar Forms lookup 7-1"  }
 Lookup: 4 0 0 "'blwf' Below Base Forms lookup 4" { "'blwf' Below Base Forms lookup 4 subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'blwf' Below Base Forms lookup 11" { "'blwf' Below Base Forms lookup 11-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms lookup 3" { "'pstf' Post Base Forms lookup 3 subtable"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants lookup 10" { "'vatu' Vattu Variants lookup 10-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'abvs' Above Base Substitutions lookup 9" { "'abvs' Above Base Substitutions lookup 9-1"  } ['abvs' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Substitutions lookup 8-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -2427,7 +2428,7 @@ SplineSet
  268 366 l 1,84,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11330
+Ligature2: "'vatu' Vattu Variants lookup 10-1" u11324 uE204
 EndChar
 
 StartChar: uE110
@@ -2513,7 +2514,7 @@ SplineSet
  38 -64 38 -64 36 -58 c 0,12,13
 EndSplineSet
 Validated: 33
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11336 u1134D u11330
+Ligature2: "'vatu' Vattu Variants lookup 10-1" u11336 uE204
 EndChar
 
 StartChar: uE111
@@ -4324,6 +4325,7 @@ SplineSet
  -475 -76 l 1,64,-1
 EndSplineSet
 Validated: 1
+Ligature2: "'vatu' Vattu Variants lookup 10-1" uE324 uE204
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10F
 EndChar
 
@@ -4850,6 +4852,7 @@ SplineSet
  -605 -76 l 1,8,9
 EndSplineSet
 Validated: 33
+Ligature2: "'vatu' Vattu Variants lookup 10-1" uE336 uE204
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE110
 EndChar
