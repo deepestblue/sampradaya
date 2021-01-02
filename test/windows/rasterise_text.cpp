@@ -418,7 +418,7 @@ public:
     void
     operator ()(
         const string &text,
-        const wstring &output_filename
+        const string &output_filename
     ) {
         auto dwrite_text_layout = create_dwrite_text_layout(
             dwrite_factory,
@@ -478,7 +478,7 @@ public:
         );
         throw_if_failed(
             stream->InitializeFromFilename(
-                output_filename.c_str(),
+                utf8_to_utf16(output_filename).c_str(),
                 GENERIC_WRITE
             )
         );
@@ -498,16 +498,16 @@ private:
 };
 
 int
-wmain(
+main(
     int argc,
-    wchar_t *argv[]
+    char *argv[]
 ) try {
     throw_if_failed(
         argc == 3,
         [] { return "Need 3 arguments."s; }
     );
-    const auto input_file = wstring{argv[1]};
-    const auto output_dir = wstring{argv[2]};
+    const auto input_file = string{argv[1]};
+    const auto output_dir = string{argv[2]};
 
     auto com_initer = COM_initer{};
 
@@ -525,15 +525,15 @@ wmain(
     while (getline(input_stream, line)) {
         if (line.empty())
             continue;
-        renderer(line, output_dir + L"/"s + to_wstring(i) + L".bmp"s);
+        renderer(line, output_dir + "/"s + to_string(i) + ".bmp"s);
         ++i;
     }
 }
 catch (const exception &e) {
-    wcerr << L"Exception thrown: "s << e.what() << L'\n';
+    cerr << "Exception thrown: "s << e.what() << '\n';
 }
 #pragma warning(disable: 4571)
 catch (...) {
 #pragma warning(default: 4571)
-    wcerr << L"Something else thrown"s << L'\n';
+    cerr << "Something else thrown"s << '\n';
 }
