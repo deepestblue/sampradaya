@@ -19,12 +19,27 @@
 using namespace std;
 using boost::format;
 
-template<typename T>
-void assert_and_throw(T exp) {
+template <typename E>
+void
+throw_if_failed(
+    bool exp,
+    const E &e
+) {
     if (exp)
         return;
 
-    throw runtime_error("Assertion failed."s);
+    throw runtime_error(e());
+}
+
+void
+assert_and_throw(bool exp) {
+    static auto l = []() {
+        return "Assertion failed."s;
+    };
+    throw_if_failed(
+        exp,
+        l
+    );
 }
 
 //
@@ -163,7 +178,7 @@ main(int argc, char *argv[]) {
     const auto input_file = string{argv[1]};
     const auto output_dir = string{argv[2]};
 
-    Text_to_image_renderer text_to_image_renderer{argc, argv};
+    auto renderer = Text_to_image_renderer{argc, argv};
 
     auto output_dir_format = format{"%1%/%2%.bmp"s};
     auto input_stream = ifstream{input_file};
@@ -178,7 +193,7 @@ main(int argc, char *argv[]) {
     while (getline(input_stream, line)) {
         if (line.empty())
             continue;
-        text_to_image_renderer(line, str(output_dir_format % output_dir % i));
+        renderer(line, str(output_dir_format % output_dir % i));
         ++i;
     }
 

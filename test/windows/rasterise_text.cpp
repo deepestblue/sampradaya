@@ -1,3 +1,5 @@
+#pragma warning(disable: 4820)
+
 #pragma warning(disable: 5045)
 
 #include <string>
@@ -44,6 +46,17 @@ throw_if_failed(
 }
 
 void
+throw_if_failed(bool exp) {
+    static auto l = []() {
+        return "Assertion failed."s;
+    };
+    throw_if_failed(
+        exp,
+        l
+    );
+}
+
+void
 throw_if_failed(int win32_return_code) {
     auto win32_error_msg = [] {
         auto last_error = GetLastError();
@@ -71,9 +84,7 @@ throw_if_failed(int win32_return_code) {
 }
 
 wstring
-utf8_to_utf16(
-    const string &in
-) {
+utf8_to_utf16(const string &in) {
     auto buf_size = MultiByteToWideChar(
         CP_UTF8,
         MB_ERR_INVALID_CHARS,
@@ -99,9 +110,7 @@ utf8_to_utf16(
 }
 
 string
-utf16_to_utf8(
-    const wstring &in
-) {
+utf16_to_utf8(const wstring &in) {
     auto buf_size = WideCharToMultiByte(
         CP_UTF8,
         WC_ERR_INVALID_CHARS,
@@ -366,7 +375,7 @@ encode_wicbitmap_onto_wicstream(
 
 class Text_to_image_renderer {
 public:
-    Text_to_image_renderer()
+    Text_to_image_renderer(int , char *[])
     {
         throw_if_failed(
             CoCreateInstance(
@@ -491,6 +500,8 @@ public:
     }
 
 private:
+    COM_initer com_initer;
+
     ComPtr<IWICImagingFactory2> wic_factory;
     ComPtr<IDWriteTextFormat> text_format;
     ComPtr<IDWriteFactory5> dwrite_factory;
@@ -509,9 +520,7 @@ main(
     const auto input_file = string{argv[1]};
     const auto output_dir = string{argv[2]};
 
-    auto com_initer = COM_initer{};
-
-    auto renderer = Text_to_image_renderer{};
+    auto renderer = Text_to_image_renderer{argc, argv};
 
     auto input_stream = ifstream{input_file};
     auto line = string{};
@@ -531,9 +540,4 @@ main(
 }
 catch (const exception &e) {
     cerr << "Exception thrown: "s << e.what() << '\n';
-}
-#pragma warning(disable: 4571)
-catch (...) {
-#pragma warning(default: 4571)
-    cerr << "Something else thrown"s << '\n';
 }
