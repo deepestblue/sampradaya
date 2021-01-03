@@ -1,6 +1,3 @@
-#include <string>
-#include <fstream>
-#include <stdexcept>
 #include <filesystem>
 
 //#define DEBUG
@@ -9,22 +6,24 @@
 #include <iostream>
 #endif
 
-#include <boost/format.hpp>
+using namespace std;
 
 #include "QtWidgets/QApplication"
 #include "QtGui/QImage"
 #include "QtGui/QPainter"
 #include "QtGui/QFontDatabase"
 
-using namespace std;
-using boost::format;
+#include "../rasterise_text.hpp"
 
-template<typename T>
-void assert_and_throw(T exp) {
-    if (exp)
-        return;
-
-    throw runtime_error("Assertion failed."s);
+void
+throw_if_failed(bool exp) {
+    static auto l = []() {
+        return "Assertion failed."s;
+    };
+    throw_if_failed(
+        exp,
+        l
+    );
 }
 
 //
@@ -39,12 +38,18 @@ T &&operator ,(T &&x, Or_void) { return forward<T>(x); }
 
 struct App_font {
     App_font() :
-        app_font_id(QFontDatabase::addApplicationFont(QString::fromStdString(absolute(typeface_file_path))))
+        app_font_id(
+            QFontDatabase::addApplicationFont(
+                QString::fromStdString(
+                    absolute(typeface_file_path)
+                )
+            )
+        )
     {
-        assert_and_throw(app_font_id >= 0);
+        throw_if_failed(app_font_id >= 0);
     }
     ~App_font() {
-        assert_and_throw(
+        static_cast<void>(
             QFontDatabase::removeApplicationFont(app_font_id)
         );
     }
@@ -52,18 +57,17 @@ struct App_font {
     QString
     get_typeface_name() {
         const auto &list = QFontDatabase::applicationFontFamilies(app_font_id);
-        assert_and_throw(! list.isEmpty());
+        throw_if_failed(! list.isEmpty());
         return list.at(0);
     }
 
 private:
-    const filesystem::path typeface_file_path = "../../src/Sampradaya.ttf"s;
     int app_font_id;
 };
 
-class Text_to_image_renderer {
+class Renderer::impl {
 public:
-    Text_to_image_renderer(int argc, char *argv[])
+    impl(int argc, char *argv[])
     : app(argc, argv)
     , qfont(app_font.get_typeface_name(), static_cast<int>(typeface_size_pt))
     , metrics(qfont)
@@ -87,7 +91,7 @@ public:
         const auto bounding_rect = get_bounding_rect(qtext);
         const auto image = render_text(qtext, bounding_rect);
 
-        assert_and_throw(
+        throw_if_failed(
             image.save(QString::fromStdString(output_filename))
         );
     }
@@ -134,18 +138,16 @@ private:
     template <typename F>
     auto
     paint_on(QImage &image, F fn) -> decltype(fn()) {
-        assert_and_throw(
+        throw_if_failed(
             painter.begin(&image)
         );
         painter.setFont(qfont);
         const auto result = (fn(), Or_void{});
-        assert_and_throw(
+        throw_if_failed(
             painter.end()
         );
         return static_cast<decltype(fn())>(result);
     }
-
-    const unsigned int typeface_size_pt = 48u;
 
     QApplication app;
 
@@ -157,30 +159,24 @@ private:
     QImage dummy;
 };
 
-int
-main(int argc, char *argv[]) {
-    assert_and_throw(argc == 3);
-    const auto input_file = string{argv[1]};
-    const auto output_dir = string{argv[2]};
+Renderer::Renderer(
+    int argc,
+    char *argv[]
+) : p_impl{
+    std::make_unique<impl>(
+        argc,
+        argv
+    )
+} {}
 
-    Text_to_image_renderer text_to_image_renderer{argc, argv};
-
-    auto output_dir_format = format{"%1%/%2%.bmp"s};
-    auto input_stream = ifstream{input_file};
-    auto line = string{};
-
-    //
-    // Starting at one, because technically 0 is a zero-digit number, so ostreaming a ‘0’
-    // should be the empty-string, but it’s not, so the output filename for the zeroth
-    // file looks wrong.
-    //
-    auto i = 1u;
-    while (getline(input_stream, line)) {
-        if (line.empty())
-            continue;
-        text_to_image_renderer(line, str(output_dir_format % output_dir % i));
-        ++i;
-    }
-
-    return 0;
+void
+Renderer::operator()(
+    const string &text,
+    const string &output_filename) {
+    (*p_impl)(
+        text,
+        output_filename
+    );
 }
+
+Renderer::~Renderer() = default;

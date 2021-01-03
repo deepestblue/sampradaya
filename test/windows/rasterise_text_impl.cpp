@@ -1,13 +1,18 @@
+#pragma warning(disable: 4820)
+#pragma warning(disable: 4464)
+
 #pragma warning(disable: 5045)
 
-#include <string>
-#include <fstream>
 #include <sstream>
-#include <exception>
 #include <iomanip>
-#include <vector>
 #include <limits>
+#include <filesystem>
+
+//#define DEBUG
+
+#ifdef DEBUG
 #include <iostream>
+#endif
 
 #pragma warning(default: 5045)
 
@@ -19,29 +24,15 @@
 #include <dwrite_3.h>
 #include <wincodec.h>
 
-//#define DEBUG
-
 using namespace std;
+
+#include "../rasterise_text.hpp"
+
 using Microsoft::WRL::ComPtr;
 using D2D1::ColorF;
 using D2D1::RectF;
 using D2D1::PixelFormat;
 using D2D1::Matrix3x2F;
-
-const float typeface_size_pt = 48.f;
-const wstring typeface_file_path = L"../../src/Sampradaya.ttf"s;
-
-template <typename E>
-void
-throw_if_failed(
-    bool exp,
-    const E &e
-) {
-    if (exp)
-        return;
-
-    throw runtime_error(e());
-}
 
 void
 throw_if_failed(int win32_return_code) {
@@ -71,9 +62,7 @@ throw_if_failed(int win32_return_code) {
 }
 
 wstring
-utf8_to_utf16(
-    const string &in
-) {
+utf8_to_utf16(const string &in) {
     auto buf_size = MultiByteToWideChar(
         CP_UTF8,
         MB_ERR_INVALID_CHARS,
@@ -98,39 +87,6 @@ utf8_to_utf16(
     return out;
 }
 
-string
-utf16_to_utf8(
-    const wstring &in
-) {
-    auto buf_size = WideCharToMultiByte(
-        CP_UTF8,
-        WC_ERR_INVALID_CHARS,
-        in.data(),
-        static_cast<int>(in.length()),
-        nullptr,
-        0,
-        nullptr,
-        nullptr
-    );
-    throw_if_failed(buf_size);
-
-    auto out = string(static_cast<size_t>(buf_size), 0);
-    throw_if_failed(
-        WideCharToMultiByte(
-            CP_UTF8,
-            WC_ERR_INVALID_CHARS,
-            in.data(),
-            static_cast<int>(in.length()),
-            out.data(),
-            buf_size,
-            nullptr,
-            nullptr
-        )
-    );
-
-    return out;
-}
-
 void
 throw_if_failed(HRESULT hr) {
     struct com_error_msg {
@@ -140,13 +96,13 @@ throw_if_failed(HRESULT hr) {
         string
         operator() () const {
             _com_error com_error(hresult);
-            auto s = wstringstream{};
-            s << L"Failure with HRESULT of 0x"s;
-            s << setfill(L'0') << setw(sizeof(HRESULT) * 2) // 2 hex digits per char
+            auto s = stringstream{};
+            s << "Failure with HRESULT of 0x"s;
+            s << setfill('0') << setw(sizeof(HRESULT) * 2) // 2 hex digits per char
                 << hex << static_cast<unsigned int>(hresult);
-            s << setw(0) << L" ("s << com_error.ErrorMessage() << L" )\n"s;
+            s << setw(0) << " ("s << com_error.ErrorMessage() << " )\n"s;
 
-            return utf16_to_utf8(s.str());
+            return s.str();
         }
     private:
         HRESULT hresult;
@@ -185,7 +141,7 @@ create_font_collection(
     ComPtr<IDWriteFontFile> font_file;
     throw_if_failed(
         dwrite_factory->CreateFontFileReference(
-            typeface_file_path.c_str(),
+            absolute(typeface_file_path).c_str(),
             nullptr,
             &font_file
         )
@@ -276,9 +232,9 @@ create_dwrite_text_layout(
         )
     );
 
-    wcout << L"Metrics for "s << utf16_text << L" are as follows."s << L'\n';
-    wcout << L"Width: "s << metrics.width << L'\n';
-    wcout << L"Height: "s << metrics.height << L'\n';
+    cout << "Metrics for "s << text << " are as follows."s << '\n';
+    cout << "Width: "s << metrics.width << '\n';
+    cout << "Height: "s << metrics.height << '\n';
 #endif
 
     return dwrite_text_layout;
@@ -364,9 +320,9 @@ encode_wicbitmap_onto_wicstream(
     );
 }
 
-class Text_to_image_renderer {
+class Renderer::impl {
 public:
-    Text_to_image_renderer()
+    impl()
     {
         throw_if_failed(
             CoCreateInstance(
@@ -418,7 +374,7 @@ public:
     void
     operator ()(
         const string &text,
-        const wstring &output_filename
+        const string &output_filename
     ) {
         auto dwrite_text_layout = create_dwrite_text_layout(
             dwrite_factory,
@@ -478,7 +434,7 @@ public:
         );
         throw_if_failed(
             stream->InitializeFromFilename(
-                output_filename.c_str(),
+                utf8_to_utf16(output_filename).c_str(),
                 GENERIC_WRITE
             )
         );
@@ -491,49 +447,29 @@ public:
     }
 
 private:
+    COM_initer com_initer;
+
     ComPtr<IWICImagingFactory2> wic_factory;
     ComPtr<IDWriteTextFormat> text_format;
     ComPtr<IDWriteFactory5> dwrite_factory;
     ComPtr<ID2D1Factory1> d2d_factory;
 };
 
-int
-wmain(
-    int argc,
-    wchar_t *argv[]
-) try {
-    throw_if_failed(
-        argc == 3,
-        [] { return "Need 3 arguments."s; }
+Renderer::Renderer(
+    int ,
+    char *[]
+) : p_impl{
+    std::make_unique<impl>()
+} {}
+
+void
+Renderer::operator()(
+    const string &text,
+    const string &output_filename) {
+    (*p_impl)(
+        text,
+        output_filename
     );
-    const auto input_file = wstring{argv[1]};
-    const auto output_dir = wstring{argv[2]};
-
-    auto com_initer = COM_initer{};
-
-    auto renderer = Text_to_image_renderer{};
-
-    auto input_stream = ifstream{input_file};
-    auto line = string{};
-
-    //
-    // Starting at one, because technically 0 is a zero-digit number, so ostreaming a ‘0’
-    // should be the empty-string, but it’s not, so the output filename for the zeroth
-    // file looks wrong.
-    //
-    auto i = 1u;
-    while (getline(input_stream, line)) {
-        if (line.empty())
-            continue;
-        renderer(line, output_dir + L"/"s + to_wstring(i) + L".bmp"s);
-        ++i;
-    }
 }
-catch (const exception &e) {
-    wcerr << L"Exception thrown: "s << e.what() << L'\n';
-}
-#pragma warning(disable: 4571)
-catch (...) {
-#pragma warning(default: 4571)
-    wcerr << L"Something else thrown"s << L'\n';
-}
+
+Renderer::~Renderer() = default;
