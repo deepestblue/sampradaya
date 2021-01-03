@@ -87,37 +87,6 @@ utf8_to_utf16(const string &in) {
     return out;
 }
 
-string
-utf16_to_utf8(const wstring &in) {
-    auto buf_size = WideCharToMultiByte(
-        CP_UTF8,
-        WC_ERR_INVALID_CHARS,
-        in.data(),
-        static_cast<int>(in.length()),
-        nullptr,
-        0,
-        nullptr,
-        nullptr
-    );
-    throw_if_failed(buf_size);
-
-    auto out = string(static_cast<size_t>(buf_size), 0);
-    throw_if_failed(
-        WideCharToMultiByte(
-            CP_UTF8,
-            WC_ERR_INVALID_CHARS,
-            in.data(),
-            static_cast<int>(in.length()),
-            out.data(),
-            buf_size,
-            nullptr,
-            nullptr
-        )
-    );
-
-    return out;
-}
-
 void
 throw_if_failed(HRESULT hr) {
     struct com_error_msg {
@@ -127,13 +96,13 @@ throw_if_failed(HRESULT hr) {
         string
         operator() () const {
             _com_error com_error(hresult);
-            auto s = wstringstream{};
-            s << L"Failure with HRESULT of 0x"s;
-            s << setfill(L'0') << setw(sizeof(HRESULT) * 2) // 2 hex digits per char
+            auto s = stringstream{};
+            s << "Failure with HRESULT of 0x"s;
+            s << setfill('0') << setw(sizeof(HRESULT) * 2) // 2 hex digits per char
                 << hex << static_cast<unsigned int>(hresult);
-            s << setw(0) << L" ("s << com_error.ErrorMessage() << L" )\n"s;
+            s << setw(0) << " ("s << com_error.ErrorMessage() << " )\n"s;
 
-            return utf16_to_utf8(s.str());
+            return s.str();
         }
     private:
         HRESULT hresult;
