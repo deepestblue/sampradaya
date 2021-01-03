@@ -36,13 +36,13 @@ using D2D1::Matrix3x2F;
 
 void
 throw_if_failed(int win32_return_code) {
-    auto win32_error_msg = [] {
-        auto last_error = GetLastError();
-        auto buffer = unique_ptr<char, decltype(&LocalFree)>(
+    const auto win32_error_msg = [] {
+        const auto last_error = GetLastError();
+        const auto buffer = unique_ptr<char, decltype(&LocalFree)>(
             nullptr,
             LocalFree
         );
-        auto len = FormatMessageA(
+        const auto len = FormatMessageA(
             FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
             nullptr,
             last_error,
@@ -63,7 +63,7 @@ throw_if_failed(int win32_return_code) {
 
 wstring
 utf8_to_utf16(const string &in) {
-    auto buf_size = MultiByteToWideChar(
+    const auto buf_size = MultiByteToWideChar(
         CP_UTF8,
         MB_ERR_INVALID_CHARS,
         in.data(),
@@ -177,7 +177,7 @@ create_font_collection(
         font_family->GetFamilyNames(&family_names)
     );
 
-    auto count = family_names->GetCount();
+    const auto count = family_names->GetCount();
     throw_if_failed(
         count > 0,
         [] { return "Typeface has no names."s; }
@@ -210,7 +210,7 @@ create_dwrite_text_layout(
     const ComPtr<IDWriteTextFormat> &text_format,
     const string &text
 ) {
-    auto utf16_text = utf8_to_utf16(text);
+    const auto utf16_text = utf8_to_utf16(text);
 
     auto dwrite_text_layout = ComPtr<IDWriteTextLayout>{};
     throw_if_failed(
@@ -247,11 +247,11 @@ create_render_target(
 ) {
     auto render_target = ComPtr<ID2D1RenderTarget>{};
 
-    auto pixel_format = PixelFormat(
+    const auto pixel_format = PixelFormat(
         DXGI_FORMAT_UNKNOWN,
         D2D1_ALPHA_MODE_IGNORE
     );
-    auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
+    const auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
         D2D1_RENDER_TARGET_TYPE_DEFAULT,
         pixel_format,
         0,
@@ -333,7 +333,7 @@ public:
             )
         );
 
-        auto options = D2D1_FACTORY_OPTIONS{};
+        const auto options = D2D1_FACTORY_OPTIONS{};
         throw_if_failed(
             D2D1CreateFactory(
                 D2D1_FACTORY_TYPE_SINGLE_THREADED,
@@ -352,7 +352,7 @@ public:
                 )
             );
 
-            auto [font_collection, typeface_name] = create_font_collection(
+            const auto [font_collection, typeface_name] = create_font_collection(
                 dwrite_factory
             );
 
@@ -376,7 +376,7 @@ public:
         const string &text,
         const string &output_filename
     ) {
-        auto dwrite_text_layout = create_dwrite_text_layout(
+        const auto dwrite_text_layout = create_dwrite_text_layout(
             dwrite_factory,
             text_format,
             text
