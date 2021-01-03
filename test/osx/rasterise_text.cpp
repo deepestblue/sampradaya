@@ -3,13 +3,9 @@
 #include <stdexcept>
 #include <filesystem>
 
-//#define DEBUG
-
-#ifdef DEBUG
 #include <iostream>
-#endif
 
-#include <boost/format.hpp>
+//#define DEBUG
 
 #include "QtWidgets/QApplication"
 #include "QtGui/QImage"
@@ -17,7 +13,6 @@
 #include "QtGui/QFontDatabase"
 
 using namespace std;
-using boost::format;
 
 template <typename E>
 void
@@ -59,7 +54,7 @@ struct App_font {
         throw_if_failed(app_font_id >= 0);
     }
     ~App_font() {
-        throw_if_failed(
+        static_cast<void>(
             QFontDatabase::removeApplicationFont(app_font_id)
         );
     }
@@ -173,14 +168,19 @@ private:
 };
 
 int
-main(int argc, char *argv[]) {
-    throw_if_failed(argc == 3);
+main(
+    int argc,
+    char *argv[]
+) try {
+    throw_if_failed(
+        argc == 3,
+        [] { return "Need 3 arguments."s; }
+    );
     const auto input_file = string{argv[1]};
     const auto output_dir = string{argv[2]};
 
     auto renderer = Text_to_image_renderer{argc, argv};
 
-    auto output_dir_format = format{"%1%/%2%.bmp"s};
     auto input_stream = ifstream{input_file};
     auto line = string{};
 
@@ -193,9 +193,12 @@ main(int argc, char *argv[]) {
     while (getline(input_stream, line)) {
         if (line.empty())
             continue;
-        renderer(line, str(output_dir_format % output_dir % i));
+        renderer(line, output_dir + "/"s + to_string(i) + ".bmp"s);
         ++i;
     }
 
     return 0;
+}
+catch (const exception &e) {
+    cerr << "Exception thrown: "s << e.what() << '\n';
 }
