@@ -322,7 +322,7 @@ encode_wicbitmap_onto_wicstream(
 
 class Renderer::impl {
 public:
-    impl(int , char *[])
+    impl()
     {
         throw_if_failed(
             CoCreateInstance(
@@ -456,13 +456,10 @@ private:
 };
 
 Renderer::Renderer(
-    int argc,
-    char *argv[]
+    int ,
+    char *[]
 ) : p_impl{
-    std::make_unique<impl>(
-        argc,
-        argv
-    )
+    std::make_unique<impl>()
 } {}
 
 void
