@@ -6,6 +6,7 @@
 #include <sstream>
 #include <iomanip>
 #include <limits>
+#include <filesystem>
 
 //#define DEBUG
 
@@ -32,9 +33,6 @@ using D2D1::ColorF;
 using D2D1::RectF;
 using D2D1::PixelFormat;
 using D2D1::Matrix3x2F;
-
-const float typeface_size_pt = 48.f;
-const wstring typeface_file_path = L"../../src/Sampradaya.ttf"s;
 
 void
 throw_if_failed(int win32_return_code) {
@@ -174,7 +172,7 @@ create_font_collection(
     ComPtr<IDWriteFontFile> font_file;
     throw_if_failed(
         dwrite_factory->CreateFontFileReference(
-            typeface_file_path.c_str(),
+            absolute(typeface_file_path).c_str(),
             nullptr,
             &font_file
         )

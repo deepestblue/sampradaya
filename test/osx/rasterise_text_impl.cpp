@@ -1,4 +1,3 @@
-#include <stdexcept>
 #include <filesystem>
 
 //#define DEBUG
@@ -39,7 +38,13 @@ T &&operator ,(T &&x, Or_void) { return forward<T>(x); }
 
 struct App_font {
     App_font() :
-        app_font_id(QFontDatabase::addApplicationFont(QString::fromStdString(absolute(typeface_file_path))))
+        app_font_id(
+            QFontDatabase::addApplicationFont(
+                QString::fromStdString(
+                    absolute(typeface_file_path)
+                )
+            )
+        )
     {
         throw_if_failed(app_font_id >= 0);
     }
@@ -57,7 +62,6 @@ struct App_font {
     }
 
 private:
-    const filesystem::path typeface_file_path = "../../src/Sampradaya.ttf"s;
     int app_font_id;
 };
 
@@ -144,8 +148,6 @@ private:
         );
         return static_cast<decltype(fn())>(result);
     }
-
-    const unsigned int typeface_size_pt = 48u;
 
     QApplication app;
 

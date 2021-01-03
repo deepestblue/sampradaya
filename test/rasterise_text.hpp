@@ -1,5 +1,10 @@
+#include <stdexcept>
 #include <string>
 #include <memory>
+#include <filesystem>
+
+const auto typeface_file_path = filesystem::path{"../../src/Sampradaya.ttf"s};
+const auto typeface_size_pt = 48u;
 
 template <typename E>
 void
