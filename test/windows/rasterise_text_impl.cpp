@@ -133,12 +133,12 @@ pair<ComPtr<IDWriteFontCollection>, wstring>
 create_font_collection(
     const ComPtr<IDWriteFactory5> &dwrite_factory
 ) {
-    ComPtr<IDWriteFontSetBuilder1> font_set_builder;
+    auto font_set_builder = ComPtr<IDWriteFontSetBuilder1>{};
     throw_if_failed(
         dwrite_factory->CreateFontSetBuilder(&font_set_builder)
     );
 
-    ComPtr<IDWriteFontFile> font_file;
+    auto font_file = ComPtr<IDWriteFontFile>{};
     throw_if_failed(
         dwrite_factory->CreateFontFileReference(
             absolute(typeface_file_path).c_str(),
@@ -151,12 +151,12 @@ create_font_collection(
         font_set_builder->AddFontFile(font_file.Get())
     );
 
-    ComPtr<IDWriteFontSet> font_set;
+    auto font_set = ComPtr<IDWriteFontSet>{};
     throw_if_failed(
         font_set_builder->CreateFontSet(&font_set)
     );
 
-    ComPtr<IDWriteFontCollection1> font_collection;
+    auto font_collection = ComPtr<IDWriteFontCollection1>{};
     throw_if_failed(
         dwrite_factory->CreateFontCollectionFromFontSet(
             font_set.Get(),
@@ -164,7 +164,7 @@ create_font_collection(
         )
     );
 
-    ComPtr<IDWriteFontFamily> font_family;
+    auto font_family = ComPtr<IDWriteFontFamily>{};
     throw_if_failed(
         font_collection->GetFontFamily(
             0,
@@ -172,7 +172,7 @@ create_font_collection(
         )
     );
 
-    ComPtr<IDWriteLocalizedStrings> family_names;
+    auto family_names = ComPtr<IDWriteLocalizedStrings>{};
     throw_if_failed(
         font_family->GetFamilyNames(&family_names)
     );
@@ -192,7 +192,7 @@ create_font_collection(
     );
     ++buf_size;
 
-    wstring typeface_name(buf_size, 0);
+    auto typeface_name = wstring(buf_size, 0);
     throw_if_failed(
         family_names->GetString(
             0,
@@ -212,7 +212,7 @@ create_dwrite_text_layout(
 ) {
     auto utf16_text = utf8_to_utf16(text);
 
-    ComPtr<IDWriteTextLayout> dwrite_text_layout;
+    auto dwrite_text_layout = ComPtr<IDWriteTextLayout>{};
     throw_if_failed(
         dwrite_factory->CreateTextLayout(
             utf16_text.data(),
@@ -245,7 +245,7 @@ create_render_target(
     const ComPtr<ID2D1Factory1> &d2d_factory,
     const ComPtr<IWICBitmap> &wic_bitmap
 ) {
-    ComPtr<ID2D1RenderTarget> render_target;
+    auto render_target = ComPtr<ID2D1RenderTarget>{};
 
     auto pixel_format = PixelFormat(
         DXGI_FORMAT_UNKNOWN,
@@ -382,14 +382,14 @@ public:
             text
         );
 
-        DWRITE_TEXT_METRICS metrics;
+        auto metrics = DWRITE_TEXT_METRICS{};
         throw_if_failed(
             dwrite_text_layout->GetMetrics(
                 &metrics
             )
         );
 
-        ComPtr<IWICBitmap> wic_bitmap;
+        auto wic_bitmap = ComPtr<IWICBitmap>{};
         throw_if_failed(
             wic_factory->CreateBitmap(
                 static_cast<unsigned int>(metrics.width),
@@ -410,7 +410,7 @@ public:
             ColorF(ColorF::White)
         );
 
-        ComPtr<ID2D1SolidColorBrush> black_brush;
+        auto black_brush = ComPtr<ID2D1SolidColorBrush>{};
         throw_if_failed(
             render_target->CreateSolidColorBrush(
                 ColorF(ColorF::Black),
