@@ -36,13 +36,13 @@ using D2D1::Matrix3x2F;
 
 void
 throw_if_failed(int win32_return_code) {
-    auto win32_error_msg = [] {
-        auto last_error = GetLastError();
-        auto buffer = unique_ptr<char, decltype(&LocalFree)>(
+    const auto win32_error_msg = [] {
+        const auto last_error = GetLastError();
+        const auto buffer = unique_ptr<char, decltype(&LocalFree)>(
             nullptr,
             LocalFree
         );
-        auto len = FormatMessageA(
+        const auto len = FormatMessageA(
             FORMAT_MESSAGE_FROM_SYSTEM | FORMAT_MESSAGE_ALLOCATE_BUFFER | FORMAT_MESSAGE_IGNORE_INSERTS,
             nullptr,
             last_error,
@@ -63,7 +63,7 @@ throw_if_failed(int win32_return_code) {
 
 wstring
 utf8_to_utf16(const string &in) {
-    auto buf_size = MultiByteToWideChar(
+    const auto buf_size = MultiByteToWideChar(
         CP_UTF8,
         MB_ERR_INVALID_CHARS,
         in.data(),
@@ -133,12 +133,12 @@ pair<ComPtr<IDWriteFontCollection>, wstring>
 create_font_collection(
     const ComPtr<IDWriteFactory5> &dwrite_factory
 ) {
-    ComPtr<IDWriteFontSetBuilder1> font_set_builder;
+    auto font_set_builder = ComPtr<IDWriteFontSetBuilder1>{};
     throw_if_failed(
         dwrite_factory->CreateFontSetBuilder(&font_set_builder)
     );
 
-    ComPtr<IDWriteFontFile> font_file;
+    auto font_file = ComPtr<IDWriteFontFile>{};
     throw_if_failed(
         dwrite_factory->CreateFontFileReference(
             absolute(typeface_file_path).c_str(),
@@ -151,12 +151,12 @@ create_font_collection(
         font_set_builder->AddFontFile(font_file.Get())
     );
 
-    ComPtr<IDWriteFontSet> font_set;
+    auto font_set = ComPtr<IDWriteFontSet>{};
     throw_if_failed(
         font_set_builder->CreateFontSet(&font_set)
     );
 
-    ComPtr<IDWriteFontCollection1> font_collection;
+    auto font_collection = ComPtr<IDWriteFontCollection1>{};
     throw_if_failed(
         dwrite_factory->CreateFontCollectionFromFontSet(
             font_set.Get(),
@@ -164,7 +164,7 @@ create_font_collection(
         )
     );
 
-    ComPtr<IDWriteFontFamily> font_family;
+    auto font_family = ComPtr<IDWriteFontFamily>{};
     throw_if_failed(
         font_collection->GetFontFamily(
             0,
@@ -172,12 +172,12 @@ create_font_collection(
         )
     );
 
-    ComPtr<IDWriteLocalizedStrings> family_names;
+    auto family_names = ComPtr<IDWriteLocalizedStrings>{};
     throw_if_failed(
         font_family->GetFamilyNames(&family_names)
     );
 
-    auto count = family_names->GetCount();
+    const auto count = family_names->GetCount();
     throw_if_failed(
         count > 0,
         [] { return "Typeface has no names."s; }
@@ -192,7 +192,7 @@ create_font_collection(
     );
     ++buf_size;
 
-    wstring typeface_name(buf_size, 0);
+    auto typeface_name = wstring(buf_size, 0);
     throw_if_failed(
         family_names->GetString(
             0,
@@ -210,9 +210,9 @@ create_dwrite_text_layout(
     const ComPtr<IDWriteTextFormat> &text_format,
     const string &text
 ) {
-    auto utf16_text = utf8_to_utf16(text);
+    const auto utf16_text = utf8_to_utf16(text);
 
-    ComPtr<IDWriteTextLayout> dwrite_text_layout;
+    auto dwrite_text_layout = ComPtr<IDWriteTextLayout>{};
     throw_if_failed(
         dwrite_factory->CreateTextLayout(
             utf16_text.data(),
@@ -245,13 +245,13 @@ create_render_target(
     const ComPtr<ID2D1Factory1> &d2d_factory,
     const ComPtr<IWICBitmap> &wic_bitmap
 ) {
-    ComPtr<ID2D1RenderTarget> render_target;
+    auto render_target = ComPtr<ID2D1RenderTarget>{};
 
-    auto pixel_format = PixelFormat(
+    const auto pixel_format = PixelFormat(
         DXGI_FORMAT_UNKNOWN,
         D2D1_ALPHA_MODE_IGNORE
     );
-    auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
+    const auto render_props = D2D1_RENDER_TARGET_PROPERTIES{
         D2D1_RENDER_TARGET_TYPE_DEFAULT,
         pixel_format,
         0,
@@ -333,7 +333,7 @@ public:
             )
         );
 
-        auto options = D2D1_FACTORY_OPTIONS{};
+        const auto options = D2D1_FACTORY_OPTIONS{};
         throw_if_failed(
             D2D1CreateFactory(
                 D2D1_FACTORY_TYPE_SINGLE_THREADED,
@@ -352,7 +352,7 @@ public:
                 )
             );
 
-            auto [font_collection, typeface_name] = create_font_collection(
+            const auto [font_collection, typeface_name] = create_font_collection(
                 dwrite_factory
             );
 
@@ -376,20 +376,20 @@ public:
         const string &text,
         const string &output_filename
     ) {
-        auto dwrite_text_layout = create_dwrite_text_layout(
+        const auto dwrite_text_layout = create_dwrite_text_layout(
             dwrite_factory,
             text_format,
             text
         );
 
-        DWRITE_TEXT_METRICS metrics;
+        auto metrics = DWRITE_TEXT_METRICS{};
         throw_if_failed(
             dwrite_text_layout->GetMetrics(
                 &metrics
             )
         );
 
-        ComPtr<IWICBitmap> wic_bitmap;
+        auto wic_bitmap = ComPtr<IWICBitmap>{};
         throw_if_failed(
             wic_factory->CreateBitmap(
                 static_cast<unsigned int>(metrics.width),
@@ -410,7 +410,7 @@ public:
             ColorF(ColorF::White)
         );
 
-        ComPtr<ID2D1SolidColorBrush> black_brush;
+        auto black_brush = ComPtr<ID2D1SolidColorBrush>{};
         throw_if_failed(
             render_target->CreateSolidColorBrush(
                 ColorF(ColorF::Black),
