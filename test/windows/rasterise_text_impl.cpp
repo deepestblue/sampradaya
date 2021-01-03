@@ -1,15 +1,17 @@
 #pragma warning(disable: 4820)
+#pragma warning(disable: 4464)
 
 #pragma warning(disable: 5045)
 
-#include <string>
-#include <fstream>
 #include <sstream>
-#include <exception>
 #include <iomanip>
-#include <vector>
 #include <limits>
+
+//#define DEBUG
+
+#ifdef DEBUG
 #include <iostream>
+#endif
 
 #pragma warning(default: 5045)
 
@@ -21,9 +23,10 @@
 #include <dwrite_3.h>
 #include <wincodec.h>
 
-//#define DEBUG
-
 using namespace std;
+
+#include "../rasterise_text.hpp"
+
 using Microsoft::WRL::ComPtr;
 using D2D1::ColorF;
 using D2D1::RectF;
@@ -32,29 +35,6 @@ using D2D1::Matrix3x2F;
 
 const float typeface_size_pt = 48.f;
 const wstring typeface_file_path = L"../../src/Sampradaya.ttf"s;
-
-template <typename E>
-void
-throw_if_failed(
-    bool exp,
-    const E &e
-) {
-    if (exp)
-        return;
-
-    throw runtime_error(e());
-}
-
-void
-throw_if_failed(bool exp) {
-    static auto l = []() {
-        return "Assertion failed."s;
-    };
-    throw_if_failed(
-        exp,
-        l
-    );
-}
 
 void
 throw_if_failed(int win32_return_code) {
@@ -285,9 +265,9 @@ create_dwrite_text_layout(
         )
     );
 
-    wcout << L"Metrics for "s << utf16_text << L" are as follows."s << L'\n';
-    wcout << L"Width: "s << metrics.width << L'\n';
-    wcout << L"Height: "s << metrics.height << L'\n';
+    cout << "Metrics for "s << text << " are as follows."s << '\n';
+    cout << "Width: "s << metrics.width << '\n';
+    cout << "Height: "s << metrics.height << '\n';
 #endif
 
     return dwrite_text_layout;
@@ -373,9 +353,9 @@ encode_wicbitmap_onto_wicstream(
     );
 }
 
-class Text_to_image_renderer {
+class Renderer::impl {
 public:
-    Text_to_image_renderer(int , char *[])
+    impl(int , char *[])
     {
         throw_if_failed(
             CoCreateInstance(
@@ -508,36 +488,24 @@ private:
     ComPtr<ID2D1Factory1> d2d_factory;
 };
 
-int
-main(
+Renderer::Renderer(
     int argc,
     char *argv[]
-) try {
-    throw_if_failed(
-        argc == 3,
-        [] { return "Need 3 arguments."s; }
+) : p_impl{
+    std::make_unique<impl>(
+        argc,
+        argv
+    )
+} {}
+
+void
+Renderer::operator()(
+    const string &text,
+    const string &output_filename) {
+    (*p_impl)(
+        text,
+        output_filename
     );
-    const auto input_file = string{argv[1]};
-    const auto output_dir = string{argv[2]};
-
-    auto renderer = Text_to_image_renderer{argc, argv};
-
-    auto input_stream = ifstream{input_file};
-    auto line = string{};
-
-    //
-    // Starting at one, because technically 0 is a zero-digit number, so ostreaming a ‘0’
-    // should be the empty-string, but it’s not, so the output filename for the zeroth
-    // file looks wrong.
-    //
-    auto i = 1u;
-    while (getline(input_stream, line)) {
-        if (line.empty())
-            continue;
-        renderer(line, output_dir + "/"s + to_string(i) + ".bmp"s);
-        ++i;
-    }
 }
-catch (const exception &e) {
-    cerr << "Exception thrown: "s << e.what() << '\n';
-}
+
+Renderer::~Renderer() = default;

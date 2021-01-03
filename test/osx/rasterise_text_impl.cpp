@@ -1,30 +1,20 @@
-#include <string>
-#include <fstream>
 #include <stdexcept>
 #include <filesystem>
 
-#include <iostream>
-
 //#define DEBUG
+
+#ifdef DEBUG
+#include <iostream>
+#endif
+
+using namespace std;
 
 #include "QtWidgets/QApplication"
 #include "QtGui/QImage"
 #include "QtGui/QPainter"
 #include "QtGui/QFontDatabase"
 
-using namespace std;
-
-template <typename E>
-void
-throw_if_failed(
-    bool exp,
-    const E &e
-) {
-    if (exp)
-        return;
-
-    throw runtime_error(e());
-}
+#include "../rasterise_text.hpp"
 
 void
 throw_if_failed(bool exp) {
@@ -71,9 +61,9 @@ private:
     int app_font_id;
 };
 
-class Text_to_image_renderer {
+class Renderer::impl {
 public:
-    Text_to_image_renderer(int argc, char *argv[])
+    impl(int argc, char *argv[])
     : app(argc, argv)
     , qfont(app_font.get_typeface_name(), static_cast<int>(typeface_size_pt))
     , metrics(qfont)
@@ -167,38 +157,24 @@ private:
     QImage dummy;
 };
 
-int
-main(
+Renderer::Renderer(
     int argc,
     char *argv[]
-) try {
-    throw_if_failed(
-        argc == 3,
-        [] { return "Need 3 arguments."s; }
+) : p_impl{
+    std::make_unique<impl>(
+        argc,
+        argv
+    )
+} {}
+
+void
+Renderer::operator()(
+    const string &text,
+    const string &output_filename) {
+    (*p_impl)(
+        text,
+        output_filename
     );
-    const auto input_file = string{argv[1]};
-    const auto output_dir = string{argv[2]};
-
-    auto renderer = Text_to_image_renderer{argc, argv};
-
-    auto input_stream = ifstream{input_file};
-    auto line = string{};
-
-    //
-    // Starting at one, because technically 0 is a zero-digit number, so ostreaming a ‘0’
-    // should be the empty-string, but it’s not, so the output filename for the zeroth
-    // file looks wrong.
-    //
-    auto i = 1u;
-    while (getline(input_stream, line)) {
-        if (line.empty())
-            continue;
-        renderer(line, output_dir + "/"s + to_string(i) + ".bmp"s);
-        ++i;
-    }
-
-    return 0;
 }
-catch (const exception &e) {
-    cerr << "Exception thrown: "s << e.what() << '\n';
-}
+
+Renderer::~Renderer() = default;

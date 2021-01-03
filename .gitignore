@@ -1,6 +1,9 @@
-test/osx/rasterise_text
+test/rasterise_text
+test/rasterise_text.o
+test/osx/rasterise_text_impl.o
 test/windows/rasterise_text.exe
 test/windows/rasterise_text.obj
+test/windows/rasterise_text_impl.obj
 .vscode
 src/Sampradaya.ttf
 src/*-[0-9][0-9]
