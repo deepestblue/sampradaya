@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1609860805
+ModificationTime: 1609861607
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -6207,7 +6207,7 @@ SplineSet
  108 160 108 160 108 150 c 0,104,105
 EndSplineSet
 Validated: 1
-Ligature2: "'abvs' Above Base Substitutions lookup 9-1" u1132C u1133F
+Ligature2: "'abvs' Above Base Substitutions lookup 9-1" u11333 u1133F
 LCarets2: 1 0
 EndChar
 
@@ -6307,7 +6307,7 @@ SplineSet
  479 62 479 62 479 52 c 0,29,30
 EndSplineSet
 Validated: 33
-Ligature2: "'abvs' Above Base Substitutions lookup 9-1" u1132C u11340
+Ligature2: "'abvs' Above Base Substitutions lookup 9-1" u11333 u11340
 LCarets2: 1 0
 EndChar
 
