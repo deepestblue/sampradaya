@@ -11322,8 +11322,8 @@ EndSplineSet
 Validated: 33
 EndChar
 
-StartChar: uE20A
-Encoding: 57866 57866 204
+StartChar: uE280
+Encoding: 57984 57984 204
 Width: 407
 Flags: W
 LayerCount: 2
@@ -11334,8 +11334,8 @@ LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u1133F
 EndChar
 
-StartChar: uE20B
-Encoding: 57867 57867 205
+StartChar: uE281
+Encoding: 57985 57985 205
 Width: 381
 Flags: W
 LayerCount: 2
@@ -11346,8 +11346,8 @@ LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u11340
 EndChar
 
-StartChar: uE20C
-Encoding: 57868 57868 206
+StartChar: uE282
+Encoding: 57986 57986 206
 Width: 423
 Flags: W
 LayerCount: 2
@@ -11358,8 +11358,8 @@ LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u1133F
 EndChar
 
-StartChar: uE20D
-Encoding: 57869 57869 207
+StartChar: uE283
+Encoding: 57987 57987 207
 Width: 477
 Flags: W
 LayerCount: 2
@@ -11370,8 +11370,8 @@ LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u11340
 EndChar
 
-StartChar: uE20E
-Encoding: 57870 57870 208
+StartChar: uE284
+Encoding: 57988 57988 208
 Width: 404
 Flags: W
 LayerCount: 2
@@ -11381,8 +11381,8 @@ Refer: 41 57856 S 1 0 0 1 32 -106 2
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u1133F
 EndChar
 
-StartChar: uE20F
-Encoding: 57871 57871 209
+StartChar: uE285
+Encoding: 57989 57989 209
 Width: 481
 Flags: W
 LayerCount: 2
@@ -11689,8 +11689,8 @@ Fore
 Refer: 145 70448 S 0.7956 0 0 0.7956 -419 -351 2
 EndChar
 
-StartChar: uE210
-Encoding: 57872 57872 243
+StartChar: uE286
+Encoding: 57990 57990 243
 Width: 407
 Flags: W
 LayerCount: 2
@@ -11700,8 +11700,8 @@ Refer: 173 57861 N 1 0 0 1 152 0 2
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE205 u1133F
 EndChar
 
-StartChar: uE211
-Encoding: 57873 57873 244
+StartChar: uE287
+Encoding: 57991 57991 244
 Width: 381
 Flags: W
 LayerCount: 2
