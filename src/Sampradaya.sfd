@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1610002109
+ModificationTime: 1610002831
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -61,6 +61,7 @@ Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2-1" 
 Lookup: 1 0 0 "Single Substitution lookup 3" { "Single substitution lookup 3-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1"  } []
+Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
 Lookup: 4 0 0 "'akhn' Akhand lookup 0" { "'akhn' Akhand lookup 0 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2 subtable"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 7" { "'rkrf' Rakar Forms lookup 7-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -73,15 +74,17 @@ Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Subs
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: class "'psts' Post Base Substitutions lookup 11-1" 3 7 1 7
+ChainSub2: class "'psts' Post Base Substitutions lookup 11-1" 3 9 1 10
   Class: 5 uE205
   Class: 6 u1133F
-  BClass: 24 uE10C uE10E uE115 u1131C
+  BClass: 18 uE10C uE10E u1131C
   BClass: 347 uE105 uE10B uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
-  BClass: 45 uE10D uE112 uE113 u11319 u11326 u11332 u11337
+  BClass: 38 uE10D uE112 uE113 u11319 u11326 u11332
   BClass: 5 uE109
   BClass: 13 u1131F u11333
   BClass: 17 uE102 uE111 uE114
+  BClass: 6 u11337
+  BClass: 5 uE115
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -124,8 +127,26 @@ ChainSub2: class "'psts' Post Base Substitutions lookup 11-1" 3 7 1 7
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 5"
+ 1 1 0
+  ClsList: 2
+  BClsList: 7
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 1 0
+  ClsList: 1
+  BClsList: 8
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+ 1 1 0
+  ClsList: 2
+  BClsList: 8
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
   ClassNames: "All_Others" "1" "2"
-  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
+  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7" "8"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: coverage "'blwf' Below Base Forms lookup 11-1" 0 0 0 1
@@ -152,7 +173,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 246
+BeginChars: 1114113 247
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -1732,6 +1753,7 @@ SplineSet
  124 286 124 286 124 269 c 1,227,-1
 EndSplineSet
 Validated: 33
+LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u1131C u1134D u1131E
 EndChar
 
@@ -9432,6 +9454,7 @@ SplineSet
  -215 435 -215 435 -187 414.5 c 0,32,33
  -185 413 -185 413 -100 413 c 0,0,1
 EndSplineSet
+Substitution2: "Single Substitution lookup 6-1" uE20A
 Substitution2: "Single Substitution lookup 5-1" uE209
 Substitution2: "Single Substitution lookup 4-1" uE207
 Substitution2: "Single substitution lookup 3-1" uE208
@@ -11748,6 +11771,37 @@ SplineSet
  -106 549 -106 549 -290 549 c 4,32,33
  -464 549 -464 549 -553 494 c 256,34,35
  -571 483 -571 483 -571 467 c 0,0,1
+EndSplineSet
+EndChar
+
+StartChar: uE20A
+Encoding: 57866 57866 246
+Width: 145
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-351 467 m 4,0,1
+ -351 418 -351 418 -237 418 c 4,2,3
+ -225 418 -225 418 -220 410 c 4,4,5
+ -211 393 -211 393 -220.5 382 c 132,-1,6
+ -230 371 -230 371 -241 371 c 4,7,8
+ -320 371 -320 371 -363 399 c 4,9,10
+ -386 414 -386 414 -394.5 430 c 132,-1,11
+ -403 446 -403 446 -403 476.5 c 132,-1,12
+ -403 507 -403 507 -374 534 c 4,13,14
+ -320 581 -320 581 -174 581 c 0,15,16
+ -78 581 -78 581 4 542 c 0,17,18
+ 64 514 64 514 76 490.5 c 128,-1,19
+ 88 467 88 467 88 391 c 2,20,-1
+ 88 18 l 2,21,22
+ 88 0 88 0 56.5 0 c 128,-1,23
+ 25 0 25 0 25 19 c 2,24,-1
+ 25 441 l 2,25,26
+ 25 451 25 451 -33 490 c 24,27,28
+ -75 518 -75 518 -182.5 518 c 0,29,30
+ -292 518 -292 518 -333 494 c 260,31,32
+ -351 483 -351 483 -351 467 c 4,0,1
 EndSplineSet
 EndChar
 EndChars
