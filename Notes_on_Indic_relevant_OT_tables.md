@@ -15,11 +15,11 @@
 | vatu  | S4   | 2     | Replaces consonant+virāma+rēpha with a new glyph. | न्र |
 | cjct  | S4   | 2     | Conjunct consonant+virama+consonant ligatures, later than Akhaṇḍa ligatures. Not used here. | द्ग |
 | pres  | S4,5 | 3     | Ligates a base glyph and a pre‐base glyph. | ક્ક |
-| abvs  | S4   | 3     | Ligates a base glyph and an above‐base glyph. | 𑌟𑍀 |
+| abvs  | S4   | 3     | Ligates a base glyph and an above‐base glyph. Not used here. | டி |
 | blws  | S4   | 3     | Ligates a base glyph and a below‐base glyph. | ക്ല |
 | psts  | S4   | 3     | Ligates a base glyph and a post‐base glyph. | വ്വ |
 | haln  | S4   | 3     | Replaces consonant+virāma with a terminal form. | 𑌮𑍍 |
-| abvm  | P4,5 | 4     | Positions anusvāras etc. above the base. Not used here. | उं |
+| abvm  | P4,5 | 4     | Positions anusvāras etc. above the base. Used for kerning ī‐markers. | 𑌟𑍀 |
 | blwm  | P4,5 | 4     | Positions u‐markers etc. above the base. Not used here. | कु |
 
 ## Type descriptions
