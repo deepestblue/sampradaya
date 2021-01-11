@@ -35,4 +35,13 @@ for actual in $(find $TMPDIR/actual -type f); do
     }
 done
 
-find $TMPDIR/diff -type f
+count=$(find $TMPDIR/diff -type f | wc -l)
+
+if [ $count -eq 0 ]; then
+    rm -r $TMPDIR
+else
+    echo $TMPDIR/
+    pushd $TMPDIR > /dev/null
+    find diff -type f
+    popd > /dev/null
+fi
