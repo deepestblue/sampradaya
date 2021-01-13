@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1610518651
+ModificationTime: 1610519738
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -160,7 +160,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 44 22 10
+WinInfo: 0 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1115,6 +1115,7 @@ SplineSet
  673.992425981 242.5 673.992425981 242.5 690.5 242.5 c 3,157,158
  713.00555487 242.5 713.00555487 242.5 724 226 c 0,144,145
 EndSplineSet
+Kerns2: 154 -405 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11325
 EndChar
@@ -1961,6 +1962,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
+Kerns2: 154 -280 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u1131C u1134D u1131E
 EndChar
@@ -2337,6 +2339,7 @@ SplineSet
  598 47 l 2,66,67
  616 47 616 47 616 24 c 3,0,1
 EndSplineSet
+Kerns2: 154 -150 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11326
 EndChar
@@ -2592,8 +2595,8 @@ SplineSet
  82 35 82 35 82 51 c 2,3,-1
  82 386 l 2,4,5
  82 396 82 396 95 401 c 1,6,7
- 101 409 101 409 113 410 c 1,8,-1
- 366 410 l 2,9,10
+ 101 409 101 409 113 410 c 5,8,-1
+ 366 410 l 6,9,10
  376 410 376 410 381.5 402.5 c 128,-1,11
  387 395 387 395 387 387 c 259,12,13
  387 379 387 379 381.5 372 c 128,-1,14
@@ -2658,6 +2661,7 @@ SplineSet
  138 51 l 1,122,-1
  139 51 l 1,0,1
 EndSplineSet
+Kerns2: 154 -415 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11327
 EndChar
@@ -2672,15 +2676,15 @@ SplineSet
 114 54 m 1,0,1
  114 38 114 38 85.5 38 c 128,-1,2
  57 38 57 38 57 54 c 2,3,-1
- 57 389 l 2,4,5
- 57 399 57 399 70 404 c 1,6,7
- 76 412 76 412 88 413 c 1,8,-1
- 341 413 l 2,9,10
- 351 413 351 413 356.5 405.5 c 128,-1,11
- 362 398 362 398 362 390 c 131,-1,12
- 362 382 362 382 356.5 375 c 128,-1,13
- 351 368 351 368 341 368 c 2,14,-1
- 267 368 l 1,15,-1
+ 57 384 l 6,4,5
+ 57 394 57 394 70 399 c 5,6,7
+ 76 407 76 407 88 408 c 5,8,-1
+ 341 408 l 6,9,10
+ 351 408 351 408 356.5 400.5 c 132,-1,11
+ 362 393 362 393 362 385 c 135,-1,12
+ 362 377 362 377 356.5 370 c 132,-1,13
+ 351 363 351 363 341 363 c 6,14,-1
+ 267 363 l 5,15,-1
  267 271 l 1,16,17
  299 282 299 282 330 282 c 3,18,19
  363 282 363 282 403.5 266.5 c 0,20,21
@@ -2696,7 +2700,7 @@ SplineSet
  176 0 176 0 175 22 c 0,35,36
  175 49 175 49 192 49 c 2,37,-1
  210 49 l 2,38,39
- 344 53 344 53 395 117 c 0,40,41
+ 341 49 341 49 395 117 c 0,40,41
  412 138 412 138 412 165 c 3,42,43
  412 188 412 188 392.5 211 c 0,44,45
  373 233 373 233 347 239 c 0,46,47
@@ -2708,11 +2712,12 @@ SplineSet
  246 139 246 139 229.5 138.5 c 0,57,58
  219 138 219 138 205.5 147 c 0,59,60
  195 154 195 154 195 165 c 2,61,-1
- 195 368 l 1,62,-1
- 113 368 l 1,63,-1
+ 195 363 l 5,62,-1
+ 113 363 l 5,63,-1
  113 54 l 1,64,-1
  114 54 l 1,0,1
 EndSplineSet
+Kerns2: 154 -240 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11335
 EndChar
@@ -2915,6 +2920,7 @@ SplineSet
  664.992648648 242.5 664.992648648 242.5 682 242.5 c 0,108,109
  705.005434141 242.5 705.005434141 242.5 716 226 c 0,95,96
 EndSplineSet
+Kerns2: 154 -387 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11325
 EndChar
@@ -3010,6 +3016,7 @@ SplineSet
  567 242 567 242 590 239 c 1,128,-1
  600 262 l 24,114,115
 EndSplineSet
+Kerns2: 154 -45 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11337 u1134D u1131F
 EndChar
@@ -7731,7 +7738,7 @@ EndChar
 StartChar: u11320
 Encoding: 70432 70432 128
 Width: 624
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -8758,6 +8765,7 @@ SplineSet
  243 215 243 215 243 262 c 0,0,1
 EndSplineSet
 Validated: 9
+Kerns2: 154 -80 "'abvm' Above Base Mark lookup 0-1"
 EndChar
 
 StartChar: u11333
@@ -9021,6 +9029,7 @@ SplineSet
  760 -95 760 -95 747.5 -99 c 128,-1,103
  735 -103 735 -103 724 -103 c 0,28,29
 EndSplineSet
+Kerns2: 154 -55 "'abvm' Above Base Mark lookup 0-1"
 EndChar
 
 StartChar: u11338
