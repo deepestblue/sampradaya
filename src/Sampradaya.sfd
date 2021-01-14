@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1610519738
+ModificationTime: 1610596773
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -71,10 +71,35 @@ Lookup: 6 0 0 "'blwf' Below Base Forms lookup 11" { "'blwf' Below Base Forms loo
 Lookup: 4 0 0 "'pstf' Post Base Forms lookup 3" { "'pstf' Post Base Forms lookup 3 subtable"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions lookup 11-1"  "'psts' Post Base Substitutions lookup 11-2"  "'psts' Post Base Substitutions lookup 11-3"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Substitutions lookup 8-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 18" { "'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 19" { "'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 20" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 258 0 0 "'abvm' Above Base Mark lookup 0" { "'abvm' Above Base Mark lookup 0-1" [153,15,2] } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 1
+ String: 5 uE480
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 1
+ String: 5 uE201
+ BString: 0
+ FString: 5 uE480
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 1
+ String: 6 u1133F
+ BString: 5 uE201
+ FString: 0
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup 11-3" 2 2 1 1
   Class: 6 u11340
   BClass: 13 u1131F u11333
@@ -3248,6 +3273,7 @@ SplineSet
  159 478 l 1,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Single Substitution lookup 8-1" u1133F
 LCarets2: 1 0
 Ligature2: "'pstf' Post Base Forms lookup 3 subtable" u1134D u1132F
 EndChar
@@ -9316,6 +9342,7 @@ SplineSet
  -215 435 -215 435 -187 414.5 c 0,32,33
  -185 413 -185 413 -100 413 c 0,0,1
 EndSplineSet
+Substitution2: "Single Substitution lookup 8-1" uE480
 Substitution2: "Single Substitution lookup 6-1" uE20A
 Substitution2: "Single Substitution lookup 5-1" uE209
 Substitution2: "Single Substitution lookup 4-1" uE207
@@ -11240,20 +11267,8 @@ LCarets2: 1 0
 Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u11340
 EndChar
 
-StartChar: uE282
-Encoding: 57986 57986 204
-Width: 423
-Flags: W
-LayerCount: 2
-Fore
-Refer: 153 70463 N 1 0 0 1 2 0 2
-Refer: 42 57857 N 1 0 0 1 9 -135 2
-LCarets2: 1 0
-Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u1133F
-EndChar
-
 StartChar: uE283
-Encoding: 57987 57987 205
+Encoding: 57987 57987 204
 Width: 477
 Flags: W
 LayerCount: 2
@@ -11265,7 +11280,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u11340
 EndChar
 
 StartChar: uE284
-Encoding: 57988 57988 206
+Encoding: 57988 57988 205
 Width: 404
 Flags: W
 LayerCount: 2
@@ -11276,7 +11291,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u1133F
 EndChar
 
 StartChar: uE285
-Encoding: 57989 57989 207
+Encoding: 57989 57989 206
 Width: 481
 Flags: W
 LayerCount: 2
@@ -11287,7 +11302,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u11340
 EndChar
 
 StartChar: uE532
-Encoding: 58674 58674 208
+Encoding: 58674 58674 207
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11296,7 +11311,7 @@ Refer: 70 58162 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE515
-Encoding: 58645 58645 209
+Encoding: 58645 58645 208
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11305,7 +11320,7 @@ Refer: 46 58133 S 1 0 0 0.996641 0 -292.043 2
 EndChar
 
 StartChar: uE516
-Encoding: 58646 58646 210
+Encoding: 58646 58646 209
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11314,7 +11329,7 @@ Refer: 47 58134 S 1 0 0 1 0 -294 2
 EndChar
 
 StartChar: uE517
-Encoding: 58647 58647 211
+Encoding: 58647 58647 210
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11323,7 +11338,7 @@ Refer: 48 58135 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE518
-Encoding: 58648 58648 212
+Encoding: 58648 58648 211
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11332,7 +11347,7 @@ Refer: 49 58136 S 1 0 0 1 0 -298 2
 EndChar
 
 StartChar: uE519
-Encoding: 58649 58649 213
+Encoding: 58649 58649 212
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11341,7 +11356,7 @@ Refer: 169 58137 S 1 0 0 1 0 -295 2
 EndChar
 
 StartChar: uE51A
-Encoding: 58650 58650 214
+Encoding: 58650 58650 213
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11350,7 +11365,7 @@ Refer: 50 58138 S 1 0 0 1 0 -317 2
 EndChar
 
 StartChar: uE51B
-Encoding: 58651 58651 215
+Encoding: 58651 58651 214
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11359,7 +11374,7 @@ Refer: 51 58139 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uE51C
-Encoding: 58652 58652 216
+Encoding: 58652 58652 215
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11368,7 +11383,7 @@ Refer: 52 58140 S 1 0 0 1 0 -294 2
 EndChar
 
 StartChar: uE51D
-Encoding: 58653 58653 217
+Encoding: 58653 58653 216
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11377,7 +11392,7 @@ Refer: 53 58141 S 1 0 0 1 0 -307 2
 EndChar
 
 StartChar: uE51E
-Encoding: 58654 58654 218
+Encoding: 58654 58654 217
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11386,7 +11401,7 @@ Refer: 170 58142 S 1 0 0 1 0 -305 2
 EndChar
 
 StartChar: uE51F
-Encoding: 58655 58655 219
+Encoding: 58655 58655 218
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11395,7 +11410,7 @@ Refer: 54 58143 S 1 0 0 1 0 -304 2
 EndChar
 
 StartChar: uE520
-Encoding: 58656 58656 220
+Encoding: 58656 58656 219
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11404,7 +11419,7 @@ Refer: 55 58144 S 1 0 0 1 0 -302 2
 EndChar
 
 StartChar: uE521
-Encoding: 58657 58657 221
+Encoding: 58657 58657 220
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11413,7 +11428,7 @@ Refer: 56 58145 S 1 0 0 1 0 -281 2
 EndChar
 
 StartChar: uE522
-Encoding: 58658 58658 222
+Encoding: 58658 58658 221
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11422,7 +11437,7 @@ Refer: 57 58146 S 1 0 0 1 0 -291 2
 EndChar
 
 StartChar: uE523
-Encoding: 58659 58659 223
+Encoding: 58659 58659 222
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11431,7 +11446,7 @@ Refer: 58 58147 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uE524
-Encoding: 58660 58660 224
+Encoding: 58660 58660 223
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11440,7 +11455,7 @@ Refer: 59 58148 S 1 0 0 1 0 -299 2
 EndChar
 
 StartChar: uE525
-Encoding: 58661 58661 225
+Encoding: 58661 58661 224
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11449,7 +11464,7 @@ Refer: 60 58149 S 1 0 0 1 0 -297 2
 EndChar
 
 StartChar: uE526
-Encoding: 58662 58662 226
+Encoding: 58662 58662 225
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11458,7 +11473,7 @@ Refer: 61 58150 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uE527
-Encoding: 58663 58663 227
+Encoding: 58663 58663 226
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11467,7 +11482,7 @@ Refer: 62 58151 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uE528
-Encoding: 58664 58664 228
+Encoding: 58664 58664 227
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11476,7 +11491,7 @@ Refer: 63 58152 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE52A
-Encoding: 58666 58666 229
+Encoding: 58666 58666 228
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11485,7 +11500,7 @@ Refer: 64 58154 S 1 0 0 1 0 -306 2
 EndChar
 
 StartChar: uE52B
-Encoding: 58667 58667 230
+Encoding: 58667 58667 229
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11494,7 +11509,7 @@ Refer: 65 58155 S 1 0 0 1 0 -308 2
 EndChar
 
 StartChar: uE52C
-Encoding: 58668 58668 231
+Encoding: 58668 58668 230
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11503,7 +11518,7 @@ Refer: 66 58156 S 1 0 0 1 0 -291 2
 EndChar
 
 StartChar: uE52D
-Encoding: 58669 58669 232
+Encoding: 58669 58669 231
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11512,7 +11527,7 @@ Refer: 67 58157 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE52E
-Encoding: 58670 58670 233
+Encoding: 58670 58670 232
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11521,7 +11536,7 @@ Refer: 68 58158 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE533
-Encoding: 58675 58675 234
+Encoding: 58675 58675 233
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11530,7 +11545,7 @@ Refer: 71 58163 S 1 0 0 1 0 -310 2
 EndChar
 
 StartChar: uE535
-Encoding: 58677 58677 235
+Encoding: 58677 58677 234
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11539,7 +11554,7 @@ Refer: 72 58165 S 1 0 0 1 0 -295 2
 EndChar
 
 StartChar: uE536
-Encoding: 58678 58678 236
+Encoding: 58678 58678 235
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11548,7 +11563,7 @@ Refer: 73 58166 S 1 0 0 1 0 -304 2
 EndChar
 
 StartChar: uE537
-Encoding: 58679 58679 237
+Encoding: 58679 58679 236
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11557,7 +11572,7 @@ Refer: 74 58167 N 1 0 0 1 0 -299 2
 EndChar
 
 StartChar: uE538
-Encoding: 58680 58680 238
+Encoding: 58680 58680 237
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11566,7 +11581,7 @@ Refer: 75 58168 S 1 0 0 1 0 -308 2
 EndChar
 
 StartChar: uE539
-Encoding: 58681 58681 239
+Encoding: 58681 58681 238
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11575,7 +11590,7 @@ Refer: 76 58169 S 1 0 0 1 0 -293 2
 EndChar
 
 StartChar: uE330
-Encoding: 58160 58160 240
+Encoding: 58160 58160 239
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11584,7 +11599,7 @@ Refer: 143 70448 S 0.7956 0 0 0.7956 -419 -351 2
 EndChar
 
 StartChar: uE286
-Encoding: 57990 57990 241
+Encoding: 57990 57990 240
 Width: 407
 Flags: W
 LayerCount: 2
@@ -11595,7 +11610,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE205 u1133F
 EndChar
 
 StartChar: uE287
-Encoding: 57991 57991 242
+Encoding: 57991 57991 241
 Width: 381
 Flags: W
 LayerCount: 2
@@ -11606,7 +11621,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE205 u11340
 EndChar
 
 StartChar: uE209
-Encoding: 57865 57865 243
+Encoding: 57865 57865 242
 Width: 145
 Flags: W
 LayerCount: 2
@@ -11637,7 +11652,7 @@ EndSplineSet
 EndChar
 
 StartChar: uE20A
-Encoding: 57866 57866 244
+Encoding: 57866 57866 243
 Width: 145
 Flags: W
 LayerCount: 2
@@ -11665,6 +11680,14 @@ SplineSet
  -278 535 -278 535 -333 501 c 256,30,31
  -351 490 -351 490 -351 467 c 0,0,1
 EndSplineSet
+EndChar
+
+StartChar: uE480
+Encoding: 58496 58496 244
+Width: 0
+Flags: W
+LayerCount: 2
+Substitution2: "Single Substitution lookup 8-1" uE201
 EndChar
 EndChars
 EndSplineFont
