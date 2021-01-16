@@ -71,11 +71,11 @@ Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1" 
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Substitutions lookup 8-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Marker rearrangment single substitution 1" { "Marker rearrangment single substitution 1-1"  } []
-Lookup: 1 0 0 "Marker rearrangment single substitution 2" { "Marker rearrangment single substitution 2-1"  } []
-Lookup: 1 0 0 "Marker rearrangment single substitution 3" { "Marker rearrangment single substitution 3-1"  } []
-Lookup: 1 0 0 "Marker rearrangment single substitution 4" { "Marker rearrangment single substitution 4-1"  } []
-Lookup: 1 0 0 "Marker rearrangment single substitution 5" { "Marker rearrangment single substitution 5-1"  } []
+Lookup: 1 0 0 "Marker rearrangement single substitution 1" { "Marker rearrangement single substitution 1-1"  } []
+Lookup: 1 0 0 "Marker rearrangement single substitution 2" { "Marker rearrangement single substitution 2-1"  } []
+Lookup: 1 0 0 "Marker rearrangement single substitution 3" { "Marker rearrangement single substitution 3-1"  } []
+Lookup: 1 0 0 "Marker rearrangement single substitution 4" { "Marker rearrangement single substitution 4-1"  } []
+Lookup: 1 0 0 "Marker rearrangement single substitution 5" { "Marker rearrangement single substitution 5-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 1 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 2 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 3 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -88,81 +88,81 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 5
  BString: 6 u1133F
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 1"
+  SeqLookup: 0 "Marker rearrangement single substitution 1"
  String: 5 uE481
  BString: 6 u1133F
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 2"
+  SeqLookup: 0 "Marker rearrangement single substitution 2"
  String: 5 uE482
  BString: 6 u1133F
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 3"
+  SeqLookup: 0 "Marker rearrangement single substitution 3"
  String: 5 uE483
  BString: 6 u1133F
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 4"
+  SeqLookup: 0 "Marker rearrangement single substitution 4"
  String: 5 uE484
  BString: 6 u1133F
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 5"
+  SeqLookup: 0 "Marker rearrangement single substitution 5"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 5
  String: 5 uE201
  BString: 0
  FString: 5 uE480
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 1"
+  SeqLookup: 0 "Marker rearrangement single substitution 1"
  String: 5 uE203
  BString: 0
  FString: 5 uE481
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 2"
+  SeqLookup: 0 "Marker rearrangement single substitution 2"
  String: 5 uE204
  BString: 0
  FString: 5 uE482
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 3"
+  SeqLookup: 0 "Marker rearrangement single substitution 3"
  String: 5 uE205
  BString: 0
  FString: 5 uE483
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 4"
+  SeqLookup: 0 "Marker rearrangement single substitution 4"
  String: 5 uE200
  BString: 0
  FString: 5 uE484
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 5"
+  SeqLookup: 0 "Marker rearrangement single substitution 5"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 5
  String: 6 u1133F
  BString: 5 uE201
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 1"
+  SeqLookup: 0 "Marker rearrangement single substitution 1"
  String: 6 u1133F
  BString: 5 uE203
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 2"
+  SeqLookup: 0 "Marker rearrangement single substitution 2"
  String: 6 u1133F
  BString: 5 uE204
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 3"
+  SeqLookup: 0 "Marker rearrangement single substitution 3"
  String: 6 u1133F
  BString: 5 uE205
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 4"
+  SeqLookup: 0 "Marker rearrangement single substitution 4"
  String: 6 u1133F
  BString: 5 uE200
  FString: 0
  1
-  SeqLookup: 0 "Marker rearrangment single substitution 5"
+  SeqLookup: 0 "Marker rearrangement single substitution 5"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 2 1 1
   Class: 6 u11340
@@ -3286,7 +3286,7 @@ SplineSet
  288 -124 l 1,46,47
 EndSplineSet
 Validated: 33
-Substitution2: "Marker rearrangment single substitution 5-1" u1133F
+Substitution2: "Marker rearrangement single substitution 5-1" u1133F
 LCarets2: 1 0
 Ligature2: "'rphf' Reph Form lookup 2 subtable" u11330 u1134D
 EndChar
@@ -3337,7 +3337,7 @@ SplineSet
  159 478 l 1,0,1
 EndSplineSet
 Validated: 1
-Substitution2: "Marker rearrangment single substitution 1-1" u1133F
+Substitution2: "Marker rearrangement single substitution 1-1" u1133F
 LCarets2: 1 0
 Ligature2: "'pstf' Post Base Forms lookup 3 subtable" u1134D u1132F
 EndChar
@@ -3377,7 +3377,7 @@ SplineSet
  90 147 l 1,38,-1
  43 147 l 2,0,1
 EndSplineSet
-Substitution2: "Marker rearrangment single substitution 2-1" u1133F
+Substitution2: "Marker rearrangement single substitution 2-1" u1133F
 EndChar
 
 StartChar: uE204
@@ -3410,7 +3410,7 @@ SplineSet
  -26 -307 -26 -307 -38.5 -299.5 c 128,-1,28
  -51 -292 -51 -292 -51 -284 c 0,0,1
 EndSplineSet
-Substitution2: "Marker rearrangment single substitution 3-1" u1133F
+Substitution2: "Marker rearrangement single substitution 3-1" u1133F
 LCarets2: 1 0
 EndChar
 
@@ -9408,11 +9408,11 @@ SplineSet
  -215 435 -215 435 -187 414.5 c 0,32,33
  -185 413 -185 413 -100 413 c 0,0,1
 EndSplineSet
-Substitution2: "Marker rearrangment single substitution 5-1" uE484
-Substitution2: "Marker rearrangment single substitution 4-1" uE483
-Substitution2: "Marker rearrangment single substitution 3-1" uE482
-Substitution2: "Marker rearrangment single substitution 2-1" uE481
-Substitution2: "Marker rearrangment single substitution 1-1" uE480
+Substitution2: "Marker rearrangement single substitution 5-1" uE484
+Substitution2: "Marker rearrangement single substitution 4-1" uE483
+Substitution2: "Marker rearrangement single substitution 3-1" uE482
+Substitution2: "Marker rearrangement single substitution 2-1" uE481
+Substitution2: "Marker rearrangement single substitution 1-1" uE480
 Substitution2: "Single Substitution lookup 6-1" uE20A
 Substitution2: "Single Substitution lookup 5-1" uE209
 Substitution2: "Single Substitution lookup 4-1" uE207
@@ -10106,7 +10106,7 @@ SplineSet
  88 150 l 1,31,-1
  42 150 l 2,0,1
 EndSplineSet
-Substitution2: "Marker rearrangment single substitution 4-1" u1133F
+Substitution2: "Marker rearrangement single substitution 4-1" u1133F
 Substitution2: "Single Substitution lookup 2-1" uE204
 Substitution2: "Single Substitution lookup 1-1" uE203
 LCarets2: 1 0
@@ -11724,7 +11724,7 @@ Encoding: 58496 58496 241
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Marker rearrangment single substitution 1-1" uE201
+Substitution2: "Marker rearrangement single substitution 1-1" uE201
 EndChar
 
 StartChar: uE481
@@ -11732,7 +11732,7 @@ Encoding: 58497 58497 242
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Marker rearrangment single substitution 2-1" uE203
+Substitution2: "Marker rearrangement single substitution 2-1" uE203
 EndChar
 
 StartChar: uE482
@@ -11740,7 +11740,7 @@ Encoding: 58498 58498 243
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Marker rearrangment single substitution 3-1" uE204
+Substitution2: "Marker rearrangement single substitution 3-1" uE204
 EndChar
 
 StartChar: uE483
@@ -11748,7 +11748,7 @@ Encoding: 58499 58499 244
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Marker rearrangment single substitution 4-1" uE205
+Substitution2: "Marker rearrangement single substitution 4-1" uE205
 EndChar
 
 StartChar: uE484
@@ -11756,7 +11756,7 @@ Encoding: 58500 58500 245
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Marker rearrangment single substitution 5-1" uE200
+Substitution2: "Marker rearrangement single substitution 5-1" uE200
 EndChar
 
 StartChar: uE485
