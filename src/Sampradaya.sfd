@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1610820090
+ModificationTime: 1610820747
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -71,8 +71,9 @@ Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1" 
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Substitutions lookup 8-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8-1"  } []
-Lookup: 1 0 0 "Single Substitution lookup 9" { "Single Substitution lookup 9-1"  } []
+Lookup: 1 0 0 "Marker rearrangment single substitution 1" { "Marker rearrangment single substitution 1-1"  } []
+Lookup: 1 0 0 "Marker rearrangment single substitution 2" { "Marker rearrangment single substitution 2-1"  } []
+Lookup: 1 0 0 "Marker rearrangment single substitution 3" { "Marker rearrangment single substitution 3-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 1 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 2 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 3 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -80,41 +81,56 @@ Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 sub
 Lookup: 258 0 0 "'abvm' Above Base Mark lookup 0" { "'abvm' Above Base Mark lookup 0-1" [153,15,2] } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 2
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 3
  String: 5 uE480
  BString: 6 u1133F
  FString: 0
  1
-  SeqLookup: 0 "Single Substitution lookup 8"
+  SeqLookup: 0 "Marker rearrangment single substitution 1"
  String: 5 uE481
  BString: 6 u1133F
  FString: 0
  1
-  SeqLookup: 0 "Single Substitution lookup 9"
+  SeqLookup: 0 "Marker rearrangment single substitution 2"
+ String: 5 uE482
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Marker rearrangment single substitution 3"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 2
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 3
  String: 5 uE201
  BString: 0
  FString: 5 uE480
  1
-  SeqLookup: 0 "Single Substitution lookup 8"
+  SeqLookup: 0 "Marker rearrangment single substitution 1"
  String: 5 uE203
  BString: 0
  FString: 5 uE481
  1
-  SeqLookup: 0 "Single Substitution lookup 9"
+  SeqLookup: 0 "Marker rearrangment single substitution 2"
+ String: 5 uE204
+ BString: 0
+ FString: 5 uE482
+ 1
+  SeqLookup: 0 "Marker rearrangment single substitution 3"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 2
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 3
  String: 6 u1133F
  BString: 5 uE201
  FString: 0
  1
-  SeqLookup: 0 "Single Substitution lookup 8"
+  SeqLookup: 0 "Marker rearrangment single substitution 1"
  String: 6 u1133F
  BString: 5 uE203
  FString: 0
  1
-  SeqLookup: 0 "Single Substitution lookup 9"
+  SeqLookup: 0 "Marker rearrangment single substitution 2"
+ String: 6 u1133F
+ BString: 5 uE204
+ FString: 0
+ 1
+  SeqLookup: 0 "Marker rearrangment single substitution 3"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 2 1 1
   Class: 6 u11340
@@ -207,7 +223,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 279
+BeginChars: 1114113 278
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -3288,7 +3304,7 @@ SplineSet
  159 478 l 1,0,1
 EndSplineSet
 Validated: 1
-Substitution2: "Single Substitution lookup 8-1" u1133F
+Substitution2: "Marker rearrangment single substitution 1-1" u1133F
 LCarets2: 1 0
 Ligature2: "'pstf' Post Base Forms lookup 3 subtable" u1134D u1132F
 EndChar
@@ -3328,7 +3344,7 @@ SplineSet
  90 147 l 1,38,-1
  43 147 l 2,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 9-1" u1133F
+Substitution2: "Marker rearrangment single substitution 2-1" u1133F
 EndChar
 
 StartChar: uE204
@@ -3361,6 +3377,7 @@ SplineSet
  -26 -307 -26 -307 -38.5 -299.5 c 128,-1,28
  -51 -292 -51 -292 -51 -284 c 0,0,1
 EndSplineSet
+Substitution2: "Marker rearrangment single substitution 3-1" u1133F
 LCarets2: 1 0
 EndChar
 
@@ -9358,8 +9375,9 @@ SplineSet
  -215 435 -215 435 -187 414.5 c 0,32,33
  -185 413 -185 413 -100 413 c 0,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 9-1" uE481
-Substitution2: "Single Substitution lookup 8-1" uE480
+Substitution2: "Marker rearrangment single substitution 3-1" uE482
+Substitution2: "Marker rearrangment single substitution 2-1" uE481
+Substitution2: "Marker rearrangment single substitution 1-1" uE480
 Substitution2: "Single Substitution lookup 6-1" uE20A
 Substitution2: "Single Substitution lookup 5-1" uE209
 Substitution2: "Single Substitution lookup 4-1" uE207
@@ -11260,20 +11278,8 @@ EndSplineSet
 Validated: 33
 EndChar
 
-StartChar: uE280
-Encoding: 57984 57984 202
-Width: 407
-Flags: W
-LayerCount: 2
-Fore
-Refer: 153 70463 N 1 0 0 1 0 0 2
-Refer: 44 57860 N 1 0 0 1 128 0 2
-LCarets2: 1 0
-Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u1133F
-EndChar
-
 StartChar: uE281
-Encoding: 57985 57985 203
+Encoding: 57985 57985 202
 Width: 381
 Flags: W
 LayerCount: 2
@@ -11285,7 +11291,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE204 u11340
 EndChar
 
 StartChar: uE283
-Encoding: 57987 57987 204
+Encoding: 57987 57987 203
 Width: 477
 Flags: W
 LayerCount: 2
@@ -11297,7 +11303,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE201 u11340
 EndChar
 
 StartChar: uE284
-Encoding: 57988 57988 205
+Encoding: 57988 57988 204
 Width: 404
 Flags: W
 LayerCount: 2
@@ -11308,7 +11314,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u1133F
 EndChar
 
 StartChar: uE285
-Encoding: 57989 57989 206
+Encoding: 57989 57989 205
 Width: 481
 Flags: W
 LayerCount: 2
@@ -11319,7 +11325,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE200 u11340
 EndChar
 
 StartChar: uE532
-Encoding: 58674 58674 207
+Encoding: 58674 58674 206
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11328,7 +11334,7 @@ Refer: 70 58162 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE515
-Encoding: 58645 58645 208
+Encoding: 58645 58645 207
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11337,7 +11343,7 @@ Refer: 46 58133 S 1 0 0 0.996641 0 -292.043 2
 EndChar
 
 StartChar: uE516
-Encoding: 58646 58646 209
+Encoding: 58646 58646 208
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11346,7 +11352,7 @@ Refer: 47 58134 S 1 0 0 1 0 -294 2
 EndChar
 
 StartChar: uE517
-Encoding: 58647 58647 210
+Encoding: 58647 58647 209
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11355,7 +11361,7 @@ Refer: 48 58135 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE518
-Encoding: 58648 58648 211
+Encoding: 58648 58648 210
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11364,7 +11370,7 @@ Refer: 49 58136 S 1 0 0 1 0 -298 2
 EndChar
 
 StartChar: uE519
-Encoding: 58649 58649 212
+Encoding: 58649 58649 211
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11373,7 +11379,7 @@ Refer: 169 58137 S 1 0 0 1 0 -295 2
 EndChar
 
 StartChar: uE51A
-Encoding: 58650 58650 213
+Encoding: 58650 58650 212
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11382,7 +11388,7 @@ Refer: 50 58138 S 1 0 0 1 0 -317 2
 EndChar
 
 StartChar: uE51B
-Encoding: 58651 58651 214
+Encoding: 58651 58651 213
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11391,7 +11397,7 @@ Refer: 51 58139 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uE51C
-Encoding: 58652 58652 215
+Encoding: 58652 58652 214
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11400,7 +11406,7 @@ Refer: 52 58140 S 1 0 0 1 0 -294 2
 EndChar
 
 StartChar: uE51D
-Encoding: 58653 58653 216
+Encoding: 58653 58653 215
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11409,7 +11415,7 @@ Refer: 53 58141 S 1 0 0 1 0 -307 2
 EndChar
 
 StartChar: uE51E
-Encoding: 58654 58654 217
+Encoding: 58654 58654 216
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11418,7 +11424,7 @@ Refer: 170 58142 S 1 0 0 1 0 -305 2
 EndChar
 
 StartChar: uE51F
-Encoding: 58655 58655 218
+Encoding: 58655 58655 217
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11427,7 +11433,7 @@ Refer: 54 58143 S 1 0 0 1 0 -304 2
 EndChar
 
 StartChar: uE520
-Encoding: 58656 58656 219
+Encoding: 58656 58656 218
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11436,7 +11442,7 @@ Refer: 55 58144 S 1 0 0 1 0 -302 2
 EndChar
 
 StartChar: uE521
-Encoding: 58657 58657 220
+Encoding: 58657 58657 219
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11445,7 +11451,7 @@ Refer: 56 58145 S 1 0 0 1 0 -281 2
 EndChar
 
 StartChar: uE522
-Encoding: 58658 58658 221
+Encoding: 58658 58658 220
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11454,7 +11460,7 @@ Refer: 57 58146 S 1 0 0 1 0 -291 2
 EndChar
 
 StartChar: uE523
-Encoding: 58659 58659 222
+Encoding: 58659 58659 221
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11463,7 +11469,7 @@ Refer: 58 58147 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uE524
-Encoding: 58660 58660 223
+Encoding: 58660 58660 222
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11472,7 +11478,7 @@ Refer: 59 58148 S 1 0 0 1 0 -299 2
 EndChar
 
 StartChar: uE525
-Encoding: 58661 58661 224
+Encoding: 58661 58661 223
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11481,7 +11487,7 @@ Refer: 60 58149 S 1 0 0 1 0 -297 2
 EndChar
 
 StartChar: uE526
-Encoding: 58662 58662 225
+Encoding: 58662 58662 224
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11490,7 +11496,7 @@ Refer: 61 58150 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uE527
-Encoding: 58663 58663 226
+Encoding: 58663 58663 225
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11499,7 +11505,7 @@ Refer: 62 58151 S 1 0 0 1 0 -301 2
 EndChar
 
 StartChar: uE528
-Encoding: 58664 58664 227
+Encoding: 58664 58664 226
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11508,7 +11514,7 @@ Refer: 63 58152 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE52A
-Encoding: 58666 58666 228
+Encoding: 58666 58666 227
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11517,7 +11523,7 @@ Refer: 64 58154 S 1 0 0 1 0 -306 2
 EndChar
 
 StartChar: uE52B
-Encoding: 58667 58667 229
+Encoding: 58667 58667 228
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11526,7 +11532,7 @@ Refer: 65 58155 S 1 0 0 1 0 -308 2
 EndChar
 
 StartChar: uE52C
-Encoding: 58668 58668 230
+Encoding: 58668 58668 229
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11535,7 +11541,7 @@ Refer: 66 58156 S 1 0 0 1 0 -291 2
 EndChar
 
 StartChar: uE52D
-Encoding: 58669 58669 231
+Encoding: 58669 58669 230
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11544,7 +11550,7 @@ Refer: 67 58157 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE52E
-Encoding: 58670 58670 232
+Encoding: 58670 58670 231
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11553,7 +11559,7 @@ Refer: 68 58158 S 1 0 0 1 0 -296 2
 EndChar
 
 StartChar: uE533
-Encoding: 58675 58675 233
+Encoding: 58675 58675 232
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11562,7 +11568,7 @@ Refer: 71 58163 S 1 0 0 1 0 -310 2
 EndChar
 
 StartChar: uE535
-Encoding: 58677 58677 234
+Encoding: 58677 58677 233
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11571,7 +11577,7 @@ Refer: 72 58165 S 1 0 0 1 0 -295 2
 EndChar
 
 StartChar: uE536
-Encoding: 58678 58678 235
+Encoding: 58678 58678 234
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11580,7 +11586,7 @@ Refer: 73 58166 S 1 0 0 1 0 -304 2
 EndChar
 
 StartChar: uE537
-Encoding: 58679 58679 236
+Encoding: 58679 58679 235
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11589,7 +11595,7 @@ Refer: 74 58167 N 1 0 0 1 0 -299 2
 EndChar
 
 StartChar: uE538
-Encoding: 58680 58680 237
+Encoding: 58680 58680 236
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11598,7 +11604,7 @@ Refer: 75 58168 S 1 0 0 1 0 -308 2
 EndChar
 
 StartChar: uE539
-Encoding: 58681 58681 238
+Encoding: 58681 58681 237
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11607,7 +11613,7 @@ Refer: 76 58169 S 1 0 0 1 0 -293 2
 EndChar
 
 StartChar: uE330
-Encoding: 58160 58160 239
+Encoding: 58160 58160 238
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11616,7 +11622,7 @@ Refer: 143 70448 S 0.7956 0 0 0.7956 -419 -351 2
 EndChar
 
 StartChar: uE286
-Encoding: 57990 57990 240
+Encoding: 57990 57990 239
 Width: 407
 Flags: W
 LayerCount: 2
@@ -11627,7 +11633,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE205 u1133F
 EndChar
 
 StartChar: uE287
-Encoding: 57991 57991 241
+Encoding: 57991 57991 240
 Width: 381
 Flags: W
 LayerCount: 2
@@ -11638,7 +11644,7 @@ Ligature2: "'psts' Post Base Substitutions lookup 8-1" uE205 u11340
 EndChar
 
 StartChar: uE209
-Encoding: 57865 57865 242
+Encoding: 57865 57865 241
 Width: 145
 Flags: W
 LayerCount: 2
@@ -11669,7 +11675,7 @@ EndSplineSet
 EndChar
 
 StartChar: uE20A
-Encoding: 57866 57866 243
+Encoding: 57866 57866 242
 Width: 145
 Flags: W
 LayerCount: 2
@@ -11700,247 +11706,248 @@ EndSplineSet
 EndChar
 
 StartChar: uE480
-Encoding: 58496 58496 244
+Encoding: 58496 58496 243
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Single Substitution lookup 8-1" uE201
+Substitution2: "Marker rearrangment single substitution 1-1" uE201
 EndChar
 
 StartChar: uE481
-Encoding: 58497 58497 245
+Encoding: 58497 58497 244
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Single Substitution lookup 9-1" uE203
+Substitution2: "Marker rearrangment single substitution 2-1" uE203
 EndChar
 
 StartChar: uE482
-Encoding: 58498 58498 246
+Encoding: 58498 58498 245
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Marker rearrangment single substitution 3-1" uE204
 EndChar
 
 StartChar: uE483
-Encoding: 58499 58499 247
+Encoding: 58499 58499 246
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE484
-Encoding: 58500 58500 248
+Encoding: 58500 58500 247
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE485
-Encoding: 58501 58501 249
+Encoding: 58501 58501 248
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE486
-Encoding: 58502 58502 250
+Encoding: 58502 58502 249
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE487
-Encoding: 58503 58503 251
+Encoding: 58503 58503 250
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE488
-Encoding: 58504 58504 252
+Encoding: 58504 58504 251
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE489
-Encoding: 58505 58505 253
+Encoding: 58505 58505 252
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE48A
-Encoding: 58506 58506 254
+Encoding: 58506 58506 253
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE48B
-Encoding: 58507 58507 255
+Encoding: 58507 58507 254
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE48C
-Encoding: 58508 58508 256
+Encoding: 58508 58508 255
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE48D
-Encoding: 58509 58509 257
+Encoding: 58509 58509 256
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE48E
-Encoding: 58510 58510 258
+Encoding: 58510 58510 257
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE48F
-Encoding: 58511 58511 259
+Encoding: 58511 58511 258
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE490
-Encoding: 58512 58512 260
+Encoding: 58512 58512 259
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE491
-Encoding: 58513 58513 261
+Encoding: 58513 58513 260
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE492
-Encoding: 58514 58514 262
+Encoding: 58514 58514 261
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE493
-Encoding: 58515 58515 263
+Encoding: 58515 58515 262
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE494
-Encoding: 58516 58516 264
+Encoding: 58516 58516 263
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE495
-Encoding: 58517 58517 265
+Encoding: 58517 58517 264
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE496
-Encoding: 58518 58518 266
+Encoding: 58518 58518 265
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE497
-Encoding: 58519 58519 267
+Encoding: 58519 58519 266
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE498
-Encoding: 58520 58520 268
+Encoding: 58520 58520 267
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE499
-Encoding: 58521 58521 269
+Encoding: 58521 58521 268
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE49A
-Encoding: 58522 58522 270
+Encoding: 58522 58522 269
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE49B
-Encoding: 58523 58523 271
+Encoding: 58523 58523 270
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE49C
-Encoding: 58524 58524 272
+Encoding: 58524 58524 271
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE49D
-Encoding: 58525 58525 273
+Encoding: 58525 58525 272
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE49E
-Encoding: 58526 58526 274
+Encoding: 58526 58526 273
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE49F
-Encoding: 58527 58527 275
+Encoding: 58527 58527 274
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE4A0
-Encoding: 58528 58528 276
+Encoding: 58528 58528 275
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE4A1
-Encoding: 58529 58529 277
+Encoding: 58529 58529 276
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE4A2
-Encoding: 58530 58530 278
+Encoding: 58530 58530 277
 Width: 0
 Flags: W
 LayerCount: 2
