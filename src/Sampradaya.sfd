@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1610833687
+ModificationTime: 1610836835
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -69,7 +69,6 @@ Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4-1" 
 Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'psts' Post Base Substitutions lookup 8" { "'psts' Post Base Substitutions lookup 8-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Marker rearrangement single substitution 1" { "Marker rearrangement single substitution 1-1"  } []
 Lookup: 1 0 0 "Marker rearrangement single substitution 2" { "Marker rearrangement single substitution 2-1"  } []
@@ -109,6 +108,7 @@ Lookup: 1 0 0 "Marker rearrangement single substitution 35" { "Marker rearrangem
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 1 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 2 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 3 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 258 0 0 "'abvm' Above Base Mark lookup 0" { "'abvm' Above Base Mark lookup 0-1" [153,15,2] } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
@@ -116,53 +116,53 @@ DEI: 91125
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 5
  String: 5 uE480
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 1"
  String: 5 uE481
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 2"
  String: 5 uE482
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 3"
  String: 5 uE483
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 4"
  String: 5 uE484
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 5"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 5
  String: 5 uE201
- BString: 0
+ BString: 0 
  FString: 5 uE480
  1
   SeqLookup: 0 "Marker rearrangement single substitution 1"
  String: 5 uE203
- BString: 0
+ BString: 0 
  FString: 5 uE481
  1
   SeqLookup: 0 "Marker rearrangement single substitution 2"
  String: 5 uE204
- BString: 0
+ BString: 0 
  FString: 5 uE482
  1
   SeqLookup: 0 "Marker rearrangement single substitution 3"
  String: 5 uE205
- BString: 0
+ BString: 0 
  FString: 5 uE483
  1
   SeqLookup: 0 "Marker rearrangement single substitution 4"
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE484
  1
   SeqLookup: 0 "Marker rearrangement single substitution 5"
@@ -170,27 +170,27 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 5
  String: 6 u1133F
  BString: 5 uE201
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 1"
  String: 6 u1133F
  BString: 5 uE203
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 2"
  String: 6 u1133F
  BString: 5 uE204
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 3"
  String: 6 u1133F
  BString: 5 uE205
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 4"
  String: 6 u1133F
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 5"
 EndFPST
