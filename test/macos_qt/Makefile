@@ -13,17 +13,18 @@ LDFLAGS := -ferror-limit=1
 LDLIBS := -lstdc++ -F/usr/local/opt/qt/Frameworks -framework QtGui -framework QtCore -framework QtWidgets
 OBJECTS	:= ../rasterise_text.o rasterise_text_impl.o
 
-../rasterise_text: ${OBJECTS}
+rasterise_text: ${OBJECTS}
+	${CC} ${LDFLAGS} ${OBJECTS} ${LDLIBS} -o $@
 
-regenerate_masters: build ../rasterise_text
+regenerate_masters: build rasterise_text
 	./generate_images master_images
 
-test: build ../rasterise_text
+test: build rasterise_text
 	./run_tests master_images
 
 clean:
-	$(RM) -f ../rasterise_text ${OBJECTS}
-	$(RM) -f ${TYPEFACENAME}.ttf
-	-find ${TMPDIR} -iname 'run_tests*' -type d 2>/dev/null | xargs $(RM) -r
+	${RM} rasterise_text ${OBJECTS}
+	${RM} ${TYPEFACENAME}.ttf
+	-find ${TMPDIR} -iname 'run_tests*' -type d 2>/dev/null | xargs ${RM} -r
 
 .PHONY: build install regenerate_masters test clean
