@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1610841905
+ModificationTime: 1610844081
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -78,7 +78,7 @@ Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4-1" 
 Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  "'psts' Post Base Substitutions post rakara lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 258 0 0 "'abvm' Above Base Mark lookup 0" { "'abvm' Above Base Mark lookup 0-1" [153,15,2] } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 258 0 0 "'dist' Distance lookup 1" { "'dist' Distance lookup 1-1" [153,15,2] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -9424,6 +9424,7 @@ SplineSet
  -215 435 -215 435 -187 414.5 c 0,32,33
  -185 413 -185 413 -100 413 c 0,0,1
 EndSplineSet
+Kerns2: 41 -20 "'dist' Distance lookup 1-1" 42 -30 "'dist' Distance lookup 1-1"
 Substitution2: "Marker rearrangement single substitution 3-1" uE482
 Substitution2: "Marker rearrangement single substitution 2-1" uE481
 Substitution2: "Marker rearrangement single substitution 1-1" uE480
