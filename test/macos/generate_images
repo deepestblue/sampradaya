@@ -13,5 +13,5 @@ for i in $SCRIPTDIR/../cases/*.txt; do
     output_dir=$OUTPUT_ROOT/${j%.txt}
     mkdir -p $output_dir
     rm -f $output_dir/*
-    $SCRIPTDIR/../rasterise_text $i $output_dir
+    $2 $i $output_dir
 done

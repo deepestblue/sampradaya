@@ -12,7 +12,7 @@ SCRIPTDIR=$(dirname $0)
 rsync --recursive --checksum $1/ $TMPDIR/expected/
 
 mkdir -p $TMPDIR/actual
-$SCRIPTDIR/generate_images $TMPDIR/actual
+$SCRIPTDIR/generate_images $TMPDIR/actual $2
 
 mkdir -p $TMPDIR/diff
 
