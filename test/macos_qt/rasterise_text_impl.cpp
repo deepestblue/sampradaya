@@ -71,7 +71,7 @@ public:
     : app(argc, argv)
     , qfont(app_font.get_typeface_name(), static_cast<int>(typeface_size_pt))
     , metrics(qfont)
-    , dummy(1, 1, QImage::Format_RGB32)  // Has to be non-zero sized for QPainter::begin(...) to succeed
+    , dummy(1, 1, QImage::Format_RGB32) // Has to be non-zero sized for QPainter::begin(…) to succeed
     {
 #ifdef DEBUG
         const auto typeface_name = app_font.get_typeface_name().toStdString();
