@@ -8,10 +8,10 @@
 
 using namespace std;
 
-#include "QtWidgets/QApplication"
-#include "QtGui/QImage"
-#include "QtGui/QPainter"
-#include "QtGui/QFontDatabase"
+#include <QtWidgets/QApplication>
+#include <QtGui/QImage>
+#include <QtGui/QPainter>
+#include <QtGui/QFontDatabase>
 
 #include "../../rasterise_text.hpp"
 
