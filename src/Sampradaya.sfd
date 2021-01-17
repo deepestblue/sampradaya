@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1610854370
+ModificationTime: 1610857285
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -88,73 +88,73 @@ DEI: 91125
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 7
  String: 5 uE480
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 1"
  String: 5 uE481
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 2"
  String: 5 uE482
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 3"
  String: 5 uE483
  BString: 6 u11340
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 4"
  String: 5 uE484
  BString: 6 u11340
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 5"
  String: 5 uE485
  BString: 6 u11340
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 6"
  String: 5 uE486
  BString: 6 u1134D
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 7"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 7
  String: 5 uE201
- BString: 0
+ BString: 0 
  FString: 5 uE480
  1
   SeqLookup: 0 "Marker rearrangement single substitution 1"
  String: 5 uE205
- BString: 0
+ BString: 0 
  FString: 5 uE481
  1
   SeqLookup: 0 "Marker rearrangement single substitution 2"
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE482
  1
   SeqLookup: 0 "Marker rearrangement single substitution 3"
  String: 5 uE201
- BString: 0
+ BString: 0 
  FString: 5 uE483
  1
   SeqLookup: 0 "Marker rearrangement single substitution 4"
  String: 5 uE205
- BString: 0
+ BString: 0 
  FString: 5 uE484
  1
   SeqLookup: 0 "Marker rearrangement single substitution 5"
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE485
  1
   SeqLookup: 0 "Marker rearrangement single substitution 6"
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE486
  1
   SeqLookup: 0 "Marker rearrangement single substitution 7"
@@ -162,37 +162,37 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 7
  String: 6 u1133F
  BString: 5 uE201
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 1"
  String: 6 u1133F
  BString: 5 uE205
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 2"
  String: 6 u1133F
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 3"
  String: 6 u11340
  BString: 5 uE201
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 4"
  String: 6 u11340
  BString: 5 uE205
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 5"
  String: 6 u11340
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 6"
  String: 6 u1134D
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Marker rearrangement single substitution 7"
 EndFPST
@@ -1299,7 +1299,7 @@ SplineSet
  673.992425981 242.5 673.992425981 242.5 690.5 242.5 c 3,157,158
  713.00555487 242.5 713.00555487 242.5 724 226 c 0,144,145
 EndSplineSet
-Kerns2: 154 -405 "'abvm' Above Base Mark lookup 0-1"
+Kerns2: 154 -410 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11325
 EndChar
@@ -2523,7 +2523,7 @@ SplineSet
  598 47 l 2,66,67
  616 47 616 47 616 24 c 3,0,1
 EndSplineSet
-Kerns2: 154 -150 "'abvm' Above Base Mark lookup 0-1"
+Kerns2: 154 -160 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11326
 EndChar
@@ -2845,7 +2845,7 @@ SplineSet
  138 51 l 1,122,-1
  139 51 l 1,0,1
 EndSplineSet
-Kerns2: 154 -415 "'abvm' Above Base Mark lookup 0-1"
+Kerns2: 154 -410 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11327
 EndChar
@@ -3104,7 +3104,7 @@ SplineSet
  664.992648648 242.5 664.992648648 242.5 682 242.5 c 0,108,109
  705.005434141 242.5 705.005434141 242.5 716 226 c 0,95,96
 EndSplineSet
-Kerns2: 154 -387 "'abvm' Above Base Mark lookup 0-1"
+Kerns2: 154 -410 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11325
 EndChar
@@ -3200,7 +3200,7 @@ SplineSet
  567 242 567 242 590 239 c 1,128,-1
  600 262 l 24,114,115
 EndSplineSet
-Kerns2: 154 -45 "'abvm' Above Base Mark lookup 0-1"
+Kerns2: 154 -50 "'abvm' Above Base Mark lookup 0-1"
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11337 u1134D u1131F
 EndChar
@@ -9218,7 +9218,7 @@ SplineSet
  760 -95 760 -95 747.5 -99 c 128,-1,103
  735 -103 735 -103 724 -103 c 0,28,29
 EndSplineSet
-Kerns2: 154 -55 "'abvm' Above Base Mark lookup 0-1"
+Kerns2: 154 -50 "'abvm' Above Base Mark lookup 0-1"
 EndChar
 
 StartChar: u11338
