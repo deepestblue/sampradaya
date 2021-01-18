@@ -1,6 +1,8 @@
 test/rasterise_text.o
 test/macos/qt/rasterise_text_impl.o
 test/macos/qt/rasterise_text
+test/macos/coretext/rasterise_text_impl.o
+test/macos/coretext/rasterise_text
 test/windows/rasterise_text.exe
 test/windows/rasterise_text.obj
 test/windows/rasterise_text_impl.obj
