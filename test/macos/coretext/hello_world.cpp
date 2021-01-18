@@ -34,7 +34,7 @@ throw_if_failed(bool exp) {
 int main(int argc, const char * argv[])
 try {
 
-    CTFontRef font = CTFontCreateWithName(CFSTR("Times"), 48, NULL);
+    CTFontRef font = CTFontCreateWithName(CFSTR("Sampradaya"), 48, NULL);
     throw_if_failed(font);
 
     CFStringRef keys[] = { kCTFontAttributeName };
@@ -43,7 +43,7 @@ try {
                           sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
     throw_if_failed(attr);
 
-    CFAttributedStringRef attrString = CFAttributedStringCreate(NULL, CFSTR("Hello, World!"), attr);
+    CFAttributedStringRef attrString = CFAttributedStringCreate(NULL, CFSTR("𑌶𑍍𑌰𑍀𑌃"), attr);
     throw_if_failed(attrString);
     
     CFRelease(attr);
@@ -52,12 +52,14 @@ try {
     CTLineRef line = CTLineCreateWithAttributedString(attrString);
     throw_if_failed(line);
 
-    CGContextRef context = CGBitmapContextCreate(NULL, 500, 50, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast);
+    CGContextRef context = CGBitmapContextCreate(NULL, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast);
     throw_if_failed(context);
 
     CGContextSetTextMatrix(context, CGAffineTransformIdentity);
 
-    CGContextSetTextPosition(context, 0, 0);
+    CGContextSetGrayFillColor(context, 1.0, 1.0);
+    CGContextFillRect(context, CGRectMake(0, 0, 500, 150));
+    CGContextSetTextPosition(context, 0, 100);
     CTLineDraw(line, context);
 
     auto image = CGBitmapContextCreateImage(context);
@@ -69,7 +71,7 @@ try {
     CFURLRef saveLocation = CFURLCreateWithFileSystemPath(NULL, path, kCFURLPOSIXPathStyle, 0);
     throw_if_failed(saveLocation);
 
-    CGImageDestinationRef imageDestination = CGImageDestinationCreateWithURL(saveLocation, kUTTypePNG, 1, NULL);
+    CGImageDestinationRef imageDestination = CGImageDestinationCreateWithURL(saveLocation, kUTTypeBMP, 1, NULL);
     throw_if_failed(imageDestination);
 
     CGImageDestinationAddImage(imageDestination, image, NULL);
