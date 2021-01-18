@@ -1,4 +1,12 @@
+#include <exception>
+#include <iostream>
 #include <filesystem>
+
+#include <CoreServices/CoreServices.h>
+#include <CoreFoundation/CoreFoundation.h>
+#include <CoreText/CoreText.h>
+#include <CoreGraphics/CoreGraphics.h>
+#include <ImageIO/ImageIO.h>
 
 //#define DEBUG
 
@@ -30,6 +38,60 @@ public:
 
     void
     operator()(const string &text, const string &output_filename) {
+        auto font = unique_ptr<remove_pointer_t<CTFontRef>, decltype(&CFRelease)>(
+            CTFontCreateWithName(CFSTR("Sampradaya"), 48, NULL),
+            CFRelease
+        );
+        throw_if_failed(font.get());
+
+        CFStringRef keys[] = { kCTFontAttributeName };
+        CFTypeRef values[] = { font.get() };
+        CFDictionaryRef attr = CFDictionaryCreate(NULL, (const void **)&keys, (const void **)&values, sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
+        throw_if_failed(attr);
+
+        CFStringRef textAsCFString = CFStringCreateWithBytes(NULL, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false);
+        throw_if_failed(textAsCFString);
+        CFAttributedStringRef attrString = CFAttributedStringCreate(NULL, textAsCFString, attr);
+        throw_if_failed(attrString);
+
+        CFRelease(attr);
+
+        // Draw the string
+        CTLineRef line = CTLineCreateWithAttributedString(attrString);
+        throw_if_failed(line);
+
+        CGContextRef context = CGBitmapContextCreate(NULL, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast);
+        throw_if_failed(context);
+
+        CGContextSetTextMatrix(context, CGAffineTransformIdentity);
+
+        CGContextSetGrayFillColor(context, 1.0, 1.0);
+        CGContextFillRect(context, CGRectMake(0, 0, 500, 150));
+        CGContextSetTextPosition(context, 0, 100);
+        CTLineDraw(line, context);
+
+        auto image = CGBitmapContextCreateImage(context);
+        throw_if_failed(image);
+
+        CFStringRef path = CFStringCreateWithCString (NULL, output_filename.c_str(), kCFStringEncodingUTF8);
+        throw_if_failed(path);
+
+        CFURLRef saveLocation = CFURLCreateWithFileSystemPath(NULL, path, kCFURLPOSIXPathStyle, 0);
+        throw_if_failed(saveLocation);
+
+        CGImageDestinationRef imageDestination = CGImageDestinationCreateWithURL(saveLocation, kUTTypeBMP, 1, NULL);
+        throw_if_failed(imageDestination);
+
+        CGImageDestinationAddImage(imageDestination, image, NULL);
+        CGImageDestinationFinalize(imageDestination);
+
+        CFRelease(saveLocation);
+        CFRelease(path);
+        CFRelease(imageDestination);
+        CFRelease(image);
+        CFRelease(line);
+        CFRelease(attrString);
+        CFRelease(context);
     }
 
 private:
