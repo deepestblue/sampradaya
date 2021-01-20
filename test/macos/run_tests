@@ -9,10 +9,10 @@ TMPDIR=$(mktemp -d -t $PROGRAM)
 
 SCRIPTDIR=$(dirname $0)
 
-rsync --recursive --checksum $1/ $TMPDIR/expected/
+rsync --recursive --checksum $1/master_images/ $TMPDIR/expected/
 
 mkdir -p $TMPDIR/actual
-$SCRIPTDIR/generate_images $TMPDIR/actual $2
+$SCRIPTDIR/generate_images $TMPDIR/actual $1/rasterise_text
 
 mkdir -p $TMPDIR/diff
 
