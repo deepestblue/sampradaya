@@ -32,18 +32,20 @@ throw_if_failed(bool exp) {
 }
 
 class Renderer::impl {
+private:
+    unique_ptr<remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
+
 public:
     impl(int , char *[])
-    { }
+    : font(
+        CTFontCreateWithName(CFSTR("Sampradaya"), 48, nullptr),
+        [](CFTypeRef ref) { if (ref) CFRelease(ref); }
+    ) {
+        throw_if_failed(font.get());
+    }
 
     void
     operator()(const string &text, const string &output_filename) {
-        auto font = unique_ptr<remove_pointer_t<CTFontRef>, decltype(&CFRelease)>(
-            CTFontCreateWithName(CFSTR("Sampradaya"), 48, nullptr),
-            CFRelease
-        );
-        throw_if_failed(font.get());
-
         CFStringRef keys[] = { kCTFontAttributeName };
         CFTypeRef values[] = { font.get() };
         CFDictionaryRef attr = CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
@@ -93,8 +95,6 @@ public:
         CFRelease(attrString);
         CFRelease(context);
     }
-
-private:
 };
 
 Renderer::Renderer(
