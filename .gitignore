@@ -1,4 +1,4 @@
-test/rasterise_text.o
+test/macos/rasterise_text.o
 test/macos/qt/rasterise_text_impl.o
 test/macos/qt/rasterise_text
 test/macos/coretext/rasterise_text_impl.o

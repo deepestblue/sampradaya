@@ -15,7 +15,7 @@ using namespace std;
 
 #include "../../rasterise_text.hpp"
 
-const auto typeface_file_path = filesystem::path{"../../../src/Sampradaya.ttf"s};
+const auto typeface_file_path = filesystem::path{"../../src/Sampradaya.ttf"s};
 
 void
 throw_if_failed(bool exp) {
