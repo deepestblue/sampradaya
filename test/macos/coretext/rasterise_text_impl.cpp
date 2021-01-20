@@ -39,19 +39,19 @@ public:
     void
     operator()(const string &text, const string &output_filename) {
         auto font = unique_ptr<remove_pointer_t<CTFontRef>, decltype(&CFRelease)>(
-            CTFontCreateWithName(CFSTR("Sampradaya"), 48, NULL),
+            CTFontCreateWithName(CFSTR("Sampradaya"), 48, nullptr),
             CFRelease
         );
         throw_if_failed(font.get());
 
         CFStringRef keys[] = { kCTFontAttributeName };
         CFTypeRef values[] = { font.get() };
-        CFDictionaryRef attr = CFDictionaryCreate(NULL, (const void **)&keys, (const void **)&values, sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
+        CFDictionaryRef attr = CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
         throw_if_failed(attr);
 
-        CFStringRef textAsCFString = CFStringCreateWithBytes(NULL, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false);
+        CFStringRef textAsCFString = CFStringCreateWithBytes(nullptr, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false);
         throw_if_failed(textAsCFString);
-        CFAttributedStringRef attrString = CFAttributedStringCreate(NULL, textAsCFString, attr);
+        CFAttributedStringRef attrString = CFAttributedStringCreate(nullptr, textAsCFString, attr);
         throw_if_failed(attrString);
 
         CFRelease(attr);
@@ -60,7 +60,7 @@ public:
         CTLineRef line = CTLineCreateWithAttributedString(attrString);
         throw_if_failed(line);
 
-        CGContextRef context = CGBitmapContextCreate(NULL, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast);
+        CGContextRef context = CGBitmapContextCreate(nullptr, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast);
         throw_if_failed(context);
 
         CGContextSetTextMatrix(context, CGAffineTransformIdentity);
@@ -73,16 +73,16 @@ public:
         auto image = CGBitmapContextCreateImage(context);
         throw_if_failed(image);
 
-        CFStringRef path = CFStringCreateWithCString (NULL, output_filename.c_str(), kCFStringEncodingUTF8);
+        CFStringRef path = CFStringCreateWithCString (nullptr, output_filename.c_str(), kCFStringEncodingUTF8);
         throw_if_failed(path);
 
-        CFURLRef saveLocation = CFURLCreateWithFileSystemPath(NULL, path, kCFURLPOSIXPathStyle, 0);
+        CFURLRef saveLocation = CFURLCreateWithFileSystemPath(nullptr, path, kCFURLPOSIXPathStyle, 0);
         throw_if_failed(saveLocation);
 
-        CGImageDestinationRef imageDestination = CGImageDestinationCreateWithURL(saveLocation, kUTTypeBMP, 1, NULL);
+        CGImageDestinationRef imageDestination = CGImageDestinationCreateWithURL(saveLocation, kUTTypeBMP, 1, nullptr);
         throw_if_failed(imageDestination);
 
-        CGImageDestinationAddImage(imageDestination, image, NULL);
+        CGImageDestinationAddImage(imageDestination, image, nullptr);
         CGImageDestinationFinalize(imageDestination);
 
         CFRelease(saveLocation);
