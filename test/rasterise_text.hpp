@@ -19,7 +19,7 @@ throw_if_failed(
 
 class Renderer {
     class impl;
-    unique_ptr<impl> p_impl;
+    const unique_ptr<impl> p_impl;
 public:
     void
     operator()(

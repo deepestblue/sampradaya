@@ -33,7 +33,7 @@ throw_if_failed(bool exp) {
 
 class Renderer::impl {
 private:
-    unique_ptr<remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
+    const unique_ptr<const remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
 
     CTLineRef create_line(const string &text) {
         CFStringRef keys[] = { kCTFontAttributeName };
@@ -66,9 +66,9 @@ public:
 
     void
     operator()(const string &text, const string &output_filename) {
-        auto line = create_line(text);
+        const auto line = create_line(text);
 
-        auto context_guard = unique_ptr<remove_pointer_t<CGContextRef>, decltype(&CGContextRelease)>(
+        const auto context_guard = unique_ptr<remove_pointer_t<CGContextRef>, decltype(&CGContextRelease)>(
             CGBitmapContextCreate(nullptr, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast),
             CGContextRelease);
         auto context = context_guard.get();
@@ -79,22 +79,22 @@ public:
         CGContextSetTextPosition(context, 0, 100);
         CTLineDraw(line, context);
 
-        auto image = unique_ptr<remove_pointer_t<CGImageRef>, decltype(&CGImageRelease)>(
+        const auto image = unique_ptr<remove_pointer_t<CGImageRef>, decltype(&CGImageRelease)>(
             CGBitmapContextCreateImage(context),
             CGImageRelease);
         throw_if_failed(image.get());
 
-        auto path = unique_ptr<remove_pointer_t<CFStringRef>, decltype(&CFRelease)>(
+        const auto path = unique_ptr<const remove_pointer_t<CFStringRef>, decltype(&CFRelease)>(
             CFStringCreateWithCString(nullptr, output_filename.c_str(), kCFStringEncodingUTF8),
             [](const void *ref) { if (ref) CFRelease(ref); });
         throw_if_failed(path.get());
 
-        auto destURL = unique_ptr<remove_pointer_t<CFURLRef>, decltype(&CFRelease)>(
+        const auto destURL = unique_ptr<const remove_pointer_t<CFURLRef>, decltype(&CFRelease)>(
             CFURLCreateWithFileSystemPath(nullptr, path.get(), kCFURLPOSIXPathStyle, 0),
             [](const void *ref) { if (ref) CFRelease(ref); });
         throw_if_failed(destURL.get());
 
-        auto imageDestination = unique_ptr<remove_pointer_t<CGImageDestinationRef>, decltype(&CFRelease)>(
+        const auto imageDestination = unique_ptr<remove_pointer_t<CGImageDestinationRef>, decltype(&CFRelease)>(
             CGImageDestinationCreateWithURL(destURL.get(), kUTTypePNG, 1, nullptr),
             [](const void *ref) { if (ref) CFRelease(ref); });
         throw_if_failed(imageDestination.get());
