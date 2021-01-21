@@ -58,39 +58,40 @@ public:
 
         CFRelease(attr);
 
-        // Draw the string
         CTLineRef line = CTLineCreateWithAttributedString(attrString);
         throw_if_failed(line);
 
         CGContextRef context = CGBitmapContextCreate(nullptr, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast);
         throw_if_failed(context);
 
-        CGContextSetTextMatrix(context, CGAffineTransformIdentity);
-
         CGContextSetGrayFillColor(context, 1.0, 1.0);
         CGContextFillRect(context, CGRectMake(0, 0, 500, 150));
         CGContextSetTextPosition(context, 0, 100);
         CTLineDraw(line, context);
 
-        auto image = CGBitmapContextCreateImage(context);
-        throw_if_failed(image);
+        auto image = unique_ptr<remove_pointer_t<CGImageRef>, decltype(&CGImageRelease)>(
+            CGBitmapContextCreateImage(context),
+            CGImageRelease);
+        throw_if_failed(image.get());
 
-        CFStringRef path = CFStringCreateWithCString (nullptr, output_filename.c_str(), kCFStringEncodingUTF8);
-        throw_if_failed(path);
+        auto path = unique_ptr<remove_pointer_t<CFStringRef>, decltype(&CFRelease)>(
+            CFStringCreateWithCString(nullptr, output_filename.c_str(), kCFStringEncodingUTF8),
+            [](const void *ref) { if (ref) CFRelease(ref); });
+        throw_if_failed(path.get());
 
-        CFURLRef saveLocation = CFURLCreateWithFileSystemPath(nullptr, path, kCFURLPOSIXPathStyle, 0);
-        throw_if_failed(saveLocation);
+        auto destURL = unique_ptr<remove_pointer_t<CFURLRef>, decltype(&CFRelease)>(
+            CFURLCreateWithFileSystemPath(nullptr, path.get(), kCFURLPOSIXPathStyle, 0),
+            [](const void *ref) { if (ref) CFRelease(ref); });
+        throw_if_failed(destURL.get());
 
-        CGImageDestinationRef imageDestination = CGImageDestinationCreateWithURL(saveLocation, kUTTypePNG, 1, nullptr);
-        throw_if_failed(imageDestination);
+        auto imageDestination = unique_ptr<remove_pointer_t<CGImageDestinationRef>, decltype(&CFRelease)>(
+            CGImageDestinationCreateWithURL(destURL.get(), kUTTypePNG, 1, nullptr),
+            [](const void *ref) { if (ref) CFRelease(ref); });
+        throw_if_failed(imageDestination.get());
 
-        CGImageDestinationAddImage(imageDestination, image, nullptr);
-        CGImageDestinationFinalize(imageDestination);
+        CGImageDestinationAddImage(imageDestination.get(), image.get(), nullptr);
+        throw_if_failed(CGImageDestinationFinalize(imageDestination.get()));
 
-        CFRelease(saveLocation);
-        CFRelease(path);
-        CFRelease(imageDestination);
-        CFRelease(image);
         CFRelease(line);
         CFRelease(attrString);
         CFRelease(context);
