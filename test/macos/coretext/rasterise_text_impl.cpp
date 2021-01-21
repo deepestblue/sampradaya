@@ -81,7 +81,7 @@ public:
         CFURLRef saveLocation = CFURLCreateWithFileSystemPath(nullptr, path, kCFURLPOSIXPathStyle, 0);
         throw_if_failed(saveLocation);
 
-        CGImageDestinationRef imageDestination = CGImageDestinationCreateWithURL(saveLocation, kUTTypeBMP, 1, nullptr);
+        CGImageDestinationRef imageDestination = CGImageDestinationCreateWithURL(saveLocation, kUTTypePNG, 1, nullptr);
         throw_if_failed(imageDestination);
 
         CGImageDestinationAddImage(imageDestination, image, nullptr);

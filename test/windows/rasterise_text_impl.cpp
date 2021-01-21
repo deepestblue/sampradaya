@@ -282,7 +282,7 @@ encode_wicbitmap_onto_wicstream(
     auto wic_bitmap_encoder = static_cast<IWICBitmapEncoder *>(nullptr);
     throw_if_failed(
         wic_factory->CreateEncoder(
-            GUID_ContainerFormatBmp,
+            GUID_ContainerFormatPng,
             nullptr,
             &wic_bitmap_encoder
         )
