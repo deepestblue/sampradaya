@@ -35,6 +35,26 @@ class Renderer::impl {
 private:
     unique_ptr<remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
 
+    CTLineRef create_line(const string &text) {
+        CFStringRef keys[] = { kCTFontAttributeName };
+        CFTypeRef values[] = { font.get() };
+        CFDictionaryRef attr = CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
+        throw_if_failed(attr);
+
+        CFStringRef textAsCFString = CFStringCreateWithBytes(nullptr, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false);
+        throw_if_failed(textAsCFString);
+        CFAttributedStringRef attrString = CFAttributedStringCreate(nullptr, textAsCFString, attr);
+        throw_if_failed(attrString);
+
+        CTLineRef line = CTLineCreateWithAttributedString(attrString);
+        throw_if_failed(line);
+
+        CFRelease(attr);
+        CFRelease(textAsCFString);
+        CFRelease(attrString);
+        return line;
+    }
+
 public:
     impl(int , char *[])
     : font(
@@ -46,20 +66,7 @@ public:
 
     void
     operator()(const string &text, const string &output_filename) {
-        CFStringRef keys[] = { kCTFontAttributeName };
-        CFTypeRef values[] = { font.get() };
-        CFDictionaryRef attr = CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
-        throw_if_failed(attr);
-
-        CFStringRef textAsCFString = CFStringCreateWithBytes(nullptr, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false);
-        throw_if_failed(textAsCFString);
-        CFAttributedStringRef attrString = CFAttributedStringCreate(nullptr, textAsCFString, attr);
-        throw_if_failed(attrString);
-
-        CFRelease(attr);
-
-        CTLineRef line = CTLineCreateWithAttributedString(attrString);
-        throw_if_failed(line);
+        auto line = create_line(text);
 
         CGContextRef context = CGBitmapContextCreate(nullptr, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast);
         throw_if_failed(context);
@@ -93,7 +100,6 @@ public:
         throw_if_failed(CGImageDestinationFinalize(imageDestination.get()));
 
         CFRelease(line);
-        CFRelease(attrString);
         CFRelease(context);
     }
 };
