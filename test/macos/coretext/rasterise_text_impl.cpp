@@ -68,7 +68,10 @@ public:
     operator()(const string &text, const string &output_filename) {
         auto line = create_line(text);
 
-        CGContextRef context = CGBitmapContextCreate(nullptr, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast);
+        auto context_guard = unique_ptr<remove_pointer_t<CGContextRef>, decltype(&CGContextRelease)>(
+            CGBitmapContextCreate(nullptr, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast),
+            CGContextRelease);
+        auto context = context_guard.get();
         throw_if_failed(context);
 
         CGContextSetGrayFillColor(context, 1.0, 1.0);
@@ -100,7 +103,6 @@ public:
         throw_if_failed(CGImageDestinationFinalize(imageDestination.get()));
 
         CFRelease(line);
-        CFRelease(context);
     }
 };
 
