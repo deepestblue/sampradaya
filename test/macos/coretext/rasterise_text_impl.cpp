@@ -37,7 +37,9 @@ auto
 CFReleaser(const U &u) {
     auto ret = unique_ptr<const remove_pointer_t<T>, decltype(&CFRelease)>(
         u,
-        [](const void *ref) { if (ref) CFRelease(ref); }
+        [](const void *ref) {
+            if (ref) CFRelease(ref);
+        }
     );
     throw_if_failed(ret.get());
     return ret;
@@ -47,21 +49,42 @@ class Renderer::impl {
 private:
     const unique_ptr<const remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
 
-    unique_ptr<const remove_pointer_t<CTLineRef>, decltype(&CFRelease)>
+    auto
     create_line(const string &text) {
-        auto keys = array<const CFStringRef, 1>{ kCTFontAttributeName };
-        auto values = array<const CFTypeRef, 1>{ font.get() };
+        auto keys = array<const CFStringRef, 1>{
+            kCTFontAttributeName
+        };
+        auto values = array<const CFTypeRef, 1>{
+            font.get()
+        };
 
         const auto attr = CFReleaser<CFDictionaryRef>(
-            CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks)
+            CFDictionaryCreate(
+                nullptr,
+                reinterpret_cast<const void **>(&keys),
+                reinterpret_cast<const void **>(&values),
+                sizeof(keys) / sizeof(keys[0]),
+                &kCFTypeDictionaryKeyCallBacks,
+                &kCFTypeDictionaryValueCallBacks
+            )
         );
 
         const auto textAsCFString = CFReleaser<CFStringRef>(
-            CFStringCreateWithBytes(nullptr, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false)
+            CFStringCreateWithBytes(
+                nullptr,
+                reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())),
+                static_cast<long>(text.length()),
+                kCFStringEncodingUTF8,
+                false
+            )
         );
 
         const auto attrString = CFReleaser<CFAttributedStringRef>(
-            CFAttributedStringCreate(nullptr, textAsCFString.get(), attr.get())
+            CFAttributedStringCreate(
+                nullptr,
+                textAsCFString.get(),
+                attr.get()
+            )
         );
 
         auto line = CFReleaser<CTLineRef>(
@@ -75,7 +98,11 @@ public:
     impl(int , char *[])
     : font(
         CFReleaser<CTFontRef>(
-            CTFontCreateWithName(CFSTR("Sampradaya"), 48, nullptr)
+            CTFontCreateWithName(
+                CFSTR("Sampradaya"),
+                48u,
+                nullptr
+            )
         )
     ) {}
 
@@ -84,35 +111,86 @@ public:
         const auto line = create_line(text);
 
         const auto context_guard = unique_ptr<remove_pointer_t<CGContextRef>, decltype(&CGContextRelease)>(
-            CGBitmapContextCreate(nullptr, 500, 150, 8, 0, CGColorSpaceCreateDeviceRGB(), kCGImageAlphaPremultipliedLast),
-            CGContextRelease);
+            CGBitmapContextCreate(
+                nullptr,
+                500u,
+                150u,
+                8u,
+                0u,
+                CGColorSpaceCreateDeviceRGB(),
+                kCGImageAlphaPremultipliedLast
+            ),
+            CGContextRelease
+        );
         auto context = context_guard.get();
         throw_if_failed(context);
 
-        CGContextSetGrayFillColor(context, 1.0, 1.0);
-        CGContextFillRect(context, CGRectMake(0, 0, 500, 150));
-        CGContextSetTextPosition(context, 0, 100);
-        CTLineDraw(line.get(), context);
+        CGContextSetGrayFillColor(
+            context,
+            1.,
+            1.
+        );
+        CGContextFillRect(
+            context, CGRectMake(
+                0u,
+                0u,
+                500u,
+                150u
+            )
+        );
+        CGContextSetTextPosition(
+            context,
+            0u,
+            100u
+        );
+        CTLineDraw(
+            line.get(),
+            context
+        );
 
         const auto image = unique_ptr<remove_pointer_t<CGImageRef>, decltype(&CGImageRelease)>(
             CGBitmapContextCreateImage(context),
-            CGImageRelease);
+            CGImageRelease
+        );
         throw_if_failed(image.get());
 
         const auto path = CFReleaser<CFStringRef>(
-            CFStringCreateWithCString(nullptr, output_filename.c_str(), kCFStringEncodingUTF8)
+            CFStringCreateWithCString(
+                nullptr,
+                output_filename.c_str(),
+                kCFStringEncodingUTF8
+            )
         );
         const auto destURL = CFReleaser<CFURLRef>(
-            CFURLCreateWithFileSystemPath(nullptr, path.get(), kCFURLPOSIXPathStyle, 0)
+            CFURLCreateWithFileSystemPath(
+                nullptr,
+                path.get(),
+                kCFURLPOSIXPathStyle,
+                0
+            )
         );
 
         const auto imageDestination = unique_ptr<remove_pointer_t<CGImageDestinationRef>, decltype(&CFRelease)>(
-            CGImageDestinationCreateWithURL(destURL.get(), kUTTypePNG, 1, nullptr),
-            [](const void *ref) { if (ref) CFRelease(ref); });
+            CGImageDestinationCreateWithURL(
+                destURL.get(),
+                kUTTypePNG,
+                1,
+                nullptr
+            ),
+            [](const void *ref) {
+                if (ref) CFRelease(ref);
+            }
+        );
         throw_if_failed(imageDestination.get());
 
-        CGImageDestinationAddImage(imageDestination.get(), image.get(), nullptr);
-        throw_if_failed(CGImageDestinationFinalize(imageDestination.get()));
+        CGImageDestinationAddImage(
+            imageDestination.get(),
+            image.get(),
+            nullptr
+        );
+        throw_if_failed(
+            CGImageDestinationFinalize(imageDestination.get())
+        );
     }
 };
 
