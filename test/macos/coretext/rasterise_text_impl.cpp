@@ -32,6 +32,17 @@ throw_if_failed(bool exp) {
     );
 }
 
+template<typename T, typename U>
+auto
+CFReleaser(const U &u) {
+    auto ret = unique_ptr<const remove_pointer_t<T>, decltype(&CFRelease)>(
+        u,
+        [](const void *ref) { if (ref) CFRelease(ref); }
+    );
+    throw_if_failed(ret.get());
+    return ret;
+}
+
 class Renderer::impl {
 private:
     const unique_ptr<const remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
@@ -40,29 +51,22 @@ private:
     create_line(const string &text) {
         auto keys = array<const CFStringRef, 1>{ kCTFontAttributeName };
         auto values = array<const CFTypeRef, 1>{ font.get() };
-        const auto attr = unique_ptr<const remove_pointer_t<CFDictionaryRef>, decltype(&CFRelease)>(
-            CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks),
-            [](const void *ref) { if (ref) CFRelease(ref); }
-        );
-        throw_if_failed(attr.get());
 
-        const auto textAsCFString = unique_ptr<const remove_pointer_t<CFStringRef>, decltype(&CFRelease)>(
-            CFStringCreateWithBytes(nullptr, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false),
-            [](const void *ref) { if (ref) CFRelease(ref); }
+        const auto attr = CFReleaser<CFDictionaryRef>(
+            CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks)
         );
-        throw_if_failed(textAsCFString.get());
 
-        const auto attrString = unique_ptr<const remove_pointer_t<CFAttributedStringRef>, decltype(&CFRelease)>(
-            CFAttributedStringCreate(nullptr, textAsCFString.get(), attr.get()),
-            [](const void *ref) { if (ref) CFRelease(ref); }
+        const auto textAsCFString = CFReleaser<CFStringRef>(
+            CFStringCreateWithBytes(nullptr, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false)
         );
-        throw_if_failed(attrString.get());
 
-        auto line = unique_ptr<const remove_pointer_t<CTLineRef>, decltype(&CFRelease)>(
-            CTLineCreateWithAttributedString(attrString.get()),
-            [](const void *ref) { if (ref) CFRelease(ref); }
+        const auto attrString = CFReleaser<CFAttributedStringRef>(
+            CFAttributedStringCreate(nullptr, textAsCFString.get(), attr.get())
         );
-        throw_if_failed(line.get());
+
+        auto line = CFReleaser<CTLineRef>(
+            CTLineCreateWithAttributedString(attrString.get())
+        );
 
         return line;
     }
@@ -70,11 +74,10 @@ private:
 public:
     impl(int , char *[])
     : font(
-        CTFontCreateWithName(CFSTR("Sampradaya"), 48, nullptr),
-        [](CFTypeRef ref) { if (ref) CFRelease(ref); }
-    ) {
-        throw_if_failed(font.get());
-    }
+        CFReleaser<CTFontRef>(
+            CTFontCreateWithName(CFSTR("Sampradaya"), 48, nullptr)
+        )
+    ) {}
 
     void
     operator()(const string &text, const string &output_filename) {
@@ -96,15 +99,12 @@ public:
             CGImageRelease);
         throw_if_failed(image.get());
 
-        const auto path = unique_ptr<const remove_pointer_t<CFStringRef>, decltype(&CFRelease)>(
-            CFStringCreateWithCString(nullptr, output_filename.c_str(), kCFStringEncodingUTF8),
-            [](const void *ref) { if (ref) CFRelease(ref); });
-        throw_if_failed(path.get());
-
-        const auto destURL = unique_ptr<const remove_pointer_t<CFURLRef>, decltype(&CFRelease)>(
-            CFURLCreateWithFileSystemPath(nullptr, path.get(), kCFURLPOSIXPathStyle, 0),
-            [](const void *ref) { if (ref) CFRelease(ref); });
-        throw_if_failed(destURL.get());
+        const auto path = CFReleaser<CFStringRef>(
+            CFStringCreateWithCString(nullptr, output_filename.c_str(), kCFStringEncodingUTF8)
+        );
+        const auto destURL = CFReleaser<CFURLRef>(
+            CFURLCreateWithFileSystemPath(nullptr, path.get(), kCFURLPOSIXPathStyle, 0)
+        );
 
         const auto imageDestination = unique_ptr<remove_pointer_t<CGImageDestinationRef>, decltype(&CFRelease)>(
             CGImageDestinationCreateWithURL(destURL.get(), kUTTypePNG, 1, nullptr),
