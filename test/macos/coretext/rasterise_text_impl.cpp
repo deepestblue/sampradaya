@@ -1,5 +1,6 @@
 #include <exception>
 #include <iostream>
+#include <array>
 #include <filesystem>
 
 #include <CoreServices/CoreServices.h>
@@ -37,25 +38,32 @@ private:
 
     unique_ptr<const remove_pointer_t<CTLineRef>, decltype(&CFRelease)>
     create_line(const string &text) {
-        CFStringRef keys[] = { kCTFontAttributeName };
-        CFTypeRef values[] = { font.get() };
-        CFDictionaryRef attr = CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
-        throw_if_failed(attr);
+        auto keys = array<const CFStringRef, 1>{ kCTFontAttributeName };
+        auto values = array<const CFTypeRef, 1>{ font.get() };
+        const auto attr = unique_ptr<const remove_pointer_t<CFDictionaryRef>, decltype(&CFRelease)>(
+            CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks),
+            [](const void *ref) { if (ref) CFRelease(ref); }
+        );
+        throw_if_failed(attr.get());
 
-        CFStringRef textAsCFString = CFStringCreateWithBytes(nullptr, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false);
-        throw_if_failed(textAsCFString);
-        CFAttributedStringRef attrString = CFAttributedStringCreate(nullptr, textAsCFString, attr);
-        throw_if_failed(attrString);
+        const auto textAsCFString = unique_ptr<const remove_pointer_t<CFStringRef>, decltype(&CFRelease)>(
+            CFStringCreateWithBytes(nullptr, reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())), static_cast<long>(text.length()), kCFStringEncodingUTF8, false),
+            [](const void *ref) { if (ref) CFRelease(ref); }
+        );
+        throw_if_failed(textAsCFString.get());
+
+        const auto attrString = unique_ptr<const remove_pointer_t<CFAttributedStringRef>, decltype(&CFRelease)>(
+            CFAttributedStringCreate(nullptr, textAsCFString.get(), attr.get()),
+            [](const void *ref) { if (ref) CFRelease(ref); }
+        );
+        throw_if_failed(attrString.get());
 
         auto line = unique_ptr<const remove_pointer_t<CTLineRef>, decltype(&CFRelease)>(
-            CTLineCreateWithAttributedString(attrString),
+            CTLineCreateWithAttributedString(attrString.get()),
             [](const void *ref) { if (ref) CFRelease(ref); }
-            );
+        );
         throw_if_failed(line.get());
 
-        CFRelease(attr);
-        CFRelease(textAsCFString);
-        CFRelease(attrString);
         return line;
     }
 
