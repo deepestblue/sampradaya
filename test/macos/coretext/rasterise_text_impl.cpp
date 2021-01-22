@@ -35,7 +35,8 @@ class Renderer::impl {
 private:
     const unique_ptr<const remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
 
-    CTLineRef create_line(const string &text) {
+    unique_ptr<const remove_pointer_t<CTLineRef>, decltype(&CFRelease)>
+    create_line(const string &text) {
         CFStringRef keys[] = { kCTFontAttributeName };
         CFTypeRef values[] = { font.get() };
         CFDictionaryRef attr = CFDictionaryCreate(nullptr, reinterpret_cast<const void **>(&keys), reinterpret_cast<const void **>(&values), sizeof(keys) / sizeof(keys[0]), &kCFTypeDictionaryKeyCallBacks, &kCFTypeDictionaryValueCallBacks);
@@ -46,8 +47,11 @@ private:
         CFAttributedStringRef attrString = CFAttributedStringCreate(nullptr, textAsCFString, attr);
         throw_if_failed(attrString);
 
-        CTLineRef line = CTLineCreateWithAttributedString(attrString);
-        throw_if_failed(line);
+        auto line = unique_ptr<const remove_pointer_t<CTLineRef>, decltype(&CFRelease)>(
+            CTLineCreateWithAttributedString(attrString),
+            [](const void *ref) { if (ref) CFRelease(ref); }
+            );
+        throw_if_failed(line.get());
 
         CFRelease(attr);
         CFRelease(textAsCFString);
@@ -77,7 +81,7 @@ public:
         CGContextSetGrayFillColor(context, 1.0, 1.0);
         CGContextFillRect(context, CGRectMake(0, 0, 500, 150));
         CGContextSetTextPosition(context, 0, 100);
-        CTLineDraw(line, context);
+        CTLineDraw(line.get(), context);
 
         const auto image = unique_ptr<remove_pointer_t<CGImageRef>, decltype(&CGImageRelease)>(
             CGBitmapContextCreateImage(context),
@@ -101,8 +105,6 @@ public:
 
         CGImageDestinationAddImage(imageDestination.get(), image.get(), nullptr);
         throw_if_failed(CGImageDestinationFinalize(imageDestination.get()));
-
-        CFRelease(line);
     }
 };
 
