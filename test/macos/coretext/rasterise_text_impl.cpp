@@ -15,7 +15,7 @@ using namespace std;
 
 const auto typeface_file_path = filesystem::path{"../../../src/Sampradaya.ttf"s};
 
-void
+auto
 throw_if_failed(
     bool exp
 ) {
@@ -128,7 +128,7 @@ public:
         )
     ) {}
 
-    void
+    auto
     operator()(
         const string &text,
         const string &output_filename

@@ -6,7 +6,7 @@
 const auto typeface_size_pt = 48u;
 
 template <typename E>
-void
+auto
 throw_if_failed(
     bool exp,
     const E &e

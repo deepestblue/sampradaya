@@ -21,7 +21,7 @@ void
 throw_if_failed(
     bool exp
 ) {
-    static auto l = []() {
+    const static auto l = []() {
         return "Assertion failed."s;
     };
     throw_if_failed(
@@ -38,7 +38,7 @@ throw_if_failed(
 //
 struct Or_void {};
 template<typename T>
-T &&operator ,(
+auto &&operator ,(
     T &&x,
     Or_void
 ) {
@@ -65,7 +65,7 @@ struct App_font {
         );
     }
 
-    QString
+    auto
     get_typeface_name() const {
         const auto &list = QFontDatabase::applicationFontFamilies(
             app_font_id
@@ -113,7 +113,7 @@ public:
         );
     }
 
-    void
+    auto
     operator()(
         const string &text,
         const string &output_filename

@@ -36,7 +36,7 @@ using D2D1::Matrix3x2F;
 
 const auto typeface_file_path = filesystem::path{"../../src/Sampradaya.ttf"s};
 
-void
+auto
 throw_if_failed(int win32_return_code) {
     const auto win32_error_msg = [] {
         const auto last_error = GetLastError();
@@ -63,7 +63,7 @@ throw_if_failed(int win32_return_code) {
     );
 }
 
-wstring
+auto
 utf8_to_utf16(const string &in) {
     const auto buf_size = MultiByteToWideChar(
         CP_UTF8,
@@ -89,7 +89,7 @@ utf8_to_utf16(const string &in) {
     return out;
 }
 
-void
+auto
 throw_if_failed(HRESULT hr) {
     struct com_error_msg {
         com_error_msg(HRESULT hr)
@@ -131,7 +131,7 @@ public:
     }
 };
 
-pair<ComPtr<IDWriteFontCollection>, wstring>
+auto
 create_font_collection(
     const ComPtr<IDWriteFactory5> &dwrite_factory
 ) {
@@ -203,10 +203,13 @@ create_font_collection(
         )
     );
 
-    return {font_collection, typeface_name};
+    return pair<ComPtr<IDWriteFontCollection>, wstring>{
+        font_collection,
+        typeface_name
+    };
 }
 
-ComPtr<IDWriteTextLayout>
+auto
 create_dwrite_text_layout(
     const ComPtr<IDWriteFactory5> &dwrite_factory,
     const ComPtr<IDWriteTextFormat> &text_format,
@@ -242,7 +245,7 @@ create_dwrite_text_layout(
     return dwrite_text_layout;
 }
 
-ComPtr<ID2D1RenderTarget>
+auto
 create_render_target(
     const ComPtr<ID2D1Factory1> &d2d_factory,
     const ComPtr<IWICBitmap> &wic_bitmap
@@ -269,11 +272,13 @@ create_render_target(
         )
     );
 
-    render_target->SetTextAntialiasMode(D2D1_TEXT_ANTIALIAS_MODE::D2D1_TEXT_ANTIALIAS_MODE_ALIASED);
+    render_target->SetTextAntialiasMode(
+        D2D1_TEXT_ANTIALIAS_MODE::D2D1_TEXT_ANTIALIAS_MODE_ALIASED
+    );
     return render_target;
 }
 
-void
+auto
 encode_wicbitmap_onto_wicstream(
     const ComPtr<IWICImagingFactory2> &wic_factory,
     IWICStream *stream,
@@ -373,7 +378,7 @@ public:
         }
     }
 
-    void
+    auto
     operator()(
         const string &text,
         const string &output_filename
