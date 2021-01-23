@@ -1,0 +1,17 @@
+#!/bin/bash
+
+set -o errexit
+set -o nounset
+
+SCRIPTDIR=$(dirname $0)
+
+OUTPUT_ROOT=$1
+mkdir -p $OUTPUT_ROOT
+
+for i in $SCRIPTDIR/../cases/*.txt; do
+    j=${i#${SCRIPTDIR}/../cases/}
+    output_dir=$OUTPUT_ROOT/${j%.txt}
+    mkdir -p $output_dir
+    rm -f $output_dir/*
+    $2 $i $output_dir
+done

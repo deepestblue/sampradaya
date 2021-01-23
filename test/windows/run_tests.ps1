@@ -2,10 +2,6 @@ using namespace System.Drawing.Imaging
 using namespace System.IO
 using namespace Microsoft.Test.VisualVerification
 
-Param(
-    [Parameter(Mandatory=$true)][string]$master_images
-)
-
 $ErrorActionPreference="Stop"
 
 Add-Type -Assembly System.Drawing
@@ -47,7 +43,7 @@ Param(
 
 $tmpDir = New-TemporaryDirectory
 
-robocopy $master_images "$tmpDir/expected" /MIR /Z /UNICODE /NFL /NDL /NP /NJH /NJS /NS /NC
+robocopy "master_images" "$tmpDir/expected" /MIR /Z /UNICODE /NFL /NDL /NP /NJH /NJS /NS /NC
 
 MkDirIfNotExists "$tmpDir/actual"
 ./generate_images.ps1 "$tmpDir/actual"

@@ -40,7 +40,7 @@ main(
     while (getline(input_stream, line)) {
         if (line.empty())
             continue;
-        renderer(line, output_dir + "/"s + to_string(i) + ".bmp"s);
+        renderer(line, output_dir + "/"s + to_string(i) + ".png"s);
         ++i;
     }
 }

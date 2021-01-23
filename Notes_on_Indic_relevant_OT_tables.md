@@ -17,10 +17,10 @@
 | pres  | S4,5 | 3     | Ligates a base glyph and a pre‐base glyph. Not relevant to Grantha. | ક્ક |
 | abvs  | S4   | 3     | Ligates a base glyph and an above‐base glyph. Not used here. | டி |
 | blws  | S4   | 3     | Ligates a base glyph and a below‐base glyph. Not used here. | ക്ല |
-| psts  | S4   | 3     | Ligates a base glyph and a post‐base glyph. Used here to switch around the post‐rēpha and i/ī‐markers. | 𑌕𑍍𑌰𑌿 |
+| psts  | S4   | 3     | Ligates a base glyph and a post‐base glyph. Used here to select the right i/ī‐markers and post‐rēpha marker, and to switch around the post‐rēpha and i/ī‐markers. | 𑌕𑍍𑌰𑌿 |
 | haln  | S4   | 3     | Replaces consonant+virāma with a terminal form. | 𑌮𑍍 |
 | abvm  | P4,5 | 4     | Positions anusvāras etc. above the base. Used for kerning ī‐markers. | 𑌟𑍀 |
-| blwm  | P4,5 | 4     | Positions u‐markers etc. above the base. Not used here. | कु |
+| blwm  | P4,5 | 4     | Positions u‐markers etc. below the base. Not used here. | कु |
 
 ## Type descriptions
 
