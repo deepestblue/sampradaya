@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1610861922
+ModificationTime: 1611387981
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -488,14 +488,14 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 44 22 10
+WinInfo: 0 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 244
+BeginChars: 1114113 245
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -1443,7 +1443,7 @@ SplineSet
  673.992425981 242.5 673.992425981 242.5 690.5 242.5 c 3,157,158
  713.00555487 242.5 713.00555487 242.5 724 226 c 0,144,145
 EndSplineSet
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-410 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-410 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11325
 EndChar
@@ -2290,7 +2290,7 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-280 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-280 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u1131C u1134D u1131E
 EndChar
@@ -2667,7 +2667,7 @@ SplineSet
  598 47 l 2,66,67
  616 47 616 47 616 24 c 3,0,1
 EndSplineSet
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-160 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-160 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11326
 EndChar
@@ -2835,9 +2835,8 @@ SplineSet
  268 366 l 1,82,-1
 EndSplineSet
 Validated: 1
-Ligature2: "'vatu' Vattu Variants lookup 10-1" u11324 uE204
+Ligature2: "'vatu' Vattu Variants lookup 10-1" u11324 uE205
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11330
 EndChar
 
 StartChar: uE110
@@ -2910,9 +2909,8 @@ SplineSet
  43 -72 43 -72 37 -64 c 0,11,12
 EndSplineSet
 Validated: 33
-Ligature2: "'vatu' Vattu Variants lookup 10-1" u11336 uE204
+Ligature2: "'vatu' Vattu Variants lookup 10-1" u11336 uE205
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11336 u1134D u11330
 EndChar
 
 StartChar: uE111
@@ -2993,7 +2991,7 @@ SplineSet
  138 51 l 1,122,-1
  139 51 l 1,0,1
 EndSplineSet
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-410 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-410 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11327
 EndChar
@@ -3049,7 +3047,7 @@ SplineSet
  113 54 l 1,64,-1
  114 54 l 1,0,1
 EndSplineSet
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-240 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-240 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11335
 EndChar
@@ -3252,7 +3250,7 @@ SplineSet
  664.992648648 242.5 664.992648648 242.5 682 242.5 c 0,108,109
  705.005434141 242.5 705.005434141 242.5 716 226 c 0,95,96
 EndSplineSet
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-410 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-410 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11325
 EndChar
@@ -3348,7 +3346,7 @@ SplineSet
  567 242 567 242 590 239 c 1,128,-1
  600 262 l 24,114,115
 EndSplineSet
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-50 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-50 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11337 u1134D u1131F
 EndChar
@@ -3943,7 +3941,7 @@ Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 136 70440 N 0.7068 0 0 0.637 -534 -298 2
+Refer: 136 70440 S 0.7068 0 0 0.637 -534 -298 2
 Substitution2: "Single Substitution lookup 0-1" uE528
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11328
@@ -4233,6 +4231,7 @@ SplineSet
  -38 -129 l 1,162,-1
 EndSplineSet
 Validated: 37
+LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10C
 EndChar
 
@@ -4394,7 +4393,7 @@ SplineSet
  -566 -145 -566 -145 -574.5 -150.5 c 128,-1,5
 -214 -73 m 2,14,15
  -214 -59 -214 -59 -198 -59 c 128,-1,16
- -182 -59 -182 -59 -182 -70 c 2,17,-1
+ -182 -59 -182 -59 -182 -70 c 6,17,-1
  -182 -269 l 1,18,19
  -180 -275 -180 -275 -182.5 -280.5 c 128,-1,20
  -185 -286 -185 -286 -193 -286 c 2,21,-1
@@ -4456,6 +4455,7 @@ SplineSet
  -382 -211 l 1,93,94
 EndSplineSet
 Validated: 1
+LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10A
 EndChar
 
@@ -4553,70 +4553,70 @@ SplineSet
  -514 -66 l 1,120,-1
 EndSplineSet
 Validated: 5
+LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE102
 EndChar
 
 StartChar: uE384
 Encoding: 58244 58244 81
 Width: 0
-Flags: MW
+Flags: MWO
 LayerCount: 2
 Fore
 SplineSet
--390 -50 m 2,0,1
- -378 -50 -378 -50 -378 -63 c 128,-1,2
- -378 -76 -378 -76 -390 -76 c 2,3,-1
- -403 -76 l 1,4,-1
- -403 -118 l 1,5,6
- -389 -120 -389 -120 -363.5 -120 c 128,-1,7
- -338 -120 -338 -120 -300 -118 c 1,8,-1
- -300 -143 l 1,9,-1
- -325 -143 l 1,10,-1
- -325 -234 l 1,11,12
- -336 -272 -336 -272 -366 -290 c 0,13,14
- -403 -315 -403 -315 -446 -315 c 0,15,16
- -495 -315 -495 -315 -552 -284 c 0,17,18
- -564 -277 -564 -277 -609 -229 c 0,19,20
- -622 -218 -622 -218 -625 -207 c 0,21,22
- -631 -196 -631 -196 -625.5 -192 c 128,-1,23
- -620 -188 -620 -188 -609 -196 c 1,24,-1
- -550 -253 l 1,25,26
- -501 -287 -501 -287 -454 -287 c 0,27,28
- -421 -287 -421 -287 -391 -270 c 0,29,30
- -367 -256 -367 -256 -356 -218 c 1,31,-1
- -356 -145 l 1,32,-1
- -403 -145 l 1,33,34
- -401 -157 -401 -157 -401 -168 c 0,35,36
- -401 -183 -401 -183 -405 -194 c 0,37,38
- -409 -211 -409 -211 -414.5 -216.5 c 128,-1,39
- -420 -222 -420 -222 -426.5 -230 c 128,-1,40
- -433 -238 -433 -238 -455 -241 c 0,41,42
- -491 -241 -491 -241 -508 -229.5 c 128,-1,43
- -525 -218 -525 -218 -536 -207 c 128,-1,44
- -547 -196 -547 -196 -550 -180.5 c 128,-1,45
- -553 -165 -553 -165 -552 -157 c 0,46,47
- -549 -142 -549 -142 -504 -122 c 1,48,-1
- -504 -64 l 2,49,50
- -504 -56 -504 -56 -492 -53 c 1,51,-1
- -492 -50 l 1,52,-1
- -390 -50 l 2,0,1
--455 -201 m 0,53,54
- -434 -178 -434 -178 -434 -165 c 2,55,-1
- -438 -146 l 1,56,-1
- -489 -146 l 1,57,58
- -518 -155 -518 -155 -520 -159 c 0,59,60
- -523 -172 -523 -172 -510.5 -186.5 c 128,-1,61
- -498 -201 -498 -201 -481 -205 c 1,62,63
- -459 -205 -459 -205 -455 -201 c 0,53,54
--475 -76 m 1,64,-1
- -475 -118 l 1,65,-1
- -438 -118 l 1,66,-1
- -438 -76 l 1,67,-1
- -475 -76 l 1,64,-1
+-285 -50 m 6,0,1
+ -273 -50 -273 -50 -273 -63 c 132,-1,2
+ -273 -76 -273 -76 -285 -76 c 6,3,-1
+ -298 -76 l 5,4,-1
+ -298 -118 l 5,5,6
+ -284 -120 -284 -120 -258.5 -120 c 132,-1,7
+ -233 -120 -233 -120 -195 -118 c 5,8,-1
+ -195 -143 l 5,9,-1
+ -220 -143 l 5,10,-1
+ -220 -234 l 5,11,12
+ -231 -272 -231 -272 -261 -290 c 4,13,14
+ -298 -315 -298 -315 -341 -315 c 4,15,16
+ -390 -315 -390 -315 -447 -284 c 4,17,18
+ -459 -277 -459 -277 -504 -229 c 4,19,20
+ -517 -218 -517 -218 -520 -207 c 4,21,22
+ -526 -196 -526 -196 -520.5 -192 c 132,-1,23
+ -515 -188 -515 -188 -504 -196 c 5,24,-1
+ -445 -253 l 5,25,26
+ -396 -287 -396 -287 -349 -287 c 4,27,28
+ -316 -287 -316 -287 -286 -270 c 4,29,30
+ -262 -256 -262 -256 -251 -218 c 5,31,-1
+ -251 -145 l 5,32,-1
+ -298 -145 l 5,33,34
+ -296 -157 -296 -157 -296 -168 c 4,35,36
+ -296 -183 -296 -183 -300 -194 c 4,37,38
+ -304 -211 -304 -211 -309.5 -216.5 c 132,-1,39
+ -315 -222 -315 -222 -321.5 -230 c 132,-1,40
+ -328 -238 -328 -238 -350 -241 c 4,41,42
+ -386 -241 -386 -241 -403 -229.5 c 132,-1,43
+ -420 -218 -420 -218 -431 -207 c 132,-1,44
+ -442 -196 -442 -196 -445 -180.5 c 132,-1,45
+ -448 -165 -448 -165 -447 -157 c 4,46,47
+ -444 -142 -444 -142 -399 -122 c 5,48,-1
+ -399 -64 l 6,49,50
+ -399 -56 -399 -56 -387 -53 c 5,51,-1
+ -387 -50 l 5,52,-1
+ -285 -50 l 6,0,1
+-350 -201 m 4,53,54
+ -329 -178 -329 -178 -329 -165 c 6,55,-1
+ -333 -146 l 5,56,-1
+ -384 -146 l 5,57,58
+ -413 -155 -413 -155 -415 -159 c 4,59,60
+ -418 -172 -418 -172 -405.5 -186.5 c 132,-1,61
+ -393 -201 -393 -201 -376 -205 c 5,62,63
+ -354 -205 -354 -205 -350 -201 c 4,53,54
+-370 -76 m 5,64,-1
+ -370 -118 l 5,65,-1
+ -333 -118 l 5,66,-1
+ -333 -76 l 5,67,-1
+ -370 -76 l 5,64,-1
 EndSplineSet
-Validated: 1
-Ligature2: "'vatu' Vattu Variants lookup 10-1" uE324 uE204
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10F
+LCarets2: 1 0
+Ligature2: "'vatu' Vattu Variants lookup 10-1" uE324 uE205
 EndChar
 
 StartChar: uE385
@@ -5142,9 +5142,8 @@ SplineSet
  -605 -76 l 1,8,9
 EndSplineSet
 Validated: 33
-Ligature2: "'vatu' Vattu Variants lookup 10-1" uE336 uE204
+Ligature2: "'vatu' Vattu Variants lookup 10-1" uE336 uE205
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE110
 EndChar
 
 StartChar: uE38B
@@ -8071,7 +8070,7 @@ SplineSet
  614 50 614 50 614 25 c 128,-1,1
 EndSplineSet
 Validated: 1
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-160 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-160 dv=0
 EndChar
 
 StartChar: u11320
@@ -9104,7 +9103,7 @@ SplineSet
  243 215 243 215 243 262 c 0,0,1
 EndSplineSet
 Validated: 9
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-80 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-80 dv=0
 EndChar
 
 StartChar: u11333
@@ -9368,7 +9367,7 @@ SplineSet
  760 -95 760 -95 747.5 -99 c 128,-1,103
  735 -103 735 -103 724 -103 c 0,28,29
 EndSplineSet
-Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-50 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-50 dv=0
 EndChar
 
 StartChar: u11338
@@ -11979,6 +11978,17 @@ Width: 0
 Flags: W
 LayerCount: 2
 Substitution2: "Marker rearrangement single substitution 7-1" uE200
+EndChar
+
+StartChar: uE584
+Encoding: 58756 58756 244
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 81 58244 S 1 0 0 1 0 -300 2
+LCarets2: 1 0
+Ligature2: "'vatu' Vattu Variants lookup 10-1" uE524 uE205
 EndChar
 EndChars
 EndSplineFont
