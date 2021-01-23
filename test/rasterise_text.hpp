@@ -3,6 +3,9 @@
 #include <memory>
 #include <filesystem>
 
+using std::string;
+using std::unique_ptr;
+
 const auto typeface_size_pt = 48u;
 
 template <typename E>
