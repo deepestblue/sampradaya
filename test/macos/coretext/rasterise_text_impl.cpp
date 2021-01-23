@@ -204,11 +204,7 @@ public:
                 1,
                 nullptr
             ),
-            [](
-                const void *ref
-            ) {
-                if (ref) CFRelease(ref);
-            }
+            [](const void *ref) { if (ref) CFRelease(ref); }
         );
 
         CGImageDestinationAddImage(
@@ -216,6 +212,7 @@ public:
             image.get(),
             nullptr
         );
+
         throw_if_failed(
             CGImageDestinationFinalize(
                 imageDestination.get()
