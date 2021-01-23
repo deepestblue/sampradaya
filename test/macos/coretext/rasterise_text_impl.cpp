@@ -17,7 +17,7 @@ const auto typeface_file_path = filesystem::path{"../../../src/Sampradaya.ttf"s}
 
 void
 throw_if_failed(bool exp) {
-    static auto l = []() {
+    const static auto l = []() {
         return "Assertion failed."s;
     };
     throw_if_failed(
@@ -58,7 +58,7 @@ private:
     const unique_ptr<const remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
 
     auto
-    create_line(const string &text) {
+    create_line(const string &text) const {
         auto keys = array<const CFStringRef, 1>{
             kCTFontAttributeName
         };
@@ -114,7 +114,7 @@ public:
     ) {}
 
     void
-    operator()(const string &text, const string &output_filename) {
+    operator()(const string &text, const string &output_filename) const {
         const auto line = create_line(text);
 
         const auto context_guard = CFReleaser<CGContextRef>(

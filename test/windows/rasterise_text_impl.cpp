@@ -96,7 +96,7 @@ throw_if_failed(HRESULT hr) {
         : hresult(hr) {}
 
         string
-        operator() () const {
+        operator()() const {
             _com_error com_error(hresult);
             auto s = stringstream{};
             s << "Failure with HRESULT of 0x"s;
@@ -374,7 +374,7 @@ public:
     }
 
     void
-    operator ()(
+    operator()(
         const string &text,
         const string &output_filename
     ) {

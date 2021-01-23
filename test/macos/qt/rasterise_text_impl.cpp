@@ -57,7 +57,7 @@ struct App_font {
     }
 
     QString
-    get_typeface_name() {
+    get_typeface_name() const {
         const auto &list = QFontDatabase::applicationFontFamilies(app_font_id);
         throw_if_failed(! list.isEmpty());
         return list.at(0);
