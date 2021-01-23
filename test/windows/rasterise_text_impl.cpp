@@ -377,7 +377,7 @@ public:
     operator()(
         const string &text,
         const string &output_filename
-    ) {
+    ) const {
         const auto dwrite_text_layout = create_dwrite_text_layout(
             dwrite_factory,
             text_format,
@@ -467,7 +467,7 @@ Renderer::Renderer(
 void
 Renderer::operator()(
     const string &text,
-    const string &output_filename) {
+    const string &output_filename) const {
     (*p_impl)(
         text,
         output_filename

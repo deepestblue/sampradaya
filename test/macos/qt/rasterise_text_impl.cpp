@@ -18,7 +18,9 @@ using namespace std;
 const auto typeface_file_path = filesystem::path{"../../src/Sampradaya.ttf"s};
 
 void
-throw_if_failed(bool exp) {
+throw_if_failed(
+    bool exp
+) {
     static auto l = []() {
         return "Assertion failed."s;
     };
@@ -36,7 +38,12 @@ throw_if_failed(bool exp) {
 //
 struct Or_void {};
 template<typename T>
-T &&operator ,(T &&x, Or_void) { return forward<T>(x); }
+T &&operator ,(
+    T &&x,
+    Or_void
+) {
+    return forward<T>(x);
+}
 
 struct App_font {
     App_font() :
@@ -52,13 +59,17 @@ struct App_font {
     }
     ~App_font() {
         static_cast<void>(
-            QFontDatabase::removeApplicationFont(app_font_id)
+            QFontDatabase::removeApplicationFont(
+                app_font_id
+            )
         );
     }
 
     QString
     get_typeface_name() const {
-        const auto &list = QFontDatabase::applicationFontFamilies(app_font_id);
+        const auto &list = QFontDatabase::applicationFontFamilies(
+            app_font_id
+        );
         throw_if_failed(! list.isEmpty());
         return list.at(0);
     }
@@ -69,12 +80,26 @@ private:
 
 class Renderer::impl {
 public:
-    impl(int argc, char *argv[])
-    : app(argc, argv)
-    , qfont(app_font.get_typeface_name(), static_cast<int>(typeface_size_pt))
-    , metrics(qfont)
-    , dummy(1, 1, QImage::Format_RGB32) // Has to be non-zero sized for QPainter::begin(…) to succeed
-    {
+    impl(
+        int argc,
+        char *argv[]
+    ) :
+    app(
+        argc,
+        argv
+    ),
+    qfont(
+        app_font.get_typeface_name(),
+        static_cast<int>(typeface_size_pt)
+    ),
+    metrics(
+        qfont
+    ),
+    dummy(
+        1, // Has to be non-zero sized for QPainter::begin(…) to succeed
+        1,
+        QImage::Format_RGB32
+    ) {
 #ifdef DEBUG
         const auto typeface_name = app_font.get_typeface_name().toStdString();
         auto metrics_format = format{"Typeface: %1%, ascent: %2%, descent: %3%, leading: %4%."s};
@@ -82,29 +107,51 @@ public:
 #endif
 
         qfont.setStyleStrategy(
-            static_cast<QFont::StyleStrategy>(QFont::NoAntialias | QFont::NoFontMerging)
+            static_cast<QFont::StyleStrategy>(
+                QFont::NoAntialias | QFont::NoFontMerging
+            )
         );
     }
 
     void
-    operator()(const string &text, const string &output_filename) {
-        const auto qtext = QString::fromStdString(text);
+    operator()(
+        const string &text,
+        const string &output_filename
+    ) {
+        const auto qtext = QString::fromStdString(
+            text
+        );
 
-        const auto bounding_rect = get_bounding_rect(qtext);
-        const auto image = render_text(qtext, bounding_rect);
+        const auto bounding_rect = get_bounding_rect(
+            qtext
+        );
+        const auto image = render_text(
+            qtext,
+            bounding_rect
+        );
 
         throw_if_failed(
-            image.save(QString::fromStdString(output_filename))
+            image.save(
+                QString::fromStdString(
+                    output_filename
+                )
+            )
         );
     }
 
 private:
     QRect
-    get_bounding_rect(const QString &qtext) {
+    get_bounding_rect(
+        const QString &qtext
+    ) {
         return paint_on(
             dummy,
             [&]() {
-                const auto r = painter.boundingRect(QRect{}, 0, qtext);
+                const auto r = painter.boundingRect(
+                    QRect{},
+                    0,
+                    qtext
+                );
 #ifdef DEBUG
                 auto bounding_rect_format = format{"For string %1%, Width: %2%, Height: %3%."s};
                 cout << bounding_rect_format % qtext.toStdString() % r.width() % r.height() << '\n';
@@ -115,7 +162,10 @@ private:
     }
 
     QImage
-    render_text(const QString &qtext, const QRect &bounding_rect) {
+    render_text(
+        const QString &qtext,
+        const QRect &bounding_rect
+    ) {
         auto image = QImage{
             bounding_rect.width(),
             bounding_rect.height() + 20, // We seem to need a bit more height on Qt. Probably a typeface bug???
@@ -139,16 +189,28 @@ private:
 
     template <typename F>
     auto
-    paint_on(QImage &image, F fn) -> decltype(fn()) {
+    paint_on(
+        QImage &image,
+        F fn
+    ) -> decltype(fn()) {
         throw_if_failed(
-            painter.begin(&image)
+            painter.begin(
+                &image
+            )
         );
-        painter.setFont(qfont);
-        const auto result = (fn(), Or_void{});
+        painter.setFont(
+            qfont
+        );
+        const auto result = (
+            fn(),
+            Or_void{}
+        );
         throw_if_failed(
             painter.end()
         );
-        return static_cast<decltype(fn())>(result);
+        return static_cast<decltype(fn())>(
+            result
+        );
     }
 
     QApplication app;
@@ -174,7 +236,8 @@ Renderer::Renderer(
 void
 Renderer::operator()(
     const string &text,
-    const string &output_filename) {
+    const string &output_filename
+) const {
     (*p_impl)(
         text,
         output_filename

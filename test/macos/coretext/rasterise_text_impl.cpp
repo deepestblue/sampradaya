@@ -16,7 +16,9 @@ using namespace std;
 const auto typeface_file_path = filesystem::path{"../../../src/Sampradaya.ttf"s};
 
 void
-throw_if_failed(bool exp) {
+throw_if_failed(
+    bool exp
+) {
     const static auto l = []() {
         return "Assertion failed."s;
     };
@@ -28,14 +30,21 @@ throw_if_failed(bool exp) {
 
 template<typename T, typename U>
 auto
-ConstCFReleaser(const U &u) {
+ConstCFReleaser(
+    const U &u
+) {
     auto ret = unique_ptr<const remove_pointer_t<T>, decltype(&CFRelease)>(
         u,
         [](const void *ref) {
-            if (ref) CFRelease(ref);
+            if (! ref) {
+                return;
+            }
+            CFRelease(ref);
         }
     );
-    throw_if_failed(ret.get());
+    throw_if_failed(
+        ret.get()
+    );
     return ret;
 }
 
@@ -49,7 +58,9 @@ CFReleaser(
         u,
         v
     );
-    throw_if_failed(ret.get());
+    throw_if_failed(
+        ret.get()
+    );
     return ret;
 }
 
@@ -58,7 +69,9 @@ private:
     const unique_ptr<const remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
 
     auto
-    create_line(const string &text) const {
+    create_line(
+        const string &text
+    ) const {
         auto keys = array<const CFStringRef, 1>{
             kCTFontAttributeName
         };
@@ -95,7 +108,9 @@ private:
         );
 
         auto line = ConstCFReleaser<CTLineRef>(
-            CTLineCreateWithAttributedString(attrString.get())
+            CTLineCreateWithAttributedString(
+                attrString.get()
+            )
         );
 
         return line;
@@ -114,8 +129,13 @@ public:
     ) {}
 
     void
-    operator()(const string &text, const string &output_filename) const {
-        const auto line = create_line(text);
+    operator()(
+        const string &text,
+        const string &output_filename
+    ) const {
+        const auto line = create_line(
+            text
+        );
 
         const auto context_guard = CFReleaser<CGContextRef>(
             CGBitmapContextCreate(
@@ -129,7 +149,7 @@ public:
             ),
             CGContextRelease
         );
-        auto context = context_guard.get();
+        const auto &context = context_guard.get();
 
         CGContextSetGrayFillColor(
             context,
@@ -155,7 +175,9 @@ public:
         );
 
         const auto image = CFReleaser<CGImageRef>(
-            CGBitmapContextCreateImage(context),
+            CGBitmapContextCreateImage(
+                context
+            ),
             CGImageRelease
         );
 
@@ -182,7 +204,9 @@ public:
                 1,
                 nullptr
             ),
-            [](const void *ref) {
+            [](
+                const void *ref
+            ) {
                 if (ref) CFRelease(ref);
             }
         );
@@ -193,7 +217,9 @@ public:
             nullptr
         );
         throw_if_failed(
-            CGImageDestinationFinalize(imageDestination.get())
+            CGImageDestinationFinalize(
+                imageDestination.get()
+            )
         );
     }
 };
@@ -211,7 +237,7 @@ Renderer::Renderer(
 void
 Renderer::operator()(
     const string &text,
-    const string &output_filename) {
+    const string &output_filename) const {
     (*p_impl)(
         text,
         output_filename

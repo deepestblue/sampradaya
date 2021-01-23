@@ -25,7 +25,7 @@ public:
     operator()(
         const string &text,
         const string &output_filename
-    );
+    ) const;
 
     Renderer(
         int argc,
