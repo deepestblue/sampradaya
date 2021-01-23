@@ -71,6 +71,17 @@ CFReleaser(
     return ret;
 }
 
+auto
+create_font_from_file() {
+    return ConstCFReleaser<CTFontRef>(
+            CTFontCreateWithName(
+                CFSTR("Sampradaya"),
+                typeface_size_pt,
+                nullptr
+            )
+    );
+}
+
 class Renderer::impl {
 private:
     const unique_ptr<const remove_pointer_t<CTFontRef>, decltype(&CFRelease)> font;
@@ -126,13 +137,7 @@ private:
 public:
     impl(int , char *[])
     : font(
-        ConstCFReleaser<CTFontRef>(
-            CTFontCreateWithName(
-                CFSTR("Sampradaya"),
-                48u,
-                nullptr
-            )
-        )
+        create_font_from_file()
     ) {}
 
     auto
