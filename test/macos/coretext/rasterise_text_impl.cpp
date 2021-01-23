@@ -70,17 +70,24 @@ CFReleaser(
 }
 
 auto
+CFStringFromString(
+    const string &in
+) {
+    return ConstCFReleaser<CFStringRef>(
+            CFStringCreateWithBytes(
+                nullptr,
+                reinterpret_cast<const unsigned char *>(in.c_str()),
+                static_cast<long>(in.length()),
+                kCFStringEncodingUTF8,
+                false
+            )
+        );
+}
+
+auto
 create_font_from_file() {
     const auto &typeface_file_path_string = absolute(typeface_file_path).string();
-    const auto typefacePathAsCFString = ConstCFReleaser<CFStringRef>(
-        CFStringCreateWithBytes(
-            nullptr,
-            reinterpret_cast<const unsigned char *>(typeface_file_path_string.c_str()),
-            static_cast<long>(typeface_file_path_string.length()),
-            kCFStringEncodingUTF8,
-            false
-        )
-    );
+    const auto typefacePathAsCFString = CFStringFromString(typeface_file_path_string);
 
     const auto typefaceURL = ConstCFReleaser<CFURLRef>(
         CFURLCreateWithFileSystemPath(
@@ -144,15 +151,7 @@ private:
             )
         );
 
-        const auto textAsCFString = ConstCFReleaser<CFStringRef>(
-            CFStringCreateWithBytes(
-                nullptr,
-                reinterpret_cast<const unsigned char *>(text.c_str()),
-                static_cast<long>(text.length()),
-                kCFStringEncodingUTF8,
-                false
-            )
-        );
+        const auto textAsCFString = CFStringFromString(text);
 
         const auto attrString = ConstCFReleaser<CFAttributedStringRef>(
             CFAttributedStringCreate(
