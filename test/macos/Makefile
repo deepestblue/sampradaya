@@ -8,7 +8,7 @@ build: ${TYPEFACENAME}.ttf
 install: build
 	install ${TYPEFACENAME}.ttf ~/Library/Fonts/
 
-CXXFLAGS := -O3 -std=c++2a -Weverything -ferror-limit=1 -ftemplate-backtrace-limit=1 -Wno-missing-prototypes -Wno-padded -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-disabled-macro-expansion -Wno-global-constructors -Wno-exit-time-destructors -Wno-float-equal -Wno-poison-system-directories
+CXXFLAGS := -O3 -std=c++2a -Weverything -ferror-limit=1 -ftemplate-backtrace-limit=1 -Wno-missing-prototypes -Wno-padded -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-disabled-macro-expansion -Wno-global-constructors -Wno-exit-time-destructors -Wno-float-equal -Wno-poison-system-directories --system-header-prefix=boost/
 LDFLAGS := -ferror-limit=1
 QTOBJECTS := rasterise_text.o qt/rasterise_text_impl.o
 CORETEXTOBJECTS := rasterise_text.o coretext/rasterise_text_impl.o

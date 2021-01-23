@@ -1,15 +1,22 @@
 #include <exception>
-#include <iostream>
 #include <array>
 #include <filesystem>
+#include <cmath>
+
+//#define DEBUG 1
+
+#ifdef DEBUG
+#include <iostream>
+#include <boost/format.hpp>
+#endif
+
+using namespace std;
 
 #include <CoreServices/CoreServices.h>
 #include <CoreFoundation/CoreFoundation.h>
 #include <CoreText/CoreText.h>
 #include <CoreGraphics/CoreGraphics.h>
 #include <ImageIO/ImageIO.h>
-
-using namespace std;
 
 #include "../../rasterise_text.hpp"
 
@@ -137,11 +144,24 @@ public:
             text
         );
 
+        double ascent, descent;
+        auto width = CTLineGetTypographicBounds(
+            line.get(),
+            &ascent,
+            &descent,
+            nullptr
+        );
+
+#ifdef DEBUG
+        auto bounding_rect_format = boost::format{"For string %1%, Width: %2%, Ascent: %3%, Descent: %4%."s};
+        cout << bounding_rect_format % text % width % ascent % descent << '\n';
+#endif
+
         const auto context_guard = CFReleaser<CGContextRef>(
             CGBitmapContextCreate(
                 nullptr,
-                500u,
-                150u,
+                static_cast<size_t>(ceil(width)),
+                static_cast<size_t>(ceil(ascent + descent + 25)),
                 8u,
                 0u,
                 CGColorSpaceCreateDeviceRGB(),
@@ -160,14 +180,18 @@ public:
             context, CGRectMake(
                 0u,
                 0u,
-                500u,
-                150u
+                ceil(width),
+                ascent + descent + 25 // We seem to need a bit more height on CoreText. Probably a typeface bug???
             )
+        );
+        CGContextSetShouldSmoothFonts(
+            context,
+            false
         );
         CGContextSetTextPosition(
             context,
             0u,
-            100u
+            descent + 25
         );
         CTLineDraw(
             line.get(),
