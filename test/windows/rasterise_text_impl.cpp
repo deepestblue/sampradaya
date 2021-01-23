@@ -34,8 +34,6 @@ using D2D1::RectF;
 using D2D1::PixelFormat;
 using D2D1::Matrix3x2F;
 
-const auto typeface_file_path = filesystem::path{"../../src/Sampradaya.ttf"s};
-
 auto
 throw_if_failed(int win32_return_code) {
     const auto win32_error_msg = [] {

@@ -20,8 +20,6 @@ using namespace std;
 
 #include "../../rasterise_text.hpp"
 
-const auto typeface_file_path = filesystem::path{"../../../src/Sampradaya.ttf"s};
-
 auto
 throw_if_failed(
     bool exp
@@ -73,12 +71,51 @@ CFReleaser(
 
 auto
 create_font_from_file() {
+    const auto &typeface_file_path_string = absolute(typeface_file_path).string();
+    const auto typefacePathAsCFString = ConstCFReleaser<CFStringRef>(
+        CFStringCreateWithBytes(
+            nullptr,
+            reinterpret_cast<const unsigned char *>(typeface_file_path_string.c_str()),
+            static_cast<long>(typeface_file_path_string.length()),
+            kCFStringEncodingUTF8,
+            false
+        )
+    );
+
+    const auto typefaceURL = ConstCFReleaser<CFURLRef>(
+        CFURLCreateWithFileSystemPath(
+            nullptr,
+            typefacePathAsCFString.get(),
+            kCFURLPOSIXPathStyle,
+            0
+        )
+    );
+
+    const auto font_descriptors = ConstCFReleaser<CFArrayRef>(
+        CTFontManagerCreateFontDescriptorsFromURL(
+            typefaceURL.get()
+        )
+    );
+
+    throw_if_failed(
+        CFArrayGetCount(
+            font_descriptors.get()
+        ) > 0
+    );
+
+    const auto font_descriptor = static_cast<CTFontDescriptorRef>(
+        CFArrayGetValueAtIndex(
+            font_descriptors.get(),
+            0
+        )
+    );
+
     return ConstCFReleaser<CTFontRef>(
-            CTFontCreateWithName(
-                CFSTR("Sampradaya"),
-                typeface_size_pt,
-                nullptr
-            )
+        CTFontCreateWithFontDescriptor(
+            font_descriptor,
+            typeface_size_pt,
+            nullptr
+        )
     );
 }
 
@@ -110,7 +147,7 @@ private:
         const auto textAsCFString = ConstCFReleaser<CFStringRef>(
             CFStringCreateWithBytes(
                 nullptr,
-                reinterpret_cast<unsigned char *>(const_cast<char *>(text.c_str())),
+                reinterpret_cast<const unsigned char *>(text.c_str()),
                 static_cast<long>(text.length()),
                 kCFStringEncodingUTF8,
                 false

@@ -5,7 +5,9 @@
 
 using std::string;
 using std::unique_ptr;
+using std::filesystem::path;
 
+const auto typeface_file_path = path{"../../src/Sampradaya.ttf"s};
 const auto typeface_size_pt = 48u;
 
 template <typename E>
