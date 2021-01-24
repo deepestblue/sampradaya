@@ -6,7 +6,7 @@ TYPEFACENAME := ../../src/Sampradaya
 build: ${TYPEFACENAME}.ttf
 
 install: build
-	install ${TYPEFACENAME}.ttf ~/Library/Fonts/
+	install -C -m 644 ${TYPEFACENAME}.ttf ~/Library/Fonts/
 
 CXXFLAGS := -O3 -std=c++2a -Weverything -ferror-limit=1 -ftemplate-backtrace-limit=1 -Wno-missing-prototypes -Wno-padded -Wno-c++98-compat -Wno-c++98-compat-pedantic -Wno-disabled-macro-expansion -Wno-global-constructors -Wno-exit-time-destructors -Wno-float-equal -Wno-poison-system-directories --system-header-prefix=boost/
 LDFLAGS := -ferror-limit=1
