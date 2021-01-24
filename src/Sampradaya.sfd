@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 0
 CreationTime: 1358746353
-ModificationTime: 1611464235
+ModificationTime: 1611476783
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -53,8 +53,6 @@ OS2SupYOff: 143
 OS2StrikeYSize: 51
 OS2StrikeYPos: 256
 OS2Vendor: 'pyrs'
-OS2CodePages: 00000001.00000000
-OS2UnicodeRanges: 80000003.00000000.00000000.00000000
 Lookup: 4 0 0 "'akhn' Akhand lookup 0" { "'akhn' Akhand lookup 0 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2 subtable"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 7" { "'rkrf' Rakar Forms lookup 7-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -6877,7 +6875,7 @@ EndChar
 StartChar: u1132A
 Encoding: 70442 70442 136
 Width: 864
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
