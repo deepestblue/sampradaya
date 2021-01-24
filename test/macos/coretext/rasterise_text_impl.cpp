@@ -161,13 +161,11 @@ private:
             )
         );
 
-        auto line = ConstCFReleaser<CTLineRef>(
+        return ConstCFReleaser<CTLineRef>(
             CTLineCreateWithAttributedString(
                 attrString.get()
             )
         );
-
-        return line;
     }
 
 public:
@@ -185,24 +183,21 @@ public:
             text
         );
 
-        double ascent, descent;
-        auto width = CTLineGetTypographicBounds(
+        const auto bounding_box = CTLineGetBoundsWithOptions(
             line.get(),
-            &ascent,
-            &descent,
-            nullptr
+            kCTLineBoundsUseGlyphPathBounds
         );
 
 #ifdef DEBUG
-        auto bounding_rect_format = boost::format{"For string %1%, Width: %2%, Ascent: %3%, Descent: %4%."s};
-        cout << bounding_rect_format % text % width % ascent % descent << '\n';
+        auto bounding_box_format = boost::format{"For string %1%, bounding box: X: %2%, Width: %3%, Y: %4%, Height: %5%."s};
+        cout << bounding_box_format % text % bounding_box.origin.x % bounding_box.size.width % bounding_box.origin.y % bounding_box.size.height << '\n';
 #endif
 
         const auto context_guard = CFReleaser<CGContextRef>(
             CGBitmapContextCreate(
                 nullptr,
-                static_cast<size_t>(ceil(width)),
-                static_cast<size_t>(ceil(ascent + descent + 25)),
+                static_cast<size_t>(ceil(bounding_box.size.width)),
+                static_cast<size_t>(ceil(bounding_box.size.height)),
                 8u,
                 0u,
                 CGColorSpaceCreateDeviceRGB(),
@@ -218,21 +213,22 @@ public:
             1.
         );
         CGContextFillRect(
-            context, CGRectMake(
+            context,
+            CGRectMake(
                 0u,
                 0u,
-                ceil(width),
-                ascent + descent + 25 // We seem to need a bit more height on CoreText. Probably a typeface bug???
+                static_cast<size_t>(ceil(bounding_box.size.width)),
+                static_cast<size_t>(ceil(bounding_box.size.height))
             )
         );
-        CGContextSetShouldSmoothFonts(
+        CGContextSetShouldAntialias(
             context,
             false
         );
         CGContextSetTextPosition(
             context,
-            0u,
-            descent + 25
+            -bounding_box.origin.x,
+            -bounding_box.origin.y
         );
         CTLineDraw(
             line.get(),
