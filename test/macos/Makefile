@@ -2,6 +2,8 @@ TYPEFACENAME := ../../src/Sampradaya
 
 %.ttf: %.sfd
 	../../src/sfd2ttf.pe ${TYPEFACENAME}
+	gftools-fix-unwanted-tables.py ${TYPEFACENAME}.ttf
+	gftools fix-dsig --autofix ${TYPEFACENAME}.ttf
 
 build: ${TYPEFACENAME}.ttf
 

@@ -139,23 +139,19 @@ public:
     }
 
 private:
-    QRect
+    QRectF
     get_bounding_rect(
         const QString &qtext
     ) {
         return paint_on(
             dummy,
             [&]() {
-                const auto r = painter.boundingRect(
-                    QRect{},
-                    0,
-                    qtext
-                );
+                const auto rect = metrics.tightBoundingRect(qtext);
 #ifdef DEBUG
-                auto bounding_rect_format = boost::format{"For string %1%, Width: %2%, Height: %3%."s};
-                cout << bounding_rect_format % qtext.toStdString() % r.width() % r.height() << '\n';
+                auto bounding_rect_format = boost::format{"For string %1%, X: %2%, Width: %3%, Y: %4%, Height: %5%."s};
+                cout << bounding_rect_format % qtext.toStdString() % rect.x() % rect.width() % rect.y() % rect.height() << '\n';
 #endif
-                return r;
+                return rect;
             }
         );
     }
@@ -163,11 +159,11 @@ private:
     QImage
     render_text(
         const QString &qtext,
-        const QRect &bounding_rect
+        const QRectF &bounding_rect
     ) {
         auto image = QImage{
-            bounding_rect.width(),
-            bounding_rect.height() + 20, // We seem to need a bit more height on Qt. Probably a typeface bug???
+            static_cast<int>(ceil(bounding_rect.width())),
+            static_cast<int>(ceil(bounding_rect.height() + 35)), // We seem to need a bit more height on Qt. Probably a typeface bug?
             QImage::Format_RGB32
         };
         image.fill(
@@ -177,8 +173,8 @@ private:
             image,
             [&]() {
                 painter.drawText(
-                    0,
-                    bounding_rect.height() - metrics.descent() - metrics.leading() + 5, // What's going on here?
+                    - static_cast<int>(ceil(bounding_rect.x())),
+                    - static_cast<int>(ceil(bounding_rect.y())) + 5, // What's going on here?
                     qtext
                 );
             }

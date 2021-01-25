@@ -227,19 +227,6 @@ create_dwrite_text_layout(
         )
     );
 
-#ifdef DEBUG
-    DWRITE_TEXT_METRICS metrics;
-    throw_if_failed(
-        dwrite_text_layout->GetMetrics(
-            &metrics
-        )
-    );
-
-    cout << "Metrics for "s << text << " are as follows."s << '\n';
-    cout << "Width: "s << metrics.width << '\n';
-    cout << "Height: "s << metrics.height << '\n';
-#endif
-
     return dwrite_text_layout;
 }
 
@@ -394,11 +381,26 @@ public:
             )
         );
 
+        auto overhang_metrics = DWRITE_OVERHANG_METRICS{};
+        throw_if_failed(
+            dwrite_text_layout->GetOverhangMetrics(
+                &overhang_metrics
+            )
+        );
+
+#ifdef DEBUG
+        cout << "Metrics for "s << text << " are as follows:"s << '\n';
+        cout << "Width: "s << metrics.width << '\n';
+        cout << "Height: "s << metrics.height << '\n';
+        cout << "Overhang left: "s << overhang_metrics.left << '\n';
+        cout << "Overhang top: "s << overhang_metrics.top << '\n';
+#endif
+
         auto wic_bitmap = ComPtr<IWICBitmap>{};
         throw_if_failed(
             wic_factory->CreateBitmap(
-                static_cast<unsigned int>(metrics.width),
-                static_cast<unsigned int>(metrics.height),
+                static_cast<unsigned int>(metrics.width - overhang_metrics.left),
+                static_cast<unsigned int>(metrics.height - overhang_metrics.top),
                 GUID_WICPixelFormat32bppBGR,
                 WICBitmapCacheOnDemand,
                 &wic_bitmap
@@ -423,7 +425,10 @@ public:
             )
         );
         render_target->DrawTextLayout(
-            D2D1_POINT_2F{},
+            D2D1_POINT_2F{
+                overhang_metrics.left,
+                overhang_metrics.top
+            },
             dwrite_text_layout.Get(),
             black_brush.Get(),
             D2D1_DRAW_TEXT_OPTIONS_NONE
