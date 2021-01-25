@@ -3,7 +3,7 @@ FontName: Sampradaya
 FullName: Sampradaya
 FamilyName: Sampradaya
 Weight: Regular
-Copyright: Copyright 2014-2021 Ambarish Sridharanarayanan.\n
+Copyright: Copyright 2014-2021 Ambarish Sridharanarayanan.
 Version: 0.9
 ItalicAngle: 0
 UnderlinePosition: -126
@@ -11,7 +11,7 @@ UnderlineWidth: 50
 Ascent: 819
 Descent: 205
 InvalidEm: 0
-sfntRevision: 0x00010000
+sfntRevision: 0x0000e666
 LayerCount: 2
 Layer: 0 1 "Back" 1
 Layer: 1 1 "Fore" 0
@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1611506037
+ModificationTime: 1611542178
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -493,7 +493,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 244
+BeginChars: 1114113 245
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -537,6 +537,7 @@ EndChar
 StartChar: u0951
 Encoding: 2385 2385 3
 Width: 0
+GlyphClass: 4
 Flags: MW
 LayerCount: 2
 Fore
@@ -557,6 +558,7 @@ EndChar
 StartChar: u0952
 Encoding: 2386 2386 4
 Width: 0
+GlyphClass: 4
 Flags: MW
 LayerCount: 2
 Fore
@@ -3766,7 +3768,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 123 70428 S 0.6 0 0 0.55 -471 -272 2
-PairPos2: "'dist' Distance lookup 3-1" uE535 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-125 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup 3-1" uE535 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-125 dh=0 dv=0
 Substitution2: "Single Substitution lookup 0-1" uE51C
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131C
@@ -6101,8 +6103,8 @@ SplineSet
  154 288 154 288 143 289 c 128,-1,113
  132 290 132 290 124 278.5 c 128,-1,114
 EndSplineSet
-PairPos2: "'dist' Distance lookup 2-1" uE31C dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup 2-1" uE31D dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup 2-1" uE31C dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup 2-1" uE31D dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
 EndChar
 
 StartChar: u1131D
@@ -8772,7 +8774,7 @@ Fore
 SplineSet
 302 521 m 0,0,1
  302 469 302 469 245 448 c 0,2,3
- 220 440 220 440 189 440 c 132,-1,4
+ 220 440 220 440 189 440 c 128,-1,4
  158 440 158 440 131 450.5 c 128,-1,5
  104 461 104 461 94.5 475.5 c 128,-1,6
  85 490 85 490 85 518 c 24,7,8
@@ -8791,7 +8793,6 @@ SplineSet
  250 501 250 501 250 520 c 128,-1,24
  250 539 250 539 230 552 c 0,15,16
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: u11301
@@ -10211,6 +10212,7 @@ StartChar: u1CF4
 Encoding: 7412 7412 243
 Width: 0
 VWidth: 1000
+GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -10227,6 +10229,13 @@ SplineSet
  -272 448 -272 448 -318 499 c 132,-1,15
  -364 550 -364 550 -371 632 c 28,0,-1
 EndSplineSet
+EndChar
+
+StartChar: uni00A0
+Encoding: 160 160 244
+Width: 252
+Flags: W
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont
