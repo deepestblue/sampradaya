@@ -38,7 +38,7 @@ Param(
     }
 
     MkDirIfNotExists (Split-Path -Path $diffPath)
-    $diff.ToFile($diffPath, $([ImageFormat]::Bmp));
+    $diff.ToFile($diffPath, $([ImageFormat]::Png));
 }
 
 $tmpDir = New-TemporaryDirectory
