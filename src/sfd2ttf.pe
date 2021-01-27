@@ -1,4 +1,4 @@
-#!/Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge
+#!/usr/bin/env fontforge
 
-Open($1 + ".sfd")
-Generate($1 + ".ttf")
+Open($1)
+Generate($2)

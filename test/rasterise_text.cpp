@@ -2,6 +2,7 @@
 #pragma warning(disable: 5045)
 #endif
 
+#include <cstdlib>
 #include <string>
 #include <fstream>
 #include <iostream>
@@ -56,9 +57,12 @@ main(
         );
         ++i;
     }
+
+    return EXIT_SUCCESS;
 }
 catch (
     const exception &e
 ) {
     cerr << "Exception thrown: "s << e.what() << '\n';
+    return EXIT_FAILURE;
 }
