@@ -1,0 +1,101 @@
+name: Build & Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Build the typeface
+    runs-on: macos-latest
+    steps:
+      - name: Set up Python environment
+        uses: actions/setup-python@v2
+        with:
+          python-version: "3.8"
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Install dependencies
+        run: |
+          brew install --cask fontforge
+          ln -s /Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge /usr/local/bin/
+          pip install gftools
+        env:
+          HOMEBREW_NO_INSTALL_CLEANUP: 1
+      - name: Make TTF file
+        run: |
+          ./sfd2ttf.pe Sampradaya.sfd Sampradaya.ttf
+          gftools fix-unwanted-tables Sampradaya.ttf
+          gftools fix-dsig --autofix Sampradaya.ttf
+        working-directory: src
+      - name: Upload typeface file
+        uses: actions/upload-artifact@v2
+        with:
+          name: TTF file
+          path: src/Sampradaya.ttf
+          retention-days: 1
+  test_macos:
+    needs: build
+    name: Compare rasterised images on MacOS
+    runs-on: macos-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Download typeface file
+        uses: actions/download-artifact@v2
+        with:
+          name: TTF file
+          path: src
+      - name: Install dependencies
+        run: brew install qt5
+        env:
+          HOMEBREW_NO_INSTALL_CLEANUP: 1
+      - name: Build and run test
+        run: make test
+        working-directory: test/macos
+  test_windows:
+    needs: build
+    name: Compare rasterised images on Windows
+    runs-on: windows-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Native Tools Command Prompt
+        uses: ilammy/msvc-dev-cmd@v1
+      - name: Download typeface file
+        uses: actions/download-artifact@v2
+        with:
+          name: TTF file
+          path: src
+      - name: Build and run test
+        run: nmake test
+        working-directory: test/windows
+  fontbakery:
+    needs: build
+    name: Run Fontbakery
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up Python environment
+        uses: actions/setup-python@v1
+        with:
+          python-version: "3.8"
+      - name: Download typeface file
+        uses: actions/download-artifact@v2
+        with:
+          name: TTF file
+          path: src
+      - name: Run fontbakery TTF checks
+        uses: f-actions/font-bakery@v1
+        with:
+          subcmd: check-universal
+          args: "--html fontbakery.html --loglevel WARN --exclude-checkid glyf_nested_components --exclude-checkid monospace --exclude-checkid trailing_spaces"
+          path: src/Sampradaya.ttf
+      - name: Upload reports
+        uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: Fontbakery reports
+          path: fontbakery.html
+          retention-days: 1

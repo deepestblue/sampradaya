@@ -68,6 +68,10 @@ Get-ChildItem -Path "$tmpDir/actual" -Recurse -File | ForEach-Object {
     Compare-Images $expected $actual $diff
 }
 
+$count = 0
 Get-ChildItem "$tmpDir/diff" -Recurse | ForEach-Object {
+    ++$count
     Write-Output $_.FullName
 }
+
+exit $count

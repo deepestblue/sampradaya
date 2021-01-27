@@ -45,3 +45,4 @@ else
     find diff -type f
     popd > /dev/null
 fi
+exit $count
