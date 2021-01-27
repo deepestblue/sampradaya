@@ -38,7 +38,7 @@ Param(
     }
 
     MkDirIfNotExists (Split-Path -Path $diffPath)
-    $diff.ToFile($diffPath, $([ImageFormat]::Bmp));
+    $diff.ToFile($diffPath, $([ImageFormat]::Png));
 }
 
 $tmpDir = New-TemporaryDirectory
@@ -68,6 +68,10 @@ Get-ChildItem -Path "$tmpDir/actual" -Recurse -File | ForEach-Object {
     Compare-Images $expected $actual $diff
 }
 
+$count = 0
 Get-ChildItem "$tmpDir/diff" -Recurse | ForEach-Object {
+    ++$count
     Write-Output $_.FullName
 }
+
+exit $count

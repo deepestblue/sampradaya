@@ -1,9 +1,7 @@
 TYPEFACENAME := ../../src/Sampradaya
 
 %.ttf: %.sfd
-	../../src/sfd2ttf.pe ${TYPEFACENAME}
-	gftools-fix-unwanted-tables.py ${TYPEFACENAME}.ttf
-	gftools fix-dsig --autofix ${TYPEFACENAME}.ttf
+	../../src/build.sh $@
 
 build: ${TYPEFACENAME}.ttf
 
@@ -35,15 +33,15 @@ regenerate_coretext_masters: build coretext/rasterise_text
 
 regenerate_masters: regenerate_qt_masters regenerate_coretext_masters
 
-test_build: ${BINS}
-
-test: build test_build
+test: ${BINS}
 	./run_tests qt
 	./run_tests coretext
+
+build_and_test: build test
 
 clean:
 	${RM} ${QTOBJECTS} ${CORETEXTOBJECTS} ${BINS}
 	${RM} ${TYPEFACENAME}.ttf
 	-find ${TMPDIR} -iname 'run_tests*' -type d 2>/dev/null | xargs ${RM} -r
 
-.PHONY: build install regenerate_qt_masters test_build test clean
+.PHONY: build install regenerate_qt_masters test build_and_test clean
