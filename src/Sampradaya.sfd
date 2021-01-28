@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1611762896
+ModificationTime: 1611784558
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -67,6 +67,8 @@ Lookup: 1 0 0 "Vowel marker rearrangement single substitution 4" { "Vowel marker
 Lookup: 1 0 0 "Vowel marker rearrangement single substitution 5" { "Vowel marker rearrangement single substitution 5-1"  } []
 Lookup: 1 0 0 "Vowel marker rearrangement single substitution 6" { "Vowel marker rearrangement single substitution 6-1"  } []
 Lookup: 1 0 0 "Vowel marker rearrangement single substitution 7" { "Vowel marker rearrangement single substitution 7-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 1" { "Accent marker rearrangement single substitution 1-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 2" { "Accent marker rearrangement single substitution 2-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 1 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 2 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 3 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -227,116 +229,146 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1" "2"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 7
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 9
  String: 5 uE480
  BString: 6 u1133F
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 1"
  String: 5 uE481
  BString: 6 u1133F
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 2"
  String: 5 uE482
  BString: 6 u1133F
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 3"
  String: 5 uE483
  BString: 6 u11340
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
  String: 5 uE484
  BString: 6 u11340
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 5"
  String: 5 uE485
  BString: 6 u11340
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 6"
  String: 5 uE486
  BString: 6 u1134D
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
+ String: 5 uE487
+ BString: 5 u0951
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 1"
+ String: 5 uE488
+ BString: 5 u0951
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 2"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 7
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 9
  String: 5 uE201
- BString: 0 
+ BString: 0
  FString: 5 uE480
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 1"
  String: 5 uE205
- BString: 0 
+ BString: 0
  FString: 5 uE481
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 2"
  String: 5 uE200
- BString: 0 
+ BString: 0
  FString: 5 uE482
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 3"
  String: 5 uE201
- BString: 0 
+ BString: 0
  FString: 5 uE483
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
  String: 5 uE205
- BString: 0 
+ BString: 0
  FString: 5 uE484
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 5"
  String: 5 uE200
- BString: 0 
+ BString: 0
  FString: 5 uE485
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 6"
  String: 5 uE200
- BString: 0 
+ BString: 0
  FString: 5 uE486
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
+ String: 6 u1133E
+ BString: 0
+ FString: 5 uE487
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 1"
+ String: 6 u1133F
+ BString: 0
+ FString: 5 uE488
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 2"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 7
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 9
  String: 6 u1133F
  BString: 5 uE201
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 1"
  String: 6 u1133F
  BString: 5 uE205
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 2"
  String: 6 u1133F
  BString: 5 uE200
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 3"
  String: 6 u11340
  BString: 5 uE201
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
  String: 6 u11340
  BString: 5 uE205
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 5"
  String: 6 u11340
  BString: 5 uE200
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 6"
  String: 6 u1134D
  BString: 5 uE200
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
+ String: 5 u0951
+ BString: 6 u1133E
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 1"
+ String: 5 u0951
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 2"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 4 1 3
   Class: 6 u11340
@@ -480,12 +512,13 @@ LangName: 1097 "" "" "" "" "+C5oLrgvNC6oLvwuwC6QLvguvC64LzQAA"
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2021, Ambarish Sridharanarayanan (https://github.com/deepestblue/Sampradaya),+AAoA-with Reserved Font Name Sampradaya.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 3 8 2 16 1 65535 3 1
 Encoding: UnicodeFull
+Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 58344 22 10
+WinInfo: 44 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -552,6 +585,8 @@ SplineSet
  -227 459 -227 459 -227 466 c 2,10,-1
  -227 667 l 2,0,1
 EndSplineSet
+Substitution2: "Accent marker rearrangement single substitution 2-1" uE488
+Substitution2: "Accent marker rearrangement single substitution 1-1" uE487
 EndChar
 
 StartChar: u0952
@@ -7735,6 +7770,7 @@ SplineSet
  24 377 l 2,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Accent marker rearrangement single substitution 1-1" u0951
 EndChar
 
 StartChar: u1133F
@@ -7769,6 +7805,7 @@ SplineSet
  -185 413 -185 413 -100 413 c 0,0,1
 EndSplineSet
 Kerns2: 40 -20 "'dist' Distance lookup 2-1" 41 -30 "'dist' Distance lookup 2-1"
+Substitution2: "Accent marker rearrangement single substitution 2-1" u0951
 Substitution2: "Vowel marker rearrangement single substitution 3-1" uE482
 Substitution2: "Vowel marker rearrangement single substitution 2-1" uE481
 Substitution2: "Vowel marker rearrangement single substitution 1-1" uE480
@@ -9928,126 +9965,128 @@ Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE487
+StartChar: uE487
 Encoding: 58503 58503 245
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 1-1" u1133E
 EndChar
 
-StartChar: uniE488
+StartChar: uE488
 Encoding: 58504 58504 246
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 2-1" u1133F
 EndChar
 
-StartChar: uniE489
+StartChar: uE489
 Encoding: 58505 58505 247
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE48A
+StartChar: uE48A
 Encoding: 58506 58506 248
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE48B
+StartChar: uE48B
 Encoding: 58507 58507 249
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE48C
+StartChar: uE48C
 Encoding: 58508 58508 250
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE48D
+StartChar: uE48D
 Encoding: 58509 58509 251
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE48E
+StartChar: uE48E
 Encoding: 58510 58510 252
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE48F
+StartChar: uE48F
 Encoding: 58511 58511 253
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE490
+StartChar: uE490
 Encoding: 58512 58512 254
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE491
+StartChar: uE491
 Encoding: 58513 58513 255
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE492
+StartChar: uE492
 Encoding: 58514 58514 256
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE493
+StartChar: uE493
 Encoding: 58515 58515 257
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE494
+StartChar: uE494
 Encoding: 58516 58516 258
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE495
+StartChar: uE495
 Encoding: 58517 58517 259
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE496
+StartChar: uE496
 Encoding: 58518 58518 260
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE497
+StartChar: uE497
 Encoding: 58519 58519 261
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
-StartChar: uniE498
+StartChar: uE498
 Encoding: 58520 58520 262
 Width: 0
 Flags: W
