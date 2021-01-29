@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1611891771
+ModificationTime: 1611894567
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -8709,6 +8709,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 125 70430 S 0.8 0 0 0.8 -595 -366 2
+Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131E
 Substitution2: "Single Substitution lookup 0-1" uE51E
 EndChar
 
