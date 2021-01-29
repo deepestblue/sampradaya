@@ -3818,6 +3818,7 @@ EndChar
 StartChar: uE203
 Encoding: 57859 57859 42
 Width: 234
+GlyphClass: 3
 Flags: MW
 LayerCount: 2
 Fore
@@ -3855,6 +3856,7 @@ EndChar
 StartChar: uE204
 Encoding: 57860 57860 43
 Width: 235
+GlyphClass: 3
 Flags: MW
 LayerCount: 2
 Fore
@@ -9768,6 +9770,7 @@ EndChar
 StartChar: uE532
 Encoding: 58674 58674 201
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9777,6 +9780,7 @@ EndChar
 StartChar: uE515
 Encoding: 58645 58645 202
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9786,6 +9790,7 @@ EndChar
 StartChar: uE516
 Encoding: 58646 58646 203
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9795,6 +9800,7 @@ EndChar
 StartChar: uE517
 Encoding: 58647 58647 204
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9804,6 +9810,7 @@ EndChar
 StartChar: uE518
 Encoding: 58648 58648 205
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9813,6 +9820,7 @@ EndChar
 StartChar: uE519
 Encoding: 58649 58649 206
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9822,6 +9830,7 @@ EndChar
 StartChar: uE51A
 Encoding: 58650 58650 207
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9831,6 +9840,7 @@ EndChar
 StartChar: uE51B
 Encoding: 58651 58651 208
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9840,6 +9850,7 @@ EndChar
 StartChar: uE51C
 Encoding: 58652 58652 209
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9849,6 +9860,7 @@ EndChar
 StartChar: uE51D
 Encoding: 58653 58653 210
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9858,6 +9870,7 @@ EndChar
 StartChar: uE51E
 Encoding: 58654 58654 211
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9867,6 +9880,7 @@ EndChar
 StartChar: uE51F
 Encoding: 58655 58655 212
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9876,6 +9890,7 @@ EndChar
 StartChar: uE520
 Encoding: 58656 58656 213
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9885,6 +9900,7 @@ EndChar
 StartChar: uE521
 Encoding: 58657 58657 214
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9894,6 +9910,7 @@ EndChar
 StartChar: uE522
 Encoding: 58658 58658 215
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9903,6 +9920,7 @@ EndChar
 StartChar: uE523
 Encoding: 58659 58659 216
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9912,6 +9930,7 @@ EndChar
 StartChar: uE524
 Encoding: 58660 58660 217
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9921,6 +9940,7 @@ EndChar
 StartChar: uE525
 Encoding: 58661 58661 218
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9930,6 +9950,7 @@ EndChar
 StartChar: uE526
 Encoding: 58662 58662 219
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9939,6 +9960,7 @@ EndChar
 StartChar: uE527
 Encoding: 58663 58663 220
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9948,6 +9970,7 @@ EndChar
 StartChar: uE528
 Encoding: 58664 58664 221
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9957,6 +9980,7 @@ EndChar
 StartChar: uE52A
 Encoding: 58666 58666 222
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9966,6 +9990,7 @@ EndChar
 StartChar: uE52B
 Encoding: 58667 58667 223
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9975,6 +10000,7 @@ EndChar
 StartChar: uE52C
 Encoding: 58668 58668 224
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9984,6 +10010,7 @@ EndChar
 StartChar: uE52D
 Encoding: 58669 58669 225
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -9993,6 +10020,7 @@ EndChar
 StartChar: uE52E
 Encoding: 58670 58670 226
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10002,6 +10030,7 @@ EndChar
 StartChar: uE533
 Encoding: 58675 58675 227
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10011,6 +10040,7 @@ EndChar
 StartChar: uE535
 Encoding: 58677 58677 228
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10020,6 +10050,7 @@ EndChar
 StartChar: uE536
 Encoding: 58678 58678 229
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10029,6 +10060,7 @@ EndChar
 StartChar: uE537
 Encoding: 58679 58679 230
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10038,6 +10070,7 @@ EndChar
 StartChar: uE538
 Encoding: 58680 58680 231
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
@@ -10047,6 +10080,7 @@ EndChar
 StartChar: uE539
 Encoding: 58681 58681 232
 Width: 0
+GlyphClass: 3
 Flags: W
 LayerCount: 2
 Fore
