@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1611982150
+ModificationTime: 1611991351
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -60,13 +60,20 @@ Lookup: 4 0 0 "'blwf' Below Base Forms lookup 4 (second stacked layer)" { "'blwf
 Lookup: 1 0 0 "Single Substitution lookup (second stack to third)" { "Single Substitution lookup 0-1"  } []
 Lookup: 6 0 0 "'blwf' Below Base Forms lookup 11 (third stacked layer)" { "'blwf' Below Base Forms lookup 11-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'pstf' Post Base Forms lookup (post yakara)" { "'pstf' Post Base Forms lookup 3 subtable"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 1" { "Vowel marker rearrangement single substitution 1-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 2" { "Vowel marker rearrangement single substitution 2-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 3" { "Vowel marker rearrangement single substitution 3-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 4" { "Vowel marker rearrangement single substitution 4-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 5" { "Vowel marker rearrangement single substitution 5-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 6" { "Vowel marker rearrangement single substitution 6-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 7" { "Vowel marker rearrangement single substitution 7-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 34" { "Accent marker rearrangement single substitution 34-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 35" { "Accent marker rearrangement single substitution 35-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 37" { "Accent marker rearrangement single substitution 37-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 38" { "Accent marker rearrangement single substitution 38-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 40" { "Accent marker rearrangement single substitution 40-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 41" { "Accent marker rearrangement single substitution 41-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 56" { "'psts' Post Base Substitutions lookup 56-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 57" { "'psts' Post Base Substitutions lookup 57-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 58" { "'psts' Post Base Substitutions lookup 58-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 43" { "Accent marker rearrangement single substitution 43-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 44" { "Accent marker rearrangement single substitution 44-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 59" { "'psts' Post Base Substitutions lookup 59-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 60" { "'psts' Post Base Substitutions lookup 60-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 61" { "'psts' Post Base Substitutions lookup 61-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 1" { "Accent marker rearrangement single substitution 1-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 2" { "Accent marker rearrangement single substitution 2-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 4" { "Accent marker rearrangement single substitution 4-1"  } []
@@ -89,17 +96,19 @@ Lookup: 1 0 0 "Accent marker rearrangement single substitution 28" { "Accent mar
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 29" { "Accent marker rearrangement single substitution 29-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 31" { "Accent marker rearrangement single substitution 31-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 32" { "Accent marker rearrangement single substitution 32-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 34" { "Accent marker rearrangement single substitution 34-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 35" { "Accent marker rearrangement single substitution 35-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 37" { "Accent marker rearrangement single substitution 37-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 38" { "Accent marker rearrangement single substitution 38-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 40" { "Accent marker rearrangement single substitution 40-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 41" { "Accent marker rearrangement single substitution 41-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 43" { "Accent marker rearrangement single substitution 43-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 44" { "Accent marker rearrangement single substitution 44-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 1 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 18-1"  "'psts' Post Base Substitutions lookup 18-2"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 2 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup (phase 3 of markers rearrangement)" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 62" { "'psts' Post Base Substitutions lookup 62-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 63" { "'psts' Post Base Substitutions lookup 63-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 64" { "'psts' Post Base Substitutions lookup 64-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Vowel marker rearrangement single substitution 1" { "Vowel marker rearrangement single substitution 1-1"  } []
+Lookup: 1 0 0 "Vowel marker rearrangement single substitution 2" { "Vowel marker rearrangement single substitution 2-1"  } []
+Lookup: 1 0 0 "Vowel marker rearrangement single substitution 3" { "Vowel marker rearrangement single substitution 3-1"  } []
+Lookup: 1 0 0 "Vowel marker rearrangement single substitution 4" { "Vowel marker rearrangement single substitution 4-1"  } []
+Lookup: 1 0 0 "Vowel marker rearrangement single substitution 5" { "Vowel marker rearrangement single substitution 5-1"  } []
+Lookup: 1 0 0 "Vowel marker rearrangement single substitution 6" { "Vowel marker rearrangement single substitution 6-1"  } []
+Lookup: 1 0 0 "Vowel marker rearrangement single substitution 7" { "Vowel marker rearrangement single substitution 7-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 18" { "'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 19" { "'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 20" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 3" { "Single substitution lookup 3-1"  } []
@@ -115,26 +124,23 @@ Lookup: 258 0 0 "'dist' Distance lookup 2" { "'dist' Distance lookup 2-1" [153,1
 Lookup: 258 0 0 "'dist' Distance lookup 3" { "'dist' Distance lookup 3-1" [153,15,2] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: class "'psts' Post Base Substitutions lookup 18-2" 3 3 1 2
-  Class: 5 u0951
-  Class: 5 u0952
-  BClass: 6 u1134D
-  BClass: 100 uE101 uE319 uE31F uE324 uE328 uE32E uE519 uE51F uE524 uE528 uE52E u11319 u1131F u11324 u11328 u1132E
- 1 2 0
-  ClsList: 1
-  BClsList: 1 0
-  FClsList:
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 31"
- 1 2 0
-  ClsList: 2
-  BClsList: 1 0
-  FClsList:
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 32"
-  ClassNames: "All_Others" "1" "2"
-  BClassNames: "All_Others" "1" "2"
-  FClassNames: "All_Others"
+ChainSub2: class "'psts' Post Base Substitutions lookup 64-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup 63-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup 62-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup 61-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup 60-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup 59-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup 58-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup 57-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup 56-1" 0 0 0 0
 EndFPST
 ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
   Class: 6 u1131F
@@ -278,7 +284,7 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1" "2"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 37
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 7
  String: 5 uE480
  BString: 6 u1133F
  FString: 0 
@@ -314,158 +320,8 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 37
  FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
- String: 5 uE487
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 1"
- String: 5 uE488
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 4"
- String: 5 uE489
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 7"
- String: 5 uE48A
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 10"
- String: 5 uE48B
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 13"
- String: 5 uE48C
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 16"
- String: 5 uE48D
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 19"
- String: 5 uE48E
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 22"
- String: 5 uE48F
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 25"
- String: 5 uE490
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 28"
- String: 5 uE491
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 31"
- String: 5 uE492
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 34"
- String: 5 uE493
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 37"
- String: 5 uE494
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 40"
- String: 5 uE495
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 43"
- String: 5 uE496
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 2"
- String: 5 uE497
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 5"
- String: 5 uE498
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 8"
- String: 5 uE499
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 11"
- String: 5 uE49A
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 14"
- String: 5 uE49B
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 17"
- String: 5 uE49C
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 20"
- String: 5 uE49D
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 23"
- String: 5 uE49E
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 26"
- String: 5 uE49F
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 29"
- String: 5 uE4A0
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 32"
- String: 5 uE4A1
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 35"
- String: 5 uE4A2
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 38"
- String: 5 uE4A3
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 41"
- String: 5 uE4A4
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 44"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 37
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 7
  String: 5 uE201
  BString: 0 
  FString: 5 uE480
@@ -501,158 +357,8 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 37
  FString: 5 uE486
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
- String: 6 u1133E
- BString: 0 
- FString: 5 uE487
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 1"
- String: 6 u1133F
- BString: 0 
- FString: 5 uE488
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 4"
- String: 6 u11340
- BString: 0 
- FString: 5 uE489
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 7"
- String: 6 u11341
- BString: 0 
- FString: 5 uE48A
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 10"
- String: 6 u11342
- BString: 0 
- FString: 5 uE48B
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 13"
- String: 6 u11343
- BString: 0 
- FString: 5 uE48C
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 16"
- String: 6 u11344
- BString: 0 
- FString: 5 uE48D
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 19"
- String: 6 u11362
- BString: 0 
- FString: 5 uE48E
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 22"
- String: 6 u11363
- BString: 0 
- FString: 5 uE48F
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 25"
- String: 6 u11357
- BString: 0 
- FString: 5 uE490
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 28"
- String: 6 u1134D
- BString: 0 
- FString: 5 uE491
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 31"
- String: 6 u11302
- BString: 0 
- FString: 5 uE492
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 34"
- String: 6 u11303
- BString: 0 
- FString: 5 uE493
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 37"
- String: 5 u1CF2
- BString: 0 
- FString: 5 uE494
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 40"
- String: 6 u1135D
- BString: 0 
- FString: 5 uE495
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 43"
- String: 6 u1133E
- BString: 0 
- FString: 5 uE496
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 2"
- String: 6 u1133F
- BString: 0 
- FString: 5 uE497
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 5"
- String: 6 u11340
- BString: 0 
- FString: 5 uE498
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 8"
- String: 6 u11341
- BString: 0 
- FString: 5 uE499
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 11"
- String: 6 u11342
- BString: 0 
- FString: 5 uE49A
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 14"
- String: 6 u11343
- BString: 0 
- FString: 5 uE49B
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 17"
- String: 6 u11344
- BString: 0 
- FString: 5 uE49C
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 20"
- String: 6 u11362
- BString: 0 
- FString: 5 uE49D
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 23"
- String: 6 u11363
- BString: 0 
- FString: 5 uE49E
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 26"
- String: 6 u11357
- BString: 0 
- FString: 5 uE49F
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 29"
- String: 6 u1134D
- BString: 0 
- FString: 5 uE4A0
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 32"
- String: 6 u11302
- BString: 0 
- FString: 5 uE4A1
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 35"
- String: 6 u11303
- BString: 0 
- FString: 5 uE4A2
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 38"
- String: 5 u1CF2
- BString: 0 
- FString: 5 uE4A3
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 41"
- String: 6 u1135D
- BString: 0 
- FString: 5 uE4A4
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 44"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 35
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 7
  String: 6 u1133F
  BString: 5 uE201
  FString: 0 
@@ -688,146 +394,6 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 35
  FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
- String: 5 u0951
- BString: 6 u1133E
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 1"
- String: 5 u0951
- BString: 6 u1133F
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 4"
- String: 5 u0951
- BString: 6 u11340
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 7"
- String: 5 u0951
- BString: 6 u11341
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 10"
- String: 5 u0951
- BString: 6 u11342
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 13"
- String: 5 u0951
- BString: 6 u11343
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 16"
- String: 5 u0951
- BString: 6 u11344
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 19"
- String: 5 u0951
- BString: 6 u11362
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 22"
- String: 5 u0951
- BString: 6 u11363
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 25"
- String: 5 u0951
- BString: 6 u11357
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 28"
- String: 5 u0951
- BString: 6 u11302
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 34"
- String: 5 u0951
- BString: 6 u11303
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 37"
- String: 5 u0951
- BString: 5 u1CF2
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 40"
- String: 5 u0951
- BString: 6 u1135D
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 43"
- String: 5 u0952
- BString: 6 u1133E
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 2"
- String: 5 u0952
- BString: 6 u1133F
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 5"
- String: 5 u0952
- BString: 6 u11340
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 8"
- String: 5 u0952
- BString: 6 u11341
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 11"
- String: 5 u0952
- BString: 6 u11342
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 14"
- String: 5 u0952
- BString: 6 u11343
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 17"
- String: 5 u0952
- BString: 6 u11344
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 20"
- String: 5 u0952
- BString: 6 u11362
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 23"
- String: 5 u0952
- BString: 6 u11363
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 26"
- String: 5 u0952
- BString: 6 u11357
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 29"
- String: 5 u0952
- BString: 6 u11302
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 35"
- String: 5 u0952
- BString: 6 u11303
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 38"
- String: 5 u0952
- BString: 5 u1CF2
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 41"
- String: 5 u0952
- BString: 6 u1135D
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 44"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 4 1 3
   Class: 6 u11340
@@ -977,7 +543,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 66 22 10
+WinInfo: 22 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1044,20 +610,20 @@ SplineSet
  -227 459 -227 459 -227 466 c 2,10,-1
  -227 667 l 2,0,1
 EndSplineSet
-Substitution2: "Accent marker rearrangement single substitution 43-1" uE495
-Substitution2: "Accent marker rearrangement single substitution 40-1" uE494
-Substitution2: "Accent marker rearrangement single substitution 37-1" uE493
-Substitution2: "Accent marker rearrangement single substitution 34-1" uE492
-Substitution2: "Accent marker rearrangement single substitution 31-1" uE491
-Substitution2: "Accent marker rearrangement single substitution 28-1" uE490
-Substitution2: "Accent marker rearrangement single substitution 25-1" uE48F
-Substitution2: "Accent marker rearrangement single substitution 22-1" uE48E
-Substitution2: "Accent marker rearrangement single substitution 19-1" uE48D
-Substitution2: "Accent marker rearrangement single substitution 16-1" uE48C
-Substitution2: "Accent marker rearrangement single substitution 13-1" uE48B
-Substitution2: "Accent marker rearrangement single substitution 10-1" uE48A
-Substitution2: "Accent marker rearrangement single substitution 7-1" uE489
-Substitution2: "Accent marker rearrangement single substitution 4-1" uE488
+Substitution2: "Accent marker rearrangement single substitution 43-1" uE4B1
+Substitution2: "Accent marker rearrangement single substitution 40-1" uE4AE
+Substitution2: "Accent marker rearrangement single substitution 37-1" uE4AB
+Substitution2: "Accent marker rearrangement single substitution 34-1" uE4A8
+Substitution2: "Accent marker rearrangement single substitution 31-1" uE4A5
+Substitution2: "Accent marker rearrangement single substitution 28-1" uE4A2
+Substitution2: "Accent marker rearrangement single substitution 25-1" uE49F
+Substitution2: "Accent marker rearrangement single substitution 22-1" uE49C
+Substitution2: "Accent marker rearrangement single substitution 19-1" uE499
+Substitution2: "Accent marker rearrangement single substitution 16-1" uE496
+Substitution2: "Accent marker rearrangement single substitution 13-1" uE493
+Substitution2: "Accent marker rearrangement single substitution 10-1" uE490
+Substitution2: "Accent marker rearrangement single substitution 7-1" uE48D
+Substitution2: "Accent marker rearrangement single substitution 4-1" uE48A
 Substitution2: "Accent marker rearrangement single substitution 1-1" uE487
 EndChar
 
@@ -1080,21 +646,21 @@ SplineSet
  -354 -60 -354 -60 -354 -36 c 256,0,1
 EndSplineSet
 Validated: 1
-Substitution2: "Accent marker rearrangement single substitution 44-1" uE4A4
-Substitution2: "Accent marker rearrangement single substitution 41-1" uE4A3
-Substitution2: "Accent marker rearrangement single substitution 38-1" uE4A2
-Substitution2: "Accent marker rearrangement single substitution 35-1" uE4A1
-Substitution2: "Accent marker rearrangement single substitution 32-1" uE4A0
-Substitution2: "Accent marker rearrangement single substitution 29-1" uE49F
-Substitution2: "Accent marker rearrangement single substitution 26-1" uE49E
+Substitution2: "Accent marker rearrangement single substitution 44-1" uE4B2
+Substitution2: "Accent marker rearrangement single substitution 41-1" uE4AF
+Substitution2: "Accent marker rearrangement single substitution 38-1" uE4AC
+Substitution2: "Accent marker rearrangement single substitution 35-1" uE4A9
+Substitution2: "Accent marker rearrangement single substitution 32-1" uE4A6
+Substitution2: "Accent marker rearrangement single substitution 29-1" uE4A3
+Substitution2: "Accent marker rearrangement single substitution 26-1" uE4A0
 Substitution2: "Accent marker rearrangement single substitution 23-1" uE49D
-Substitution2: "Accent marker rearrangement single substitution 20-1" uE49C
-Substitution2: "Accent marker rearrangement single substitution 17-1" uE49B
-Substitution2: "Accent marker rearrangement single substitution 14-1" uE49A
-Substitution2: "Accent marker rearrangement single substitution 11-1" uE499
-Substitution2: "Accent marker rearrangement single substitution 8-1" uE498
-Substitution2: "Accent marker rearrangement single substitution 5-1" uE497
-Substitution2: "Accent marker rearrangement single substitution 2-1" uE496
+Substitution2: "Accent marker rearrangement single substitution 20-1" uE49A
+Substitution2: "Accent marker rearrangement single substitution 17-1" uE497
+Substitution2: "Accent marker rearrangement single substitution 14-1" uE494
+Substitution2: "Accent marker rearrangement single substitution 11-1" uE491
+Substitution2: "Accent marker rearrangement single substitution 8-1" uE48E
+Substitution2: "Accent marker rearrangement single substitution 5-1" uE48B
+Substitution2: "Accent marker rearrangement single substitution 2-1" uE488
 EndChar
 
 StartChar: u0964
@@ -10529,7 +10095,7 @@ Encoding: 58504 58504 246
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 4-1" u1133F
+Substitution2: "Accent marker rearrangement single substitution 2-1" u1133E
 EndChar
 
 StartChar: uE489
@@ -10537,7 +10103,6 @@ Encoding: 58505 58505 247
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 7-1" u11340
 EndChar
 
 StartChar: uE48A
@@ -10545,7 +10110,7 @@ Encoding: 58506 58506 248
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 10-1" u11341
+Substitution2: "Accent marker rearrangement single substitution 4-1" u1133F
 EndChar
 
 StartChar: uE48B
@@ -10553,7 +10118,7 @@ Encoding: 58507 58507 249
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 13-1" u11342
+Substitution2: "Accent marker rearrangement single substitution 5-1" u1133F
 EndChar
 
 StartChar: uE48C
@@ -10561,7 +10126,6 @@ Encoding: 58508 58508 250
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 16-1" u11343
 EndChar
 
 StartChar: uE48D
@@ -10569,7 +10133,7 @@ Encoding: 58509 58509 251
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 19-1" u11344
+Substitution2: "Accent marker rearrangement single substitution 7-1" u11340
 EndChar
 
 StartChar: uE48E
@@ -10577,7 +10141,7 @@ Encoding: 58510 58510 252
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 22-1" u11362
+Substitution2: "Accent marker rearrangement single substitution 8-1" u11340
 EndChar
 
 StartChar: uE48F
@@ -10585,7 +10149,6 @@ Encoding: 58511 58511 253
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 25-1" u11363
 EndChar
 
 StartChar: uE490
@@ -10593,7 +10156,7 @@ Encoding: 58512 58512 254
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 28-1" u11357
+Substitution2: "Accent marker rearrangement single substitution 10-1" u11341
 EndChar
 
 StartChar: uE491
@@ -10601,7 +10164,7 @@ Encoding: 58513 58513 255
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 31-1" u1134D
+Substitution2: "Accent marker rearrangement single substitution 11-1" u11341
 EndChar
 
 StartChar: uE492
@@ -10609,7 +10172,6 @@ Encoding: 58514 58514 256
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 34-1" u11302
 EndChar
 
 StartChar: uE493
@@ -10617,7 +10179,7 @@ Encoding: 58515 58515 257
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 37-1" u11303
+Substitution2: "Accent marker rearrangement single substitution 13-1" u11342
 EndChar
 
 StartChar: uE494
@@ -10625,7 +10187,7 @@ Encoding: 58516 58516 258
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 40-1" u1CF2
+Substitution2: "Accent marker rearrangement single substitution 14-1" u11342
 EndChar
 
 StartChar: uE495
@@ -10633,7 +10195,6 @@ Encoding: 58517 58517 259
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 43-1" u1135D
 EndChar
 
 StartChar: uE496
@@ -10641,7 +10202,7 @@ Encoding: 58518 58518 260
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 2-1" u1133E
+Substitution2: "Accent marker rearrangement single substitution 16-1" u11343
 EndChar
 
 StartChar: uE497
@@ -10649,7 +10210,7 @@ Encoding: 58519 58519 261
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 5-1" u1133F
+Substitution2: "Accent marker rearrangement single substitution 17-1" u11343
 EndChar
 
 StartChar: uE498
@@ -10657,7 +10218,6 @@ Encoding: 58520 58520 262
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 8-1" u11340
 EndChar
 
 StartChar: uE499
@@ -10665,7 +10225,7 @@ Encoding: 58521 58521 263
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 11-1" u11341
+Substitution2: "Accent marker rearrangement single substitution 19-1" u11344
 EndChar
 
 StartChar: uE49A
@@ -10673,7 +10233,7 @@ Encoding: 58522 58522 264
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 14-1" u11342
+Substitution2: "Accent marker rearrangement single substitution 20-1" u11344
 EndChar
 
 StartChar: uE49B
@@ -10681,7 +10241,6 @@ Encoding: 58523 58523 265
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 17-1" u11343
 EndChar
 
 StartChar: uE49C
@@ -10689,7 +10248,7 @@ Encoding: 58524 58524 266
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 20-1" u11344
+Substitution2: "Accent marker rearrangement single substitution 22-1" u11362
 EndChar
 
 StartChar: uE49D
@@ -10705,7 +10264,6 @@ Encoding: 58526 58526 268
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 26-1" u11363
 EndChar
 
 StartChar: uE49F
@@ -10713,7 +10271,7 @@ Encoding: 58527 58527 269
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 29-1" u11357
+Substitution2: "Accent marker rearrangement single substitution 25-1" u11363
 EndChar
 
 StartChar: uE4A0
@@ -10721,7 +10279,7 @@ Encoding: 58528 58528 270
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 32-1" u1134D
+Substitution2: "Accent marker rearrangement single substitution 26-1" u11363
 EndChar
 
 StartChar: uE4A1
@@ -10729,7 +10287,6 @@ Encoding: 58529 58529 271
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 35-1" u11302
 EndChar
 
 StartChar: uE4A2
@@ -10737,7 +10294,7 @@ Encoding: 58530 58530 272
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 38-1" u11303
+Substitution2: "Accent marker rearrangement single substitution 28-1" u11357
 EndChar
 
 StartChar: uE4A3
@@ -10745,7 +10302,7 @@ Encoding: 58531 58531 273
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 41-1" u1CF2
+Substitution2: "Accent marker rearrangement single substitution 29-1" u11357
 EndChar
 
 StartChar: uE4A4
@@ -10753,7 +10310,6 @@ Encoding: 58532 58532 274
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 44-1" u1135D
 EndChar
 
 StartChar: uE4A5
@@ -10761,6 +10317,7 @@ Encoding: 58533 58533 275
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 31-1" u1134D
 EndChar
 
 StartChar: uE4A6
@@ -10768,6 +10325,7 @@ Encoding: 58534 58534 276
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 32-1" u1134D
 EndChar
 
 StartChar: uE4A7
@@ -10782,6 +10340,7 @@ Encoding: 58536 58536 278
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 34-1" u11302
 EndChar
 
 StartChar: uE4A9
@@ -10789,6 +10348,7 @@ Encoding: 58537 58537 279
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 35-1" u11302
 EndChar
 
 StartChar: uE4AA
@@ -10803,6 +10363,7 @@ Encoding: 58539 58539 281
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 37-1" u11303
 EndChar
 
 StartChar: uE4AC
@@ -10810,6 +10371,7 @@ Encoding: 58540 58540 282
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 38-1" u11303
 EndChar
 
 StartChar: uE4AD
@@ -10824,6 +10386,7 @@ Encoding: 58542 58542 284
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 40-1" u1CF2
 EndChar
 
 StartChar: uE4AF
@@ -10831,6 +10394,7 @@ Encoding: 58543 58543 285
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 41-1" u1CF2
 EndChar
 
 StartChar: uE4B0
@@ -10845,6 +10409,7 @@ Encoding: 58545 58545 287
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 43-1" u1135D
 EndChar
 
 StartChar: uE4B2
@@ -10852,6 +10417,7 @@ Encoding: 58546 58546 288
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 44-1" u1135D
 EndChar
 
 StartChar: uE4B3
