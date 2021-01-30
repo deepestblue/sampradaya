@@ -1,4 +1,4 @@
-#!/usr/bin/env fontforge
+#!/usr/bin/env fontforge -quiet
 
 Open($1)
 Generate($2)
