@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612117567
+ModificationTime: 1612123178
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -175,23 +175,248 @@ Lookup: 258 0 0 "'dist' Distance lookup 2" { "'dist' Distance lookup 2-1" [153,1
 Lookup: 258 0 0 "'dist' Distance lookup 3" { "'dist' Distance lookup 3-1" [153,15,2] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: class "'psts' Post Base Substitutions lookup 28-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 28-1" 0 0 0 3
+ String: 5 uE200
+ BString: 0
+ FString: 5 uE4C9
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 67"
+ String: 5 uE201
+ BString: 0
+ FString: 5 uE4CA
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 68"
+ String: 5 uE205
+ BString: 0
+ FString: 5 uE4CB
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 29-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 29-1" 0 0 0 3
+ String: 5 uE4C9
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 67"
+ String: 5 uE4CA
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 68"
+ String: 5 uE4CB
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 27-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 27-1" 0 0 0 3
+ String: 6 u11301
+ BString: 5 uE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 67"
+ String: 6 u11301
+ BString: 5 uE201
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 68"
+ String: 6 u11301
+ BString: 5 uE205
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 24-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 24-1" 0 0 0 11
+ String: 6 u11301
+ BString: 6 u1133E
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 56"
+ String: 6 u11301
+ BString: 6 u1133F
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 57"
+ String: 6 u11301
+ BString: 6 u11340
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 58"
+ String: 6 u11301
+ BString: 6 u11341
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 59"
+ String: 6 u11301
+ BString: 6 u11342
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 60"
+ String: 6 u11301
+ BString: 6 u11343
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 61"
+ String: 6 u11301
+ BString: 6 u11344
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 62"
+ String: 6 u11301
+ BString: 6 u11362
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 63"
+ String: 6 u11301
+ BString: 6 u11363
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 64"
+ String: 6 u11301
+ BString: 6 u11357
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 65"
+ String: 6 u11301
+ BString: 6 u1135D
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 66"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 25-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 25-1" 0 0 0 11
+ String: 6 u1133E
+ BString: 0
+ FString: 5 uE4BE
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 56"
+ String: 6 u1133F
+ BString: 0
+ FString: 5 uE4BF
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 57"
+ String: 6 u11340
+ BString: 0
+ FString: 5 uE4C0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 58"
+ String: 6 u11341
+ BString: 0
+ FString: 5 uE4C1
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 59"
+ String: 6 u11342
+ BString: 0
+ FString: 5 uE4C2
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 60"
+ String: 6 u11343
+ BString: 0
+ FString: 5 uE4C3
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 61"
+ String: 6 u11344
+ BString: 0
+ FString: 5 uE4C4
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 62"
+ String: 6 u11362
+ BString: 0
+ FString: 5 uE4C5
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 63"
+ String: 6 u11363
+ BString: 0
+ FString: 5 uE4C6
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 64"
+ String: 6 u11357
+ BString: 0
+ FString: 5 uE4C7
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 65"
+ String: 6 u1135D
+ BString: 0
+ FString: 5 uE4C8
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 66"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 26-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 26-1" 0 0 0 11
+ String: 5 uE4BE
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 56"
+ String: 5 uE4BF
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 57"
+ String: 5 uE4C0
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 58"
+ String: 5 uE4C1
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 59"
+ String: 5 uE4C2
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 60"
+ String: 5 uE4C3
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 61"
+ String: 5 uE4C4
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 62"
+ String: 5 uE4C5
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 63"
+ String: 5 uE4C6
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 64"
+ String: 5 uE4C7
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 65"
+ String: 5 uE4C8
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 66"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 23-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 23-1" 0 0 0 1
+ String: 5 uE4BD
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 55"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 22-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 22-1" 0 0 0 1
+ String: 6 u1135D
+ BString: 0
+ FString: 5 uE4BD
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 55"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 21-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 21-1" 0 0 0 1
+ String: 6 u11301
+ BString: 6 u1135D
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 55"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 91-1" 0 0 0 9
  String: 5 uE4B4
@@ -9737,33 +9962,32 @@ Flags: MW
 LayerCount: 2
 Fore
 SplineSet
--45 641 m 4,0,1
- -45 690 -45 690 0 690 c 4,2,3
- 29 690 29 690 35.5 670.5 c 132,-1,4
- 42 651 42 651 42 635.5 c 132,-1,5
- 42 620 42 620 28 608 c 4,6,7
- 13 593 13 593 -2 593 c 132,-1,8
- -17 593 -17 593 -31 606 c 132,-1,9
- -45 619 -45 619 -45 641 c 4,0,1
--152 624 m 4,10,11
- -152 648 -152 648 -137 651 c 4,12,13
- -129 653 -129 653 -128 653 c 4,14,15
- -94 651 -94 651 -85 634 c 28,16,17
- -66 597 -66 597 -65 569 c 4,18,19
- -64 554 -64 554 -44.5 541 c 132,-1,20
- -25 528 -25 528 -6 528 c 6,21,-1
- 6 528 l 6,22,23
- 18 528 18 528 33 538 c 4,24,25
- 54 553 54 553 62 572.5 c 132,-1,26
- 70 592 70 592 80 629 c 4,27,28
- 85 647 85 647 109 647 c 0,29,30
- 115 647 115 647 122 646 c 4,31,32
- 130 644 130 644 137 633.5 c 132,-1,33
- 144 623 144 623 144 613 c 4,34,35
- 144 494 144 494 0 490 c 5,36,37
- -152 490 -152 490 -152 624 c 4,10,11
+-244 641 m 0,0,1
+ -244 690 -244 690 -200 690 c 0,2,3
+ -171 690 -171 690 -164 670.5 c 128,-1,4
+ -157 651 -157 651 -157 635.5 c 0,5,6
+ -157 622 -157 622 -171 608 c 0,7,8
+ -186 593 -186 593 -200 593 c 0,9,10
+ -215 593 -215 593 -229.5 606 c 128,-1,11
+ -244 619 -244 619 -244 641 c 0,0,1
+-351 624 m 0,12,13
+ -351 648 -351 648 -336 651 c 0,14,15
+ -328 653 -328 653 -327 653 c 0,16,17
+ -293 651 -293 651 -284 634 c 24,18,19
+ -265 597 -265 597 -264 569 c 0,20,21
+ -263 554 -263 554 -243.5 541 c 128,-1,22
+ -224 528 -224 528 -205 528 c 2,23,-1
+ -193 528 l 2,24,25
+ -181 528 -181 528 -166 538 c 0,26,27
+ -145 553 -145 553 -137 572.5 c 128,-1,28
+ -129 592 -129 592 -119 629 c 0,29,30
+ -114 647 -114 647 -90 647 c 0,31,32
+ -84 647 -84 647 -77 646 c 0,33,34
+ -69 644 -69 644 -62 633.5 c 128,-1,35
+ -55 623 -55 623 -55 613 c 0,36,37
+ -55 490 -55 490 -200 490 c 7,38,39
+ -351 490 -351 490 -351 624 c 0,12,13
 EndSplineSet
-Validated: 1
 Substitution2: "Accent marker rearrangement single substitution 69-1" uE4CB
 Substitution2: "Accent marker rearrangement single substitution 68-1" uE4CA
 Substitution2: "Accent marker rearrangement single substitution 67-1" uE4C9
@@ -11527,7 +11751,7 @@ Encoding: 58561 58561 303
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 59-1" u11301
+Substitution2: "Accent marker rearrangement single substitution 59-1" u11341
 EndChar
 
 StartChar: uE4C2
@@ -11535,7 +11759,7 @@ Encoding: 58562 58562 304
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 60-1" u11301
+Substitution2: "Accent marker rearrangement single substitution 60-1" u11342
 EndChar
 
 StartChar: uE4C3
@@ -11551,7 +11775,7 @@ Encoding: 58564 58564 306
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 62-1" u11301
+Substitution2: "Accent marker rearrangement single substitution 62-1" u11344
 EndChar
 
 StartChar: uE4C5
