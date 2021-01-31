@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612133826
+ModificationTime: 1612134692
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -3885,6 +3885,9 @@ SplineSet
  598 47 l 2,66,67
  616 47 616 47 616 24 c 3,0,1
 EndSplineSet
+PairPos2: "'dist' Distance lookup ja overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup ja overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup ja overhang 2-1" uE327 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-160 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11326
@@ -7258,8 +7261,8 @@ SplineSet
  154 288 154 288 143 289 c 128,-1,113
  132 290 132 290 124 278.5 c 128,-1,114
 EndSplineSet
-PairPos2: "'dist' Distance lookup ja overhang 2-1" uE31C dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
-PairPos2: "'dist' Distance lookup ja overhang 2-1" uE31D dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup ja overhang 2-1" uE31D dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup ja overhang 2-1" uE31C dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u1131D
