@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612132544
+ModificationTime: 1612133826
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -174,13 +174,15 @@ Lookup: 264 0 0 "'abvm' Above Base Mark positioning for I marker 1" { "'abvm' Ab
 Lookup: 258 0 0 "'dist' Distance lookup 2" { "'dist' Distance lookup ja overhang 2-1" [153,15,2] "'dist' Distance lookup intra-post-base marker 2-2" [153,15,6] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 258 0 0 "'dist' Distance lookup 3" { "'dist' Distance lookup ja overhang 3-1" [153,15,2] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for accent markers 1" { "Single Position lookup for accent markers 1-1"  } []
+Lookup: 257 0 0 "Single Position lookup for accent markers 2" { "Single Position lookup for accent markers 2-1"  } []
 Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainPos2: class "'dist' Distance lookup 5-1" 2 3 1 2
+ChainPos2: class "'dist' Distance lookup 5-1" 2 4 1 4
   Class: 5 u0952
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 6 u11301
+  BClass: 191 uE515 uE516 uE517 uE518 uE519 uE51A uE51B uE51C uE51D uE51E uE51F uE520 uE521 uE522 uE523 uE524 uE525 uE526 uE527 uE528 uE52A uE52B uE52C uE52D uE52E uE532 uE533 uE535 uE536 uE537 uE538 uE539
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -193,8 +195,20 @@ ChainPos2: class "'dist' Distance lookup 5-1" 2 3 1 2
   FClsList:
  1
   SeqLookup: 0 "Single Position lookup for accent markers 1"
+ 1 1 0
+  ClsList: 1
+  BClsList: 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Position lookup for accent markers 2"
+ 1 2 0
+  ClsList: 1
+  BClsList: 2 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Position lookup for accent markers 2"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2" "3"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 28-1" 0 0 0 3
@@ -1793,7 +1807,8 @@ SplineSet
  -339 -83 l 2,9,10
  -354 -83 -354 -83 -354 -59 c 256,0,1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 2-1" dx=0 dy=-615 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 53-1" uE4BB
 Substitution2: "Accent marker rearrangement single substitution 50-1" uE4B8
 Substitution2: "Accent marker rearrangement single substitution 47-1" uE4B5
