@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612073966
+ModificationTime: 1612075892
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -1264,7 +1264,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 88 22 10
+WinInfo: 0 22 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1331,6 +1331,9 @@ SplineSet
  -227 459 -227 459 -227 466 c 2,10,-1
  -227 667 l 2,0,1
 EndSplineSet
+Substitution2: "Accent marker rearrangement single substitution 52-1" uE4BA
+Substitution2: "Accent marker rearrangement single substitution 49-1" uE4B7
+Substitution2: "Accent marker rearrangement single substitution 46-1" uE4B4
 Substitution2: "Accent marker rearrangement single substitution 43-1" uE4B1
 Substitution2: "Accent marker rearrangement single substitution 40-1" uE4AE
 Substitution2: "Accent marker rearrangement single substitution 37-1" uE4AB
@@ -1367,6 +1370,9 @@ SplineSet
  -354 -60 -354 -60 -354 -36 c 256,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Accent marker rearrangement single substitution 53-1" uE4BB
+Substitution2: "Accent marker rearrangement single substitution 50-1" uE4B8
+Substitution2: "Accent marker rearrangement single substitution 47-1" uE4B5
 Substitution2: "Accent marker rearrangement single substitution 44-1" uE4B2
 Substitution2: "Accent marker rearrangement single substitution 41-1" uE4AF
 Substitution2: "Accent marker rearrangement single substitution 38-1" uE4AC
@@ -4299,6 +4305,9 @@ SplineSet
  288 -124 l 1,46,47
 EndSplineSet
 Validated: 33
+Substitution2: "Accent marker rearrangement single substitution 48-1" u1CF4
+Substitution2: "Accent marker rearrangement single substitution 47-1" u0952
+Substitution2: "Accent marker rearrangement single substitution 46-1" u0951
 PairPos2: "'dist' Distance lookup 2-1" u11344 dx=0 dy=0 dh=20 dv=0 dx=0 dy=-100 dh=0 dv=0
 Substitution2: "Vowel marker rearrangement single substitution 7-1" u1134D
 Substitution2: "Vowel marker rearrangement single substitution 6-1" u11340
@@ -4353,6 +4362,9 @@ SplineSet
  159 478 l 1,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Accent marker rearrangement single substitution 51-1" u1CF4
+Substitution2: "Accent marker rearrangement single substitution 50-1" u0952
+Substitution2: "Accent marker rearrangement single substitution 49-1" u0951
 Substitution2: "Vowel marker rearrangement single substitution 4-1" u11340
 Substitution2: "Vowel marker rearrangement single substitution 1-1" u1133F
 LCarets2: 1 0
@@ -9315,6 +9327,9 @@ SplineSet
  88 150 l 1,31,-1
  42 150 l 2,0,1
 EndSplineSet
+Substitution2: "Accent marker rearrangement single substitution 54-1" u1CF4
+Substitution2: "Accent marker rearrangement single substitution 53-1" u0952
+Substitution2: "Accent marker rearrangement single substitution 52-1" u0951
 Ligature2: "'rkrf' Rakar Forms lookup 7-1" u1134D u11330
 Substitution2: "Vowel marker rearrangement single substitution 5-1" u11340
 Substitution2: "Vowel marker rearrangement single substitution 2-1" u1133F
@@ -10809,6 +10824,9 @@ SplineSet
  -272 448 -272 448 -318 499 c 132,-1,15
  -364 550 -364 550 -371 632 c 28,0,-1
 EndSplineSet
+Substitution2: "Accent marker rearrangement single substitution 54-1" uE4BC
+Substitution2: "Accent marker rearrangement single substitution 51-1" uE4B9
+Substitution2: "Accent marker rearrangement single substitution 48-1" uE4B6
 Substitution2: "Accent marker rearrangement single substitution 33-1" uE4A7
 Substitution2: "Accent marker rearrangement single substitution 30-1" uE4A4
 Substitution2: "Accent marker rearrangement single substitution 27-1" uE4A1
@@ -11198,6 +11216,7 @@ Encoding: 58548 58548 290
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 46-1" uE200
 EndChar
 
 StartChar: uE4B5
@@ -11205,6 +11224,7 @@ Encoding: 58549 58549 291
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 47-1" uE200
 EndChar
 
 StartChar: uE4B6
@@ -11212,6 +11232,7 @@ Encoding: 58550 58550 292
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 48-1" uE200
 EndChar
 
 StartChar: uE4B7
@@ -11219,6 +11240,7 @@ Encoding: 58551 58551 293
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 49-1" uE201
 EndChar
 
 StartChar: uE4B8
@@ -11226,6 +11248,7 @@ Encoding: 58552 58552 294
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 50-1" uE201
 EndChar
 
 StartChar: uE4B9
@@ -11233,6 +11256,7 @@ Encoding: 58553 58553 295
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 51-1" uE201
 EndChar
 
 StartChar: uE4BA
@@ -11240,6 +11264,7 @@ Encoding: 58554 58554 296
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 52-1" uE205
 EndChar
 
 StartChar: uE4BB
@@ -11247,6 +11272,7 @@ Encoding: 58555 58555 297
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 53-1" uE205
 EndChar
 
 StartChar: uE4BC
@@ -11254,6 +11280,7 @@ Encoding: 58556 58556 298
 Width: 0
 Flags: W
 LayerCount: 2
+Substitution2: "Accent marker rearrangement single substitution 54-1" uE205
 EndChar
 EndChars
 EndSplineFont
