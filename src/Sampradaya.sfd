@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612055759
+ModificationTime: 1612057038
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -145,11 +145,56 @@ ChainSub2: class "'psts' Post Base Substitutions lookup 63-1" 0 0 0 0
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup 62-1" 0 0 0 0
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 61-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 61-1" 0 0 0 3
+ String: 5 uE4B1
+ BString: 5 u0951
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 43"
+ String: 5 uE4B2
+ BString: 5 u0952
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 44"
+ String: 5 uE4B3
+ BString: 5 u1CF2
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 45"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 60-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 60-1" 0 0 0 3
+ String: 6 u1135D
+ BString: 0
+ FString: 5 uE4B1
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 43"
+ String: 6 u1135D
+ BString: 0
+ FString: 5 uE4B2
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 44"
+ String: 6 u1135D
+ BString: 0
+ FString: 5 uE4B3
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 45"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup 59-1" 0 0 0 0
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 59-1" 0 0 0 3
+ String: 5 u0951
+ BString: 6 u1135D
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 43"
+ String: 5 u0952
+ BString: 6 u1135D
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 44"
+ String: 5 u1CF2
+ BString: 6 u1135D
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 45"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 58-1" 0 0 0 9
  String: 5 uE4A8
