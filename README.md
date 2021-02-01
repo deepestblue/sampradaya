@@ -19,6 +19,7 @@ Download the Windows font file from [releases](https://github.com/deepestblue/Sa
 * The SIL's book on [Font Development Best Practices](https://silnrsi.github.io/FDBP/en-US/OpenType.html).
 * John Hudson's paper on [Enabling Typography: towards a general model of OpenType Layout](http://tiro.com/John/Enabling_Typography_(OTL).pdf).
 * The English Wikipedia's [list of typographic features](https://en.wikipedia.org/wiki/List_of_typographic_features).
+* Google Fonts [guidelines on vertical metrics](https://github.com/googlefonts/gf-docs/blob/master/VerticalMetrics/README.md).
 
 ## Acknowledgements
 
