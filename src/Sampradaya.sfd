@@ -1830,8 +1830,8 @@ SplineSet
  -227 459 -227 459 -227 466 c 2,10,-1
  -227 667 l 2,0,1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 52-1" uE4BA
 Substitution2: "Accent marker rearrangement single substitution 49-1" uE4B7
 Substitution2: "Accent marker rearrangement single substitution 46-1" uE4B4
@@ -1870,10 +1870,10 @@ SplineSet
  -339 -83 l 2,9,10
  -354 -83 -354 -83 -354 -59 c 256,0,1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=-380 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=-380 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 2-1" dx=0 dy=-615 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 53-1" uE4BB
 Substitution2: "Accent marker rearrangement single substitution 50-1" uE4B8
 Substitution2: "Accent marker rearrangement single substitution 47-1" uE4B5
@@ -3950,9 +3950,9 @@ SplineSet
  598 47 l 2,66,67
  616 47 616 47 616 24 c 3,0,1
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE327 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE327 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-160 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11326
@@ -5094,7 +5094,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 123 70428 S 0.6 0 0 0.55 -471 -272 2
-PairPos2: "'dist' Distance lookup for overhang 3-1" uE535 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-125 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 3-1" uE535 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-125 dh=0 dv=0
 Substitution2: "Single Substitution lookup 0-1" uE51C
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131C
@@ -5232,7 +5232,7 @@ Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 135 70440 N 0.7068 0 0 0.637 -534 -298 2
+Refer: 135 70440 S 0.7068 0 0 0.637 -534 -298 2
 Substitution2: "Single Substitution lookup 0-1" uE528
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11328
@@ -5443,10 +5443,10 @@ EndChar
 StartChar: uE384
 Encoding: 58244 58244 80
 Width: 0
-Flags: MW
+Flags: MWO
 LayerCount: 2
 Fore
-Refer: 32 57615 S 0.55 0 0 0.55 -623 -277 2
+Refer: 32 57615 S 0.55 0 0 0.55 -543 -277 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10F
 EndChar
@@ -7125,11 +7125,11 @@ SplineSet
  134 260 134 260 132 260 c 0,107,108
  124 260 124 260 114.5 254 c 0,94,95
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE316 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE316 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
 EndChar
 
 StartChar: u1131A
@@ -7331,8 +7331,8 @@ SplineSet
  154 288 154 288 143 289 c 128,-1,113
  132 290 132 290 124 278.5 c 128,-1,114
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE31D dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE31C dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE31D dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE31C dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
 EndChar
 
 StartChar: u1131D
@@ -7998,12 +7998,12 @@ SplineSet
  343 -82 l 2,11,12
 EndSplineSet
 Validated: 1
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32D dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32C dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE326 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32D dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32C dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE326 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
 EndChar
 
 StartChar: u11327
@@ -8830,12 +8830,12 @@ SplineSet
  760 -95 760 -95 747.5 -99 c 128,-1,103
  735 -103 735 -103 724 -103 c 0,28,29
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE323 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32B dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32A dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE320 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE323 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32B dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32A dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE320 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-50 dv=0
 EndChar
 
@@ -10110,7 +10110,7 @@ SplineSet
  -55 490 -55 490 -200 490 c 7,38,39
  -351 490 -351 490 -351 624 c 0,12,13
 EndSplineSet
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 69-1" uE4CB
 Substitution2: "Accent marker rearrangement single substitution 68-1" uE4CA
 Substitution2: "Accent marker rearrangement single substitution 67-1" uE4C9
@@ -11378,8 +11378,8 @@ SplineSet
  -272 448 -272 448 -318 499 c 132,-1,15
  -364 550 -364 550 -371 632 c 28,0,-1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 54-1" uE4BC
 Substitution2: "Accent marker rearrangement single substitution 51-1" uE4B9
 Substitution2: "Accent marker rearrangement single substitution 48-1" uE4B6
