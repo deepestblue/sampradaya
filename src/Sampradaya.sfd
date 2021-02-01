@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612140378
+ModificationTime: 1612142912
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -177,9 +177,43 @@ Lookup: 257 0 0 "Single Position lookup for accent markers 1" { "Single Position
 Lookup: 257 0 0 "Single Position lookup for accent markers 2" { "Single Position lookup for accent markers 2-1"  } []
 Lookup: 257 0 0 "Single Position lookup for accent markers 3" { "Single Position lookup for accent markers 3-1"  } []
 Lookup: 257 0 0 "Single Position lookup for accent markers 4" { "Single Position lookup for accent markers 4-1"  } []
-Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1"  "'dist' Distance lookup 5-2"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainPos2: class "'dist' Distance lookup 5-2" 3 2 3 4
+  Class: 11 u0951 u1CF4
+  Class: 6 u11301
+  BClass: 6 u11301
+  FClass: 31 uE208 uE209 uE20A u1133F u11340
+  FClass: 11 u0951 u1CF4
+ 1 1 1
+  ClsList: 1
+  BClsList: 0
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for accent markers 3"
+ 1 0 1
+  ClsList: 2
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for accent markers 3"
+ 1 0 2
+  ClsList: 2
+  BClsList:
+  FClsList: 2 1
+ 1
+  SeqLookup: 0 "Single Position lookup for accent markers 3"
+ 1 1 1
+  ClsList: 1
+  BClsList: 1
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for accent markers 4"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
 ChainPos2: class "'dist' Distance lookup 5-1" 2 5 1 8
   Class: 5 u0952
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
@@ -1796,6 +1830,8 @@ SplineSet
  -227 459 -227 459 -227 466 c 2,10,-1
  -227 667 l 2,0,1
 EndSplineSet
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Accent marker rearrangement single substitution 52-1" uE4BA
 Substitution2: "Accent marker rearrangement single substitution 49-1" uE4B7
 Substitution2: "Accent marker rearrangement single substitution 46-1" uE4B4
@@ -1835,9 +1871,9 @@ SplineSet
  -354 -83 -354 -83 -354 -59 c 256,0,1
 EndSplineSet
 Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=-380 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Position2: "Single Position lookup for accent markers 2-1" dx=0 dy=-615 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Accent marker rearrangement single substitution 53-1" uE4BB
 Substitution2: "Accent marker rearrangement single substitution 50-1" uE4B8
 Substitution2: "Accent marker rearrangement single substitution 47-1" uE4B5
@@ -10074,6 +10110,7 @@ SplineSet
  -55 490 -55 490 -200 490 c 7,38,39
  -351 490 -351 490 -351 624 c 0,12,13
 EndSplineSet
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Accent marker rearrangement single substitution 69-1" uE4CB
 Substitution2: "Accent marker rearrangement single substitution 68-1" uE4CA
 Substitution2: "Accent marker rearrangement single substitution 67-1" uE4C9
@@ -11341,6 +11378,8 @@ SplineSet
  -272 448 -272 448 -318 499 c 132,-1,15
  -364 550 -364 550 -371 632 c 28,0,-1
 EndSplineSet
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Accent marker rearrangement single substitution 54-1" uE4BC
 Substitution2: "Accent marker rearrangement single substitution 51-1" uE4B9
 Substitution2: "Accent marker rearrangement single substitution 48-1" uE4B6
