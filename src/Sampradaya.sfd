@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612136761
+ModificationTime: 1612138017
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -171,7 +171,7 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Sub
 Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for I marker 0" { "Single Position lookup 0-1"  } []
 Lookup: 264 0 0 "'abvm' Above Base Mark positioning for I marker 1" { "'abvm' Above Base Mark lookup 1-1"  } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 258 0 0 "'dist' Distance lookup 2" { "'dist' Distance lookup for overhang 2-1" [153,15,2] "'dist' Distance lookup intra-post-base marker 2-2" [153,15,6] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 258 0 0 "'dist' Distance lookup 2" { "'dist' Distance lookup for overhang 2-1" [153,15,6] "'dist' Distance lookup intra-post-base marker 2-2" [153,15,6] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 258 0 0 "'dist' Distance lookup 3" { "'dist' Distance lookup for overhang 3-1" [153,15,2] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for accent markers 1" { "Single Position lookup for accent markers 1-1"  } []
 Lookup: 257 0 0 "Single Position lookup for accent markers 2" { "Single Position lookup for accent markers 2-1"  } []
@@ -1821,7 +1821,7 @@ SplineSet
  -339 -83 l 2,9,10
  -354 -83 -354 -83 -354 -59 c 256,0,1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 2-1" dx=0 dy=-615 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 53-1" uE4BB
@@ -5044,7 +5044,7 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 123 70428 S 0.6 0 0 0.55 -471 -272 2
-PairPos2: "'dist' Distance lookup for overhang 3-1" uE535 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-125 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 3-1" uE535 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-125 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Single Substitution lookup 0-1" uE51C
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131C
@@ -7943,6 +7943,12 @@ SplineSet
  343 -82 l 2,11,12
 EndSplineSet
 Validated: 1
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32D dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32C dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE326 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u11327
