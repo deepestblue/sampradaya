@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612140015
+ModificationTime: 1612140378
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -8794,6 +8794,7 @@ SplineSet
  760 -95 760 -95 747.5 -99 c 128,-1,103
  735 -103 735 -103 724 -103 c 0,28,29
 EndSplineSet
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE323 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 PairPos2: "'dist' Distance lookup for overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 PairPos2: "'dist' Distance lookup for overhang 2-1" uE32B dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 PairPos2: "'dist' Distance lookup for overhang 2-1" uE32A dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
