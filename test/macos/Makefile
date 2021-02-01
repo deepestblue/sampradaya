@@ -34,8 +34,8 @@ regenerate_coretext_masters: build coretext/rasterise_text
 regenerate_masters: regenerate_qt_masters regenerate_coretext_masters
 
 test: ${BINS}
-	./run_tests qt
 	./run_tests coretext
+	./run_tests qt
 
 build_and_test: build test
 
