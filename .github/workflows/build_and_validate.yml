@@ -21,14 +21,11 @@ jobs:
         run: |
           brew install --cask fontforge
           ln -s /Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge /usr/local/bin/
-          pip install gftools
+          pip install fonttools gftools
         env:
           HOMEBREW_NO_INSTALL_CLEANUP: 1
       - name: Make TTF file
-        run: |
-          ./sfd2ttf.pe Sampradaya.sfd Sampradaya.ttf
-          gftools fix-unwanted-tables Sampradaya.ttf
-          gftools fix-dsig --autofix Sampradaya.ttf
+        run: ./build.sh Sampradaya.ttf
         working-directory: src
       - name: Upload typeface file
         uses: actions/upload-artifact@v2
