@@ -16,24 +16,12 @@ def main():
   path = os.path.abspath(args.typeface_file)
 
   with contextlib.closing(ttLib.TTFont(path)) as ttf:
-    if 'name' not in ttf:
-      return
+    # Not even Apple cares about platformID=1. https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6name.html
+    ttf['name'].removeNames(platformID=1)
 
-    myRecord = NameRecord()
-    myRecord.nameID = 4
-    myRecord.platformID = 3
-    myRecord.platEncID = 10
-    myRecord.langID = 1097
-    myRecord.string = args.ta
-    ttf['name'].names.append(myRecord)
-
-    myRecord = NameRecord()
-    myRecord.nameID = 4
-    myRecord.platformID = 3
-    myRecord.platEncID = 10
-    myRecord.langID = 1103
-    myRecord.string = args.sa
-    ttf['name'].names.append(myRecord)
+    # Cannot use addMultilingualName as it only supports the Unicode BMP encoding.
+    ttf['name'].setName(args.ta, 4, 3, 10, 1097)
+    ttf['name'].setName(args.sa, 4, 3, 10, 1103)
 
     ttf.save(path)
 
