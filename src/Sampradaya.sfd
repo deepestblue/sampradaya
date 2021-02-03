@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612240811
+ModificationTime: 1612337902
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -53,13 +53,16 @@ OS2SupYOff: 143
 OS2StrikeYSize: 51
 OS2StrikeYPos: 256
 OS2Vendor: '    '
-Lookup: 4 0 0 "'akhn' Akhand lookup 0" { "'akhn' Akhand lookup 0 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2 subtable"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 7" { "'rkrf' Rakar Forms lookup 7-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms lookup 4 (second stacked layer)" { "'blwf' Below Base Forms lookup 4 subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup (second stack to third)" { "Single Substitution lookup 0-1"  } []
-Lookup: 6 0 0 "'blwf' Below Base Forms lookup 11 (third stacked layer)" { "'blwf' Below Base Forms lookup 11-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'pstf' Post Base Forms lookup (post yakara)" { "'pstf' Post Base Forms lookup 3 subtable"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhanda" { "'akhn' Akhanda subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms (second stacked layer)" { "'blwf' Below Base Forms (second stacked layer) subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution post repha rakara ya" { "Ligature Substitution post repha rakara ya subtable"  } []
+Lookup: 6 0 0 "'rphf' Repha Form" { "'rphf' Repha Form (do nothing)"  "'rphf' Repha Form (post repha form)"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'rkrf' Rakara Forms" { "'rkrf' Rakara Forms (do nothing)"  "'rkrf' Rakara Forms (post rakara form)"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'pstf' Post Base Forms lookup (post yakara)" { "'pstf' Post Base Forms lookup (do nothing)"  "'pstf' Post Base Forms lookup (post yakara form)"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms (second stacked layer ya ra)" { "'blwf' Below Base Forms (second stacked layer ya ra) subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup (second stack to third)" { "Single Substitution lookup (second stack to third) subtable"  } []
+Lookup: 6 0 0 "'blwf' Below Base Forms (third stacked layer)" { "'blwf' Below Base Forms (third stacked layer) subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants" { "'vatu' Vattu Variants subtable"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 55" { "Accent marker rearrangement single substitution 55-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 21" { "'psts' Post Base Substitutions lookup 21-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 22" { "'psts' Post Base Substitutions lookup 22-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -168,7 +171,7 @@ Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1" 
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'haln' Halanta Forms" { "'haln' Halant Forms subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for I marker 0" { "Single Position lookup 0-1"  } []
 Lookup: 264 0 0 "'abvm' Above Base Mark positioning for I marker 1" { "'abvm' Above Base Mark lookup 1-1"  } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 258 0 0 "'dist' Distance lookup 2" { "'dist' Distance lookup for overhang 2-1" [153,15,6] "'dist' Distance lookup intra-post-base marker 2-2" [153,15,6] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -180,6 +183,92 @@ Lookup: 257 0 0 "Single Position lookup for accent markers 4" { "Single Position
 Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1"  "'dist' Distance lookup 5-2"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "'rphf' Repha Form (post repha form)" 3 3 3 1
+  Class: 6 u11330
+  Class: 6 u1134D
+  BClass: 6 u11330
+  BClass: 6 u1134D
+  FClass: 6 u11330
+  FClass: 6 u1134D
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Ligature Substitution post repha rakara ya"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "'rphf' Repha Form (do nothing)" 3 2 1 1
+  Class: 6 u11330
+  Class: 6 u1134D
+  BClass: 6 u1134D
+ 2 1 0
+  ClsList: 1 2
+  BClsList: 1
+  FClsList:
+ 0
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1"
+  FClassNames: "All_Others"
+EndFPST
+ChainSub2: class "'rkrf' Rakara Forms (post rakara form)" 3 3 3 1
+  Class: 6 u1134D
+  Class: 6 u11330
+  BClass: 6 u1134D
+  BClass: 6 u11330
+  FClass: 6 u1134D
+  FClass: 6 u11330
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Ligature Substitution post repha rakara ya"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "'rkrf' Rakara Forms (do nothing)" 3 1 2 1
+  Class: 6 u1134D
+  Class: 6 u11330
+  FClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
+ 2 0 1
+  ClsList: 1 2
+  BClsList:
+  FClsList: 1
+ 0
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others" "1"
+EndFPST
+ChainSub2: class "'pstf' Post Base Forms lookup (do nothing)" 3 1 2 1
+  Class: 6 u1134D
+  Class: 6 u1132F
+  FClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
+ 2 0 1
+  ClsList: 1 2
+  BClsList:
+  FClsList: 1
+ 0
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others" "1"
+EndFPST
+ChainSub2: class "'pstf' Post Base Forms lookup (post yakara form)" 3 1 1 1
+  Class: 6 u1134D
+  Class: 6 u1132F
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Ligature Substitution post repha rakara ya"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others"
+EndFPST
 ChainPos2: class "'dist' Distance lookup 5-2" 3 2 3 4
   Class: 11 u0951 u1CF4
   Class: 6 u11301
@@ -1746,7 +1835,7 @@ ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 3 1 2
   BClassNames: "All_Others" "1" "2"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: coverage "'blwf' Below Base Forms lookup 11-1" 0 0 0 1
+ChainSub2: coverage "'blwf' Below Base Forms (third stacked layer) subtable" 0 0 0 1
  1 1 0
   Coverage: 191 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE332 uE333 uE335 uE336 uE337 uE338 uE339
   BCoverage: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
@@ -1769,7 +1858,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 314
+BeginChars: 1114113 315
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -2541,7 +2630,7 @@ SplineSet
  472 125 472 125 526 125 c 3,122,123
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11324
+Ligature2: "'akhn' Akhanda subtable" u11328 u1134D u11324
 EndChar
 
 StartChar: uE101
@@ -2620,7 +2709,7 @@ SplineSet
  122 252 122 252 108 240 c 128,-1,92
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11328
+Ligature2: "'akhn' Akhanda subtable" u11328 u1134D u11328
 EndChar
 
 StartChar: uE102
@@ -2727,7 +2816,7 @@ SplineSet
 EndSplineSet
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-410 dv=0
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11325
+Ligature2: "'akhn' Akhanda subtable" u11324 u1134D u11325
 EndChar
 
 StartChar: uE103
@@ -2810,7 +2899,7 @@ SplineSet
  492 277 492 277 552 283 c 1,22,23
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11336 u1134D u1131A
+Ligature2: "'akhn' Akhanda subtable" u11336 u1134D u1131A
 EndChar
 
 StartChar: uE104
@@ -2883,7 +2972,7 @@ SplineSet
  86 281 86 281 86 266 c 3,96,97
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u1132E u1134D u1132E
+Ligature2: "'akhn' Akhanda subtable" u1132E u1134D u1132E
 EndChar
 
 StartChar: uE105
@@ -2942,7 +3031,7 @@ SplineSet
  425 -33 425 -33 425 -69 c 0,0,1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u1132E
+Ligature2: "'akhn' Akhanda subtable" u11328 u1134D u1132E
 EndChar
 
 StartChar: uE106
@@ -3004,7 +3093,7 @@ SplineSet
  168 328 168 328 160.5 321 c 132,-1,69
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11326 u1134D u11335
+Ligature2: "'akhn' Akhanda subtable" u11326 u1134D u11335
 EndChar
 
 StartChar: uE107
@@ -3094,7 +3183,7 @@ SplineSet
  193 364 l 1,122,-1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11335
+Ligature2: "'akhn' Akhanda subtable" u11324 u1134D u11335
 EndChar
 
 StartChar: uE108
@@ -3171,7 +3260,7 @@ SplineSet
  151 310 151 310 143 290 c 0,101,102
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11326 u1134D u11327
+Ligature2: "'akhn' Akhanda subtable" u11326 u1134D u11327
 EndChar
 
 StartChar: uE109
@@ -3574,7 +3663,7 @@ SplineSet
 EndSplineSet
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-280 dv=0
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u1131C u1134D u1131E
+Ligature2: "'akhn' Akhanda subtable" u1131C u1134D u1131E
 EndChar
 
 StartChar: uE10A
@@ -3658,7 +3747,7 @@ SplineSet
  423 372 l 1,97,-1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u1131E u1134D u1131A
+Ligature2: "'akhn' Akhanda subtable" u1131E u1134D u1131A
 EndChar
 
 StartChar: uE10B
@@ -3768,7 +3857,7 @@ SplineSet
  628 132 628 132 628 147 c 3,9,10
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u1131E u1134D u1131C
+Ligature2: "'akhn' Akhanda subtable" u1131E u1134D u1131C
 EndChar
 
 StartChar: uE10C
@@ -3890,7 +3979,7 @@ SplineSet
  580 0 l 2,52,53
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11315 u1134D u11337
+Ligature2: "'akhn' Akhanda subtable" u11315 u1134D u11337
 EndChar
 
 StartChar: uE10D
@@ -3954,7 +4043,7 @@ PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 dx
 PairPos2: "'dist' Distance lookup for overhang 2-1" uE327 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-160 dv=0
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11326
+Ligature2: "'akhn' Akhanda subtable" u11328 u1134D u11326
 EndChar
 
 StartChar: uE10E
@@ -4051,7 +4140,7 @@ SplineSet
  249 96 249 96 246 110 c 0,12,13
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11339 u1134D u1132E
+Ligature2: "'akhn' Akhanda subtable" u11339 u1134D u1132E
 EndChar
 
 StartChar: uE10F
@@ -4120,7 +4209,7 @@ SplineSet
  268 366 l 1,82,-1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11324 u1134D u11330
+Ligature2: "'vatu' Vattu Variants subtable" u11324 uE205
 EndChar
 
 StartChar: uE110
@@ -4193,7 +4282,7 @@ SplineSet
  43 -72 43 -72 37 -64 c 0,11,12
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11336 u1134D u11330
+Ligature2: "'vatu' Vattu Variants subtable" u11336 uE205
 EndChar
 
 StartChar: uE111
@@ -4276,7 +4365,7 @@ SplineSet
 EndSplineSet
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-410 dv=0
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11327
+Ligature2: "'akhn' Akhanda subtable" u11328 u1134D u11327
 EndChar
 
 StartChar: uE112
@@ -4332,7 +4421,7 @@ SplineSet
 EndSplineSet
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-240 dv=0
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11335
+Ligature2: "'akhn' Akhanda subtable" u11328 u1134D u11335
 EndChar
 
 StartChar: uE113
@@ -4447,7 +4536,7 @@ SplineSet
  177 374 l 1,161,-1
 EndSplineSet
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11315 u1134D u11324
+Ligature2: "'akhn' Akhanda subtable" u11315 u1134D u11324
 EndChar
 
 StartChar: uE114
@@ -4535,7 +4624,7 @@ SplineSet
 EndSplineSet
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-410 dv=0
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11325
+Ligature2: "'akhn' Akhanda subtable" u11328 u1134D u11325
 EndChar
 
 StartChar: uE115
@@ -4631,7 +4720,7 @@ SplineSet
 EndSplineSet
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-50 dv=0
 LCarets2: 2 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11337 u1134D u1131F
+Ligature2: "'akhn' Akhanda subtable" u11337 u1134D u1131F
 EndChar
 
 StartChar: uE116
@@ -4758,7 +4847,7 @@ SplineSet
  568 0 568 0 517 0 c 3,57,58
 EndSplineSet
 LCarets2: 4 0 0 0 0
-Ligature2: "'akhn' Akhand lookup 0 subtable" u11328 u1134D u11324 u1134D u11335
+Ligature2: "'akhn' Akhanda subtable" u11328 u1134D u11324 u1134D u11335
 EndChar
 
 StartChar: uE200
@@ -4811,6 +4900,7 @@ SplineSet
  288 -124 l 1,46,47
 EndSplineSet
 Validated: 33
+Ligature2: "Ligature Substitution post repha rakara ya subtable" u11330 u1134D
 Substitution2: "Accent marker rearrangement single substitution 67-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 48-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 47-1" u0952
@@ -4820,7 +4910,6 @@ Substitution2: "Vowel marker rearrangement single substitution 7-1" u1134D
 Substitution2: "Vowel marker rearrangement single substitution 6-1" u11340
 Substitution2: "Vowel marker rearrangement single substitution 3-1" u1133F
 LCarets2: 1 0
-Ligature2: "'rphf' Reph Form lookup 2 subtable" u11330 u1134D
 EndChar
 
 StartChar: uE201
@@ -4869,6 +4958,7 @@ SplineSet
  159 478 l 1,0,1
 EndSplineSet
 Validated: 1
+Ligature2: "Ligature Substitution post repha rakara ya subtable" u1134D u1132F
 Substitution2: "Accent marker rearrangement single substitution 68-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 51-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 50-1" u0952
@@ -4876,7 +4966,6 @@ Substitution2: "Accent marker rearrangement single substitution 49-1" u0951
 Substitution2: "Vowel marker rearrangement single substitution 4-1" u11340
 Substitution2: "Vowel marker rearrangement single substitution 1-1" u1133F
 LCarets2: 1 0
-Ligature2: "'pstf' Post Base Forms lookup 3 subtable" u1134D u1132F
 EndChar
 
 StartChar: uE203
@@ -5021,9 +5110,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 116 70421 N 0.8 0 0 0.63 -461 -310 2
-Substitution2: "Single Substitution lookup 0-1" uE515
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE515
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11315
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11315
 EndChar
 
 StartChar: uE316
@@ -5033,9 +5122,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 117 70422 S 0.4896 0 0 0.612 -506 -296 2
-Substitution2: "Single Substitution lookup 0-1" uE516
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE516
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11316
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11316
 EndChar
 
 StartChar: uE317
@@ -5045,9 +5134,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 118 70423 S 0.8 0 0 0.6 -452 -289 2
-Substitution2: "Single Substitution lookup 0-1" uE517
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE517
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11317
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11317
 EndChar
 
 StartChar: uE318
@@ -5057,9 +5146,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 119 70424 N 0.62 0 0 0.63 -568 -298 2
-Substitution2: "Single Substitution lookup 0-1" uE518
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE518
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11318
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11318
 EndChar
 
 StartChar: uE31A
@@ -5069,9 +5158,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 121 70426 N 0.665 0 0 0.665 -535 -290 2
-Substitution2: "Single Substitution lookup 0-1" uE51A
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51A
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131A
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131A
 EndChar
 
 StartChar: uE31B
@@ -5081,9 +5170,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 122 70427 S 0.63175 0 0 0.63175 -528 -295 2
-Substitution2: "Single Substitution lookup 0-1" uE51B
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51B
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131B
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131B
 EndChar
 
 StartChar: uE31C
@@ -5094,9 +5183,9 @@ LayerCount: 2
 Fore
 Refer: 123 70428 S 0.6 0 0 0.55 -471 -272 2
 PairPos2: "'dist' Distance lookup for overhang 3-1" uE535 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-125 dh=0 dv=0
-Substitution2: "Single Substitution lookup 0-1" uE51C
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51C
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131C
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131C
 EndChar
 
 StartChar: uE31D
@@ -5106,9 +5195,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 124 70429 S 0.7497 0 0 0.6 -547 -282 2
-Substitution2: "Single Substitution lookup 0-1" uE51D
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51D
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131D
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131D
 EndChar
 
 StartChar: uE31F
@@ -5119,9 +5208,9 @@ LayerCount: 2
 Fore
 Refer: 126 70431 S 0.637245 0 0 0.6069 -421 -284 2
 Validated: 1
-Substitution2: "Single Substitution lookup 0-1" uE51F
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51F
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131F
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131F
 EndChar
 
 StartChar: uE320
@@ -5131,9 +5220,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 127 70432 S 0.6464 0 0 0.73425 -333 -291 2
-Substitution2: "Single Substitution lookup 0-1" uE520
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE520
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11320
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11320
 EndChar
 
 StartChar: uE321
@@ -5144,9 +5233,9 @@ LayerCount: 2
 Fore
 Refer: 128 70433 S 0.665 0 0 0.5985 -489 -305 2
 Validated: 1
-Substitution2: "Single Substitution lookup 0-1" uE521
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE521
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11321
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11321
 EndChar
 
 StartChar: uE322
@@ -5157,9 +5246,9 @@ LayerCount: 2
 Fore
 Refer: 129 70434 S 0.7 0 0 0.6175 -490 -304 2
 Validated: 1
-Substitution2: "Single Substitution lookup 0-1" uE522
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE522
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11322
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11322
 EndChar
 
 StartChar: uE323
@@ -5169,9 +5258,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 130 70435 S 0.67165 0 0 0.656069 -631 -309 2
-Substitution2: "Single Substitution lookup 0-1" uE523
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE523
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11323
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11323
 EndChar
 
 StartChar: uE324
@@ -5181,9 +5270,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 131 70436 S 0.76824 0 0 0.624195 -503 -299 2
-Substitution2: "Single Substitution lookup 0-1" uE524
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE524
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11324
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11324
 EndChar
 
 StartChar: uE325
@@ -5194,9 +5283,9 @@ LayerCount: 2
 Fore
 Refer: 132 70437 N 0.684 0 0 0.6175 -529 -297 2
 Validated: 1
-Substitution2: "Single Substitution lookup 0-1" uE525
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE525
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11325
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11325
 EndChar
 
 StartChar: uE326
@@ -5207,9 +5296,9 @@ LayerCount: 2
 Fore
 Refer: 133 70438 S 0.8 0 0 0.6305 -420 -293 2
 Validated: 1
-Substitution2: "Single Substitution lookup 0-1" uE526
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE526
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11326
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11326
 EndChar
 
 StartChar: uE327
@@ -5220,9 +5309,9 @@ LayerCount: 2
 Fore
 Refer: 134 70439 S 0.76 0 0 0.6175 -578 -291 2
 Validated: 1
-Substitution2: "Single Substitution lookup 0-1" uE527
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE527
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11327
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11327
 EndChar
 
 StartChar: uE328
@@ -5232,9 +5321,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 135 70440 S 0.7068 0 0 0.637 -534 -298 2
-Substitution2: "Single Substitution lookup 0-1" uE528
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE528
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11328
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11328
 EndChar
 
 StartChar: uE32A
@@ -5244,9 +5333,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 136 70442 N 0.65 0 0 0.6 -574 -277 2
-Substitution2: "Single Substitution lookup 0-1" uE52A
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52A
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132A
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132A
 EndChar
 
 StartChar: uE32B
@@ -5256,9 +5345,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 137 70443 N 0.605625 0 0 0.617737 -529 -284 2
-Substitution2: "Single Substitution lookup 0-1" uE52B
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52B
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132B
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132B
 EndChar
 
 StartChar: uE32C
@@ -5269,9 +5358,9 @@ LayerCount: 2
 Fore
 Refer: 138 70444 S 0.66 0 0 0.62 -553 -303 2
 Validated: 1
-Substitution2: "Single Substitution lookup 0-1" uE52C
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52C
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132C
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132C
 EndChar
 
 StartChar: uE32D
@@ -5281,9 +5370,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 139 70445 S 0.71295 0 0 0.611325 -544 -294 2
-Substitution2: "Single Substitution lookup 0-1" uE52D
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52D
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132D
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132D
 EndChar
 
 StartChar: uE32E
@@ -5293,9 +5382,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 140 70446 S 0.55 0 0 0.65 -310 -308 2
-Substitution2: "Single Substitution lookup 0-1" uE52E
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52E
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1132E
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132E
 EndChar
 
 StartChar: uE32F
@@ -5306,6 +5395,7 @@ LayerCount: 2
 Fore
 Refer: 141 70447 S 0.62 0 0 0.63 -401 -298 2
 Validated: 1
+Ligature2: "'blwf' Below Base Forms (second stacked layer ya ra) subtable" u1134D u1132F
 LCarets2: 1 0
 EndChar
 
@@ -5317,9 +5407,9 @@ LayerCount: 2
 Fore
 Refer: 143 70450 S 0.72 0 0 0.64 -475 -308 2
 Validated: 9
-Substitution2: "Single Substitution lookup 0-1" uE532
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE532
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11332
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11332
 EndChar
 
 StartChar: uE333
@@ -5329,9 +5419,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 144 70451 N 0.72 0 0 0.62 -522 -282 2
-Substitution2: "Single Substitution lookup 0-1" uE533
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE533
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11333
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11333
 EndChar
 
 StartChar: uE335
@@ -5342,9 +5432,9 @@ LayerCount: 2
 Fore
 Refer: 145 70453 S 0.72 0 0 0.64 -479 -305 2
 Validated: 1
-Substitution2: "Single Substitution lookup 0-1" uE535
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE535
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11335
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11335
 EndChar
 
 StartChar: uE336
@@ -5354,9 +5444,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 146 70454 N 0.75 0 0 0.64 -537 -298 2
-Substitution2: "Single Substitution lookup 0-1" uE536
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE536
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11336
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11336
 EndChar
 
 StartChar: uE337
@@ -5366,9 +5456,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 147 70455 N 0.5626 0 0 0.582 -561 -279 2
-Substitution2: "Single Substitution lookup 0-1" uE537
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE537
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11337
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11337
 EndChar
 
 StartChar: uE338
@@ -5378,9 +5468,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 148 70456 N 0.637 0 0 0.62426 -530 -286 2
-Substitution2: "Single Substitution lookup 0-1" uE538
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE538
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11338
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11338
 EndChar
 
 StartChar: uE339
@@ -5390,9 +5480,9 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 149 70457 S 0.55 0 0 0.63 -543 -300 2
-Substitution2: "Single Substitution lookup 0-1" uE539
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE539
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11339
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11339
 EndChar
 
 StartChar: uE380
@@ -5403,7 +5493,7 @@ LayerCount: 2
 Fore
 Refer: 29 57612 S 0.51975 0 0 0.57 -519 -277 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10C
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE10C
 EndChar
 
 StartChar: uE381
@@ -5414,7 +5504,7 @@ LayerCount: 2
 Fore
 Refer: 26 57609 S 0.541842 0 0 0.5529 -604 -271 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE109
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE109
 EndChar
 
 StartChar: uE382
@@ -5425,7 +5515,7 @@ LayerCount: 2
 Fore
 Refer: 27 57610 S 0.54 0 0 0.54 -629 -285 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10A
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE10A
 EndChar
 
 StartChar: uE383
@@ -5436,7 +5526,7 @@ LayerCount: 2
 Fore
 Refer: 19 57602 S 0.5454 0 0 0.54 -606 -248 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE102
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE102
 EndChar
 
 StartChar: uE384
@@ -5447,7 +5537,7 @@ LayerCount: 2
 Fore
 Refer: 32 57615 S 0.55 0 0 0.55 -543 -277 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10F
+Ligature2: "'vatu' Vattu Variants subtable" uE324 uE205
 EndChar
 
 StartChar: uE385
@@ -5458,7 +5548,7 @@ LayerCount: 2
 Fore
 Refer: 24 57607 S 0.55 0 0 0.55 -638 -264 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE107
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE107
 EndChar
 
 StartChar: uE386
@@ -5469,7 +5559,7 @@ LayerCount: 2
 Fore
 Refer: 23 57606 N 0.54 0 0 0.54 -517 -253 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE106
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE106
 EndChar
 
 StartChar: uE387
@@ -5480,7 +5570,7 @@ LayerCount: 2
 Fore
 Refer: 25 57608 S 0.5454 0 0 0.54 -553 -255 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE108
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE108
 EndChar
 
 StartChar: uE388
@@ -5491,7 +5581,7 @@ LayerCount: 2
 Fore
 Refer: 37 57620 S 0.6 0 0 0.6 -556 -271 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE114
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE114
 EndChar
 
 StartChar: uE389
@@ -5502,7 +5592,7 @@ LayerCount: 2
 Fore
 Refer: 28 57611 S 0.6 0 0 0.6 -573 -309 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE101
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE101
 EndChar
 
 StartChar: uE38A
@@ -5513,7 +5603,7 @@ LayerCount: 2
 Fore
 Refer: 33 57616 S 0.5454 0 0 0.5454 -648 -286 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE110
+Ligature2: "'vatu' Vattu Variants subtable" uE336 uE205
 EndChar
 
 StartChar: uE38B
@@ -5524,7 +5614,7 @@ LayerCount: 2
 Fore
 Refer: 22 57605 S 0.6 0 0 0.6 -408 -278 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE105
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE105
 EndChar
 
 StartChar: uE38C
@@ -5535,7 +5625,7 @@ LayerCount: 2
 Fore
 Refer: 36 57619 S 0.598975 0 0 0.47045 -658 -252 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE113
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE113
 EndChar
 
 StartChar: uE38D
@@ -5546,7 +5636,7 @@ LayerCount: 2
 Fore
 Refer: 38 57621 S 0.6237 0 0 0.6237 -657 -270 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE115
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE115
 EndChar
 
 StartChar: uE38E
@@ -5557,7 +5647,7 @@ LayerCount: 2
 Fore
 Refer: 35 57618 N 0.6 0 0 0.6 -495 -271 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE112
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE112
 EndChar
 
 StartChar: uE38F
@@ -5568,7 +5658,7 @@ LayerCount: 2
 Fore
 Refer: 17 57600 S 0.6 0 0 0.6 -582 -287 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE100
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE100
 EndChar
 
 StartChar: uE390
@@ -5579,7 +5669,7 @@ LayerCount: 2
 Fore
 Refer: 18 57601 S 0.6 0 0 0.6 -604 -264 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE101
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE101
 EndChar
 
 StartChar: uE391
@@ -5590,7 +5680,7 @@ LayerCount: 2
 Fore
 Refer: 20 57603 N 0.6 0 0 0.6 -830 -268 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE103
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE103
 EndChar
 
 StartChar: uE392
@@ -5601,7 +5691,7 @@ LayerCount: 2
 Fore
 Refer: 21 57604 S 0.6 0 0 0.6 -478 -268 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE104
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE104
 EndChar
 
 StartChar: uE393
@@ -5612,7 +5702,7 @@ LayerCount: 2
 Fore
 Refer: 30 57613 S 0.6 0 0 0.6 -464 -290 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10D
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE10D
 EndChar
 
 StartChar: uE394
@@ -5623,7 +5713,7 @@ LayerCount: 2
 Fore
 Refer: 31 57614 S 0.6 0 0 0.6 -631 -289 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE10E
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE10E
 EndChar
 
 StartChar: uE395
@@ -5634,7 +5724,7 @@ LayerCount: 2
 Fore
 Refer: 34 57617 N 0.6 0 0 0.6 -603 -262 2
 LCarets2: 1 0
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D uE111
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE111
 EndChar
 
 StartChar: uE400
@@ -5714,7 +5804,7 @@ SplineSet
 EndSplineSet
 Validated: 41
 LCarets2: 1 0
-Ligature2: "'haln' Halant Forms lookup 6 subtable" u11324 u1134D
+Ligature2: "'haln' Halant Forms subtable" u11324 u1134D
 EndChar
 
 StartChar: uE401
@@ -5780,7 +5870,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0
-Ligature2: "'haln' Halant Forms lookup 6 subtable" u11328 u1134D
+Ligature2: "'haln' Halant Forms subtable" u11328 u1134D
 EndChar
 
 StartChar: uE402
@@ -5839,7 +5929,7 @@ SplineSet
  202 314 202 314 200 303 c 0,71,72
  201 263 201 263 238 263 c 0,63,64
 EndSplineSet
-Ligature2: "'haln' Halant Forms lookup 6 subtable" u1132E u1134D
+Ligature2: "'haln' Halant Forms subtable" u1132E u1134D
 LCarets2: 1 0
 EndChar
 
@@ -5931,7 +6021,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0
-Ligature2: "'haln' Halant Forms lookup 6 subtable" uE101 u1134D
+Ligature2: "'haln' Halant Forms subtable" uE101 u1134D
 EndChar
 
 StartChar: u11302
@@ -9815,8 +9905,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 120 70425 S 0.791194 0 0 0.760093 -498 -338 2
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u11319
-Substitution2: "Single Substitution lookup 0-1" uE519
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11319
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE519
 EndChar
 
 StartChar: uE31E
@@ -9826,8 +9916,8 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 125 70430 S 0.8 0 0 0.8 -595 -366 2
-Ligature2: "'blwf' Below Base Forms lookup 4 subtable" u1134D u1131E
-Substitution2: "Single Substitution lookup 0-1" uE51E
+Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131E
+Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51E
 EndChar
 
 StartChar: uE205
@@ -9862,11 +9952,11 @@ SplineSet
  88 150 l 1,31,-1
  42 150 l 2,0,1
 EndSplineSet
+Ligature2: "Ligature Substitution post repha rakara ya subtable" u1134D u11330
 Substitution2: "Accent marker rearrangement single substitution 69-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 54-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 53-1" u0952
 Substitution2: "Accent marker rearrangement single substitution 52-1" u0951
-Ligature2: "'rkrf' Rakar Forms lookup 7-1" u1134D u11330
 Substitution2: "Vowel marker rearrangement single substitution 5-1" u11340
 Substitution2: "Vowel marker rearrangement single substitution 2-1" u1133F
 Substitution2: "Single Substitution lookup 2-1" uE204
@@ -10043,7 +10133,7 @@ SplineSet
 EndSplineSet
 Validated: 1
 LCarets2: 1 0
-Ligature2: "'haln' Halant Forms lookup 6 subtable" u1131F u1134D
+Ligature2: "'haln' Halant Forms subtable" u1131F u1134D
 EndChar
 
 StartChar: u11300
@@ -10513,7 +10603,7 @@ SplineSet
 EndSplineSet
 Validated: 41
 LCarets2: 1 0
-Ligature2: "'haln' Halant Forms lookup 6 subtable" u11319 u1134D
+Ligature2: "'haln' Halant Forms subtable" u11319 u1134D
 EndChar
 
 StartChar: u1CF2
@@ -11235,7 +11325,9 @@ Width: 0
 Flags: W
 LayerCount: 2
 Fore
-Refer: 142 70448 S 0.7956 0 0 0.7956 -419 -351 2
+Refer: 142 70448 S 0.626535 0 0 0.626535 -375 -293 2
+LCarets2: 1 0
+Ligature2: "'blwf' Below Base Forms (second stacked layer ya ra) subtable" u1134D u11330
 EndChar
 
 StartChar: uE209
@@ -11956,6 +12048,17 @@ Width: 0
 Flags: W
 LayerCount: 2
 Substitution2: "Accent marker rearrangement single substitution 69-1" uE205
+EndChar
+
+StartChar: uE584
+Encoding: 58756 58756 314
+Width: 0
+Flags: W
+LayerCount: 2
+Fore
+Refer: 80 58244 N 1 0 0 1 0 -300 2
+LCarets2: 1 0
+Ligature2: "'vatu' Vattu Variants subtable" uE524 uE205
 EndChar
 EndChars
 EndSplineFont
