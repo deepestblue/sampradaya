@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612336955
+ModificationTime: 1612337902
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -54,9 +54,9 @@ OS2StrikeYSize: 51
 OS2StrikeYPos: 256
 OS2Vendor: '    '
 Lookup: 4 0 0 "'akhn' Akhanda" { "'akhn' Akhanda subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'rphf' Repha Form" { "'rphf' Repha Form subtable"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms (second stacked layer)" { "'blwf' Below Base Forms (second stacked layer) subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "Ligature Substitution post ya ra" { "Ligature Substitution post ya ra subtable"  } []
+Lookup: 4 0 0 "Ligature Substitution post repha rakara ya" { "Ligature Substitution post repha rakara ya subtable"  } []
+Lookup: 6 0 0 "'rphf' Repha Form" { "'rphf' Repha Form (do nothing)"  "'rphf' Repha Form (post repha form)"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'rkrf' Rakara Forms" { "'rkrf' Rakara Forms (do nothing)"  "'rkrf' Rakara Forms (post rakara form)"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'pstf' Post Base Forms lookup (post yakara)" { "'pstf' Post Base Forms lookup (do nothing)"  "'pstf' Post Base Forms lookup (post yakara form)"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms (second stacked layer ya ra)" { "'blwf' Below Base Forms (second stacked layer ya ra) subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -183,6 +183,36 @@ Lookup: 257 0 0 "Single Position lookup for accent markers 4" { "Single Position
 Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1"  "'dist' Distance lookup 5-2"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "'rphf' Repha Form (post repha form)" 3 3 3 1
+  Class: 6 u11330
+  Class: 6 u1134D
+  BClass: 6 u11330
+  BClass: 6 u1134D
+  FClass: 6 u11330
+  FClass: 6 u1134D
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Ligature Substitution post repha rakara ya"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
+EndFPST
+ChainSub2: class "'rphf' Repha Form (do nothing)" 3 2 1 1
+  Class: 6 u11330
+  Class: 6 u1134D
+  BClass: 6 u1134D
+ 2 1 0
+  ClsList: 1 2
+  BClsList: 1
+  FClsList:
+ 0
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1"
+  FClassNames: "All_Others"
+EndFPST
 ChainSub2: class "'rkrf' Rakara Forms (post rakara form)" 3 3 3 1
   Class: 6 u1134D
   Class: 6 u11330
@@ -195,7 +225,7 @@ ChainSub2: class "'rkrf' Rakara Forms (post rakara form)" 3 3 3 1
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Ligature Substitution post ya ra"
+  SeqLookup: 0 "Ligature Substitution post repha rakara ya"
   ClassNames: "All_Others" "1" "2"
   BClassNames: "All_Others" "1" "2"
   FClassNames: "All_Others" "1" "2"
@@ -234,7 +264,7 @@ ChainSub2: class "'pstf' Post Base Forms lookup (post yakara form)" 3 1 1 1
   BClsList:
   FClsList:
  1
-  SeqLookup: 0 "Ligature Substitution post ya ra"
+  SeqLookup: 0 "Ligature Substitution post repha rakara ya"
   ClassNames: "All_Others" "1" "2"
   BClassNames: "All_Others"
   FClassNames: "All_Others"
@@ -4870,6 +4900,7 @@ SplineSet
  288 -124 l 1,46,47
 EndSplineSet
 Validated: 33
+Ligature2: "Ligature Substitution post repha rakara ya subtable" u11330 u1134D
 Substitution2: "Accent marker rearrangement single substitution 67-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 48-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 47-1" u0952
@@ -4879,7 +4910,6 @@ Substitution2: "Vowel marker rearrangement single substitution 7-1" u1134D
 Substitution2: "Vowel marker rearrangement single substitution 6-1" u11340
 Substitution2: "Vowel marker rearrangement single substitution 3-1" u1133F
 LCarets2: 1 0
-Ligature2: "'rphf' Repha Form subtable" u11330 u1134D
 EndChar
 
 StartChar: uE201
@@ -4928,7 +4958,7 @@ SplineSet
  159 478 l 1,0,1
 EndSplineSet
 Validated: 1
-Ligature2: "Ligature Substitution post ya ra subtable" u1134D u1132F
+Ligature2: "Ligature Substitution post repha rakara ya subtable" u1134D u1132F
 Substitution2: "Accent marker rearrangement single substitution 68-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 51-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 50-1" u0952
@@ -9922,7 +9952,7 @@ SplineSet
  88 150 l 1,31,-1
  42 150 l 2,0,1
 EndSplineSet
-Ligature2: "Ligature Substitution post ya ra subtable" u1134D u11330
+Ligature2: "Ligature Substitution post repha rakara ya subtable" u1134D u11330
 Substitution2: "Accent marker rearrangement single substitution 69-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 54-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 53-1" u0952
