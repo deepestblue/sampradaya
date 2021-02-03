@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612240811
+ModificationTime: 1612335013
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -53,14 +53,16 @@ OS2SupYOff: 143
 OS2StrikeYSize: 51
 OS2StrikeYPos: 256
 OS2Vendor: '    '
-Lookup: 4 0 0 "'akhn' Akhand lookup 0" { "'akhn' Akhand lookup 0 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'rphf' Reph Form lookup 2" { "'rphf' Reph Form lookup 2 subtable"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'rkrf' Rakar Forms lookup 7" { "'rkrf' Rakar Forms lookup 7-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'blwf' Below Base Forms lookup 4 (second stacked layer)" { "'blwf' Below Base Forms lookup 4 subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'akhn' Akhanda" { "'akhn' Akhand lookup 0 subtable"  } ['akhn' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'rphf' Repha Form" { "'rphf' Reph Form lookup 2 subtable"  } ['rphf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'rkrf' Rakara Forms" { "'rkrf' Rakar Forms lookup 7-1"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms (second stacked layer)" { "'blwf' Below Base Forms lookup 4 subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "Ligature Substitution post yakara" { "Ligature Substitution post yakara-1"  } []
+Lookup: 6 0 0 "'pstf' Post Base Forms lookup (post yakara)" { "'pstf' Post Base Forms lookup (do nothing)"  "'pstf' Post Base Forms lookup (post yakara form)"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'blwf' Below Base Forms (second stacked layer yakara)" { "'blwf' Below Base Forms lookup 118-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup (second stack to third)" { "Single Substitution lookup 0-1"  } []
-Lookup: 6 0 0 "'blwf' Below Base Forms lookup 11 (third stacked layer)" { "'blwf' Below Base Forms lookup 11-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'pstf' Post Base Forms lookup (post yakara)" { "'pstf' Post Base Forms lookup 3 subtable"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'vatu' Vattu Variants lookup 10" { "'vatu' Vattu Variants lookup 10-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'blwf' Below Base Forms (third stacked layer)" { "'blwf' Below Base Forms lookup 11-1"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'vatu' Vattu Variants" { "'vatu' Vattu Variants lookup 10-1"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 55" { "Accent marker rearrangement single substitution 55-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 21" { "'psts' Post Base Substitutions lookup 21-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 22" { "'psts' Post Base Substitutions lookup 22-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -169,7 +171,7 @@ Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1" 
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 4 0 0 "'haln' Halant Forms lookup 6" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 4 0 0 "'haln' Halanta Forms" { "'haln' Halant Forms lookup 6 subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for I marker 0" { "Single Position lookup 0-1"  } []
 Lookup: 264 0 0 "'abvm' Above Base Mark positioning for I marker 1" { "'abvm' Above Base Mark lookup 1-1"  } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 258 0 0 "'dist' Distance lookup 2" { "'dist' Distance lookup for overhang 2-1" [153,15,6] "'dist' Distance lookup intra-post-base marker 2-2" [153,15,6] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -181,6 +183,32 @@ Lookup: 257 0 0 "Single Position lookup for accent markers 4" { "Single Position
 Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1"  "'dist' Distance lookup 5-2"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: class "'pstf' Post Base Forms lookup (do nothing)" 3 1 2 1
+  Class: 6 u1134D
+  Class: 6 u1132F
+  FClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
+ 2 0 1
+  ClsList: 1 2
+  BClsList:
+  FClsList: 1
+ 0
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others" "1"
+EndFPST
+ChainSub2: class "'pstf' Post Base Forms lookup (post yakara form)" 3 1 1 1
+  Class: 6 u1134D
+  Class: 6 u1132F
+ 2 0 0
+  ClsList: 1 2
+  BClsList:
+  FClsList:
+ 1
+  SeqLookup: 0 "Ligature Substitution post yakara"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others"
+EndFPST
 ChainPos2: class "'dist' Distance lookup 5-2" 3 2 3 4
   Class: 11 u0951 u1CF4
   Class: 6 u11301
@@ -4870,6 +4898,7 @@ SplineSet
  159 478 l 1,0,1
 EndSplineSet
 Validated: 1
+Ligature2: "Ligature Substitution post yakara-1" u1134D u1132F
 Substitution2: "Accent marker rearrangement single substitution 68-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 51-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 50-1" u0952
@@ -4877,7 +4906,6 @@ Substitution2: "Accent marker rearrangement single substitution 49-1" u0951
 Substitution2: "Vowel marker rearrangement single substitution 4-1" u11340
 Substitution2: "Vowel marker rearrangement single substitution 1-1" u1133F
 LCarets2: 1 0
-Ligature2: "'pstf' Post Base Forms lookup 3 subtable" u1134D u1132F
 EndChar
 
 StartChar: uE203
@@ -5307,6 +5335,7 @@ LayerCount: 2
 Fore
 Refer: 141 70447 S 0.62 0 0 0.63 -401 -298 2
 Validated: 1
+Ligature2: "'blwf' Below Base Forms lookup 118-1" u1134D u1132F
 LCarets2: 1 0
 EndChar
 
