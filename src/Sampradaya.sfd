@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612337902
+ModificationTime: 1612477621
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -82,11 +82,14 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 24" { "'psts' Post Base Sub
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 25" { "'psts' Post Base Substitutions lookup 25-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 26" { "'psts' Post Base Substitutions lookup 26-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 67" { "Accent marker rearrangement single substitution 67-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 68" { "Accent marker rearrangement single substitution 68-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 69" { "Accent marker rearrangement single substitution 69-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 27" { "'psts' Post Base Substitutions lookup 27-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 28" { "'psts' Post Base Substitutions lookup 28-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 29" { "'psts' Post Base Substitutions lookup 29-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 68" { "Accent marker rearrangement single substitution 68-1"  } []
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 69" { "Accent marker rearrangement single substitution 69-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 30" { "'psts' Post Base Substitutions lookup 30-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 31" { "'psts' Post Base Substitutions lookup 31-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 32" { "'psts' Post Base Substitutions lookup 32-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 34" { "Accent marker rearrangement single substitution 34-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 35" { "Accent marker rearrangement single substitution 35-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 36" { "Accent marker rearrangement single substitution 36-1"  } []
@@ -144,15 +147,18 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 64" { "'psts' Post Base Sub
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 46" { "Accent marker rearrangement single substitution 46-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 47" { "Accent marker rearrangement single substitution 47-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 48" { "Accent marker rearrangement single substitution 48-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 89" { "'psts' Post Base Substitutions lookup 89-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 90" { "'psts' Post Base Substitutions lookup 90-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 91" { "'psts' Post Base Substitutions lookup 91-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 49" { "Accent marker rearrangement single substitution 49-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 50" { "Accent marker rearrangement single substitution 50-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 51" { "Accent marker rearrangement single substitution 51-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 52" { "Accent marker rearrangement single substitution 52-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 53" { "Accent marker rearrangement single substitution 53-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 54" { "Accent marker rearrangement single substitution 54-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 89" { "'psts' Post Base Substitutions lookup 89-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 90" { "'psts' Post Base Substitutions lookup 90-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 91" { "'psts' Post Base Substitutions lookup 91-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 92" { "'psts' Post Base Substitutions lookup 92-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 93" { "'psts' Post Base Substitutions lookup 93-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 94" { "'psts' Post Base Substitutions lookup 94-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Vowel marker rearrangement single substitution 1" { "Vowel marker rearrangement single substitution 1-1"  } []
 Lookup: 1 0 0 "Vowel marker rearrangement single substitution 2" { "Vowel marker rearrangement single substitution 2-1"  } []
 Lookup: 1 0 0 "Vowel marker rearrangement single substitution 3" { "Vowel marker rearrangement single substitution 3-1"  } []
@@ -183,6 +189,78 @@ Lookup: 257 0 0 "Single Position lookup for accent markers 4" { "Single Position
 Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1"  "'dist' Distance lookup 5-2"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 29-1" 0 0 0 1
+ String: 5 uE4C9
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 67"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 28-1" 0 0 0 1
+ String: 5 uE200
+ BString: 0
+ FString: 5 uE4C9
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 67"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 27-1" 0 0 0 1
+ String: 6 u11301
+ BString: 5 uE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 67"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 91-1" 0 0 0 3
+ String: 5 uE4B4
+ BString: 5 u0951
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 46"
+ String: 5 uE4B5
+ BString: 5 u0952
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 47"
+ String: 5 uE4B6
+ BString: 5 u1CF4
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 48"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 90-1" 0 0 0 3
+ String: 5 uE200
+ BString: 0
+ FString: 5 uE4B4
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 46"
+ String: 5 uE200
+ BString: 0
+ FString: 5 uE4B5
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 47"
+ String: 5 uE200
+ BString: 0
+ FString: 5 uE4B6
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 48"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 89-1" 0 0 0 3
+ String: 5 u0951
+ BString: 5 uE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 46"
+ String: 5 u0952
+ BString: 5 uE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 47"
+ String: 5 u1CF4
+ BString: 5 uE200
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 48"
+EndFPST
 ChainSub2: class "'rphf' Repha Form (post repha form)" 3 3 3 1
   Class: 6 u11330
   Class: 6 u1134D
@@ -361,54 +439,39 @@ ChainPos2: class "'dist' Distance lookup 5-1" 2 5 1 8
   BClassNames: "All_Others" "1" "2" "3" "4"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 28-1" 0 0 0 3
- String: 5 uE200
- BString: 0 
- FString: 5 uE4C9
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 67"
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 31-1" 0 0 0 2
  String: 5 uE201
- BString: 0 
+ BString: 0
  FString: 5 uE4CA
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 68"
  String: 5 uE205
- BString: 0 
+ BString: 0
  FString: 5 uE4CB
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 29-1" 0 0 0 3
- String: 5 uE4C9
- BString: 6 u11301
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 67"
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 32-1" 0 0 0 2
  String: 5 uE4CA
  BString: 6 u11301
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 68"
  String: 5 uE4CB
  BString: 6 u11301
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 27-1" 0 0 0 3
- String: 6 u11301
- BString: 5 uE200
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 67"
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 30-1" 0 0 0 2
  String: 6 u11301
  BString: 5 uE201
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 68"
  String: 6 u11301
  BString: 5 uE205
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
@@ -604,143 +667,98 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 21-1" 0 0 0 1
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 55"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 91-1" 0 0 0 9
- String: 5 uE4B4
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 46"
- String: 5 uE4B5
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 47"
- String: 5 uE4B6
- BString: 5 u1CF4
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 48"
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 94-1" 0 0 0 6
  String: 5 uE4B7
  BString: 5 u0951
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 49"
  String: 5 uE4B8
  BString: 5 u0952
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 50"
  String: 5 uE4B9
  BString: 5 u1CF4
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 51"
  String: 5 uE4BA
  BString: 5 u0951
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 52"
  String: 5 uE4BB
  BString: 5 u0952
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 53"
  String: 5 uE4BC
  BString: 5 u1CF4
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 54"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 89-1" 0 0 0 9
- String: 5 u0951
- BString: 5 uE200
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 46"
- String: 5 u0952
- BString: 5 uE200
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 47"
- String: 5 u1CF4
- BString: 5 uE200
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 48"
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 92-1" 0 0 0 6
  String: 5 u0951
  BString: 5 uE201
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 49"
  String: 5 u0952
  BString: 5 uE201
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 50"
  String: 5 u1CF4
  BString: 5 uE201
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 51"
  String: 5 u0951
  BString: 5 uE205
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 52"
  String: 5 u0952
  BString: 5 uE205
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 53"
  String: 5 u1CF4
  BString: 5 uE205
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 54"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 90-1" 0 0 0 9
- String: 5 uE200
- BString: 0 
- FString: 5 uE4B4
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 46"
- String: 5 uE200
- BString: 0 
- FString: 5 uE4B5
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 47"
- String: 5 uE200
- BString: 0 
- FString: 5 uE4B6
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 48"
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 93-1" 0 0 0 6
  String: 5 uE201
- BString: 0 
+ BString: 0
  FString: 5 uE4B7
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 49"
  String: 5 uE201
- BString: 0 
+ BString: 0
  FString: 5 uE4B8
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 50"
  String: 5 uE201
- BString: 0 
+ BString: 0
  FString: 5 uE4B9
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 51"
  String: 5 uE205
- BString: 0 
+ BString: 0
  FString: 5 uE4BA
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 52"
  String: 5 uE205
- BString: 0 
+ BString: 0
  FString: 5 uE4BB
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 53"
  String: 5 uE205
- BString: 0 
+ BString: 0
  FString: 5 uE4BC
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 54"
