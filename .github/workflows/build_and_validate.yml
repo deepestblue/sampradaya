@@ -19,7 +19,6 @@ jobs:
         uses: actions/checkout@v2
       - name: Install dependencies
         run: |
-          ln -s /usr/bin/python3 /usr/local/bin/python3.9
           brew install --cask fontforge
           ln -s /Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge /usr/local/bin/
           pip install fonttools gftools
