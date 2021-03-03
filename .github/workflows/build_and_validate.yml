@@ -46,7 +46,7 @@ jobs:
           name: TTF file
           path: src
       - name: Install dependencies
-        run: brew install imagemagick qt5
+        run: brew install imagemagick qt@6
         env:
           HOMEBREW_NO_INSTALL_CLEANUP: 1
       - name: Build and run test
