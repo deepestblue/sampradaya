@@ -18,9 +18,9 @@ rasterise_text.o: ../rasterise_text.cpp ../rasterise_text.hpp
 	$(CXX) $(CXXFLAGS) -c ../rasterise_text.cpp
 
 qt/rasterise_text_impl.o: qt/rasterise_text_impl.cpp ../rasterise_text.hpp
-	$(CXX) $(CXXFLAGS) --system-header-prefix=QtGui/ --system-header-prefix=QtWidgets/ -F/usr/local/opt/qt/Frameworks -c qt/rasterise_text_impl.cpp -o $@
+	$(CXX) $(CXXFLAGS) --system-header-prefix=QtGui/ --system-header-prefix=QtWidgets/ -F/usr/local/opt/qt5/Frameworks -c qt/rasterise_text_impl.cpp -o $@
 qt/rasterise_text: ${QTOBJECTS}
-	${CXX} ${LDFLAGS} ${QTOBJECTS} -F/usr/local/opt/qt/Frameworks -framework QtGui -framework QtCore -framework QtWidgets -o $@
+	${CXX} ${LDFLAGS} ${QTOBJECTS} -F/usr/local/opt/qt5/Frameworks -framework QtGui -framework QtCore -framework QtWidgets -o $@
 
 coretext/rasterise_text: ${CORETEXTOBJECTS}
 	${CXX} ${LDFLAGS} ${CORETEXTOBJECTS} -framework ImageIO -framework CoreGraphics -framework CoreText -framework CoreServices -framework CoreFoundation -o $@
