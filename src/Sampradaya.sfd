@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1616352800
+ModificationTime: 1616359376
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -176,6 +176,7 @@ Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4-1" 
 Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
+Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halanta Forms" { "'haln' Halant Forms subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for I marker 0" { "Single Position lookup 0-1"  } []
@@ -1845,7 +1846,7 @@ ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 7 1 12
   BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 4 1 2
+ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 4 1 3
   Class: 5 uE205
   BClass: 83 uE100 uE105 uE10C uE10D uE10E uE113 uE115 u11319 u1131C u1131F u11326 u11328 u11337
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
@@ -1862,6 +1863,12 @@ ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 4 1 2
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 2"
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
   ClassNames: "All_Others" "1"
   BClassNames: "All_Others" "1" "2" "3"
   FClassNames: "All_Others"
@@ -1882,14 +1889,14 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 11 11 5
+WinInfo: 33 11 5
 BeginPrivate: 0
 EndPrivate
 Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 315
+BeginChars: 1114113 316
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -5046,7 +5053,7 @@ StartChar: uE204
 Encoding: 57860 57860 43
 Width: 235
 GlyphClass: 3
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -10003,6 +10010,7 @@ SplineSet
  -301 -97 -301 -97 -118 -99 c 28,46,47
  -98 -99 -98 -99 -62.5 -96 c 28,0,1
 EndSplineSet
+Substitution2: "Single Substitution lookup 8-1" uE202
 Ligature2: "Ligature Substitution post repha rakara ya subtable" u1134D u11330
 Substitution2: "Accent marker rearrangement single substitution 69-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 54-1" u1CF4
@@ -12111,6 +12119,47 @@ Fore
 Refer: 80 58244 N 1 0 0 1 0 -300 2
 LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants subtable" uE524 uE205
+EndChar
+
+StartChar: uE202
+Encoding: 57858 57858 315
+Width: 235
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-5 -546 m 6,0,1
+ 74.1229324076 -544.782724117 74.1229324076 -544.782724117 117 -469 c 4,2,3
+ 149 -413 149 -413 149 -351 c 6,4,-1
+ 149 147 l 1,5,-1
+ 191 147 l 2,6,7
+ 202 147 202 147 208 155.5 c 128,-1,8
+ 214 164 214 164 214 174 c 256,9,10
+ 214 184 214 184 208 192.5 c 128,-1,11
+ 202 201 202 201 191 201 c 2,12,-1
+ 44 201 l 2,13,14
+ 32 201 32 201 26 192.5 c 128,-1,15
+ 20 184 20 184 20 174 c 256,16,17
+ 20 164 20 164 26.5 155.5 c 128,-1,18
+ 33 147 33 147 44 147 c 2,19,-1
+ 91 147 l 1,20,-1
+ 91 -351 l 6,21,22
+ 91 -415 91 -415 73 -441.5 c 4,23,24
+ 67 -451 67 -451 33 -486.75 c 4,25,26
+ 26 -494 26 -494 -12 -501.5 c 4,27,28
+ -20 -503 -20 -503 -66.5 -502.25 c 4,29,30
+ -251 -498 -251 -498 -374 -477 c 4,31,32
+ -589 -441 -589 -441 -639 -441 c 4,33,34
+ -650 -441 -650 -441 -659.5 -451.5 c 132,-1,35
+ -669 -462 -669 -462 -665.5 -471.5 c 132,-1,36
+ -662 -481 -662 -481 -618.5 -494.5 c 4,37,38
+ -553 -515 -553 -515 -404.5 -528 c 4,39,40
+ -343 -534 l 4,41,-1
+ -252 -541 l 4,42,43
+ -252 -544.164835165 -252 -544.164835165 -166 -547 c 28,44,45
+ -151 -548 -151 -548 -70 -547 c 28,46,47
+ -6 -547 -6 -547 -5 -546 c 6,0,1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
