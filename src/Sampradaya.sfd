@@ -5085,8 +5085,8 @@ EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: uE202
-Encoding: 57858 57858 44
+StartChar: uE280
+Encoding: 57984 57984 44
 Width: 308
 Flags: MW
 LayerCount: 2
@@ -9903,7 +9903,7 @@ Width: 811
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 44 57858 S 1 0 0 1 510 0.5 2
+Refer: 44 57984 S 1 0 0 1 510 0.5 2
 Refer: 110 70411 N 1 0 0 1 -34 0 2
 EndChar
 
@@ -10351,7 +10351,7 @@ Width: 1062
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 44 57858 N 1 0 0 1 715 0 2
+Refer: 44 57984 N 1 0 0 1 715 0 2
 Refer: 111 70412 N 1 0 0 1 0 0 2
 EndChar
 
