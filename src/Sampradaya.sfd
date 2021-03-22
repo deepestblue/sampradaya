@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1616359376
+ModificationTime: 1616372223
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -177,7 +177,8 @@ Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1" 
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 12" { "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halanta Forms" { "'haln' Halant Forms subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for I marker 0" { "Single Position lookup 0-1"  } []
 Lookup: 264 0 0 "'abvm' Above Base Mark positioning for I marker 1" { "'abvm' Above Base Mark lookup 1-1"  } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -1846,11 +1847,12 @@ ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 7 1 12
   BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 4 1 3
+ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 5 1 6
   Class: 5 uE205
   BClass: 83 uE100 uE105 uE10C uE10D uE10E uE113 uE115 u11319 u1131C u1131F u11326 u11328 u11337
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 11 uE109 uE10B
+  BClass: 13 u1133F u11340
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -1869,8 +1871,26 @@ ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 4 1 3
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 8"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3"
+  BClassNames: "All_Others" "1" "2" "3" "4"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: coverage "'blwf' Below Base Forms (third stacked layer) subtable" 0 0 0 1
