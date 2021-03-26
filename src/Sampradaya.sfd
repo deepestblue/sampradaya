@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1612510534
+ModificationTime: 1616372223
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -176,7 +176,9 @@ Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4-1" 
 Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 12" { "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halanta Forms" { "'haln' Halant Forms subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for I marker 0" { "Single Position lookup 0-1"  } []
 Lookup: 264 0 0 "'abvm' Above Base Mark positioning for I marker 1" { "'abvm' Above Base Mark lookup 1-1"  } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -192,25 +194,25 @@ DEI: 91125
 ChainPos2: glyph "'dist' Distance lookup 5-3 for svaritas after anunasika" 0 0 0 2
  String: 5 u1CF4
  BString: 6 u11301
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Single Position lookup for accent markers 1"
  String: 5 u0951
  BString: 6 u11301
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Single Position lookup for accent markers 1"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 29-1" 0 0 0 1
  String: 5 uE4C9
  BString: 6 u11301
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 67"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 28-1" 0 0 0 1
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE4C9
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 67"
@@ -218,40 +220,40 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 27-1" 0 0 0 1
  String: 6 u11301
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 67"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 91-1" 0 0 0 3
  String: 5 uE4B4
  BString: 5 u0951
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 46"
  String: 5 uE4B5
  BString: 5 u0952
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 47"
  String: 5 uE4B6
  BString: 5 u1CF4
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 48"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 90-1" 0 0 0 3
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE4B4
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 46"
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE4B5
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 47"
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE4B6
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 48"
@@ -259,17 +261,17 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 89-1" 0 0 0 3
  String: 5 u0951
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 46"
  String: 5 u0952
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 47"
  String: 5 u1CF4
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 48"
 EndFPST
@@ -453,12 +455,12 @@ ChainPos2: class "'dist' Distance lookup 5-1 for anudatta" 2 5 1 8
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 31-1" 0 0 0 2
  String: 5 uE201
- BString: 0
+ BString: 0 
  FString: 5 uE4CA
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 68"
  String: 5 uE205
- BString: 0
+ BString: 0 
  FString: 5 uE4CB
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 69"
@@ -466,24 +468,24 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 32-1" 0 0 0 2
  String: 5 uE4CA
  BString: 6 u11301
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 68"
  String: 5 uE4CB
  BString: 6 u11301
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 30-1" 0 0 0 2
  String: 6 u11301
  BString: 5 uE201
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 68"
  String: 6 u11301
  BString: 5 uE205
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
@@ -682,95 +684,95 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 94-1" 0 0 0 6
  String: 5 uE4B7
  BString: 5 u0951
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 49"
  String: 5 uE4B8
  BString: 5 u0952
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 50"
  String: 5 uE4B9
  BString: 5 u1CF4
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 51"
  String: 5 uE4BA
  BString: 5 u0951
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 52"
  String: 5 uE4BB
  BString: 5 u0952
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 53"
  String: 5 uE4BC
  BString: 5 u1CF4
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 54"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 92-1" 0 0 0 6
  String: 5 u0951
  BString: 5 uE201
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 49"
  String: 5 u0952
  BString: 5 uE201
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 50"
  String: 5 u1CF4
  BString: 5 uE201
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 51"
  String: 5 u0951
  BString: 5 uE205
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 52"
  String: 5 u0952
  BString: 5 uE205
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 53"
  String: 5 u1CF4
  BString: 5 uE205
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 54"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 93-1" 0 0 0 6
  String: 5 uE201
- BString: 0
+ BString: 0 
  FString: 5 uE4B7
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 49"
  String: 5 uE201
- BString: 0
+ BString: 0 
  FString: 5 uE4B8
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 50"
  String: 5 uE201
- BString: 0
+ BString: 0 
  FString: 5 uE4B9
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 51"
  String: 5 uE205
- BString: 0
+ BString: 0 
  FString: 5 uE4BA
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 52"
  String: 5 uE205
- BString: 0
+ BString: 0 
  FString: 5 uE4BB
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 53"
  String: 5 uE205
- BString: 0
+ BString: 0 
  FString: 5 uE4BC
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 54"
@@ -1845,10 +1847,12 @@ ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 7 1 12
   BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 3 1 2
+ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 5 1 6
   Class: 5 uE205
-  BClass: 24 uE10C uE10E u1131C uE115
-  BClass: 353 uE105 uE10B uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395 uE109
+  BClass: 83 uE100 uE105 uE10C uE10D uE10E uE113 uE115 u11319 u1131C u1131F u11326 u11328 u11337
+  BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
+  BClass: 11 uE109 uE10B
+  BClass: 13 u1133F u11340
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -1857,12 +1861,36 @@ ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 3 1 2
   SeqLookup: 0 "Single Substitution lookup 1"
  1 1 0
   ClsList: 1
-  BClsList: 2
+  BClsList: 3
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 2"
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2" "3" "4"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: coverage "'blwf' Below Base Forms (third stacked layer) subtable" 0 0 0 1
@@ -1878,17 +1906,17 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -48
+DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 22 10
+WinInfo: 33 11 5
 BeginPrivate: 0
 EndPrivate
 Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 315
+BeginChars: 1114113 316
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -1948,7 +1976,7 @@ SplineSet
  -227 459 -227 459 -227 466 c 2,10,-1
  -227 667 l 2,0,1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 52-1" uE4BA
@@ -1992,7 +2020,7 @@ EndSplineSet
 Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=-380 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 2-1" dx=0 dy=-615 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 53-1" uE4BB
 Substitution2: "Accent marker rearrangement single substitution 50-1" uE4B8
 Substitution2: "Accent marker rearrangement single substitution 47-1" uE4B5
@@ -5007,33 +5035,37 @@ Flags: MW
 LayerCount: 2
 Fore
 SplineSet
-43 147 m 2,0,1
- 32 147 32 147 25.5 155.5 c 128,-1,2
- 19 164 19 164 19 174 c 256,3,4
- 19 184 19 184 25 192.5 c 128,-1,5
- 31 201 31 201 43 201 c 2,6,-1
- 190 201 l 2,7,8
- 201 201 201 201 207 192.5 c 128,-1,9
- 213 184 213 184 213 174 c 256,10,11
- 213 164 213 164 206.5 155.5 c 128,-1,12
- 200 147 200 147 190 147 c 2,13,-1
- 148 147 l 1,14,-1
- 148 41 l 2,15,16
- 148 -183 148 -183 12 -205 c 0,17,18
- -8 -208 -8 -208 -25 -208 c 0,19,20
- -29 -208 -29 -208 -34 -208 c 0,21,22
- -56 -207 -56 -207 -69.5 -207 c 128,-1,23
- -83 -207 -83 -207 -94.5 -200 c 128,-1,24
- -106 -193 -106 -193 -106 -184.5 c 128,-1,25
- -106 -176 -106 -176 -100 -170 c 0,26,27
- -97 -167 -97 -167 -87 -168 c 0,28,29
- -78 -168 -78 -168 -65 -170 c 128,-1,30
- -52 -172 -52 -172 -38 -172 c 0,31,32
- -22 -172 -22 -172 -5 -169 c 0,33,34
- 60 -156 60 -156 84 -76 c 1,35,36
- 90 -36 90 -36 90 36 c 2,37,-1
- 90 147 l 1,38,-1
- 43 147 l 2,0,1
+-25 -243 m 4,0,1
+ -8 -243 -8 -243 12 -240 c 4,2,3
+ 148 -220 148 -220 148 -2 c 6,4,-1
+ 148 147 l 1,5,-1
+ 190 147 l 2,6,7
+ 200 147 200 147 206.5 155.5 c 128,-1,8
+ 213 164 213 164 213 174 c 256,9,10
+ 213 184 213 184 207 192.5 c 128,-1,11
+ 201 201 201 201 190 201 c 2,12,-1
+ 43 201 l 2,13,14
+ 31 201 31 201 25 192.5 c 128,-1,15
+ 19 184 19 184 19 174 c 256,16,17
+ 19 164 19 164 25.5 155.5 c 128,-1,18
+ 32 147 32 147 43 147 c 2,19,-1
+ 90 147 l 1,20,-1
+ 90 -2 l 6,21,22
+ 90 -74 90 -74 84 -114 c 5,23,24
+ 59 -200 59 -200 -5 -203 c 4,25,26
+ -30 -204 -30 -204 -38 -204 c 28,27,28
+ -43 -204 -43 -204 -90 -204 c 4,29,30
+ -147 -204 -147 -204 -164.5 -203.5 c 4,31,32
+ -229 -203 -229 -203 -239 -202 c 4,33,34
+ -383 -188 -383 -188 -405.5 -183 c 4,35,36
+ -547 -149 -547 -149 -571 -149 c 4,37,38
+ -602 -149 -602 -149 -602 -169 c 4,39,40
+ -602 -184 -602 -184 -580 -191 c 4,41,42
+ -577 -192 -577 -192 -520 -204 c 4,43,44
+ -397 -228 -397 -228 -360.970703125 -231.102539062 c 28,45,46
+ -277 -238 -277 -238 -277.41015625 -238.8515625 c 6,47,-1
+ -169 -242 l 28,48,49
+ -167 -243 -167 -243 -25 -243 c 4,0,1
 EndSplineSet
 EndChar
 
@@ -5045,34 +5077,43 @@ Flags: MW
 LayerCount: 2
 Fore
 SplineSet
--51 -284 m 0,0,1
- -51 -262 -51 -262 -20 -262.5 c 128,-1,2
- 11 -263 11 -263 33 -246 c 128,-1,3
- 55 -229 55 -229 73 -202.5 c 128,-1,4
- 91 -176 91 -176 91 -112 c 2,5,-1
- 91 147 l 1,6,-1
- 44 147 l 2,7,8
- 33 147 33 147 26.5 155.5 c 128,-1,9
- 20 164 20 164 20 174 c 256,10,11
- 20 184 20 184 26 192.5 c 128,-1,12
- 32 201 32 201 44 201 c 2,13,-1
- 191 201 l 2,14,15
- 202 201 202 201 208 192.5 c 128,-1,16
- 214 184 214 184 214 174 c 256,17,18
- 214 164 214 164 208 155.5 c 128,-1,19
- 202 147 202 147 191 147 c 2,20,-1
- 149 147 l 1,21,-1
- 149 37 l 2,22,23
- 149 -174 149 -174 117 -230 c 4,24,25
- 74 -308 74 -308 -13 -307 c 0,26,27
- -26 -307 -26 -307 -38.5 -299.5 c 128,-1,28
- -51 -292 -51 -292 -51 -284 c 0,0,1
+-5 -381 m 6,0,1
+ 74.1229324076 -379.782724117 74.1229324076 -379.782724117 117 -304 c 4,2,3
+ 149 -248 149 -248 149 -186 c 6,4,-1
+ 149 147 l 1,5,-1
+ 191 147 l 2,6,7
+ 202 147 202 147 208 155.5 c 128,-1,8
+ 214 164 214 164 214 174 c 256,9,10
+ 214 184 214 184 208 192.5 c 128,-1,11
+ 202 201 202 201 191 201 c 2,12,-1
+ 44 201 l 2,13,14
+ 32 201 32 201 26 192.5 c 128,-1,15
+ 20 184 20 184 20 174 c 256,16,17
+ 20 164 20 164 26.5 155.5 c 128,-1,18
+ 33 147 33 147 44 147 c 2,19,-1
+ 91 147 l 1,20,-1
+ 91 -186 l 6,21,22
+ 91 -250 91 -250 73 -276.5 c 4,23,24
+ 67 -286 67 -286 33 -321.75 c 4,25,26
+ 26 -329 26 -329 -12 -336.5 c 4,27,28
+ -20 -338 -20 -338 -66.5 -337.25 c 4,29,30
+ -251 -333 -251 -333 -374 -312 c 4,31,32
+ -589 -276 -589 -276 -639 -276 c 4,33,34
+ -650 -276 -650 -276 -659.5 -286.5 c 132,-1,35
+ -669 -297 -669 -297 -665.5 -306.5 c 132,-1,36
+ -662 -316 -662 -316 -618.5 -329.5 c 4,37,38
+ -553 -350 -553 -350 -404.5 -363 c 4,39,40
+ -343 -369 l 4,41,-1
+ -252 -376 l 4,42,43
+ -252 -379.164835165 -252 -379.164835165 -166 -382 c 28,44,45
+ -151 -383 -151 -383 -70 -382 c 28,46,47
+ -6 -382 -6 -382 -5 -381 c 6,0,1
 EndSplineSet
 LCarets2: 1 0
 EndChar
 
-StartChar: uE202
-Encoding: 57858 57858 44
+StartChar: uE280
+Encoding: 57984 57984 44
 Width: 308
 Flags: MW
 LayerCount: 2
@@ -9889,7 +9930,7 @@ Width: 811
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 44 57858 S 1 0 0 1 510 0.5 2
+Refer: 44 57984 S 1 0 0 1 510 0.5 2
 Refer: 110 70411 N 1 0 0 1 -34 0 2
 EndChar
 
@@ -9958,31 +9999,38 @@ Flags: MW
 LayerCount: 2
 Fore
 SplineSet
-42 150 m 2,0,1
- 31 150 31 150 25 158 c 128,-1,2
- 19 166 19 166 19 176 c 256,3,4
- 19 186 19 186 25 194 c 128,-1,5
- 31 202 31 202 42 202 c 2,6,-1
- 186 202 l 2,7,8
- 197 202 197 202 202.5 194 c 128,-1,9
- 208 186 208 186 208 176 c 256,10,11
- 208 166 208 166 202.5 158 c 128,-1,12
- 197 150 197 150 186 150 c 2,13,-1
- 145 150 l 1,14,-1
- 145 46 l 2,15,16
- 145 -103 145 -103 73 -149 c 0,17,18
- 41 -170 41 -170 3 -173 c 128,-1,19
- -35 -176 -35 -176 -58 -176 c 128,-1,20
- -81 -176 -81 -176 -91 -170 c 128,-1,21
- -101 -164 -101 -164 -101.5 -156 c 128,-1,22
- -102 -148 -102 -148 -94 -142 c 0,23,24
- -86 -138 -86 -138 -62.5 -138 c 128,-1,25
- -39 -138 -39 -138 -10 -135 c 0,26,27
- 56 -126 56 -126 80 -55 c 0,28,29
- 88 -31 88 -31 88 46 c 2,30,-1
- 88 150 l 1,31,-1
- 42 150 l 2,0,1
+-62.5 -96 m 28,0,1
+ -55 -95 -55 -95 -10 -90 c 4,2,3
+ 55 -83 55 -83 80 -10 c 4,4,5
+ 88 14 88 14 88 91 c 6,6,-1
+ 88 150 l 1,7,-1
+ 42 150 l 2,8,9
+ 31 150 31 150 25 158 c 128,-1,10
+ 19 166 19 166 19 176 c 256,11,12
+ 19 186 19 186 25 194 c 128,-1,13
+ 31 202 31 202 42 202 c 2,14,-1
+ 186 202 l 2,15,16
+ 197 202 197 202 202.5 194 c 128,-1,17
+ 208 186 208 186 208 176 c 256,18,19
+ 208 166 208 166 202.5 158 c 128,-1,20
+ 197 150 197 150 186 150 c 2,21,-1
+ 145 150 l 1,22,-1
+ 145 91 l 6,23,24
+ 145 -59 145 -59 73 -104 c 4,25,26
+ 52.2554347826 -117.201086957 52.2554347826 -117.201086957 3 -133 c 28,27,28
+ 0 -134 0 -134 -33 -138 c 28,29,30
+ -51.632 -140.192 -51.632 -140.192 -57 -140.5 c 6,31,-1
+ -118 -144 l 4,32,33
+ -597 -131 -597 -131 -649 -79 c 4,34,35
+ -656 -72 -656 -72 -653 -60 c 4,36,37
+ -651 -50 -651 -50 -624 -50 c 4,38,39
+ -623 -50 -623 -50 -600 -55 c 4,40,41
+ -556 -64 -556 -64 -551 -65 c 4,42,43
+ -397 -97 -397 -97 -314.5 -97 c 7,44,45
+ -301 -97 -301 -97 -118 -99 c 28,46,47
+ -98 -99 -98 -99 -62.5 -96 c 28,0,1
 EndSplineSet
+Substitution2: "Single Substitution lookup 8-1" uE202
 Ligature2: "Ligature Substitution post repha rakara ya subtable" u1134D u11330
 Substitution2: "Accent marker rearrangement single substitution 69-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 54-1" u1CF4
@@ -10331,7 +10379,7 @@ Width: 1062
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 44 57858 N 1 0 0 1 715 0 2
+Refer: 44 57984 N 1 0 0 1 715 0 2
 Refer: 111 70412 N 1 0 0 1 0 0 2
 EndChar
 
@@ -11500,7 +11548,7 @@ SplineSet
  -272 448 -272 448 -318 499 c 132,-1,15
  -364 550 -364 550 -371 632 c 28,0,-1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 54-1" uE4BC
@@ -12091,6 +12139,47 @@ Fore
 Refer: 80 58244 N 1 0 0 1 0 -300 2
 LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants subtable" uE524 uE205
+EndChar
+
+StartChar: uE202
+Encoding: 57858 57858 315
+Width: 235
+Flags: W
+LayerCount: 2
+Fore
+SplineSet
+-5 -546 m 6,0,1
+ 74.1229324076 -544.782724117 74.1229324076 -544.782724117 117 -469 c 4,2,3
+ 149 -413 149 -413 149 -351 c 6,4,-1
+ 149 147 l 1,5,-1
+ 191 147 l 2,6,7
+ 202 147 202 147 208 155.5 c 128,-1,8
+ 214 164 214 164 214 174 c 256,9,10
+ 214 184 214 184 208 192.5 c 128,-1,11
+ 202 201 202 201 191 201 c 2,12,-1
+ 44 201 l 2,13,14
+ 32 201 32 201 26 192.5 c 128,-1,15
+ 20 184 20 184 20 174 c 256,16,17
+ 20 164 20 164 26.5 155.5 c 128,-1,18
+ 33 147 33 147 44 147 c 2,19,-1
+ 91 147 l 1,20,-1
+ 91 -351 l 6,21,22
+ 91 -415 91 -415 73 -441.5 c 4,23,24
+ 67 -451 67 -451 33 -486.75 c 4,25,26
+ 26 -494 26 -494 -12 -501.5 c 4,27,28
+ -20 -503 -20 -503 -66.5 -502.25 c 4,29,30
+ -251 -498 -251 -498 -374 -477 c 4,31,32
+ -589 -441 -589 -441 -639 -441 c 4,33,34
+ -650 -441 -650 -441 -659.5 -451.5 c 132,-1,35
+ -669 -462 -669 -462 -665.5 -471.5 c 132,-1,36
+ -662 -481 -662 -481 -618.5 -494.5 c 4,37,38
+ -553 -515 -553 -515 -404.5 -528 c 4,39,40
+ -343 -534 l 4,41,-1
+ -252 -541 l 4,42,43
+ -252 -544.164835165 -252 -544.164835165 -166 -547 c 28,44,45
+ -151 -548 -151 -548 -70 -547 c 28,46,47
+ -6 -547 -6 -547 -5 -546 c 6,0,1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
