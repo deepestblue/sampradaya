@@ -3,6 +3,22 @@
 #include <memory>
 #include <filesystem>
 
+#ifndef _WIN32
+#define BOOST_STACKTRACE_GNU_SOURCE_NOT_REQUIRED
+#include <boost/stacktrace.hpp>
+#include <boost/exception/all.hpp>
+
+using traced = boost::error_info<struct tag_stacktrace, boost::stacktrace::stacktrace>;
+
+template <typename E>
+void throw_with_trace(
+    const E &e
+) {
+    throw boost::enable_error_info(e)
+        << traced(boost::stacktrace::stacktrace());
+}
+#endif
+
 using std::string;
 using std::unique_ptr;
 using std::filesystem::path;
@@ -19,7 +35,11 @@ throw_if_failed(
     if (exp)
         return;
 
+#ifdef _WIN32
     throw runtime_error(e());
+#else
+    throw_with_trace(runtime_error(e()));
+#endif
 }
 
 class Renderer {

@@ -64,5 +64,11 @@ catch (
     const exception &e
 ) {
     cerr << "Exception thrown: "s << e.what() << '\n';
+#ifndef _WIN32
+    const auto *st = boost::get_error_info<traced>(e);
+    if (st) {
+        std::cerr << *st << '\n';
+    }
+#endif
     return EXIT_FAILURE;
 }
