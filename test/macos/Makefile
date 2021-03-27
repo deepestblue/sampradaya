@@ -33,15 +33,13 @@ regenerate_coretext_masters: build coretext/rasterise_text
 
 regenerate_masters: regenerate_qt_masters regenerate_coretext_masters
 
-test: ${BINS}
+test: ${BINS} build
 	./run_tests coretext
 	./run_tests qt
-
-build_and_test: build test
 
 clean:
 	${RM} ${QTOBJECTS} ${CORETEXTOBJECTS} ${BINS}
 	${RM} ${TYPEFACENAME}.ttf
 	-find ${TMPDIR} -iname 'run_tests*' -type d 2>/dev/null | xargs ${RM} -r
 
-.PHONY: build install regenerate_qt_masters test build_and_test clean
+.PHONY: build install regenerate_masters regenerate_qt_masters regenerate_coretext_masters test clean
