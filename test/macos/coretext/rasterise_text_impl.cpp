@@ -85,7 +85,9 @@ CFStringFromString(
 }
 
 auto
-create_font_from_file() {
+create_font_from_file(
+    const path &typeface_file_path
+) {
     const auto &typeface_file_path_string = absolute(typeface_file_path).string();
     const auto typefacePathAsCFString = CFStringFromString(typeface_file_path_string);
 
@@ -169,9 +171,12 @@ private:
     }
 
 public:
-    impl(int , char *[])
-    : font(
-        create_font_from_file()
+    impl(
+        const path &typeface_file_path,
+        int ,
+        char *[]
+    ) : font(
+        create_font_from_file(typeface_file_path)
     ) {}
 
     auto
@@ -283,10 +288,12 @@ public:
 };
 
 Renderer::Renderer(
+    const path &typeface_file_path,
     int argc,
     char *argv[]
 ) : p_impl{
     std::make_unique<impl>(
+        typeface_file_path,
         argc,
         argv
     )

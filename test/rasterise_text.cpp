@@ -22,15 +22,17 @@ main(
     char *argv[]
 ) try {
     throw_if_failed(
-        argc == 3,
+        argc == 4,
         [] {
-            return "Need 3 arguments."s;
+            return "Need 4 arguments."s;
         }
     );
     const auto input_file = string{argv[1]};
     const auto output_dir = string{argv[2]};
+    const auto typeface_file_path = path{argv[3]};
 
     auto renderer = Renderer{
+        typeface_file_path,
         argc,
         argv
     };

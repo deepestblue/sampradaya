@@ -45,7 +45,9 @@ auto &&operator ,(
 }
 
 struct App_font {
-    App_font() :
+    App_font(
+        const path &typeface_file_path
+    ) :
         app_font_id(
             QFontDatabase::addApplicationFont(
                 QString::fromStdString(
@@ -80,12 +82,16 @@ private:
 class Renderer::impl {
 public:
     impl(
+        const path &typeface_file_path,
         int argc,
         char *argv[]
     ) :
     app(
         argc,
         argv
+    ),
+    app_font(
+        typeface_file_path
     ),
     qfont(
         app_font.get_typeface_name(),
@@ -219,10 +225,12 @@ private:
 };
 
 Renderer::Renderer(
+    const path &typeface_file_path,
     int argc,
     char *argv[]
 ) : p_impl{
     std::make_unique<impl>(
+        typeface_file_path,
         argc,
         argv
     )

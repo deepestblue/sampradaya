@@ -131,7 +131,8 @@ public:
 
 auto
 create_font_collection(
-    const ComPtr<IDWriteFactory5> &dwrite_factory
+    const ComPtr<IDWriteFactory5> &dwrite_factory,
+    const path &typeface_file_path
 ) {
     auto font_set_builder = ComPtr<IDWriteFontSetBuilder1>{};
     throw_if_failed(
@@ -314,7 +315,9 @@ encode_wicbitmap_onto_wicstream(
 
 class Renderer::impl {
 public:
-    impl()
+    impl(
+        const path &typeface_file_path
+    )
     {
         throw_if_failed(
             CoCreateInstance(
@@ -345,7 +348,8 @@ public:
             );
 
             const auto [font_collection, typeface_name] = create_font_collection(
-                dwrite_factory
+                dwrite_factory,
+                typeface_file_path
             );
 
             throw_if_failed(
@@ -466,10 +470,13 @@ private:
 };
 
 Renderer::Renderer(
+    const path &typeface_file_path,
     int ,
     char *[]
 ) : p_impl{
-    std::make_unique<impl>()
+    std::make_unique<impl>(
+        typeface_file_path
+    )
 } {}
 
 void

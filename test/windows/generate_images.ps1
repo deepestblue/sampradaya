@@ -1,4 +1,8 @@
+[CmdletBinding(PositionalBinding=$false)]
+
 Param(
+    [Parameter(Mandatory=$true)][string]$typefacePath,
+    [Parameter(Mandatory=$true)][string]$rasteriser,
     [Parameter(Mandatory=$true)][string]$outputRoot
 )
 
@@ -18,5 +22,5 @@ Get-ChildItem "$PSScriptRoot/../cases" -Name *txt | ForEach-Object {
     $dirName = $_ -replace '.txt', ''
     $outputDir = "$outputRoot/$dirName"
     MkDirIfNotExists $outputDir
-    & "$PSScriptRoot/rasterise_text" "$PSScriptRoot/../cases/$_" $outputDir
+    & $rasteriser "$PSScriptRoot/../cases/$_" $outputDir $typefacePath
 }

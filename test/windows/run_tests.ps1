@@ -2,6 +2,14 @@ using namespace System.Drawing.Imaging
 using namespace System.IO
 using namespace Microsoft.Test.VisualVerification
 
+[CmdletBinding(PositionalBinding=$false)]
+
+Param(
+    [Parameter(Mandatory=$true)][string]$typefacePath,
+    [Parameter(Mandatory=$true)][string]$rasteriser,
+    [Parameter(Mandatory=$true)][string]$masterImages
+)
+
 $ErrorActionPreference="Stop"
 
 Add-Type -Assembly System.Drawing
@@ -43,10 +51,10 @@ Param(
 
 $tmpDir = New-TemporaryDirectory
 
-robocopy "master_images" "$tmpDir/expected" /MIR /Z /UNICODE /NFL /NDL /NP /NJH /NJS /NS /NC
+robocopy $masterImages "$tmpDir/expected" /MIR /Z /UNICODE /NFL /NDL /NP /NJH /NJS /NS /NC
 
 MkDirIfNotExists "$tmpDir/actual"
-./generate_images.ps1 "$tmpDir/actual"
+./generate_images.ps1 -Rasteriser $rasteriser -OutputRoot "$tmpDir/actual" -TypeFace $typefacePath
 
 MkDirIfNotExists "$tmpDir/diff"
 
