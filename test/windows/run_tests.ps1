@@ -54,7 +54,7 @@ $tmpDir = New-TemporaryDirectory
 robocopy $masterImages "$tmpDir/expected" /MIR /Z /UNICODE /NFL /NDL /NP /NJH /NJS /NS /NC
 
 MkDirIfNotExists "$tmpDir/actual"
-./generate_images.ps1 -Rasteriser $rasteriser -OutputRoot "$tmpDir/actual" -TypeFace $typefacePath
+& "$PSScriptRoot/generate_images.ps1" -Rasteriser $rasteriser -OutputRoot "$tmpDir/actual" -TypeFace $typefacePath
 
 MkDirIfNotExists "$tmpDir/diff"
 
