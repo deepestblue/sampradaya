@@ -1909,7 +1909,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 187 11 5
+WinInfo: 0 11 5
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -1960,7 +1960,6 @@ EndChar
 StartChar: u0951
 Encoding: 2385 2385 3
 Width: 0
-GlyphClass: 4
 Flags: MW
 LayerCount: 2
 Fore
@@ -1976,33 +1975,32 @@ SplineSet
  -227 459 -227 459 -227 466 c 2,10,-1
  -227 667 l 2,0,1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
-Substitution2: "Accent marker rearrangement single substitution 52-1" uE4BA
-Substitution2: "Accent marker rearrangement single substitution 49-1" uE4B7
-Substitution2: "Accent marker rearrangement single substitution 46-1" uE4B4
-Substitution2: "Accent marker rearrangement single substitution 43-1" uE4B1
-Substitution2: "Accent marker rearrangement single substitution 40-1" uE4AE
-Substitution2: "Accent marker rearrangement single substitution 37-1" uE4AB
-Substitution2: "Accent marker rearrangement single substitution 34-1" uE4A8
-Substitution2: "Accent marker rearrangement single substitution 31-1" uE4A5
-Substitution2: "Accent marker rearrangement single substitution 28-1" uE4A2
-Substitution2: "Accent marker rearrangement single substitution 25-1" uE49F
-Substitution2: "Accent marker rearrangement single substitution 22-1" uE49C
-Substitution2: "Accent marker rearrangement single substitution 19-1" uE499
-Substitution2: "Accent marker rearrangement single substitution 16-1" uE496
-Substitution2: "Accent marker rearrangement single substitution 13-1" uE493
-Substitution2: "Accent marker rearrangement single substitution 10-1" uE490
-Substitution2: "Accent marker rearrangement single substitution 7-1" uE48D
-Substitution2: "Accent marker rearrangement single substitution 4-1" uE48A
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 1-1" uE487
+Substitution2: "Accent marker rearrangement single substitution 4-1" uE48A
+Substitution2: "Accent marker rearrangement single substitution 7-1" uE48D
+Substitution2: "Accent marker rearrangement single substitution 10-1" uE490
+Substitution2: "Accent marker rearrangement single substitution 13-1" uE493
+Substitution2: "Accent marker rearrangement single substitution 16-1" uE496
+Substitution2: "Accent marker rearrangement single substitution 19-1" uE499
+Substitution2: "Accent marker rearrangement single substitution 22-1" uE49C
+Substitution2: "Accent marker rearrangement single substitution 25-1" uE49F
+Substitution2: "Accent marker rearrangement single substitution 28-1" uE4A2
+Substitution2: "Accent marker rearrangement single substitution 31-1" uE4A5
+Substitution2: "Accent marker rearrangement single substitution 34-1" uE4A8
+Substitution2: "Accent marker rearrangement single substitution 37-1" uE4AB
+Substitution2: "Accent marker rearrangement single substitution 40-1" uE4AE
+Substitution2: "Accent marker rearrangement single substitution 43-1" uE4B1
+Substitution2: "Accent marker rearrangement single substitution 46-1" uE4B4
+Substitution2: "Accent marker rearrangement single substitution 49-1" uE4B7
+Substitution2: "Accent marker rearrangement single substitution 52-1" uE4BA
 EndChar
 
 StartChar: u0952
 Encoding: 2386 2386 4
 Width: 0
-GlyphClass: 4
 Flags: MW
 LayerCount: 2
 Fore
@@ -2017,28 +2015,28 @@ SplineSet
  -339 -83 l 2,9,10
  -354 -83 -354 -83 -354 -59 c 256,0,1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=-380 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 2-1" dx=0 dy=-615 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0
-Substitution2: "Accent marker rearrangement single substitution 53-1" uE4BB
-Substitution2: "Accent marker rearrangement single substitution 50-1" uE4B8
-Substitution2: "Accent marker rearrangement single substitution 47-1" uE4B5
-Substitution2: "Accent marker rearrangement single substitution 44-1" uE4B2
-Substitution2: "Accent marker rearrangement single substitution 41-1" uE4AF
-Substitution2: "Accent marker rearrangement single substitution 38-1" uE4AC
-Substitution2: "Accent marker rearrangement single substitution 35-1" uE4A9
-Substitution2: "Accent marker rearrangement single substitution 32-1" uE4A6
-Substitution2: "Accent marker rearrangement single substitution 29-1" uE4A3
-Substitution2: "Accent marker rearrangement single substitution 26-1" uE4A0
-Substitution2: "Accent marker rearrangement single substitution 23-1" uE49D
-Substitution2: "Accent marker rearrangement single substitution 20-1" uE49A
-Substitution2: "Accent marker rearrangement single substitution 17-1" uE497
-Substitution2: "Accent marker rearrangement single substitution 14-1" uE494
-Substitution2: "Accent marker rearrangement single substitution 11-1" uE491
-Substitution2: "Accent marker rearrangement single substitution 8-1" uE48E
-Substitution2: "Accent marker rearrangement single substitution 5-1" uE48B
+Position2: "Single Position lookup for accent markers 2-1" dx=0 dy=-615 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=-380 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 2-1" uE488
+Substitution2: "Accent marker rearrangement single substitution 5-1" uE48B
+Substitution2: "Accent marker rearrangement single substitution 8-1" uE48E
+Substitution2: "Accent marker rearrangement single substitution 11-1" uE491
+Substitution2: "Accent marker rearrangement single substitution 14-1" uE494
+Substitution2: "Accent marker rearrangement single substitution 17-1" uE497
+Substitution2: "Accent marker rearrangement single substitution 20-1" uE49A
+Substitution2: "Accent marker rearrangement single substitution 23-1" uE49D
+Substitution2: "Accent marker rearrangement single substitution 26-1" uE4A0
+Substitution2: "Accent marker rearrangement single substitution 29-1" uE4A3
+Substitution2: "Accent marker rearrangement single substitution 32-1" uE4A6
+Substitution2: "Accent marker rearrangement single substitution 35-1" uE4A9
+Substitution2: "Accent marker rearrangement single substitution 38-1" uE4AC
+Substitution2: "Accent marker rearrangement single substitution 41-1" uE4AF
+Substitution2: "Accent marker rearrangement single substitution 44-1" uE4B2
+Substitution2: "Accent marker rearrangement single substitution 47-1" uE4B5
+Substitution2: "Accent marker rearrangement single substitution 50-1" uE4B8
+Substitution2: "Accent marker rearrangement single substitution 53-1" uE4BB
 EndChar
 
 StartChar: u0964
@@ -5030,7 +5028,6 @@ EndChar
 StartChar: uE203
 Encoding: 57859 57859 42
 Width: 234
-GlyphClass: 3
 Flags: MW
 LayerCount: 2
 Fore
@@ -5072,7 +5069,6 @@ EndChar
 StartChar: uE204
 Encoding: 57860 57860 43
 Width: 235
-GlyphClass: 3
 Flags: MW
 LayerCount: 2
 Fore
@@ -10030,16 +10026,16 @@ SplineSet
  -301 -97 -301 -97 -118 -99 c 28,46,47
  -98 -99 -98 -99 -62.5 -96 c 28,0,1
 EndSplineSet
-Substitution2: "Single Substitution lookup 8-1" uE202
 Ligature2: "Ligature Substitution post repha rakara ya subtable" u1134D u11330
-Substitution2: "Accent marker rearrangement single substitution 69-1" u11301
-Substitution2: "Accent marker rearrangement single substitution 54-1" u1CF4
-Substitution2: "Accent marker rearrangement single substitution 53-1" u0952
-Substitution2: "Accent marker rearrangement single substitution 52-1" u0951
-Substitution2: "Vowel marker rearrangement single substitution 5-1" u11340
-Substitution2: "Vowel marker rearrangement single substitution 2-1" u1133F
-Substitution2: "Single Substitution lookup 2-1" uE204
 Substitution2: "Single Substitution lookup 1-1" uE203
+Substitution2: "Single Substitution lookup 2-1" uE204
+Substitution2: "Vowel marker rearrangement single substitution 2-1" u1133F
+Substitution2: "Vowel marker rearrangement single substitution 5-1" u11340
+Substitution2: "Accent marker rearrangement single substitution 52-1" u0951
+Substitution2: "Accent marker rearrangement single substitution 53-1" u0952
+Substitution2: "Accent marker rearrangement single substitution 54-1" u1CF4
+Substitution2: "Accent marker rearrangement single substitution 69-1" u11301
+Substitution2: "Single Substitution lookup 8-1" uE202
 LCarets2: 1 0
 EndChar
 
@@ -10712,9 +10708,9 @@ SplineSet
  467 274 467 274 467 470 c 0,14,15
 EndSplineSet
 Validated: 41
-Substitution2: "Accent marker rearrangement single substitution 42-1" uE4B0
-Substitution2: "Accent marker rearrangement single substitution 41-1" u0952
 Substitution2: "Accent marker rearrangement single substitution 40-1" u0951
+Substitution2: "Accent marker rearrangement single substitution 41-1" u0952
+Substitution2: "Accent marker rearrangement single substitution 42-1" uE4B0
 EndChar
 
 StartChar: space
@@ -11499,7 +11495,6 @@ StartChar: u1CF4
 Encoding: 7412 7412 243
 Width: 0
 VWidth: 1000
-GlyphClass: 4
 Flags: W
 LayerCount: 2
 Fore
@@ -11516,27 +11511,27 @@ SplineSet
  -272 448 -272 448 -318 499 c 132,-1,15
  -364 550 -364 550 -371 632 c 28,0,-1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
 Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
-Substitution2: "Accent marker rearrangement single substitution 54-1" uE4BC
-Substitution2: "Accent marker rearrangement single substitution 51-1" uE4B9
-Substitution2: "Accent marker rearrangement single substitution 48-1" uE4B6
-Substitution2: "Accent marker rearrangement single substitution 33-1" uE4A7
-Substitution2: "Accent marker rearrangement single substitution 30-1" uE4A4
-Substitution2: "Accent marker rearrangement single substitution 27-1" uE4A1
-Substitution2: "Accent marker rearrangement single substitution 24-1" uE49E
-Substitution2: "Accent marker rearrangement single substitution 21-1" uE49B
-Substitution2: "Accent marker rearrangement single substitution 18-1" uE498
-Substitution2: "Accent marker rearrangement single substitution 15-1" uE495
-Substitution2: "Accent marker rearrangement single substitution 12-1" uE492
-Substitution2: "Accent marker rearrangement single substitution 9-1" uE48F
-Substitution2: "Accent marker rearrangement single substitution 6-1" uE48C
-Substitution2: "Accent marker rearrangement single substitution 3-1" uE489
-Substitution2: "Accent marker rearrangement single substitution 45-1" uE4B3
-Substitution2: "Accent marker rearrangement single substitution 42-1" u1CF2
-Substitution2: "Accent marker rearrangement single substitution 39-1" uE4AD
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0
 Substitution2: "Accent marker rearrangement single substitution 36-1" uE4AA
+Substitution2: "Accent marker rearrangement single substitution 39-1" uE4AD
+Substitution2: "Accent marker rearrangement single substitution 42-1" u1CF2
+Substitution2: "Accent marker rearrangement single substitution 45-1" uE4B3
+Substitution2: "Accent marker rearrangement single substitution 3-1" uE489
+Substitution2: "Accent marker rearrangement single substitution 6-1" uE48C
+Substitution2: "Accent marker rearrangement single substitution 9-1" uE48F
+Substitution2: "Accent marker rearrangement single substitution 12-1" uE492
+Substitution2: "Accent marker rearrangement single substitution 15-1" uE495
+Substitution2: "Accent marker rearrangement single substitution 18-1" uE498
+Substitution2: "Accent marker rearrangement single substitution 21-1" uE49B
+Substitution2: "Accent marker rearrangement single substitution 24-1" uE49E
+Substitution2: "Accent marker rearrangement single substitution 27-1" uE4A1
+Substitution2: "Accent marker rearrangement single substitution 30-1" uE4A4
+Substitution2: "Accent marker rearrangement single substitution 33-1" uE4A7
+Substitution2: "Accent marker rearrangement single substitution 48-1" uE4B6
+Substitution2: "Accent marker rearrangement single substitution 51-1" uE4B9
+Substitution2: "Accent marker rearrangement single substitution 54-1" uE4BC
 EndChar
 
 StartChar: uni00A0
