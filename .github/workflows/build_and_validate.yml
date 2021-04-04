@@ -25,8 +25,8 @@ jobs:
         env:
           HOMEBREW_NO_INSTALL_CLEANUP: 1
       - name: Make TTF file
-        run: ./build.sh Sampradaya.ttf
-        working-directory: src
+        run: make
+        working-directory: test/macos
       - name: Upload typeface file
         uses: actions/upload-artifact@v2
         with:
