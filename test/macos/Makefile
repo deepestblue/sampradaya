@@ -1,7 +1,9 @@
 TYPEFACENAME := ../../src/Sampradaya.ttf
+NAME_TA := சம்பிரதாயம்
+NAME_SA := 𑌸𑌮𑍍𑌪𑍍𑌰𑌦𑌾𑌯𑌃
 
 %.ttf: %.sfd
-	../../src/build.sh $@
+	../../src/build.sh -f $@ -t ${NAME_TA} -s ${NAME_SA}
 
 build: ${TYPEFACENAME}
 
