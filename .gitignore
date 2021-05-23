@@ -1,11 +1,3 @@
-rasterise_text/macos/rasterise_text.o
-rasterise_text/macos/qt/rasterise_text_impl.o
-rasterise_text/macos/qt/rasterise_text
-rasterise_text/macos/coretext/rasterise_text_impl.o
-rasterise_text/macos/coretext/rasterise_text
-rasterise_text/windows/rasterise_text.exe
-rasterise_text/windows/rasterise_text.obj
-rasterise_text/windows/rasterise_text_impl.obj
 bin
 .vscode
 src/*.ttf
