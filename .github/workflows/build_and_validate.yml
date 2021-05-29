@@ -70,6 +70,10 @@ jobs:
         with:
           name: TTF file
           path: src
+      - name: Grab Alekhana
+        run: |
+          curl -s -o alekhana_dist.zip -L https://github.com/deepestblue/alekhana/releases/download/latest/alekhana_dist.zip
+          tar -xf alekhana_dist.zip
       - name: Build and run test
         run: nmake test
         working-directory: windows
