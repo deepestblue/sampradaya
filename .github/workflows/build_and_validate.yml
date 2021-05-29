@@ -26,7 +26,7 @@ jobs:
           HOMEBREW_NO_INSTALL_CLEANUP: 1
       - name: Make TTF file
         run: make
-        working-directory: test/macos
+        working-directory: macos
       - name: Upload typeface file
         uses: actions/upload-artifact@v2
         with:
@@ -55,7 +55,7 @@ jobs:
           unzip alekhana_dist.zip
       - name: Build and run test
         run: make test
-        working-directory: test/macos
+        working-directory: macos
   test_windows:
     needs: build
     name: Compare rasterised images on Windows
@@ -72,7 +72,7 @@ jobs:
           path: src
       - name: Build and run test
         run: nmake test
-        working-directory: test/windows
+        working-directory: windows
   fontbakery:
     needs: build
     name: Run Fontbakery
