@@ -1,5 +1,5 @@
 TYPEFACENAME := ../src/Sampradaya.ttf
-BINDIR := ../bin
+BINDIR := ../alekhana_dist
 
 NAME_TA := சம்பிரதாயம்
 NAME_SA := 𑌸𑌮𑍍𑌪𑍍𑌰𑌦𑌾𑌯𑌃

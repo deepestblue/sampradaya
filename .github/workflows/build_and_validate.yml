@@ -46,9 +46,13 @@ jobs:
           name: TTF file
           path: src
       - name: Install dependencies
-        run: brew install imagemagick qt@6 boost
+        run: brew install imagemagick qt@6
         env:
           HOMEBREW_NO_INSTALL_CLEANUP: 1
+      - name: Grab Alekhana
+        run: |
+          wget https://github.com/deepestblue/alekhana/releases/download/latest/alekhana_dist.zip
+          unzip alekhana_dist.zip
       - name: Build and run test
         run: make test
         working-directory: test/macos
