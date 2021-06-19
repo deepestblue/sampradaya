@@ -6,11 +6,11 @@ This is a project to create a Unicode-compliant Grantha typeface based on [Unico
 
 ### On OSX
 
-Download the OSX font file from [releases](https://github.com/deepestblue/sampradaya/releases/) and drop the downloaded file into /Library/Fonts/ (to install system-wide) or ~/Library/Fonts/ (to install at user-scope). You may need to restart your application (or logout/login) for the font to be usable.
+Download Sampradaya.ttf from [releases](https://github.com/deepestblue/sampradaya/releases/) and drop it into /Library/Fonts/ (to install system-wide) or ~/Library/Fonts/ (to install at user-scope). You may need to restart your application (or logout/login) for the font to be usable.
 
 ### On Windows
 
-Download the Windows font file from [releases](https://github.com/deepestblue/sampradaya/releases/), click the secondary mouse button on the downloaded file, and choose `Install` or `Install for all users` as appropriate.
+Download Sampradaya.ttf from [releases](https://github.com/deepestblue/sampradaya/releases/), click the secondary mouse button on the downloaded file, and choose `Install` or `Install for all users` as appropriate.
 
 ## References
 
