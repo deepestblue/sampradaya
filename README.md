@@ -4,7 +4,7 @@ This is a project to create a Unicode-compliant Grantha typeface based on [Unico
 
 ## How to Use
 
-### On OSX
+### On MacOS
 
 Download Sampradaya.ttf from [releases](https://github.com/deepestblue/sampradaya/releases/) and drop it into /Library/Fonts/ (to install system-wide) or ~/Library/Fonts/ (to install at user-scope). You may need to restart your application (or logout/login) for the font to be usable.
 
