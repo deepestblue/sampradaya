@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1625109996
+ModificationTime: 1625168739
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -13390,7 +13390,7 @@ EndChar
 StartChar: uni0BC7
 Encoding: 3015 3015 352
 Width: 613
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 SplineSet
@@ -13459,9 +13459,13 @@ EndChar
 
 StartChar: uni0BCB
 Encoding: 3019 3019 355
-Width: 0
+Width: 1293
 Flags: W
 LayerCount: 2
+Fore
+Refer: 346 3006 N 1 0 0 1 883 0 2
+Refer: 196 9676 N 1 0 0 1 410 0 2
+Refer: 352 3015 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0BCC
