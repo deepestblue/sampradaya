@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1625600566
+ModificationTime: 1627194175
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -442,7 +442,7 @@ ChainPos2: class "'dist' Distance lookup 5-1 for anudatta" 2 5 1 8
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 6 u11301
   BClass: 191 uE515 uE516 uE517 uE518 uE519 uE51A uE51B uE51C uE51D uE51E uE51F uE520 uE521 uE522 uE523 uE524 uE525 uE526 uE527 uE528 uE52A uE52B uE52C uE52D uE52E uE532 uE533 uE535 uE536 uE537 uE538 uE539
-  BClass: 95 uE105 uE109 uE10B uE10C uE10D uE10E uE10F uE110 uE115 u11319 u1131C u11324 u11326 u11328 u11337
+  BClass: 107 uE100 uE101 uE105 uE109 uE10B uE10C uE10D uE10E uE10F uE110 uE115 u11319 u1131C u11324 u11326 u11328 u11337
  1 2 0
   ClsList: 1
   BClsList: 1 0
@@ -4077,8 +4077,8 @@ SplineSet
  824 0 l 1,148,-1
  580 0 l 2,52,53
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE323 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE323 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhanda subtable" u11315 u1134D u11337
 EndChar
@@ -4138,9 +4138,9 @@ SplineSet
  598 47 l 2,67,68
  616 47 616 47 616 24 c 3,0,1
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE327 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE327 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-160 dv=0
 LCarets2: 2 0 0
 Ligature2: "'akhn' Akhanda subtable" u11328 u1134D u11326
@@ -6042,7 +6042,7 @@ EndChar
 StartChar: uE403
 Encoding: 58371 58371 101
 Width: 754
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
@@ -7319,11 +7319,11 @@ SplineSet
  134 260 134 260 132 260 c 0,107,108
  124 260 124 260 114.5 254 c 0,94,95
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE316 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-120 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE316 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-120 dh=0 dv=0
 EndChar
 
 StartChar: u1131A
@@ -7525,8 +7525,8 @@ SplineSet
  154 288 154 288 143 289 c 128,-1,113
  132 290 132 290 124 278.5 c 128,-1,114
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE31D dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE31C dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE31D dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE31C dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
 EndChar
 
 StartChar: u1131D
@@ -8181,15 +8181,15 @@ SplineSet
     0 0 z
   EndSpiro
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32F dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE385 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=100 dy=-160 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE384 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-60 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE338 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-160 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32B dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-160 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32A dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-160 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE328 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=80 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE324 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32F dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE385 dx=0 dy=0 dh=0 dv=0 dx=100 dy=-160 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE384 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-60 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE338 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-160 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32B dx=0 dy=0 dh=0 dv=0 dx=0 dy=-160 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32A dx=0 dy=0 dh=0 dv=0 dx=0 dy=-160 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE328 dx=0 dy=0 dh=0 dv=0 dx=80 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE324 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
 EndChar
 
 StartChar: u11325
@@ -8308,12 +8308,12 @@ SplineSet
  343 -82 l 2,11,12
 EndSplineSet
 Validated: 1
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32D dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32C dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE326 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32E dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32D dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32C dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE326 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
 EndChar
 
 StartChar: u11327
@@ -8417,16 +8417,16 @@ SplineSet
  40 23 40 23 50.5 11.5 c 128,-1,60
  61 0 61 0 75 0 c 0,0,1
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE339 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-200 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE338 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-200 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32D dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-200 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32C dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-200 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32B dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-200 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32A dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-200 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-200 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-100 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE316 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-200 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE339 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-200 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE338 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-200 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32D dx=0 dy=0 dh=0 dv=0 dx=0 dy=-200 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32C dx=0 dy=0 dh=0 dv=0 dx=0 dy=-200 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32B dx=0 dy=0 dh=0 dv=0 dx=0 dy=-200 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32A dx=0 dy=0 dh=0 dv=0 dx=0 dy=-200 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE318 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-200 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE317 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE316 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-200 dh=0 dv=0
 EndChar
 
 StartChar: u1132A
@@ -9150,12 +9150,12 @@ SplineSet
  760 -95 760 -95 747.5 -99 c 128,-1,103
  735 -103 735 -103 724 -103 c 0,28,29
 EndSplineSet
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE323 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32B dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE32A dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE320 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
-PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}] dx=0 dy=-80 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE323 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE335 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32B dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE32A dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE320 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
+PairPos2: "'dist' Distance lookup for overhang 2-1" uE315 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-80 dh=0 dv=0
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-50 dv=0
 EndChar
 
@@ -11244,7 +11244,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 69 58162 S 1 0 0 1 0 -296 2
-Position2: "Single Position lookup for third stack 1-1" dx=0 dy=-160 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for third stack 1-1" dx=0 dy=-160 dh=0 dv=0
 EndChar
 
 StartChar: uE515
@@ -11425,7 +11425,7 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 62 58152 S 1 0 0 1 0 -296 2
-Position2: "Single Position lookup for third stack 1-1" dx=0 dy=-160 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for third stack 1-1" dx=0 dy=-160 dh=0 dv=0
 EndChar
 
 StartChar: uE52A
@@ -11490,7 +11490,7 @@ LayerCount: 2
 Fore
 Refer: 71 58165 S 1 0 0 1 0 -295 2
 Position2: "Single Position lookup for third stack 2-1" dx=0 dy=-80 dh=0 dv=0
-Position2: "Single Position lookup for third stack 1-1" dx=0 dy=-125 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for third stack 1-1" dx=0 dy=-125 dh=0 dv=0
 EndChar
 
 StartChar: uE536
