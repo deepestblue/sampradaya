@@ -63,6 +63,7 @@ jobs:
           name: Macos output directory
           path: output
           retention-days: 1
+        working-directory: macos
   test_windows:
     needs: build
     name: Compare rasterised images on Windows
@@ -91,6 +92,7 @@ jobs:
           name: Windows output directory
           path: output
           retention-days: 1
+        working-directory: windows
   fontbakery:
     needs: build
     name: Run Fontbakery
