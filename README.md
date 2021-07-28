@@ -1,6 +1,6 @@
 # Unicode Grantha typeface
 
-This is a project to create a Unicode-compliant Grantha typeface based on [Unicode 7.0.0](https://www.unicode.org/versions/Unicode7.0.0/) [encoding](http://std.dkuug.dk/JTC1/SC2/WG2/docs/n4135.pdf) in the U+11300 SMP block. It is tested on OSX 10.10+ and Windows 10.
+This is a project to create a Unicode-compliant Grantha typeface based on the [Unicode 7.0.0](https://www.unicode.org/versions/Unicode7.0.0/) [encoding](http://std.dkuug.dk/JTC1/SC2/WG2/docs/n4135.pdf) in the U+11300 SMP block. It is tested on OSX 10.10+ and Windows 10.
 
 ## How to Use
 
