@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1627194175
+ModificationTime: 1627430725
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -189,7 +189,7 @@ Lookup: 257 0 0 "Single Position lookup for accent markers 3" { "Single Position
 Lookup: 257 0 0 "Single Position lookup for accent markers 4" { "Single Position lookup for accent markers 4-1"  } []
 Lookup: 257 0 0 "Single Position lookup for third stack 1" { "Single Position lookup for third stack 1-1"  } []
 Lookup: 257 0 0 "Single Position lookup for third stack 2" { "Single Position lookup for third stack 2-1"  } []
-Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1 for anudatta"  "'dist' Distance lookup 5-2 for svaritas and anunasika"  "'dist' Distance lookup 5-3 for svaritas after anunasika"  "'dist' Distance lookup 5-4 for overhang"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1 for anudatta"  "'dist' Distance lookup 5-2 for svaritas, anunasika and samavedic marks"  "'dist' Distance lookup 5-3 for svaritas and samavedic marks after anunasika"  "'dist' Distance lookup 5-4 for overhang"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
 ChainPos2: class "'dist' Distance lookup 5-4 for overhang" 4 7 4 4
@@ -233,17 +233,22 @@ ChainPos2: class "'dist' Distance lookup 5-4 for overhang" 4 7 4 4
   BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
   FClassNames: "All_Others" "1" "2" "3"
 EndFPST
-ChainPos2: glyph "'dist' Distance lookup 5-3 for svaritas after anunasika" 0 0 0 2
- String: 5 u1CF4
- BString: 6 u11301
- FString: 0 
+ChainPos2: class "'dist' Distance lookup 5-3 for svaritas and samavedic marks after anunasika" 3 3 3 1
+  Class: 95 u0951 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  Class: 6 u11301
+  BClass: 95 u0951 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  BClass: 6 u11301
+  FClass: 95 u0951 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  FClass: 6 u11301
+ 1 1 0
+  ClsList: 1
+  BClsList: 2
+  FClsList:
  1
   SeqLookup: 0 "Single Position lookup for accent markers 1"
- String: 5 u0951
- BString: 6 u11301
- FString: 0 
- 1
-  SeqLookup: 0 "Single Position lookup for accent markers 1"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1" "2"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 29-1" 0 0 0 1
  String: 5 uE4C9
@@ -403,8 +408,8 @@ ChainSub2: class "'pstf' Post Base Forms lookup (post yakara form)" 3 1 1 1
   BClassNames: "All_Others"
   FClassNames: "All_Others"
 EndFPST
-ChainPos2: class "'dist' Distance lookup 5-2 for svaritas and anunasika" 3 2 3 4
-  Class: 11 u0951 u1CF4
+ChainPos2: class "'dist' Distance lookup 5-2 for svaritas, anunasika and samavedic marks" 3 2 3 4
+  Class: 95 u0951 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
   Class: 6 u11301
   BClass: 6 u11301
   FClass: 31 uE208 uE209 uE20A u1133F u11340
@@ -2017,9 +2022,9 @@ SplineSet
  -227 459 -227 459 -227 466 c 2,10,-1
  -227 667 l 2,0,1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Accent marker rearrangement single substitution 1-1" uE487
 Substitution2: "Accent marker rearrangement single substitution 4-1" uE48A
 Substitution2: "Accent marker rearrangement single substitution 7-1" uE48D
@@ -2057,10 +2062,10 @@ SplineSet
  -339 -83 l 2,9,10
  -354 -83 -354 -83 -354 -59 c 256,0,1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=-300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Position2: "Single Position lookup for accent markers 2-1" dx=0 dy=-615 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=-380 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=-125 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=-380 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Accent marker rearrangement single substitution 2-1" uE488
 Substitution2: "Accent marker rearrangement single substitution 5-1" uE48B
 Substitution2: "Accent marker rearrangement single substitution 8-1" uE48E
@@ -2194,13 +2199,12 @@ SplineSet
  230 43 230 43 245 50.5 c 128,-1,64
  260 58 260 58 260 69 c 2,65,-1
  260 150 l 1,54,55
-198 187 m 1,66,-1
+198 185 m 5,66,-1
  260 188 l 1,67,-1
  260 239 l 1,68,-1
  198 239 l 1,69,-1
- 198 187 l 1,66,-1
+ 198 185 l 5,66,-1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: u0BE8
@@ -10437,7 +10441,7 @@ SplineSet
  -55 490 -55 490 -200 490 c 7,38,39
  -351 490 -351 490 -351 624 c 0,12,13
 EndSplineSet
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Accent marker rearrangement single substitution 69-1" uE4CB
 Substitution2: "Accent marker rearrangement single substitution 68-1" uE4CA
 Substitution2: "Accent marker rearrangement single substitution 67-1" uE4C9
@@ -10627,71 +10631,86 @@ EndChar
 
 StartChar: u11366
 Encoding: 70502 70502 181
-Width: 394
+Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 7 3046 N 0.541721 0 0 0.553303 -728 960 2
-Validated: 1
+Refer: 7 3046 S 0.541721 0 0 0.553303 -325 450 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u11367
 Encoding: 70503 70503 182
-Width: 395
+Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 8 3047 N 0.599976 0 0 0.599976 -625 976 2
-Validated: 1
+Refer: 8 3047 S 0.599976 0 0 0.599976 -366 451 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u11368
 Encoding: 70504 70504 183
-Width: 387
+Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 9 3048 N 0.599976 0 0 0.599976 -619 983 2
-Validated: 1
+Refer: 9 3048 S 0.599976 0 0 0.599976 -348 451 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u11369
 Encoding: 70505 70505 184
-Width: 295
+Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 10 3049 N 0.599976 0 0 0.599976 -567 981 2
-Validated: 1
+Refer: 10 3049 S 0.599976 0 0 0.599976 -322 453 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u1136A
 Encoding: 70506 70506 185
-Width: 395
+Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 11 3050 N 0.599976 0 0 0.599976 -634 980 2
+Refer: 11 3050 S 0.599976 0 0 0.599976 -364 450 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u1136B
 Encoding: 70507 70507 186
-Width: 392
+Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 12 3051 N 0.599976 0 0 0.599976 -623 981 2
-Validated: 1
+Refer: 12 3051 S 0.599976 0 0 0.599976 -360 453 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u1136C
 Encoding: 70508 70508 187
-Width: 391
+Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 13 3052 N 0.599976 0 0 0.599976 -622 980 2
-Validated: 1
+Refer: 13 3052 S 0.599976 0 0 0.599976 -357 451 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u11370
@@ -10700,7 +10719,10 @@ Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 104 70405 N 0.472473 0 0 0.472473 -608 995 2
+Refer: 104 70405 S 0.472473 0 0 0.472473 -353 448 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u11371
@@ -10709,7 +10731,10 @@ Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 116 70421 N 0.472473 0 0 0.472473 -572 990 2
+Refer: 116 70421 S 0.472473 0 0 0.472473 -345 450 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u11372
@@ -10718,27 +10743,35 @@ Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 135 70440 N 0.485962 0 0 0.491882 -641 997 2
+Refer: 135 70440 S 0.37905 0 0 0.383668 -310 494 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u11373
 Encoding: 70515 70515 191
-Width: 399
+Width: 0
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 152 70463 N 0.3465 0 0 0.3465 -350 1001 2
-Refer: 145 70453 N 0.3465 0 0 0.3465 -587 1001 2
+Refer: 152 70463 S 0.3465 0 0 0.3465 -112 450 2
+Refer: 145 70453 S 0.3465 0 0 0.3465 -349 450 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: u11374
 Encoding: 70516 70516 192
 Width: 0
-Flags: MW
+Flags: MWO
 LayerCount: 2
 Fore
-Refer: 167 2986 S 0.5 0 0 0.5 -520 995 2
-Validated: 9
+Refer: 167 2986 S 0.5 0 0 0.5 -296 452 2
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 EndChar
 
 StartChar: uE405
@@ -11678,9 +11711,9 @@ SplineSet
  -272 448 -272 448 -318 499 c 132,-1,15
  -364 550 -364 550 -371 632 c 28,0,-1
 EndSplineSet
-Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0
-Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0
+Position2: "Single Position lookup for accent markers 3-1" dx=0 dy=150 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 4-1" dx=0 dy=425 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
+Position2: "Single Position lookup for accent markers 1-1" dx=0 dy=300 dh=0 dv=0 [ddx={} ddy={} ddh={} ddv={}]
 Substitution2: "Accent marker rearrangement single substitution 36-1" uE4AA
 Substitution2: "Accent marker rearrangement single substitution 39-1" uE4AD
 Substitution2: "Accent marker rearrangement single substitution 42-1" u1CF2
