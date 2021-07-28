@@ -56,6 +56,13 @@ jobs:
       - name: Build and run test
         run: make test
         working-directory: macos
+      - name: Upload test failure output
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: Macos output directory
+          path: macos/output
+          retention-days: 1
   test_windows:
     needs: build
     name: Compare rasterised images on Windows
@@ -77,6 +84,13 @@ jobs:
       - name: Build and run test
         run: nmake test
         working-directory: windows
+      - name: Upload test failure output
+        uses: actions/upload-artifact@v2
+        if: failure()
+        with:
+          name: Windows output directory
+          path: windows/output
+          retention-days: 1
   fontbakery:
     needs: build
     name: Run Fontbakery
