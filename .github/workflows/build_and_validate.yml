@@ -61,9 +61,8 @@ jobs:
         if: failure()
         with:
           name: Macos output directory
-          path: output
+          path: macos/output
           retention-days: 1
-        working-directory: macos
   test_windows:
     needs: build
     name: Compare rasterised images on Windows
@@ -90,9 +89,8 @@ jobs:
         if: failure()
         with:
           name: Windows output directory
-          path: output
+          path: windows/output
           retention-days: 1
-        working-directory: windows
   fontbakery:
     needs: build
     name: Run Fontbakery
