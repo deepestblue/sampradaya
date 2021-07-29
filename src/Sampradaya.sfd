@@ -1963,7 +1963,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-BeginChars: 1114113 316
+BeginChars: 1114113 317
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -12343,6 +12343,15 @@ SplineSet
  -151 -548 -151 -548 -70 -547 c 28,46,47
  -6 -547 -6 -547 -5 -546 c 6,0,1
 EndSplineSet
+EndChar
+
+StartChar: uni1CD3
+Encoding: 7379 7379 360
+Width: 0
+Flags: WO
+LayerCount: 2
+Fore
+Refer: 6 2405 N 0.4 0 0 0.4 -275 450 2
 EndChar
 EndChars
 EndSplineFont
