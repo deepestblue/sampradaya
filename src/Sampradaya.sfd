@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1636821435
+ModificationTime: 1636821992
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -5659,7 +5659,7 @@ EndChar
 StartChar: uE339
 Encoding: 58169 58169 75
 Width: 0
-Flags: MWO
+Flags: MW
 AnchorPoint: "subbottom" -272 -347 basemark 0
 AnchorPoint: "bottom" -272 0 mark 0
 LayerCount: 2
@@ -5674,11 +5674,11 @@ StartChar: uE380
 Encoding: 58240 58240 76
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -251 -344 basemark 0
-AnchorPoint: "bottom" -251 -1 mark 0
+AnchorPoint: "subbottom" -251 -343 basemark 0
+AnchorPoint: "bottom" -251 0 mark 0
 LayerCount: 2
 Fore
-Refer: 29 57612 S 0.51975 0 0 0.57 -519 -277 2
+Refer: 29 57612 S 0.51975 0 0 0.57 -519 -276 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE10C
 EndChar
@@ -5700,11 +5700,11 @@ StartChar: uE382
 Encoding: 58242 58242 78
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -398 -285 basemark 0
-AnchorPoint: "bottom" -398 -15 mark 0
+AnchorPoint: "subbottom" -398 -270 basemark 0
+AnchorPoint: "bottom" -398 0 mark 0
 LayerCount: 2
 Fore
-Refer: 27 57610 S 0.54 0 0 0.54 -629 -285 2
+Refer: 27 57610 S 0.54 0 0 0.54 -629 -270 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE10A
 EndChar
@@ -5713,11 +5713,11 @@ StartChar: uE383
 Encoding: 58243 58243 79
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -380 -247 basemark 0
-AnchorPoint: "bottom" -380 15 mark 0
+AnchorPoint: "subbottom" -380 -262 basemark 0
+AnchorPoint: "bottom" -380 0 mark 0
 LayerCount: 2
 Fore
-Refer: 19 57602 S 0.5454 0 0 0.54 -606 -248 2
+Refer: 19 57602 S 0.5454 0 0 0.54 -606 -263 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE102
 EndChar
@@ -5726,11 +5726,11 @@ StartChar: uE384
 Encoding: 58244 58244 80
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -323 -361 basemark 0
-AnchorPoint: "bottom" -323 -23 mark 0
+AnchorPoint: "subbottom" -323 -338 basemark 0
+AnchorPoint: "bottom" -323 0 mark 0
 LayerCount: 2
 Fore
-Refer: 32 57615 N 0.55 0 0 0.55 -543 -277 2
+Refer: 32 57615 S 0.55 0 0 0.55 -543 -254 2
 LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants subtable" uE324 uE205
 EndChar
@@ -5739,11 +5739,11 @@ StartChar: uE385
 Encoding: 58245 58245 81
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -391 -264 basemark 0
-AnchorPoint: "bottom" -391 7 mark 0
+AnchorPoint: "subbottom" -391 -271 basemark 0
+AnchorPoint: "bottom" -391 0 mark 0
 LayerCount: 2
 Fore
-Refer: 24 57607 S 0.55 0 0 0.55 -638 -264 2
+Refer: 24 57607 S 0.55 0 0 0.55 -638 -271 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE107
 EndChar
@@ -5752,11 +5752,11 @@ StartChar: uE386
 Encoding: 58246 58246 82
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -352 -253 basemark 0
-AnchorPoint: "bottom" -352 13 mark 0
+AnchorPoint: "subbottom" -352 -266 basemark 0
+AnchorPoint: "bottom" -352 0 mark 0
 LayerCount: 2
 Fore
-Refer: 23 57606 S 0.54 0 0 0.54 -517 -253 2
+Refer: 23 57606 S 0.54 0 0 0.54 -517 -266 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE106
 EndChar
@@ -5765,11 +5765,11 @@ StartChar: uE387
 Encoding: 58247 58247 83
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -355 -255 basemark 0
-AnchorPoint: "bottom" -355 13 mark 0
+AnchorPoint: "subbottom" -355 -268 basemark 0
+AnchorPoint: "bottom" -355 0 mark 0
 LayerCount: 2
 Fore
-Refer: 25 57608 S 0.5454 0 0 0.54 -553 -255 2
+Refer: 25 57608 S 0.5454 0 0 0.54 -553 -268 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE108
 EndChar
@@ -5778,11 +5778,11 @@ StartChar: uE388
 Encoding: 58248 58248 84
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -299 -271 basemark 0
-AnchorPoint: "bottom" -299 24 mark 0
+AnchorPoint: "subbottom" -299 -295 basemark 0
+AnchorPoint: "bottom" -299 0 mark 0
 LayerCount: 2
 Fore
-Refer: 37 57620 S 0.6 0 0 0.6 -556 -271 2
+Refer: 37 57620 S 0.6 0 0 0.6 -556 -295 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE114
 EndChar
@@ -5791,11 +5791,11 @@ StartChar: uE389
 Encoding: 58249 58249 85
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -345 -432 basemark 0
-AnchorPoint: "bottom" -345 -16 mark 0
+AnchorPoint: "subbottom" -345 -416 basemark 0
+AnchorPoint: "bottom" -345 0 mark 0
 LayerCount: 2
 Fore
-Refer: 28 57611 S 0.6 0 0 0.6 -573 -309 2
+Refer: 28 57611 S 0.6 0 0 0.6 -573 -293 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE101
 EndChar
@@ -5804,11 +5804,11 @@ StartChar: uE38A
 Encoding: 58250 58250 86
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -418 -383 basemark 0
-AnchorPoint: "bottom" -418 -17 mark 0
+AnchorPoint: "subbottom" -418 -366 basemark 0
+AnchorPoint: "bottom" -418 0 mark 0
 LayerCount: 2
 Fore
-Refer: 33 57616 N 0.5454 0 0 0.5454 -648 -286 2
+Refer: 33 57616 S 0.5454 0 0 0.5454 -648 -269 2
 LCarets2: 1 0
 Ligature2: "'vatu' Vattu Variants subtable" uE336 uE205
 EndChar
@@ -5817,11 +5817,11 @@ StartChar: uE38B
 Encoding: 58251 58251 87
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -243 -399 basemark 0
-AnchorPoint: "bottom" -243 11 mark 0
+AnchorPoint: "subbottom" -243 -410 basemark 0
+AnchorPoint: "bottom" -243 0 mark 0
 LayerCount: 2
 Fore
-Refer: 22 57605 S 0.6 0 0 0.6 -408 -278 2
+Refer: 22 57605 S 0.6 0 0 0.6 -408 -289 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE105
 EndChar
@@ -5830,11 +5830,11 @@ StartChar: uE38C
 Encoding: 58252 58252 88
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -408 -336 basemark 0
-AnchorPoint: "bottom" -408 -16 mark 0
+AnchorPoint: "subbottom" -408 -320 basemark 0
+AnchorPoint: "bottom" -408 0 mark 0
 LayerCount: 2
 Fore
-Refer: 36 57619 N 0.598975 0 0 0.47045 -658 -252 2
+Refer: 36 57619 S 0.598975 0 0 0.47045 -658 -236 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE113
 EndChar
@@ -5843,11 +5843,11 @@ StartChar: uE38D
 Encoding: 58253 58253 89
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -384 -350 basemark 0
-AnchorPoint: "bottom" -384 22 mark 0
+AnchorPoint: "subbottom" -384 -372 basemark 0
+AnchorPoint: "bottom" -384 0 mark 0
 LayerCount: 2
 Fore
-Refer: 38 57621 N 0.6237 0 0 0.6237 -657 -270 2
+Refer: 38 57621 S 0.6237 0 0 0.6237 -657 -292 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE115
 EndChar
@@ -5856,11 +5856,11 @@ StartChar: uE38E
 Encoding: 58254 58254 90
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -297 -271 basemark 0
-AnchorPoint: "bottom" -297 20 mark 0
+AnchorPoint: "subbottom" -297 -291 basemark 0
+AnchorPoint: "bottom" -297 0 mark 0
 LayerCount: 2
 Fore
-Refer: 35 57618 S 0.6 0 0 0.6 -495 -271 2
+Refer: 35 57618 S 0.6 0 0 0.6 -495 -291 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE112
 EndChar
@@ -5869,11 +5869,11 @@ StartChar: uE38F
 Encoding: 58255 58255 91
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -328 -404 basemark 0
-AnchorPoint: "bottom" -327 9 mark 0
+AnchorPoint: "subbottom" -328 -413 basemark 0
+AnchorPoint: "bottom" -327 0 mark 0
 LayerCount: 2
 Fore
-Refer: 17 57600 S 0.6 0 0 0.6 -582 -287 2
+Refer: 17 57600 S 0.6 0 0 0.6 -582 -296 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE100
 EndChar
@@ -5882,11 +5882,11 @@ StartChar: uE390
 Encoding: 58256 58256 92
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -386 -325 basemark 0
-AnchorPoint: "bottom" -386 26 mark 0
+AnchorPoint: "subbottom" -386 -351 basemark 0
+AnchorPoint: "bottom" -386 0 mark 0
 LayerCount: 2
 Fore
-Refer: 18 57601 N 0.6 0 0 0.6 -604 -264 2
+Refer: 18 57601 S 0.6 0 0 0.6 -604 -290 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE101
 EndChar
@@ -5895,11 +5895,11 @@ StartChar: uE391
 Encoding: 58257 58257 93
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -500 -268 basemark 0
-AnchorPoint: "bottom" -500 25 mark 0
+AnchorPoint: "subbottom" -500 -293 basemark 0
+AnchorPoint: "bottom" -500 0 mark 0
 LayerCount: 2
 Fore
-Refer: 20 57603 S 0.6 0 0 0.6 -830 -268 2
+Refer: 20 57603 S 0.6 0 0 0.6 -830 -293 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE103
 EndChar
@@ -5908,11 +5908,11 @@ StartChar: uE392
 Encoding: 58258 58258 94
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -296 -268 basemark 0
-AnchorPoint: "bottom" -295 23 mark 0
+AnchorPoint: "subbottom" -296 -291 basemark 0
+AnchorPoint: "bottom" -295 0 mark 0
 LayerCount: 2
 Fore
-Refer: 21 57604 N 0.6 0 0 0.6 -478 -268 2
+Refer: 21 57604 S 0.6 0 0 0.6 -478 -291 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE104
 EndChar
@@ -5921,11 +5921,11 @@ StartChar: uE393
 Encoding: 58259 58259 95
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -261 -363 basemark 0
-AnchorPoint: "bottom" -261 3 mark 0
+AnchorPoint: "subbottom" -261 -366 basemark 0
+AnchorPoint: "bottom" -261 0 mark 0
 LayerCount: 2
 Fore
-Refer: 30 57613 S 0.6 0 0 0.6 -464 -290 2
+Refer: 30 57613 S 0.6 0 0 0.6 -464 -293 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE10D
 EndChar
@@ -5934,11 +5934,11 @@ StartChar: uE394
 Encoding: 58260 58260 96
 Width: 0
 Flags: MW
-AnchorPoint: "subbottom" -336 -353 basemark 0
-AnchorPoint: "bottom" -336 3 mark 0
+AnchorPoint: "subbottom" -336 -356 basemark 0
+AnchorPoint: "bottom" -336 0 mark 0
 LayerCount: 2
 Fore
-Refer: 31 57614 S 0.6 0 0 0.6 -631 -289 2
+Refer: 31 57614 S 0.6 0 0 0.6 -631 -292 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE10E
 EndChar
@@ -5946,12 +5946,12 @@ EndChar
 StartChar: uE395
 Encoding: 58261 58261 97
 Width: 0
-Flags: MW
-AnchorPoint: "subbottom" -326 -262 basemark 0
-AnchorPoint: "bottom" -326 29 mark 0
+Flags: MWO
+AnchorPoint: "subbottom" -326 -291 basemark 0
+AnchorPoint: "bottom" -326 0 mark 0
 LayerCount: 2
 Fore
-Refer: 34 57617 S 0.6 0 0 0.6 -603 -262 2
+Refer: 34 57617 S 0.6 0 0 0.6 -603 -291 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D uE111
 EndChar
