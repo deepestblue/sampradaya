@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1636952624
+ModificationTime: 1636956874
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -169,13 +169,13 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 19" { "'psts' Post Base Sub
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 20" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2-1"  } []
-Lookup: 1 0 0 "Single Substitution lookup 3" { "Single substitution lookup 3-1"  } []
-Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4-1"  } []
-Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1"  } []
-Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
-Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 11" { "'psts' Post Base Substitutions post rakara lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Single Substitution lookup 3" { "Single substitution lookup 3-1"  } []
+Lookup: 1 0 0 "Single Substitution lookup 4" { "Single Substitution lookup 4-1"  } []
+Lookup: 1 0 0 "Single Substitution lookup 7" { "Single Substitution lookup 7-1"  } []
+Lookup: 1 0 0 "Single Substitution lookup 5" { "Single Substitution lookup 5-1"  } []
+Lookup: 1 0 0 "Single Substitution lookup 6" { "Single Substitution lookup 6-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 12" { "'psts' Post Base Substitutions i marker lookup"  "'psts' Post Base Substitutions I marker lookup"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'haln' Halanta Forms" { "'haln' Halant Forms subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for I marker 0" { "Single Position lookup 0-1"  } []
@@ -1787,7 +1787,7 @@ ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 3 1 3
   BClsList: 2 2 1
   FClsList:
  1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
+  SeqLookup: 0 "Single Substitution lookup 7"
   ClassNames: "All_Others" "1"
   BClassNames: "All_Others" "1" "2"
   FClassNames: "All_Others"
