@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1636958437
+ModificationTime: 1637042443
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -1514,14 +1514,9 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 56-1" 0 0 0 9
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 42"
 EndFPST
-ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 9 1 3 21
+ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 3 6
   Class: 6 u1131F
-  Class: 6 u11332
-  Class: 12 u11337 uE115
-  Class: 17 uE102 uE111 uE114
-  Class: 5 uE109
-  Class: 5 uE10D
-  Class: 5 uE112
+  Class: 55 uE102 uE109 uE10D uE111 uE112 uE114 uE115 u11332 u11337
   Class: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   FClass: 5 uE206
   FClass: 6 u11340
@@ -1532,13 +1527,13 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 9 1 3 21
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  2 0 1
-  ClsList: 1 8
+  ClsList: 1 3
   BClsList:
   FClsList: 1
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 1 8 8
+  ClsList: 1 3 3
   BClsList:
   FClsList: 1
  1
@@ -1550,108 +1545,18 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 9 1 3 21
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  2 0 1
-  ClsList: 2 8
+  ClsList: 2 3
   BClsList:
   FClsList: 2
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 2 8 8
+  ClsList: 2 3 3
   BClsList:
   FClsList: 2
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
- 1 0 1
-  ClsList: 3
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 2 0 1
-  ClsList: 3 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 3 0 1
-  ClsList: 3 8 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 1 0 1
-  ClsList: 4
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 2 0 1
-  ClsList: 4 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 3 0 1
-  ClsList: 4 8 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 1 0 1
-  ClsList: 5
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 2 0 1
-  ClsList: 5 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 3 0 1
-  ClsList: 5 8 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 1 0 1
-  ClsList: 6
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 2 0 1
-  ClsList: 6 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 3 0 1
-  ClsList: 6 8 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 1 0 1
-  ClsList: 7
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 2 0 1
-  ClsList: 7 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 3 0 1
-  ClsList: 7 8 8
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
-  ClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7" "8"
+  ClassNames: "All_Others" "1" "2" "3"
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1" "2"
 EndFPST
@@ -9364,7 +9269,7 @@ EndChar
 StartChar: u11341
 Encoding: 70465 70465 154
 Width: 410
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 SplineSet
