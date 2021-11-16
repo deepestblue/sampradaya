@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1637042443
+ModificationTime: 1637043543
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -185,48 +185,11 @@ Lookup: 257 0 0 "Single Position lookup for accent markers 1" { "Single Position
 Lookup: 257 0 0 "Single Position lookup for accent markers 2" { "Single Position lookup for accent markers 2-1"  } []
 Lookup: 257 0 0 "Single Position lookup for accent markers 3" { "Single Position lookup for accent markers 3-1"  } []
 Lookup: 257 0 0 "Single Position lookup for accent markers 4" { "Single Position lookup for accent markers 4-1"  } []
-Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1 for anudatta"  "'dist' Distance lookup 5-2 for svaritas, anunasika and samavedic marks"  "'dist' Distance lookup 5-3 for svaritas and samavedic marks after anunasika"  "'dist' Distance lookup 5-4 for overhang"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1 for anudatta"  "'dist' Distance lookup 5-2 for svaritas, anunasika and samavedic marks"  "'dist' Distance lookup 5-3 for svaritas and samavedic marks after anunasika"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning lookup 10-1"  } ['mark' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainPos2: class "'dist' Distance lookup 5-4 for overhang" 4 7 4 4
-  Class: 5 uE532
-  Class: 5 uE528
-  Class: 5 uE535
-  BClass: 5 uE32A
-  BClass: 5 uE338
-  BClass: 5 uE31C
-  BClass: 6 u11324
-  BClass: 6 u1131C
-  BClass: 5 uE32F
-  FClass: 5 uE532
-  FClass: 5 uE528
-  FClass: 5 uE535
- 1 2 0
-  ClsList: 1
-  BClsList: 1 4
-  FClsList:
- 0
- 1 2 0
-  ClsList: 2
-  BClsList: 2 4
-  FClsList:
- 0
- 1 2 0
-  ClsList: 3
-  BClsList: 3 5
-  FClsList:
- 0
- 1 2 0
-  ClsList: 3
-  BClsList: 6 4
-  FClsList:
- 0
-  ClassNames: "All_Others" "1" "2" "3"
-  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
-  FClassNames: "All_Others" "1" "2" "3"
-EndFPST
 ChainPos2: class "'dist' Distance lookup 5-3 for svaritas and samavedic marks after anunasika" 3 3 3 1
   Class: 95 u0951 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
   Class: 6 u11301
