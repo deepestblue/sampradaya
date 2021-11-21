@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1637042443
+ModificationTime: 1637514447
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -9675,6 +9675,7 @@ SplineSet
  162 446 162 446 163 428.5 c 0,0,1
 EndSplineSet
 Validated: 33
+Substitution2: "Accent marker rearrangement single substitution 33-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 66-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 32-1" u0952
 Substitution2: "Accent marker rearrangement single substitution 31-1" u0951
@@ -10838,7 +10839,6 @@ SplineSet
  138 371 138 371 138 360 c 0,0,1
 EndSplineSet
 Substitution2: "Accent marker rearrangement single substitution 55-1" u11301
-Substitution2: "Accent marker rearrangement single substitution 33-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 45-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 44-1" u0952
 Substitution2: "Accent marker rearrangement single substitution 43-1" u0951
@@ -11455,7 +11455,7 @@ Encoding: 58535 58535 245
 Width: 0
 Flags: W
 LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 33-1" u1135D
+Substitution2: "Accent marker rearrangement single substitution 33-1" u1134D
 EndChar
 
 StartChar: uE4A8
