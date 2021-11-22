@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1636841174
+ModificationTime: 1636843865
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -185,8 +185,6 @@ Lookup: 257 0 0 "Single Position lookup for accent markers 1" { "Single Position
 Lookup: 257 0 0 "Single Position lookup for accent markers 2" { "Single Position lookup for accent markers 2-1"  } []
 Lookup: 257 0 0 "Single Position lookup for accent markers 3" { "Single Position lookup for accent markers 3-1"  } []
 Lookup: 257 0 0 "Single Position lookup for accent markers 4" { "Single Position lookup for accent markers 4-1"  } []
-Lookup: 257 0 0 "Single Position lookup for third stack 1" { "Single Position lookup for third stack 1-1"  } []
-Lookup: 257 0 0 "Single Position lookup for third stack 2" { "Single Position lookup for third stack 2-1"  } []
 Lookup: 264 0 0 "'dist' Distance lookup 5" { "'dist' Distance lookup 5-1 for anudatta"  "'dist' Distance lookup 5-2 for svaritas, anunasika and samavedic marks"  "'dist' Distance lookup 5-3 for svaritas and samavedic marks after anunasika"  "'dist' Distance lookup 5-4 for overhang"  } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning lookup 10-1"  } ['mark' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -209,26 +207,22 @@ ChainPos2: class "'dist' Distance lookup 5-4 for overhang" 4 7 4 4
   ClsList: 1
   BClsList: 1 4
   FClsList:
- 1
-  SeqLookup: 0 "Single Position lookup for third stack 1"
+ 0
  1 2 0
   ClsList: 2
   BClsList: 2 4
   FClsList:
- 1
-  SeqLookup: 0 "Single Position lookup for third stack 1"
+ 0
  1 2 0
   ClsList: 3
   BClsList: 3 5
   FClsList:
- 1
-  SeqLookup: 0 "Single Position lookup for third stack 1"
+ 0
  1 2 0
   ClsList: 3
   BClsList: 6 4
   FClsList:
- 1
-  SeqLookup: 0 "Single Position lookup for third stack 2"
+ 0
   ClassNames: "All_Others" "1" "2" "3"
   BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
   FClassNames: "All_Others" "1" "2" "3"
