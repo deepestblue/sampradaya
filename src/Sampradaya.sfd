@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1636934557
+ModificationTime: 1636952624
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -316,22 +316,19 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 89-1" 0 0 0 3
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 48"
 EndFPST
-ChainSub2: class "'rphf' Repha Form (post repha form)" 3 3 3 1
+ChainSub2: class "'rphf' Repha Form (post repha form)" 3 1 2 1
   Class: 6 u11330
   Class: 6 u1134D
-  BClass: 6 u11330
-  BClass: 6 u1134D
-  FClass: 6 u11330
-  FClass: 6 u1134D
- 2 0 0
+  FClass: 411 uE100 uE101 uE102 uE103 uE104 uE105 uE106 uE107 uE108 uE109 uE10A uE10B uE10C uE10D uE10E uE10F uE110 uE111 uE112 uE113 uE114 uE115 uE116 uE400 uE401 uE402 uE403 uE404 uE405 u11315 u11316 u11317 u11318 u11319 u1131A u1131B u1131C u1131D u1131E u1131F u11320 u11321 u11322 u11323 u11324 u11325 u11326 u11327 u11328 u1132A u1132B u1132C u1132D u1132E u1132F u11330 u11332 u11333 u11335 u11336 u11337 u11338 u11339
+ 2 0 1
   ClsList: 1 2
   BClsList:
-  FClsList:
+  FClsList: 1
  1
   SeqLookup: 0 "Ligature Substitution post repha rakara ya"
   ClassNames: "All_Others" "1" "2"
-  BClassNames: "All_Others" "1" "2"
-  FClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others"
+  FClassNames: "All_Others" "1"
 EndFPST
 ChainSub2: class "'rphf' Repha Form (do nothing)" 3 2 1 1
   Class: 6 u11330
@@ -1933,7 +1930,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 46 23 11
+WinInfo: 0 23 11
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -8903,7 +8900,7 @@ EndChar
 StartChar: u11342
 Encoding: 70466 70466 155
 Width: 415
-Flags: MWO
+Flags: MW
 LayerCount: 2
 Fore
 Refer: 350 3010 N 1 0 0 1 0 0 2
