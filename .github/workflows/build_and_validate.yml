@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build the typeface
-    runs-on: macos-latest
+    runs-on: macos-11
     steps:
       - name: Set up Python environment
         uses: actions/setup-python@v2
@@ -36,7 +36,7 @@ jobs:
   test_macos:
     needs: build
     name: Compare rasterised images on MacOS
-    runs-on: macos-latest
+    runs-on: macos-11
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
