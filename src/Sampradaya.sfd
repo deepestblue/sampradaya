@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1636821992
+ModificationTime: 1636841174
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -60,8 +60,6 @@ Lookup: 6 0 0 "'rphf' Repha Form" { "'rphf' Repha Form (do nothing)"  "'rphf' Re
 Lookup: 6 0 0 "'rkrf' Rakara Forms" { "'rkrf' Rakara Forms (do nothing)"  "'rkrf' Rakara Forms (post rakara form)"  } ['rkrf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'pstf' Post Base Forms lookup (post yakara)" { "'pstf' Post Base Forms lookup (do nothing)"  "'pstf' Post Base Forms lookup (post yakara form)"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms (second stacked layer ya ra)" { "'blwf' Below Base Forms (second stacked layer ya ra) subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Single Substitution lookup (second stack to third)" { "Single Substitution lookup (second stack to third) subtable"  } []
-Lookup: 6 0 0 "'blwf' Below Base Forms (third stacked layer)" { "'blwf' Below Base Forms (third stacked layer) subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants" { "'vatu' Vattu Variants subtable"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 55" { "Accent marker rearrangement single substitution 55-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 21" { "'psts' Post Base Substitutions lookup 21-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -444,11 +442,10 @@ ChainPos2: class "'dist' Distance lookup 5-2 for svaritas, anunasika and samaved
   BClassNames: "All_Others" "1"
   FClassNames: "All_Others" "1" "2"
 EndFPST
-ChainPos2: class "'dist' Distance lookup 5-1 for anudatta" 2 5 1 8
+ChainPos2: class "'dist' Distance lookup 5-1 for anudatta" 2 4 1 7
   Class: 5 u0952
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 6 u11301
-  BClass: 191 uE515 uE516 uE517 uE518 uE519 uE51A uE51B uE51C uE51D uE51E uE51F uE520 uE521 uE522 uE523 uE524 uE525 uE526 uE527 uE528 uE52A uE52B uE52C uE52D uE52E uE532 uE533 uE535 uE536 uE537 uE538 uE539
   BClass: 107 uE100 uE101 uE105 uE109 uE10B uE10C uE10D uE10E uE10F uE110 uE115 u11319 u1131C u11324 u11326 u11328 u11337
  1 2 0
   ClsList: 1
@@ -462,44 +459,38 @@ ChainPos2: class "'dist' Distance lookup 5-1 for anudatta" 2 5 1 8
   FClsList:
  1
   SeqLookup: 0 "Single Position lookup for accent markers 1"
+ 1 2 0
+  ClsList: 1
+  BClsList: 1 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Position lookup for accent markers 2"
  1 1 0
   ClsList: 1
   BClsList: 3
   FClsList:
  1
-  SeqLookup: 0 "Single Position lookup for accent markers 2"
+  SeqLookup: 0 "Single Position lookup for accent markers 3"
  1 2 0
   ClsList: 1
   BClsList: 2 3
   FClsList:
  1
-  SeqLookup: 0 "Single Position lookup for accent markers 2"
- 1 1 0
-  ClsList: 1
-  BClsList: 4
-  FClsList:
- 1
   SeqLookup: 0 "Single Position lookup for accent markers 3"
  1 2 0
   ClsList: 1
-  BClsList: 2 4
-  FClsList:
- 1
-  SeqLookup: 0 "Single Position lookup for accent markers 3"
- 1 2 0
-  ClsList: 1
-  BClsList: 1 4
+  BClsList: 1 3
   FClsList:
  1
   SeqLookup: 0 "Single Position lookup for accent markers 4"
  1 3 0
   ClsList: 1
-  BClsList: 2 1 4
+  BClsList: 2 1 3
   FClsList:
  1
   SeqLookup: 0 "Single Position lookup for accent markers 4"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3" "4"
+  BClassNames: "All_Others" "1" "2" "3"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 31-1" 0 0 0 2
@@ -1532,7 +1523,7 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 56-1" 0 0 0 9
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 42"
 EndFPST
-ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
+ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 9 1 3 21
   Class: 6 u1131F
   Class: 6 u11332
   Class: 12 u11337 uE115
@@ -1541,7 +1532,6 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
   Class: 5 uE10D
   Class: 5 uE112
   Class: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
-  Class: 191 uE515 uE516 uE517 uE518 uE519 uE51A uE51B uE51C uE51D uE51E uE51F uE520 uE521 uE522 uE523 uE524 uE525 uE526 uE527 uE528 uE52A uE52B uE52C uE52D uE52E uE532 uE533 uE535 uE536 uE537 uE538 uE539
   FClass: 5 uE206
   FClass: 6 u11340
  1 0 1
@@ -1557,7 +1547,7 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 1 8 9
+  ClsList: 1 8 8
   BClsList:
   FClsList: 1
  1
@@ -1575,7 +1565,7 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 2 8 9
+  ClsList: 2 8 8
   BClsList:
   FClsList: 2
  1
@@ -1593,7 +1583,7 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 3 8 9
+  ClsList: 3 8 8
   BClsList:
   FClsList: 2
  1
@@ -1611,7 +1601,7 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 4 8 9
+  ClsList: 4 8 8
   BClsList:
   FClsList: 2
  1
@@ -1629,7 +1619,7 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 5 8 9
+  ClsList: 5 8 8
   BClsList:
   FClsList: 2
  1
@@ -1647,7 +1637,7 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 6 8 9
+  ClsList: 6 8 8
   BClsList:
   FClsList: 2
  1
@@ -1665,12 +1655,12 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 10 1 3 21
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 7 8 9
+  ClsList: 7 8 8
   BClsList:
   FClsList: 2
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
-  ClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7" "8" "9"
+  ClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7" "8"
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1" "2"
 EndFPST
@@ -1785,11 +1775,10 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 7
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 4 1 3
+ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 3 1 3
   Class: 6 u11340
   BClass: 13 u1131F u11333
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
-  BClass: 191 uE515 uE516 uE517 uE518 uE519 uE51A uE51B uE51C uE51D uE51E uE51F uE520 uE521 uE522 uE523 uE524 uE525 uE526 uE527 uE528 uE52A uE52B uE52C uE52D uE52E uE532 uE533 uE535 uE536 uE537 uE538 uE539
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -1804,22 +1793,21 @@ ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 4 1 3
   SeqLookup: 0 "Single Substitution lookup 7"
  1 3 0
   ClsList: 1
-  BClsList: 3 2 1
+  BClsList: 2 2 1
   FClsList:
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3"
+  BClassNames: "All_Others" "1" "2"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 7 1 12
+ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 6 1 12
   Class: 6 u1133F
   BClass: 26 uE113 u11319 u11326 u11332
   BClass: 23 uE109 uE102 uE111 uE114
   BClass: 13 u1131F u11333
   BClass: 30 uE10C uE10D uE112 uE115 u11337
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
-  BClass: 191 uE515 uE516 uE517 uE518 uE519 uE51A uE51B uE51C uE51D uE51E uE51F uE520 uE521 uE522 uE523 uE524 uE525 uE526 uE527 uE528 uE52A uE52B uE52C uE52D uE52E uE532 uE533 uE535 uE536 uE537 uE538 uE539
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -1870,30 +1858,30 @@ ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 7 1 12
   SeqLookup: 0 "Single Substitution lookup 6"
  1 3 0
   ClsList: 1
-  BClsList: 6 5 1
+  BClsList: 5 5 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 3"
  1 3 0
   ClsList: 1
-  BClsList: 6 5 2
+  BClsList: 5 5 2
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 4"
  1 3 0
   ClsList: 1
-  BClsList: 6 5 3
+  BClsList: 5 5 3
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 5"
  1 3 0
   ClsList: 1
-  BClsList: 6 5 4
+  BClsList: 5 5 4
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 6"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
+  BClassNames: "All_Others" "1" "2" "3" "4" "5"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 5 1 6
@@ -1942,13 +1930,6 @@ ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 5 1 6
   BClassNames: "All_Others" "1" "2" "3" "4"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: coverage "'blwf' Below Base Forms (third stacked layer) subtable" 0 0 0 1
- 1 1 0
-  Coverage: 191 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE332 uE333 uE335 uE336 uE337 uE338 uE339
-  BCoverage: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
- 1
-  SeqLookup: 0 "Single Substitution lookup (second stack to third)"
-EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2021, Ambarish Sridharanarayanan (https://github.com/deepestblue/Sampradaya),+AAoA-with Reserved Font Name Sampradaya.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
 GaspTable: 3 8 2 16 1 65535 3 1
 Encoding: UnicodeFull
@@ -1966,7 +1947,7 @@ Grid
  2048 228.5 l 1024
 EndSplineSet
 AnchorClass2: "subbottom" "'mkmk' Mark to Mark lookup 11-1" "bottom" "'mark' Mark Positioning lookup 10-1"
-BeginChars: 1114113 362
+BeginChars: 1114113 329
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -5243,10 +5224,10 @@ Width: 0
 Flags: MW
 AnchorPoint: "subbottom" -232 -304 basemark 0
 AnchorPoint: "bottom" -232 0 mark 0
+AnchorPoint: "subbottom" -232 0 mark 0
 LayerCount: 2
 Fore
 Refer: 116 70421 S 0.8 0 0 0.63 -461 -304 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE515
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11315
 EndChar
@@ -5257,10 +5238,10 @@ Width: 0
 Flags: MW
 AnchorPoint: "subbottom" -268 -296 basemark 0
 AnchorPoint: "bottom" -268 0 mark 0
+AnchorPoint: "subbottom" -268 0 mark 0
 LayerCount: 2
 Fore
 Refer: 117 70422 S 0.4896 0 0 0.612 -506 -296 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE516
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11316
 EndChar
@@ -5271,10 +5252,10 @@ Width: 0
 Flags: MW
 AnchorPoint: "subbottom" -228 -290 basemark 0
 AnchorPoint: "bottom" -228 0 mark 0
+AnchorPoint: "subbottom" -228 0 mark 0
 LayerCount: 2
 Fore
 Refer: 118 70423 S 0.8 0 0 0.6 -452 -290 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE517
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11317
 EndChar
@@ -5285,10 +5266,10 @@ Width: 0
 Flags: MW
 AnchorPoint: "subbottom" -286 -301 basemark 0
 AnchorPoint: "bottom" -286 0 mark 0
+AnchorPoint: "subbottom" -286 0 mark 0
 LayerCount: 2
 Fore
 Refer: 119 70424 S 0.62 0 0 0.63 -568 -301 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE518
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11318
 EndChar
@@ -5298,11 +5279,11 @@ Encoding: 58138 58138 49
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -259 0 mark 0
+AnchorPoint: "subbottom" -259 0 mark 0
 AnchorPoint: "subbottom" -259 -312 basemark 0
 LayerCount: 2
 Fore
 Refer: 121 70426 S 0.665 0 0 0.665 -535 -312 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51A
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131A
 EndChar
@@ -5312,11 +5293,11 @@ Encoding: 58139 58139 50
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -268 0 mark 0
+AnchorPoint: "subbottom" -268 0 mark 0
 AnchorPoint: "subbottom" -268 -302 basemark 0
 LayerCount: 2
 Fore
 Refer: 122 70427 S 0.63175 0 0 0.63175 -528 -302 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51B
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131B
 EndChar
@@ -5326,11 +5307,11 @@ Encoding: 58140 58140 51
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -251 0 mark 0
+AnchorPoint: "subbottom" -251 0 mark 0
 AnchorPoint: "subbottom" -251 -331 basemark 0
 LayerCount: 2
 Fore
 Refer: 123 70428 S 0.6 0 0 0.55 -471 -272 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51C
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131C
 EndChar
@@ -5340,11 +5321,11 @@ Encoding: 58141 58141 52
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -254 0 mark 0
+AnchorPoint: "subbottom" -254 0 mark 0
 AnchorPoint: "subbottom" -254 -294 basemark 0
 LayerCount: 2
 Fore
 Refer: 124 70429 S 0.7497 0 0 0.6 -547 -294 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51D
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131D
 EndChar
@@ -5354,11 +5335,11 @@ Encoding: 58143 58143 53
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -216 0 mark 0
+AnchorPoint: "subbottom" -216 0 mark 0
 AnchorPoint: "subbottom" -216 -349 basemark 0
 LayerCount: 2
 Fore
 Refer: 126 70431 S 0.637245 0 0 0.6069 -421 -293 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51F
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131F
 EndChar
@@ -5367,12 +5348,12 @@ StartChar: uE320
 Encoding: 58144 58144 54
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -134 0 mark 0
 AnchorPoint: "bottom" -134 0 mark 0
 AnchorPoint: "subbottom" -135 -341 basemark 0
 LayerCount: 2
 Fore
 Refer: 127 70432 S 0.6464 0 0 0.73425 -333 -341 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE520
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11320
 EndChar
@@ -5381,12 +5362,12 @@ StartChar: uE321
 Encoding: 58145 58145 55
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -237 0 mark 0
 AnchorPoint: "bottom" -237 0 mark 0
 AnchorPoint: "subbottom" -237 -292 basemark 0
 LayerCount: 2
 Fore
 Refer: 128 70433 S 0.665 0 0 0.5985 -489 -292 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE521
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11321
 EndChar
@@ -5395,12 +5376,12 @@ StartChar: uE322
 Encoding: 58146 58146 56
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -237 0 mark 0
 AnchorPoint: "bottom" -237 0 mark 0
 AnchorPoint: "subbottom" -237 -299 basemark 0
 LayerCount: 2
 Fore
 Refer: 129 70434 S 0.7 0 0 0.6175 -490 -299 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE522
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11322
 EndChar
@@ -5409,12 +5390,12 @@ StartChar: uE323
 Encoding: 58147 58147 57
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -309 0 mark 0
 AnchorPoint: "bottom" -309 0 mark 0
 AnchorPoint: "subbottom" -309 -317 basemark 0
 LayerCount: 2
 Fore
 Refer: 130 70435 S 0.67165 0 0 0.656069 -631 -317 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE523
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11323
 EndChar
@@ -5423,12 +5404,12 @@ StartChar: uE324
 Encoding: 58148 58148 58
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -220 0 mark 0
 AnchorPoint: "bottom" -220 0 mark 0
 AnchorPoint: "subbottom" -220 -422 basemark 0
 LayerCount: 2
 Fore
 Refer: 131 70436 S 0.76824 0 0 0.624195 -441 -299 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE524
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11324
 EndChar
@@ -5437,12 +5418,12 @@ StartChar: uE325
 Encoding: 58149 58149 59
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -266 0 mark 0
 AnchorPoint: "bottom" -266 0 mark 0
 AnchorPoint: "subbottom" -266 -297 basemark 0
 LayerCount: 2
 Fore
 Refer: 132 70437 S 0.684 0 0 0.6175 -529 -297 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE525
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11325
 EndChar
@@ -5451,12 +5432,12 @@ StartChar: uE326
 Encoding: 58150 58150 60
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -212 0 mark 0
 AnchorPoint: "bottom" -212 0 mark 0
 AnchorPoint: "subbottom" -212 -367 basemark 0
 LayerCount: 2
 Fore
 Refer: 133 70438 S 0.8 0 0 0.6305 -420 -300 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE526
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11326
 EndChar
@@ -5465,12 +5446,12 @@ StartChar: uE327
 Encoding: 58151 58151 61
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -276 0 mark 0
 AnchorPoint: "bottom" -276 0 mark 0
 AnchorPoint: "subbottom" -276 -297 basemark 0
 LayerCount: 2
 Fore
 Refer: 134 70439 S 0.76 0 0 0.6175 -578 -297 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE527
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11327
 EndChar
@@ -5479,12 +5460,12 @@ StartChar: uE328
 Encoding: 58152 58152 62
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -198 0 mark 0
 AnchorPoint: "bottom" -198 0 mark 0
 AnchorPoint: "subbottom" -198 -470 basemark 0
 LayerCount: 2
 Fore
 Refer: 135 70440 S 0.7068 0 0 0.637 -374 -304 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE528
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11328
 EndChar
@@ -5494,11 +5475,11 @@ Encoding: 58154 58154 63
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -295 0 mark 0
+AnchorPoint: "subbottom" -295 0 mark 0
 AnchorPoint: "subbottom" -295 -289 basemark 0
 LayerCount: 2
 Fore
 Refer: 136 70442 S 0.65 0 0 0.6 -574 -289 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52A
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132A
 EndChar
@@ -5508,11 +5489,11 @@ Encoding: 58155 58155 64
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -276 0 mark 0
+AnchorPoint: "subbottom" -276 0 mark 0
 AnchorPoint: "subbottom" -276 -297 basemark 0
 LayerCount: 2
 Fore
 Refer: 137 70443 S 0.605625 0 0 0.617737 -529 -297 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52B
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132B
 EndChar
@@ -5522,11 +5503,11 @@ Encoding: 58156 58156 65
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -276 0 mark 0
+AnchorPoint: "subbottom" -276 0 mark 0
 AnchorPoint: "subbottom" -276 -299 basemark 0
 LayerCount: 2
 Fore
 Refer: 138 70444 S 0.66 0 0 0.62 -553 -299 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52C
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132C
 EndChar
@@ -5536,11 +5517,11 @@ Encoding: 58157 58157 66
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -285 0 mark 0
+AnchorPoint: "subbottom" -285 0 mark 0
 AnchorPoint: "subbottom" -285 -294 basemark 0
 LayerCount: 2
 Fore
 Refer: 139 70445 S 0.71295 0 0 0.611325 -544 -294 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52D
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132D
 EndChar
@@ -5550,11 +5531,11 @@ Encoding: 58158 58158 67
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -175 0 mark 0
+AnchorPoint: "subbottom" -175 0 mark 0
 AnchorPoint: "subbottom" -175 -308 basemark 0
 LayerCount: 2
 Fore
 Refer: 140 70446 S 0.55 0 0 0.65 -310 -308 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE52E
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132E
 EndChar
@@ -5577,11 +5558,11 @@ Encoding: 58162 58162 69
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -235 0 mark 0
+AnchorPoint: "subbottom" -235 0 mark 0
 AnchorPoint: "subbottom" -235 -308 basemark 0
 LayerCount: 2
 Fore
 Refer: 143 70450 S 0.72 0 0 0.64 -475 -308 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE532
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11332
 EndChar
@@ -5591,11 +5572,11 @@ Encoding: 58163 58163 70
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -202 0 mark 0
+AnchorPoint: "subbottom" -202 0 mark 0
 AnchorPoint: "subbottom" -202 -297 basemark 0
 LayerCount: 2
 Fore
 Refer: 144 70451 S 0.72 0 0 0.62 -522 -297 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE533
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11333
 EndChar
@@ -5604,12 +5585,12 @@ StartChar: uE335
 Encoding: 58165 58165 71
 Width: 0
 Flags: MW
+AnchorPoint: "subbottom" -250 0 mark 0
 AnchorPoint: "bottom" -250 0 mark 0
 AnchorPoint: "subbottom" -250 -306 basemark 0
 LayerCount: 2
 Fore
 Refer: 145 70453 S 0.72 0 0 0.64 -479 -306 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE535
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11335
 EndChar
@@ -5619,11 +5600,11 @@ Encoding: 58166 58166 72
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -259 0 mark 0
+AnchorPoint: "subbottom" -259 0 mark 0
 AnchorPoint: "subbottom" -259 -308 basemark 0
 LayerCount: 2
 Fore
 Refer: 146 70454 S 0.75 0 0 0.64 -537 -308 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE536
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11336
 EndChar
@@ -5633,11 +5614,11 @@ Encoding: 58167 58167 73
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -287 0 mark 0
+AnchorPoint: "subbottom" -287 0 mark 0
 AnchorPoint: "subbottom" -287 -343 basemark 0
 LayerCount: 2
 Fore
 Refer: 147 70455 S 0.5626 0 0 0.582 -561 -283 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE537
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11337
 EndChar
@@ -5647,11 +5628,11 @@ Encoding: 58168 58168 74
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -261 0 mark 0
+AnchorPoint: "subbottom" -261 0 mark 0
 AnchorPoint: "subbottom" -261 -299 basemark 0
 LayerCount: 2
 Fore
 Refer: 148 70456 S 0.637 0 0 0.62426 -530 -299 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE538
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11338
 EndChar
@@ -5662,10 +5643,10 @@ Width: 0
 Flags: MW
 AnchorPoint: "subbottom" -272 -347 basemark 0
 AnchorPoint: "bottom" -272 0 mark 0
+AnchorPoint: "subbottom" -272 0 mark 0
 LayerCount: 2
 Fore
 Refer: 149 70457 S 0.55 0 0 0.63 -543 -297 2
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE539
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11339
 EndChar
@@ -5728,6 +5709,7 @@ Width: 0
 Flags: MW
 AnchorPoint: "subbottom" -323 -338 basemark 0
 AnchorPoint: "bottom" -323 0 mark 0
+AnchorPoint: "subbottom" -323 0 mark 0
 LayerCount: 2
 Fore
 Refer: 32 57615 S 0.55 0 0 0.55 -543 -254 2
@@ -5946,7 +5928,7 @@ EndChar
 StartChar: uE395
 Encoding: 58261 58261 97
 Width: 0
-Flags: MWO
+Flags: MW
 AnchorPoint: "subbottom" -326 -291 basemark 0
 AnchorPoint: "bottom" -326 0 mark 0
 LayerCount: 2
@@ -9678,12 +9660,12 @@ Width: 0
 Flags: MW
 AnchorPoint: "subbottom" -256 -459 basemark 0
 AnchorPoint: "bottom" -256 0 mark 0
+AnchorPoint: "subbottom" -256 0 mark 0
 LayerCount: 2
 Fore
 Refer: 120 70425 S 0.791194 0 0 0.760093 -498 -350 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u11319
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE519
 EndChar
 
 StartChar: uE31E
@@ -9691,13 +9673,13 @@ Encoding: 58142 58142 169
 Width: 0
 Flags: MW
 AnchorPoint: "bottom" -305 0 mark 0
+AnchorPoint: "subbottom" -305 0 mark 0
 AnchorPoint: "subbottom" -305 -378 basemark 0
 LayerCount: 2
 Fore
 Refer: 125 70430 S 0.8 0 0 0.8 -595 -378 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1131E
-Substitution2: "Single Substitution lookup (second stack to third) subtable" uE51E
 EndChar
 
 StartChar: uE205
@@ -10815,301 +10797,8 @@ EndSplineSet
 Validated: 33
 EndChar
 
-StartChar: uE532
-Encoding: 58674 58674 201
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 69 58162 S 1 0 0 1 0 -296 2
-Position2: "Single Position lookup for third stack 1-1" dx=0 dy=-160 dh=0 dv=0
-EndChar
-
-StartChar: uE515
-Encoding: 58645 58645 202
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 45 58133 S 1 0 0 0.996641 0 -292.043 2
-EndChar
-
-StartChar: uE516
-Encoding: 58646 58646 203
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 46 58134 S 1 0 0 1 0 -294 2
-EndChar
-
-StartChar: uE517
-Encoding: 58647 58647 204
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 47 58135 S 1 0 0 1 0 -296 2
-EndChar
-
-StartChar: uE518
-Encoding: 58648 58648 205
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 48 58136 S 1 0 0 1 0 -298 2
-EndChar
-
-StartChar: uE519
-Encoding: 58649 58649 206
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 168 58137 S 1 0 0 1 0 -295 2
-EndChar
-
-StartChar: uE51A
-Encoding: 58650 58650 207
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 49 58138 S 1 0 0 1 0 -317 2
-EndChar
-
-StartChar: uE51B
-Encoding: 58651 58651 208
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 50 58139 S 1 0 0 1 0 -301 2
-EndChar
-
-StartChar: uE51C
-Encoding: 58652 58652 209
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 51 58140 S 1 0 0 1 0 -294 2
-EndChar
-
-StartChar: uE51D
-Encoding: 58653 58653 210
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 52 58141 S 1 0 0 1 0 -307 2
-EndChar
-
-StartChar: uE51E
-Encoding: 58654 58654 211
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 169 58142 S 1 0 0 1 0 -305 2
-EndChar
-
-StartChar: uE51F
-Encoding: 58655 58655 212
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 53 58143 S 1 0 0 1 0 -304 2
-EndChar
-
-StartChar: uE520
-Encoding: 58656 58656 213
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 54 58144 S 1 0 0 1 0 -302 2
-EndChar
-
-StartChar: uE521
-Encoding: 58657 58657 214
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 55 58145 S 1 0 0 1 0 -281 2
-EndChar
-
-StartChar: uE522
-Encoding: 58658 58658 215
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 56 58146 S 1 0 0 1 0 -291 2
-EndChar
-
-StartChar: uE523
-Encoding: 58659 58659 216
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 57 58147 S 1 0 0 1 0 -301 2
-EndChar
-
-StartChar: uE524
-Encoding: 58660 58660 217
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 58 58148 S 1 0 0 1 0 -299 2
-EndChar
-
-StartChar: uE525
-Encoding: 58661 58661 218
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 59 58149 S 1 0 0 1 0 -297 2
-EndChar
-
-StartChar: uE526
-Encoding: 58662 58662 219
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 60 58150 S 1 0 0 1 0 -301 2
-EndChar
-
-StartChar: uE527
-Encoding: 58663 58663 220
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 61 58151 S 1 0 0 1 0 -301 2
-EndChar
-
-StartChar: uE528
-Encoding: 58664 58664 221
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 62 58152 N 1 0 0 1 0 -296 2
-Position2: "Single Position lookup for third stack 1-1" dx=0 dy=-160 dh=0 dv=0
-EndChar
-
-StartChar: uE52A
-Encoding: 58666 58666 222
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 63 58154 S 1 0 0 1 0 -306 2
-EndChar
-
-StartChar: uE52B
-Encoding: 58667 58667 223
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 64 58155 S 1 0 0 1 0 -308 2
-EndChar
-
-StartChar: uE52C
-Encoding: 58668 58668 224
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 65 58156 S 1 0 0 1 0 -291 2
-EndChar
-
-StartChar: uE52D
-Encoding: 58669 58669 225
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 66 58157 S 1 0 0 1 0 -296 2
-EndChar
-
-StartChar: uE52E
-Encoding: 58670 58670 226
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 67 58158 S 1 0 0 1 0 -296 2
-EndChar
-
-StartChar: uE533
-Encoding: 58675 58675 227
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 70 58163 S 1 0 0 1 0 -310 2
-EndChar
-
-StartChar: uE535
-Encoding: 58677 58677 228
-Width: 0
-Flags: W
-AnchorPoint: "subbottom" -249 -295 mark 0
-LayerCount: 2
-Fore
-Refer: 71 58165 S 1 0 0 1 0 -295 2
-Position2: "Single Position lookup for third stack 2-1" dx=0 dy=-80 dh=0 dv=0
-Position2: "Single Position lookup for third stack 1-1" dx=0 dy=-125 dh=0 dv=0
-EndChar
-
-StartChar: uE536
-Encoding: 58678 58678 229
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 72 58166 S 1 0 0 1 0 -304 2
-EndChar
-
-StartChar: uE537
-Encoding: 58679 58679 230
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 73 58167 N 1 0 0 1 0 -299 2
-EndChar
-
-StartChar: uE538
-Encoding: 58680 58680 231
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 74 58168 S 1 0 0 1 0 -308 2
-EndChar
-
-StartChar: uE539
-Encoding: 58681 58681 232
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 75 58169 S 1 0 0 1 0 -293 2
-EndChar
-
 StartChar: uE330
-Encoding: 58160 58160 233
+Encoding: 58160 58160 201
 Width: 0
 Flags: W
 AnchorPoint: "bottom" -210 0 mark 0
@@ -11122,7 +10811,7 @@ Ligature2: "'blwf' Below Base Forms (second stacked layer ya ra) subtable" u1134
 EndChar
 
 StartChar: uE209
-Encoding: 57865 57865 234
+Encoding: 57865 57865 202
 Width: 145
 Flags: W
 LayerCount: 2
@@ -11153,7 +10842,7 @@ EndSplineSet
 EndChar
 
 StartChar: uE20A
-Encoding: 57866 57866 235
+Encoding: 57866 57866 203
 Width: 145
 Flags: W
 LayerCount: 2
@@ -11184,7 +10873,7 @@ EndSplineSet
 EndChar
 
 StartChar: uE480
-Encoding: 58496 58496 236
+Encoding: 58496 58496 204
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11192,7 +10881,7 @@ Substitution2: "Vowel marker rearrangement single substitution 1-1" uE201
 EndChar
 
 StartChar: uE481
-Encoding: 58497 58497 237
+Encoding: 58497 58497 205
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11200,7 +10889,7 @@ Substitution2: "Vowel marker rearrangement single substitution 2-1" uE205
 EndChar
 
 StartChar: uE482
-Encoding: 58498 58498 238
+Encoding: 58498 58498 206
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11208,7 +10897,7 @@ Substitution2: "Vowel marker rearrangement single substitution 3-1" uE200
 EndChar
 
 StartChar: uE483
-Encoding: 58499 58499 239
+Encoding: 58499 58499 207
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11216,7 +10905,7 @@ Substitution2: "Vowel marker rearrangement single substitution 4-1" uE201
 EndChar
 
 StartChar: uE484
-Encoding: 58500 58500 240
+Encoding: 58500 58500 208
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11224,7 +10913,7 @@ Substitution2: "Vowel marker rearrangement single substitution 5-1" uE205
 EndChar
 
 StartChar: uE485
-Encoding: 58501 58501 241
+Encoding: 58501 58501 209
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11232,7 +10921,7 @@ Substitution2: "Vowel marker rearrangement single substitution 6-1" uE200
 EndChar
 
 StartChar: uE486
-Encoding: 58502 58502 242
+Encoding: 58502 58502 210
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11240,7 +10929,7 @@ Substitution2: "Vowel marker rearrangement single substitution 7-1" uE200
 EndChar
 
 StartChar: u1CF4
-Encoding: 7412 7412 243
+Encoding: 7412 7412 211
 Width: 0
 VWidth: 1000
 Flags: W
@@ -11283,14 +10972,14 @@ Substitution2: "Accent marker rearrangement single substitution 54-1" uE4BC
 EndChar
 
 StartChar: uni00A0
-Encoding: 160 160 244
+Encoding: 160 160 212
 Width: 252
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE487
-Encoding: 58503 58503 245
+Encoding: 58503 58503 213
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11298,7 +10987,7 @@ Substitution2: "Accent marker rearrangement single substitution 1-1" u1133E
 EndChar
 
 StartChar: uE488
-Encoding: 58504 58504 246
+Encoding: 58504 58504 214
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11306,7 +10995,7 @@ Substitution2: "Accent marker rearrangement single substitution 2-1" u1133E
 EndChar
 
 StartChar: uE489
-Encoding: 58505 58505 247
+Encoding: 58505 58505 215
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11314,7 +11003,7 @@ Substitution2: "Accent marker rearrangement single substitution 3-1" u1133E
 EndChar
 
 StartChar: uE48A
-Encoding: 58506 58506 248
+Encoding: 58506 58506 216
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11322,7 +11011,7 @@ Substitution2: "Accent marker rearrangement single substitution 4-1" u1133F
 EndChar
 
 StartChar: uE48B
-Encoding: 58507 58507 249
+Encoding: 58507 58507 217
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11330,7 +11019,7 @@ Substitution2: "Accent marker rearrangement single substitution 5-1" u1133F
 EndChar
 
 StartChar: uE48C
-Encoding: 58508 58508 250
+Encoding: 58508 58508 218
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11338,7 +11027,7 @@ Substitution2: "Accent marker rearrangement single substitution 6-1" u1133F
 EndChar
 
 StartChar: uE48D
-Encoding: 58509 58509 251
+Encoding: 58509 58509 219
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11346,7 +11035,7 @@ Substitution2: "Accent marker rearrangement single substitution 7-1" u11340
 EndChar
 
 StartChar: uE48E
-Encoding: 58510 58510 252
+Encoding: 58510 58510 220
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11354,7 +11043,7 @@ Substitution2: "Accent marker rearrangement single substitution 8-1" u11340
 EndChar
 
 StartChar: uE48F
-Encoding: 58511 58511 253
+Encoding: 58511 58511 221
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11362,7 +11051,7 @@ Substitution2: "Accent marker rearrangement single substitution 9-1" u11340
 EndChar
 
 StartChar: uE490
-Encoding: 58512 58512 254
+Encoding: 58512 58512 222
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11370,7 +11059,7 @@ Substitution2: "Accent marker rearrangement single substitution 10-1" u11341
 EndChar
 
 StartChar: uE491
-Encoding: 58513 58513 255
+Encoding: 58513 58513 223
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11378,7 +11067,7 @@ Substitution2: "Accent marker rearrangement single substitution 11-1" u11341
 EndChar
 
 StartChar: uE492
-Encoding: 58514 58514 256
+Encoding: 58514 58514 224
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11386,7 +11075,7 @@ Substitution2: "Accent marker rearrangement single substitution 12-1" u11341
 EndChar
 
 StartChar: uE493
-Encoding: 58515 58515 257
+Encoding: 58515 58515 225
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11394,7 +11083,7 @@ Substitution2: "Accent marker rearrangement single substitution 13-1" u11342
 EndChar
 
 StartChar: uE494
-Encoding: 58516 58516 258
+Encoding: 58516 58516 226
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11402,7 +11091,7 @@ Substitution2: "Accent marker rearrangement single substitution 14-1" u11342
 EndChar
 
 StartChar: uE495
-Encoding: 58517 58517 259
+Encoding: 58517 58517 227
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11410,7 +11099,7 @@ Substitution2: "Accent marker rearrangement single substitution 15-1" u11342
 EndChar
 
 StartChar: uE496
-Encoding: 58518 58518 260
+Encoding: 58518 58518 228
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11418,7 +11107,7 @@ Substitution2: "Accent marker rearrangement single substitution 16-1" u11343
 EndChar
 
 StartChar: uE497
-Encoding: 58519 58519 261
+Encoding: 58519 58519 229
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11426,7 +11115,7 @@ Substitution2: "Accent marker rearrangement single substitution 17-1" u11343
 EndChar
 
 StartChar: uE498
-Encoding: 58520 58520 262
+Encoding: 58520 58520 230
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11434,7 +11123,7 @@ Substitution2: "Accent marker rearrangement single substitution 18-1" u11343
 EndChar
 
 StartChar: uE499
-Encoding: 58521 58521 263
+Encoding: 58521 58521 231
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11442,7 +11131,7 @@ Substitution2: "Accent marker rearrangement single substitution 19-1" u11344
 EndChar
 
 StartChar: uE49A
-Encoding: 58522 58522 264
+Encoding: 58522 58522 232
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11450,7 +11139,7 @@ Substitution2: "Accent marker rearrangement single substitution 20-1" u11344
 EndChar
 
 StartChar: uE49B
-Encoding: 58523 58523 265
+Encoding: 58523 58523 233
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11458,7 +11147,7 @@ Substitution2: "Accent marker rearrangement single substitution 21-1" u1CF4
 EndChar
 
 StartChar: uE49C
-Encoding: 58524 58524 266
+Encoding: 58524 58524 234
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11466,7 +11155,7 @@ Substitution2: "Accent marker rearrangement single substitution 22-1" u11362
 EndChar
 
 StartChar: uE49D
-Encoding: 58525 58525 267
+Encoding: 58525 58525 235
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11474,7 +11163,7 @@ Substitution2: "Accent marker rearrangement single substitution 23-1" u11362
 EndChar
 
 StartChar: uE49E
-Encoding: 58526 58526 268
+Encoding: 58526 58526 236
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11482,7 +11171,7 @@ Substitution2: "Accent marker rearrangement single substitution 24-1" u11362
 EndChar
 
 StartChar: uE49F
-Encoding: 58527 58527 269
+Encoding: 58527 58527 237
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11490,7 +11179,7 @@ Substitution2: "Accent marker rearrangement single substitution 25-1" u11363
 EndChar
 
 StartChar: uE4A0
-Encoding: 58528 58528 270
+Encoding: 58528 58528 238
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11498,7 +11187,7 @@ Substitution2: "Accent marker rearrangement single substitution 26-1" u11363
 EndChar
 
 StartChar: uE4A1
-Encoding: 58529 58529 271
+Encoding: 58529 58529 239
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11506,7 +11195,7 @@ Substitution2: "Accent marker rearrangement single substitution 27-1" u11363
 EndChar
 
 StartChar: uE4A2
-Encoding: 58530 58530 272
+Encoding: 58530 58530 240
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11514,7 +11203,7 @@ Substitution2: "Accent marker rearrangement single substitution 28-1" u11357
 EndChar
 
 StartChar: uE4A3
-Encoding: 58531 58531 273
+Encoding: 58531 58531 241
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11522,7 +11211,7 @@ Substitution2: "Accent marker rearrangement single substitution 29-1" u11357
 EndChar
 
 StartChar: uE4A4
-Encoding: 58532 58532 274
+Encoding: 58532 58532 242
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11530,7 +11219,7 @@ Substitution2: "Accent marker rearrangement single substitution 30-1" u11357
 EndChar
 
 StartChar: uE4A5
-Encoding: 58533 58533 275
+Encoding: 58533 58533 243
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11538,7 +11227,7 @@ Substitution2: "Accent marker rearrangement single substitution 31-1" u1134D
 EndChar
 
 StartChar: uE4A6
-Encoding: 58534 58534 276
+Encoding: 58534 58534 244
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11546,7 +11235,7 @@ Substitution2: "Accent marker rearrangement single substitution 32-1" u1134D
 EndChar
 
 StartChar: uE4A7
-Encoding: 58535 58535 277
+Encoding: 58535 58535 245
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11554,7 +11243,7 @@ Substitution2: "Accent marker rearrangement single substitution 33-1" u1135D
 EndChar
 
 StartChar: uE4A8
-Encoding: 58536 58536 278
+Encoding: 58536 58536 246
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11562,7 +11251,7 @@ Substitution2: "Accent marker rearrangement single substitution 34-1" u11302
 EndChar
 
 StartChar: uE4A9
-Encoding: 58537 58537 279
+Encoding: 58537 58537 247
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11570,7 +11259,7 @@ Substitution2: "Accent marker rearrangement single substitution 35-1" u11302
 EndChar
 
 StartChar: uE4AA
-Encoding: 58538 58538 280
+Encoding: 58538 58538 248
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11578,7 +11267,7 @@ Substitution2: "Accent marker rearrangement single substitution 36-1" u11302
 EndChar
 
 StartChar: uE4AB
-Encoding: 58539 58539 281
+Encoding: 58539 58539 249
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11586,7 +11275,7 @@ Substitution2: "Accent marker rearrangement single substitution 37-1" u11303
 EndChar
 
 StartChar: uE4AC
-Encoding: 58540 58540 282
+Encoding: 58540 58540 250
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11594,7 +11283,7 @@ Substitution2: "Accent marker rearrangement single substitution 38-1" u11303
 EndChar
 
 StartChar: uE4AD
-Encoding: 58541 58541 283
+Encoding: 58541 58541 251
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11602,7 +11291,7 @@ Substitution2: "Accent marker rearrangement single substitution 39-1" u11303
 EndChar
 
 StartChar: uE4AE
-Encoding: 58542 58542 284
+Encoding: 58542 58542 252
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11610,7 +11299,7 @@ Substitution2: "Accent marker rearrangement single substitution 40-1" u1CF2
 EndChar
 
 StartChar: uE4AF
-Encoding: 58543 58543 285
+Encoding: 58543 58543 253
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11618,7 +11307,7 @@ Substitution2: "Accent marker rearrangement single substitution 41-1" u1CF2
 EndChar
 
 StartChar: uE4B0
-Encoding: 58544 58544 286
+Encoding: 58544 58544 254
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11626,7 +11315,7 @@ Substitution2: "Accent marker rearrangement single substitution 42-1" u1CF4
 EndChar
 
 StartChar: uE4B1
-Encoding: 58545 58545 287
+Encoding: 58545 58545 255
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11634,7 +11323,7 @@ Substitution2: "Accent marker rearrangement single substitution 43-1" u1135D
 EndChar
 
 StartChar: uE4B2
-Encoding: 58546 58546 288
+Encoding: 58546 58546 256
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11642,7 +11331,7 @@ Substitution2: "Accent marker rearrangement single substitution 44-1" u1135D
 EndChar
 
 StartChar: uE4B3
-Encoding: 58547 58547 289
+Encoding: 58547 58547 257
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11650,7 +11339,7 @@ Substitution2: "Accent marker rearrangement single substitution 45-1" u1135D
 EndChar
 
 StartChar: uE4B4
-Encoding: 58548 58548 290
+Encoding: 58548 58548 258
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11658,7 +11347,7 @@ Substitution2: "Accent marker rearrangement single substitution 46-1" uE200
 EndChar
 
 StartChar: uE4B5
-Encoding: 58549 58549 291
+Encoding: 58549 58549 259
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11666,7 +11355,7 @@ Substitution2: "Accent marker rearrangement single substitution 47-1" uE200
 EndChar
 
 StartChar: uE4B6
-Encoding: 58550 58550 292
+Encoding: 58550 58550 260
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11674,7 +11363,7 @@ Substitution2: "Accent marker rearrangement single substitution 48-1" uE200
 EndChar
 
 StartChar: uE4B7
-Encoding: 58551 58551 293
+Encoding: 58551 58551 261
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11682,7 +11371,7 @@ Substitution2: "Accent marker rearrangement single substitution 49-1" uE201
 EndChar
 
 StartChar: uE4B8
-Encoding: 58552 58552 294
+Encoding: 58552 58552 262
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11690,7 +11379,7 @@ Substitution2: "Accent marker rearrangement single substitution 50-1" uE201
 EndChar
 
 StartChar: uE4B9
-Encoding: 58553 58553 295
+Encoding: 58553 58553 263
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11698,7 +11387,7 @@ Substitution2: "Accent marker rearrangement single substitution 51-1" uE201
 EndChar
 
 StartChar: uE4BA
-Encoding: 58554 58554 296
+Encoding: 58554 58554 264
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11706,7 +11395,7 @@ Substitution2: "Accent marker rearrangement single substitution 52-1" uE205
 EndChar
 
 StartChar: uE4BB
-Encoding: 58555 58555 297
+Encoding: 58555 58555 265
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11714,7 +11403,7 @@ Substitution2: "Accent marker rearrangement single substitution 53-1" uE205
 EndChar
 
 StartChar: uE4BC
-Encoding: 58556 58556 298
+Encoding: 58556 58556 266
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11722,7 +11411,7 @@ Substitution2: "Accent marker rearrangement single substitution 54-1" uE205
 EndChar
 
 StartChar: uE4BD
-Encoding: 58557 58557 299
+Encoding: 58557 58557 267
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11730,7 +11419,7 @@ Substitution2: "Accent marker rearrangement single substitution 55-1" u1135D
 EndChar
 
 StartChar: uE4BE
-Encoding: 58558 58558 300
+Encoding: 58558 58558 268
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11738,7 +11427,7 @@ Substitution2: "Accent marker rearrangement single substitution 56-1" u1133E
 EndChar
 
 StartChar: uE4BF
-Encoding: 58559 58559 301
+Encoding: 58559 58559 269
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11746,7 +11435,7 @@ Substitution2: "Accent marker rearrangement single substitution 57-1" u1133F
 EndChar
 
 StartChar: uE4C0
-Encoding: 58560 58560 302
+Encoding: 58560 58560 270
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11754,7 +11443,7 @@ Substitution2: "Accent marker rearrangement single substitution 58-1" u11340
 EndChar
 
 StartChar: uE4C1
-Encoding: 58561 58561 303
+Encoding: 58561 58561 271
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11762,7 +11451,7 @@ Substitution2: "Accent marker rearrangement single substitution 59-1" u11341
 EndChar
 
 StartChar: uE4C2
-Encoding: 58562 58562 304
+Encoding: 58562 58562 272
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11770,7 +11459,7 @@ Substitution2: "Accent marker rearrangement single substitution 60-1" u11342
 EndChar
 
 StartChar: uE4C3
-Encoding: 58563 58563 305
+Encoding: 58563 58563 273
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11778,7 +11467,7 @@ Substitution2: "Accent marker rearrangement single substitution 61-1" u11343
 EndChar
 
 StartChar: uE4C4
-Encoding: 58564 58564 306
+Encoding: 58564 58564 274
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11786,7 +11475,7 @@ Substitution2: "Accent marker rearrangement single substitution 62-1" u11344
 EndChar
 
 StartChar: uE4C5
-Encoding: 58565 58565 307
+Encoding: 58565 58565 275
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11794,7 +11483,7 @@ Substitution2: "Accent marker rearrangement single substitution 63-1" u11362
 EndChar
 
 StartChar: uE4C6
-Encoding: 58566 58566 308
+Encoding: 58566 58566 276
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11802,7 +11491,7 @@ Substitution2: "Accent marker rearrangement single substitution 64-1" u11363
 EndChar
 
 StartChar: uE4C7
-Encoding: 58567 58567 309
+Encoding: 58567 58567 277
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11810,7 +11499,7 @@ Substitution2: "Accent marker rearrangement single substitution 65-1" u11357
 EndChar
 
 StartChar: uE4C8
-Encoding: 58568 58568 310
+Encoding: 58568 58568 278
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11818,7 +11507,7 @@ Substitution2: "Accent marker rearrangement single substitution 66-1" u1134D
 EndChar
 
 StartChar: uE4C9
-Encoding: 58569 58569 311
+Encoding: 58569 58569 279
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11826,7 +11515,7 @@ Substitution2: "Accent marker rearrangement single substitution 67-1" uE200
 EndChar
 
 StartChar: uE4CA
-Encoding: 58570 58570 312
+Encoding: 58570 58570 280
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11834,26 +11523,15 @@ Substitution2: "Accent marker rearrangement single substitution 68-1" uE201
 EndChar
 
 StartChar: uE4CB
-Encoding: 58571 58571 313
+Encoding: 58571 58571 281
 Width: 0
 Flags: W
 LayerCount: 2
 Substitution2: "Accent marker rearrangement single substitution 69-1" uE205
 EndChar
 
-StartChar: uE584
-Encoding: 58756 58756 314
-Width: 0
-Flags: W
-LayerCount: 2
-Fore
-Refer: 80 58244 N 1 0 0 1 0 -300 2
-Ligature2: "'vatu' Vattu Variants subtable" uE524 uE205
-LCarets2: 1 0
-EndChar
-
 StartChar: uE202
-Encoding: 57858 57858 315
+Encoding: 57858 57858 282
 Width: 235
 Flags: W
 LayerCount: 2
@@ -14397,7 +14075,11 @@ EndSplineSet
 EndChar
 
 StartChar: uni1CD3
+<<<<<<< HEAD
 Encoding: 7379 7379 360
+=======
+Encoding: 7379 7379 283
+>>>>>>> a8c1a6ffcff4f39a7046e057fe6a7d566e49d7ea
 Width: 0
 Flags: W
 LayerCount: 2
