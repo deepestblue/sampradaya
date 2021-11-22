@@ -19,7 +19,7 @@ def main():
     # Not even Apple cares about platformID=1. https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6name.html
     ttf['name'].removeNames(platformID=1)
 
-    # Cannot use addMultilingualName as it only supports the Unicode BMP encoding.
+    # Cannot use addMultilingualName (https://fonttools.readthedocs.io/en/latest/ttLib/tables/_n_a_m_e.html#fontTools.ttLib.tables._n_a_m_e.table__n_a_m_e.addMultilingualName) as it only supports the Unicode BMP encoding.
     ttf['name'].setName(args.ta, 4, 3, 10, 1097)
     ttf['name'].setName(args.sa, 4, 3, 10, 1103)
 
