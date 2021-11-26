@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1637956108
+ModificationTime: 1637957174
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -1589,14 +1589,14 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 46 23 11
+WinInfo: 0 23 11
 BeginPrivate: 0
 EndPrivate
 Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-AnchorClass2: "anunasika" "'mark' Mark Positioning lookup 10-1" "thirdlevelstacking" "'mkmk' Mark to Mark lookup 11-1" "stacking" "'mark' Mark Positioning lookup 10-1"
+AnchorClass2: "topoftop" "'mkmk' Mark to Mark lookup 11-1" "anunasika" "'mark' Mark Positioning lookup 10-1" "thirdlevelstacking" "'mkmk' Mark to Mark lookup 11-1" "stacking" "'mark' Mark Positioning lookup 10-1"
 BeginChars: 1114113 280
 
 StartChar: .notdef
@@ -1642,6 +1642,7 @@ StartChar: u0951
 Encoding: 2385 2385 3
 Width: 0
 Flags: MW
+AnchorPoint: "topoftop" -204 349 mark 0
 AnchorPoint: "anunasika" -204 349 mark 0
 LayerCount: 2
 Fore
@@ -9975,6 +9976,7 @@ StartChar: u11301
 Encoding: 70401 70401 176
 Width: 0
 Flags: MW
+AnchorPoint: "topoftop" -202 690 basemark 0
 AnchorPoint: "anunasika" -202 383 mark 0
 LayerCount: 2
 Fore
@@ -10567,7 +10569,7 @@ EndChar
 StartChar: u1135D
 Encoding: 70493 70493 197
 Width: 341
-Flags: WO
+Flags: W
 AnchorPoint: "stacking" 180 0 basechar 0
 LayerCount: 2
 Fore
@@ -10926,7 +10928,8 @@ StartChar: u1CF4
 Encoding: 7412 7412 211
 Width: 0
 VWidth: 1000
-Flags: W
+Flags: WO
+AnchorPoint: "topoftop" -211 347 mark 0
 AnchorPoint: "anunasika" -211 347 mark 0
 LayerCount: 2
 Fore
