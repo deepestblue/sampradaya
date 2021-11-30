@@ -4,9 +4,11 @@ Unfortunately, USE implementations across Windows Uniscribe, Core Text and harfb
 
 ## Possible base+mark combinations
 
-In datastream: Rp?B(S<sub>2</sub>S<sub>3</sub>?)?Rk?Y?V?An?Ay?(UAcc|OAcc)?(Pl(UAccOAcc)?)?
+In datastream:
+Rp?B(S<sub>2</sub>S<sub>3</sub>?)?Rk?Y?(IV|OV)?An?Ay?(UAcc|OAcc)?(Pl(UAccOAcc)?)?
 
-In rendering: B(S<sub>2</sub>S<sub>3</sub>?)?...
+In rendering:
+B(S<sub>2</sub>S<sub>3</sub>?)?UAcc?An?OAcc?IV?Rk?Y?Rp?OV?Ay?(Pl(UAccOAcc)?)?
 
 Legend:
 
@@ -14,7 +16,8 @@ Legend:
 * B: Base Glyph
 * S<sub>2</sub>: 2<sup>nd</sup> level stacked conjunct consonant
 * S<sub>3</sub>: 3<sup>rd</sup> level stacked conjunct consonant
-* V: Vowel marker, incl. virama
+* IV: i or I vowel marker
+* OV: Other vowel marker, incl. virama
 * An: Anunasika
 * Ay: Ayogavaha
 * UAcc: Underlay accent marker
