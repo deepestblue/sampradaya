@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1638687489
+ModificationTime: 1639267151
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -1589,14 +1589,14 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 46 23 11
+WinInfo: 0 23 11
 BeginPrivate: 0
 EndPrivate
 Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-AnchorClass2: "higher" "'mkmk' Mark to Mark lookup 11-1" "high" "'mark' Mark Positioning lookup 10-1" "lower" "'mkmk' Mark to Mark lookup 11-1" "low" "'mark' Mark Positioning lookup 10-1"
+AnchorClass2: "dummy" "'mkmk' Mark to Mark lookup 11-1" "higher" "'mkmk' Mark to Mark lookup 11-1" "high" "'mark' Mark Positioning lookup 10-1" "lower" "'mkmk' Mark to Mark lookup 11-1" "low" "'mark' Mark Positioning lookup 10-1"
 BeginChars: 1114114 281
 
 StartChar: .notdef
@@ -10550,7 +10550,8 @@ EndChar
 StartChar: u25CC
 Encoding: 9676 9676 196
 Width: 0
-Flags: MW
+Flags: MWO
+AnchorPoint: "dummy" 0 0 basemark 0
 LayerCount: 2
 EndChar
 
@@ -10558,6 +10559,7 @@ StartChar: u1135D
 Encoding: 70493 70493 197
 Width: 341
 Flags: W
+AnchorPoint: "high" 180 494 basechar 0
 AnchorPoint: "low" 180 0 basechar 0
 LayerCount: 2
 Fore
