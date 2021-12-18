@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1639267151
+ModificationTime: 1639870129
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -80,10 +80,13 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 27" { "'psts' Post Base Sub
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 28" { "'psts' Post Base Substitutions lookup 28-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 29" { "'psts' Post Base Substitutions lookup 29-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 68" { "Accent marker rearrangement single substitution 68-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 69" { "Accent marker rearrangement single substitution 69-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 30" { "'psts' Post Base Substitutions lookup 30-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 31" { "'psts' Post Base Substitutions lookup 31-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 32" { "'psts' Post Base Substitutions lookup 32-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Accent marker rearrangement single substitution 69" { "Accent marker rearrangement single substitution 69-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 33" { "'psts' Post Base Substitutions lookup 33-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 34" { "'psts' Post Base Substitutions lookup 34-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 35" { "'psts' Post Base Substitutions lookup 35-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 34" { "Accent marker rearrangement single substitution 34-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 35" { "Accent marker rearrangement single substitution 35-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 36" { "Accent marker rearrangement single substitution 36-1"  } []
@@ -175,6 +178,27 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning l
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 35-1" 0 0 0 1
+ String: 5 uE4CB
+ BString: 6 u11301
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 69"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 34-1" 0 0 0 1
+ String: 5 uE205
+ BString: 0
+ FString: 5 uE4CB
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 69"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 33-1" 0 0 0 1
+ String: 6 u11301
+ BString: 5 uE205
+ FString: 0
+ 1
+  SeqLookup: 0 "Accent marker rearrangement single substitution 69"
+EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 29-1" 0 0 0 1
  String: 5 uE4C9
  BString: 6 u11301
@@ -330,41 +354,26 @@ ChainSub2: class "'pstf' Post Base Forms lookup (post yakara form)" 3 1 1 1
   BClassNames: "All_Others"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 31-1" 0 0 0 2
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 31-1" 0 0 0 1
  String: 5 uE201
- BString: 0 
+ BString: 0
  FString: 5 uE4CA
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 68"
- String: 5 uE205
- BString: 0 
- FString: 5 uE4CB
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 32-1" 0 0 0 2
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 32-1" 0 0 0 1
  String: 5 uE4CA
  BString: 6 u11301
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 68"
- String: 5 uE4CB
- BString: 6 u11301
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 30-1" 0 0 0 2
+ChainSub2: glyph "'psts' Post Base Substitutions lookup 30-1" 0 0 0 1
  String: 6 u11301
  BString: 5 uE201
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 68"
- String: 6 u11301
- BString: 5 uE205
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 69"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 24-1" 0 0 0 11
  String: 6 u11301
@@ -1534,12 +1543,15 @@ ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 6 1 12
   BClassNames: "All_Others" "1" "2" "3" "4" "5"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 5 1 6
+ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 8 1 36
   Class: 5 uE205
   BClass: 77 uE105 uE10C uE10D uE10E uE113 uE115 u11319 u1131C u1131F u11326 u11328 u11337
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 17 uE100 uE109 uE10B
   BClass: 13 u1133F u11340
+  BClass: 11 u0951 u1CF4
+  BClass: 6 u11301
+  BClass: 5 u0952
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -1576,8 +1588,188 @@ ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 5 1 6
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 8"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 2 0
+  ClsList: 1
+  BClsList: 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+ 1 2 0
+  ClsList: 1
+  BClsList: 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 2 0
+  ClsList: 1
+  BClsList: 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 2 0
+  ClsList: 1
+  BClsList: 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+ 1 2 0
+  ClsList: 1
+  BClsList: 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 2 0
+  ClsList: 1
+  BClsList: 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 5 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 5 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 5 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 6 7 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 6 7 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 6 7 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 3 0
+  ClsList: 1
+  BClsList: 5 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 5 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 5 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 7 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 7 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 7 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 2 0
+  ClsList: 1
+  BClsList: 7 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 2 0
+  ClsList: 1
+  BClsList: 7 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 2 0
+  ClsList: 1
+  BClsList: 7 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 7 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 7 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 7 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 8"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3" "4"
+  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7"
   FClassNames: "All_Others"
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2021, Ambarish Sridharanarayanan (https://github.com/deepestblue/Sampradaya),+AAoA-with Reserved Font Name Sampradaya.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
@@ -10550,7 +10742,7 @@ EndChar
 StartChar: u25CC
 Encoding: 9676 9676 196
 Width: 0
-Flags: MWO
+Flags: MW
 AnchorPoint: "dummy" 0 0 basemark 0
 LayerCount: 2
 EndChar

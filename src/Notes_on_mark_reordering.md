@@ -38,7 +38,8 @@ Raw:
 
 * anunasika moves before all vowel markers and virama: 56-66 & 24-26
 * anunasika moves before e200, i.e. pre repha: 67, 27-29
-* anunasika moves before post repha and post yakara: 68-69, 30-32
+* anunasika moves before post yakara: 68, 30-32
+* anunasika moves before post repha: 69, 33-35
 * anudatta/svarita/dirghasvarita before anusvara, visarga and ardhavisarga
 * anudatta/svarita/dirghasvarita before all vowel markers and virama, except for the haln cases
 * anudatta/svarita/dirghasvarita before e200, i.e. pre repha
