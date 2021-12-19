@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1637891678
+ModificationTime: 1637895201
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -379,113 +379,113 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 24-1" 0 0 0 11
  String: 6 u11301
  BString: 6 u1133E
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 56"
  String: 6 u11301
  BString: 6 u1133F
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 57"
  String: 6 u11301
  BString: 6 u11340
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 58"
  String: 6 u11301
  BString: 6 u11341
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 59"
  String: 6 u11301
  BString: 6 u11342
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 60"
  String: 6 u11301
  BString: 6 u11343
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 61"
  String: 6 u11301
  BString: 6 u11344
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 62"
  String: 6 u11301
  BString: 6 u11362
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 63"
  String: 6 u11301
  BString: 6 u11363
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 64"
  String: 6 u11301
  BString: 6 u11357
- FString: 0 
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 65"
  String: 6 u11301
- BString: 6 u1135D
- FString: 0 
+ BString: 6 u1134D
+ FString: 0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 66"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 25-1" 0 0 0 11
  String: 6 u1133E
- BString: 0 
+ BString: 0
  FString: 5 uE4BE
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 56"
  String: 6 u1133F
- BString: 0 
+ BString: 0
  FString: 5 uE4BF
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 57"
  String: 6 u11340
- BString: 0 
+ BString: 0
  FString: 5 uE4C0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 58"
  String: 6 u11341
- BString: 0 
+ BString: 0
  FString: 5 uE4C1
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 59"
  String: 6 u11342
- BString: 0 
+ BString: 0
  FString: 5 uE4C2
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 60"
  String: 6 u11343
- BString: 0 
+ BString: 0
  FString: 5 uE4C3
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 61"
  String: 6 u11344
- BString: 0 
+ BString: 0
  FString: 5 uE4C4
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 62"
  String: 6 u11362
- BString: 0 
+ BString: 0
  FString: 5 uE4C5
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 63"
  String: 6 u11363
- BString: 0 
+ BString: 0
  FString: 5 uE4C6
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 64"
  String: 6 u11357
- BString: 0 
+ BString: 0
  FString: 5 uE4C7
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 65"
- String: 6 u1135D
- BString: 0 
+ String: 6 u1134D
+ BString: 0
  FString: 5 uE4C8
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 66"
@@ -10391,7 +10391,7 @@ StartChar: u1CF4
 Encoding: 7412 7412 211
 Width: 0
 VWidth: 1000
-Flags: WO
+Flags: W
 AnchorPoint: "anunasika" -211 347 mark 0
 LayerCount: 2
 Fore
