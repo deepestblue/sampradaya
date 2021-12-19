@@ -194,23 +194,23 @@ DEI: 91125
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 23-1" 0 0 0 2
  String: 5 uE481
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 2"
  String: 5 uE484
  BString: 6 u11340
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 5"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 22-1" 0 0 0 2
  String: 5 uE205
- BString: 0
+ BString: 0 
  FString: 5 uE481
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 2"
  String: 5 uE205
- BString: 0
+ BString: 0 
  FString: 5 uE484
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 5"
@@ -218,45 +218,45 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 21-1" 0 0 0 2
  String: 6 u1133F
  BString: 5 uE205
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 2"
  String: 6 u11340
  BString: 5 uE205
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 5"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 17-1" 0 0 0 3
  String: 5 uE482
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 3"
  String: 5 uE485
  BString: 6 u11340
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 6"
  String: 5 uE486
  BString: 6 u1134D
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 16-1" 0 0 0 3
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE482
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 3"
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE485
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 6"
  String: 5 uE200
- BString: 0
+ BString: 0 
  FString: 5 uE486
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
@@ -264,17 +264,17 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 15-1" 0 0 0 3
  String: 6 u1133F
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 3"
  String: 6 u11340
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 6"
  String: 6 u1134D
  BString: 5 uE200
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
 EndFPST
@@ -1490,23 +1490,23 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 2
  String: 5 uE480
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 1"
  String: 5 uE483
  BString: 6 u11340
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 2
  String: 5 uE201
- BString: 0
+ BString: 0 
  FString: 5 uE480
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 1"
  String: 5 uE201
- BString: 0
+ BString: 0 
  FString: 5 uE483
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
@@ -1514,12 +1514,12 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 2
  String: 6 u1133F
  BString: 5 uE201
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 1"
  String: 6 u11340
  BString: 5 uE201
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
 EndFPST
@@ -2242,7 +2242,7 @@ Grid
  2048 228.5 l 1024
 EndSplineSet
 AnchorClass2: "dummy" "'mkmk' Mark to Mark lookup 11-1" "higher" "'mkmk' Mark to Mark lookup 11-1" "high" "'mark' Mark Positioning lookup 10-1" "lower" "'mkmk' Mark to Mark lookup 11-1" "low" "'mark' Mark Positioning lookup 10-1"
-BeginChars: 1114113 326
+BeginChars: 1114114 326
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
