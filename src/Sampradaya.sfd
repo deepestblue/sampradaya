@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1637895201
+ModificationTime: 1637907239
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -379,113 +379,113 @@ EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 24-1" 0 0 0 11
  String: 6 u11301
  BString: 6 u1133E
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 56"
  String: 6 u11301
  BString: 6 u1133F
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 57"
  String: 6 u11301
  BString: 6 u11340
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 58"
  String: 6 u11301
  BString: 6 u11341
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 59"
  String: 6 u11301
  BString: 6 u11342
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 60"
  String: 6 u11301
  BString: 6 u11343
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 61"
  String: 6 u11301
  BString: 6 u11344
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 62"
  String: 6 u11301
  BString: 6 u11362
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 63"
  String: 6 u11301
  BString: 6 u11363
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 64"
  String: 6 u11301
  BString: 6 u11357
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 65"
  String: 6 u11301
  BString: 6 u1134D
- FString: 0
+ FString: 0 
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 66"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 25-1" 0 0 0 11
  String: 6 u1133E
- BString: 0
+ BString: 0 
  FString: 5 uE4BE
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 56"
  String: 6 u1133F
- BString: 0
+ BString: 0 
  FString: 5 uE4BF
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 57"
  String: 6 u11340
- BString: 0
+ BString: 0 
  FString: 5 uE4C0
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 58"
  String: 6 u11341
- BString: 0
+ BString: 0 
  FString: 5 uE4C1
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 59"
  String: 6 u11342
- BString: 0
+ BString: 0 
  FString: 5 uE4C2
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 60"
  String: 6 u11343
- BString: 0
+ BString: 0 
  FString: 5 uE4C3
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 61"
  String: 6 u11344
- BString: 0
+ BString: 0 
  FString: 5 uE4C4
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 62"
  String: 6 u11362
- BString: 0
+ BString: 0 
  FString: 5 uE4C5
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 63"
  String: 6 u11363
- BString: 0
+ BString: 0 
  FString: 5 uE4C6
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 64"
  String: 6 u11357
- BString: 0
+ BString: 0 
  FString: 5 uE4C7
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 65"
  String: 6 u1134D
- BString: 0
+ BString: 0 
  FString: 5 uE4C8
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 66"
@@ -1370,12 +1370,10 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 56-1" 0 0 0 9
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 42"
 EndFPST
-ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 3 6
-  Class: 6 u1131F
-  Class: 55 uE102 uE109 uE10D uE111 uE112 uE114 uE115 u11332 u11337
+ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 3 1 2 3
+  Class: 62 uE102 uE109 uE10D uE111 uE112 uE114 uE115 u1131F u11332 u11337
   Class: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
-  FClass: 5 uE206
-  FClass: 6 u11340
+  FClass: 12 uE206 u11340
  1 0 1
   ClsList: 1
   BClsList:
@@ -1383,38 +1381,20 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 3 6
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  2 0 1
-  ClsList: 1 3
+  ClsList: 1 2
   BClsList:
   FClsList: 1
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
  3 0 1
-  ClsList: 1 3 3
+  ClsList: 1 2 2
   BClsList:
   FClsList: 1
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
- 1 0 1
-  ClsList: 2
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 2 0 1
-  ClsList: 2 3
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
- 3 0 1
-  ClsList: 2 3 3
-  BClsList:
-  FClsList: 2
- 1
-  SeqLookup: 0 "Single Position lookup for I marker 0"
-  ClassNames: "All_Others" "1" "2" "3"
+  ClassNames: "All_Others" "1" "2"
   BClassNames: "All_Others"
-  FClassNames: "All_Others" "1" "2"
+  FClassNames: "All_Others" "1"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 7
  String: 5 uE480
