@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1637907239
+ModificationTime: 1637910785
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -180,7 +180,7 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 12" { "'psts' Post Base Sub
 Lookup: 4 0 0 "'haln' Halanta Forms" { "'haln' Halant Forms subtable"  } ['haln' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 257 0 0 "Single Position lookup for I marker 0" { "Single Position lookup 0-1"  } []
 Lookup: 264 0 0 "'abvm' Above Base Mark positioning for I marker 1" { "'abvm' Above Base Mark lookup 1-1"  } ['abvm' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 258 0 0 "'dist' Distance lookup 2" { "'dist' Distance lookup intra-post-base marker 2-2" [153,15,6] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 258 0 0 "'dist' Distance lookup intra-post-base marker 2" { "'dist' Distance lookup intra-post-base marker 2-2" [153,15,6] } ['dist' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning lookup 10-1"  } ['mark' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
