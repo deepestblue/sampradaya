@@ -5,25 +5,30 @@ Unfortunately, USE implementations across Windows Uniscribe, Core Text and harfb
 ## Possible base+mark combinations
 
 In datastream:
-Rp?B(S<sub>2</sub>S<sub>3</sub>?)?Rk?Y?(IV|OV)?An?Ay?(UAcc|OAcc)?
+Rp?B(S<sub>2</sub>S<sub>3</sub>?)?Rk?Y?(IV|OV|Vi)?An?Ay?(UA|OA)?
 
-In rendering:
-B(S<sub>2</sub>S<sub>3</sub>?)?UAcc?An?OAcc?IV?Rk?Y?Rp?OV?Ay?
+Automatically rearranged by renderers:
+B(S<sub>2</sub>S<sub>3</sub>?)?Rk?Y?Rp?(IV|OV|Vi)?An?Ay?(UA|OA)?
+
+Expected rendering:
+B(S<sub>2</sub>S<sub>3</sub>?)?UA?An?OA?IV?Rk?Y?Vi?Rp?OV?Ay?
 
 Note: Pl(UAccOAcc)? can optionally come at the end of the stream but does not require any rearrangement
 
 Legend:
 
 * ?: Regex semantics
+* (): Regex semantics
 * B: Base Glyph
 * S<sub>2</sub>: 2<sup>nd</sup> level stacked conjunct consonant
 * S<sub>3</sub>: 3<sup>rd</sup> level stacked conjunct consonant
 * IV: i or I vowel marker
 * OV: Other vowel marker, incl. virama
+* Vi: Virama marker
 * An: Anunasika
 * Ay: Ayogavaha
-* UAcc: Underlay accent marker
-* OAcc: Overlay accent marker
+* UA: Underlay accent marker
+* OA: Overlay accent marker
 * Rp: Pre repha
 * Rk: Post repha
 * Y: Post yakara
@@ -32,9 +37,11 @@ Legend:
 Raw:
 
 * anunasika moves before all vowel markers and virama: 56-66 & 24-26
-* anunasika moves before e200, i.e. prerepha: 67, 27-29
-* anunasika moves before postrepha and yakara: 68-69, 30-32
+* anunasika moves before e200, i.e. pre repha: 67, 27-29
+* anunasika moves before post repha and post yakara: 68-69, 30-32
 * anudatta/svarita/dirghasvarita before anusvara, visarga and ardhavisarga
 * anudatta/svarita/dirghasvarita before all vowel markers and virama, except for the haln cases
-* anudatta/svarita/dirghasvarita before e200, i.e. prerepha
-* anudatta/svarita/dirghasvarita before postrepha and yakara
+* anudatta/svarita/dirghasvarita before e200, i.e. pre repha
+* anudatta/svarita/dirghasvarita before post repha and yakara
+* i or I vowel markers move before pre repha, post repha and post yakara
+* Virama markers moves before pre repha
