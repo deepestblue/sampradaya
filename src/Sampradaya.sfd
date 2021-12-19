@@ -1835,7 +1835,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 46 23 11
+WinInfo: 0 23 11
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -11187,7 +11187,7 @@ Substitution2: "Accent marker rearrangement single substitution 51-1" uE4B9
 Substitution2: "Accent marker rearrangement single substitution 54-1" uE4BC
 EndChar
 
-StartChar: uni00A0
+StartChar: u00A0
 Encoding: 160 160 212
 Width: 252
 Flags: W
@@ -11787,7 +11787,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni1CD3
+StartChar: u1CD3
 Encoding: 7379 7379 283
 Width: 0
 Flags: W
