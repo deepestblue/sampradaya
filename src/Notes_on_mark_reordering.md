@@ -5,10 +5,12 @@ Unfortunately, USE implementations across Windows Uniscribe, Core Text and harfb
 ## Possible base+mark combinations
 
 In datastream:
-Rp?B(S<sub>2</sub>S<sub>3</sub>?)?Rk?Y?(IV|OV)?An?Ay?(UAcc|OAcc)?(Pl(UAccOAcc)?)?
+Rp?B(S<sub>2</sub>S<sub>3</sub>?)?Rk?Y?(IV|OV)?An?Ay?(UAcc|OAcc)?
 
 In rendering:
-B(S<sub>2</sub>S<sub>3</sub>?)?UAcc?An?OAcc?IV?Rk?Y?Rp?OV?Ay?(Pl(UAccOAcc)?)?
+B(S<sub>2</sub>S<sub>3</sub>?)?UAcc?An?OAcc?IV?Rk?Y?Rp?OV?Ay?
+
+Note: Pl(UAccOAcc)? can optionally come at the end of the stream but does not require any rearrangement
 
 Legend:
 
