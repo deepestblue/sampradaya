@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1638071777
+ModificationTime: 1638090648
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -1596,7 +1596,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-AnchorClass2: "topoftop" "'mkmk' Mark to Mark lookup 11-1" "anunasika" "'mark' Mark Positioning lookup 10-1" "thirdlevelstacking" "'mkmk' Mark to Mark lookup 11-1" "stacking" "'mark' Mark Positioning lookup 10-1"
+AnchorClass2: "higher" "'mkmk' Mark to Mark lookup 11-1" "high" "'mark' Mark Positioning lookup 10-1" "lower" "'mkmk' Mark to Mark lookup 11-1" "low" "'mark' Mark Positioning lookup 10-1"
 BeginChars: 1114113 324
 
 StartChar: .notdef
@@ -1642,8 +1642,8 @@ StartChar: u0951
 Encoding: 2385 2385 3
 Width: 0
 Flags: MW
-AnchorPoint: "topoftop" -204 349 mark 0
-AnchorPoint: "anunasika" -204 349 mark 0
+AnchorPoint: "higher" -204 349 mark 0
+AnchorPoint: "high" -204 349 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -1681,8 +1681,8 @@ StartChar: u0952
 Encoding: 2386 2386 4
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -214 0 mark 0
-AnchorPoint: "thirdlevelstacking" -214 0 mark 0
+AnchorPoint: "low" -214 0 mark 0
+AnchorPoint: "lower" -214 0 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2268,8 +2268,8 @@ StartChar: uE100
 Encoding: 57600 57600 17
 Width: 859
 Flags: MW
-AnchorPoint: "anunasika" 410 416 basechar 0
-AnchorPoint: "stacking" 410 -194 basechar 0
+AnchorPoint: "high" 410 416 basechar 0
+AnchorPoint: "low" 410 -194 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2365,8 +2365,8 @@ StartChar: uE101
 Encoding: 57601 57601 18
 Width: 761
 Flags: MW
-AnchorPoint: "anunasika" 365 408 basechar 0
-AnchorPoint: "stacking" 365 -101 basechar 0
+AnchorPoint: "high" 365 408 basechar 0
+AnchorPoint: "low" 365 -101 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2446,8 +2446,8 @@ StartChar: uE102
 Encoding: 57602 57602 19
 Width: 853
 Flags: MW
-AnchorPoint: "anunasika" 415 402 basechar 0
-AnchorPoint: "stacking" 415 0 basechar 0
+AnchorPoint: "high" 415 402 basechar 0
+AnchorPoint: "low" 415 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2555,8 +2555,8 @@ StartChar: uE103
 Encoding: 57603 57603 20
 Width: 1128
 Flags: MW
-AnchorPoint: "anunasika" 550 410 basechar 0
-AnchorPoint: "stacking" 550 0 basechar 0
+AnchorPoint: "high" 550 410 basechar 0
+AnchorPoint: "low" 550 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2640,8 +2640,8 @@ StartChar: uE104
 Encoding: 57604 57604 21
 Width: 613
 Flags: MW
-AnchorPoint: "anunasika" 306 410 basechar 0
-AnchorPoint: "stacking" 306 0 basechar 0
+AnchorPoint: "high" 306 410 basechar 0
+AnchorPoint: "low" 306 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2715,8 +2715,8 @@ StartChar: uE105
 Encoding: 57605 57605 22
 Width: 554
 Flags: MW
-AnchorPoint: "anunasika" 277 404 basechar 0
-AnchorPoint: "stacking" 277 -201 basechar 0
+AnchorPoint: "high" 277 404 basechar 0
+AnchorPoint: "low" 277 -201 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2776,8 +2776,8 @@ StartChar: uE106
 Encoding: 57606 57606 23
 Width: 655
 Flags: MW
-AnchorPoint: "anunasika" 307 407 basechar 0
-AnchorPoint: "stacking" 307 0 basechar 0
+AnchorPoint: "high" 307 407 basechar 0
+AnchorPoint: "low" 307 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2840,8 +2840,8 @@ StartChar: uE107
 Encoding: 57607 57607 24
 Width: 917
 Flags: MW
-AnchorPoint: "anunasika" 448 411 basechar 0
-AnchorPoint: "stacking" 449 0 basechar 0
+AnchorPoint: "high" 448 411 basechar 0
+AnchorPoint: "low" 449 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2932,8 +2932,8 @@ StartChar: uE108
 Encoding: 57608 57608 25
 Width: 772
 Flags: MW
-AnchorPoint: "anunasika" 336 411 basechar 0
-AnchorPoint: "stacking" 365 0 basechar 0
+AnchorPoint: "high" 336 411 basechar 0
+AnchorPoint: "low" 365 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3011,8 +3011,8 @@ StartChar: uE109
 Encoding: 57609 57609 26
 Width: 1024
 Flags: MW
-AnchorPoint: "anunasika" 508 408 basechar 0
-AnchorPoint: "stacking" 507 -292 basechar 0
+AnchorPoint: "high" 508 408 basechar 0
+AnchorPoint: "low" 507 -292 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3228,8 +3228,8 @@ StartChar: uE10A
 Encoding: 57610 57610 27
 Width: 859
 Flags: MW
-AnchorPoint: "anunasika" 427 411 basechar 0
-AnchorPoint: "stacking" 427 0 basechar 0
+AnchorPoint: "high" 427 411 basechar 0
+AnchorPoint: "low" 427 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3314,8 +3314,8 @@ StartChar: uE10B
 Encoding: 57611 57611 28
 Width: 768
 Flags: MW
-AnchorPoint: "anunasika" 378 413 basechar 0
-AnchorPoint: "stacking" 378 -205 basechar 0
+AnchorPoint: "high" 378 413 basechar 0
+AnchorPoint: "low" 378 -205 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3426,8 +3426,8 @@ StartChar: uE10C
 Encoding: 57612 57612 29
 Width: 1050
 Flags: MW
-AnchorPoint: "anunasika" 515 402 basechar 0
-AnchorPoint: "stacking" 515 -119 basechar 0
+AnchorPoint: "high" 515 402 basechar 0
+AnchorPoint: "low" 515 -119 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3550,8 +3550,8 @@ StartChar: uE10D
 Encoding: 57613 57613 30
 Width: 653
 Flags: MW
-AnchorPoint: "anunasika" 338 410 basechar 0
-AnchorPoint: "stacking" 338 -121 basechar 0
+AnchorPoint: "high" 338 410 basechar 0
+AnchorPoint: "low" 338 -121 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3612,8 +3612,8 @@ StartChar: uE10E
 Encoding: 57614 57614 31
 Width: 982
 Flags: MW
-AnchorPoint: "anunasika" 489 410 basechar 0
-AnchorPoint: "stacking" 490 -107 basechar 0
+AnchorPoint: "high" 489 410 basechar 0
+AnchorPoint: "low" 490 -107 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3711,8 +3711,8 @@ StartChar: uE10F
 Encoding: 57615 57615 32
 Width: 803
 Flags: MW
-AnchorPoint: "anunasika" 400 404 basechar 0
-AnchorPoint: "stacking" 400 -153 basechar 0
+AnchorPoint: "high" 400 404 basechar 0
+AnchorPoint: "low" 400 -153 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3882,8 +3882,8 @@ StartChar: uE110
 Encoding: 57616 57616 33
 Width: 912
 Flags: MW
-AnchorPoint: "anunasika" 428 409 basechar 0
-AnchorPoint: "stacking" 423 -178 basechar 0
+AnchorPoint: "high" 428 409 basechar 0
+AnchorPoint: "low" 423 -178 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -3957,8 +3957,8 @@ StartChar: uE111
 Encoding: 57617 57617 34
 Width: 890
 Flags: MW
-AnchorPoint: "anunasika" 461 410 basechar 0
-AnchorPoint: "stacking" 461 0 basechar 0
+AnchorPoint: "high" 461 410 basechar 0
+AnchorPoint: "low" 461 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4041,8 +4041,8 @@ StartChar: uE112
 Encoding: 57618 57618 35
 Width: 659
 Flags: MW
-AnchorPoint: "anunasika" 328 408 basechar 0
-AnchorPoint: "stacking" 330 0 basechar 0
+AnchorPoint: "high" 328 408 basechar 0
+AnchorPoint: "low" 330 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4098,8 +4098,8 @@ StartChar: uE113
 Encoding: 57619 57619 36
 Width: 834
 Flags: MW
-AnchorPoint: "anunasika" 419 403 basechar 0
-AnchorPoint: "stacking" 417 -178 basechar 0
+AnchorPoint: "high" 419 403 basechar 0
+AnchorPoint: "low" 417 -178 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4214,8 +4214,8 @@ StartChar: uE114
 Encoding: 57620 57620 37
 Width: 854
 Flags: MW
-AnchorPoint: "anunasika" 427 414 basechar 0
-AnchorPoint: "stacking" 427 0 basechar 0
+AnchorPoint: "high" 427 414 basechar 0
+AnchorPoint: "low" 427 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4304,8 +4304,8 @@ StartChar: uE115
 Encoding: 57621 57621 38
 Width: 854
 Flags: MW
-AnchorPoint: "anunasika" 430 394 basechar 0
-AnchorPoint: "stacking" 430 -128 basechar 0
+AnchorPoint: "high" 430 394 basechar 0
+AnchorPoint: "low" 430 -128 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4402,8 +4402,8 @@ StartChar: uE116
 Encoding: 57622 57622 39
 Width: 1228
 Flags: MW
-AnchorPoint: "anunasika" 609 402 basechar 0
-AnchorPoint: "stacking" 609 0 basechar 0
+AnchorPoint: "high" 609 402 basechar 0
+AnchorPoint: "low" 609 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4796,9 +4796,9 @@ StartChar: uE315
 Encoding: 58133 58133 45
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -232 -304 basemark 0
-AnchorPoint: "stacking" -232 0 mark 0
-AnchorPoint: "thirdlevelstacking" -232 0 mark 0
+AnchorPoint: "lower" -232 -304 basemark 0
+AnchorPoint: "low" -232 0 mark 0
+AnchorPoint: "lower" -232 0 mark 0
 LayerCount: 2
 Fore
 Refer: 116 70421 S 0.8 0 0 0.63 -461 -304 2
@@ -4810,9 +4810,9 @@ StartChar: uE316
 Encoding: 58134 58134 46
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -268 -296 basemark 0
-AnchorPoint: "stacking" -268 0 mark 0
-AnchorPoint: "thirdlevelstacking" -268 0 mark 0
+AnchorPoint: "lower" -268 -296 basemark 0
+AnchorPoint: "low" -268 0 mark 0
+AnchorPoint: "lower" -268 0 mark 0
 LayerCount: 2
 Fore
 Refer: 117 70422 S 0.4896 0 0 0.612 -506 -296 2
@@ -4824,9 +4824,9 @@ StartChar: uE317
 Encoding: 58135 58135 47
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -228 -290 basemark 0
-AnchorPoint: "stacking" -228 0 mark 0
-AnchorPoint: "thirdlevelstacking" -228 0 mark 0
+AnchorPoint: "lower" -228 -290 basemark 0
+AnchorPoint: "low" -228 0 mark 0
+AnchorPoint: "lower" -228 0 mark 0
 LayerCount: 2
 Fore
 Refer: 118 70423 S 0.8 0 0 0.6 -452 -290 2
@@ -4838,9 +4838,9 @@ StartChar: uE318
 Encoding: 58136 58136 48
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -286 -301 basemark 0
-AnchorPoint: "stacking" -286 0 mark 0
-AnchorPoint: "thirdlevelstacking" -286 0 mark 0
+AnchorPoint: "lower" -286 -301 basemark 0
+AnchorPoint: "low" -286 0 mark 0
+AnchorPoint: "lower" -286 0 mark 0
 LayerCount: 2
 Fore
 Refer: 119 70424 S 0.62 0 0 0.63 -568 -301 2
@@ -4852,9 +4852,9 @@ StartChar: uE31A
 Encoding: 58138 58138 49
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -259 0 mark 0
-AnchorPoint: "thirdlevelstacking" -259 0 mark 0
-AnchorPoint: "thirdlevelstacking" -259 -312 basemark 0
+AnchorPoint: "low" -259 0 mark 0
+AnchorPoint: "lower" -259 0 mark 0
+AnchorPoint: "lower" -259 -312 basemark 0
 LayerCount: 2
 Fore
 Refer: 121 70426 S 0.665 0 0 0.665 -535 -312 2
@@ -4866,9 +4866,9 @@ StartChar: uE31B
 Encoding: 58139 58139 50
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -268 0 mark 0
-AnchorPoint: "thirdlevelstacking" -268 0 mark 0
-AnchorPoint: "thirdlevelstacking" -268 -302 basemark 0
+AnchorPoint: "low" -268 0 mark 0
+AnchorPoint: "lower" -268 0 mark 0
+AnchorPoint: "lower" -268 -302 basemark 0
 LayerCount: 2
 Fore
 Refer: 122 70427 S 0.63175 0 0 0.63175 -528 -302 2
@@ -4880,9 +4880,9 @@ StartChar: uE31C
 Encoding: 58140 58140 51
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -251 0 mark 0
-AnchorPoint: "thirdlevelstacking" -251 0 mark 0
-AnchorPoint: "thirdlevelstacking" -251 -331 basemark 0
+AnchorPoint: "low" -251 0 mark 0
+AnchorPoint: "lower" -251 0 mark 0
+AnchorPoint: "lower" -251 -331 basemark 0
 LayerCount: 2
 Fore
 Refer: 123 70428 S 0.6 0 0 0.55 -471 -272 2
@@ -4894,9 +4894,9 @@ StartChar: uE31D
 Encoding: 58141 58141 52
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -254 0 mark 0
-AnchorPoint: "thirdlevelstacking" -254 0 mark 0
-AnchorPoint: "thirdlevelstacking" -254 -294 basemark 0
+AnchorPoint: "low" -254 0 mark 0
+AnchorPoint: "lower" -254 0 mark 0
+AnchorPoint: "lower" -254 -294 basemark 0
 LayerCount: 2
 Fore
 Refer: 124 70429 S 0.7497 0 0 0.6 -547 -294 2
@@ -4908,9 +4908,9 @@ StartChar: uE31F
 Encoding: 58143 58143 53
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -216 0 mark 0
-AnchorPoint: "thirdlevelstacking" -216 0 mark 0
-AnchorPoint: "thirdlevelstacking" -216 -349 basemark 0
+AnchorPoint: "low" -216 0 mark 0
+AnchorPoint: "lower" -216 0 mark 0
+AnchorPoint: "lower" -216 -349 basemark 0
 LayerCount: 2
 Fore
 Refer: 126 70431 S 0.637245 0 0 0.6069 -421 -293 2
@@ -4922,9 +4922,9 @@ StartChar: uE320
 Encoding: 58144 58144 54
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -134 0 mark 0
-AnchorPoint: "stacking" -134 0 mark 0
-AnchorPoint: "thirdlevelstacking" -135 -341 basemark 0
+AnchorPoint: "lower" -134 0 mark 0
+AnchorPoint: "low" -134 0 mark 0
+AnchorPoint: "lower" -135 -341 basemark 0
 LayerCount: 2
 Fore
 Refer: 127 70432 S 0.6464 0 0 0.73425 -333 -341 2
@@ -4936,9 +4936,9 @@ StartChar: uE321
 Encoding: 58145 58145 55
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -237 0 mark 0
-AnchorPoint: "stacking" -237 0 mark 0
-AnchorPoint: "thirdlevelstacking" -237 -292 basemark 0
+AnchorPoint: "lower" -237 0 mark 0
+AnchorPoint: "low" -237 0 mark 0
+AnchorPoint: "lower" -237 -292 basemark 0
 LayerCount: 2
 Fore
 Refer: 128 70433 S 0.665 0 0 0.5985 -489 -292 2
@@ -4950,9 +4950,9 @@ StartChar: uE322
 Encoding: 58146 58146 56
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -237 0 mark 0
-AnchorPoint: "stacking" -237 0 mark 0
-AnchorPoint: "thirdlevelstacking" -237 -299 basemark 0
+AnchorPoint: "lower" -237 0 mark 0
+AnchorPoint: "low" -237 0 mark 0
+AnchorPoint: "lower" -237 -299 basemark 0
 LayerCount: 2
 Fore
 Refer: 129 70434 S 0.7 0 0 0.6175 -490 -299 2
@@ -4964,9 +4964,9 @@ StartChar: uE323
 Encoding: 58147 58147 57
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -339 0 mark 0
-AnchorPoint: "stacking" -339 0 mark 0
-AnchorPoint: "thirdlevelstacking" -339 -317 basemark 0
+AnchorPoint: "lower" -339 0 mark 0
+AnchorPoint: "low" -339 0 mark 0
+AnchorPoint: "lower" -339 -317 basemark 0
 LayerCount: 2
 Fore
 Refer: 130 70435 S 0.67165 0 0 0.656069 -661 -317 2
@@ -4978,9 +4978,9 @@ StartChar: uE324
 Encoding: 58148 58148 58
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -220 0 mark 0
-AnchorPoint: "stacking" -220 0 mark 0
-AnchorPoint: "thirdlevelstacking" -220 -469 basemark 0
+AnchorPoint: "lower" -220 0 mark 0
+AnchorPoint: "low" -220 0 mark 0
+AnchorPoint: "lower" -220 -469 basemark 0
 LayerCount: 2
 Fore
 Refer: 131 70436 N 0.76824 0 0 0.645068 -441 -307.537 2
@@ -4992,9 +4992,9 @@ StartChar: uE325
 Encoding: 58149 58149 59
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -266 0 mark 0
-AnchorPoint: "stacking" -266 0 mark 0
-AnchorPoint: "thirdlevelstacking" -266 -297 basemark 0
+AnchorPoint: "lower" -266 0 mark 0
+AnchorPoint: "low" -266 0 mark 0
+AnchorPoint: "lower" -266 -297 basemark 0
 LayerCount: 2
 Fore
 Refer: 132 70437 S 0.684 0 0 0.6175 -529 -297 2
@@ -5006,9 +5006,9 @@ StartChar: uE326
 Encoding: 58150 58150 60
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -212 0 mark 0
-AnchorPoint: "stacking" -212 0 mark 0
-AnchorPoint: "thirdlevelstacking" -212 -367 basemark 0
+AnchorPoint: "lower" -212 0 mark 0
+AnchorPoint: "low" -212 0 mark 0
+AnchorPoint: "lower" -212 -367 basemark 0
 LayerCount: 2
 Fore
 Refer: 133 70438 S 0.8 0 0 0.6305 -420 -300 2
@@ -5020,9 +5020,9 @@ StartChar: uE327
 Encoding: 58151 58151 61
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -276 0 mark 0
-AnchorPoint: "stacking" -276 0 mark 0
-AnchorPoint: "thirdlevelstacking" -276 -297 basemark 0
+AnchorPoint: "lower" -276 0 mark 0
+AnchorPoint: "low" -276 0 mark 0
+AnchorPoint: "lower" -276 -297 basemark 0
 LayerCount: 2
 Fore
 Refer: 134 70439 S 0.76 0 0 0.6175 -578 -297 2
@@ -5034,9 +5034,9 @@ StartChar: uE328
 Encoding: 58152 58152 62
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -198 0 mark 0
-AnchorPoint: "stacking" -198 0 mark 0
-AnchorPoint: "thirdlevelstacking" -198 -470 basemark 0
+AnchorPoint: "lower" -198 0 mark 0
+AnchorPoint: "low" -198 0 mark 0
+AnchorPoint: "lower" -198 -470 basemark 0
 LayerCount: 2
 Fore
 Refer: 135 70440 S 0.7068 0 0 0.637 -374 -304 2
@@ -5048,9 +5048,9 @@ StartChar: uE32A
 Encoding: 58154 58154 63
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -295 0 mark 0
-AnchorPoint: "thirdlevelstacking" -295 0 mark 0
-AnchorPoint: "thirdlevelstacking" -295 -289 basemark 0
+AnchorPoint: "low" -295 0 mark 0
+AnchorPoint: "lower" -295 0 mark 0
+AnchorPoint: "lower" -295 -289 basemark 0
 LayerCount: 2
 Fore
 Refer: 136 70442 S 0.65 0 0 0.6 -574 -289 2
@@ -5062,9 +5062,9 @@ StartChar: uE32B
 Encoding: 58155 58155 64
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -276 0 mark 0
-AnchorPoint: "thirdlevelstacking" -276 0 mark 0
-AnchorPoint: "thirdlevelstacking" -276 -297 basemark 0
+AnchorPoint: "low" -276 0 mark 0
+AnchorPoint: "lower" -276 0 mark 0
+AnchorPoint: "lower" -276 -297 basemark 0
 LayerCount: 2
 Fore
 Refer: 137 70443 S 0.605625 0 0 0.617737 -529 -297 2
@@ -5076,9 +5076,9 @@ StartChar: uE32C
 Encoding: 58156 58156 65
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -276 0 mark 0
-AnchorPoint: "thirdlevelstacking" -276 0 mark 0
-AnchorPoint: "thirdlevelstacking" -276 -299 basemark 0
+AnchorPoint: "low" -276 0 mark 0
+AnchorPoint: "lower" -276 0 mark 0
+AnchorPoint: "lower" -276 -299 basemark 0
 LayerCount: 2
 Fore
 Refer: 138 70444 S 0.66 0 0 0.62 -553 -299 2
@@ -5090,9 +5090,9 @@ StartChar: uE32D
 Encoding: 58157 58157 66
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -285 0 mark 0
-AnchorPoint: "thirdlevelstacking" -285 0 mark 0
-AnchorPoint: "thirdlevelstacking" -285 -294 basemark 0
+AnchorPoint: "low" -285 0 mark 0
+AnchorPoint: "lower" -285 0 mark 0
+AnchorPoint: "lower" -285 -294 basemark 0
 LayerCount: 2
 Fore
 Refer: 139 70445 S 0.71295 0 0 0.611325 -544 -294 2
@@ -5104,9 +5104,9 @@ StartChar: uE32E
 Encoding: 58158 58158 67
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -175 0 mark 0
-AnchorPoint: "thirdlevelstacking" -175 0 mark 0
-AnchorPoint: "thirdlevelstacking" -175 -308 basemark 0
+AnchorPoint: "low" -175 0 mark 0
+AnchorPoint: "lower" -175 0 mark 0
+AnchorPoint: "lower" -175 -308 basemark 0
 LayerCount: 2
 Fore
 Refer: 140 70446 S 0.55 0 0 0.65 -310 -308 2
@@ -5118,8 +5118,8 @@ StartChar: uE32F
 Encoding: 58159 58159 68
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -198 0 mark 0
-AnchorPoint: "thirdlevelstacking" -198 -299 basemark 0
+AnchorPoint: "low" -198 0 mark 0
+AnchorPoint: "lower" -198 -299 basemark 0
 LayerCount: 2
 Fore
 Refer: 141 70447 S 0.62 0 0 0.63 -401 -299 2
@@ -5131,9 +5131,9 @@ StartChar: uE332
 Encoding: 58162 58162 69
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -235 0 mark 0
-AnchorPoint: "thirdlevelstacking" -235 0 mark 0
-AnchorPoint: "thirdlevelstacking" -235 -308 basemark 0
+AnchorPoint: "low" -235 0 mark 0
+AnchorPoint: "lower" -235 0 mark 0
+AnchorPoint: "lower" -235 -308 basemark 0
 LayerCount: 2
 Fore
 Refer: 143 70450 S 0.72 0 0 0.64 -475 -308 2
@@ -5145,9 +5145,9 @@ StartChar: uE333
 Encoding: 58163 58163 70
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -202 0 mark 0
-AnchorPoint: "thirdlevelstacking" -202 0 mark 0
-AnchorPoint: "thirdlevelstacking" -202 -297 basemark 0
+AnchorPoint: "low" -202 0 mark 0
+AnchorPoint: "lower" -202 0 mark 0
+AnchorPoint: "lower" -202 -297 basemark 0
 LayerCount: 2
 Fore
 Refer: 144 70451 S 0.72 0 0 0.62 -522 -297 2
@@ -5159,9 +5159,9 @@ StartChar: uE335
 Encoding: 58165 58165 71
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -250 0 mark 0
-AnchorPoint: "stacking" -250 0 mark 0
-AnchorPoint: "thirdlevelstacking" -250 -306 basemark 0
+AnchorPoint: "lower" -250 0 mark 0
+AnchorPoint: "low" -250 0 mark 0
+AnchorPoint: "lower" -250 -306 basemark 0
 LayerCount: 2
 Fore
 Refer: 145 70453 S 0.72 0 0 0.64 -479 -306 2
@@ -5173,9 +5173,9 @@ StartChar: uE336
 Encoding: 58166 58166 72
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -284 0 mark 0
-AnchorPoint: "thirdlevelstacking" -284 0 mark 0
-AnchorPoint: "thirdlevelstacking" -284 -308 basemark 0
+AnchorPoint: "low" -284 0 mark 0
+AnchorPoint: "lower" -284 0 mark 0
+AnchorPoint: "lower" -284 -308 basemark 0
 LayerCount: 2
 Fore
 Refer: 146 70454 S 0.75 0 0 0.64 -562 -308 2
@@ -5187,9 +5187,9 @@ StartChar: uE337
 Encoding: 58167 58167 73
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -287 0 mark 0
-AnchorPoint: "thirdlevelstacking" -287 0 mark 0
-AnchorPoint: "thirdlevelstacking" -287 -343 basemark 0
+AnchorPoint: "low" -287 0 mark 0
+AnchorPoint: "lower" -287 0 mark 0
+AnchorPoint: "lower" -287 -343 basemark 0
 LayerCount: 2
 Fore
 Refer: 147 70455 S 0.5626 0 0 0.582 -561 -283 2
@@ -5201,9 +5201,9 @@ StartChar: uE338
 Encoding: 58168 58168 74
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -261 0 mark 0
-AnchorPoint: "thirdlevelstacking" -261 0 mark 0
-AnchorPoint: "thirdlevelstacking" -261 -299 basemark 0
+AnchorPoint: "low" -261 0 mark 0
+AnchorPoint: "lower" -261 0 mark 0
+AnchorPoint: "lower" -261 -299 basemark 0
 LayerCount: 2
 Fore
 Refer: 148 70456 S 0.637 0 0 0.62426 -530 -299 2
@@ -5215,9 +5215,9 @@ StartChar: uE339
 Encoding: 58169 58169 75
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -272 -347 basemark 0
-AnchorPoint: "stacking" -272 0 mark 0
-AnchorPoint: "thirdlevelstacking" -272 0 mark 0
+AnchorPoint: "lower" -272 -347 basemark 0
+AnchorPoint: "low" -272 0 mark 0
+AnchorPoint: "lower" -272 0 mark 0
 LayerCount: 2
 Fore
 Refer: 149 70457 S 0.55 0 0 0.63 -543 -297 2
@@ -5229,8 +5229,8 @@ StartChar: uE380
 Encoding: 58240 58240 76
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -251 -343 basemark 0
-AnchorPoint: "stacking" -251 0 mark 0
+AnchorPoint: "lower" -251 -343 basemark 0
+AnchorPoint: "low" -251 0 mark 0
 LayerCount: 2
 Fore
 Refer: 29 57612 S 0.51975 0 0 0.57 -519 -276 2
@@ -5242,8 +5242,8 @@ StartChar: uE381
 Encoding: 58241 58241 77
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -330 -431 basemark 0
-AnchorPoint: "stacking" -330 0 mark 0
+AnchorPoint: "lower" -330 -431 basemark 0
+AnchorPoint: "low" -330 0 mark 0
 LayerCount: 2
 Fore
 Refer: 26 57609 S 0.541842 0 0 0.5529 -604 -271 2
@@ -5255,8 +5255,8 @@ StartChar: uE382
 Encoding: 58242 58242 78
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -398 -270 basemark 0
-AnchorPoint: "stacking" -398 0 mark 0
+AnchorPoint: "lower" -398 -270 basemark 0
+AnchorPoint: "low" -398 0 mark 0
 LayerCount: 2
 Fore
 Refer: 27 57610 S 0.54 0 0 0.54 -629 -270 2
@@ -5268,8 +5268,8 @@ StartChar: uE383
 Encoding: 58243 58243 79
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -380 -262 basemark 0
-AnchorPoint: "stacking" -380 0 mark 0
+AnchorPoint: "lower" -380 -262 basemark 0
+AnchorPoint: "low" -380 0 mark 0
 LayerCount: 2
 Fore
 Refer: 19 57602 S 0.5454 0 0 0.54 -606 -263 2
@@ -5281,9 +5281,9 @@ StartChar: uE384
 Encoding: 58244 58244 80
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -323 -338 basemark 0
-AnchorPoint: "stacking" -323 0 mark 0
-AnchorPoint: "thirdlevelstacking" -323 0 mark 0
+AnchorPoint: "lower" -323 -338 basemark 0
+AnchorPoint: "low" -323 0 mark 0
+AnchorPoint: "lower" -323 0 mark 0
 LayerCount: 2
 Fore
 Refer: 32 57615 S 0.55 0 0 0.55 -543 -254 2
@@ -5295,8 +5295,8 @@ StartChar: uE385
 Encoding: 58245 58245 81
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -391 -271 basemark 0
-AnchorPoint: "stacking" -391 0 mark 0
+AnchorPoint: "lower" -391 -271 basemark 0
+AnchorPoint: "low" -391 0 mark 0
 LayerCount: 2
 Fore
 Refer: 24 57607 S 0.55 0 0 0.55 -638 -271 2
@@ -5308,8 +5308,8 @@ StartChar: uE386
 Encoding: 58246 58246 82
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -352 -266 basemark 0
-AnchorPoint: "stacking" -352 0 mark 0
+AnchorPoint: "lower" -352 -266 basemark 0
+AnchorPoint: "low" -352 0 mark 0
 LayerCount: 2
 Fore
 Refer: 23 57606 S 0.54 0 0 0.54 -517 -266 2
@@ -5321,8 +5321,8 @@ StartChar: uE387
 Encoding: 58247 58247 83
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -355 -268 basemark 0
-AnchorPoint: "stacking" -355 0 mark 0
+AnchorPoint: "lower" -355 -268 basemark 0
+AnchorPoint: "low" -355 0 mark 0
 LayerCount: 2
 Fore
 Refer: 25 57608 S 0.5454 0 0 0.54 -553 -268 2
@@ -5334,8 +5334,8 @@ StartChar: uE388
 Encoding: 58248 58248 84
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -299 -295 basemark 0
-AnchorPoint: "stacking" -299 0 mark 0
+AnchorPoint: "lower" -299 -295 basemark 0
+AnchorPoint: "low" -299 0 mark 0
 LayerCount: 2
 Fore
 Refer: 37 57620 S 0.6 0 0 0.6 -556 -295 2
@@ -5347,8 +5347,8 @@ StartChar: uE389
 Encoding: 58249 58249 85
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -345 -416 basemark 0
-AnchorPoint: "stacking" -345 0 mark 0
+AnchorPoint: "lower" -345 -416 basemark 0
+AnchorPoint: "low" -345 0 mark 0
 LayerCount: 2
 Fore
 Refer: 28 57611 S 0.6 0 0 0.6 -573 -293 2
@@ -5360,8 +5360,8 @@ StartChar: uE38A
 Encoding: 58250 58250 86
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -418 -366 basemark 0
-AnchorPoint: "stacking" -418 0 mark 0
+AnchorPoint: "lower" -418 -366 basemark 0
+AnchorPoint: "low" -418 0 mark 0
 LayerCount: 2
 Fore
 Refer: 33 57616 S 0.5454 0 0 0.5454 -648 -269 2
@@ -5373,8 +5373,8 @@ StartChar: uE38B
 Encoding: 58251 58251 87
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -243 -410 basemark 0
-AnchorPoint: "stacking" -243 0 mark 0
+AnchorPoint: "lower" -243 -410 basemark 0
+AnchorPoint: "low" -243 0 mark 0
 LayerCount: 2
 Fore
 Refer: 22 57605 S 0.6 0 0 0.6 -408 -289 2
@@ -5386,8 +5386,8 @@ StartChar: uE38C
 Encoding: 58252 58252 88
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -408 -320 basemark 0
-AnchorPoint: "stacking" -408 0 mark 0
+AnchorPoint: "lower" -408 -320 basemark 0
+AnchorPoint: "low" -408 0 mark 0
 LayerCount: 2
 Fore
 Refer: 36 57619 S 0.598975 0 0 0.47045 -658 -236 2
@@ -5399,8 +5399,8 @@ StartChar: uE38D
 Encoding: 58253 58253 89
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -384 -372 basemark 0
-AnchorPoint: "stacking" -384 0 mark 0
+AnchorPoint: "lower" -384 -372 basemark 0
+AnchorPoint: "low" -384 0 mark 0
 LayerCount: 2
 Fore
 Refer: 38 57621 S 0.6237 0 0 0.6237 -657 -292 2
@@ -5412,8 +5412,8 @@ StartChar: uE38E
 Encoding: 58254 58254 90
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -297 -291 basemark 0
-AnchorPoint: "stacking" -297 0 mark 0
+AnchorPoint: "lower" -297 -291 basemark 0
+AnchorPoint: "low" -297 0 mark 0
 LayerCount: 2
 Fore
 Refer: 35 57618 S 0.6 0 0 0.6 -495 -291 2
@@ -5425,8 +5425,8 @@ StartChar: uE38F
 Encoding: 58255 58255 91
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -328 -413 basemark 0
-AnchorPoint: "stacking" -327 0 mark 0
+AnchorPoint: "lower" -328 -413 basemark 0
+AnchorPoint: "low" -327 0 mark 0
 LayerCount: 2
 Fore
 Refer: 17 57600 S 0.6 0 0 0.6 -582 -296 2
@@ -5438,8 +5438,8 @@ StartChar: uE390
 Encoding: 58256 58256 92
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -386 -351 basemark 0
-AnchorPoint: "stacking" -386 0 mark 0
+AnchorPoint: "lower" -386 -351 basemark 0
+AnchorPoint: "low" -386 0 mark 0
 LayerCount: 2
 Fore
 Refer: 18 57601 S 0.6 0 0 0.6 -604 -290 2
@@ -5451,8 +5451,8 @@ StartChar: uE391
 Encoding: 58257 58257 93
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -500 -293 basemark 0
-AnchorPoint: "stacking" -500 0 mark 0
+AnchorPoint: "lower" -500 -293 basemark 0
+AnchorPoint: "low" -500 0 mark 0
 LayerCount: 2
 Fore
 Refer: 20 57603 S 0.6 0 0 0.6 -830 -293 2
@@ -5464,8 +5464,8 @@ StartChar: uE392
 Encoding: 58258 58258 94
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -296 -291 basemark 0
-AnchorPoint: "stacking" -295 0 mark 0
+AnchorPoint: "lower" -296 -291 basemark 0
+AnchorPoint: "low" -295 0 mark 0
 LayerCount: 2
 Fore
 Refer: 21 57604 S 0.6 0 0 0.6 -478 -291 2
@@ -5477,8 +5477,8 @@ StartChar: uE393
 Encoding: 58259 58259 95
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -261 -366 basemark 0
-AnchorPoint: "stacking" -261 0 mark 0
+AnchorPoint: "lower" -261 -366 basemark 0
+AnchorPoint: "low" -261 0 mark 0
 LayerCount: 2
 Fore
 Refer: 30 57613 S 0.6 0 0 0.6 -464 -293 2
@@ -5490,8 +5490,8 @@ StartChar: uE394
 Encoding: 58260 58260 96
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -336 -356 basemark 0
-AnchorPoint: "stacking" -336 0 mark 0
+AnchorPoint: "lower" -336 -356 basemark 0
+AnchorPoint: "low" -336 0 mark 0
 LayerCount: 2
 Fore
 Refer: 31 57614 S 0.6 0 0 0.6 -631 -292 2
@@ -5503,8 +5503,8 @@ StartChar: uE395
 Encoding: 58261 58261 97
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -326 -291 basemark 0
-AnchorPoint: "stacking" -326 0 mark 0
+AnchorPoint: "lower" -326 -291 basemark 0
+AnchorPoint: "low" -326 0 mark 0
 LayerCount: 2
 Fore
 Refer: 34 57617 S 0.6 0 0 0.6 -603 -291 2
@@ -5901,7 +5901,7 @@ StartChar: u11305
 Encoding: 70405 70405 104
 Width: 613
 Flags: MW
-AnchorPoint: "anunasika" 304 402 basechar 0
+AnchorPoint: "high" 304 402 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -5965,7 +5965,7 @@ StartChar: u11306
 Encoding: 70406 70406 105
 Width: 798
 Flags: MW
-AnchorPoint: "anunasika" 394 408 basechar 0
+AnchorPoint: "high" 394 408 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6049,7 +6049,7 @@ StartChar: u11307
 Encoding: 70407 70407 106
 Width: 613
 Flags: MW
-AnchorPoint: "anunasika" 306 402 basechar 0
+AnchorPoint: "high" 306 402 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6126,7 +6126,7 @@ StartChar: u11308
 Encoding: 70408 70408 107
 Width: 736
 Flags: MW
-AnchorPoint: "anunasika" 362 409 basechar 0
+AnchorPoint: "high" 362 409 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6205,7 +6205,7 @@ StartChar: u11309
 Encoding: 70409 70409 108
 Width: 613
 Flags: MW
-AnchorPoint: "anunasika" 320 406 basechar 0
+AnchorPoint: "high" 320 406 basechar 0
 LayerCount: 2
 Fore
 Refer: 285 2953 N 1 0 0 1 0 0 2
@@ -6215,7 +6215,7 @@ StartChar: u1130A
 Encoding: 70410 70410 109
 Width: 736
 Flags: MW
-AnchorPoint: "anunasika" 370 402 basechar 0
+AnchorPoint: "high" 370 402 basechar 0
 LayerCount: 2
 Fore
 Refer: 286 2954 N 1 0 0 1 0 0 2
@@ -6225,7 +6225,7 @@ StartChar: u1130B
 Encoding: 70411 70411 110
 Width: 614
 Flags: MW
-AnchorPoint: "anunasika" 310 410 basechar 0
+AnchorPoint: "high" 310 410 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6313,7 +6313,7 @@ StartChar: u1130C
 Encoding: 70412 70412 111
 Width: 825
 Flags: MW
-AnchorPoint: "anunasika" 419 408 basechar 0
+AnchorPoint: "high" 419 408 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6382,7 +6382,7 @@ StartChar: u1130F
 Encoding: 70415 70415 112
 Width: 1131
 Flags: MW
-AnchorPoint: "anunasika" 523 408 basechar 0
+AnchorPoint: "high" 523 408 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6484,7 +6484,7 @@ StartChar: u11310
 Encoding: 70416 70416 113
 Width: 1750
 Flags: MW
-AnchorPoint: "anunasika" 875 516 basechar 0
+AnchorPoint: "high" 875 516 basechar 0
 LayerCount: 2
 Fore
 Refer: 158 70471 S 1 0 0 1 3 0 2
@@ -6495,7 +6495,7 @@ StartChar: u11313
 Encoding: 70419 70419 114
 Width: 735
 Flags: MW
-AnchorPoint: "anunasika" 348 406 basechar 0
+AnchorPoint: "high" 348 406 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6558,7 +6558,7 @@ StartChar: u11314
 Encoding: 70420 70420 115
 Width: 1349
 Flags: MW
-AnchorPoint: "anunasika" 675 406 basechar 0
+AnchorPoint: "high" 675 406 basechar 0
 LayerCount: 2
 Fore
 Refer: 164 70487 S 1 0 0 1 674 0 2
@@ -6569,8 +6569,8 @@ StartChar: u11315
 Encoding: 70421 70421 116
 Width: 572
 Flags: MW
-AnchorPoint: "anunasika" 286 410 basechar 0
-AnchorPoint: "stacking" 286 0 basechar 0
+AnchorPoint: "high" 286 410 basechar 0
+AnchorPoint: "low" 286 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6648,8 +6648,8 @@ StartChar: u11316
 Encoding: 70422 70422 117
 Width: 982
 Flags: MW
-AnchorPoint: "anunasika" 486 407 basechar 0
-AnchorPoint: "stacking" 486 0 basechar 0
+AnchorPoint: "high" 486 407 basechar 0
+AnchorPoint: "low" 486 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6716,8 +6716,8 @@ StartChar: u11317
 Encoding: 70423 70423 118
 Width: 570
 Flags: MW
-AnchorPoint: "anunasika" 280 407 basechar 0
-AnchorPoint: "stacking" 280 0 basechar 0
+AnchorPoint: "high" 280 407 basechar 0
+AnchorPoint: "low" 280 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6769,8 +6769,8 @@ StartChar: u11318
 Encoding: 70424 70424 119
 Width: 919
 Flags: MW
-AnchorPoint: "anunasika" 455 406 basechar 0
-AnchorPoint: "stacking" 456 0 basechar 0
+AnchorPoint: "high" 455 406 basechar 0
+AnchorPoint: "low" 456 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6836,8 +6836,8 @@ StartChar: u11319
 Encoding: 70425 70425 120
 Width: 607
 Flags: MW
-AnchorPoint: "anunasika" 307 401 basechar 0
-AnchorPoint: "stacking" 307 -145 basechar 0
+AnchorPoint: "high" 307 401 basechar 0
+AnchorPoint: "low" 307 -145 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6913,8 +6913,8 @@ StartChar: u1131A
 Encoding: 70426 70426 121
 Width: 832
 Flags: MW
-AnchorPoint: "anunasika" 415 402 basechar 0
-AnchorPoint: "stacking" 415 0 basechar 0
+AnchorPoint: "high" 415 402 basechar 0
+AnchorPoint: "low" 415 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -6972,8 +6972,8 @@ StartChar: u1131B
 Encoding: 70427 70427 122
 Width: 830
 Flags: MW
-AnchorPoint: "anunasika" 411 405 basechar 0
-AnchorPoint: "stacking" 411 0 basechar 0
+AnchorPoint: "high" 411 405 basechar 0
+AnchorPoint: "low" 411 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7034,8 +7034,8 @@ StartChar: u1131C
 Encoding: 70428 70428 123
 Width: 722
 Flags: MW
-AnchorPoint: "anunasika" 367 410 basechar 0
-AnchorPoint: "stacking" 367 -108 basechar 0
+AnchorPoint: "high" 367 410 basechar 0
+AnchorPoint: "low" 367 -108 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7120,8 +7120,8 @@ StartChar: u1131D
 Encoding: 70429 70429 124
 Width: 760
 Flags: MW
-AnchorPoint: "anunasika" 391 412 basechar 0
-AnchorPoint: "stacking" 391 0 basechar 0
+AnchorPoint: "high" 391 412 basechar 0
+AnchorPoint: "low" 391 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7192,8 +7192,8 @@ StartChar: u1131E
 Encoding: 70430 70430 125
 Width: 762
 Flags: MW
-AnchorPoint: "anunasika" 363 411 basechar 0
-AnchorPoint: "stacking" 363 0 basechar 0
+AnchorPoint: "high" 363 411 basechar 0
+AnchorPoint: "low" 363 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7333,8 +7333,8 @@ StartChar: u1131F
 Encoding: 70431 70431 126
 Width: 660
 Flags: MW
-AnchorPoint: "anunasika" 322 409 basechar 0
-AnchorPoint: "stacking" 322 -91 basechar 0
+AnchorPoint: "high" 322 409 basechar 0
+AnchorPoint: "low" 322 -91 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7365,8 +7365,8 @@ StartChar: u11320
 Encoding: 70432 70432 127
 Width: 624
 Flags: MW
-AnchorPoint: "anunasika" 306 402 basechar 0
-AnchorPoint: "stacking" 307 0 basechar 0
+AnchorPoint: "high" 306 402 basechar 0
+AnchorPoint: "low" 307 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7396,8 +7396,8 @@ StartChar: u11321
 Encoding: 70433 70433 128
 Width: 735
 Flags: MW
-AnchorPoint: "anunasika" 379 411 basechar 0
-AnchorPoint: "stacking" 379 0 basechar 0
+AnchorPoint: "high" 379 411 basechar 0
+AnchorPoint: "low" 379 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7478,8 +7478,8 @@ StartChar: u11322
 Encoding: 70434 70434 129
 Width: 736
 Flags: MW
-AnchorPoint: "anunasika" 363 409 basechar 0
-AnchorPoint: "stacking" 363 0 basechar 0
+AnchorPoint: "high" 363 409 basechar 0
+AnchorPoint: "low" 363 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7566,8 +7566,8 @@ StartChar: u11323
 Encoding: 70435 70435 130
 Width: 984
 Flags: MW
-AnchorPoint: "anunasika" 480 412 basechar 0
-AnchorPoint: "stacking" 481 0 basechar 0
+AnchorPoint: "high" 480 412 basechar 0
+AnchorPoint: "low" 481 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 279 2979 N 1 0 0 1 0 0 2
@@ -7577,8 +7577,8 @@ StartChar: u11324
 Encoding: 70436 70436 131
 Width: 580
 Flags: MW
-AnchorPoint: "anunasika" 289 408 basechar 0
-AnchorPoint: "stacking" 290 -200 basechar 0
+AnchorPoint: "high" 289 408 basechar 0
+AnchorPoint: "low" 290 -200 basechar 0
 LayerCount: 2
 Fore
 Refer: 298 2980 N 1 0 0 1 0 0 2
@@ -7588,8 +7588,8 @@ StartChar: u11325
 Encoding: 70437 70437 132
 Width: 768
 Flags: MW
-AnchorPoint: "anunasika" 385 407 basechar 0
-AnchorPoint: "stacking" 385 0 basechar 0
+AnchorPoint: "high" 385 407 basechar 0
+AnchorPoint: "low" 385 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7642,8 +7642,8 @@ StartChar: u11326
 Encoding: 70438 70438 133
 Width: 512
 Flags: MW
-AnchorPoint: "anunasika" 261 404 basechar 0
-AnchorPoint: "stacking" 261 -106 basechar 0
+AnchorPoint: "high" 261 404 basechar 0
+AnchorPoint: "low" 261 -106 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7709,8 +7709,8 @@ StartChar: u11327
 Encoding: 70439 70439 134
 Width: 768
 Flags: MW
-AnchorPoint: "anunasika" 396 406 basechar 0
-AnchorPoint: "stacking" 396 0 basechar 0
+AnchorPoint: "high" 396 406 basechar 0
+AnchorPoint: "low" 396 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7759,8 +7759,8 @@ StartChar: u11328
 Encoding: 70440 70440 135
 Width: 522
 Flags: MW
-AnchorPoint: "anunasika" 263 408 basechar 0
-AnchorPoint: "stacking" 264 -260 basechar 0
+AnchorPoint: "high" 263 408 basechar 0
+AnchorPoint: "low" 264 -260 basechar 0
 LayerCount: 2
 Fore
 Refer: 299 2984 S 1 0 0 1 0 0 2
@@ -7770,8 +7770,8 @@ StartChar: u1132A
 Encoding: 70442 70442 136
 Width: 864
 Flags: MW
-AnchorPoint: "anunasika" 429 404 basechar 0
-AnchorPoint: "stacking" 430 0 basechar 0
+AnchorPoint: "high" 429 404 basechar 0
+AnchorPoint: "low" 430 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7827,8 +7827,8 @@ StartChar: u1132B
 Encoding: 70443 70443 137
 Width: 866
 Flags: MW
-AnchorPoint: "anunasika" 418 408 basechar 0
-AnchorPoint: "stacking" 418 0 basechar 0
+AnchorPoint: "high" 418 408 basechar 0
+AnchorPoint: "low" 418 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7892,8 +7892,8 @@ StartChar: u1132C
 Encoding: 70444 70444 138
 Width: 859
 Flags: MW
-AnchorPoint: "anunasika" 424 409 basechar 0
-AnchorPoint: "stacking" 420 0 basechar 0
+AnchorPoint: "high" 424 409 basechar 0
+AnchorPoint: "low" 420 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -7966,8 +7966,8 @@ StartChar: u1132D
 Encoding: 70445 70445 139
 Width: 754
 Flags: MW
-AnchorPoint: "anunasika" 361 408 basechar 0
-AnchorPoint: "stacking" 362 0 basechar 0
+AnchorPoint: "high" 361 408 basechar 0
+AnchorPoint: "low" 362 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8038,8 +8038,8 @@ StartChar: u1132E
 Encoding: 70446 70446 140
 Width: 508
 Flags: MW
-AnchorPoint: "anunasika" 243 407 basechar 0
-AnchorPoint: "stacking" 244 0 basechar 0
+AnchorPoint: "high" 243 407 basechar 0
+AnchorPoint: "low" 244 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8099,8 +8099,8 @@ StartChar: u1132F
 Encoding: 70447 70447 141
 Width: 665
 Flags: MW
-AnchorPoint: "anunasika" 326 402 basechar 0
-AnchorPoint: "stacking" 327 0 basechar 0
+AnchorPoint: "high" 326 402 basechar 0
+AnchorPoint: "low" 327 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 302 2991 N 1 0 0 1 0 0 2
@@ -8110,8 +8110,8 @@ StartChar: u11330
 Encoding: 70448 70448 142
 Width: 520
 Flags: MW
-AnchorPoint: "anunasika" 263 403 basechar 0
-AnchorPoint: "stacking" 264 0 basechar 0
+AnchorPoint: "high" 263 403 basechar 0
+AnchorPoint: "low" 264 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8149,8 +8149,8 @@ StartChar: u11332
 Encoding: 70450 70450 143
 Width: 665
 Flags: MW
-AnchorPoint: "anunasika" 333 410 basechar 0
-AnchorPoint: "stacking" 334 0 basechar 0
+AnchorPoint: "high" 333 410 basechar 0
+AnchorPoint: "low" 334 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8212,8 +8212,8 @@ StartChar: u11333
 Encoding: 70451 70451 144
 Width: 908
 Flags: MW
-AnchorPoint: "anunasika" 445 406 basechar 0
-AnchorPoint: "stacking" 446 0 basechar 0
+AnchorPoint: "high" 445 406 basechar 0
+AnchorPoint: "low" 446 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8286,8 +8286,8 @@ StartChar: u11335
 Encoding: 70453 70453 145
 Width: 665
 Flags: MW
-AnchorPoint: "anunasika" 318 403 basechar 0
-AnchorPoint: "stacking" 318 0 basechar 0
+AnchorPoint: "high" 318 403 basechar 0
+AnchorPoint: "low" 318 0 basechar 0
 LayerCount: 2
 Fore
 Refer: 308 2997 N 1 0 0 1 0 0 2
@@ -8297,8 +8297,8 @@ StartChar: u11336
 Encoding: 70454 70454 146
 Width: 763
 Flags: MW
-AnchorPoint: "anunasika" 372 409 basechar 0
-AnchorPoint: "stacking" 372 0 basechar 0
+AnchorPoint: "high" 372 409 basechar 0
+AnchorPoint: "low" 372 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8351,8 +8351,8 @@ StartChar: u11337
 Encoding: 70455 70455 147
 Width: 999
 Flags: MW
-AnchorPoint: "anunasika" 487 409 basechar 0
-AnchorPoint: "stacking" 487 -103 basechar 0
+AnchorPoint: "high" 487 409 basechar 0
+AnchorPoint: "low" 487 -103 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8434,8 +8434,8 @@ StartChar: u11338
 Encoding: 70456 70456 148
 Width: 875
 Flags: MW
-AnchorPoint: "anunasika" 425 408 basechar 0
-AnchorPoint: "stacking" 425 0 basechar 0
+AnchorPoint: "high" 425 408 basechar 0
+AnchorPoint: "low" 425 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -8516,8 +8516,8 @@ StartChar: u11339
 Encoding: 70457 70457 149
 Width: 996
 Flags: MW
-AnchorPoint: "anunasika" 491 399 basechar 0
-AnchorPoint: "stacking" 491 -81 basechar 0
+AnchorPoint: "high" 491 399 basechar 0
+AnchorPoint: "low" 491 -81 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9106,7 +9106,7 @@ StartChar: u11360
 Encoding: 70496 70496 165
 Width: 811
 Flags: MW
-AnchorPoint: "anunasika" 406 429 basechar 0
+AnchorPoint: "high" 406 429 basechar 0
 LayerCount: 2
 Fore
 Refer: 44 57984 S 1 0 0 1 510 0.5 2
@@ -9152,9 +9152,9 @@ StartChar: uE319
 Encoding: 58137 58137 168
 Width: 0
 Flags: MW
-AnchorPoint: "thirdlevelstacking" -256 -459 basemark 0
-AnchorPoint: "stacking" -256 0 mark 0
-AnchorPoint: "thirdlevelstacking" -256 0 mark 0
+AnchorPoint: "lower" -256 -459 basemark 0
+AnchorPoint: "low" -256 0 mark 0
+AnchorPoint: "lower" -256 0 mark 0
 LayerCount: 2
 Fore
 Refer: 120 70425 S 0.791194 0 0 0.760093 -498 -350 2
@@ -9166,9 +9166,9 @@ StartChar: uE31E
 Encoding: 58142 58142 169
 Width: 0
 Flags: MW
-AnchorPoint: "stacking" -305 0 mark 0
-AnchorPoint: "thirdlevelstacking" -305 0 mark 0
-AnchorPoint: "thirdlevelstacking" -305 -378 basemark 0
+AnchorPoint: "low" -305 0 mark 0
+AnchorPoint: "lower" -305 0 mark 0
+AnchorPoint: "lower" -305 -378 basemark 0
 LayerCount: 2
 Fore
 Refer: 125 70430 S 0.8 0 0 0.8 -595 -378 2
@@ -9433,8 +9433,8 @@ StartChar: u11301
 Encoding: 70401 70401 176
 Width: 0
 Flags: MW
-AnchorPoint: "topoftop" -202 690 basemark 0
-AnchorPoint: "anunasika" -202 383 mark 0
+AnchorPoint: "higher" -202 690 basemark 0
+AnchorPoint: "high" -202 383 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -9561,7 +9561,7 @@ StartChar: u11361
 Encoding: 70497 70497 179
 Width: 1062
 Flags: MW
-AnchorPoint: "anunasika" 537 429 basechar 0
+AnchorPoint: "high" 537 429 basechar 0
 LayerCount: 2
 Fore
 Refer: 44 57984 S 1 0 0 1 746 0 2
@@ -10027,7 +10027,7 @@ StartChar: u1135D
 Encoding: 70493 70493 197
 Width: 341
 Flags: W
-AnchorPoint: "stacking" 180 0 basechar 0
+AnchorPoint: "low" 180 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -10254,8 +10254,8 @@ StartChar: uE330
 Encoding: 58160 58160 201
 Width: 0
 Flags: W
-AnchorPoint: "stacking" -210 0 mark 0
-AnchorPoint: "thirdlevelstacking" -210 -298 basemark 0
+AnchorPoint: "low" -210 0 mark 0
+AnchorPoint: "lower" -210 -298 basemark 0
 LayerCount: 2
 Fore
 Refer: 142 70448 S 0.626535 0 0 0.626535 -375 -298 2
@@ -10386,8 +10386,8 @@ Encoding: 7412 7412 211
 Width: 0
 VWidth: 1000
 Flags: W
-AnchorPoint: "topoftop" -211 347 mark 0
-AnchorPoint: "anunasika" -211 347 mark 0
+AnchorPoint: "higher" -211 347 mark 0
+AnchorPoint: "high" -211 347 mark 0
 LayerCount: 2
 Fore
 SplineSet
