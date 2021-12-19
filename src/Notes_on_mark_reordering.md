@@ -36,15 +36,16 @@ Legend:
 
 Raw:
 
-* anunasika moves before all vowel markers and virama: 56-66, 24-26
-* anunasika moves before e200, i.e. pre repha: 67, 27-29
-* anunasika moves before post yakara: 68, 30-32
-* anunasika moves before post repha: 69, 33-35
-* anudatta/svarita/dirghasvarita before anusvara, visarga and ardhavisarga: 34-42, 56-58
-* anudatta/svarita/dirghasvarita before all vowel markers and virama, except for the haln cases: 1-33, 62-64
-* anudatta/svarita/dirghasvarita before e200, i.e. pre repha: 46-48, 89-91
-* anudatta/svarita/dirghasvarita before post yakara: 49-51, 92-94
-* anudatta/svarita/dirghasvarita before post repha: 52-54, 95-97
+* anunasika moves before all vowel markers and virama: 56-66; 24-26
+* anunasika moves before e200, i.e. pre repha: 67; 27-29
+* anunasika moves before post yakara: 68; 30-32
+* anunasika moves before post repha: 69; 33-35
+* anudatta/svarita/dirghasvarita before anusvara, visarga and ardhavisarga: 34-42; 56-58
+* anudatta/svarita/dirghasvarita before all vowel markers and virama, except for the haln cases: 1-33; 62-64
+* anudatta/svarita/dirghasvarita before pre repha: 46-48; 89-91
+* anudatta/svarita/dirghasvarita before post yakara: 49-51; 92-94
+* anudatta/svarita/dirghasvarita before post repha: 52-54; 95-97
 * anudatta before anunasika: 55, 98-100
-* i or I vowel markers move before pre repha, post repha and post yakara
-* Virama markers moves before pre repha
+* i or I vowel markers and virama marker move before pre repha: 3, 6-7; 15-17
+* i or I vowel markers move before post yakara: 1, 4; 18-20
+* i or I vowel markers move before post repha: 2, 5; 21-23
