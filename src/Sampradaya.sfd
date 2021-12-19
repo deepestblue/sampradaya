@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1639877876
+ModificationTime: 1639883216
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -1512,13 +1512,15 @@ ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 3 1 3
   BClassNames: "All_Others" "1" "2"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 6 1 12
+ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 8 1 60
   Class: 6 u1133F
   BClass: 32 uE10F uE113 u11319 u11326 u11332
   BClass: 23 uE109 uE102 uE111 uE114
   BClass: 13 u1131F u11333
   BClass: 30 uE10C uE10D uE112 uE115 u11337
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
+  BClass: 6 u11301
+  BClass: 17 u0951 u0952 u1CF4
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -1591,8 +1593,296 @@ ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 6 1 12
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 6"
+ 1 2 0
+  ClsList: 1
+  BClsList: 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 2 0
+  ClsList: 1
+  BClsList: 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 2 0
+  ClsList: 1
+  BClsList: 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 2 0
+  ClsList: 1
+  BClsList: 6 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 4 0
+  ClsList: 1
+  BClsList: 6 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 6 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 4 0
+  ClsList: 1
+  BClsList: 6 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 4 0
+  ClsList: 1
+  BClsList: 6 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 2 0
+  ClsList: 1
+  BClsList: 7 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 2 0
+  ClsList: 1
+  BClsList: 7 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 2 0
+  ClsList: 1
+  BClsList: 7 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 2 0
+  ClsList: 1
+  BClsList: 7 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 3 0
+  ClsList: 1
+  BClsList: 7 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 3 0
+  ClsList: 1
+  BClsList: 7 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 3 0
+  ClsList: 1
+  BClsList: 7 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 3 0
+  ClsList: 1
+  BClsList: 7 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 4 0
+  ClsList: 1
+  BClsList: 7 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 7 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 4 0
+  ClsList: 1
+  BClsList: 7 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 4 0
+  ClsList: 1
+  BClsList: 7 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 7 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 7 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 7 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 3 0
+  ClsList: 1
+  BClsList: 6 7 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 4 0
+  ClsList: 1
+  BClsList: 6 7 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 6 7 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 4 0
+  ClsList: 1
+  BClsList: 6 7 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 4 0
+  ClsList: 1
+  BClsList: 6 7 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 5 0
+  ClsList: 1
+  BClsList: 6 7 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 6 7 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 5 0
+  ClsList: 1
+  BClsList: 6 7 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 5 0
+  ClsList: 1
+  BClsList: 6 7 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 3 0
+  ClsList: 1
+  BClsList: 7 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 3 0
+  ClsList: 1
+  BClsList: 7 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 3 0
+  ClsList: 1
+  BClsList: 7 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 3 0
+  ClsList: 1
+  BClsList: 7 6 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 4 0
+  ClsList: 1
+  BClsList: 7 6 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 7 6 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 4 0
+  ClsList: 1
+  BClsList: 7 6 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 4 0
+  ClsList: 1
+  BClsList: 7 6 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
+ 1 5 0
+  ClsList: 1
+  BClsList: 7 6 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 7 6 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 4"
+ 1 5 0
+  ClsList: 1
+  BClsList: 7 6 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 5"
+ 1 5 0
+  ClsList: 1
+  BClsList: 7 6 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 6"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3" "4" "5"
+  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions post rakara lookup" 2 8 1 36
@@ -10320,7 +10610,7 @@ EndChar
 StartChar: u11301
 Encoding: 70401 70401 176
 Width: 0
-Flags: MWO
+Flags: MW
 AnchorPoint: "higher" -202 690 basemark 0
 AnchorPoint: "high" -202 323 mark 0
 LayerCount: 2
