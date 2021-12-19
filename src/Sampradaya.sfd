@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1639876894
+ModificationTime: 1639877876
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -9677,9 +9677,9 @@ EndChar
 StartChar: u11301
 Encoding: 70401 70401 176
 Width: 0
-Flags: MW
+Flags: MWO
 AnchorPoint: "higher" -202 690 basemark 0
-AnchorPoint: "high" -202 383 mark 0
+AnchorPoint: "high" -202 323 mark 0
 LayerCount: 2
 Fore
 SplineSet
