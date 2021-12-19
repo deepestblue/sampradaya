@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1639883216
+ModificationTime: 1639884907
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -1424,9 +1424,10 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 56-1" 0 0 0 9
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 42"
 EndFPST
-ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 3 1 2 3
+ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 2 9
   Class: 62 uE102 uE109 uE10D uE111 uE112 uE114 uE115 u1131F u11332 u11337
   Class: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
+  Class: 24 u0951 u0952 u1CF4 u11301
   FClass: 12 uE206 u11340
  1 0 1
   ClsList: 1
@@ -1446,7 +1447,43 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 3 1 2 3
   FClsList: 1
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
-  ClassNames: "All_Others" "1" "2"
+ 2 0 1
+  ClsList: 1 3
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 3 0 1
+  ClsList: 1 2 3
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 4 0 1
+  ClsList: 1 2 2 3
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 3 0 1
+  ClsList: 1 3 3
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 4 0 1
+  ClsList: 1 2 3 3
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 5 0 1
+  ClsList: 1 2 2 3 3
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+  ClassNames: "All_Others" "1" "2" "3"
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1"
 EndFPST
@@ -1486,10 +1523,12 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 2
  1
   SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 3 1 3
+ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 5 1 15
   Class: 6 u11340
   BClass: 13 u1131F u11333
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
+  BClass: 6 u11301
+  BClass: 17 u0951 u0952 u1CF4
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -1508,8 +1547,80 @@ ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 3 1 3
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup 7"
+ 1 2 0
+  ClsList: 1
+  BClsList: 3 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 3 0
+  ClsList: 1
+  BClsList: 3 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 4 0
+  ClsList: 1
+  BClsList: 3 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 2 0
+  ClsList: 1
+  BClsList: 4 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 3 0
+  ClsList: 1
+  BClsList: 3 4 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 4 0
+  ClsList: 1
+  BClsList: 3 4 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 5 0
+  ClsList: 1
+  BClsList: 3 4 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 3 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 3 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
+ 1 5 0
+  ClsList: 1
+  BClsList: 4 3 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup 7"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2" "3" "4"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions i marker lookup" 2 8 1 60
