@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1637957174
+ModificationTime: 1637996085
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -10166,7 +10166,7 @@ EndChar
 StartChar: uE209
 Encoding: 57865 57865 202
 Width: 145
-Flags: W
+Flags: WO
 LayerCount: 2
 Fore
 SplineSet
@@ -10176,9 +10176,9 @@ SplineSet
  -431 393 -431 393 -440.5 382 c 128,-1,6
  -450 371 -450 371 -461 371 c 0,7,8
  -540 371 -540 371 -583 399 c 0,9,10
- -609 416 -609 416 -617.5 430 c 0,11,12
- -630 452 -630 452 -629 476.5 c 0,13,14
- -627 520 -627 520 -594 539 c 0,15,16
+ -609 416 -609 416 -617.5 430 c 4,11,12
+ -629 452 -629 452 -629 476.5 c 4,13,14
+ -628 520 -628 520 -594 539 c 0,15,16
  -471 609 -471 609 -289 609 c 4,17,18
  -149 609 -149 609 4 542 c 0,19,20
  58 518 58 518 72 490.5 c 0,21,22
@@ -10285,7 +10285,7 @@ StartChar: u1CF4
 Encoding: 7412 7412 211
 Width: 0
 VWidth: 1000
-Flags: WO
+Flags: W
 AnchorPoint: "topoftop" -211 347 mark 0
 AnchorPoint: "anunasika" -211 347 mark 0
 LayerCount: 2
