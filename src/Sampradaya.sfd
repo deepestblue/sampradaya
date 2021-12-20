@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1639967648
+ModificationTime: 1639971865
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -2234,7 +2234,7 @@ NameList: AGL For New Fonts
 DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 23 11
+WinInfo: 46 23 11
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -10945,15 +10945,19 @@ StartChar: u11366
 Encoding: 70502 70502 181
 Width: 0
 Flags: MW
+AnchorPoint: "high" -214 359 mark 0
+AnchorPoint: "higher" -214 359 mark 0
 LayerCount: 2
 Fore
-Refer: 7 3046 S 0.541721 0 0 0.553303 -325 450 2
+Refer: 7 3046 N 0.541721 0 0 0.553303 -325 450 2
 EndChar
 
 StartChar: u11367
 Encoding: 70503 70503 182
 Width: 0
 Flags: MW
+AnchorPoint: "high" -215 360 mark 0
+AnchorPoint: "higher" -214 360 mark 0
 LayerCount: 2
 Fore
 Refer: 8 3047 S 0.599976 0 0 0.599976 -366 451 2
@@ -10963,6 +10967,8 @@ StartChar: u11368
 Encoding: 70504 70504 183
 Width: 0
 Flags: MW
+AnchorPoint: "high" -205 362 mark 0
+AnchorPoint: "higher" -205 362 mark 0
 LayerCount: 2
 Fore
 Refer: 9 3048 S 0.599976 0 0 0.599976 -348 451 2
@@ -10972,6 +10978,8 @@ StartChar: u11369
 Encoding: 70505 70505 184
 Width: 0
 Flags: MW
+AnchorPoint: "high" -207 364 mark 0
+AnchorPoint: "higher" -207 364 mark 0
 LayerCount: 2
 Fore
 Refer: 10 3049 S 0.599976 0 0 0.599976 -322 453 2
@@ -10981,6 +10989,8 @@ StartChar: u1136A
 Encoding: 70506 70506 185
 Width: 0
 Flags: MW
+AnchorPoint: "high" -212 362 mark 0
+AnchorPoint: "higher" -212 362 mark 0
 LayerCount: 2
 Fore
 Refer: 11 3050 S 0.599976 0 0 0.599976 -364 450 2
@@ -10990,6 +11000,8 @@ StartChar: u1136B
 Encoding: 70507 70507 186
 Width: 0
 Flags: MW
+AnchorPoint: "high" -211 363 mark 0
+AnchorPoint: "higher" -211 363 mark 0
 LayerCount: 2
 Fore
 Refer: 12 3051 S 0.599976 0 0 0.599976 -360 453 2
@@ -10999,6 +11011,8 @@ StartChar: u1136C
 Encoding: 70508 70508 187
 Width: 0
 Flags: MW
+AnchorPoint: "high" -210 361 mark 0
+AnchorPoint: "higher" -210 361 mark 0
 LayerCount: 2
 Fore
 Refer: 13 3052 S 0.599976 0 0 0.599976 -357 451 2
@@ -11008,6 +11022,8 @@ StartChar: u11370
 Encoding: 70512 70512 188
 Width: 0
 Flags: MW
+AnchorPoint: "high" -210 358 mark 0
+AnchorPoint: "higher" -210 358 mark 0
 LayerCount: 2
 Fore
 Refer: 104 70405 S 0.472473 0 0 0.472473 -353 448 2
@@ -11017,6 +11033,8 @@ StartChar: u11371
 Encoding: 70513 70513 189
 Width: 0
 Flags: MW
+AnchorPoint: "high" -210 360 mark 0
+AnchorPoint: "higher" -210 360 mark 0
 LayerCount: 2
 Fore
 Refer: 116 70421 S 0.472473 0 0 0.472473 -345 450 2
@@ -11026,6 +11044,8 @@ StartChar: u11372
 Encoding: 70514 70514 190
 Width: 0
 Flags: MW
+AnchorPoint: "high" -210 304 mark 0
+AnchorPoint: "higher" -210 304 mark 0
 LayerCount: 2
 Fore
 Refer: 135 70440 S 0.37905 0 0 0.383668 -310 494 2
@@ -11035,6 +11055,8 @@ StartChar: u11373
 Encoding: 70515 70515 191
 Width: 0
 Flags: MW
+AnchorPoint: "high" -210 360 mark 0
+AnchorPoint: "higher" -210 360 mark 0
 LayerCount: 2
 Fore
 Refer: 152 70463 S 0.3465 0 0 0.3465 -112 450 2
@@ -11044,7 +11066,9 @@ EndChar
 StartChar: u11374
 Encoding: 70516 70516 192
 Width: 0
-Flags: MW
+Flags: MWO
+AnchorPoint: "high" -210 362 mark 0
+AnchorPoint: "higher" -210 362 mark 0
 LayerCount: 2
 Fore
 Refer: 167 2986 S 0.5 0 0 0.5 -296 452 2
@@ -11571,17 +11595,17 @@ AnchorPoint: "high" -211 347 mark 0
 LayerCount: 2
 Fore
 SplineSet
--371 632 m 28,0,-1
- -352 632 l 4,1,2
- -350 629 -350 629 -311 576 c 4,3,4
- -257.884765625 504 -257.884765625 504 -206 504 c 7,5,6
- -154.9609375 504 -154.9609375 504 -110 575 c 28,7,8
- -73 628 -73 628 -70 632 c 28,9,-1
- -52 632 l 28,10,11
- -56 550 -56 550 -102.5 499 c 132,-1,12
- -149 448 -149 448 -211 448 c 4,13,14
- -272 448 -272 448 -318 499 c 132,-1,15
- -364 550 -364 550 -371 632 c 28,0,-1
+-371 632 m 24,0,-1
+ -352 632 l 0,1,2
+ -350 629 -350 629 -311 576 c 0,3,4
+ -257.884765625 504 -257.884765625 504 -206 504 c 3,5,6
+ -154.9609375 504 -154.9609375 504 -110 575 c 24,7,8
+ -73 628 -73 628 -70 632 c 24,9,-1
+ -52 632 l 24,10,11
+ -56 550 -56 550 -102.5 499 c 128,-1,12
+ -149 448 -149 448 -211 448 c 0,13,14
+ -272 448 -272 448 -318 499 c 128,-1,15
+ -364 550 -364 550 -371 632 c 24,0,-1
 EndSplineSet
 Substitution2: "Accent marker rearrangement single substitution 36-1" uE4AA
 Substitution2: "Accent marker rearrangement single substitution 39-1" uE4AD
@@ -12174,9 +12198,11 @@ StartChar: u1CD3
 Encoding: 7379 7379 279
 Width: 0
 Flags: W
+AnchorPoint: "high" -210 350 mark 0
+AnchorPoint: "higher" -210 350 mark 0
 LayerCount: 2
 Fore
-Refer: 6 2405 N 0.4 0 0 0.4 -275 450 2
+Refer: 6 2405 S 0.4 0 0 0.4 -275 450 2
 EndChar
 
 StartChar: glyph280
@@ -12311,25 +12337,27 @@ Width: 660
 Flags: W
 LayerCount: 2
 Fore
-Refer: 194 7410 N 0 -1 1 0 81.494 467.506 2
+Refer: 194 7410 S 0 -1 1 0 81.494 467.506 2
 EndChar
 
 StartChar: uni1CD0
 Encoding: 7376 7376 283
 Width: 0
 Flags: W
+AnchorPoint: "high" -211 350 mark 0
+AnchorPoint: "higher" -211 350 mark 0
 LayerCount: 2
 Fore
 SplineSet
--362 475 m 260,0,1
- -362 498 -362 498 -347 498 c 6,2,-1
+-362 475 m 256,0,1
+ -362 498 -362 498 -347 498 c 2,2,-1
  -76 498 l 2,3,4
  -68 498 -68 498 -63.5 490.5 c 128,-1,5
  -59 483 -59 483 -59 474.5 c 128,-1,6
  -59 466 -59 466 -64.5 458.5 c 128,-1,7
  -70 451 -70 451 -78 451 c 2,8,-1
- -347 451 l 6,9,10
- -362 451 -362 451 -362 475 c 260,0,1
+ -347 451 l 2,9,10
+ -362 451 -362 451 -362 475 c 256,0,1
 EndSplineSet
 EndChar
 
@@ -12337,6 +12365,8 @@ StartChar: uni1CD2
 Encoding: 7378 7378 284
 Width: 0
 Flags: W
+AnchorPoint: "higher" -174 353 mark 0
+AnchorPoint: "high" -174 353 mark 0
 LayerCount: 2
 Fore
 SplineSet
