@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640129274
+ModificationTime: 1640132404
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -64,7 +64,11 @@ Lookup: 4 0 0 "'vatu' Vattu Variants" { "'vatu' Vattu Variants subtable"  } ['va
 Lookup: 1 0 0 "Single substitution 1" { "Single substitution 1-1"  } []
 Lookup: 1 0 0 "Single substitution 2" { "Single substitution 2-1"  } []
 Lookup: 1 0 0 "Single substitution 3" { "Single substitution 3-1"  } []
-Lookup: 4 0 0 "Ligature substitution 4" { "Ligature substitution 4-1"  } []
+Lookup: 1 0 0 "Single substitution 4" { "Single substitution 4-1"  } []
+Lookup: 1 0 0 "Single substitution 5" { "Single substitution 5-1"  } []
+Lookup: 1 0 0 "Single substitution 6" { "Single substitution 6-1"  } []
+Lookup: 1 0 0 "Single substitution 7" { "Single substitution 7-1"  } []
+Lookup: 4 0 0 "Ligature substitution 1" { "Ligature substitution 1-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 131" { "'psts' Post Base Forms lookup 131-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 56" { "Accent marker rearrangement single substitution 56-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 57" { "Accent marker rearrangement single substitution 57-1"  } []
@@ -196,25 +200,49 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning l
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: glyph "'psts' Post Base Forms lookup 131-1" 0 0 0 3
+ChainSub2: glyph "'psts' Post Base Forms lookup 131-1" 0 0 0 6
  String: 20 u1134D u11301 u1132F
  BString: 6 u1132F
  FString: 0
  2
   SeqLookup: 0 "Single substitution 1"
-  SeqLookup: 1 "Ligature substitution 4"
+  SeqLookup: 1 "Ligature substitution 1"
  String: 20 u1134D u11301 u11332
  BString: 6 u11332
  FString: 0
  2
   SeqLookup: 0 "Single substitution 2"
-  SeqLookup: 1 "Ligature substitution 4"
+  SeqLookup: 1 "Ligature substitution 1"
  String: 20 u1134D u11301 u11335
  BString: 6 u11335
  FString: 0
  2
   SeqLookup: 0 "Single substitution 3"
-  SeqLookup: 1 "Ligature substitution 4"
+  SeqLookup: 1 "Ligature substitution 1"
+ String: 34 u1132F u1134D u11301 u11347 u1132F
+ BString: 0
+ FString: 0
+ 4
+  SeqLookup: 0 "Single substitution 4"
+  SeqLookup: 1 "Single substitution 5"
+  SeqLookup: 2 "Single substitution 5"
+  SeqLookup: 3 "Ligature substitution 1"
+ String: 34 u11332 u1134D u11301 u11347 u11332
+ BString: 0
+ FString: 0
+ 4
+  SeqLookup: 0 "Single substitution 4"
+  SeqLookup: 1 "Single substitution 6"
+  SeqLookup: 2 "Single substitution 6"
+  SeqLookup: 3 "Ligature substitution 1"
+ String: 34 u11335 u1134D u11301 u11347 u11335
+ BString: 0
+ FString: 0
+ 4
+  SeqLookup: 0 "Single substitution 4"
+  SeqLookup: 1 "Single substitution 7"
+  SeqLookup: 2 "Single substitution 7"
+  SeqLookup: 3 "Ligature substitution 1"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 23-1" 0 0 0 2
  String: 5 uE481
@@ -5785,7 +5813,7 @@ AnchorPoint: "lower" -175 0 mark 0
 AnchorPoint: "lower" -175 -308 basemark 0
 LayerCount: 2
 Fore
-Refer: 140 70446 S 0.55 0 0 0.65 -310 -308 2
+Refer: 140 70446 N 0.55 0 0 0.65 -310 -308 2
 LCarets2: 1 0
 Ligature2: "'blwf' Below Base Forms (second stacked layer) subtable" u1134D u1132E
 EndChar
@@ -5798,7 +5826,7 @@ AnchorPoint: "low" -198 0 mark 0
 AnchorPoint: "lower" -198 -299 basemark 0
 LayerCount: 2
 Fore
-Refer: 141 70447 S 0.62 0 0 0.63 -401 -299 2
+Refer: 141 70447 N 0.62 0 0 0.63 -401 -299 2
 Ligature2: "'blwf' Below Base Forms (second stacked layer ya ra) subtable" u1134D u1132F
 LCarets2: 1 0
 EndChar
@@ -9123,6 +9151,7 @@ SplineSet
  60 389 60 389 69 395.5 c 128,-1,40
  78 402 78 402 92 402 c 0,0,1
 EndSplineSet
+Substitution2: "Single substitution 4-1" u11347
 EndChar
 
 StartChar: u11330
@@ -9224,6 +9253,7 @@ SplineSet
  260 170 260 170 251.5 192.5 c 128,-1,78
  243 215 243 215 243 262 c 0,0,1
 EndSplineSet
+Substitution2: "Single substitution 4-1" u11347
 Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-80 dv=0
 EndChar
 
@@ -9359,6 +9389,7 @@ SplineSet
  604 5 604 5 587 0 c 1,62,-1
  281 0 l 1,15,-1
 EndSplineSet
+Substitution2: "Single substitution 4-1" u11347
 EndChar
 
 StartChar: u11336
@@ -10268,6 +10299,9 @@ SplineSet
  74 446 74 446 108 446 c 0,36,37
  162 446 162 446 163 428.5 c 0,0,1
 EndSplineSet
+Substitution2: "Single substitution 7-1" u11335
+Substitution2: "Single substitution 6-1" u11332
+Substitution2: "Single substitution 5-1" u1132F
 Substitution2: "Single substitution 3-1" uE335
 Substitution2: "Single substitution 2-1" uE332
 Substitution2: "Single substitution 1-1" uE32F
@@ -10786,9 +10820,15 @@ SplineSet
  -55 490 -55 490 -200 490 c 3,38,39
  -351 490 -351 490 -351 624 c 0,12,13
 EndSplineSet
-Ligature2: "Ligature substitution 4-1" u11301 u11335
-Ligature2: "Ligature substitution 4-1" u11301 u11332
-Ligature2: "Ligature substitution 4-1" u11301 u1132F
+Substitution2: "Single substitution 7-1" uE335
+Substitution2: "Single substitution 6-1" uE332
+Substitution2: "Single substitution 5-1" uE32F
+Ligature2: "Ligature substitution 1-1" u11347 u11335
+Ligature2: "Ligature substitution 1-1" u11347 u11332
+Ligature2: "Ligature substitution 1-1" u11347 u1132F
+Ligature2: "Ligature substitution 1-1" u11301 u11335
+Ligature2: "Ligature substitution 1-1" u11301 u11332
+Ligature2: "Ligature substitution 1-1" u11301 u1132F
 Substitution2: "Accent marker rearrangement single substitution 55-1" u0952
 Substitution2: "Accent marker rearrangement single substitution 69-1" uE4CB
 Substitution2: "Accent marker rearrangement single substitution 68-1" uE4CA
