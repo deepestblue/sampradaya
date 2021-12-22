@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1639971865
+ModificationTime: 1639977101
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -2241,7 +2241,7 @@ Grid
 -1024 228.5 m 0
  2048 228.5 l 1024
 EndSplineSet
-AnchorClass2: "dummy" "'mkmk' Mark to Mark lookup 11-1" "higher" "'mkmk' Mark to Mark lookup 11-1" "high" "'mark' Mark Positioning lookup 10-1" "lower" "'mkmk' Mark to Mark lookup 11-1" "low" "'mark' Mark Positioning lookup 10-1"
+AnchorClass2: "right" "'mkmk' Mark to Mark lookup 11-1" "dummy" "'mkmk' Mark to Mark lookup 11-1" "higher" "'mkmk' Mark to Mark lookup 11-1" "high" "'mark' Mark Positioning lookup 10-1" "lower" "'mkmk' Mark to Mark lookup 11-1" "low" "'mark' Mark Positioning lookup 10-1"
 BeginChars: 1114114 330
 
 StartChar: .notdef
@@ -10302,8 +10302,10 @@ StartChar: u11366
 Encoding: 70502 70502 181
 Width: 0
 Flags: MW
+AnchorPoint: "right" -360 540 mark 0
 AnchorPoint: "high" -214 359 mark 0
 AnchorPoint: "higher" -214 359 mark 0
+AnchorPoint: "right" -117 540 basemark 0
 LayerCount: 2
 Fore
 Refer: 7 3046 N 0.541721 0 0 0.553303 -325 450 2
@@ -10313,8 +10315,10 @@ StartChar: u11367
 Encoding: 70503 70503 182
 Width: 0
 Flags: MW
+AnchorPoint: "right" -89 535 basemark 0
 AnchorPoint: "high" -215 360 mark 0
 AnchorPoint: "higher" -214 360 mark 0
+AnchorPoint: "right" -388 535 mark 0
 LayerCount: 2
 Fore
 Refer: 8 3047 S 0.599976 0 0 0.599976 -366 451 2
@@ -10324,19 +10328,23 @@ StartChar: u11368
 Encoding: 70504 70504 183
 Width: 0
 Flags: MW
+AnchorPoint: "right" -82 548 basemark 0
 AnchorPoint: "high" -205 362 mark 0
 AnchorPoint: "higher" -205 362 mark 0
+AnchorPoint: "right" -378 548 mark 0
 LayerCount: 2
 Fore
-Refer: 9 3048 S 0.599976 0 0 0.599976 -348 451 2
+Refer: 9 3048 N 0.599976 0 0 0.599976 -348 451 2
 EndChar
 
 StartChar: u11369
 Encoding: 70505 70505 184
 Width: 0
 Flags: MW
+AnchorPoint: "right" -113 544 basemark 0
 AnchorPoint: "high" -207 364 mark 0
 AnchorPoint: "higher" -207 364 mark 0
+AnchorPoint: "right" -352 544 mark 0
 LayerCount: 2
 Fore
 Refer: 10 3049 S 0.599976 0 0 0.599976 -322 453 2
@@ -10346,8 +10354,10 @@ StartChar: u1136A
 Encoding: 70506 70506 185
 Width: 0
 Flags: MW
+AnchorPoint: "right" -79 542 basemark 0
 AnchorPoint: "high" -212 362 mark 0
 AnchorPoint: "higher" -212 362 mark 0
+AnchorPoint: "right" -394 542 mark 0
 LayerCount: 2
 Fore
 Refer: 11 3050 S 0.599976 0 0 0.599976 -364 450 2
@@ -10357,8 +10367,10 @@ StartChar: u1136B
 Encoding: 70507 70507 186
 Width: 0
 Flags: MW
+AnchorPoint: "right" -87 546 basemark 0
 AnchorPoint: "high" -211 363 mark 0
 AnchorPoint: "higher" -211 363 mark 0
+AnchorPoint: "right" -385 546 mark 0
 LayerCount: 2
 Fore
 Refer: 12 3051 S 0.599976 0 0 0.599976 -360 453 2
@@ -10368,8 +10380,10 @@ StartChar: u1136C
 Encoding: 70508 70508 187
 Width: 0
 Flags: MW
+AnchorPoint: "right" -79 542 basemark 0
 AnchorPoint: "high" -210 361 mark 0
 AnchorPoint: "higher" -210 361 mark 0
+AnchorPoint: "right" -391 542 mark 0
 LayerCount: 2
 Fore
 Refer: 13 3052 S 0.599976 0 0 0.599976 -357 451 2
@@ -10379,8 +10393,10 @@ StartChar: u11370
 Encoding: 70512 70512 188
 Width: 0
 Flags: MW
+AnchorPoint: "right" -83 543 basemark 0
 AnchorPoint: "high" -210 358 mark 0
 AnchorPoint: "higher" -210 358 mark 0
+AnchorPoint: "right" -387 543 mark 0
 LayerCount: 2
 Fore
 Refer: 104 70405 S 0.472473 0 0 0.472473 -353 448 2
@@ -10390,8 +10406,10 @@ StartChar: u11371
 Encoding: 70513 70513 189
 Width: 0
 Flags: MW
+AnchorPoint: "right" -94 547 basemark 0
 AnchorPoint: "high" -210 360 mark 0
 AnchorPoint: "higher" -210 360 mark 0
+AnchorPoint: "right" -376 547 mark 0
 LayerCount: 2
 Fore
 Refer: 116 70421 S 0.472473 0 0 0.472473 -345 450 2
@@ -10401,8 +10419,10 @@ StartChar: u11372
 Encoding: 70514 70514 190
 Width: 0
 Flags: MW
+AnchorPoint: "right" -125 522 basemark 0
 AnchorPoint: "high" -210 304 mark 0
 AnchorPoint: "higher" -210 304 mark 0
+AnchorPoint: "right" -345 522 mark 0
 LayerCount: 2
 Fore
 Refer: 135 70440 S 0.37905 0 0 0.383668 -310 494 2
@@ -10412,8 +10432,10 @@ StartChar: u11373
 Encoding: 70515 70515 191
 Width: 0
 Flags: MW
+AnchorPoint: "right" -81 547 basemark 0
 AnchorPoint: "high" -210 360 mark 0
 AnchorPoint: "higher" -210 360 mark 0
+AnchorPoint: "right" -388 547 mark 0
 LayerCount: 2
 Fore
 Refer: 152 70463 S 0.3465 0 0 0.3465 -112 450 2
@@ -10424,8 +10446,10 @@ StartChar: u11374
 Encoding: 70516 70516 192
 Width: 0
 Flags: MWO
+AnchorPoint: "right" -136 552 basemark 0
 AnchorPoint: "high" -210 362 mark 0
 AnchorPoint: "higher" -210 362 mark 0
+AnchorPoint: "right" -334 552 basemark 0
 LayerCount: 2
 Fore
 Refer: 167 2986 S 0.5 0 0 0.5 -341 452 2
