@@ -12431,7 +12431,7 @@ LayerCount: 2
 Substitution2: "Accent marker rearrangement single substitution 55-1" u11301
 EndChar
 
-StartChar: uni1CF3
+StartChar: u1CF3
 Encoding: 7411 7411 282
 Width: 660
 Flags: W
@@ -12440,7 +12440,7 @@ Fore
 Refer: 194 7410 S 0 -1 1 0 81.494 467.506 2
 EndChar
 
-StartChar: uni1CD0
+StartChar: u1CD0
 Encoding: 7376 7376 283
 Width: 0
 Flags: W
@@ -12461,7 +12461,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni1CD2
+StartChar: u1CD2
 Encoding: 7378 7378 284
 Width: 0
 Flags: W
@@ -12485,7 +12485,7 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uni20F0
+StartChar: u20F0
 Encoding: 8432 8432 285
 Width: 0
 Flags: W
