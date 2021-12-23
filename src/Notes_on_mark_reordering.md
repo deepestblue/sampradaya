@@ -46,6 +46,6 @@ Order:
 * anudatta/svarita/dirghasvarita before post yakara
 * anudatta/svarita/dirghasvarita before post repha
 * anudatta before anunasika
-* i or I vowel markers and virama marker move before pre repha: 3, 6-7; 15-17
-* i or I vowel markers move before post yakara: 1, 4; 18-20
-* i or I vowel markers move before post repha: 2, 5; 21-23
+* i or I vowel markers and virama marker move before pre repha
+* i or I vowel markers move before post yakara
+* i or I vowel markers move before post repha
