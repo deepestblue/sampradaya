@@ -22,30 +22,30 @@ Legend:
 * B: Base Glyph
 * S<sub>2</sub>: 2<sup>nd</sup> level stacked conjunct consonant
 * S<sub>3</sub>: 3<sup>rd</sup> level stacked conjunct consonant
-* IV: i or I vowel marker
-* OV: Other vowel marker, incl. virama
-* Vi: Virama marker
-* An: Anunasika
-* Ay: Ayogavaha
+* IV: i or ī vowel marker
+* OV: Other vowel marker, incl. virāma
+* Vi: Virāma marker
+* An: Anunāsika
+* Ay: Ayōgavāha
 * UA: Underlay accent marker
 * OA: Overlay accent marker
-* Rp: Pre repha
-* Rk: Post repha
-* Y: Post yakara
+* Rp: Pre rēpha
+* Rk: Post rēpha
+* Y: Post yakāra
 * P: Pluta marker
 
 Order:
 
-* anunasika moves before all vowel markers and virama
-* anunasika moves before pre repha
-* anunasika moves before post yakara
-* anunasika moves before post repha
-* anudatta/svarita/dirghasvarita before anusvara, visarga and ardhavisarga
-* anudatta/svarita/dirghasvarita before all vowel markers and virama, except for the haln cases
-* anudatta/svarita/dirghasvarita before pre repha
-* anudatta/svarita/dirghasvarita before post yakara
-* anudatta/svarita/dirghasvarita before post repha
-* anudatta before anunasika
-* i or I vowel markers and virama marker move before pre repha
-* i or I vowel markers move before post yakara
-* i or I vowel markers move before post repha
+* Anunāsika before all vowel markers and virāma
+* Anunāsika before pre rēpha
+* Anunāsika before post yakāra
+* Anunāsika before post rēpha
+* Accent markers before anusvāra, visarga and ardhavisarga
+* Accent markers before all vowel markers and virāma, except for the haln cases
+* Accent markers before pre rēpha
+* Accent markers before post yakāra
+* Accent markers before post rēpha
+* Anudātta before anunāsika
+* i or ī vowel markers and virāma marker before pre rēpha
+* i or ī vowel markers before post yakāra
+* i or ī vowel markers before post rēpha
