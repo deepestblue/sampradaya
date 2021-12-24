@@ -34,9 +34,9 @@ Legend:
 * Y: Post yakara
 * P: Pluta marker
 
-Raw:
+Order:
 
-* anunasika moves before all vowel markers and virama: 56-66; 24-26
+* anunasika moves before all vowel markers and virama
 * anunasika moves before e200, i.e. pre repha: 67; 27-29
 * anunasika moves before post yakara: 68; 30-32
 * anunasika moves before post repha: 69; 33-35
