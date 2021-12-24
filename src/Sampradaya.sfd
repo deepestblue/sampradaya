@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640132404
+ModificationTime: 1640139258
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -61,15 +61,15 @@ Lookup: 6 0 0 "'rkrf' Rakara Forms" { "'rkrf' Rakara Forms (do nothing)"  "'rkrf
 Lookup: 6 0 0 "'pstf' Post Base Forms lookup (post yakara)" { "'pstf' Post Base Forms lookup (do nothing)"  "'pstf' Post Base Forms lookup (post yakara form)"  } ['pstf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'blwf' Below Base Forms (second stacked layer ya ra)" { "'blwf' Below Base Forms (second stacked layer ya ra) subtable"  } ['blwf' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 4 0 0 "'vatu' Vattu Variants" { "'vatu' Vattu Variants subtable"  } ['vatu' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Single substitution 1" { "Single substitution 1-1"  } []
-Lookup: 1 0 0 "Single substitution 2" { "Single substitution 2-1"  } []
-Lookup: 1 0 0 "Single substitution 3" { "Single substitution 3-1"  } []
-Lookup: 1 0 0 "Single substitution 4" { "Single substitution 4-1"  } []
-Lookup: 1 0 0 "Single substitution 5" { "Single substitution 5-1"  } []
-Lookup: 1 0 0 "Single substitution 6" { "Single substitution 6-1"  } []
-Lookup: 1 0 0 "Single substitution 7" { "Single substitution 7-1"  } []
-Lookup: 4 0 0 "Ligature substitution 1" { "Ligature substitution 1-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 131" { "'psts' Post Base Forms lookup 131-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Single substitution lower ya" { "Single substitution 1-1"  } []
+Lookup: 1 0 0 "Single substitution lower la" { "Single substitution 2-1"  } []
+Lookup: 1 0 0 "Single substitution lower va" { "Single substitution 3-1"  } []
+Lookup: 1 0 0 "Single substitution E marker" { "Single substitution 4-1"  } []
+Lookup: 1 0 0 "Single substitution ya" { "Single substitution 5-1"  } []
+Lookup: 1 0 0 "Single substitution la" { "Single substitution 6-1"  } []
+Lookup: 1 0 0 "Single substitution va" { "Single substitution 7-1"  } []
+Lookup: 4 0 0 "Ligature substitution to anunasika" { "Ligature substitution 1-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup intraconsontal anunasika" { "'psts' Post Base Forms lookup 131-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 56" { "Accent marker rearrangement single substitution 56-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 57" { "Accent marker rearrangement single substitution 57-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 58" { "Accent marker rearrangement single substitution 58-1"  } []
@@ -205,44 +205,44 @@ ChainSub2: glyph "'psts' Post Base Forms lookup 131-1" 0 0 0 6
  BString: 6 u1132F
  FString: 0
  2
-  SeqLookup: 0 "Single substitution 1"
-  SeqLookup: 1 "Ligature substitution 1"
+  SeqLookup: 0 "Single substitution lower ya"
+  SeqLookup: 1 "Ligature substitution to anunasika"
  String: 20 u1134D u11301 u11332
  BString: 6 u11332
  FString: 0
  2
-  SeqLookup: 0 "Single substitution 2"
-  SeqLookup: 1 "Ligature substitution 1"
+  SeqLookup: 0 "Single substitution lower la"
+  SeqLookup: 1 "Ligature substitution to anunasika"
  String: 20 u1134D u11301 u11335
  BString: 6 u11335
  FString: 0
  2
-  SeqLookup: 0 "Single substitution 3"
-  SeqLookup: 1 "Ligature substitution 1"
+  SeqLookup: 0 "Single substitution lower va"
+  SeqLookup: 1 "Ligature substitution to anunasika"
  String: 34 u1132F u1134D u11301 u11347 u1132F
  BString: 0
  FString: 0
  4
-  SeqLookup: 0 "Single substitution 4"
-  SeqLookup: 1 "Single substitution 5"
-  SeqLookup: 2 "Single substitution 5"
-  SeqLookup: 3 "Ligature substitution 1"
+  SeqLookup: 0 "Single substitution E marker"
+  SeqLookup: 1 "Single substitution ya"
+  SeqLookup: 2 "Single substitution lower ya"
+  SeqLookup: 3 "Ligature substitution to anunasika"
  String: 34 u11332 u1134D u11301 u11347 u11332
  BString: 0
  FString: 0
  4
-  SeqLookup: 0 "Single substitution 4"
-  SeqLookup: 1 "Single substitution 6"
-  SeqLookup: 2 "Single substitution 6"
-  SeqLookup: 3 "Ligature substitution 1"
+  SeqLookup: 0 "Single substitution E marker"
+  SeqLookup: 1 "Single substitution la"
+  SeqLookup: 2 "Single substitution lower la"
+  SeqLookup: 3 "Ligature substitution to anunasika"
  String: 34 u11335 u1134D u11301 u11347 u11335
  BString: 0
  FString: 0
  4
-  SeqLookup: 0 "Single substitution 4"
-  SeqLookup: 1 "Single substitution 7"
-  SeqLookup: 2 "Single substitution 7"
-  SeqLookup: 3 "Ligature substitution 1"
+  SeqLookup: 0 "Single substitution E marker"
+  SeqLookup: 1 "Single substitution va"
+  SeqLookup: 2 "Single substitution lower va"
+  SeqLookup: 3 "Ligature substitution to anunasika"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup 23-1" 0 0 0 2
  String: 5 uE481
@@ -10177,9 +10177,9 @@ SplineSet
  -55 490 -55 490 -200 490 c 3,38,39
  -351 490 -351 490 -351 624 c 0,12,13
 EndSplineSet
-Substitution2: "Single substitution 7-1" uE335
-Substitution2: "Single substitution 6-1" uE332
-Substitution2: "Single substitution 5-1" uE32F
+Substitution2: "Single substitution 3-1" uE335
+Substitution2: "Single substitution 2-1" uE332
+Substitution2: "Single substitution 1-1" uE32F
 Ligature2: "Ligature substitution 1-1" u11347 u11335
 Ligature2: "Ligature substitution 1-1" u11347 u11332
 Ligature2: "Ligature substitution 1-1" u11347 u1132F
