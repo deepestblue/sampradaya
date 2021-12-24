@@ -187,182 +187,182 @@ ChainSub2: class "'psts' Post Base Substitutions lookup accent markers before vo
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup accent markers before vowel markers and virama-1" 0 0 0 30
  String: 12 u1133E u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133E u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133E u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133F u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution i marker"
  String: 12 u1133F u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution i marker"
  String: 12 u1133F u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution i marker"
  String: 12 u11340 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11340 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11340 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11341 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution u marker"
  String: 12 u11341 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution u marker"
  String: 12 u11341 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution u marker"
  String: 12 u11342 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11342 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11342 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11343 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution r marker"
  String: 12 u11343 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution r marker"
  String: 12 u11343 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution r marker"
  String: 12 u11344 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11344 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11344 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11362 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution l marker"
  String: 12 u11362 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution l marker"
  String: 12 u11362 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution l marker"
  String: 12 u11363 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution L marker"
  String: 12 u11363 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution L marker"
  String: 12 u11363 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution L marker"
  String: 12 u11357 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution au marker"
  String: 12 u11357 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution au marker"
  String: 12 u11357 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution au marker"
@@ -6358,7 +6358,7 @@ Flags: MW
 AnchorPoint: "high" 320 406 basechar 0
 LayerCount: 2
 Fore
-Refer: 266 2953 N 1 0 0 1 0 0 2
+Refer: 233 2953 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1130A
@@ -6368,7 +6368,7 @@ Flags: MW
 AnchorPoint: "high" 370 402 basechar 0
 LayerCount: 2
 Fore
-Refer: 267 2954 N 1 0 0 1 0 0 2
+Refer: 234 2954 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1130B
@@ -7720,7 +7720,7 @@ AnchorPoint: "high" 480 412 basechar 0
 AnchorPoint: "low" 481 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 260 2979 N 1 0 0 1 0 0 2
+Refer: 227 2979 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11324
@@ -7731,7 +7731,7 @@ AnchorPoint: "high" 289 408 basechar 0
 AnchorPoint: "low" 290 -200 basechar 0
 LayerCount: 2
 Fore
-Refer: 279 2980 N 1 0 0 1 0 0 2
+Refer: 246 2980 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11325
@@ -7913,7 +7913,7 @@ AnchorPoint: "high" 263 408 basechar 0
 AnchorPoint: "low" 264 -260 basechar 0
 LayerCount: 2
 Fore
-Refer: 280 2984 S 1 0 0 1 0 0 2
+Refer: 247 2984 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1132A
@@ -8253,7 +8253,7 @@ AnchorPoint: "high" 326 402 basechar 0
 AnchorPoint: "low" 327 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 283 2991 N 1 0 0 1 0 0 2
+Refer: 250 2991 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution 4-1" u11347
 EndChar
 
@@ -8442,7 +8442,7 @@ AnchorPoint: "high" 318 403 basechar 0
 AnchorPoint: "low" 318 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 289 2997 N 1 0 0 1 0 0 2
+Refer: 256 2997 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution 4-1" u11347
 EndChar
 
@@ -8815,7 +8815,7 @@ Width: 446
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 290 3006 N 1 0 0 1 0 0 2
+Refer: 257 3006 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -8828,7 +8828,7 @@ Width: 145
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 291 3007 N 1 0 0 1 0 0 2
+Refer: 258 3007 N 1 0 0 1 0 0 2
 Kerns2: 40 -20 "'dist' Distance lookup intra-post-base marker 2-2" 41 -30 "'dist' Distance lookup intra-post-base marker 2-2"
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
@@ -8849,7 +8849,7 @@ Width: 193
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 292 3008 N 1 0 0 1 0 0 2
+Refer: 259 3008 N 1 0 0 1 0 0 2
 Kerns2: 40 -125 "'dist' Distance lookup intra-post-base marker 2-2" 41 -110 "'dist' Distance lookup intra-post-base marker 2-2" 42 -120 "'dist' Distance lookup intra-post-base marker 2-2" 43 -120 "'dist' Distance lookup intra-post-base marker 2-2" 170 -120 "'dist' Distance lookup intra-post-base marker 2-2"
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
@@ -8867,7 +8867,7 @@ Width: 410
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 293 3009 N 1 0 0 1 0 0 2
+Refer: 260 3009 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -8880,7 +8880,7 @@ Width: 415
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 294 3010 N 1 0 0 1 0 0 2
+Refer: 261 3010 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -8998,7 +8998,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 295 3014 N 1 0 0 1 0 0 2
+Refer: 262 3014 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11348
@@ -9099,7 +9099,7 @@ Width: 1486
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 298 3018 S 1 0 0 1 0 0 2
+Refer: 265 3018 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1134C
@@ -9108,7 +9108,7 @@ Width: 1672
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 300 3020 N 1 0 0 1 0 0 2
+Refer: 267 3020 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1134D
@@ -9254,7 +9254,7 @@ Width: 673
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 303 3031 N 1 0 0 1 0 0 2
+Refer: 270 3031 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -10650,8 +10650,72 @@ SplineSet
 EndSplineSet
 EndChar
 
+StartChar: u1CF3
+Encoding: 7411 7411 223
+Width: 660
+Flags: W
+LayerCount: 2
+Fore
+Refer: 194 7410 S 0 -1 1 0 81.494 467.506 2
+Substitution2: "Single substitution dirghasvarita-1" u0951
+Substitution2: "Single substitution svarita-1" u1CF4
+Substitution2: "Single substitution anudatta-1" u0952
+EndChar
+
+StartChar: u1CD0
+Encoding: 7376 7376 224
+Width: 0
+Flags: W
+AnchorPoint: "high" -211 350 mark 0
+AnchorPoint: "higher" -211 350 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-362 475 m 256,0,1
+ -362 498 -362 498 -347 498 c 2,2,-1
+ -76 498 l 2,3,4
+ -68 498 -68 498 -63.5 490.5 c 128,-1,5
+ -59 483 -59 483 -59 474.5 c 128,-1,6
+ -59 466 -59 466 -64.5 458.5 c 128,-1,7
+ -70 451 -70 451 -78 451 c 2,8,-1
+ -347 451 l 2,9,10
+ -362 451 -362 451 -362 475 c 256,0,1
+EndSplineSet
+EndChar
+
+StartChar: u1CD2
+Encoding: 7378 7378 225
+Width: 0
+Flags: W
+AnchorPoint: "higher" -174 353 mark 0
+AnchorPoint: "high" -174 353 mark 0
+LayerCount: 2
+Fore
+SplineSet
+-338.647460938 453.037109375 m 4,0,1
+ -346.15234375 466.499023438 -346.15234375 466.499023438 -337.649414062 471.408203125 c 6,2,-1
+ -181.384765625 561.626953125 l 6,3,4
+ -176.145507812 566.131835938 -176.145507812 566.131835938 -170.484375 562.86328125 c 6,5,-1
+ -13.240234375 472.078125 l 6,6,7
+ -8.5986328125 469.3984375 -8.5986328125 469.3984375 -8.5 463.5390625 c 132,-1,8
+ -8.400390625 457.6796875 -8.400390625 457.6796875 -11.248046875 452.747070312 c 132,-1,9
+ -14.095703125 447.815429688 -14.095703125 447.815429688 -19.7998046875 445.306640625 c 132,-1,10
+ -25.5029296875 442.796875 -25.5029296875 442.796875 -30.1455078125 445.4765625 c 6,11,-1
+ -174.864257812 529.030273438 l 5,12,-1
+ -321.904296875 444.13671875 l 6,13,14
+ -330.639648438 438.844726562 -330.639648438 438.844726562 -338.647460938 453.037109375 c 4,0,1
+EndSplineSet
+EndChar
+
+StartChar: u20F0
+Encoding: 8432 8432 226
+Width: 0
+Flags: W
+LayerCount: 2
+EndChar
+
 StartChar: uni0BA3
-Encoding: 2979 2979 260
+Encoding: 2979 2979 227
 Width: 967
 Flags: W
 LayerCount: 2
@@ -10734,7 +10798,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B83
-Encoding: 2947 2947 261
+Encoding: 2947 2947 228
 Width: 750
 Flags: W
 LayerCount: 2
@@ -10807,7 +10871,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B85
-Encoding: 2949 2949 262
+Encoding: 2949 2949 229
 Width: 630
 Flags: W
 LayerCount: 2
@@ -10866,7 +10930,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B86
-Encoding: 2950 2950 263
+Encoding: 2950 2950 230
 Width: 674
 Flags: W
 LayerCount: 2
@@ -10956,7 +11020,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B87
-Encoding: 2951 2951 264
+Encoding: 2951 2951 231
 Width: 704
 VWidth: 1000
 Flags: W
@@ -11038,7 +11102,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B88
-Encoding: 2952 2952 265
+Encoding: 2952 2952 232
 Width: 736
 Flags: W
 LayerCount: 2
@@ -11106,7 +11170,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B89
-Encoding: 2953 2953 266
+Encoding: 2953 2953 233
 Width: 613
 Flags: W
 LayerCount: 2
@@ -11171,7 +11235,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B8A
-Encoding: 2954 2954 267
+Encoding: 2954 2954 234
 Width: 736
 Flags: W
 LayerCount: 2
@@ -11229,7 +11293,7 @@ Refer: 164 70487 N 0.6 0 0 0.6 318 84 2
 EndChar
 
 StartChar: uni0B8E
-Encoding: 2958 2958 268
+Encoding: 2958 2958 235
 Width: 598
 Flags: W
 LayerCount: 2
@@ -11267,7 +11331,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B8F
-Encoding: 2959 2959 269
+Encoding: 2959 2959 236
 Width: 598
 Flags: W
 LayerCount: 2
@@ -11309,7 +11373,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B90
-Encoding: 2960 2960 270
+Encoding: 2960 2960 237
 Width: 722
 Flags: W
 LayerCount: 2
@@ -11389,7 +11453,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B92
-Encoding: 2962 2962 271
+Encoding: 2962 2962 238
 Width: 578
 Flags: W
 LayerCount: 2
@@ -11574,7 +11638,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B93
-Encoding: 2963 2963 272
+Encoding: 2963 2963 239
 Width: 578
 Flags: W
 LayerCount: 2
@@ -11653,17 +11717,17 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B94
-Encoding: 2964 2964 273
+Encoding: 2964 2964 240
 Width: 1158
 Flags: W
 LayerCount: 2
 Fore
-Refer: 271 2962 S 1 0 0 1 0 0 2
-Refer: 303 3031 N 1 0 0 1 519 0 2
+Refer: 238 2962 S 1 0 0 1 0 0 2
+Refer: 270 3031 N 1 0 0 1 519 0 2
 EndChar
 
 StartChar: uni0B95
-Encoding: 2965 2965 274
+Encoding: 2965 2965 241
 Width: 665
 Flags: W
 LayerCount: 2
@@ -11722,7 +11786,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B99
-Encoding: 2969 2969 275
+Encoding: 2969 2969 242
 Width: 659
 Flags: W
 LayerCount: 2
@@ -11775,7 +11839,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B9A
-Encoding: 2970 2970 276
+Encoding: 2970 2970 243
 Width: 610
 Flags: W
 LayerCount: 2
@@ -11823,7 +11887,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B9E
-Encoding: 2974 2974 277
+Encoding: 2974 2974 244
 Width: 762
 Flags: W
 LayerCount: 2
@@ -11890,7 +11954,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B9F
-Encoding: 2975 2975 278
+Encoding: 2975 2975 245
 Width: 660
 Flags: W
 LayerCount: 2
@@ -11913,7 +11977,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA4
-Encoding: 2980 2980 279
+Encoding: 2980 2980 246
 Width: 580
 Flags: W
 LayerCount: 2
@@ -12008,7 +12072,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA8
-Encoding: 2984 2984 280
+Encoding: 2984 2984 247
 Width: 522
 Flags: W
 LayerCount: 2
@@ -12063,7 +12127,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA9
-Encoding: 2985 2985 281
+Encoding: 2985 2985 248
 Width: 754
 Flags: W
 LayerCount: 2
@@ -12126,7 +12190,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BAE
-Encoding: 2990 2990 282
+Encoding: 2990 2990 249
 Width: 572
 Flags: W
 LayerCount: 2
@@ -12163,7 +12227,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BAF
-Encoding: 2991 2991 283
+Encoding: 2991 2991 250
 Width: 665
 Flags: W
 LayerCount: 2
@@ -12204,7 +12268,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB0
-Encoding: 2992 2992 284
+Encoding: 2992 2992 251
 Width: 539
 Flags: W
 LayerCount: 2
@@ -12237,7 +12301,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB1
-Encoding: 2993 2993 285
+Encoding: 2993 2993 252
 Width: 627
 Flags: W
 LayerCount: 2
@@ -12294,7 +12358,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB2
-Encoding: 2994 2994 286
+Encoding: 2994 2994 253
 Width: 665
 Flags: W
 LayerCount: 2
@@ -12355,16 +12419,16 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB3
-Encoding: 2995 2995 287
+Encoding: 2995 2995 254
 Width: 673
 Flags: W
 LayerCount: 2
 Fore
-Refer: 303 3031 N 1 0 0 1 0 0 2
+Refer: 270 3031 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0BB4
-Encoding: 2996 2996 288
+Encoding: 2996 2996 255
 Width: 550
 Flags: W
 LayerCount: 2
@@ -12431,7 +12495,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB5
-Encoding: 2997 2997 289
+Encoding: 2997 2997 256
 Width: 665
 Flags: W
 LayerCount: 2
@@ -12489,7 +12553,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BBE
-Encoding: 3006 3006 290
+Encoding: 3006 3006 257
 Width: 446
 Flags: W
 LayerCount: 2
@@ -12519,7 +12583,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BBF
-Encoding: 3007 3007 291
+Encoding: 3007 3007 258
 Width: 145
 Flags: W
 LayerCount: 2
@@ -12552,7 +12616,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC0
-Encoding: 3008 3008 292
+Encoding: 3008 3008 259
 Width: 193
 Flags: W
 LayerCount: 2
@@ -12600,7 +12664,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC1
-Encoding: 3009 3009 293
+Encoding: 3009 3009 260
 Width: 410
 Flags: W
 LayerCount: 2
@@ -12634,7 +12698,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC2
-Encoding: 3010 3010 294
+Encoding: 3010 3010 261
 Width: 415
 Flags: W
 LayerCount: 2
@@ -12696,7 +12760,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC6
-Encoding: 3014 3014 295
+Encoding: 3014 3014 262
 Width: 613
 Flags: W
 LayerCount: 2
@@ -12745,7 +12809,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC7
-Encoding: 3015 3015 296
+Encoding: 3015 3015 263
 Width: 465
 Flags: W
 LayerCount: 2
@@ -12797,7 +12861,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC8
-Encoding: 3016 3016 297
+Encoding: 3016 3016 264
 Width: 668
 Flags: W
 LayerCount: 2
@@ -12861,40 +12925,40 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BCA
-Encoding: 3018 3018 298
+Encoding: 3018 3018 265
 Width: 1486
 Flags: W
 LayerCount: 2
 Fore
-Refer: 290 3006 N 1 0 0 1 1040 0 2
-Refer: 295 3014 N 1 0 0 1 0 0 2
+Refer: 257 3006 N 1 0 0 1 1040 0 2
+Refer: 262 3014 N 1 0 0 1 0 0 2
 Refer: 196 9676 N 1 0 0 1 566 0 2
 EndChar
 
 StartChar: uni0BCB
-Encoding: 3019 3019 299
+Encoding: 3019 3019 266
 Width: 1293
 Flags: W
 LayerCount: 2
 Fore
-Refer: 290 3006 N 1 0 0 1 883 0 2
+Refer: 257 3006 N 1 0 0 1 883 0 2
 Refer: 196 9676 N 1 0 0 1 410 0 2
-Refer: 296 3015 N 1 0 0 1 0 0 2
+Refer: 263 3015 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0BCC
-Encoding: 3020 3020 300
+Encoding: 3020 3020 267
 Width: 1672
 Flags: W
 LayerCount: 2
 Fore
-Refer: 303 3031 N 1 0 0 1 999 0 2
-Refer: 295 3014 N 1 0 0 1 0 0 2
+Refer: 270 3031 N 1 0 0 1 999 0 2
+Refer: 262 3014 N 1 0 0 1 0 0 2
 Refer: 196 9676 N 1 0 0 1 553 0 2
 EndChar
 
 StartChar: uni0BCD
-Encoding: 3021 3021 301
+Encoding: 3021 3021 268
 Width: 0
 Flags: W
 LayerCount: 2
@@ -12913,7 +12977,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BD0
-Encoding: 3024 3024 302
+Encoding: 3024 3024 269
 Width: 578
 Flags: W
 LayerCount: 2
@@ -13018,7 +13082,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BD7
-Encoding: 3031 3031 303
+Encoding: 3031 3031 270
 Width: 673
 Flags: W
 LayerCount: 2
@@ -13067,70 +13131,6 @@ SplineSet
  164 195 164 195 140 200 c 128,-1,63
  116 205 116 205 91 205 c 1,48,49
 EndSplineSet
-EndChar
-
-StartChar: u1CF3
-Encoding: 7411 7411 256
-Width: 660
-Flags: W
-LayerCount: 2
-Fore
-Refer: 194 7410 S 0 -1 1 0 81.494 467.506 2
-Substitution2: "Single substitution dirghasvarita-1" u0951
-Substitution2: "Single substitution svarita-1" u1CF4
-Substitution2: "Single substitution anudatta-1" u0952
-EndChar
-
-StartChar: u1CD0
-Encoding: 7376 7376 257
-Width: 0
-Flags: W
-AnchorPoint: "high" -211 350 mark 0
-AnchorPoint: "higher" -211 350 mark 0
-LayerCount: 2
-Fore
-SplineSet
--362 475 m 256,0,1
- -362 498 -362 498 -347 498 c 2,2,-1
- -76 498 l 2,3,4
- -68 498 -68 498 -63.5 490.5 c 128,-1,5
- -59 483 -59 483 -59 474.5 c 128,-1,6
- -59 466 -59 466 -64.5 458.5 c 128,-1,7
- -70 451 -70 451 -78 451 c 2,8,-1
- -347 451 l 2,9,10
- -362 451 -362 451 -362 475 c 256,0,1
-EndSplineSet
-EndChar
-
-StartChar: u1CD2
-Encoding: 7378 7378 258
-Width: 0
-Flags: W
-AnchorPoint: "higher" -174 353 mark 0
-AnchorPoint: "high" -174 353 mark 0
-LayerCount: 2
-Fore
-SplineSet
--338.647460938 453.037109375 m 4,0,1
- -346.15234375 466.499023438 -346.15234375 466.499023438 -337.649414062 471.408203125 c 6,2,-1
- -181.384765625 561.626953125 l 6,3,4
- -176.145507812 566.131835938 -176.145507812 566.131835938 -170.484375 562.86328125 c 6,5,-1
- -13.240234375 472.078125 l 6,6,7
- -8.5986328125 469.3984375 -8.5986328125 469.3984375 -8.5 463.5390625 c 132,-1,8
- -8.400390625 457.6796875 -8.400390625 457.6796875 -11.248046875 452.747070312 c 132,-1,9
- -14.095703125 447.815429688 -14.095703125 447.815429688 -19.7998046875 445.306640625 c 132,-1,10
- -25.5029296875 442.796875 -25.5029296875 442.796875 -30.1455078125 445.4765625 c 6,11,-1
- -174.864257812 529.030273438 l 5,12,-1
- -321.904296875 444.13671875 l 6,13,14
- -330.639648438 438.844726562 -330.639648438 438.844726562 -338.647460938 453.037109375 c 4,0,1
-EndSplineSet
-EndChar
-
-StartChar: u20F0
-Encoding: 8432 8432 259
-Width: 0
-Flags: W
-LayerCount: 2
 EndChar
 
 StartChar: u1CD3
