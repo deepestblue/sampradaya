@@ -12804,7 +12804,7 @@ Fore
 Refer: 6 2405 S 0.4 0 0 0.4 -275 450 2
 EndChar
 
-StartChar: glyph324
+StartChar: origDottedCircle
 Encoding: 1114113 -1 256
 Width: 504
 Flags: W
