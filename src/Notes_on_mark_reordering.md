@@ -40,8 +40,8 @@ Order:
 * anunasika moves before pre repha
 * anunasika moves before post yakara
 * anunasika moves before post repha
-* anudatta/svarita/dirghasvarita before anusvara, visarga and ardhavisarga: 34-42; 56-58
-* anudatta/svarita/dirghasvarita before all vowel markers and virama, except for the haln cases: 1-33; 62-64
+* anudatta/svarita/dirghasvarita before anusvara, visarga and ardhavisarga
+* anudatta/svarita/dirghasvarita before all vowel markers and virama, except for the haln cases
 * anudatta/svarita/dirghasvarita before pre repha: 46-48; 89-91
 * anudatta/svarita/dirghasvarita before post yakara: 49-51; 92-94
 * anudatta/svarita/dirghasvarita before post repha: 52-54; 95-97
