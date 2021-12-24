@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640258223
+ModificationTime: 1640260707
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -69,7 +69,6 @@ Lookup: 1 0 0 "Single substitution ya" { "Single substitution 5-1"  } []
 Lookup: 1 0 0 "Single substitution la" { "Single substitution 6-1"  } []
 Lookup: 1 0 0 "Single substitution va" { "Single substitution 7-1"  } []
 Lookup: 4 0 0 "Ligature substitution anunasika" { "Ligature substitution 1-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup intraconsontal anunasika" { "'psts' Post Base Forms lookup 131-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Single substitution anunasika" { "Single substitution anunasika-1"  } []
 Lookup: 1 0 0 "Single substitution A marker" { "Single substitution A marker-1"  } []
 Lookup: 1 0 0 "Single substitution i marker" { "Single substitution i marker-1"  } []
@@ -92,6 +91,7 @@ Lookup: 1 0 0 "Single substitution anusvara" { "Single substitution anusvara-1" 
 Lookup: 1 0 0 "Single substitution visarga" { "Single substitution visarga-1"  } []
 Lookup: 1 0 0 "Single substitution ardhavisarga" { "Single substitution ardhavisarga-1"  } []
 Lookup: 1 0 0 "Single substitution rotated ardhavisarga" { "Single substitution rotated ardhavisarga-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup intraconsontal anunasika" { "'psts' Post Base Forms lookup 131-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before vowel markers" { "'psts' Post Base Substitutions lookup anunasika before vowel markers-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before pre repha" { "'psts' Post Base Substitutions lookup anunasika before pre repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before post ya" { "'psts' Post Base Substitutions lookup anunasika before post ya-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -102,22 +102,9 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before pre rep
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before post ya" { "'psts' Post Base Substitutions lookup accent marks before post ya-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before post repha" { "'psts' Post Base Substitutions lookup accent marks before post repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anudatta before anunasika" { "'psts' Post Base Substitutions lookup anudatta before anunasika-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 3" { "Vowel marker rearrangement single substitution 3-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 6" { "Vowel marker rearrangement single substitution 6-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 7" { "Vowel marker rearrangement single substitution 7-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 15" { "'psts' Post Base Substitutions lookup 15-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 16" { "'psts' Post Base Substitutions lookup 16-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 17" { "'psts' Post Base Substitutions lookup 17-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 1" { "Vowel marker rearrangement single substitution 1-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 4" { "Vowel marker rearrangement single substitution 4-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 18" { "'psts' Post Base Substitutions lookup 18-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 19" { "'psts' Post Base Substitutions lookup 19-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 20" { "'psts' Post Base Substitutions lookup 20-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 2" { "Vowel marker rearrangement single substitution 2-1"  } []
-Lookup: 1 0 0 "Vowel marker rearrangement single substitution 5" { "Vowel marker rearrangement single substitution 5-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 21" { "'psts' Post Base Substitutions lookup 21-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 22" { "'psts' Post Base Substitutions lookup 22-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 23" { "'psts' Post Base Substitutions lookup 23-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup i/I markers and virama before pre repha" { "'psts' Post Base Substitutions lookup i/I markers and virama before pre repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup i/I markers before post ya" { "'psts' Post Base Substitutions lookup i/I markers before post ya-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup i/I markers before post repha" { "'psts' Post Base Substitutions lookup i/I markers before post repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Single Substitution lookup 1" { "Single Substitution lookup 1-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 2" { "Single Substitution lookup 2-1"  } []
 Lookup: 1 0 0 "Single Substitution lookup 8" { "Single Substitution lookup 8-1"  } []
@@ -136,6 +123,54 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning l
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup i/I markers before post repha-1" 0 0 0 2
+ String: 12 uE205 u1133F
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution i marker"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11340
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution I marker"
+  SeqLookup: 1 "Single substitution post repha"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup i/I markers before post ya-1" 0 0 0 2
+ String: 12 uE201 u1133F
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution i marker"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11340
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution I marker"
+  SeqLookup: 1 "Single substitution post ya"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup i/I markers and virama before pre repha-1" 0 0 0 3
+ String: 12 uE200 u1133F
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution i marker"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11340
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution I marker"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u1134D
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution virama"
+  SeqLookup: 1 "Single substitution pre repha"
+EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup anudatta before anunasika-1" 0 0 0 1
  String: 12 u11301 u0952
  BString: 0 
@@ -627,93 +662,6 @@ ChainSub2: glyph "'psts' Post Base Forms lookup 131-1" 0 0 0 6
   SeqLookup: 2 "Single substitution lower va"
   SeqLookup: 3 "Ligature substitution anunasika"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 23-1" 0 0 0 2
- String: 5 uE481
- BString: 6 u1133F
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 2"
- String: 5 uE484
- BString: 6 u11340
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 5"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 22-1" 0 0 0 2
- String: 5 uE205
- BString: 0 
- FString: 5 uE481
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 2"
- String: 5 uE205
- BString: 0 
- FString: 5 uE484
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 5"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 21-1" 0 0 0 2
- String: 6 u1133F
- BString: 5 uE205
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 2"
- String: 6 u11340
- BString: 5 uE205
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 5"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 17-1" 0 0 0 3
- String: 5 uE482
- BString: 6 u1133F
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 3"
- String: 5 uE485
- BString: 6 u11340
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 6"
- String: 5 uE486
- BString: 6 u1134D
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 16-1" 0 0 0 3
- String: 5 uE200
- BString: 0 
- FString: 5 uE482
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 3"
- String: 5 uE200
- BString: 0 
- FString: 5 uE485
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 6"
- String: 5 uE200
- BString: 0 
- FString: 5 uE486
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 15-1" 0 0 0 3
- String: 6 u1133F
- BString: 5 uE200
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 3"
- String: 6 u11340
- BString: 5 uE200
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 6"
- String: 6 u1134D
- BString: 5 uE200
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 7"
-EndFPST
 ChainSub2: class "'rphf' Repha Form (post repha form)" 3 1 2 1
   Class: 6 u11330
   Class: 6 u1134D
@@ -859,42 +807,6 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 2 9
   ClassNames: "All_Others" "1" "2" "3"
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 20-1" 0 0 0 2
- String: 5 uE480
- BString: 6 u1133F
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 1"
- String: 5 uE483
- BString: 6 u11340
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 19-1" 0 0 0 2
- String: 5 uE201
- BString: 0 
- FString: 5 uE480
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 1"
- String: 5 uE201
- BString: 0 
- FString: 5 uE483
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 18-1" 0 0 0 2
- String: 6 u1133F
- BString: 5 uE201
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 1"
- String: 6 u11340
- BString: 5 uE201
- FString: 0 
- 1
-  SeqLookup: 0 "Vowel marker rearrangement single substitution 4"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions I marker lookup" 2 5 1 15
   Class: 6 u11340
@@ -1615,7 +1527,7 @@ Grid
  2048 228.5 l 1024
 EndSplineSet
 AnchorClass2: "right" "'mkmk' Mark to Mark lookup 11-1" "dummy" "'mkmk' Mark to Mark lookup 11-1" "higher" "'mkmk' Mark to Mark lookup 11-1" "high" "'mark' Mark Positioning lookup 10-1" "lower" "'mkmk' Mark to Mark lookup 11-1" "low" "'mark' Mark Positioning lookup 10-1"
-BeginChars: 1114114 264
+BeginChars: 1114114 257
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -4603,6 +4515,9 @@ SplineSet
  288 -124 l 1,46,47
 EndSplineSet
 Kerns2: 154 60 "'dist' Distance lookup intra-post-base marker 2-2" 155 60 "'dist' Distance lookup intra-post-base marker 2-2"
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -4610,9 +4525,6 @@ Substitution2: "Single substitution anunasika-1" u11301
 PairPos2: "'dist' Distance lookup intra-post-base marker 2-2" u11343 dx=0 dy=0 dh=0 dv=0 dx=0 dy=-100 dh=0 dv=0
 Ligature2: "Ligature Substitution post repha rakara ya subtable" u11330 u1134D
 PairPos2: "'dist' Distance lookup intra-post-base marker 2-2" u11344 dx=0 dy=0 dh=20 dv=0 dx=0 dy=-100 dh=0 dv=0
-Substitution2: "Vowel marker rearrangement single substitution 7-1" u1134D
-Substitution2: "Vowel marker rearrangement single substitution 6-1" u11340
-Substitution2: "Vowel marker rearrangement single substitution 3-1" u1133F
 LCarets2: 1 0
 EndChar
 
@@ -4662,13 +4574,13 @@ SplineSet
  159 478 l 1,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
 Substitution2: "Single substitution anunasika-1" u11301
 Ligature2: "Ligature Substitution post repha rakara ya subtable" u1134D u1132F
-Substitution2: "Vowel marker rearrangement single substitution 4-1" u11340
-Substitution2: "Vowel marker rearrangement single substitution 1-1" u1133F
 LCarets2: 1 0
 EndChar
 
@@ -6234,7 +6146,7 @@ Flags: MW
 AnchorPoint: "high" 320 406 basechar 0
 LayerCount: 2
 Fore
-Refer: 224 2953 N 1 0 0 1 0 0 2
+Refer: 217 2953 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1130A
@@ -6244,7 +6156,7 @@ Flags: MW
 AnchorPoint: "high" 370 402 basechar 0
 LayerCount: 2
 Fore
-Refer: 225 2954 N 1 0 0 1 0 0 2
+Refer: 218 2954 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1130B
@@ -7596,7 +7508,7 @@ AnchorPoint: "high" 480 412 basechar 0
 AnchorPoint: "low" 481 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 218 2979 N 1 0 0 1 0 0 2
+Refer: 211 2979 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11324
@@ -7607,7 +7519,7 @@ AnchorPoint: "high" 289 408 basechar 0
 AnchorPoint: "low" 290 -200 basechar 0
 LayerCount: 2
 Fore
-Refer: 237 2980 N 1 0 0 1 0 0 2
+Refer: 230 2980 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11325
@@ -7789,7 +7701,7 @@ AnchorPoint: "high" 263 408 basechar 0
 AnchorPoint: "low" 264 -260 basechar 0
 LayerCount: 2
 Fore
-Refer: 238 2984 S 1 0 0 1 0 0 2
+Refer: 231 2984 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1132A
@@ -8129,7 +8041,7 @@ AnchorPoint: "high" 326 402 basechar 0
 AnchorPoint: "low" 327 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 241 2991 N 1 0 0 1 0 0 2
+Refer: 234 2991 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution 4-1" u11347
 EndChar
 
@@ -8318,7 +8230,7 @@ AnchorPoint: "high" 318 403 basechar 0
 AnchorPoint: "low" 318 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 247 2997 N 1 0 0 1 0 0 2
+Refer: 240 2997 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution 4-1" u11347
 EndChar
 
@@ -8691,7 +8603,7 @@ Width: 446
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 248 3006 N 1 0 0 1 0 0 2
+Refer: 241 3006 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -8704,15 +8616,15 @@ Width: 145
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 249 3007 N 1 0 0 1 0 0 2
+Refer: 242 3007 N 1 0 0 1 0 0 2
 Kerns2: 40 -20 "'dist' Distance lookup intra-post-base marker 2-2" 41 -30 "'dist' Distance lookup intra-post-base marker 2-2"
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
 Substitution2: "Single substitution anunasika-1" u11301
-Substitution2: "Vowel marker rearrangement single substitution 3-1" uE482
-Substitution2: "Vowel marker rearrangement single substitution 2-1" uE481
-Substitution2: "Vowel marker rearrangement single substitution 1-1" uE480
 Substitution2: "Single Substitution lookup 6-1" uE20A
 Substitution2: "Single Substitution lookup 4-1" uE209
 Substitution2: "Single Substitution lookup 5-1" uE207
@@ -8725,15 +8637,15 @@ Width: 193
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 250 3008 N 1 0 0 1 0 0 2
+Refer: 243 3008 N 1 0 0 1 0 0 2
 Kerns2: 40 -125 "'dist' Distance lookup intra-post-base marker 2-2" 41 -110 "'dist' Distance lookup intra-post-base marker 2-2" 42 -120 "'dist' Distance lookup intra-post-base marker 2-2" 43 -120 "'dist' Distance lookup intra-post-base marker 2-2" 170 -120 "'dist' Distance lookup intra-post-base marker 2-2"
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
 Substitution2: "Single substitution anunasika-1" u11301
-Substitution2: "Vowel marker rearrangement single substitution 6-1" uE485
-Substitution2: "Vowel marker rearrangement single substitution 5-1" uE484
-Substitution2: "Vowel marker rearrangement single substitution 4-1" uE483
 Substitution2: "Single Substitution lookup 7-1" uE206
 EndChar
 
@@ -8743,7 +8655,7 @@ Width: 410
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 251 3009 N 1 0 0 1 0 0 2
+Refer: 244 3009 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -8756,7 +8668,7 @@ Width: 415
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 252 3010 N 1 0 0 1 0 0 2
+Refer: 245 3010 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -8874,7 +8786,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 253 3014 N 1 0 0 1 0 0 2
+Refer: 246 3014 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11348
@@ -8975,7 +8887,7 @@ Width: 1486
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 256 3018 S 1 0 0 1 0 0 2
+Refer: 249 3018 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1134C
@@ -8984,7 +8896,7 @@ Width: 1672
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 258 3020 N 1 0 0 1 0 0 2
+Refer: 251 3020 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1134D
@@ -9022,6 +8934,7 @@ SplineSet
  74 446 74 446 108 446 c 0,36,37
  162 446 162 446 163 428.5 c 0,0,1
 EndSplineSet
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -9032,7 +8945,6 @@ Substitution2: "Single substitution 5-1" u1132F
 Substitution2: "Single substitution 3-1" uE335
 Substitution2: "Single substitution 2-1" uE332
 Substitution2: "Single substitution 1-1" uE32F
-Substitution2: "Vowel marker rearrangement single substitution 7-1" uE486
 EndChar
 
 StartChar: u11350
@@ -9130,7 +9042,7 @@ Width: 673
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 261 3031 N 1 0 0 1 0 0 2
+Refer: 254 3031 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -9249,6 +9161,8 @@ SplineSet
  -301 -97 -301 -97 -118 -99 c 28,46,47
  -98 -99 -98 -99 -62.5 -96 c 28,0,1
 EndSplineSet
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -9256,8 +9170,6 @@ Substitution2: "Single substitution anunasika-1" u11301
 Ligature2: "Ligature Substitution post repha rakara ya subtable" u1134D u11330
 Substitution2: "Single Substitution lookup 1-1" uE203
 Substitution2: "Single Substitution lookup 2-1" uE204
-Substitution2: "Vowel marker rearrangement single substitution 2-1" u1133F
-Substitution2: "Vowel marker rearrangement single substitution 5-1" u11340
 Substitution2: "Single Substitution lookup 8-1" uE202
 LCarets2: 1 0
 EndChar
@@ -10308,64 +10220,8 @@ SplineSet
 EndSplineSet
 EndChar
 
-StartChar: uE480
-Encoding: 58496 58496 204
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Vowel marker rearrangement single substitution 1-1" uE201
-EndChar
-
-StartChar: uE481
-Encoding: 58497 58497 205
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Vowel marker rearrangement single substitution 2-1" uE205
-EndChar
-
-StartChar: uE482
-Encoding: 58498 58498 206
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Vowel marker rearrangement single substitution 3-1" uE200
-EndChar
-
-StartChar: uE483
-Encoding: 58499 58499 207
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Vowel marker rearrangement single substitution 4-1" uE201
-EndChar
-
-StartChar: uE484
-Encoding: 58500 58500 208
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Vowel marker rearrangement single substitution 5-1" uE205
-EndChar
-
-StartChar: uE485
-Encoding: 58501 58501 209
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Vowel marker rearrangement single substitution 6-1" uE200
-EndChar
-
-StartChar: uE486
-Encoding: 58502 58502 210
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Vowel marker rearrangement single substitution 7-1" uE200
-EndChar
-
 StartChar: u1CF4
-Encoding: 7412 7412 211
+Encoding: 7412 7412 204
 Width: 0
 VWidth: 1000
 Flags: W
@@ -10407,14 +10263,14 @@ Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u00A0
-Encoding: 160 160 212
+Encoding: 160 160 205
 Width: 252
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uE202
-Encoding: 57858 57858 213
+Encoding: 57858 57858 206
 Width: 235
 Flags: W
 LayerCount: 2
@@ -10455,7 +10311,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1CF3
-Encoding: 7411 7411 214
+Encoding: 7411 7411 207
 Width: 660
 Flags: W
 LayerCount: 2
@@ -10467,7 +10323,7 @@ Substitution2: "Single substitution anudatta-1" u0952
 EndChar
 
 StartChar: u1CD0
-Encoding: 7376 7376 215
+Encoding: 7376 7376 208
 Width: 0
 Flags: W
 AnchorPoint: "high" -211 350 mark 0
@@ -10488,7 +10344,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1CD2
-Encoding: 7378 7378 216
+Encoding: 7378 7378 209
 Width: 0
 Flags: W
 AnchorPoint: "higher" -174 353 mark 0
@@ -10512,14 +10368,14 @@ EndSplineSet
 EndChar
 
 StartChar: u20F0
-Encoding: 8432 8432 217
+Encoding: 8432 8432 210
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: uni0BA3
-Encoding: 2979 2979 218
+Encoding: 2979 2979 211
 Width: 967
 Flags: W
 LayerCount: 2
@@ -10602,7 +10458,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B83
-Encoding: 2947 2947 219
+Encoding: 2947 2947 212
 Width: 750
 Flags: W
 LayerCount: 2
@@ -10675,7 +10531,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B85
-Encoding: 2949 2949 220
+Encoding: 2949 2949 213
 Width: 630
 Flags: W
 LayerCount: 2
@@ -10734,7 +10590,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B86
-Encoding: 2950 2950 221
+Encoding: 2950 2950 214
 Width: 674
 Flags: W
 LayerCount: 2
@@ -10824,7 +10680,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B87
-Encoding: 2951 2951 222
+Encoding: 2951 2951 215
 Width: 704
 VWidth: 1000
 Flags: W
@@ -10906,7 +10762,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B88
-Encoding: 2952 2952 223
+Encoding: 2952 2952 216
 Width: 736
 Flags: W
 LayerCount: 2
@@ -10974,7 +10830,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B89
-Encoding: 2953 2953 224
+Encoding: 2953 2953 217
 Width: 613
 Flags: W
 LayerCount: 2
@@ -11039,7 +10895,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B8A
-Encoding: 2954 2954 225
+Encoding: 2954 2954 218
 Width: 736
 Flags: W
 LayerCount: 2
@@ -11097,7 +10953,7 @@ Refer: 164 70487 N 0.6 0 0 0.6 318 84 2
 EndChar
 
 StartChar: uni0B8E
-Encoding: 2958 2958 226
+Encoding: 2958 2958 219
 Width: 598
 Flags: W
 LayerCount: 2
@@ -11135,7 +10991,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B8F
-Encoding: 2959 2959 227
+Encoding: 2959 2959 220
 Width: 598
 Flags: W
 LayerCount: 2
@@ -11177,7 +11033,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B90
-Encoding: 2960 2960 228
+Encoding: 2960 2960 221
 Width: 722
 Flags: W
 LayerCount: 2
@@ -11257,7 +11113,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B92
-Encoding: 2962 2962 229
+Encoding: 2962 2962 222
 Width: 578
 Flags: W
 LayerCount: 2
@@ -11442,7 +11298,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B93
-Encoding: 2963 2963 230
+Encoding: 2963 2963 223
 Width: 578
 Flags: W
 LayerCount: 2
@@ -11521,17 +11377,17 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B94
-Encoding: 2964 2964 231
+Encoding: 2964 2964 224
 Width: 1158
 Flags: W
 LayerCount: 2
 Fore
-Refer: 229 2962 S 1 0 0 1 0 0 2
-Refer: 261 3031 N 1 0 0 1 519 0 2
+Refer: 222 2962 S 1 0 0 1 0 0 2
+Refer: 254 3031 N 1 0 0 1 519 0 2
 EndChar
 
 StartChar: uni0B95
-Encoding: 2965 2965 232
+Encoding: 2965 2965 225
 Width: 665
 Flags: W
 LayerCount: 2
@@ -11590,7 +11446,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B99
-Encoding: 2969 2969 233
+Encoding: 2969 2969 226
 Width: 659
 Flags: W
 LayerCount: 2
@@ -11643,7 +11499,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B9A
-Encoding: 2970 2970 234
+Encoding: 2970 2970 227
 Width: 610
 Flags: W
 LayerCount: 2
@@ -11691,7 +11547,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B9E
-Encoding: 2974 2974 235
+Encoding: 2974 2974 228
 Width: 762
 Flags: W
 LayerCount: 2
@@ -11758,7 +11614,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B9F
-Encoding: 2975 2975 236
+Encoding: 2975 2975 229
 Width: 660
 Flags: W
 LayerCount: 2
@@ -11781,7 +11637,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA4
-Encoding: 2980 2980 237
+Encoding: 2980 2980 230
 Width: 580
 Flags: W
 LayerCount: 2
@@ -11876,7 +11732,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA8
-Encoding: 2984 2984 238
+Encoding: 2984 2984 231
 Width: 522
 Flags: W
 LayerCount: 2
@@ -11931,7 +11787,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA9
-Encoding: 2985 2985 239
+Encoding: 2985 2985 232
 Width: 754
 Flags: W
 LayerCount: 2
@@ -11994,7 +11850,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BAE
-Encoding: 2990 2990 240
+Encoding: 2990 2990 233
 Width: 572
 Flags: W
 LayerCount: 2
@@ -12031,7 +11887,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BAF
-Encoding: 2991 2991 241
+Encoding: 2991 2991 234
 Width: 665
 Flags: W
 LayerCount: 2
@@ -12072,7 +11928,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB0
-Encoding: 2992 2992 242
+Encoding: 2992 2992 235
 Width: 539
 Flags: W
 LayerCount: 2
@@ -12105,7 +11961,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB1
-Encoding: 2993 2993 243
+Encoding: 2993 2993 236
 Width: 627
 Flags: W
 LayerCount: 2
@@ -12162,7 +12018,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB2
-Encoding: 2994 2994 244
+Encoding: 2994 2994 237
 Width: 665
 Flags: W
 LayerCount: 2
@@ -12223,16 +12079,16 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB3
-Encoding: 2995 2995 245
+Encoding: 2995 2995 238
 Width: 673
 Flags: W
 LayerCount: 2
 Fore
-Refer: 261 3031 N 1 0 0 1 0 0 2
+Refer: 254 3031 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0BB4
-Encoding: 2996 2996 246
+Encoding: 2996 2996 239
 Width: 550
 Flags: W
 LayerCount: 2
@@ -12299,7 +12155,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB5
-Encoding: 2997 2997 247
+Encoding: 2997 2997 240
 Width: 665
 Flags: W
 LayerCount: 2
@@ -12357,7 +12213,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BBE
-Encoding: 3006 3006 248
+Encoding: 3006 3006 241
 Width: 446
 Flags: W
 LayerCount: 2
@@ -12387,7 +12243,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BBF
-Encoding: 3007 3007 249
+Encoding: 3007 3007 242
 Width: 145
 Flags: W
 LayerCount: 2
@@ -12420,7 +12276,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC0
-Encoding: 3008 3008 250
+Encoding: 3008 3008 243
 Width: 193
 Flags: W
 LayerCount: 2
@@ -12468,7 +12324,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC1
-Encoding: 3009 3009 251
+Encoding: 3009 3009 244
 Width: 410
 Flags: W
 LayerCount: 2
@@ -12502,7 +12358,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC2
-Encoding: 3010 3010 252
+Encoding: 3010 3010 245
 Width: 415
 Flags: W
 LayerCount: 2
@@ -12564,7 +12420,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC6
-Encoding: 3014 3014 253
+Encoding: 3014 3014 246
 Width: 613
 Flags: W
 LayerCount: 2
@@ -12613,7 +12469,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC7
-Encoding: 3015 3015 254
+Encoding: 3015 3015 247
 Width: 465
 Flags: W
 LayerCount: 2
@@ -12665,7 +12521,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC8
-Encoding: 3016 3016 255
+Encoding: 3016 3016 248
 Width: 668
 Flags: W
 LayerCount: 2
@@ -12729,40 +12585,40 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BCA
-Encoding: 3018 3018 256
+Encoding: 3018 3018 249
 Width: 1486
 Flags: W
 LayerCount: 2
 Fore
-Refer: 248 3006 N 1 0 0 1 1040 0 2
-Refer: 253 3014 N 1 0 0 1 0 0 2
+Refer: 241 3006 N 1 0 0 1 1040 0 2
+Refer: 246 3014 N 1 0 0 1 0 0 2
 Refer: 196 9676 N 1 0 0 1 566 0 2
 EndChar
 
 StartChar: uni0BCB
-Encoding: 3019 3019 257
+Encoding: 3019 3019 250
 Width: 1293
 Flags: W
 LayerCount: 2
 Fore
-Refer: 248 3006 N 1 0 0 1 883 0 2
+Refer: 241 3006 N 1 0 0 1 883 0 2
 Refer: 196 9676 N 1 0 0 1 410 0 2
-Refer: 254 3015 N 1 0 0 1 0 0 2
+Refer: 247 3015 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0BCC
-Encoding: 3020 3020 258
+Encoding: 3020 3020 251
 Width: 1672
 Flags: W
 LayerCount: 2
 Fore
-Refer: 261 3031 N 1 0 0 1 999 0 2
-Refer: 253 3014 N 1 0 0 1 0 0 2
+Refer: 254 3031 N 1 0 0 1 999 0 2
+Refer: 246 3014 N 1 0 0 1 0 0 2
 Refer: 196 9676 N 1 0 0 1 553 0 2
 EndChar
 
 StartChar: uni0BCD
-Encoding: 3021 3021 259
+Encoding: 3021 3021 252
 Width: 0
 Flags: W
 LayerCount: 2
@@ -12781,7 +12637,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BD0
-Encoding: 3024 3024 260
+Encoding: 3024 3024 253
 Width: 578
 Flags: W
 LayerCount: 2
@@ -12886,7 +12742,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BD7
-Encoding: 3031 3031 261
+Encoding: 3031 3031 254
 Width: 673
 Flags: W
 LayerCount: 2
@@ -12938,7 +12794,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1CD3
-Encoding: 7379 7379 262
+Encoding: 7379 7379 255
 Width: 0
 Flags: W
 AnchorPoint: "high" -210 350 mark 0
@@ -12949,7 +12805,7 @@ Refer: 6 2405 S 0.4 0 0 0.4 -275 450 2
 EndChar
 
 StartChar: glyph324
-Encoding: 1114113 -1 263
+Encoding: 1114113 -1 256
 Width: 504
 Flags: W
 LayerCount: 2
