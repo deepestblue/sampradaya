@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640202340
+ModificationTime: 1640217938
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -89,18 +89,14 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before vowel mark
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before pre repha" { "'psts' Post Base Substitutions lookup anunasika before pre repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before post ya" { "'psts' Post Base Substitutions lookup anunasika before post ya-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before post repha" { "'psts' Post Base Substitutions lookup anunasika before post repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 34" { "Accent marker rearrangement single substitution 34-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 35" { "Accent marker rearrangement single substitution 35-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 36" { "Accent marker rearrangement single substitution 36-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 37" { "Accent marker rearrangement single substitution 37-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 38" { "Accent marker rearrangement single substitution 38-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 39" { "Accent marker rearrangement single substitution 39-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 40" { "Accent marker rearrangement single substitution 40-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 41" { "Accent marker rearrangement single substitution 41-1"  } []
-Lookup: 1 0 0 "Accent marker rearrangement single substitution 42" { "Accent marker rearrangement single substitution 42-1"  } []
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 56" { "'psts' Post Base Substitutions lookup 56-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 57" { "'psts' Post Base Substitutions lookup 57-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup 58" { "'psts' Post Base Substitutions lookup 58-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 1 0 0 "Single substitution anudatta" { "Single substitution anudatta-1"  } []
+Lookup: 1 0 0 "Single substitution svarita" { "Single substitution svarita-1"  } []
+Lookup: 1 0 0 "Single substitution dirghasvarita" { "Single substitution dirghasvarita-1"  } []
+Lookup: 1 0 0 "Single substitution anusvara" { "Single substitution anusvara-1"  } []
+Lookup: 1 0 0 "Single substitution visarga" { "Single substitution visarga-1"  } []
+Lookup: 1 0 0 "Single substitution ardhavisarga" { "Single substitution ardhavisarga-1"  } []
+Lookup: 1 0 0 "Single substitution rotated ardhavisarga" { "Single substitution rotated ardhavisarga-1"  } []
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before ayogavahas" { "'psts' Post Base Substitutions lookup accent marks before ayogavahas-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 1" { "Accent marker rearrangement single substitution 1-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 2" { "Accent marker rearrangement single substitution 2-1"  } []
 Lookup: 1 0 0 "Accent marker rearrangement single substitution 3" { "Accent marker rearrangement single substitution 3-1"  } []
@@ -193,6 +189,80 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning l
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before ayogavahas-1" 0 0 0 12
+ String: 12 u11302 u0952
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution anudatta"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 12 u11302 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 12 u11302 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 12 u11303 u0952
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution anudatta"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u11303 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u11303 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 11 u1CF2 u0952
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution anudatta"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 11 u1CF2 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 11 u1CF2 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 11 u1CF3 u0952
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution anudatta"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 11 u1CF3 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 11 u1CF3 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup anunasika before post repha-1" 0 0 0 1
  String: 12 uE205 u11301
  BString: 0 
@@ -1187,147 +1257,6 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup 62-1" 0 0 0 30
  1
   SeqLookup: 0 "Accent marker rearrangement single substitution 30"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 58-1" 0 0 0 9
- String: 5 uE4A8
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 34"
- String: 5 uE4A9
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 35"
- String: 5 uE4AA
- BString: 5 u1CF4
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 36"
- String: 5 uE4AB
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 37"
- String: 5 uE4AC
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 38"
- String: 5 uE4AD
- BString: 5 u1CF4
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 39"
- String: 5 uE4AE
- BString: 5 u0951
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 40"
- String: 5 uE4AF
- BString: 5 u0952
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 41"
- String: 5 uE4B0
- BString: 5 u1CF4
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 42"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 57-1" 0 0 0 9
- String: 6 u11302
- BString: 0 
- FString: 5 uE4A8
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 34"
- String: 6 u11302
- BString: 0 
- FString: 5 uE4A9
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 35"
- String: 6 u11302
- BString: 0 
- FString: 5 uE4AA
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 36"
- String: 6 u11303
- BString: 0 
- FString: 5 uE4AB
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 37"
- String: 6 u11303
- BString: 0 
- FString: 5 uE4AC
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 38"
- String: 6 u11303
- BString: 0 
- FString: 5 uE4AD
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 39"
- String: 5 u1CF2
- BString: 0 
- FString: 5 uE4AE
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 40"
- String: 5 u1CF2
- BString: 0 
- FString: 5 uE4AF
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 41"
- String: 5 u1CF2
- BString: 0 
- FString: 5 uE4B0
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 42"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup 56-1" 0 0 0 9
- String: 5 u0951
- BString: 6 u11302
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 34"
- String: 5 u0952
- BString: 6 u11302
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 35"
- String: 5 u1CF4
- BString: 6 u11302
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 36"
- String: 5 u0951
- BString: 6 u11303
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 37"
- String: 5 u0952
- BString: 6 u11303
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 38"
- String: 5 u1CF4
- BString: 6 u11303
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 39"
- String: 5 u0951
- BString: 5 u1CF2
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 40"
- String: 5 u0952
- BString: 5 u1CF2
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 41"
- String: 5 u1CF4
- BString: 5 u1CF2
- FString: 0 
- 1
-  SeqLookup: 0 "Accent marker rearrangement single substitution 42"
-EndFPST
 ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 2 9
   Class: 62 uE102 uE109 uE10D uE111 uE112 uE114 uE115 u1131F u11332 u11337
   Class: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
@@ -2146,7 +2075,7 @@ Grid
  2048 228.5 l 1024
 EndSplineSet
 AnchorClass2: "right" "'mkmk' Mark to Mark lookup 11-1" "dummy" "'mkmk' Mark to Mark lookup 11-1" "higher" "'mkmk' Mark to Mark lookup 11-1" "high" "'mark' Mark Positioning lookup 10-1" "lower" "'mkmk' Mark to Mark lookup 11-1" "low" "'mark' Mark Positioning lookup 10-1"
-BeginChars: 1114114 316
+BeginChars: 1114114 307
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -2207,6 +2136,10 @@ SplineSet
  -227 459 -227 459 -227 466 c 2,10,-1
  -227 667 l 2,0,1
 EndSplineSet
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 Substitution2: "Accent marker rearrangement single substitution 1-1" uE487
 Substitution2: "Accent marker rearrangement single substitution 4-1" uE48A
 Substitution2: "Accent marker rearrangement single substitution 7-1" uE48D
@@ -2218,9 +2151,6 @@ Substitution2: "Accent marker rearrangement single substitution 22-1" uE49C
 Substitution2: "Accent marker rearrangement single substitution 25-1" uE49F
 Substitution2: "Accent marker rearrangement single substitution 28-1" uE4A2
 Substitution2: "Accent marker rearrangement single substitution 31-1" uE4A5
-Substitution2: "Accent marker rearrangement single substitution 34-1" uE4A8
-Substitution2: "Accent marker rearrangement single substitution 37-1" uE4AB
-Substitution2: "Accent marker rearrangement single substitution 40-1" uE4AE
 Substitution2: "Accent marker rearrangement single substitution 46-1" uE4B4
 Substitution2: "Accent marker rearrangement single substitution 49-1" uE4B7
 Substitution2: "Accent marker rearrangement single substitution 52-1" uE4BA
@@ -2245,6 +2175,10 @@ SplineSet
  -339 -144 l 6,9,10
  -354 -144 -354 -144 -354 -120 c 260,0,1
 EndSplineSet
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 Substitution2: "Accent marker rearrangement single substitution 55-1" uE4BD
 Substitution2: "Accent marker rearrangement single substitution 2-1" uE488
 Substitution2: "Accent marker rearrangement single substitution 5-1" uE48B
@@ -2257,9 +2191,6 @@ Substitution2: "Accent marker rearrangement single substitution 23-1" uE49D
 Substitution2: "Accent marker rearrangement single substitution 26-1" uE4A0
 Substitution2: "Accent marker rearrangement single substitution 29-1" uE4A3
 Substitution2: "Accent marker rearrangement single substitution 32-1" uE4A6
-Substitution2: "Accent marker rearrangement single substitution 35-1" uE4A9
-Substitution2: "Accent marker rearrangement single substitution 38-1" uE4AC
-Substitution2: "Accent marker rearrangement single substitution 41-1" uE4AF
 Substitution2: "Accent marker rearrangement single substitution 47-1" uE4B5
 Substitution2: "Accent marker rearrangement single substitution 50-1" uE4B8
 Substitution2: "Accent marker rearrangement single substitution 53-1" uE4BB
@@ -6388,9 +6319,9 @@ SplineSet
  269 180 269 180 269 212 c 128,-1,18
 EndSplineSet
 Validated: 1
-Substitution2: "Accent marker rearrangement single substitution 36-1" u1CF4
-Substitution2: "Accent marker rearrangement single substitution 35-1" u0952
-Substitution2: "Accent marker rearrangement single substitution 34-1" u0951
+Substitution2: "Single substitution dirghasvarita-1" u0951
+Substitution2: "Single substitution svarita-1" u1CF4
+Substitution2: "Single substitution anudatta-1" u0952
 EndChar
 
 StartChar: u11303
@@ -6447,9 +6378,9 @@ SplineSet
  224 85 224 85 225 106 c 1,49,-1
 EndSplineSet
 Validated: 1
-Substitution2: "Accent marker rearrangement single substitution 39-1" u1CF4
-Substitution2: "Accent marker rearrangement single substitution 38-1" u0952
-Substitution2: "Accent marker rearrangement single substitution 37-1" u0951
+Substitution2: "Single substitution dirghasvarita-1" u0951
+Substitution2: "Single substitution svarita-1" u1CF4
+Substitution2: "Single substitution anudatta-1" u0952
 EndChar
 
 StartChar: u11305
@@ -6763,7 +6694,7 @@ Flags: MW
 AnchorPoint: "high" 320 406 basechar 0
 LayerCount: 2
 Fore
-Refer: 271 2953 N 1 0 0 1 0 0 2
+Refer: 266 2953 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1130A
@@ -6773,7 +6704,7 @@ Flags: MW
 AnchorPoint: "high" 370 402 basechar 0
 LayerCount: 2
 Fore
-Refer: 272 2954 N 1 0 0 1 0 0 2
+Refer: 267 2954 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1130B
@@ -8125,7 +8056,7 @@ AnchorPoint: "high" 480 412 basechar 0
 AnchorPoint: "low" 481 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 265 2979 N 1 0 0 1 0 0 2
+Refer: 260 2979 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11324
@@ -8136,7 +8067,7 @@ AnchorPoint: "high" 289 408 basechar 0
 AnchorPoint: "low" 290 -200 basechar 0
 LayerCount: 2
 Fore
-Refer: 284 2980 N 1 0 0 1 0 0 2
+Refer: 279 2980 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11325
@@ -8318,7 +8249,7 @@ AnchorPoint: "high" 263 408 basechar 0
 AnchorPoint: "low" 264 -260 basechar 0
 LayerCount: 2
 Fore
-Refer: 285 2984 S 1 0 0 1 0 0 2
+Refer: 280 2984 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1132A
@@ -8658,7 +8589,7 @@ AnchorPoint: "high" 326 402 basechar 0
 AnchorPoint: "low" 327 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 288 2991 N 1 0 0 1 0 0 2
+Refer: 283 2991 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution 4-1" u11347
 EndChar
 
@@ -8847,7 +8778,7 @@ AnchorPoint: "high" 318 403 basechar 0
 AnchorPoint: "low" 318 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 294 2997 N 1 0 0 1 0 0 2
+Refer: 289 2997 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution 4-1" u11347
 EndChar
 
@@ -9220,7 +9151,7 @@ Width: 446
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 295 3006 N 1 0 0 1 0 0 2
+Refer: 290 3006 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution anunasika-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 3-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 2-1" u0952
@@ -9233,7 +9164,7 @@ Width: 145
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 296 3007 N 1 0 0 1 0 0 2
+Refer: 291 3007 N 1 0 0 1 0 0 2
 Kerns2: 40 -20 "'dist' Distance lookup intra-post-base marker 2-2" 41 -30 "'dist' Distance lookup intra-post-base marker 2-2"
 Substitution2: "Single substitution anunasika-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 6-1" u1CF4
@@ -9254,7 +9185,7 @@ Width: 193
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 297 3008 N 1 0 0 1 0 0 2
+Refer: 292 3008 N 1 0 0 1 0 0 2
 Kerns2: 40 -125 "'dist' Distance lookup intra-post-base marker 2-2" 41 -110 "'dist' Distance lookup intra-post-base marker 2-2" 42 -120 "'dist' Distance lookup intra-post-base marker 2-2" 43 -120 "'dist' Distance lookup intra-post-base marker 2-2" 170 -120 "'dist' Distance lookup intra-post-base marker 2-2"
 Substitution2: "Single substitution anunasika-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 9-1" u1CF4
@@ -9272,7 +9203,7 @@ Width: 410
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 298 3009 N 1 0 0 1 0 0 2
+Refer: 293 3009 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution anunasika-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 12-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 11-1" u0952
@@ -9285,7 +9216,7 @@ Width: 415
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 299 3010 N 1 0 0 1 0 0 2
+Refer: 294 3010 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution anunasika-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 15-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 14-1" u0952
@@ -9403,7 +9334,7 @@ Width: 613
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 300 3014 N 1 0 0 1 0 0 2
+Refer: 295 3014 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u11348
@@ -9504,7 +9435,7 @@ Width: 1486
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 303 3018 S 1 0 0 1 0 0 2
+Refer: 298 3018 S 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1134C
@@ -9513,7 +9444,7 @@ Width: 1672
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 305 3020 N 1 0 0 1 0 0 2
+Refer: 300 3020 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: u1134D
@@ -9659,7 +9590,7 @@ Width: 673
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 308 3031 N 1 0 0 1 0 0 2
+Refer: 303 3031 N 1 0 0 1 0 0 2
 Substitution2: "Single substitution anunasika-1" u11301
 Substitution2: "Accent marker rearrangement single substitution 30-1" u1CF4
 Substitution2: "Accent marker rearrangement single substitution 29-1" u0952
@@ -10512,9 +10443,9 @@ SplineSet
  467 274 467 274 467 470 c 0,14,15
 EndSplineSet
 Validated: 41
-Substitution2: "Accent marker rearrangement single substitution 40-1" u0951
-Substitution2: "Accent marker rearrangement single substitution 41-1" u0952
-Substitution2: "Accent marker rearrangement single substitution 42-1" uE4B0
+Substitution2: "Single substitution dirghasvarita-1" u0951
+Substitution2: "Single substitution svarita-1" u1CF4
+Substitution2: "Single substitution anudatta-1" u0952
 EndChar
 
 StartChar: space
@@ -10915,9 +10846,10 @@ SplineSet
  -272 448 -272 448 -318 499 c 128,-1,15
  -364 550 -364 550 -371 632 c 24,0,-1
 EndSplineSet
-Substitution2: "Accent marker rearrangement single substitution 36-1" uE4AA
-Substitution2: "Accent marker rearrangement single substitution 39-1" uE4AD
-Substitution2: "Accent marker rearrangement single substitution 42-1" u1CF2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 Substitution2: "Accent marker rearrangement single substitution 3-1" uE489
 Substitution2: "Accent marker rearrangement single substitution 6-1" uE48C
 Substitution2: "Accent marker rearrangement single substitution 9-1" uE48F
@@ -11205,80 +11137,8 @@ LayerCount: 2
 Substitution2: "Accent marker rearrangement single substitution 33-1" u1134D
 EndChar
 
-StartChar: uE4A8
-Encoding: 58536 58536 246
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 34-1" u11302
-EndChar
-
-StartChar: uE4A9
-Encoding: 58537 58537 247
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 35-1" u11302
-EndChar
-
-StartChar: uE4AA
-Encoding: 58538 58538 248
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 36-1" u11302
-EndChar
-
-StartChar: uE4AB
-Encoding: 58539 58539 249
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 37-1" u11303
-EndChar
-
-StartChar: uE4AC
-Encoding: 58540 58540 250
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 38-1" u11303
-EndChar
-
-StartChar: uE4AD
-Encoding: 58541 58541 251
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 39-1" u11303
-EndChar
-
-StartChar: uE4AE
-Encoding: 58542 58542 252
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 40-1" u1CF2
-EndChar
-
-StartChar: uE4AF
-Encoding: 58543 58543 253
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 41-1" u1CF2
-EndChar
-
-StartChar: uE4B0
-Encoding: 58544 58544 254
-Width: 0
-Flags: W
-LayerCount: 2
-Substitution2: "Accent marker rearrangement single substitution 42-1" u1CF4
-EndChar
-
 StartChar: uE4B4
-Encoding: 58548 58548 255
+Encoding: 58548 58548 246
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11286,7 +11146,7 @@ Substitution2: "Accent marker rearrangement single substitution 46-1" uE200
 EndChar
 
 StartChar: uE4B5
-Encoding: 58549 58549 256
+Encoding: 58549 58549 247
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11294,7 +11154,7 @@ Substitution2: "Accent marker rearrangement single substitution 47-1" uE200
 EndChar
 
 StartChar: uE4B6
-Encoding: 58550 58550 257
+Encoding: 58550 58550 248
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11302,7 +11162,7 @@ Substitution2: "Accent marker rearrangement single substitution 48-1" uE200
 EndChar
 
 StartChar: uE4B7
-Encoding: 58551 58551 258
+Encoding: 58551 58551 249
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11310,7 +11170,7 @@ Substitution2: "Accent marker rearrangement single substitution 49-1" uE201
 EndChar
 
 StartChar: uE4B8
-Encoding: 58552 58552 259
+Encoding: 58552 58552 250
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11318,7 +11178,7 @@ Substitution2: "Accent marker rearrangement single substitution 50-1" uE201
 EndChar
 
 StartChar: uE4B9
-Encoding: 58553 58553 260
+Encoding: 58553 58553 251
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11326,7 +11186,7 @@ Substitution2: "Accent marker rearrangement single substitution 51-1" uE201
 EndChar
 
 StartChar: uE4BA
-Encoding: 58554 58554 261
+Encoding: 58554 58554 252
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11334,7 +11194,7 @@ Substitution2: "Accent marker rearrangement single substitution 52-1" uE205
 EndChar
 
 StartChar: uE4BB
-Encoding: 58555 58555 262
+Encoding: 58555 58555 253
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11342,7 +11202,7 @@ Substitution2: "Accent marker rearrangement single substitution 53-1" uE205
 EndChar
 
 StartChar: uE4BC
-Encoding: 58556 58556 263
+Encoding: 58556 58556 254
 Width: 0
 Flags: W
 LayerCount: 2
@@ -11350,7 +11210,7 @@ Substitution2: "Accent marker rearrangement single substitution 54-1" uE205
 EndChar
 
 StartChar: uE202
-Encoding: 57858 57858 264
+Encoding: 57858 57858 255
 Width: 235
 Flags: W
 LayerCount: 2
@@ -11391,7 +11251,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA3
-Encoding: 2979 2979 265
+Encoding: 2979 2979 260
 Width: 967
 Flags: W
 LayerCount: 2
@@ -11474,7 +11334,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B83
-Encoding: 2947 2947 266
+Encoding: 2947 2947 261
 Width: 750
 Flags: W
 LayerCount: 2
@@ -11547,7 +11407,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B85
-Encoding: 2949 2949 267
+Encoding: 2949 2949 262
 Width: 630
 Flags: W
 LayerCount: 2
@@ -11606,7 +11466,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B86
-Encoding: 2950 2950 268
+Encoding: 2950 2950 263
 Width: 674
 Flags: W
 LayerCount: 2
@@ -11696,7 +11556,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B87
-Encoding: 2951 2951 269
+Encoding: 2951 2951 264
 Width: 704
 VWidth: 1000
 Flags: W
@@ -11778,7 +11638,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B88
-Encoding: 2952 2952 270
+Encoding: 2952 2952 265
 Width: 736
 Flags: W
 LayerCount: 2
@@ -11846,7 +11706,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B89
-Encoding: 2953 2953 271
+Encoding: 2953 2953 266
 Width: 613
 Flags: W
 LayerCount: 2
@@ -11911,7 +11771,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B8A
-Encoding: 2954 2954 272
+Encoding: 2954 2954 267
 Width: 736
 Flags: W
 LayerCount: 2
@@ -11969,7 +11829,7 @@ Refer: 164 70487 N 0.6 0 0 0.6 318 84 2
 EndChar
 
 StartChar: uni0B8E
-Encoding: 2958 2958 273
+Encoding: 2958 2958 268
 Width: 598
 Flags: W
 LayerCount: 2
@@ -12007,7 +11867,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B8F
-Encoding: 2959 2959 274
+Encoding: 2959 2959 269
 Width: 598
 Flags: W
 LayerCount: 2
@@ -12049,7 +11909,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B90
-Encoding: 2960 2960 275
+Encoding: 2960 2960 270
 Width: 722
 Flags: W
 LayerCount: 2
@@ -12129,7 +11989,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B92
-Encoding: 2962 2962 276
+Encoding: 2962 2962 271
 Width: 578
 Flags: W
 LayerCount: 2
@@ -12314,7 +12174,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B93
-Encoding: 2963 2963 277
+Encoding: 2963 2963 272
 Width: 578
 Flags: W
 LayerCount: 2
@@ -12393,17 +12253,17 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B94
-Encoding: 2964 2964 278
+Encoding: 2964 2964 273
 Width: 1158
 Flags: W
 LayerCount: 2
 Fore
-Refer: 276 2962 S 1 0 0 1 0 0 2
-Refer: 308 3031 N 1 0 0 1 519 0 2
+Refer: 271 2962 S 1 0 0 1 0 0 2
+Refer: 303 3031 N 1 0 0 1 519 0 2
 EndChar
 
 StartChar: uni0B95
-Encoding: 2965 2965 279
+Encoding: 2965 2965 274
 Width: 665
 Flags: W
 LayerCount: 2
@@ -12462,7 +12322,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B99
-Encoding: 2969 2969 280
+Encoding: 2969 2969 275
 Width: 659
 Flags: W
 LayerCount: 2
@@ -12515,7 +12375,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B9A
-Encoding: 2970 2970 281
+Encoding: 2970 2970 276
 Width: 610
 Flags: W
 LayerCount: 2
@@ -12563,7 +12423,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B9E
-Encoding: 2974 2974 282
+Encoding: 2974 2974 277
 Width: 762
 Flags: W
 LayerCount: 2
@@ -12630,7 +12490,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0B9F
-Encoding: 2975 2975 283
+Encoding: 2975 2975 278
 Width: 660
 Flags: W
 LayerCount: 2
@@ -12653,7 +12513,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA4
-Encoding: 2980 2980 284
+Encoding: 2980 2980 279
 Width: 580
 Flags: W
 LayerCount: 2
@@ -12748,7 +12608,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA8
-Encoding: 2984 2984 285
+Encoding: 2984 2984 280
 Width: 522
 Flags: W
 LayerCount: 2
@@ -12803,7 +12663,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BA9
-Encoding: 2985 2985 286
+Encoding: 2985 2985 281
 Width: 754
 Flags: W
 LayerCount: 2
@@ -12866,7 +12726,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BAE
-Encoding: 2990 2990 287
+Encoding: 2990 2990 282
 Width: 572
 Flags: W
 LayerCount: 2
@@ -12903,7 +12763,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BAF
-Encoding: 2991 2991 288
+Encoding: 2991 2991 283
 Width: 665
 Flags: W
 LayerCount: 2
@@ -12944,7 +12804,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB0
-Encoding: 2992 2992 289
+Encoding: 2992 2992 284
 Width: 539
 Flags: W
 LayerCount: 2
@@ -12977,7 +12837,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB1
-Encoding: 2993 2993 290
+Encoding: 2993 2993 285
 Width: 627
 Flags: W
 LayerCount: 2
@@ -13034,7 +12894,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB2
-Encoding: 2994 2994 291
+Encoding: 2994 2994 286
 Width: 665
 Flags: W
 LayerCount: 2
@@ -13095,16 +12955,16 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB3
-Encoding: 2995 2995 292
+Encoding: 2995 2995 287
 Width: 673
 Flags: W
 LayerCount: 2
 Fore
-Refer: 308 3031 N 1 0 0 1 0 0 2
+Refer: 303 3031 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0BB4
-Encoding: 2996 2996 293
+Encoding: 2996 2996 288
 Width: 550
 Flags: W
 LayerCount: 2
@@ -13171,7 +13031,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BB5
-Encoding: 2997 2997 294
+Encoding: 2997 2997 289
 Width: 665
 Flags: W
 LayerCount: 2
@@ -13229,7 +13089,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BBE
-Encoding: 3006 3006 295
+Encoding: 3006 3006 290
 Width: 446
 Flags: W
 LayerCount: 2
@@ -13259,7 +13119,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BBF
-Encoding: 3007 3007 296
+Encoding: 3007 3007 291
 Width: 145
 Flags: W
 LayerCount: 2
@@ -13292,7 +13152,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC0
-Encoding: 3008 3008 297
+Encoding: 3008 3008 292
 Width: 193
 Flags: W
 LayerCount: 2
@@ -13340,7 +13200,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC1
-Encoding: 3009 3009 298
+Encoding: 3009 3009 293
 Width: 410
 Flags: W
 LayerCount: 2
@@ -13374,7 +13234,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC2
-Encoding: 3010 3010 299
+Encoding: 3010 3010 294
 Width: 415
 Flags: W
 LayerCount: 2
@@ -13436,7 +13296,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC6
-Encoding: 3014 3014 300
+Encoding: 3014 3014 295
 Width: 613
 Flags: W
 LayerCount: 2
@@ -13485,7 +13345,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC7
-Encoding: 3015 3015 301
+Encoding: 3015 3015 296
 Width: 465
 Flags: W
 LayerCount: 2
@@ -13537,7 +13397,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BC8
-Encoding: 3016 3016 302
+Encoding: 3016 3016 297
 Width: 668
 Flags: W
 LayerCount: 2
@@ -13601,40 +13461,40 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BCA
-Encoding: 3018 3018 303
+Encoding: 3018 3018 298
 Width: 1486
 Flags: W
 LayerCount: 2
 Fore
-Refer: 295 3006 N 1 0 0 1 1040 0 2
-Refer: 300 3014 N 1 0 0 1 0 0 2
+Refer: 290 3006 N 1 0 0 1 1040 0 2
+Refer: 295 3014 N 1 0 0 1 0 0 2
 Refer: 196 9676 N 1 0 0 1 566 0 2
 EndChar
 
 StartChar: uni0BCB
-Encoding: 3019 3019 304
+Encoding: 3019 3019 299
 Width: 1293
 Flags: W
 LayerCount: 2
 Fore
-Refer: 295 3006 N 1 0 0 1 883 0 2
+Refer: 290 3006 N 1 0 0 1 883 0 2
 Refer: 196 9676 N 1 0 0 1 410 0 2
-Refer: 301 3015 N 1 0 0 1 0 0 2
+Refer: 296 3015 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uni0BCC
-Encoding: 3020 3020 305
+Encoding: 3020 3020 300
 Width: 1672
 Flags: W
 LayerCount: 2
 Fore
-Refer: 308 3031 N 1 0 0 1 999 0 2
-Refer: 300 3014 N 1 0 0 1 0 0 2
+Refer: 303 3031 N 1 0 0 1 999 0 2
+Refer: 295 3014 N 1 0 0 1 0 0 2
 Refer: 196 9676 N 1 0 0 1 553 0 2
 EndChar
 
 StartChar: uni0BCD
-Encoding: 3021 3021 306
+Encoding: 3021 3021 301
 Width: 0
 Flags: W
 LayerCount: 2
@@ -13653,7 +13513,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BD0
-Encoding: 3024 3024 307
+Encoding: 3024 3024 302
 Width: 578
 Flags: W
 LayerCount: 2
@@ -13758,7 +13618,7 @@ EndSplineSet
 EndChar
 
 StartChar: uni0BD7
-Encoding: 3031 3031 308
+Encoding: 3031 3031 303
 Width: 673
 Flags: W
 LayerCount: 2
@@ -13810,16 +13670,19 @@ EndSplineSet
 EndChar
 
 StartChar: u1CF3
-Encoding: 7411 7411 309
+Encoding: 7411 7411 256
 Width: 660
 Flags: W
 LayerCount: 2
 Fore
 Refer: 194 7410 S 0 -1 1 0 81.494 467.506 2
+Substitution2: "Single substitution dirghasvarita-1" u0951
+Substitution2: "Single substitution svarita-1" u1CF4
+Substitution2: "Single substitution anudatta-1" u0952
 EndChar
 
 StartChar: u1CD0
-Encoding: 7376 7376 310
+Encoding: 7376 7376 257
 Width: 0
 Flags: W
 AnchorPoint: "high" -211 350 mark 0
@@ -13840,7 +13703,7 @@ EndSplineSet
 EndChar
 
 StartChar: u1CD2
-Encoding: 7378 7378 311
+Encoding: 7378 7378 258
 Width: 0
 Flags: W
 AnchorPoint: "higher" -174 353 mark 0
@@ -13864,14 +13727,14 @@ EndSplineSet
 EndChar
 
 StartChar: u20F0
-Encoding: 8432 8432 312
+Encoding: 8432 8432 259
 Width: 0
 Flags: W
 LayerCount: 2
 EndChar
 
 StartChar: u1CD3
-Encoding: 7379 7379 313
+Encoding: 7379 7379 304
 Width: 0
 Flags: W
 AnchorPoint: "high" -210 350 mark 0
@@ -13882,7 +13745,7 @@ Refer: 6 2405 S 0.4 0 0 0.4 -275 450 2
 EndChar
 
 StartChar: glyph324
-Encoding: 1114113 -1 314
+Encoding: 1114113 -1 305
 Width: 504
 Flags: W
 LayerCount: 2
@@ -14000,7 +13863,7 @@ EndSplineSet
 EndChar
 
 StartChar: uE4BD
-Encoding: 58557 58557 315
+Encoding: 58557 58557 306
 Width: 0
 Flags: W
 LayerCount: 2
