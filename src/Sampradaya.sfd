@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640438618
+ModificationTime: 1640441432
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -194,7 +194,7 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup anudatta before anunasik
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution anunasika"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before post repha-1" 0 0 0 3
+ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before post repha-1" 0 0 0 18
  String: 11 uE205 u0952
  BString: 0 
  FString: 0 
@@ -213,8 +213,98 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before post
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution post repha"
+ String: 11 uE205 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 11 uE205 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 11 uE205 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution post repha"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before post ya-1" 0 0 0 3
+ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before post ya-1" 0 0 0 18
  String: 11 uE201 u0952
  BString: 0 
  FString: 0 
@@ -233,8 +323,98 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before post
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution post ya"
+ String: 11 uE201 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 11 uE201 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 11 uE201 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 11 uE201 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution post ya"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before pre repha-1" 0 0 0 3
+ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before pre repha-1" 0 0 0 18
  String: 11 uE200 u0952
  BString: 0 
  FString: 0 
@@ -252,6 +432,96 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before pre 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 11 uE200 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 11 uE200 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 11 uE200 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution pre repha"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-2" 5 2 1 3
@@ -4890,6 +5160,21 @@ SplineSet
  288 -124 l 1,46,47
 EndSplineSet
 Kerns2: 154 60 "'dist' Distance lookup intra-post-base marker 2-2" 155 60 "'dist' Distance lookup intra-post-base marker 2-2"
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution virama-1" u1134D
 Substitution2: "Single substitution I marker-1" u11340
 Substitution2: "Single substitution i marker-1" u1133F
@@ -4949,6 +5234,21 @@ SplineSet
  159 478 l 1,0,1
 EndSplineSet
 Validated: 1
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution I marker-1" u11340
 Substitution2: "Single substitution i marker-1" u1133F
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -10209,6 +10509,21 @@ SplineSet
  -301 -97 -301 -97 -118 -99 c 28,46,47
  -98 -99 -98 -99 -62.5 -96 c 28,0,1
 EndSplineSet
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution I marker-1" u11340
 Substitution2: "Single substitution i marker-1" u1133F
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -10667,6 +10982,9 @@ AnchorPoint: "right" -117 540 basemark 0
 LayerCount: 2
 Fore
 Refer: 7 3046 N 0.541721 0 0 0.553303 -325 450 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10684,6 +11002,9 @@ AnchorPoint: "right" -388 535 mark 0
 LayerCount: 2
 Fore
 Refer: 8 3047 S 0.599976 0 0 0.599976 -366 451 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10701,6 +11022,9 @@ AnchorPoint: "right" -378 548 mark 0
 LayerCount: 2
 Fore
 Refer: 9 3048 N 0.599976 0 0 0.599976 -348 451 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10718,6 +11042,9 @@ AnchorPoint: "right" -352 544 mark 0
 LayerCount: 2
 Fore
 Refer: 10 3049 S 0.599976 0 0 0.599976 -322 453 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10735,6 +11062,9 @@ AnchorPoint: "right" -394 542 mark 0
 LayerCount: 2
 Fore
 Refer: 11 3050 S 0.599976 0 0 0.599976 -364 450 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10752,6 +11082,9 @@ AnchorPoint: "right" -385 546 mark 0
 LayerCount: 2
 Fore
 Refer: 12 3051 S 0.599976 0 0 0.599976 -360 453 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10769,6 +11102,9 @@ AnchorPoint: "right" -391 542 mark 0
 LayerCount: 2
 Fore
 Refer: 13 3052 S 0.599976 0 0 0.599976 -357 451 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10786,6 +11122,9 @@ AnchorPoint: "right" -387 543 mark 0
 LayerCount: 2
 Fore
 Refer: 104 70405 S 0.472473 0 0 0.472473 -353 448 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10803,6 +11142,9 @@ AnchorPoint: "right" -376 547 mark 0
 LayerCount: 2
 Fore
 Refer: 116 70421 S 0.472473 0 0 0.472473 -345 450 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10820,6 +11162,9 @@ AnchorPoint: "right" -345 522 mark 0
 LayerCount: 2
 Fore
 Refer: 135 70440 S 0.37905 0 0 0.383668 -310 494 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10838,6 +11183,9 @@ LayerCount: 2
 Fore
 Refer: 152 70463 S 0.3465 0 0 0.3465 -112 450 2
 Refer: 145 70453 S 0.3465 0 0 0.3465 -349 450 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -10855,6 +11203,9 @@ AnchorPoint: "right" -334 552 basemark 0
 LayerCount: 2
 Fore
 Refer: 167 2986 S 0.5 0 0 0.5 -296 452 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11430,6 +11781,9 @@ AnchorPoint: "higher" -210 350 mark 0
 LayerCount: 2
 Fore
 Refer: 6 2405 S 0.4 0 0 0.4 -275 450 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11600,6 +11954,9 @@ SplineSet
  -347 451 l 2,9,10
  -362 451 -362 451 -362 475 c 256,0,1
 EndSplineSet
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11628,6 +11985,9 @@ SplineSet
  -321.904296875 444.13671875 l 6,13,14
  -330.639648438 438.844726562 -330.639648438 438.844726562 -338.647460938 453.037109375 c 4,0,1
 EndSplineSet
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
