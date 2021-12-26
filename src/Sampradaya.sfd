@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640441432
+ModificationTime: 1640496295
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -524,11 +524,26 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before pre 
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution pre repha"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-2" 5 2 1 3
+ChainSub2: class "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-2" 20 2 1 18
   Class: 6 u1134D
   Class: 5 u0952
   Class: 5 u1CF4
   Class: 5 u0951
+  Class: 5 u1CD0
+  Class: 5 u1CD2
+  Class: 5 u1CD3
+  Class: 6 u11366
+  Class: 6 u11367
+  Class: 6 u11368
+  Class: 6 u11369
+  Class: 6 u1136A
+  Class: 6 u1136B
+  Class: 6 u1136C
+  Class: 6 u11370
+  Class: 6 u11371
+  Class: 6 u11372
+  Class: 6 u11373
+  Class: 6 u11374
   BClass: 76 uE101 uE319 uE31F uE324 uE328 uE32E uE389 u11319 u1131F u11324 u11328 u1132E
  2 1 0
   ClsList: 1 2
@@ -551,28 +566,121 @@ ChainSub2: class "'psts' Post Base Substitutions lookup accent marks before vowe
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution virama"
-  ClassNames: "All_Others" "1" "2" "3" "4"
+ 2 1 0
+  ClsList: 1 5
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 6
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 7
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 8
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 9
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 10
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 11
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 12
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 13
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 14
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 15
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 16
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 17
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 18
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 19
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution virama"
+  ClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7" "8" "9" "10" "11" "12" "13" "14" "15" "16" "17" "18" "19"
   BClassNames: "All_Others" "1"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-1" 0 0 0 30
+ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-1" 0 0 0 180
  String: 12 u1133E u0952
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
-  SeqLookup: 1 "Single substitution A marker"
- String: 12 u1133E u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution A marker"
- String: 12 u1133E u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133F u0952
  BString: 0 
@@ -580,35 +688,11 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowe
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution i marker"
- String: 12 u1133F u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution i marker"
- String: 12 u1133F u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
-  SeqLookup: 1 "Single substitution i marker"
  String: 12 u11340 u0952
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
-  SeqLookup: 1 "Single substitution I marker"
- String: 12 u11340 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution I marker"
- String: 12 u11340 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11341 u0952
  BString: 0 
@@ -616,35 +700,11 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowe
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution u marker"
- String: 12 u11341 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution u marker"
- String: 12 u11341 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
-  SeqLookup: 1 "Single substitution u marker"
  String: 12 u11342 u0952
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
-  SeqLookup: 1 "Single substitution U marker"
- String: 12 u11342 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution U marker"
- String: 12 u11342 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11343 u0952
  BString: 0 
@@ -652,35 +712,11 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowe
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution r marker"
- String: 12 u11343 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution r marker"
- String: 12 u11343 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
-  SeqLookup: 1 "Single substitution r marker"
  String: 12 u11344 u0952
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
-  SeqLookup: 1 "Single substitution R marker"
- String: 12 u11344 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution R marker"
- String: 12 u11344 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11362 u0952
  BString: 0 
@@ -688,35 +724,11 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowe
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution l marker"
- String: 12 u11362 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution l marker"
- String: 12 u11362 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
-  SeqLookup: 1 "Single substitution l marker"
  String: 12 u11363 u0952
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
-  SeqLookup: 1 "Single substitution L marker"
- String: 12 u11363 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution L marker"
- String: 12 u11363 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution L marker"
  String: 12 u11357 u0952
  BString: 0 
@@ -724,18 +736,1026 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowe
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution au marker"
+ String: 12 u1133E u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 12 u1133F u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 12 u11340 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 12 u11341 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 12 u11342 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 12 u11343 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 12 u11344 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 12 u11362 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 12 u11363 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution L marker"
  String: 12 u11357 u1CF4
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution au marker"
+ String: 12 u1133E u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 12 u1133F u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 12 u11340 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 12 u11341 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 12 u11342 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 12 u11343 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 12 u11344 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 12 u11362 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 12 u11363 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution L marker"
  String: 12 u11357 u0951
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution au marker"
+ String: 12 u1133E u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 12 u1133F u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 12 u11340 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 12 u11341 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 12 u11342 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 12 u11343 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 12 u11344 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 12 u11357 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 12 u11362 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 12 u11363 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 12 u1133E u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 12 u1133F u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 12 u11340 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 12 u11341 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 12 u11342 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 12 u11343 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 12 u11344 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 12 u11357 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 12 u11362 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 12 u11363 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 12 u1133E u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 12 u1133F u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 12 u11340 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 12 u11341 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 12 u11342 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 12 u11343 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 12 u11344 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 12 u11357 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 12 u11362 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 12 u11363 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u1133E u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11357 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u11362 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution L marker"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before ayogavahas-1" 0 0 0 72
  String: 12 u11302 u0952
@@ -9722,6 +10742,21 @@ SplineSet
  24 12 24 12 24 25 c 2,23,-1
  24 377 l 2,0,1
 EndSplineSet
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -9760,6 +10795,21 @@ SplineSet
  -185 413 -185 413 -100 413 c 0,0,1
 EndSplineSet
 Kerns2: 40 -20 "'dist' Distance lookup intra-post-base marker 2-2" 41 -30 "'dist' Distance lookup intra-post-base marker 2-2"
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
@@ -9820,6 +10870,21 @@ SplineSet
  93 318 93 318 116 350 c 0,47,48
 EndSplineSet
 Kerns2: 40 -125 "'dist' Distance lookup intra-post-base marker 2-2" 41 -110 "'dist' Distance lookup intra-post-base marker 2-2" 42 -120 "'dist' Distance lookup intra-post-base marker 2-2" 43 -120 "'dist' Distance lookup intra-post-base marker 2-2" 170 -120 "'dist' Distance lookup intra-post-base marker 2-2"
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
@@ -9862,6 +10927,21 @@ SplineSet
  112 251 112 251 112 305 c 2,32,-1
  112 360 l 1,15,-1
 EndSplineSet
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -9928,6 +11008,21 @@ SplineSet
  187 265 187 265 203.5 281 c 128,-1,81
  220 297 220 297 220 315 c 0,72,73
 EndSplineSet
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -9975,6 +11070,21 @@ SplineSet
  -34 -68 -34 -68 35 -68 c 0,9,10
 EndSplineSet
 Validated: 1
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -10033,6 +11143,21 @@ SplineSet
  42 -65 42 -65 58 -160 c 1,57,58
  69 -64 69 -64 106 -64 c 0,22,23
 EndSplineSet
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -10238,6 +11363,21 @@ SplineSet
  74 446 74 446 108 446 c 0,36,37
  162 446 162 446 163 428.5 c 0,0,1
 EndSplineSet
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution pre repha-1" uE200
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
@@ -10390,6 +11530,21 @@ SplineSet
  164 195 164 195 140 200 c 128,-1,63
  116 205 116 205 91 205 c 1,48,49
 EndSplineSet
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -10414,6 +11569,21 @@ Flags: MW
 LayerCount: 2
 Fore
 Refer: 111 70412 N 1 0 0 1 0 0 2
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -10965,6 +12135,21 @@ SplineSet
  208 154 208 154 194.5 177.5 c 128,-1,107
  181 201 181 201 152 201 c 0,95,96
 EndSplineSet
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -10985,6 +12170,17 @@ Refer: 7 3046 N 0.541721 0 0 0.553303 -325 450 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11005,6 +12201,17 @@ Refer: 8 3047 S 0.599976 0 0 0.599976 -366 451 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11025,6 +12232,17 @@ Refer: 9 3048 N 0.599976 0 0 0.599976 -348 451 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11045,6 +12263,17 @@ Refer: 10 3049 S 0.599976 0 0 0.599976 -322 453 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11065,6 +12294,17 @@ Refer: 11 3050 S 0.599976 0 0 0.599976 -364 450 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11085,6 +12325,17 @@ Refer: 12 3051 S 0.599976 0 0 0.599976 -360 453 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11105,6 +12356,17 @@ Refer: 13 3052 S 0.599976 0 0 0.599976 -357 451 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11125,6 +12387,17 @@ Refer: 104 70405 S 0.472473 0 0 0.472473 -353 448 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11145,6 +12418,17 @@ Refer: 116 70421 S 0.472473 0 0 0.472473 -345 450 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11165,6 +12449,17 @@ Refer: 135 70440 S 0.37905 0 0 0.383668 -310 494 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11186,6 +12481,17 @@ Refer: 145 70453 S 0.3465 0 0 0.3465 -349 450 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11206,6 +12512,17 @@ Refer: 167 2986 S 0.5 0 0 0.5 -296 452 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11784,6 +13101,17 @@ Refer: 6 2405 S 0.4 0 0 0.4 -275 450 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11957,6 +13285,17 @@ EndSplineSet
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303
@@ -11988,6 +13327,17 @@ EndSplineSet
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
 Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
 Substitution2: "Single substitution ardhavisarga-1" u1CF2
 Substitution2: "Single substitution visarga-1" u11303

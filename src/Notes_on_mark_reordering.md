@@ -10,12 +10,12 @@ Rp?B(S<sub>2</sub>S<sub>3</sub>?)?Rk?Y?(IV|OV|Vi)?An?Ay?(UA|OA)?
 Automatically rearranged by renderers:
 B(S<sub>2</sub>S<sub>3</sub>?)?Rk?Y?Rp?(IV|OV|Vi)?An?Ay?(UA|OA)?
 
-Expected rendering:
+Final rendering:
 B(S<sub>2</sub>S<sub>3</sub>?)?UA?An?OA?IV?Rk?Y?Vi?Rp?OV?Ay?
 
 Note: Pl(UAccOAcc)? can optionally come at the end of the stream but does not require any rearrangement
 
-Legend:
+### Legend
 
 * ?: Regex semantics
 * (): Regex semantics
@@ -34,7 +34,7 @@ Legend:
 * Y: Post yakāra
 * P: Pluta marker
 
-Order:
+### Order of rearrangement `psts` tables
 
 * Anunāsika before all vowel markers and virāma
 * Anunāsika before pre rēpha
