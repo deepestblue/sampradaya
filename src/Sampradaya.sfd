@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640506673
+ModificationTime: 1640708841
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -3184,7 +3184,7 @@ NameList: AGL For New Fonts
 DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 23 11
+WinInfo: 0 23 14
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -3192,7 +3192,7 @@ Grid
  2048 228.5 l 1024
 EndSplineSet
 AnchorClass2: "right" "'mkmk' Mark to Mark lookup 11-1" "dummy" "'mkmk' Mark to Mark lookup 11-1" "higher" "'mkmk' Mark to Mark lookup 11-1" "high" "'mark' Mark Positioning lookup 10-1" "lower" "'mkmk' Mark to Mark lookup 11-1" "low" "'mark' Mark Positioning lookup 10-1"
-BeginChars: 1114114 213
+BeginChars: 1114114 214
 
 StartChar: .notdef
 Encoding: 1114112 -1 0
@@ -13349,6 +13349,25 @@ Encoding: 8432 8432 212
 Width: 0
 Flags: W
 LayerCount: 2
+EndChar
+
+StartChar: uni2010
+Encoding: 8208 8208 213
+Width: 548
+Flags: WO
+LayerCount: 2
+Fore
+SplineSet
+84.125 202.125 m 260,0,1
+ 84.125 230.875 84.125 230.875 102.875 230.875 c 6,2,-1
+ 441.625 230.875 l 6,3,4
+ 451.625 230.875 451.625 230.875 457.25 221.5 c 132,-1,5
+ 462.875 212.125 462.875 212.125 462.875 201.5 c 132,-1,6
+ 462.875 190.875 462.875 190.875 456 181.5 c 132,-1,7
+ 449.125 172.125 449.125 172.125 439.125 172.125 c 6,8,-1
+ 102.875 172.125 l 6,9,10
+ 84.125 172.125 84.125 172.125 84.125 202.125 c 260,0,1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
