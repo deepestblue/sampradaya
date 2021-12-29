@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640745541
+ModificationTime: 1640784190
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -112,6 +112,9 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before pre repha"
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before post ya" { "'psts' Post Base Substitutions lookup anunasika before post ya-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before post repha" { "'psts' Post Base Substitutions lookup anunasika before post repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before ayogavahas" { "'psts' Post Base Substitutions lookup accent marks before ayogavahas-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 1" { "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 1-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 3" { "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 3-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama" { "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-1"  "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-2"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before pre repha" { "'psts' Post Base Substitutions lookup accent marks before pre repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before post ya" { "'psts' Post Base Substitutions lookup accent marks before post ya-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -138,6 +141,228 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning l
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 3-1" 0 0 0 4
+ String: 13 u11302 u11374
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11374
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11374
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11374
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 2-1" 0 0 0 12
+ String: 13 u11302 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 1-1" 0 0 0 20
+ String: 13 u11302 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup i/I markers before post repha-1" 0 0 0 2
  String: 12 uE205 u1133F
  BString: 0 
@@ -13092,7 +13317,7 @@ EndChar
 StartChar: u1CD3
 Encoding: 7379 7379 207
 Width: 186
-Flags: WO
+Flags: W
 LayerCount: 2
 Fore
 Refer: 6 2405 N 0.4 0 0 0.4 29 450 2
