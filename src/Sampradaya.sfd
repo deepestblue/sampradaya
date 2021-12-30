@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640786592
+ModificationTime: 1640867166
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -3297,15 +3297,16 @@ ChainSub2: class "'psts' Post Base Substitutions lookup i marker variants" 2 8 1
   BClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup post repha variants-1" 2 8 1 36
+ChainSub2: class "'psts' Post Base Substitutions lookup post repha variants-1" 2 9 1 66
   Class: 5 uE205
   BClass: 77 uE105 uE10C uE10D uE10E uE113 uE115 u11319 u1131C u1131F u11326 u11328 u11337
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 17 uE100 uE109 uE10B
   BClass: 13 u1133F u11340
-  BClass: 113 u0951 u1CD0 u1CD2 u20F0 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  BClass: 101 u1CD0 u1CD2 u20F0 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
   BClass: 6 u11301
   BClass: 5 u0952
+  BClass: 11 u0951 u1CF4
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -3522,8 +3523,188 @@ ChainSub2: class "'psts' Post Base Substitutions lookup post repha variants-1" 2
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 2 0
+  ClsList: 1
+  BClsList: 8 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 2 0
+  ClsList: 1
+  BClsList: 8 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 2 0
+  ClsList: 1
+  BClsList: 8 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 8 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 8 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 4 8 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 8 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 8 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 8 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 5 5 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 5 5 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 4 0
+  ClsList: 1
+  BClsList: 5 5 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 5 5 5 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 5 5 5 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 5 0
+  ClsList: 1
+  BClsList: 5 5 5 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 6 0
+  ClsList: 1
+  BClsList: 5 5 5 5 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 5 5 5 5 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 6 0
+  ClsList: 1
+  BClsList: 5 5 5 5 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 4 5 5 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 4 5 5 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 5 0
+  ClsList: 1
+  BClsList: 4 5 5 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 6 0
+  ClsList: 1
+  BClsList: 4 5 5 5 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 4 5 5 5 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 6 0
+  ClsList: 1
+  BClsList: 4 5 5 5 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
+ 1 7 0
+  ClsList: 1
+  BClsList: 4 5 5 5 5 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 1"
+ 1 7 0
+  ClsList: 1
+  BClsList: 4 5 5 5 5 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 2"
+ 1 7 0
+  ClsList: 1
+  BClsList: 4 5 5 5 5 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup post repha variant 3"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7"
+  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7" "8"
   FClassNames: "All_Others"
 EndFPST
 LangName: 1033 "" "" "" "" "" "" "" "" "" "" "" "" "" "Copyright (c) 2021, Ambarish Sridharanarayanan (https://github.com/deepestblue/Sampradaya),+AAoA-with Reserved Font Name Sampradaya.+AAoACgAA-This Font Software is licensed under the SIL Open Font License, Version 1.1.+AAoA-This license is copied below, and is also available with a FAQ at:+AAoA-http://scripts.sil.org/OFL+AAoACgAK------------------------------------------------------------+AAoA-SIL OPEN FONT LICENSE Version 1.1 - 26 February 2007+AAoA------------------------------------------------------------+AAoACgAA-PREAMBLE+AAoA-The goals of the Open Font License (OFL) are to stimulate worldwide+AAoA-development of collaborative font projects, to support the font creation+AAoA-efforts of academic and linguistic communities, and to provide a free and+AAoA-open framework in which fonts may be shared and improved in partnership+AAoA-with others.+AAoACgAA-The OFL allows the licensed fonts to be used, studied, modified and+AAoA-redistributed freely as long as they are not sold by themselves. The+AAoA-fonts, including any derivative works, can be bundled, embedded, +AAoA-redistributed and/or sold with any software provided that any reserved+AAoA-names are not used by derivative works. The fonts and derivatives,+AAoA-however, cannot be released under any other type of license. The+AAoA-requirement for fonts to remain under this license does not apply+AAoA-to any document created using the fonts or their derivatives.+AAoACgAA-DEFINITIONS+AAoAIgAA-Font Software+ACIA refers to the set of files released by the Copyright+AAoA-Holder(s) under this license and clearly marked as such. This may+AAoA-include source files, build scripts and documentation.+AAoACgAi-Reserved Font Name+ACIA refers to any names specified as such after the+AAoA-copyright statement(s).+AAoACgAi-Original Version+ACIA refers to the collection of Font Software components as+AAoA-distributed by the Copyright Holder(s).+AAoACgAi-Modified Version+ACIA refers to any derivative made by adding to, deleting,+AAoA-or substituting -- in part or in whole -- any of the components of the+AAoA-Original Version, by changing formats or by porting the Font Software to a+AAoA-new environment.+AAoACgAi-Author+ACIA refers to any designer, engineer, programmer, technical+AAoA-writer or other person who contributed to the Font Software.+AAoACgAA-PERMISSION & CONDITIONS+AAoA-Permission is hereby granted, free of charge, to any person obtaining+AAoA-a copy of the Font Software, to use, study, copy, merge, embed, modify,+AAoA-redistribute, and sell modified and unmodified copies of the Font+AAoA-Software, subject to the following conditions:+AAoACgAA-1) Neither the Font Software nor any of its individual components,+AAoA-in Original or Modified Versions, may be sold by itself.+AAoACgAA-2) Original or Modified Versions of the Font Software may be bundled,+AAoA-redistributed and/or sold with any software, provided that each copy+AAoA-contains the above copyright notice and this license. These can be+AAoA-included either as stand-alone text files, human-readable headers or+AAoA-in the appropriate machine-readable metadata fields within text or+AAoA-binary files as long as those fields can be easily viewed by the user.+AAoACgAA-3) No Modified Version of the Font Software may use the Reserved Font+AAoA-Name(s) unless explicit written permission is granted by the corresponding+AAoA-Copyright Holder. This restriction only applies to the primary font name as+AAoA-presented to the users.+AAoACgAA-4) The name(s) of the Copyright Holder(s) or the Author(s) of the Font+AAoA-Software shall not be used to promote, endorse or advertise any+AAoA-Modified Version, except to acknowledge the contribution(s) of the+AAoA-Copyright Holder(s) and the Author(s) or with their explicit written+AAoA-permission.+AAoACgAA-5) The Font Software, modified or unmodified, in part or in whole,+AAoA-must be distributed entirely under this license, and must not be+AAoA-distributed under any other license. The requirement for fonts to+AAoA-remain under this license does not apply to any document created+AAoA-using the Font Software.+AAoACgAA-TERMINATION+AAoA-This license becomes null and void if any of the above conditions are+AAoA-not met.+AAoACgAA-DISCLAIMER+AAoA-THE FONT SOFTWARE IS PROVIDED +ACIA-AS IS+ACIA, WITHOUT WARRANTY OF ANY KIND,+AAoA-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO ANY WARRANTIES OF+AAoA-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT+AAoA-OF COPYRIGHT, PATENT, TRADEMARK, OR OTHER RIGHT. IN NO EVENT SHALL THE+AAoA-COPYRIGHT HOLDER BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,+AAoA-INCLUDING ANY GENERAL, SPECIAL, INDIRECT, INCIDENTAL, OR CONSEQUENTIAL+AAoA-DAMAGES, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING+AAoA-FROM, OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM+AAoA-OTHER DEALINGS IN THE FONT SOFTWARE." "http://scripts.sil.org/OFL"
@@ -3532,7 +3713,7 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -36
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 23 14
