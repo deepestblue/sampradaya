@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640951388
+ModificationTime: 1640959290
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -149,28 +149,28 @@ MarkAttachClasses: 1
 DEI: 91125
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 3-1" 0 0 0 1
  String: 12 uE205 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution post repha"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 2-1" 0 0 0 3
  String: 12 uE205 u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution post repha"
  String: 12 uE205 u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution post repha"
  String: 12 uE205 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution post repha"
@@ -2761,10 +2761,11 @@ ChainSub2: class "'pstf' Post Base Forms lookup (post yakara form)" 3 1 1 1
   BClassNames: "All_Others"
   FClassNames: "All_Others"
 EndFPST
-ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 2 9
+ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 5 1 2 33
   Class: 62 uE102 uE109 uE10D uE111 uE112 uE114 uE115 u1131F u11332 u11337
   Class: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
-  Class: 126 u0951 u0952 u1CD0 u1CD2 u20F0 u1CF4 u11301 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  Class: 24 u0951 u0952 u1CF4 u11301
+  Class: 101 u1CD0 u1CD2 u20F0 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
   FClass: 12 uE206 u11340
  1 0 1
   ClsList: 1
@@ -2820,7 +2821,151 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 2 9
   FClsList: 1
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
-  ClassNames: "All_Others" "1" "2" "3"
+ 2 0 1
+  ClsList: 1 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 3 0 1
+  ClsList: 1 2 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 4 0 1
+  ClsList: 1 2 2 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 3 0 1
+  ClsList: 1 3 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 4 0 1
+  ClsList: 1 2 3 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 5 0 1
+  ClsList: 1 2 2 3 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 3 0 1
+  ClsList: 1 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 4 0 1
+  ClsList: 1 2 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 5 0 1
+  ClsList: 1 2 2 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 4 0 1
+  ClsList: 1 3 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 5 0 1
+  ClsList: 1 2 3 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 6 0 1
+  ClsList: 1 2 2 3 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 4 0 1
+  ClsList: 1 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 5 0 1
+  ClsList: 1 2 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 6 0 1
+  ClsList: 1 2 2 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 5 0 1
+  ClsList: 1 3 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 6 0 1
+  ClsList: 1 2 3 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 7 0 1
+  ClsList: 1 2 2 3 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 5 0 1
+  ClsList: 1 4 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 6 0 1
+  ClsList: 1 2 4 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 7 0 1
+  ClsList: 1 2 2 4 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 6 0 1
+  ClsList: 1 3 4 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 7 0 1
+  ClsList: 1 2 3 4 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+ 8 0 1
+  ClsList: 1 2 2 3 4 4 4 4
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+  ClassNames: "All_Others" "1" "2" "3" "4"
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1"
 EndFPST
@@ -4381,10 +4526,10 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -24
+DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 23 14
+WinInfo: 0 23 12
 BeginPrivate: 0
 EndPrivate
 Grid
