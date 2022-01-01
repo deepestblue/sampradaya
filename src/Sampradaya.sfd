@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1641044881
+ModificationTime: 1641055767
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -276,65 +276,65 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution au marker"
- String: 13 u1133E u11371
+ String: 13 u1133E u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution A marker"
- String: 13 u1133F u11371
+ String: 13 u1133F u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution i marker"
- String: 13 u11340 u11371
+ String: 13 u11340 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution I marker"
- String: 13 u11341 u11371
+ String: 13 u11341 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution u marker"
- String: 13 u11342 u11371
+ String: 13 u11342 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution U marker"
- String: 13 u11343 u11371
+ String: 13 u11343 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution r marker"
- String: 13 u11344 u11371
+ String: 13 u11344 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution R marker"
- String: 13 u11362 u11371
+ String: 13 u11362 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution l marker"
- String: 13 u11363 u11371
+ String: 13 u11363 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution L marker"
- String: 13 u11357 u11371
+ String: 13 u11357 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u1133E u11374
  BString: 0 
@@ -397,7 +397,7 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution au marker"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-1" 0 0 0 50
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-1" 0 0 0 80
  String: 13 u1133E u11366
  BString: 0 
  FString: 0 
@@ -698,6 +698,186 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution au marker"
+ String: 13 u1133E u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u1133E u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u1133E u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution au marker"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-2" 3 2 0 1
   Class0: 17 {Everything Else}
@@ -715,10 +895,9 @@ ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks b
   BClassNames: "All_Others" "1"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-2" 5 2 0 3
-  Class0: 17 {Everything Else}
   Class: 6 u1134D
   Class: 6 u11366
-  Class: 6 u11371
+  Class: 6 u11367
   Class: 6 u11374
   BClass: 76 uE101 uE319 uE31F uE324 uE328 uE32E uE389 u11319 u1131F u11324 u11328 u1132E
  2 1 0
@@ -733,7 +912,7 @@ ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks b
   BClsList: 0
   FClsList:
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution virama"
  2 1 0
   ClsList: 1 4
@@ -745,13 +924,16 @@ ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks b
   ClassNames: "All_Others" "1" "2" "3" "4"
   BClassNames: "All_Others" "1"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2" 7 2 7 5
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2" 10 2 10 8
   Class: 6 u1134D
   Class: 6 u11366
   Class: 6 u11367
   Class: 6 u11368
   Class: 6 u11371
   Class: 6 u11374
+  Class: 6 u11370
+  Class: 6 u11372
+  Class: 6 u11373
   BClass: 76 uE101 uE319 uE31F uE324 uE328 uE32E uE389 u11319 u1131F u11324 u11328 u1132E
   FClass: 6 u1134D
   FClass: 6 u11366
@@ -759,6 +941,9 @@ ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks b
   FClass: 6 u11368
   FClass: 6 u11371
   FClass: 6 u11374
+  FClass: 6 u11370
+  FClass: 6 u11372
+  FClass: 6 u11373
  2 1 0
   ClsList: 1 2
   BClsList: 0
@@ -794,9 +979,30 @@ ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks b
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution virama"
-  ClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
+ 2 1 0
+  ClsList: 1 7
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 8
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 9
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution virama"
+  ClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7" "8" "9"
   BClassNames: "All_Others" "1"
-  FClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
+  FClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7" "8" "9"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 3-1" 0 0 0 1
  String: 12 uE201 u11374
@@ -808,54 +1014,72 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 2-1" 0 0 0 3
  String: 12 uE201 u11366
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution combining zero"
-  SeqLookup: 1 "Single substitution post ya"
- String: 12 uE201 u11371
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution combining ka"
-  SeqLookup: 1 "Single substitution post ya"
- String: 12 uE201 u11374
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution combining pa"
-  SeqLookup: 1 "Single substitution post ya"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 1-1" 0 0 0 5
- String: 12 uE201 u11366
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution post ya"
  String: 12 uE201 u11367
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11374
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution post ya"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 1-1" 0 0 0 8
+ String: 12 uE201 u11366
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11367
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution post ya"
  String: 12 uE201 u11368
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution post ya"
  String: 12 uE201 u11371
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution post ya"
  String: 12 uE201 u11374
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11370
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11372
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11373
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution post ya"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 3-1" 0 0 0 1
@@ -868,54 +1092,72 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 2-1" 0 0 0 3
  String: 12 uE205 u11366
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution combining zero"
-  SeqLookup: 1 "Single substitution post repha"
- String: 12 uE205 u11371
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution combining ka"
-  SeqLookup: 1 "Single substitution post repha"
- String: 12 uE205 u11374
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution combining pa"
-  SeqLookup: 1 "Single substitution post repha"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 1-1" 0 0 0 5
- String: 12 uE205 u11366
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution post repha"
  String: 12 uE205 u11367
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11374
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution post repha"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 1-1" 0 0 0 8
+ String: 12 uE205 u11366
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11367
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution post repha"
  String: 12 uE205 u11368
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution post repha"
  String: 12 uE205 u11371
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution post repha"
  String: 12 uE205 u11374
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11370
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11372
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution post repha"
+ String: 12 uE205 u11373
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution post repha"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 3-1" 0 0 0 1
@@ -928,54 +1170,72 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 2-1" 0 0 0 3
  String: 12 uE200 u11366
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution combining zero"
-  SeqLookup: 1 "Single substitution pre repha"
- String: 12 uE200 u11371
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution combining ka"
-  SeqLookup: 1 "Single substitution pre repha"
- String: 12 uE200 u11374
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution combining pa"
-  SeqLookup: 1 "Single substitution pre repha"
-EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 1-1" 0 0 0 5
- String: 12 uE200 u11366
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution pre repha"
  String: 12 uE200 u11367
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11374
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution pre repha"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 1-1" 0 0 0 8
+ String: 12 uE200 u11366
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11367
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution pre repha"
  String: 12 uE200 u11368
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution pre repha"
  String: 12 uE200 u11371
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution pre repha"
  String: 12 uE200 u11374
- BString: 0 
- FString: 0 
+ BString: 0
+ FString: 0
  2
   SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11370
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11372
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution pre repha"
+ String: 12 uE200 u11373
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution pre repha"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 3-1" 0 0 0 4
@@ -1029,29 +1289,29 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution rotated ardhavisarga"
- String: 13 u11302 u11371
+ String: 13 u11302 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution anusvara"
- String: 13 u11303 u11371
+ String: 13 u11303 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution visarga"
- String: 12 u1CF2 u11371
+ String: 12 u1CF2 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution ardhavisarga"
- String: 12 u1CF3 u11371
+ String: 12 u1CF3 u11367
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution rotated ardhavisarga"
  String: 13 u11302 u11374
  BString: 0 
@@ -1078,7 +1338,7 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution rotated ardhavisarga"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 1-1" 0 0 0 20
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 1-1" 0 0 0 32
  String: 13 u11302 u11366
  BString: 0 
  FString: 0 
@@ -1198,6 +1458,78 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
  FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution rotated ardhavisarga"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup i/I markers before post repha-1" 0 0 0 2
@@ -5237,7 +5569,7 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -36
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 21 21 10
