@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1641036877
+ModificationTime: 1641039083
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -116,9 +116,9 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks befo
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 3" { "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 3-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama" { "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-1"  "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-2"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1" { "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2"  "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-2"  "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
-Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3" { "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-2"  "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1" { "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-1"  "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-1"  "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-2"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3" { "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-1"  "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-2"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before pre repha" { "'psts' Post Base Substitutions lookup accent marks before pre repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 1" { "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 1-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -153,7 +153,7 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning l
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
-ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-2" 0 0 0 10
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-1" 0 0 0 10
  String: 13 u1133E u11374
  BString: 0 
  FString: 0 
@@ -215,7 +215,7 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution au marker"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-2" 0 0 0 30
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-1" 0 0 0 30
  String: 13 u1133E u11366
  BString: 0 
  FString: 0 
@@ -397,7 +397,7 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution au marker"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2" 0 0 0 50
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-1" 0 0 0 50
  String: 13 u1133E u11366
  BString: 0 
  FString: 0 
@@ -699,11 +699,11 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution au marker"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-1" 0 0 0 0
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-2" 0 0 0 0
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-1" 0 0 0 0
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-2" 0 0 0 0
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-1" 0 0 0 0
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2" 0 0 0 0
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 3-1" 0 0 0 1
  String: 12 uE201 u11374
@@ -14122,7 +14122,7 @@ EndChar
 StartChar: u11366
 Encoding: 70502 70502 181
 Width: 0
-Flags: MWO
+Flags: MW
 AnchorPoint: "right" -360 540 mark 0
 AnchorPoint: "high" -214 313 mark 0
 AnchorPoint: "higher" -214 313 mark 0
