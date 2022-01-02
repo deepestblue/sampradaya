@@ -93,7 +93,7 @@ Lookup: 1 0 0 "Single substitution ardhavisarga" { "Single substitution ardhavis
 Lookup: 1 0 0 "Single substitution rotated ardhavisarga" { "Single substitution rotated ardhavisarga-1"  } []
 Lookup: 1 0 0 "Single substitution karsana" { "Single substitution karsana-1"  } []
 Lookup: 1 0 0 "Single substitution prenkha" { "Single substitution prenkha-1"  } []
-Lookup: 1 0 0 "Single substitution nihsvasa" { "Single substitution nihsvasa-1"  } []
+Lookup: 1 0 0 "Single substitution combining asterisk" { "Single substitution combining asterisk-1"  } []
 Lookup: 1 0 0 "Single substitution combining zero" { "Single substitution combining zero-1"  } []
 Lookup: 1 0 0 "Single substitution combining one" { "Single substitution combining one-1"  } []
 Lookup: 1 0 0 "Single substitution combining two" { "Single substitution combining two-1"  } []
@@ -225,11 +225,11 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before post
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution post repha"
- String: 11 uE205 u1CD3
+ String: 11 uE205 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution post repha"
  String: 12 uE205 u11366
  BString: 0 
@@ -341,11 +341,11 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before post
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution post ya"
- String: 11 uE201 u1CD3
+ String: 11 uE201 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution post ya"
  String: 12 uE201 u11366
  BString: 0 
@@ -445,11 +445,11 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before pre 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution pre repha"
- String: 11 uE200 u1CD3
+ String: 11 uE200 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution pre repha"
  String: 12 uE200 u11366
  BString: 0 
@@ -531,7 +531,7 @@ ChainSub2: class "'psts' Post Base Substitutions lookup accent marks before vowe
   Class: 5 u0951
   Class: 5 u1CD0
   Class: 5 u1CD2
-  Class: 5 u1CD3
+  Class: 5 u20F0
   Class: 6 u11366
   Class: 6 u11367
   Class: 6 u11368
@@ -585,7 +585,7 @@ ChainSub2: class "'psts' Post Base Substitutions lookup accent marks before vowe
   BClsList: 0
   FClsList:
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution virama"
  2 1 0
   ClsList: 1 8
@@ -976,65 +976,65 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowe
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution L marker"
- String: 12 u1133E u1CD3
+ String: 12 u1133E u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution A marker"
- String: 12 u1133F u1CD3
+ String: 12 u1133F u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution i marker"
- String: 12 u11340 u1CD3
+ String: 12 u11340 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution I marker"
- String: 12 u11341 u1CD3
+ String: 12 u11341 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution u marker"
- String: 12 u11342 u1CD3
+ String: 12 u11342 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution U marker"
- String: 12 u11343 u1CD3
+ String: 12 u11343 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution r marker"
- String: 12 u11344 u1CD3
+ String: 12 u11344 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution R marker"
- String: 12 u11357 u1CD3
+ String: 12 u11357 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution au marker"
- String: 12 u11362 u1CD3
+ String: 12 u11362 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution l marker"
- String: 12 u11363 u1CD3
+ String: 12 u11363 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11366
  BString: 0 
@@ -1878,29 +1878,29 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before ayog
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution rotated ardhavisarga"
- String: 12 u11302 u1CD3
+ String: 12 u11302 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution anusvara"
- String: 12 u11303 u1CD3
+ String: 12 u11303 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution visarga"
- String: 11 u1CF2 u1CD3
+ String: 11 u1CF2 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution ardhavisarga"
- String: 11 u1CF3 u1CD3
+ String: 11 u1CF3 u20F0
  BString: 0 
  FString: 0 
  2
-  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution rotated ardhavisarga"
  String: 13 u11302 u11366
  BString: 0 
@@ -2413,7 +2413,7 @@ EndFPST
 ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 2 9
   Class: 62 uE102 uE109 uE10D uE111 uE112 uE114 uE115 u1131F u11332 u11337
   Class: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
-  Class: 126 u0951 u0952 u1CD0 u1CD2 u1CD3 u1CF4 u11301 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  Class: 126 u0951 u0952 u1CD0 u1CD2 u20F0 u1CF4 u11301 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
   FClass: 12 uE206 u11340
  1 0 1
   ClsList: 1
@@ -2478,7 +2478,7 @@ ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 2 5 1
   BClass: 13 u1131F u11333
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 6 u11301
-  BClass: 119 u0951 u0952 u1CD0 u1CD2 u1CD3 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  BClass: 119 u0951 u0952 u1CD0 u1CD2 u20F0 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -2581,7 +2581,7 @@ ChainSub2: class "'psts' Post Base Substitutions lookup i marker variants" 2 8 1
   BClass: 30 uE10C uE10D uE112 uE115 u11337
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 6 u11301
-  BClass: 119 u0951 u0952 u1CD0 u1CD2 u1CD3 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  BClass: 119 u0951 u0952 u1CD0 u1CD2 u20F0 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -2952,7 +2952,7 @@ ChainSub2: class "'psts' Post Base Substitutions lookup post repha variants-1" 2
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 17 uE100 uE109 uE10B
   BClass: 13 u1133F u11340
-  BClass: 113 u0951 u1CD0 u1CD2 u1CD3 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  BClass: 113 u0951 u1CD0 u1CD2 u20F0 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
   BClass: 6 u11301
   BClass: 5 u0952
  1 1 0
@@ -6192,7 +6192,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution virama-1" u1134D
@@ -6266,7 +6266,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution I marker-1" u11340
@@ -7478,7 +7478,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -7552,7 +7552,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -10341,7 +10341,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -10370,7 +10370,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution post repha-1" uE205
@@ -10406,7 +10406,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution post repha-1" uE205
@@ -10438,7 +10438,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -10466,7 +10466,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -10528,7 +10528,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -10601,7 +10601,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -10776,7 +10776,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution pre repha-1" uE200
@@ -10900,7 +10900,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -10939,7 +10939,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -11048,7 +11048,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution I marker-1" u11340
@@ -11504,7 +11504,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -12028,7 +12028,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
