@@ -40,7 +40,7 @@ Order:
 * Anunāsika before pre rēpha
 * Anunāsika before post yakāra
 * Anunāsika before post rēpha
-* Accent markers before anusvāra, visarga and ardhavisarga
+* Accent markers before ayōgavāhas
 * Accent markers before all vowel markers and virāma, except for the haln cases
 * Accent markers before pre rēpha
 * Accent markers before post yakāra

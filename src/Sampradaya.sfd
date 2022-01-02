@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640302399
+ModificationTime: 1640438618
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -91,6 +91,21 @@ Lookup: 1 0 0 "Single substitution anusvara" { "Single substitution anusvara-1" 
 Lookup: 1 0 0 "Single substitution visarga" { "Single substitution visarga-1"  } []
 Lookup: 1 0 0 "Single substitution ardhavisarga" { "Single substitution ardhavisarga-1"  } []
 Lookup: 1 0 0 "Single substitution rotated ardhavisarga" { "Single substitution rotated ardhavisarga-1"  } []
+Lookup: 1 0 0 "Single substitution karsana" { "Single substitution karsana-1"  } []
+Lookup: 1 0 0 "Single substitution prenkha" { "Single substitution prenkha-1"  } []
+Lookup: 1 0 0 "Single substitution nihsvasa" { "Single substitution nihsvasa-1"  } []
+Lookup: 1 0 0 "Single substitution combining zero" { "Single substitution combining zero-1"  } []
+Lookup: 1 0 0 "Single substitution combining one" { "Single substitution combining one-1"  } []
+Lookup: 1 0 0 "Single substitution combining two" { "Single substitution combining two-1"  } []
+Lookup: 1 0 0 "Single substitution combining three" { "Single substitution combining three-1"  } []
+Lookup: 1 0 0 "Single substitution combining four" { "Single substitution combining four-1"  } []
+Lookup: 1 0 0 "Single substitution combining five" { "Single substitution combining five-1"  } []
+Lookup: 1 0 0 "Single substitution combining six" { "Single substitution combining six-1"  } []
+Lookup: 1 0 0 "Single substitution combining a" { "Single substitution combining a-1"  } []
+Lookup: 1 0 0 "Single substitution combining ka" { "Single substitution combining ka-1"  } []
+Lookup: 1 0 0 "Single substitution combining na" { "Single substitution combining na-1"  } []
+Lookup: 1 0 0 "Single substitution combining vi" { "Single substitution combining vi-1"  } []
+Lookup: 1 0 0 "Single substitution combining pa" { "Single substitution combining pa-1"  } []
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup intraconsontal anunasika" { "'psts' Post Base Forms lookup 131-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before vowel markers" { "'psts' Post Base Substitutions lookup anunasika before vowel markers-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup anunasika before pre repha" { "'psts' Post Base Substitutions lookup anunasika before pre repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -452,24 +467,12 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowe
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution au marker"
 EndFPST
-ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before ayogavahas-1" 0 0 0 12
+ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before ayogavahas-1" 0 0 0 72
  String: 12 u11302 u0952
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
-  SeqLookup: 1 "Single substitution anusvara"
- String: 12 u11302 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution anusvara"
- String: 12 u11302 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution anusvara"
  String: 12 u11303 u0952
  BString: 0 
@@ -477,35 +480,11 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before ayog
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution visarga"
- String: 12 u11303 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution visarga"
- String: 12 u11303 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
-  SeqLookup: 1 "Single substitution visarga"
  String: 11 u1CF2 u0952
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
-  SeqLookup: 1 "Single substitution ardhavisarga"
- String: 11 u1CF2 u1CF4
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution svarita"
-  SeqLookup: 1 "Single substitution ardhavisarga"
- String: 11 u1CF2 u0951
- BString: 0 
- FString: 0 
- 2
-  SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution ardhavisarga"
  String: 11 u1CF3 u0952
  BString: 0 
@@ -513,17 +492,413 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before ayog
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 12 u11302 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 12 u11303 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 11 u1CF2 u1CF4
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution svarita"
+  SeqLookup: 1 "Single substitution ardhavisarga"
  String: 11 u1CF3 u1CF4
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 12 u11302 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 12 u11303 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 11 u1CF2 u0951
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution ardhavisarga"
  String: 11 u1CF3 u0951
  BString: 0 
  FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 12 u11302 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 12 u11303 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 11 u1CF2 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 11 u1CF3 u1CD0
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution karsana"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 12 u11302 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 12 u11303 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 11 u1CF2 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 11 u1CF3 u1CD2
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution prenkha"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 12 u11302 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 12 u11303 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 11 u1CF2 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 11 u1CF3 u1CD3
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution nihsvasa"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11369
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining three"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u1136A
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining four"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u1136B
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining five"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u1136C
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining six"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11370
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining a"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11372
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining na"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11373
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining vi"
+  SeqLookup: 1 "Single substitution rotated ardhavisarga"
+ String: 13 u11302 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution anusvara"
+ String: 13 u11303 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution visarga"
+ String: 12 u1CF2 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution ardhavisarga"
+ String: 12 u1CF3 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution rotated ardhavisarga"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup anunasika before post repha-1" 0 0 0 1
@@ -1516,7 +1891,7 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -36
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 23 11
@@ -5771,6 +6146,21 @@ SplineSet
  269 180 269 180 269 212 c 128,-1,18
 EndSplineSet
 Validated: 1
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -5830,6 +6220,21 @@ SplineSet
  224 85 224 85 225 106 c 1,49,-1
 EndSplineSet
 Validated: 1
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -9619,6 +10024,10 @@ AnchorPoint: "right" -117 540 basemark 0
 LayerCount: 2
 Fore
 Refer: 7 3046 N 0.541721 0 0 0.553303 -325 450 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u11367
@@ -9632,6 +10041,10 @@ AnchorPoint: "right" -388 535 mark 0
 LayerCount: 2
 Fore
 Refer: 8 3047 S 0.599976 0 0 0.599976 -366 451 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u11368
@@ -9645,6 +10058,10 @@ AnchorPoint: "right" -378 548 mark 0
 LayerCount: 2
 Fore
 Refer: 9 3048 N 0.599976 0 0 0.599976 -348 451 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u11369
@@ -9658,6 +10075,10 @@ AnchorPoint: "right" -352 544 mark 0
 LayerCount: 2
 Fore
 Refer: 10 3049 S 0.599976 0 0 0.599976 -322 453 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u1136A
@@ -9671,6 +10092,10 @@ AnchorPoint: "right" -394 542 mark 0
 LayerCount: 2
 Fore
 Refer: 11 3050 S 0.599976 0 0 0.599976 -364 450 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u1136B
@@ -9684,6 +10109,10 @@ AnchorPoint: "right" -385 546 mark 0
 LayerCount: 2
 Fore
 Refer: 12 3051 S 0.599976 0 0 0.599976 -360 453 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u1136C
@@ -9697,6 +10126,10 @@ AnchorPoint: "right" -391 542 mark 0
 LayerCount: 2
 Fore
 Refer: 13 3052 S 0.599976 0 0 0.599976 -357 451 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u11370
@@ -9710,6 +10143,10 @@ AnchorPoint: "right" -387 543 mark 0
 LayerCount: 2
 Fore
 Refer: 104 70405 S 0.472473 0 0 0.472473 -353 448 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u11371
@@ -9723,6 +10160,10 @@ AnchorPoint: "right" -376 547 mark 0
 LayerCount: 2
 Fore
 Refer: 116 70421 S 0.472473 0 0 0.472473 -345 450 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u11372
@@ -9736,6 +10177,10 @@ AnchorPoint: "right" -345 522 mark 0
 LayerCount: 2
 Fore
 Refer: 135 70440 S 0.37905 0 0 0.383668 -310 494 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u11373
@@ -9750,6 +10195,10 @@ LayerCount: 2
 Fore
 Refer: 152 70463 S 0.3465 0 0 0.3465 -112 450 2
 Refer: 145 70453 S 0.3465 0 0 0.3465 -349 450 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u11374
@@ -9763,6 +10212,10 @@ AnchorPoint: "right" -334 552 basemark 0
 LayerCount: 2
 Fore
 Refer: 167 2986 S 0.5 0 0 0.5 -341 452 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: uE405
@@ -9895,6 +10348,21 @@ SplineSet
  467 274 467 274 467 470 c 0,13,14
 EndSplineSet
 Validated: 41
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -10317,6 +10785,21 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 194 7410 S 0 -1 1 0 81.494 467.506 2
+Substitution2: "Single substitution combining pa-1" u11374
+Substitution2: "Single substitution combining vi-1" u11373
+Substitution2: "Single substitution combining na-1" u11372
+Substitution2: "Single substitution combining ka-1" u11371
+Substitution2: "Single substitution combining a-1" u11370
+Substitution2: "Single substitution combining six-1" u1136C
+Substitution2: "Single substitution combining five-1" u1136B
+Substitution2: "Single substitution combining four-1" u1136A
+Substitution2: "Single substitution combining three-1" u11369
+Substitution2: "Single substitution combining two-1" u11368
+Substitution2: "Single substitution combining one-1" u11367
+Substitution2: "Single substitution combining zero-1" u11366
+Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution prenkha-1" u1CD2
+Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
 Substitution2: "Single substitution svarita-1" u1CF4
 Substitution2: "Single substitution anudatta-1" u0952
@@ -10341,6 +10824,10 @@ SplineSet
  -347 451 l 2,9,10
  -362 451 -362 451 -362 475 c 256,0,1
 EndSplineSet
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u1CD2
@@ -10365,6 +10852,10 @@ SplineSet
  -321.904296875 444.13671875 l 6,13,14
  -330.639648438 438.844726562 -330.639648438 438.844726562 -338.647460938 453.037109375 c 4,0,1
 EndSplineSet
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u20F0
@@ -12802,6 +13293,10 @@ AnchorPoint: "higher" -210 350 mark 0
 LayerCount: 2
 Fore
 Refer: 6 2405 S 0.4 0 0 0.4 -275 450 2
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: origDottedCircle
