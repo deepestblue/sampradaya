@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640744076
+ModificationTime: 1640745541
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -3340,8 +3340,8 @@ Width: 324
 Flags: MW
 LayerCount: 2
 Fore
-Refer: 5 2404 N 1 0 0 1 0 1 2
-Refer: 5 2404 N 1 0 0 1 128 1 2
+Refer: 5 2404 S 1 0 0 1 0 1 2
+Refer: 5 2404 S 1 0 0 1 128 1 2
 Validated: 1
 EndChar
 
@@ -12465,7 +12465,7 @@ Substitution2: "Single substitution combining three-1" u11369
 Substitution2: "Single substitution combining two-1" u11368
 Substitution2: "Single substitution combining one-1" u11367
 Substitution2: "Single substitution combining zero-1" u11366
-Substitution2: "Single substitution nihsvasa-1" u1CD3
+Substitution2: "Single substitution combining asterisk-1" u20F0
 Substitution2: "Single substitution prenkha-1" u1CD2
 Substitution2: "Single substitution karsana-1" u1CD0
 Substitution2: "Single substitution dirghasvarita-1" u0951
@@ -12555,12 +12555,14 @@ Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u20F0
-Encoding: 8432 8432 212
+Encoding: 8432 8432 210
 Width: 0
 Flags: W
+AnchorPoint: "higher" -198 282 mark 0
+AnchorPoint: "high" -198 282 mark 0
 LayerCount: 2
 Fore
-Refer: 258 42 S 0.6 0 0 0.6 -334.6 430.24 2
+Refer: 214 42 N 0.6 0 0 0.6 -334.6 430.24 2
 EndChar
 
 StartChar: u0BA3
@@ -14984,13 +14986,11 @@ EndChar
 
 StartChar: u1CD3
 Encoding: 7379 7379 255
-Width: 0
-Flags: W
-AnchorPoint: "high" -210 300 mark 0
-AnchorPoint: "higher" -210 300 mark 0
+Width: 186
+Flags: WO
 LayerCount: 2
 Fore
-Refer: 6 2405 S 0.4 0 0 0.4 -275 450 2
+Refer: 6 2405 N 0.4 0 0 0.4 29 450 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200
