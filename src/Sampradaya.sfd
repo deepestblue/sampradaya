@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640867166
+ModificationTime: 1640951388
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -2824,12 +2824,13 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 4 1 2 9
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 2 5 1 15
+ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 2 6 1 30
   Class: 6 u11340
   BClass: 13 u1131F u11333
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 6 u11301
-  BClass: 119 u0951 u0952 u1CD0 u1CD2 u20F0 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  BClass: 101 u1CD0 u1CD2 u20F0 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  BClass: 17 u0951 u0952 u1CF4
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -2868,6 +2869,60 @@ ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 2 5 1
   SeqLookup: 0 "Single Substitution lookup I marker variant 1"
  1 2 0
   ClsList: 1
+  BClsList: 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 5 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 5 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 3 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 3 5 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 3 5 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 5 3 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 5 3 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 5 3 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 2 0
+  ClsList: 1
   BClsList: 4 1
   FClsList:
  1
@@ -2881,24 +2936,6 @@ ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 2 5 1
  1 4 0
   ClsList: 1
   BClsList: 4 2 2 1
-  FClsList:
- 1
-  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
- 1 3 0
-  ClsList: 1
-  BClsList: 3 4 1
-  FClsList:
- 1
-  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
- 1 4 0
-  ClsList: 1
-  BClsList: 3 4 2 1
-  FClsList:
- 1
-  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
- 1 5 0
-  ClsList: 1
-  BClsList: 3 4 2 2 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup I marker variant 1"
@@ -2920,11 +2957,65 @@ ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 2 5 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 4 4 3 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 4 4 3 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 4 4 3 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 4 4 4 3 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 4 4 4 3 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 7 0
+  ClsList: 1
+  BClsList: 4 4 4 3 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 4 4 4 4 3 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 7 0
+  ClsList: 1
+  BClsList: 4 4 4 4 3 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+ 1 8 0
+  ClsList: 1
+  BClsList: 4 4 4 4 3 2 2 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3" "4"
+  BClassNames: "All_Others" "1" "2" "3" "4" "5"
   FClassNames: "All_Others"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup i marker variants" 2 8 1 60
+ChainSub2: class "'psts' Post Base Substitutions lookup i marker variants" 2 9 1 156
   Class: 6 u1133F
   BClass: 32 uE10F uE113 u11319 u11326 u11332
   BClass: 23 uE109 uE102 uE111 uE114
@@ -2932,7 +3023,8 @@ ChainSub2: class "'psts' Post Base Substitutions lookup i marker variants" 2 8 1
   BClass: 30 uE10C uE10D uE112 uE115 u11337
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 6 u11301
-  BClass: 119 u0951 u0952 u1CD0 u1CD2 u20F0 u1CF4 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  BClass: 17 u0951 u0952 u1CF4
+  BClass: 101 u1CD0 u1CD2 u20F0 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -3293,8 +3385,584 @@ ChainSub2: class "'psts' Post Base Substitutions lookup i marker variants" 2 8 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 2 0
+  ClsList: 1
+  BClsList: 8 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 2 0
+  ClsList: 1
+  BClsList: 8 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 2 0
+  ClsList: 1
+  BClsList: 8 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 2 0
+  ClsList: 1
+  BClsList: 8 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 6 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 6 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 6 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 6 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 6 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 6 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 6 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 6 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 6 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 8 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 8 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 8 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 3 0
+  ClsList: 1
+  BClsList: 8 8 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 6 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 6 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 6 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 6 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 6 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 6 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 6 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 6 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 6 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 8 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 8 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 8 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 4 0
+  ClsList: 1
+  BClsList: 8 8 8 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 6 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 6 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 6 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 6 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 6 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 6 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 6 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 6 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 6 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 8 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 8 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 8 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 5 0
+  ClsList: 1
+  BClsList: 8 8 8 8 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 8 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 8 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 8 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 8 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 8 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 8 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 8 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 8 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 6 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 7 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
+ 1 8 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 5 5 1
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 1"
+ 1 8 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 5 5 2
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 2"
+ 1 8 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 5 5 3
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 3"
+ 1 8 0
+  ClsList: 1
+  BClsList: 8 8 8 8 6 5 5 4
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup i marker variant 4"
   ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7"
+  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6" "7" "8"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup post repha variants-1" 2 9 1 66
@@ -3713,7 +4381,7 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -48
+DisplaySize: -24
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 0 23 14
