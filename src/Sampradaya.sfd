@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1641035757
+ModificationTime: 1641036877
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -116,6 +116,9 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks befo
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 3" { "'psts' Post Base Substitutions lookup samavedic accent marks before ayogavahas extra 3-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama" { "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-1"  "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-2"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1" { "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2"  "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-2"  "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3" { "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-2"  "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before pre repha" { "'psts' Post Base Substitutions lookup accent marks before pre repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 1" { "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 1-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -150,6 +153,558 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning l
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-2" 0 0 0 10
+ String: 13 u1133E u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution au marker"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-2" 0 0 0 30
+ String: 13 u1133E u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u1133E u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u1133E u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution au marker"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2" 0 0 0 50
+ String: 13 u1133E u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u1133E u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u1133E u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u1133E u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution au marker"
+ String: 13 u1133E u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution A marker"
+ String: 13 u1133F u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution i marker"
+ String: 13 u11340 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution I marker"
+ String: 13 u11341 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution u marker"
+ String: 13 u11342 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution U marker"
+ String: 13 u11343 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution r marker"
+ String: 13 u11344 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution R marker"
+ String: 13 u11362 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution l marker"
+ String: 13 u11363 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution L marker"
+ String: 13 u11357 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution au marker"
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-1" 0 0 0 0
+EndFPST
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-1" 0 0 0 0
+EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 3-1" 0 0 0 1
  String: 12 uE201 u11374
  BString: 0 
@@ -1091,1082 +1646,1082 @@ ChainSub2: class "'psts' Post Base Substitutions lookup accent marks before vowe
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup accent marks before vowel markers and virama-1" 0 0 0 180
  String: 12 u1133E u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133F u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution i marker"
  String: 12 u11340 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11341 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution u marker"
  String: 12 u11342 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11343 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution r marker"
  String: 12 u11344 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11362 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution l marker"
  String: 12 u11363 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution L marker"
  String: 12 u11357 u0952
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution anudatta"
   SeqLookup: 1 "Single substitution au marker"
  String: 12 u1133E u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133F u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution i marker"
  String: 12 u11340 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11341 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution u marker"
  String: 12 u11342 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11343 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution r marker"
  String: 12 u11344 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11362 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution l marker"
  String: 12 u11363 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution L marker"
  String: 12 u11357 u1CF4
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution svarita"
   SeqLookup: 1 "Single substitution au marker"
  String: 12 u1133E u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133F u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution i marker"
  String: 12 u11340 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11341 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution u marker"
  String: 12 u11342 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11343 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution r marker"
  String: 12 u11344 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11362 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution l marker"
  String: 12 u11363 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution L marker"
  String: 12 u11357 u0951
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution dirghasvarita"
   SeqLookup: 1 "Single substitution au marker"
  String: 12 u1133E u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133F u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution i marker"
  String: 12 u11340 u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11341 u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution u marker"
  String: 12 u11342 u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11343 u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution r marker"
  String: 12 u11344 u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11357 u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution au marker"
  String: 12 u11362 u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution l marker"
  String: 12 u11363 u1CD0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution karsana"
   SeqLookup: 1 "Single substitution L marker"
  String: 12 u1133E u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133F u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution i marker"
  String: 12 u11340 u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11341 u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution u marker"
  String: 12 u11342 u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11343 u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution r marker"
  String: 12 u11344 u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11357 u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution au marker"
  String: 12 u11362 u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution l marker"
  String: 12 u11363 u1CD2
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution prenkha"
   SeqLookup: 1 "Single substitution L marker"
  String: 12 u1133E u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution A marker"
  String: 12 u1133F u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution i marker"
  String: 12 u11340 u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution I marker"
  String: 12 u11341 u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution u marker"
  String: 12 u11342 u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution U marker"
  String: 12 u11343 u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution r marker"
  String: 12 u11344 u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution R marker"
  String: 12 u11357 u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution au marker"
  String: 12 u11362 u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution l marker"
  String: 12 u11363 u20F0
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining asterisk"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u11366
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining zero"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u11367
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining one"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u11368
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining two"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u11369
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining three"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u1136A
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining four"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u1136B
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining five"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u1136C
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining six"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u11370
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining a"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u11371
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining ka"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u11372
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining na"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u11373
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining vi"
   SeqLookup: 1 "Single substitution L marker"
  String: 13 u1133E u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution A marker"
  String: 13 u1133F u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution i marker"
  String: 13 u11340 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution I marker"
  String: 13 u11341 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution u marker"
  String: 13 u11342 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution U marker"
  String: 13 u11343 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution r marker"
  String: 13 u11344 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution R marker"
  String: 13 u11357 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution au marker"
  String: 13 u11362 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution l marker"
  String: 13 u11363 u11374
- BString: 0
- FString: 0
+ BString: 0 
+ FString: 0 
  2
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution L marker"
@@ -4589,10 +5144,10 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -36
+DisplaySize: -48
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 23 12
+WinInfo: 21 21 10
 BeginPrivate: 0
 EndPrivate
 Grid
@@ -12924,10 +13479,10 @@ EndChar
 StartChar: u11366
 Encoding: 70502 70502 181
 Width: 0
-Flags: MW
+Flags: MWO
 AnchorPoint: "right" -360 540 mark 0
-AnchorPoint: "high" -214 309 mark 0
-AnchorPoint: "higher" -214 309 mark 0
+AnchorPoint: "high" -214 313 mark 0
+AnchorPoint: "higher" -214 313 mark 0
 AnchorPoint: "right" -117 540 basemark 0
 LayerCount: 2
 Fore
@@ -12993,7 +13548,7 @@ AnchorPoint: "higher" -205 312 mark 0
 AnchorPoint: "right" -378 548 mark 0
 LayerCount: 2
 Fore
-Refer: 9 3048 N 0.599976 0 0 0.599976 -348 451 2
+Refer: 9 3048 S 0.599976 0 0 0.599976 -348 451 2
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
 Substitution2: "Single substitution pre repha-1" uE200

@@ -83,7 +83,7 @@ Note: Pl(UAccOAcc)? can optionally come at the end of the stream but does not re
 
 #### Extra 1st round
 
-௦௨𑌕௧ப
+௦𑌕௨௧ப
 
 #### Extra 2nd round
 
