@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1640959290
+ModificationTime: 1640969838
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -121,6 +121,9 @@ Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks befo
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 3" { "'psts' Post Base Substitutions lookup samavedic accent marks before pre repha extra 3-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before post ya" { "'psts' Post Base Substitutions lookup accent marks before post ya-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 1" { "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 1-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
+Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 3" { "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 3-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup accent marks before post repha" { "'psts' Post Base Substitutions lookup accent marks before post repha-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 1" { "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 1-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 Lookup: 6 0 0 "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 2" { "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 2-1"  } ['psts' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
@@ -147,6 +150,66 @@ Lookup: 260 0 0 "'mark' Mark Positioning lookup 10" { "'mark' Mark Positioning l
 Lookup: 262 0 0 "'mkmk' Mark to Mark lookup 11" { "'mkmk' Mark to Mark lookup 11-1"  } ['mkmk' ('DFLT' <'dflt' > 'deva' <'dflt' > 'gran' <'dflt' > 'taml' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 3-1" 0 0 0 1
+ String: 12 uE201 u11374
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution post ya"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 2-1" 0 0 0 3
+ String: 12 uE201 u11366
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11371
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11374
+ BString: 0
+ FString: 0
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution post ya"
+EndFPST
+ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 1-1" 0 0 0 5
+ String: 12 uE201 u11366
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11367
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11368
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11371
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution post ya"
+ String: 12 uE201 u11374
+ BString: 0 
+ FString: 0 
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution post ya"
+EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post repha extra 3-1" 0 0 0 1
  String: 12 uE205 u11374
  BString: 0 
