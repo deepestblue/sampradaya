@@ -13763,6 +13763,24 @@ AnchorPoint: "high" -198 282 mark 0
 LayerCount: 2
 Fore
 Refer: 214 42 N 0.6 0 0 0.6 -334.6 430.24 2
+Substitution2: "Single substitution post repha-1" uE205
+Substitution2: "Single substitution post ya-1" uE201
+Substitution2: "Single substitution pre repha-1" uE200
+Substitution2: "Single substitution virama-1" u1134D
+Substitution2: "Single substitution au marker-1" u11357
+Substitution2: "Single substitution L marker-1" u11363
+Substitution2: "Single substitution l marker-1" u11362
+Substitution2: "Single substitution R marker-1" u11344
+Substitution2: "Single substitution r marker-1" u11343
+Substitution2: "Single substitution U marker-1" u11342
+Substitution2: "Single substitution u marker-1" u11341
+Substitution2: "Single substitution I marker-1" u11340
+Substitution2: "Single substitution i marker-1" u1133F
+Substitution2: "Single substitution A marker-1" u1133E
+Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
+Substitution2: "Single substitution ardhavisarga-1" u1CF2
+Substitution2: "Single substitution visarga-1" u11303
+Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: u0BA3
@@ -16191,24 +16209,6 @@ Flags: W
 LayerCount: 2
 Fore
 Refer: 6 2405 N 0.4 0 0 0.4 29 450 2
-Substitution2: "Single substitution post repha-1" uE205
-Substitution2: "Single substitution post ya-1" uE201
-Substitution2: "Single substitution pre repha-1" uE200
-Substitution2: "Single substitution virama-1" u1134D
-Substitution2: "Single substitution au marker-1" u11357
-Substitution2: "Single substitution L marker-1" u11363
-Substitution2: "Single substitution l marker-1" u11362
-Substitution2: "Single substitution R marker-1" u11344
-Substitution2: "Single substitution r marker-1" u11343
-Substitution2: "Single substitution U marker-1" u11342
-Substitution2: "Single substitution u marker-1" u11341
-Substitution2: "Single substitution I marker-1" u11340
-Substitution2: "Single substitution i marker-1" u1133F
-Substitution2: "Single substitution A marker-1" u1133E
-Substitution2: "Single substitution rotated ardhavisarga-1" u1CF3
-Substitution2: "Single substitution ardhavisarga-1" u1CF2
-Substitution2: "Single substitution visarga-1" u11303
-Substitution2: "Single substitution anusvara-1" u11302
 EndChar
 
 StartChar: origDottedCircle
