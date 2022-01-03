@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1641039083
+ModificationTime: 1641044881
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -699,11 +699,104 @@ ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks b
   SeqLookup: 0 "Single substitution combining pa"
   SeqLookup: 1 "Single substitution au marker"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-2" 0 0 0 0
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 3-2" 3 2 0 1
+  Class0: 17 {Everything Else}
+  Class: 6 u1134D
+  Class: 6 u11374
+  BClass: 76 uE101 uE319 uE31F uE324 uE328 uE32E uE389 u11319 u1131F u11324 u11328 u1132E
+ 2 1 0
+  ClsList: 1 2
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution virama"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-2" 0 0 0 0
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 2-2" 5 2 0 3
+  Class0: 17 {Everything Else}
+  Class: 6 u1134D
+  Class: 6 u11366
+  Class: 6 u11371
+  Class: 6 u11374
+  BClass: 76 uE101 uE319 uE31F uE324 uE328 uE32E uE389 u11319 u1131F u11324 u11328 u1132E
+ 2 1 0
+  ClsList: 1 2
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 3
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 4
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution virama"
+  ClassNames: "All_Others" "1" "2" "3" "4"
+  BClassNames: "All_Others" "1"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2" 0 0 0 0
+ChainSub2: class "'psts' Post Base Substitutions lookup samavedic accent marks before vowel markers and virama extra 1-2" 7 2 7 5
+  Class: 6 u1134D
+  Class: 6 u11366
+  Class: 6 u11367
+  Class: 6 u11368
+  Class: 6 u11371
+  Class: 6 u11374
+  BClass: 76 uE101 uE319 uE31F uE324 uE328 uE32E uE389 u11319 u1131F u11324 u11328 u1132E
+  FClass: 6 u1134D
+  FClass: 6 u11366
+  FClass: 6 u11367
+  FClass: 6 u11368
+  FClass: 6 u11371
+  FClass: 6 u11374
+ 2 1 0
+  ClsList: 1 2
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining zero"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 3
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining one"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 4
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining two"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 5
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining ka"
+  SeqLookup: 1 "Single substitution virama"
+ 2 1 0
+  ClsList: 1 6
+  BClsList: 0
+  FClsList:
+ 2
+  SeqLookup: 0 "Single substitution combining pa"
+  SeqLookup: 1 "Single substitution virama"
+  ClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
+  BClassNames: "All_Others" "1"
+  FClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
 EndFPST
 ChainSub2: glyph "'psts' Post Base Substitutions lookup samavedic accent marks before post ya extra 3-1" 0 0 0 1
  String: 12 uE201 u11374
@@ -5144,7 +5237,7 @@ Encoding: UnicodeFull
 Compacted: 1
 UnicodeInterp: none
 NameList: AGL For New Fonts
-DisplaySize: -48
+DisplaySize: -36
 AntiAlias: 1
 FitToEm: 0
 WinInfo: 21 21 10
