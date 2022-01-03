@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1641215271
+ModificationTime: 1641217742
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -4019,9 +4019,8 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 6 1 2 34
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 3 7 1 31
-  Class: 6 u11340
-  Class: 5 u0BC0
+ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 2 7 1 31
+  Class: 12 u0BC0 u11340
   BClass: 13 u1131F u11333
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 6 u11301
@@ -4209,17 +4208,17 @@ ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 3 7 1
  1
   SeqLookup: 0 "Single Substitution lookup I marker variant 1"
  1 1 0
-  ClsList: 2
+  ClsList: 1
   BClsList: 6
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup I marker variant 1"
-  ClassNames: "All_Others" "1" "2"
+  ClassNames: "All_Others" "1"
   BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup i marker variants" 2 9 1 156
-  Class: 6 u1133F
+  Class: 12 u0BBF u1133F
   BClass: 32 uE10F uE113 u11319 u11326 u11332
   BClass: 23 uE109 uE102 uE111 uE114
   BClass: 13 u1131F u11333
@@ -16901,6 +16900,10 @@ SplineSet
  -215 435 -215 435 -187 414.5 c 0,32,33
  -185 413 -185 413 -100 413 c 0,0,1
 EndSplineSet
+Substitution2: "Single Substitution lookup 6-1" uE20A
+Substitution2: "Single Substitution lookup 5-1" uE207
+Substitution2: "Single Substitution lookup 4-1" uE209
+Substitution2: "Single substitution lookup 3-1" uE208
 EndChar
 
 StartChar: u0BC0
