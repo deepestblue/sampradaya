@@ -81,9 +81,22 @@ Note: Pl(UAccOAcc)? can optionally come at the end of the stream but does not re
 ௧௧ப
 *௧௧ப
 
+௧𑌅
+௨𑌅
+...
+௫𑌅
+௧𑌕
+...
+௧𑌨
+௧𑌵𑌿
+௧ப
+௧*
+௧-
+௧^
+
 #### Extra 1st round
 
-௦𑌕௨௧ப
+௦௧௨𑌅𑌕𑌨𑌵𑌿ப
 
 #### Extra 2nd round
 
