@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1641195543
+ModificationTime: 1641215271
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -3804,11 +3804,12 @@ ChainSub2: class "'pstf' Post Base Forms lookup (post yakara form)" 3 1 1 1
   BClassNames: "All_Others"
   FClassNames: "All_Others"
 EndFPST
-ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 5 1 2 33
+ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 6 1 2 34
   Class: 62 uE102 uE109 uE10D uE111 uE112 uE114 uE115 u1131F u11332 u11337
   Class: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   Class: 24 u0951 u0952 u1CF4 u11301
   Class: 101 u1CD0 u1CD2 u20F0 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
+  Class: 5 u0B9F
   FClass: 12 uE206 u11340
  1 0 1
   ClsList: 1
@@ -4008,17 +4009,25 @@ ChainPos2: class "'abvm' Above Base Mark lookup 1-1" 5 1 2 33
   FClsList: 1
  1
   SeqLookup: 0 "Single Position lookup for I marker 0"
-  ClassNames: "All_Others" "1" "2" "3" "4"
+ 1 0 1
+  ClsList: 5
+  BClsList:
+  FClsList: 1
+ 1
+  SeqLookup: 0 "Single Position lookup for I marker 0"
+  ClassNames: "All_Others" "1" "2" "3" "4" "5"
   BClassNames: "All_Others"
   FClassNames: "All_Others" "1"
 EndFPST
-ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 2 6 1 30
+ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 3 7 1 31
   Class: 6 u11340
+  Class: 5 u0BC0
   BClass: 13 u1131F u11333
   BClass: 335 uE315 uE316 uE317 uE318 uE319 uE31A uE31B uE31C uE31D uE31E uE31F uE320 uE321 uE322 uE323 uE324 uE325 uE326 uE327 uE328 uE32A uE32B uE32C uE32D uE32E uE32F uE330 uE332 uE333 uE335 uE336 uE337 uE338 uE339 uE380 uE381 uE382 uE383 uE384 uE385 uE386 uE387 uE388 uE389 uE38A uE38B uE38C uE38D uE38E uE38F uE390 uE391 uE392 uE393 uE394 uE395
   BClass: 6 u11301
   BClass: 101 u1CD0 u1CD2 u20F0 u11366 u11367 u11368 u11369 u1136A u1136B u1136C u11370 u11371 u11372 u11373 u11374
   BClass: 17 u0951 u0952 u1CF4
+  BClass: 5 u0B9F
  1 1 0
   ClsList: 1
   BClsList: 1
@@ -4199,8 +4208,14 @@ ChainSub2: class "'psts' Post Base Substitutions lookup I marker variants" 2 6 1
   FClsList:
  1
   SeqLookup: 0 "Single Substitution lookup I marker variant 1"
-  ClassNames: "All_Others" "1"
-  BClassNames: "All_Others" "1" "2" "3" "4" "5"
+ 1 1 0
+  ClsList: 2
+  BClsList: 6
+  FClsList:
+ 1
+  SeqLookup: 0 "Single Substitution lookup I marker variant 1"
+  ClassNames: "All_Others" "1" "2"
+  BClassNames: "All_Others" "1" "2" "3" "4" "5" "6"
   FClassNames: "All_Others"
 EndFPST
 ChainSub2: class "'psts' Post Base Substitutions lookup i marker variants" 2 9 1 156
@@ -13773,7 +13788,7 @@ EndChar
 StartChar: u1135F
 Encoding: 70495 70495 178
 Width: 580
-Flags: MWO
+Flags: MW
 AnchorPoint: "low" 290 48 basechar 0
 AnchorPoint: "high" 290 442 basechar 0
 LayerCount: 2
@@ -16246,6 +16261,7 @@ SplineSet
  49 0 49 0 64 0 c 2,14,-1
  595 0 l 6,0,1
 EndSplineSet
+Position2: "Single Position lookup 0-1" dx=0 dy=0 dh=-160 dv=0
 EndChar
 
 StartChar: u0BA4
@@ -16933,6 +16949,7 @@ SplineSet
  66 318 66 318 70 318 c 3,64,65
  93 318 93 318 116 350 c 0,47,48
 EndSplineSet
+Substitution2: "Single Substitution lookup 7-1" uE206
 EndChar
 
 StartChar: u0BC1
