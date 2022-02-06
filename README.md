@@ -1,12 +1,12 @@
 # Unicode Grantha typeface
 
-This is a project to create a Unicode-compliant Grantha typeface based on the [Unicode 7.0.0](https://www.unicode.org/versions/Unicode7.0.0/) [encoding](http://std.dkuug.dk/JTC1/SC2/WG2/docs/n4135.pdf) in the U+11300 SMP block. It is tested on OSX 10.10+ and Windows 10.
+Sampradaya is a Unicode Grantha typeface with the best support (as of 2022) for complex Grantha features like triply stacked conjunct consonants and Samavedic svara marks. It is tested on OSX 10.10+ and Windows 10+.
 
 ## How to Use
 
 ### On MacOS
 
-Download Sampradaya.ttf from [releases](https://github.com/deepestblue/sampradaya/releases/) and drop it into /Library/Fonts/ (to install system-wide) or ~/Library/Fonts/ (to install at user-scope). You may need to restart your application (or logout/login) for the font to be usable.
+Download Sampradaya.ttf from [releases](https://github.com/deepestblue/sampradaya/releases/) and drop it into /Library/Fonts/ (to install system-wide) or ~/Library/Fonts/ (to install at user-scope). You may need to restart your application (or logout/login) for the typeface to be usable.
 
 ### On Windows
 
