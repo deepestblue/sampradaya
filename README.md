@@ -20,11 +20,15 @@ Download Sampradaya.ttf from [releases](https://github.com/deepestblue/sampraday
 * John Hudson's paper on [Enabling Typography: towards a general model of OpenType Layout](http://tiro.com/John/Enabling_Typography_(OTL).pdf).
 * The English Wikipedia's [list of typographic features](https://en.wikipedia.org/wiki/List_of_typographic_features).
 * Google Fonts [guidelines on vertical metrics](https://github.com/googlefonts/gf-docs/blob/master/VerticalMetrics/README.md).
+* The [Fontforge tutorial](https://fontforge.org/docs/tutorial.html).
+* Microsoft Typography's [Indic script development specs](https://learn.microsoft.com/en-us/typography/script-development/tamil).
+* [Design with Fontforge](http://designwithfontforge.com/en-US/Introduction.html#), part of free culture.
 
 ## Acknowledgements
 
 * Prof. R. Kalyana Krishnan (Retd.), IIT-Madras, for his IITMGrantha typeface, whose glyphs are reused here with permission.
 * Anupama Krishnan, for her work on Unicodifying the IITMGrantha typeface, and for design help.
-* Ranganath Atreya, for [LipikaIME](https://github.com/ratreya/Lipika_IME), invaluable in testing.
+* Ranganath Atreya, for [LipikaIME](https://github.com/ratreya/Lipika_IME), invaluable in test case development.
 * The developers of [FontForge](http://fontforge.github.io/).
 * The [Unicode consortium](http://unicode.org).
+* Corvel software's [Crowbar](https://www.corvelsoftware.co.uk/crowbar/), invaluable in testing.
