@@ -28,7 +28,7 @@ jobs:
         run: make
         working-directory: macos
       - name: Upload typeface file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: TTF file
           path: src/Sampradaya.ttf
@@ -57,7 +57,7 @@ jobs:
         run: make test
         working-directory: macos
       - name: Upload test failure output
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: Macos output directory
@@ -85,7 +85,7 @@ jobs:
         run: nmake test
         working-directory: windows
       - name: Upload test failure output
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: Windows output directory
@@ -112,7 +112,7 @@ jobs:
           args: "--html fontbakery.html --loglevel WARN --exclude-checkid glyf_nested_components --exclude-checkid monospace --exclude-checkid trailing_spaces"
           path: src/Sampradaya.ttf
       - name: Upload reports
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         if: always()
         with:
           name: Fontbakery reports
