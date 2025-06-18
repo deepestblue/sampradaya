@@ -9,7 +9,7 @@ on:
 jobs:
   build:
     name: Build the typeface
-    runs-on: macos-latest
+    runs-on: macos-15
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -17,7 +17,7 @@ jobs:
         run: |
           brew install --cask fontforge
           ln -s /Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge /usr/local/bin/
-          brew install fonttools pipx
+          brew install fonttools
           pipx install gftools
         env:
           HOMEBREW_NO_INSTALL_CLEANUP: 1
@@ -33,7 +33,7 @@ jobs:
   test_macos:
     needs: build
     name: Compare rasterised images on MacOS
-    runs-on: macos-latest
+    runs-on: macos-15
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
