@@ -11,17 +11,14 @@ jobs:
     name: Build the typeface
     runs-on: macos-latest
     steps:
-      - name: Set up Python environment
-        uses: actions/setup-python@v2
-        with:
-          python-version: "3.9"
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Install dependencies
         run: |
           brew install --cask fontforge
           ln -s /Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge /usr/local/bin/
-          pip install fonttools gftools
+          brew install fonttools pipx
+          pipx install gftools
         env:
           HOMEBREW_NO_INSTALL_CLEANUP: 1
       - name: Make TTF file
@@ -97,9 +94,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Set up Python environment
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.8"
+          python-version: "3.9"
       - name: Download typeface file
         uses: actions/download-artifact@v4
         with:
