@@ -106,7 +106,7 @@ jobs:
         uses: f-actions/font-bakery@v1
         with:
           subcmd: check-universal
-          args: "--html fontbakery.html --loglevel WARN --exclude-checkid glyf_nested_components --exclude-checkid monospace --exclude-checkid trailing_spaces"
+          args: "--html fontbakery.html --loglevel WARN --exclude-checkid nested_components --exclude-checkid unreachable-glyphs --exclude-checkid mark-chars"
           path: src/Sampradaya.ttf
       - name: Upload reports
         uses: actions/upload-artifact@v4

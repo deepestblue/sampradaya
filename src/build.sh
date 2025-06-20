@@ -32,4 +32,4 @@ done
 
 $SRCDIR/sfd2ttf.pe ${FILENAME%.ttf}.sfd $FILENAME
 $SRCDIR/add-non-English-names.py --ta $TA_NAME --sa $SA_NAME $FILENAME
-gftools-fix-unwanted-tables --tables FFTM $FILENAME
+gftools-fix-font -o $FILENAME $FILENAME
