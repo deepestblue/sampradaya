@@ -22,7 +22,7 @@ OS2Version: 3
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1358746353
-ModificationTime: 1750398896
+ModificationTime: 1750399960
 PfmFamily: 81
 TTFWeight: 400
 TTFWidth: 5
@@ -14282,7 +14282,8 @@ EndChar
 StartChar: u11300
 Encoding: 70400 70400 175
 Width: 370
-Flags: MW
+Flags: MWO
+AnchorPoint: "higher" 185 441 mark 0
 LayerCount: 2
 Fore
 SplineSet
@@ -14344,6 +14345,7 @@ SplineSet
  -55 490 -55 490 -200 490 c 3,38,39
  -351 490 -351 490 -351 624 c 0,12,13
 EndSplineSet
+LCarets2: 1 0
 Substitution2: "Single substitution anudatta-1" u0952
 Substitution2: "Single substitution post repha-1" uE205
 Substitution2: "Single substitution post ya-1" uE201
