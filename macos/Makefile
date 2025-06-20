@@ -23,10 +23,12 @@ regenerate_masters: regenerate_qt_masters regenerate_coretext_masters
 test: build
 	$(BINDIR)/run_tests -e ../masters/coretext -r $(BINDIR)/rasterise_text_coretext -t ${TYPEFACENAME} -c ../cases
 	$(BINDIR)/run_tests -e ../masters/qt -r $(BINDIR)/rasterise_text_qt -t ${TYPEFACENAME} -c ../cases
+
+fontbakery: build
 	fontbakery check-universal --loglevel WARN ${TYPEFACENAME} --exclude-checkid nested_components --exclude-checkid unreachable-glyphs --exclude-checkid mark-chars
 
 clean:
 	${RM} ${TYPEFACENAME}
 	-find ${TMPDIR} -iname 'run_tests*' -type d 2>/dev/null | xargs ${RM} -r
 
-.PHONY: build install regenerate_masters regenerate_qt_masters regenerate_coretext_masters test clean
+.PHONY: build install regenerate_masters regenerate_qt_masters regenerate_coretext_masters test fontbakery clean
