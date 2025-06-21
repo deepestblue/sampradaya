@@ -87,7 +87,7 @@ jobs:
         if: failure()
         with:
           name: Windows output directory
-          path: windows
+          path: windows/output
           retention-days: 1
   fontbakery:
     needs: build
