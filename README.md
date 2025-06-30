@@ -20,9 +20,12 @@ Download Sampradaya.ttf from [releases](https://github.com/deepestblue/sampraday
 * John Hudson's paper on [Enabling Typography: towards a general model of OpenType Layout](http://tiro.com/John/Enabling_Typography_(OTL).pdf).
 * The English Wikipedia's [list of typographic features](https://en.wikipedia.org/wiki/List_of_typographic_features).
 * Google Fonts [guidelines on vertical metrics](https://github.com/googlefonts/gf-docs/blob/master/VerticalMetrics/README.md).
-* The [Fontforge tutorial](https://fontforge.org/docs/tutorial.html).
+* The [Fontforge tutorial's section on vertical metrics](https://fontforge.org/docs/tutorial/editexample5.html#setting-the-baseline-to-baseline-spacing-of-a-font).
 * Microsoft Typography's [Indic script development specs](https://learn.microsoft.com/en-us/typography/script-development/tamil).
 * [Design with Fontforge](http://designwithfontforge.com/en-US/Introduction.html#), part of free culture.
+* [Glyphs' tutorial on vertical metrics](https://glyphsapp.com/learn/vertical-metrics).
+* [Font Development Best Practice documentation's section on line metrics](https://silnrsi.github.io/FDBP/en-US/Line_Metrics.html).
+* [Fontforge's SFD format documentation](https://fontforge.org/docs/techref/sfdformat.html).
 
 ## Acknowledgements
 
