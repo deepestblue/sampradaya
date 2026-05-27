@@ -134,7 +134,7 @@ jobs:
           name: TTF file
           path: src
       - name: Run fontbakery TTF checks
-        uses: f-actions/font-bakery@c45015f2890557d9d8126e315ab266f4b3c414ec # v3.1.1
+        uses: f-actions/font-bakery@96901b4792b6ddf2483a31bbc167a5e2622d35ca # v3.2.0
         with:
           subcmd: check-universal
           args: "--html fontbakery.html --loglevel WARN --exclude-checkid nested_components --exclude-checkid unreachable-glyphs --exclude-checkid mark-chars"
