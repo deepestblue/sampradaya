@@ -34,7 +34,7 @@ jobs:
 
   build:
     name: Build the typeface
-    runs-on: macos-15
+    runs-on: macos-26
     steps:
       - name: Checkout code
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
@@ -60,7 +60,7 @@ jobs:
   test_macos:
     needs: build
     name: Compare rasterised images on MacOS
-    runs-on: macos-15
+    runs-on: macos-26
     steps:
       - name: Checkout code
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
