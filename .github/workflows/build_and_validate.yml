@@ -42,7 +42,12 @@ jobs:
           persist-credentials: false
       - name: Install dependencies
         run: |
-          brew install --cask fontforge
+          # The fontforge-app cask is disabled by Homebrew for failing the
+          # Gatekeeper check, so install it directly from upstream instead.
+          curl -sL -o fontforge.dmg https://github.com/fontforge/fontforge/releases/download/20251009/FontForge-2025-10-09-MacOS.app.dmg
+          hdiutil attach fontforge.dmg -mountpoint /Volumes/FontForge -nobrowse -quiet
+          cp -R /Volumes/FontForge/FontForge.app /Applications/
+          hdiutil detach /Volumes/FontForge -quiet
           ln -s /Applications/FontForge.app/Contents/Resources/opt/local/bin/fontforge /usr/local/bin/
           brew install fonttools
           pipx install gftools
