@@ -83,9 +83,8 @@ jobs:
         env:
           HOMEBREW_NO_INSTALL_CLEANUP: 1
       - name: Grab Alekhana
-        run: |
-          wget https://github.com/deepestblue/alekhana/releases/download/v0.0.2/alekhana_dist.zip
-          unzip alekhana_dist.zip
+        run: make fetch-alekhana
+        working-directory: macos
       - name: Build and run test
         run: make test
         working-directory: macos
@@ -113,9 +112,8 @@ jobs:
           name: TTF file
           path: src
       - name: Grab Alekhana
-        run: |
-          curl -s -o alekhana_dist.zip -L https://github.com/deepestblue/alekhana/releases/download/v0.0.2/alekhana_dist.zip
-          tar -xf alekhana_dist.zip
+        run: nmake fetch-alekhana
+        working-directory: windows
       - name: Build and run test
         run: nmake test
         working-directory: windows

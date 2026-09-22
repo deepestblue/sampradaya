@@ -1,14 +1,17 @@
 PS = powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command
 TYPEFACEPATH = '../src/Sampradaya.ttf'
-BINDIR = ../alekhana_dist
+BINDIR = ../vendor/alekhana
 
 install:
-	$(PS) install_typeface.ps1 -Path $(TYPEFACEPATH) -Name 'Sampradaya Regular'
+	$(PS) ./install_typeface.ps1 -Path $(TYPEFACEPATH) -Name 'Sampradaya Regular'
 
-regenerate_masters:
+fetch-alekhana:
+	$(PS) ./fetch_alekhana.ps1
+
+regenerate_masters: fetch-alekhana
 	$(PS) $(BINDIR)/generate_images.ps1 -Rasteriser $(BINDIR)/rasterise_text_windows.exe -OutputRoot ../masters/windows -TypeFace $(TYPEFACEPATH) -TestCases ../cases
 
-test:
+test: fetch-alekhana
 	$(PS) $(BINDIR)/run_tests.ps1 -TypeFace $(TYPEFACEPATH) -Rasteriser $(BINDIR)/rasterise_text_windows.exe -MasterImages ../masters/windows -TestCases ../cases
 
-.PHONY: install regenerate_masters test
+.PHONY: install fetch-alekhana regenerate_masters test
