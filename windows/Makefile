@@ -1,4 +1,5 @@
 PS = powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command
+# There's no FontForge build step on Windows, so $(TYPEFACEPATH) is never produced here. Build it on macOS (`make -C ../macos build`) or download it from a CI run, and place it at that path before running `test`, `install`, or `regenerate_masters`.
 TYPEFACEPATH = '../src/Sampradaya.ttf'
 BINDIR = ./vendor/alekhana
 

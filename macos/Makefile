@@ -4,8 +4,12 @@ BINDIR := vendor/alekhana
 NAME_TA := சம்பிரதாயம்
 NAME_SA := 𑌸𑌮𑍍𑌪𑍍𑌰𑌦𑌾𑌯𑌃
 
+.DELETE_ON_ERROR:
+
 %.ttf: %.sfd
-	../src/build.sh -f $@ -t ${NAME_TA} -s ${NAME_SA}
+	../src/sfd2ttf.pe $< $@
+	../src/add_non_english_names.py --ta ${NAME_TA} --sa ${NAME_SA} $@
+	gftools-fix-font -o $@ $@
 
 build: ${TYPEFACENAME}
 

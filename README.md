@@ -12,6 +12,43 @@ Download Sampradaya.ttf from [releases](https://github.com/deepestblue/sampraday
 
 Download Sampradaya.ttf from [releases](https://github.com/deepestblue/sampradaya/releases/), click the secondary mouse button on the downloaded file, and choose `Install` or `Install for all users` as appropriate.
 
+## Building from source
+
+The typeface is built from `src/Sampradaya.sfd` using FontForge. Building only works on macOS, since it relies on FontForge's command-line tooling; on Windows you can only test a `Sampradaya.ttf` that was built elsewhere (e.g. on macOS, or downloaded from a CI run).
+
+### Prerequisites (macOS)
+
+* [FontForge](https://fontforge.org/)
+* [fonttools](https://github.com/fonttools/fonttools) (`brew install fonttools`)
+* [gftools](https://github.com/googlefonts/gftools) (`pipx install gftools`)
+
+### Build
+
+```bash
+cd macos
+make build
+```
+
+This produces `src/Sampradaya.ttf`. `make install` additionally copies it into `~/Library/Fonts/`.
+
+### Testing
+
+Tests render the cases in `cases/` and compare them against the reference images in `masters/`, using [Alekhana](https://github.com/deepestblue/alekhana):
+
+```sh
+cd macos
+make test
+```
+
+On Windows, place a built `Sampradaya.ttf` at `src/Sampradaya.ttf` first, then run:
+
+```cmd.exe
+cd windows
+nmake test
+```
+
+Alekhana is downloaded automatically (per the version pinned in `versions.mk`) the first time you run `test` or `regenerate_masters`.
+
 ## References
 
 * Vinodh Rajan's [Grantha primer](http://www.virtualvinodh.com/grantha-lipitva).
