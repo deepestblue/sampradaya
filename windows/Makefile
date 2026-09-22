@@ -1,6 +1,6 @@
 PS = powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command
 TYPEFACEPATH = '../src/Sampradaya.ttf'
-BINDIR = ../vendor/alekhana
+BINDIR = ./vendor/alekhana
 
 install:
 	$(PS) ./install_typeface.ps1 -Path $(TYPEFACEPATH) -Name 'Sampradaya Regular'

@@ -9,7 +9,7 @@ if (-not $versionLine) {
 }
 $Version = $versionLine.Matches[0].Groups[1].Value.Trim()
 
-$DestDir = "..\vendor\alekhana"
+$DestDir = "vendor\alekhana"
 
 if (Test-Path "$DestDir\VERSION") {
     $existing = (Get-Content "$DestDir\VERSION" -Raw).Trim()

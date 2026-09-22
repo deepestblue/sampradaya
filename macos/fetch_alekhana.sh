@@ -9,7 +9,7 @@ if [ -z "$VERSION" ]; then
     exit 1
 fi
 
-DESTDIR=../vendor/alekhana
+DESTDIR=vendor/alekhana
 
 if [ -f "$DESTDIR/VERSION" ] && [ "$(cat "$DESTDIR/VERSION")" = "$VERSION" ]; then
     exit 0
